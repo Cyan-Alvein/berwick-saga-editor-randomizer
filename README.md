@@ -35,7 +35,7 @@ My Twitter Account: https://x.com/GlennFrost15
 My Nosttr Account: https://nostter.app/nprofile1qqs8486svgm5dgret9gr3xamkgkj9mudy6cpzzha9ug9g6l205tklvgpuuyn3
 
 
-## What I changed in the games
+## What I changed in the game
 
  pitchfork & MilitaryFork got cripple-rate *4
  
