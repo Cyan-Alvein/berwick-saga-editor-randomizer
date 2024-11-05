@@ -677,7 +677,6 @@ set daoud skill vengeful
 set daoud skill maim
 set daoud skill provoke 
 set daoud skill despoil 
-set daoud skill armsthrift 
 set daoud skill axeguard
 set daoud skill battlecry
 set daoud skill canto
