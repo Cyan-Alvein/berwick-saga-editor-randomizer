@@ -23,7 +23,12 @@
 // The game only show 2 screen for skill, All the skill work fine, even those which the game doesn't show up
 // All prefered & many rare weapon got slower weapon weapon rank, so Kramer can use Brymranger at level 15, Saphira can use Rehabilitate at level 15 ...
 // Sword user without shield got pursuit skill (Faye Kramer Volo Faramir ) & Dean too since for him his axes are his sword :)
-// All axes users got Vengeful skill, Axel and his class type ( Corsair - Barbarian - Pirate ) are the only one with both vengeful & Counter skill
+// All axes users got Vengeful skill. Derrick (ArmorKnight) & GigasKnight & Axel (Pirate - Corsair... ) Got both Vengeful & Counter.
+// Dean don't have counter skill, he got pursuit & parry instead. He is supposed to deal damage without giving a fuck about his defense just as his lore say. Since he wields his axe as good as the Swordmaster Faye wield her blade (They both have weapon growth rate 90%), I think he deserves the parry skill like Faye & Faramir, just as Axefighter in Fire Emblem Thraccia. 
+// Kramer, Sherpa, Dean ... most weapon user without shield got the pursuit skill. Since they are squishy, they need to deal more damage, Just like Squishy champion in League of Legend. Adel & Leon are squishy too since they don't have Mshield. Larentia too but she is a flying unit so it is fair in her case.
+// All range & mage unit got adept. Perceval & Owen got critical since they already have adept.
+// Esteban got both adept & pursuit, so he is the best damage archer in the game. So i need to lower his defense. So I didn't give him the counter & vantage skill like other archer (Sherlock - Sylvis - Christine)
+// All Mshield unit (Paladin - Arthur - Ward - Elbert ... ) got adept. Those who already have adept ( Reese - Alvina - Ruby... ) now have critical for fair.
 // All player characters got +20 base weapon skill, so don't waste your time trying to farm Weapon EEXP, just play and enjoy the game.
 // All unpromoted player class weapon cap are set as promoted class weapon cap. So Sherlock can reach bow rank 60 without getting promoted
 // If you want Leon & Adel or even ruby to use lance, just type this code Set Ruby Skill Lance, I tested it and it worked. But don't activate the skill desperation while attacking with lance, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
@@ -409,9 +414,9 @@ set larentia item 7 Bag 0
 set larentia growth sword 60
 set larentia growth spear 80
 set larentia growth shield 20
-set larentia base sword +10
-set larentia base spear +10
-set larentia base sshield +10
+set larentia base sword +15
+set larentia base spear +15
+set larentia base sshield +15
 
 set Owen item 5 Thunder 20
 set Owen item 6 Fire 20
@@ -1156,6 +1161,7 @@ set derrick skill throw
 set derrick skill windsweep
 set derrick skill desperation
 set derrick skill adept
+set derrick skill counter
 
 set saphira	skill critical 
 set saphira	skill paragon
@@ -2434,6 +2440,7 @@ set ArmorKnight skill maim
 set ArmorKnight skill pulverize
 set ArmorKnight skill camouflage
 set ArmorKnight skill adept
+set ArmorKnight skill counter
 
 set Bowman base hp +4
 //set Bowman base strength +4
@@ -3445,6 +3452,7 @@ set GigasKnight skill protector
 set GigasKnight skill pulverize
 set GigasKnight skill supporter
 set GigasKnight skill vengeful
+set GigasKnight skill counter
 
 set Transporter base hp +4
 set Transporter base speed +4

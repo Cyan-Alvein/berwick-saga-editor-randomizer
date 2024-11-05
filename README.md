@@ -62,6 +62,18 @@ My Nosttr Account: https://nostter.app/nprofile1qqs8486svgm5dgret9gr3xamkgkj9mud
  
  Sword user without shield got pursuit skill (Faye Kramer Volo Faramir ) & Dean too since for him his axes are his sword :)
  
+ All axes users got Vengeful skill. Derrick (ArmorKnight) & GigasKnight & Axel (Pirate - Corsair... ) Got both Vengeful & Counter.
+ 
+ Dean don't have counter skill, he got pursuit & parry instead. He is supposed to deal damage without giving a fuck about his defense just as his lore say. Since he wields his axe as good as the Swordmaster Faye wield her blade (They both have weapon growth rate 90%), I think he deserves the parry skill like Faye & Faramir, just as Axefighter in Fire Emblem Thraccia. 
+ 
+ Kramer, Sherpa, Dean ... most weapon user without shield got the pursuit skill. Since they are squishy, they need to deal more damage, Just like Squishy champion in League of Legend. Adel & Leon are squishy too since they don't have Mshield. Larentia too but she is a flying unit so it is fair in her case.
+ 
+ All range & mage unit got adept. Perceval & Owen got critical since they already have adept.
+ 
+ Esteban got both adept & pursuit, so he is the best damage archer in the game. So i need to lower his defense. So I didn't give him the counter & vantage skill like other archer (Sherlock - Sylvis - Christine)
+ 
+ All Mshield unit (Paladin - Arthur - Ward - Elbert ... ) got adept. Those who already have adept ( Reese - Alvina - Ruby... ) now have critical for fair.
+ 
  All axes users got Vengeful skill, Axel and his class type ( Corsair - Barbarian - Pirate ) are the only one with both vengeful & Counter skill
  
  All player characters got +20 base weapon skill, so don't waste your time trying to farm Weapon EEXP, just play and enjoy the game.
