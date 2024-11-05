@@ -3039,6 +3039,7 @@ set RogueWarrior skill pursuit
 set RogueWarrior skill knockaway
 set RogueWarrior skill desperation
 set RogueWarrior skill adept
+set RogueWarrior skill battlecry
 
 set SnowBandit base hp +4
 set SnowBandit base speed +4
@@ -3115,6 +3116,7 @@ set Scoundrel skill climber
 set Scoundrel skill desperation
 set Scoundrel skill counter
 set Scoundrel skill hide
+set Scoundrel skill battlecry
 
 set RazeWarMonk2 base hp +4
 set RazeWarMonk2 base speed +4
@@ -3335,7 +3337,6 @@ set LanceKnight_R skill supporter
 set LanceKnight_R skill sunder
 set LanceKnight_R skill camouflage
 set LanceKnight_R skill adept
-set LanceKnight_R skill battlecry
 
 set LanceKnight base hp +4
 set LanceKnight base speed +4
@@ -3351,7 +3352,6 @@ set LanceKnight skill supporter
 set LanceKnight skill sunder
 set LanceKnight skill camouflage
 set LanceKnight skill adept
-set LanceKnight skill battlecry
 
 set LanceKnight2_R base hp +4
 set LanceKnight2_R base speed +4
@@ -3367,7 +3367,6 @@ set LanceKnight2_R skill supporter
 set LanceKnight2_R skill sunder
 set LanceKnight2_R skill camouflage
 set LanceKnight2_R skill adept
-set LanceKnight2_R skill battlecry
 
 set LanceKnight2 base defense +4
 set LanceKnight2 base hp +4
@@ -3375,7 +3374,6 @@ set LanceKnight2 base magic +4
 set LanceKnight2 base speed +4
 set LanceKnight2 skill adept
 set LanceKnight2 skill armsthrift
-set LanceKnight2 skill battlecry
 set LanceKnight2 skill camouflage
 set LanceKnight2 skill counter
 set LanceKnight2 skill maim
@@ -3406,7 +3404,6 @@ set BlackRider_R base magic +4
 set BlackRider_R base speed +4
 set BlackRider_R skill adept
 set BlackRider_R skill armsthrift
-set BlackRider_R skill battlecry
 set BlackRider_R skill camouflage
 set BlackRider_R skill counter
 set BlackRider_R skill maim
@@ -3422,7 +3419,6 @@ set BlackRider base magic +4
 set BlackRider base speed +4
 set BlackRider skill adept
 set BlackRider skill armsthrift
-set BlackRider skill battlecry
 set BlackRider skill camouflage
 set BlackRider skill counter
 set BlackRider skill maim
