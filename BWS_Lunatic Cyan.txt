@@ -37,6 +37,7 @@
 // Marcel, General class got protector
 // All priest class got resistor skill, yes even Izerna & ennemy priest
 // Sherpa & Adel got swordbane - Arthur & Paramythis got Spearbane - Axel & Ruby got Axebane
+// No one force you to use the Deathmatch skill in the game, it will make the game easy. It is there mainly to allow you to create epic fight vs boss. Normally I will only only Myrmidon, Axefighter, Assassin and Spearknight to use it ( Faye Volo Faramir Dean Leon Adel Czene Thaddy )
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //GrowthCharm
