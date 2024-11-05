@@ -1522,6 +1522,16 @@ set Ollerus stat weight 10
 set RapidCrossbow stat weight 16
 set Hawkeye stat weight 13
 
+set Bowgun effect restore-uses
+set Gastraphetes effect restore-uses
+set HeavyCrossbow effect restore-uses
+set BraveCrossbow effect restore-uses
+set Chu-ko-nu stat effect restore-uses
+set Arbalest stat effect restore-uses
+set Ollerus stat effect restore-uses
+set RapidCrossbow effect restore-uses
+set Hawkeye stat effect restore-uses
+
 // sshield
 set ShiningShield effect negate-dark 100
 set ShiningShield effect restore-uses
