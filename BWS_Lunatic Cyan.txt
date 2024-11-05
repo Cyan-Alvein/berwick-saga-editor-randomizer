@@ -14,6 +14,8 @@
 // pitchfork & MilitaryFork got cripple-rate *4
 // Pike & holy & BastardSword got cripple-rate *6
 // AirKnife got injure-rate 30, so it is a bolt, try to steal it early
+// Crossbow weapons got their weight reduced. So Sylvis & Christine got a chance to use their Vantage skill while using them.
+// Hawkeye & Arbalest got 2 range, Same as Ollerus.
 // All weapon & magic regenerate, so use them at will
 // All weapon & magic regenerate, so use them at will
 // Everyone got Mercy, Deathmatch, Canto, Adept, Sunder, Windsweep, BattleCry, Pulverize, Flourish (If you can equip Blade or Axe) Skill
@@ -32,7 +34,7 @@
 // Airblade, Windstorm, PallasRiana all got 6 injure-rate, Blizzard got 80 injure-rate. Thief unit like Czene and Thaddy with their Bolt and pursuit skill deal >= 60% injure-rate. I made this change to balance Thief and Mage injure-rate
 // Fire got 12 injure-rate, Hellfire = 18 injure-rate, PallasLeia = 24 injure-rate. The goal here is to make that using wind & fire magic inflict the same amount of injure-rate
 // Thunder and DireThunder = 2 cripple-rate, PallasLeia = 8 cripple-rate. I am not really sure how cripple-rate function here works. I made this change by considering the function cripple-rate 6 = Apeiron effect in game.
-// All prefered weapong rank are now <= 20. So Thaddy can use AssassinsKnife at level 20, Ruby can use Perseid at level 20, Volo can use Brymranger at level 20
+// All prefered weapon rank are now <= 20. So Thaddy can use AssassinsKnife at level 20, Ruby can use Perseid at level 20, Volo can use Brymranger at level 20
 // Special weapon like RazeEtoile Vollenden Drakelance are available very early in the game, and they all got restore-uses effect, so don't hesitate to abuse them. You will need it since Ennemy are too OP now.
 // Marcel, General class got protector
 // All priest class got resistor skill, yes even Izerna & ennemy priest

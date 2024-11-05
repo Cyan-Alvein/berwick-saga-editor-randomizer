@@ -15,7 +15,10 @@ Run  ```python3 RandomizerTK.py```
 After obtaining the randomized script, use the editor to patch your rom.
 
 ## My script, the only file I added in this project
-I create the script "BWS_Lunatic Cyan"
+I created the script "BWS_Lunatic Cyan" for fellow gamers like myself who enjoy hard difficulty in game with everyone getting buffs.
+
+Buffs are awesome. Everyone prefers buff over nerf. So I buffed both player and ennemy characters.
+
 It took me more than 4 months to made this, fixing all bugs, testing all possibilities by replaying the patched games many times (Yeah I love this game too much), managing character balances so someone (Faye Dean Ruby Derrick...) aren't too OP
 
 If you wanna tip me:
@@ -42,6 +45,10 @@ My Nosttr Account: https://nostter.app/nprofile1qqs8486svgm5dgret9gr3xamkgkj9mud
  Pike & holy & BastardSword got cripple-rate *6
  
  AirKnife got injure-rate 30, so it is a bolt, try to steal it early
+ 
+ Crossbow weapons got their weight reduced. So Sylvis & Christine got a chance to use their Vantage skill while using them.
+ 
+ Hawkeye & Arbalest got 2 range, Same as Ollerus.
  
  All weapon & magic regenerate, so use them at will
  
