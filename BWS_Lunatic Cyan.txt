@@ -1425,7 +1425,7 @@ set Oxtongue effect cripple-rate 4
 // axe
 set BarbaricAxe stat accuracy 30
 set BanditAxe stat accuracy 50
-set BanditAxe stat might 2
+set BanditAxe stat might 6
 set BanditAxe stat Weight 6
 set Broadaxe stat level 6
 set GigasAxe effect restore-uses
@@ -1435,11 +1435,11 @@ set ImperialAxe stat accuracy 50
 set ImperialAxe stat might 10
 set ImperialAxe stat Weight 6
 set LogSplitter stat accuracy 50
-set LogSplitter stat might 4
-set LogSplitter stat Weight 5
+set LogSplitter stat might 6
+set LogSplitter stat Weight 6
 set OldImperialAxe stat accuracy 50
-set OldImperialAxe stat might 5
-set OldImperialAxe stat Weight 6
+set OldImperialAxe stat might 6
+set OldImperialAxe stat Weight 8
 set Shieldaxe effect restore-uses
 set Shieldaxe stat accuracy 40
 set Shieldaxe stat might 8
@@ -2983,6 +2983,7 @@ set RogueGuard skill counter
 set RogueGuard skill parry
 set RogueGuard skill pursuit
 set RogueGuard skill iaido
+set RogueGuard skill arrowbane
 
 set RogueArcher base hp +4
 set RogueArcher base speed +4
@@ -3628,14 +3629,8 @@ set Aristocrat skill armsthrift
 set Aristocrat skill camouflage 
 set Aristocrat skill canto
 set Aristocrat skill charisma
-set Aristocrat skill commander
 set Aristocrat skill maim
 set Aristocrat skill miracle
-set Aristocrat skill protector
-set Aristocrat skill pursuit 
-set Aristocrat skill resistor 
-set Aristocrat skill sunder
-set Aristocrat skill supporter
 
 set Bishop skill adept
 set Bishop skill blessing
