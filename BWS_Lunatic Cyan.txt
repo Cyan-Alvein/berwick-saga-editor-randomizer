@@ -1495,6 +1495,7 @@ set VerianBow stat cost 1000
 set Strongbow stat accuracy 50
 set Greatbow stat accuracy 50
 
+//Crossbow
 set ImperialCrossbow stat accuracy 70
 set ImperialCrossbow stat might 10
 set ImperialCrossbow stat Weight 8
@@ -1505,19 +1506,21 @@ set VerianCrossbow stat accuracy 70
 set VerianCrossbow stat might 10
 set VerianCrossbow stat Weight 8
 
-set Bowgun stat accuracy 40
-set Bowgun stat Weight 4
-set Bowgun stat might 3
-
 set Bowgun effect restore-uses
 
 set Arbalest stat accuracy 50
 set Arbalest stat max-range 2
 set Arbalest stat might 20
 
-//set EmberArrow stat might 5
-//set FreezeArrow stat might 5
-//set RaijinShield stat might 5
+set Bowgun stat weight 4
+set Gastraphetes stat weight 10
+set HeavyCrossbow stat weight 11
+set BraveCrossbow stat weight 13
+set Chu-ko-nu stat weight 15
+set Arbalest stat weight 14
+set Ollerus stat weight 10
+set RapidCrossbow stat weight 16
+set Hawkeye stat weight 13
 
 // sshield
 set ShiningShield effect negate-dark 100
