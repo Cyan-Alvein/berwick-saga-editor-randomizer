@@ -816,7 +816,6 @@ set alvina skill shieldfaire
 set alvina skill sunder
 set alvina skill throw
 set alvina skill windsweep
-set alvina skill armsthrift
 set alvina skill desperation
 set alvina skill critical
 
@@ -837,7 +836,6 @@ set ruby skill horselover
 set ruby skill hurry
 set ruby skill mercy
 set ruby skill paragon
-set ruby skill armsthrift
 set ruby skill desperation
 set ruby skill critical
 
@@ -1129,7 +1127,6 @@ set axel skill pursuit
 set larentia skill sunder 
 set larentia skill windsweep 
 set larentia skill vantage 
-set larentia skill armsthrift 
 set larentia skill adept
 set larentia skill battlecry
 set larentia skill canto
