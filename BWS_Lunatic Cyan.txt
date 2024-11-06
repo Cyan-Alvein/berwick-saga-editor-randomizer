@@ -120,9 +120,9 @@ set elbert growth sword 100
 set elbert growth spear 70
 set elbert growth sshield 50
 set elbert growth mshield 50
-set elbert base sshield +10
-set elbert base sword +15
-set elbert base spear +15
+set elbert base sshield +20
+set elbert base sword +20
+set elbert base spear +20
 
 //Not tested yet, may help Ruby Elbert Arthur to gain + 30 spear and mshield upon promotion
 set Paladin_R base mshield +30
@@ -142,8 +142,8 @@ set christine item 7 Bag 0
 set christine growth sword 80
 set christine growth bow 80
 set christine growth crossbow 100
-set christine bow +15
-set christine crossbow +15
+set christine bow +20
+set christine crossbow +20
 set ArrowKnight_R base sword +30
 set ArrowKnight base sword +30
 
@@ -155,8 +155,8 @@ set adel item 6 MilitaryFork 101
 set adel item 7 IronLance 101
 set adel growth spear 70
 set adel growth sshield 100
-set adel base sshield +15
-set adel base spear +15
+set adel base sshield +20
+set adel base spear +20
 
 set leon item 2 GoreFork 101
 set leon item 3 GreatLance 101
@@ -166,8 +166,8 @@ set leon item 6 MilitaryFork 101
 set leon item 7 Drakelance 101
 set leon growth spear 90
 set leon growth sshield 50
-set leon base sshield +15
-set leon base spear +15
+set leon base sshield +20
+set leon base spear +20
 
 set sherlock item 3 Apollyon 101
 set sherlock item 4 SteelArrow+ 20
@@ -361,7 +361,7 @@ set perceval base wind +20
 
 set thaddy item 2 FeatherBrace 101
 set thaddy item 3 Shieldknife 101
-set thaddy item 4 BoltKnife 101
+set thaddy item 4 maingauche 101
 set thaddy item 5 Swordbreaker 101
 set thaddy item 6 ThrowingKnife 101
 set thaddy item 7 Crotalus 101
@@ -413,7 +413,7 @@ set Sherpa item 4 Shortsword 101
 set Sherpa item 5 Bag 0
 set Sherpa item 6 Bag 0
 set Sherpa item 7 Treasure 101
-set Sherpa base sword +10
+set Sherpa base sword +20
 
 set clifford item 3 Drakelance 101
 set clifford item 4 Partisan 101
@@ -424,10 +424,10 @@ set clifford growth sword 80
 set clifford growth spear 60
 set clifford growth sshield 40
 set clifford growth mshield 40
-set clifford base sword +10
-set clifford base spear +10
-set clifford base sshield +10
-set clifford base mshield +10
+set clifford base sword +20
+set clifford base spear +20
+set clifford base sshield +20
+set clifford base mshield +20
 
 set axel item 1 SereniaBow 101
 set axel item 2 IronAxe 101
@@ -437,7 +437,7 @@ set axel item 5 Tomahawk 101
 set axel item 6 PegasusBrace 101
 set axel item 7 LiquidVitality 101
 set axel growth axe 60
-set axel base axe +10
+set axel base axe +20
 
 set larentia item 2 LadySword 101
 set larentia item 3 Aiantos 101
@@ -504,7 +504,7 @@ set saphira item 5 Awaken 10
 set saphira item 6 Bag 0
 set saphira item 7 Bag 0
 set saphira growth holy 100
-set saphira base holy +10
+set saphira base holy +20
 
 set lynette item 3 DireThunder 20
 set lynette item 4 Rossweisse 101
@@ -802,7 +802,6 @@ set alvina skill adept
 set alvina skill battlecry
 set alvina skill canto
 set alvina skill deathmatch
-set alvina skill expert
 set alvina skill flourish
 set alvina skill guard
 set alvina skill horselover
@@ -825,7 +824,6 @@ set ruby skill axebane
 set ruby skill battlecry
 set ruby skill canto
 set ruby skill deathmatch
-set ruby skill expert
 set ruby skill flourish
 set ruby skill guard
 set ruby skill horselover
@@ -908,7 +906,6 @@ set dean skill battlecry
 set dean skill canto
 set dean skill deathmatch
 set dean skill desperation
-set dean skill expert
 set dean skill hurry
 set dean skill mercy
 set dean skill paragon
@@ -1011,7 +1008,6 @@ set faye skill battlecry
 set faye skill canto
 set faye skill deathmatch
 set faye skill evasion
-set faye skill expert
 set faye skill flourish
 set faye skill hurry
 set faye skill iaido
@@ -1058,7 +1054,6 @@ set volo skill canto
 set volo skill deathmatch
 set volo skill despoil
 set volo skill evasion
-set volo skill expert
 set volo skill flourish
 set volo skill hurry
 set volo skill iaido
@@ -1092,7 +1087,6 @@ set axel skill throw
 set axel skill knockaway
 set axel skill climber 
 set axel skill watchful 
-set axel skill expert
 set axel skill vengeful 
 set axel skill axeguard 
 set axel skill camouflage 
@@ -1127,7 +1121,6 @@ set larentia skill adept
 set larentia skill battlecry
 set larentia skill canto
 set larentia skill deathmatch
-set larentia skill expert
 set larentia skill flourish
 set larentia skill hurry
 set larentia skill mercy
@@ -1206,6 +1199,7 @@ set saphira skill charisma
 set saphira skill pursuit
 set saphira skill windsweep
 set saphira skill desperation
+set saphira skill resistor
 
 set lynette	skill blessing
 set lynette skill swordbane 
@@ -1331,6 +1325,7 @@ set Fortify effect restore-uses
 set Holy stat might 5
 set Holy stat uses 20
 set holy effect cripple-rate 6
+set Starlight effect cripple-rate 8
 
 set Starlight stat level 20
 set Rehabilitate stat level 20
@@ -1821,17 +1816,19 @@ set LightRing stat magic 6
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set Lord_R cap sshield 60
+set Lord_R cap sword 60
 set Lord cap sshield 60
+set Lord cap sword 60
 
 set Acolyte cap holy 60
 
-set WindMage cap Fire 50
+set WindMage cap Fire 30
 set WindMage cap Wind 60
-set WindSage cap Fire 50
+set WindSage cap Fire 30
 set WindSage cap Wind 60
 
 set ThunderMage cap Wind 30
-set ThunderMage cap Thunder 50
+set ThunderMage cap Thunder 60
 set ThunderSage cap Wind 30
 set ThunderSage cap Thunder 60
 
