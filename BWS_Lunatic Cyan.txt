@@ -1991,7 +1991,6 @@ set Spearman skill throw
 set Spearman skill adept
 set Spearman skill camouflage
 set Spearman skill vantage
-set Spearman skill counter
 
 set SpearRider_R base hp +4
 //set SpearRider_R base strength +4
@@ -2008,7 +2007,6 @@ set SpearRider_R skill throw
 set SpearRider_R skill adept
 set SpearRider_R skill camouflage
 set SpearRider_R skill vantage
-set SpearRider_R skill counter
 
 set SpearRider base hp +4
 //set SpearRider base strength +4
@@ -2023,7 +2021,6 @@ set SpearRider skill armsthrift
 set SpearRider skill maim
 set SpearRider skill throw
 set SpearRider skill adept
-set SpearRider skill counter
 set SpearRider skill camouflage
 set SpearRider skill vantage
 
@@ -2040,7 +2037,6 @@ set ImperialSpearman skill armsthrift
 set ImperialSpearman skill maim
 set ImperialSpearman skill throw
 set ImperialSpearman skill adept
-set ImperialSpearman skill counter
 set ImperialSpearman skill camouflage
 set ImperialSpearman skill vantage
 
@@ -2057,7 +2053,6 @@ set ImperialSpearRider_R skill armsthrift
 set ImperialSpearRider_R skill maim
 set ImperialSpearRider_R skill throw
 set ImperialSpearRider_R skill adept
-set ImperialSpearRider_R skill counter
 set ImperialSpearRider_R skill camouflage
 set ImperialSpearRider_R skill vantage
 
@@ -2074,7 +2069,6 @@ set ImperialSpearRider skill armsthrift
 set ImperialSpearRider skill maim
 set ImperialSpearRider skill throw
 set ImperialSpearRider skill adept
-set ImperialSpearRider skill counter
 set ImperialSpearRider skill camouflage
 set ImperialSpearRider skill vantage
 
@@ -2090,7 +2084,6 @@ set Farmer skill armsthrift
 set Farmer skill maim
 set Farmer skill throw
 set Farmer skill adept
-set Farmer skill counter
 set Farmer skill camouflage
 set Farmer skill hide
 set Farmer skill vantage
@@ -2166,6 +2159,7 @@ set ImperialKnight_R skill maim
 set ImperialKnight_R skill throw
 set ImperialKnight_R skill camouflage
 set ImperialKnight_R skill adept
+set ImperialKnight_R skill counter
 
 set ImperialKnight base hp +4
 //set ImperialKnight base strength +4
@@ -2181,6 +2175,7 @@ set ImperialKnight skill maim
 set ImperialKnight skill throw
 set ImperialKnight skill camouflage
 set ImperialKnight skill adept
+set ImperialKnight skill counter
 
 set ImperialPaladin_R base hp +4
 //set ImperialPaladin_R base strength +4
@@ -2632,7 +2627,6 @@ set Warrior skill pursuit
 set Warrior skill parry
 set Warrior skill celerity
 set Warrior skill hide
-set Warrior skill deathmatch
 
 //set Hunter base hp +4
 //set Hunter base strength +4
@@ -2675,6 +2669,7 @@ set Bandit skill hide
 set Bandit skill pulverize
 set Bandit skill pursuit
 
+// Many early bandit boss are corsair
 set Corsair base hp +4
 //set Corsair base strength +4
 set Corsair base speed +4
@@ -2683,7 +2678,6 @@ set Corsair base magic +4
 set Corsair skill canto
 set Corsair skill vengeful
 set Corsair skill supporter
-//	set Corsair skill sunder
 set Corsair skill armsthrift
 set Corsair skill maim
 set Corsair skill throw
@@ -2692,11 +2686,9 @@ set Corsair skill pulverize
 set Corsair skill mug
 set Corsair skill counter
 set Corsair skill hide
-set Corsair skill deathmatch
 set Corsair skill adept
 set Corsair skill pursuit
 set Corsair skill knockaway
-
 
 set Ruffian_R base hp +4
 //set Ruffian_R base strength +4
@@ -2739,6 +2731,7 @@ set Ruffian skill pursuit
 set Ruffian skill vantage
 set Ruffian skill shieldfaire
 
+//knife only, same as czene for stat
 set Pickpocket base hp +4
 //set Pickpocket base strength +4
 set Pickpocket base speed +4
@@ -2754,7 +2747,6 @@ set Pickpocket skill supporter
 set Pickpocket skill throw
 set Pickpocket skill camouflage
 set Pickpocket skill pursuit
-set Pickpocket skill critical
 set Pickpocket skill hide
 set Pickpocket skill watchful
 
@@ -2797,6 +2789,7 @@ set Assassin skill critical
 set Assassin skill fortune
 set Assassin skill throw
 
+// Rogue use only spear
 set Rogue base hp +4
 //set Rogue base strength +4
 set Rogue base speed +4
@@ -2813,6 +2806,7 @@ set Rogue skill canto
 set Rogue skill camouflage
 set Rogue skill hide
 set Rogue skill counter
+set Rogue skill vantage
 
 //same stat as Kramer
 set Mercenary skill adept
@@ -2825,7 +2819,6 @@ set Mercenary skill canto
 set Mercenary skill arrowbane
 set Mercenary skill camouflage
 set Mercenary skill pursuit
-set Mercenary skill Deathmatch
 set Mercenary skill knockaway
 
 set RazeMonk base hp +4
@@ -2893,11 +2886,9 @@ set DarkMaster skill pursuit
 set DarkMaster skill camouflage
 set DarkMaster skill commander
 set DarkMaster skill parry
-set DarkMaster skill deathmatch
 set DarkMaster skill versatile
 set DarkMaster skill celerity
 set DarkMaster skill imbue
-set DarkMaster skill battlecry
 set DarkMaster skill miracle
 
 // same as Volo
@@ -2919,9 +2910,6 @@ set RazeWarMonk skill parry
 set RazeWarMonk skill iaido
 set RazeWarMonk skill hide
 set RazeWarMonk skill versatile
-set RazeWarMonk skill deathmatch
-set RazeWarMonk skill critical
-set RazeWarMonk skill battlecry
 
 set RogueGuard base hp +4
 set RogueGuard base speed +4
@@ -2934,7 +2922,6 @@ set RogueGuard skill maim
 set RogueGuard skill supporter
 set RogueGuard skill shieldfaire
 set RogueGuard skill camouflage
-set RogueGuard skill deathmatch
 set RogueGuard skill adept
 set RogueGuard skill pulverize
 set RogueGuard skill climber
@@ -2995,10 +2982,8 @@ set RogueWarrior skill supporter
 set RogueWarrior skill iaido
 set RogueWarrior skill camouflage
 set RogueWarrior skill pursuit
-set RogueWarrior skill deathmatch
 set RogueWarrior skill adept
 set RogueWarrior skill parry
-set RogueWarrior skill battlecry
 
 set SnowBandit base hp +4
 set SnowBandit base speed +4
@@ -3069,12 +3054,10 @@ set Scoundrel skill supporter
 set Scoundrel skill iaido
 set Scoundrel skill camouflage
 set Scoundrel skill climber
-set Scoundrel skill deathmatch
 set Scoundrel skill counter
 set Scoundrel skill pursuit
 set Scoundrel skill parry
 set Scoundrel skill hide
-set Scoundrel skill battlecry
 
 set RazeWarMonk2 base hp +4
 set RazeWarMonk2 base speed +4
@@ -3091,10 +3074,7 @@ set RazeWarMonk2 skill iaido
 set RazeWarMonk2 skill camouflage
 set RazeWarMonk2 skill parry
 set RazeWarMonk2 skill versatile
-set RazeWarMonk2 skill deathmatch
 set RazeWarMonk2 skill pursuit
-set RazeWarMonk2 skill battlecry
-set RazeWarMonk2 skill critical
 
 set FailedPoet base hp +4
 set FailedPoet base speed +4
@@ -3162,7 +3142,6 @@ set Captain skill iaido
 set Captain skill camouflage
 set Captain skill parry
 set Captain skill counter
-set Captain skill deathmatch
 
 set Huntress base hp +4
 set Huntress base speed +4
@@ -3363,7 +3342,6 @@ set GigasKnight base magic +4
 set GigasKnight base speed +4
 set GigasKnight skill counter
 set GigasKnight skill armsthrift
-set GigasKnight skill battlecry
 set GigasKnight skill camouflage
 set GigasKnight skill canto
 set GigasKnight skill maim
@@ -3386,7 +3364,6 @@ set Chief skill adept
 set Chief skill armsthrift
 set Chief skill camouflage
 set Chief skill canto
-set Chief skill deathmatch
 set Chief skill hide
 set Chief skill iaido
 set Chief skill mug
@@ -3399,7 +3376,6 @@ set Chief skill sunder
 set Chief skill supporter
 set Chief skill throw
 set Chief skill vantage
-set Chief skill battlecry
 
 set Icewyrm base defense +4
 set Icewyrm base hp +4
@@ -3468,7 +3444,6 @@ set AxeSergeant base magic +4
 set AxeSergeant base speed +4
 set AxeSergeant skill adept
 set AxeSergeant skill armsthrift
-set AxeSergeant skill battlecry
 set AxeSergeant skill camouflage
 set AxeSergeant skill canto
 set AxeSergeant skill maim
@@ -3574,7 +3549,6 @@ set Axefighter skill camouflage
 set Axefighter skill canto
 set Axefighter skill climber
 set Axefighter skill critical
-set Axefighter skill deathmatch
 set Axefighter skill maim
 set Axefighter skill parry
 set Axefighter skill pulverize
@@ -3582,6 +3556,7 @@ set Axefighter skill pursuit
 set Axefighter skill vengeful
 set Axefighter skill fortune
 set Axefighter skill counter
+set Axefighter skill knockaway
 
 set Swordfighter_M skill adept
 set Swordfighter_M skill arrowbane
@@ -3658,13 +3633,11 @@ set BowKnight skill counter
 
 set SpearKnight skill supporter
 set SpearKnight skill adept
-set SpearKnight skill counter
 set SpearKnight skill throw
 set SpearKnight skill vantage
 
 set SpearKnight_R skill supporter
 set SpearKnight_R skill adept
-set SpearKnight_R skill counter
 set SpearKnight_R skill throw
 set SpearKnight_R skill vantage
 
@@ -3696,7 +3669,6 @@ set Myrmidon skill counter
 
 set AxeSoldier skill adept
 set AxeSoldier skill armsthrift
-set AxeSoldier skill battlecry
 set AxeSoldier skill maim
 set AxeSoldier skill pulverize
 set AxeSoldier skill throw
