@@ -1982,7 +1982,6 @@ set Spearman skill adept
 set Spearman skill camouflage
 set Spearman skill vantage
 set Spearman skill counter
-set Spearman skill desperation
 
 set SpearRider_R base hp +4
 //set SpearRider_R base strength +4
@@ -2000,7 +1999,6 @@ set SpearRider_R skill adept
 set SpearRider_R skill camouflage
 set SpearRider_R skill vantage
 set SpearRider_R skill counter
-set SpearRider_R skill desperation
 
 set SpearRider base hp +4
 //set SpearRider base strength +4
@@ -2018,7 +2016,6 @@ set SpearRider skill adept
 set SpearRider skill counter
 set SpearRider skill camouflage
 set SpearRider skill vantage
-set SpearRider skill desperation
 
 set ImperialSpearman base hp +4
 //set ImperialSpearman base strength +4
@@ -2036,7 +2033,6 @@ set ImperialSpearman skill adept
 set ImperialSpearman skill counter
 set ImperialSpearman skill camouflage
 set ImperialSpearman skill vantage
-set ImperialSpearman skill desperation
 
 set ImperialSpearRider_R base hp +4
 //set ImperialSpearRider_R base strength +4
@@ -2054,7 +2050,6 @@ set ImperialSpearRider_R skill adept
 set ImperialSpearRider_R skill counter
 set ImperialSpearRider_R skill camouflage
 set ImperialSpearRider_R skill vantage
-set ImperialSpearRider_R skill desperation
 
 set ImperialSpearRider base hp +4
 //set ImperialSpearRider base strength +4
@@ -2072,7 +2067,6 @@ set ImperialSpearRider skill adept
 set ImperialSpearRider skill counter
 set ImperialSpearRider skill camouflage
 set ImperialSpearRider skill vantage
-set ImperialSpearRider skill desperation
 
 set Farmer base hp +4
 set Farmer base speed +4
@@ -2090,7 +2084,6 @@ set Farmer skill counter
 set Farmer skill camouflage
 set Farmer skill hide
 set Farmer skill vantage
-set Farmer skill desperation
 set Farmer skill pursuit
 
 set VerianKnight_R base hp +4
@@ -2281,7 +2274,6 @@ set General skill counter
 set General skill protector
 set General skill commander
 set General skill camouflage
-set General skill desperation
 
 //set WyvernKnight_R base hp +4
 //set WyvernKnight_R base strength +4
@@ -2354,7 +2346,6 @@ set Axeman skill shieldfaire
 set Axeman skill supporter
 set Axeman skill pulverize
 set Axeman skill camouflage
-set Axeman skill desperation
 set Axeman skill adept
 
 set ImperialAxeman base hp +4
@@ -2386,7 +2377,6 @@ set AxeGuard skill shieldfaire
 set AxeGuard skill supporter
 set AxeGuard skill pulverize
 set AxeGuard skill camouflage
-set AxeGuard skill desperation
 set AxeGuard skill adept
 set AxeGuard skill battlecry
 
@@ -2632,7 +2622,7 @@ set Warrior skill pursuit
 set Warrior skill parry
 set Warrior skill celerity
 set Warrior skill hide
-set Warrior skill desperation
+set Warrior skill deathmatch
 
 //set Hunter base hp +4
 //set Hunter base strength +4
@@ -2692,7 +2682,7 @@ set Corsair skill pulverize
 set Corsair skill mug
 set Corsair skill counter
 set Corsair skill hide
-set Corsair skill desperation
+set Corsair skill deathmatch
 set Corsair skill adept
 set Corsair skill pursuit
 set Corsair skill knockaway
@@ -2717,7 +2707,6 @@ set Ruffian_R skill mug
 set Ruffian_R skill vantage
 set Ruffian_R skill hide
 set Ruffian_R skill aim
-set Ruffian_R skill desperation
 set Ruffian_R skill pursuit
 
 set Ruffian base hp +4
@@ -2736,7 +2725,6 @@ set Ruffian skill adept
 set Ruffian skill counter
 set Ruffian skill hide
 set Ruffian skill aim
-set Ruffian skill desperation
 set Ruffian skill pursuit
 set Ruffian skill vantage
 set Ruffian skill shieldfaire
@@ -2759,7 +2747,6 @@ set Pickpocket skill pursuit
 set Pickpocket skill critical
 set Pickpocket skill hide
 set Pickpocket skill watchful
-set Pickpocket skill desperation
 
 set Outlaw base hp +4
 //set Outlaw base strength +4
@@ -2780,7 +2767,6 @@ set Outlaw skill hide
 set Outlaw skill critical
 set Outlaw skill shieldfaire
 set Outlaw skill hide
-set Outlaw skill desperation
 
 // same stats as thaddy
 set Assassin base hp +4
@@ -2817,7 +2803,6 @@ set Rogue skill canto
 set Rogue skill camouflage
 set Rogue skill hide
 set Rogue skill counter
-set Rogue skill desperation
 
 //same stat as Kramer
 set Mercenary skill adept
@@ -2939,7 +2924,7 @@ set RogueGuard skill maim
 set RogueGuard skill supporter
 set RogueGuard skill shieldfaire
 set RogueGuard skill camouflage
-set RogueGuard skill desperation
+set RogueGuard skill deathmatch
 set RogueGuard skill adept
 set RogueGuard skill pulverize
 set RogueGuard skill climber
@@ -3000,7 +2985,7 @@ set RogueWarrior skill supporter
 set RogueWarrior skill iaido
 set RogueWarrior skill camouflage
 set RogueWarrior skill pursuit
-set RogueWarrior skill desperation
+set RogueWarrior skill deathmatch
 set RogueWarrior skill adept
 set RogueWarrior skill parry
 set RogueWarrior skill battlecry
@@ -3022,7 +3007,6 @@ set SnowBandit skill supporter
 set SnowBandit skill camouflage
 set SnowBandit skill climber
 set SnowBandit skill hide
-set SnowBandit skill desperation
 set SnowBandit skill adept
 set SnowBandit skill pursuit
 set SnowBandit skill knockaway
@@ -3044,7 +3028,6 @@ set Barbarian skill supporter
 set Barbarian skill camouflage
 set Barbarian skill climber
 set Barbarian skill hide
-set Barbarian skill desperation
 set Barbarian skill adept
 set Barbarian skill pursuit
 set Barbarian skill knockaway
@@ -3063,7 +3046,6 @@ set Duke skill supporter
 set Duke skill commander
 set Duke skill protector
 set Duke skill camouflage
-set Duke skill desperation
 set Duke skill adept
 
 set Scoundrel base hp +4
@@ -3077,7 +3059,7 @@ set Scoundrel skill supporter
 set Scoundrel skill iaido
 set Scoundrel skill camouflage
 set Scoundrel skill climber
-set Scoundrel skill desperation
+set Scoundrel skill deathmatch
 set Scoundrel skill counter
 set Scoundrel skill pursuit
 set Scoundrel skill parry
@@ -3187,7 +3169,6 @@ set Huntress skill vantage
 set Huntress skill iaido
 set Huntress skill camouflage
 set Huntress skill hide
-set Huntress skill desperation
 set Huntress skill counter
 
 set DragonKnight_R base hp +4
@@ -3234,7 +3215,6 @@ set WarMonk skill climber
 set WarMonk skill hide
 set WarMonk skill versatile
 set WarMonk skill adept
-set WarMonk skill desperation
 set WarMonk skill pursuit
 set WarMonk skill parry
 
@@ -3337,7 +3317,6 @@ set Paladin base speed +4
 set Paladin skill adept
 set Paladin skill armsthrift
 set Paladin skill camouflage
-set Paladin skill desperation
 set Paladin skill shieldfaire
 set Paladin skill sunder
 set Paladin skill supporter
@@ -3377,7 +3356,6 @@ set GigasKnight skill armsthrift
 set GigasKnight skill battlecry
 set GigasKnight skill camouflage
 set GigasKnight skill canto
-set GigasKnight skill desperation
 set GigasKnight skill maim
 set GigasKnight skill pulverize
 set GigasKnight skill supporter
@@ -3456,7 +3434,6 @@ set Paladin_M_R skill adept
 set Paladin_M_R skill armsthrift
 set Paladin_M_R skill camouflage
 set Paladin_M_R skill commander
-set Paladin_M_R skill desperation
 set Paladin_M_R skill maim
 set Paladin_M_R skill shieldfaire
 set Paladin_M_R skill sunder
@@ -3470,7 +3447,6 @@ set Paladin_M skill adept
 set Paladin_M skill armsthrift
 set Paladin_M skill camouflage
 set Paladin_M skill commander
-set Paladin_M skill desperation
 set Paladin_M skill maim
 set Paladin_M skill shieldfaire
 set Paladin_M skill sunder
@@ -3485,7 +3461,6 @@ set AxeSergeant skill armsthrift
 set AxeSergeant skill battlecry
 set AxeSergeant skill camouflage
 set AxeSergeant skill canto
-set AxeSergeant skill desperation
 set AxeSergeant skill maim
 set AxeSergeant skill pulverize
 set AxeSergeant skill shieldfaire
@@ -3626,13 +3601,11 @@ set Swordmaster skill counter
 set SwordKnight_R skill adept
 set SwordKnight_R skill counter
 set SwordKnight_R skill armsthrift
-set SwordKnight_R skill desperation
 set SwordKnight_R skill throw
 
 set SwordKnight skill adept
 set SwordKnight skill counter
 set SwordKnight skill armsthrift
-set SwordKnight skill desperation
 set SwordKnight skill throw
 
 set Pirate skill adept
@@ -3678,14 +3651,12 @@ set SpearKnight skill adept
 set SpearKnight skill counter
 set SpearKnight skill throw
 set SpearKnight skill vantage
-set SpearKnight skill desperation
 
 set SpearKnight_R skill supporter
 set SpearKnight_R skill adept
 set SpearKnight_R skill counter
 set SpearKnight_R skill throw
 set SpearKnight_R skill vantage
-set SpearKnight_R skill desperation
 
 set Ballistician skill aim
 set Ballistician skill armsthrift
@@ -3716,7 +3687,6 @@ set Myrmidon skill counter
 set AxeSoldier skill adept
 set AxeSoldier skill armsthrift
 set AxeSoldier skill battlecry
-set AxeSoldier skill desperation
 set AxeSoldier skill maim
 set AxeSoldier skill pulverize
 set AxeSoldier skill throw
