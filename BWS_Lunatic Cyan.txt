@@ -26,7 +26,7 @@
 
 // All weapon & magic regenerate, so use them at will
 
-// Everyone got Mercy, Deathmatch, Canto, Adept, Sunder, Windsweep, BattleCry, Pulverize (If you can equip Blade or Axe) Flourish Skill. Thaddy got celerity too, and both thaddy and Czene got vantage too. Now Thaddy is even better than czene. You can provoke ennemy and perma vantage them. 
+// Everyone got Mercy, Deathmatch, Canto, Adept, Sunder, Flourish, Windsweep, Pursuit (Except unit with Mshield or Lshield), BattleCry, Pulverize (If you can equip Blade or Axe). Thaddy got celerity & fortune too, and both thaddy and Czene got vantage too. Now Thaddy is even better than czene. You can provoke ennemy and perma vantage them. 
 
 // NB: Faye Faramir Sherpa & Kramer can use Pulverize when they have a Blade Equiped. Now you understand why the Blade skill is OP, since Pulverize is the best offensive skill in the game.
 
@@ -34,17 +34,13 @@
 
 // The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
 
-// Sword user without shield got pursuit skill (Faye Kramer Volo Faramir ) & Dean too since for him his axes are his sword :) ( Hello there Fire Emblem Thraccia with his epic battle animation for Axe Fighter unit.)
+// Character without shield & Archer & Mage got pursuit skill (Faye Kramer Volo Faramir Owen Enid Perceval ... ) & Dean too since for him his axes are his sword :) ( Hello there Fire Emblem Thraccia with his epic battle animation for Axe Fighter unit.)
 
 // All axes users got Vengeful skill. Derrick (ArmorKnight) & GigasKnight & Axel (Pirate - Corsair... ) Got both Vengeful & Counter.
 
 // Dean doesn't have counter skill, he got pursuit & parry instead. He is supposed to deal damage without giving a fuck about his defense just as his lore say. Since he wields his axe as good as the Swordmaster Faye wield her blade (They both have weapon growth rate 90%), I think he deserves the parry skill like Faye & Faramir, just as Axefighter in Fire Emblem Thraccia. 
 
-// Kramer, Sherpa, Dean ... most weapon user without shield got the pursuit skill. Since they are squishy, they need to deal more damage, Just like Squishy champion in League of Legend. Adel & Leon are squishy too since they don't have Mshield. Larentia too but she is a flying unit so it is fair in her case.
-
-// All range & mage unit got adept. Perceval & Owen got critical since they already have adept.
-
-// Esteban got both adept & pursuit, so he is the best damage archer in the game. So i need to lower his defense. So I didn't give him the counter & vantage skill like other archer (Sherlock - Sylvis - Christine)
+// Esteban got both adept & pursuit, so he is the best damage archer in the game. Well maybe Faramir with his Pursuit & Critical is better.
 
 // All Mshield unit (Paladin - Arthur - Ward - Elbert ... ) got adept. Those who already have adept ( Reese - Alvina - Ruby... ) now have critical for fair.
 
@@ -110,9 +106,9 @@ set ward item 7 Bag 0
 set ward growth sword 60
 set ward growth spear 60
 set ward growth mshield 60
-set ward base mshield +10
-set ward base sword +10
-set ward base spear +10
+set ward base mshield +15
+set ward base sword +15
+set ward base spear +15
 
 set elbert item 2 WindSpear 101
 set elbert item 3 Vollenden 101
@@ -125,8 +121,8 @@ set elbert growth spear 70
 set elbert growth sshield 50
 set elbert growth mshield 50
 set elbert base sshield +10
-set elbert base sword +10
-set elbert base spear +10
+set elbert base sword +15
+set elbert base spear +15
 
 //Not tested yet, may help Ruby Elbert Arthur to gain + 30 spear and mshield upon promotion
 set Paladin_R base mshield +30
@@ -141,13 +137,13 @@ set Paladin_F base spear +30
 set christine item 3 BraveCrossbow 101
 set christine item 4 IronArrow+ 20
 set christine item 5 Hawkeye 101
-set christine item 6 SteelArrow+ 101
+set christine item 6 SteelArrow+ 20
 set christine item 7 Bag 0
 set christine growth sword 80
 set christine growth bow 80
 set christine growth crossbow 100
-set christine bow +10
-set christine crossbow +10
+set christine bow +15
+set christine crossbow +15
 set ArrowKnight_R base sword +30
 set ArrowKnight base sword +30
 
@@ -159,8 +155,8 @@ set adel item 6 MilitaryFork 101
 set adel item 7 IronLance 101
 set adel growth spear 70
 set adel growth sshield 100
-set adel base sshield +10
-set adel base spear +10
+set adel base sshield +15
+set adel base spear +15
 
 set leon item 2 GoreFork 101
 set leon item 3 GreatLance 101
@@ -170,8 +166,8 @@ set leon item 6 MilitaryFork 101
 set leon item 7 Drakelance 101
 set leon growth spear 90
 set leon growth sshield 50
-set leon base sshield +10
-set leon base spear +10
+set leon base sshield +15
+set leon base spear +15
 
 set sherlock item 3 Apollyon 101
 set sherlock item 4 SteelArrow+ 20
@@ -179,17 +175,17 @@ set sherlock item 5 IronArrow+ 20
 set sherlock item 6 Bag 0
 set sherlock item 7 Treasure 101
 set sherlock growth bow 100
-set sherlock base bow +10
+set sherlock base bow +20
 
 set izerna item 1 Heal 20
-set izerna item 2 SpiritBrace 101
+set izerna item 2 BlessedBrace 101
 set izerna item 3 Mend 20
 set izerna item 4 Physic 15
 set izerna item 5 holy 20
 set izerna item 6 Escape 5
 set izerna item 7 Rehabilitate 10
 set izerna growth holy 80
-set izerna base holy +10
+set izerna base holy +20
 
 set czene item 0 Dagger 101
 set czene item 1 Bag 0
@@ -200,19 +196,19 @@ set czene item 5 BoltKnife 101
 set czene item 6 TempestKnife 101
 set czene item 7 ThrowingKnife 101
 set czene growth knife 90
-set czene base knife +10
+set czene base knife +20
 
 set aegina item 1 Blizzard 15 
 set aegina item 2 Earthblaze 10 
 set aegina item 3 DivineBrace 101
 set aegina item 4 Bag 0
-set aegina item 5 Windstorm 100
+set aegina item 5 Windstorm 60
 set aegina item 6 Fire 20
 set aegina item 7 Treasure 101
 set aegina growth wind 80
 set aegina growth fire 50
-set aegina base fire +15
-set aegina base wind +15
+set aegina base fire +20
+set aegina base wind +30
 
 set daoud growth axe 100
 set daoud growth sshield 100
@@ -226,8 +222,8 @@ set Daoud item 5 Tomahawk 101
 set Daoud item 6 Bag 0
 set Daoud item 7 Treasure 101
 set Daoud base axe +10
-set Daoud base sshield +10
-set Daoud base mshield +10
+set Daoud base sshield +20
+set Daoud base mshield +20
 
 set enid growth sword 90
 set enid growth fire 100
@@ -247,15 +243,15 @@ set FlameFencer base thunder +30
 set FlameFencer base fire +30
 
 set marcel growth sword 70
-set marcel growth lshield 100
+set marcel growth Lshield 100
 set Marcel item 2 BastardSword 101
 set Marcel item 3 AmaterasuShield 101
 set Marcel item 4 WideShield 101
 set Marcel item 5 Bag 0
 set Marcel item 6 GeneralShield 101
 set Marcel item 7 Bag 0
-set Marcel base sword +10
-set Marcel base lshield +10
+set Marcel base sword +20
+set Marcel base lshield +20
 
 set alvina item 4 LadyMShd 101
 set alvina item 5 LadyShield 101
@@ -285,9 +281,9 @@ set ruby growth sword 90
 set ruby growth spear 100
 set ruby growth sshield 100
 set ruby growth mshield 100
-set ruby base sword +10
-set ruby base spear +10
-set ruby base sshield +10
+set ruby base sword +20
+set ruby base spear +20
+set ruby base sshield +20
 set ruby base mshield +40
 
 //set arthur item 2 RadiantShield 101
@@ -301,13 +297,14 @@ set arthur item 3 Shortsword 101
 set arthur item 4 Scimitar+ 101
 set arthur item 5 BlazingShield 101
 set arthur item 6 ShadowShield 101
-set arthur item 7 RoundShield 101
+set arthur item 7 LiquidSpeed 101
 set arthur growth sword 80
 set arthur growth spear 100
-set arthur growth shield 90
-set arthur base sword +10
-set arthur base sshield +10
-set arthur base mshield +10
+set arthur growth sshield 90
+set arthur growth mshield 90
+set arthur base sword +20
+set arthur base sshield +20
+set arthur base mshield +20
 set arthur base spear +30
 
 set kramer item 1 Bag 0
@@ -316,20 +313,20 @@ set kramer item 1 GrowthCharm 101
 set kramer item 2 FlameSword 101
 set kramer item 3 VanishCharm 101
 set kramer item 4 PhoenixBrace 101
-set kramer item 5 DuskCharm 101 
+set kramer item 5 LiquidStrength 101 
 set kramer item 6 Shortsword 101
-set kramer item 7 DawnCharm 101
+set kramer item 7 LiquidDefense 101
 set kramer growth sword 100
-set kramer base sword +10
+set kramer base sword +20
 
 set dean growth axe 100
 set dean item 2 Bag 0
-set dean item 3 Treasure 101
-set dean item 4 Tomahawk 101 
+set dean item 3 Bhuj 101
+set dean item 4 LiquidMagic 101 
 set dean item 5 BoltAxe 101 
-set dean item 6 Bag 0
+set dean item 6 LiquidVitality 101 
 set dean item 7 GamblersBrace 101
-set dean base axe +10
+set dean base axe +20
 
 set faye item 2 GiantsBrace 101
 set faye item 3 Bag 0
@@ -338,7 +335,7 @@ set faye item 5 FlameSword 101
 set faye item 6 Shortsword 101
 set faye item 7 Bag 0
 set faye growth sword 100
-set faye base sword +10
+set faye base sword +20
 
 set sylvis item 3 Apeiron 101
 set sylvis item 4 RaijinArrow 20
@@ -347,8 +344,8 @@ set sylvis item 6 MithrilArrow 20
 set sylvis item 7 RapidCrossbow 101
 set sylvis growth bow 90
 set sylvis growth crossbow 70
-set sylvis base bow +10
-set sylvis base crossbow +10
+set sylvis base bow +20
+set sylvis base crossbow +20
 
 set perceval item 1 Thunder 100
 set perceval item 2 Bag 0
@@ -359,8 +356,8 @@ set perceval item 6 TigerBrace 101
 set perceval item 7 Treasure 101
 set perceval growth wind 50
 set perceval growth thunder 90
-set perceval base thunder +20
-set perceval base wind +10
+set perceval base thunder +30
+set perceval base wind +20
 
 set thaddy item 2 FeatherBrace 101
 set thaddy item 3 Shieldknife 101
@@ -369,7 +366,7 @@ set thaddy item 5 Swordbreaker 101
 set thaddy item 6 ThrowingKnife 101
 set thaddy item 7 Crotalus 101
 set thaddy growth knife 70
-set thaddy base knife +10
+set thaddy base knife +20
 
 set esteban growth knife 50
 set esteban growth sword 90
@@ -377,16 +374,15 @@ set esteban growth bow 100
 set esteban item 0 Rossweisse 101
 set esteban item 1 SteelArrow+ 20
 set esteban item 2 Bag 0
-set esteban item 3 Pascanion 101
+set esteban item 3 Pascanion2 101
 set esteban item 4 MithrilArrow 20
 set esteban item 5 BoltKnife 101
 set esteban item 6 Bag 0
 set esteban item 7 Treasure 101
-set esteban base knife +10
-set esteban base bow +10
-set esteban base sword +30
-set esteban base sword +30
-set HighHunter base sword +30
+set esteban base knife +20
+set esteban base bow +20
+set esteban base sword +40
+set HighHunter base sword +40
 
 set faramir item 2 SteelArrow+ 20
 set faramir item 3 MithrilSword 101
@@ -411,7 +407,7 @@ set volo base sword +20
 
 set sherpa growth sword 60
 set Sherpa item 1 Bag 0
-set Sherpa item 2 ShiningShield
+set Sherpa item 2 ShiningShield 101
 set Sherpa item 3 Treasure 101
 set Sherpa item 4 Shortsword 101 
 set Sherpa item 5 Bag 0
@@ -426,8 +422,8 @@ set clifford item 6 SwiftSpear 101
 set clifford item 7 KnightSword 101
 set clifford growth sword 80
 set clifford growth spear 60
-set clifford growth shield 40
-set clifford growth shield 40
+set clifford growth sshield 40
+set clifford growth mshield 40
 set clifford base sword +10
 set clifford base spear +10
 set clifford base sshield +10
@@ -439,7 +435,7 @@ set axel item 3 Bag 0
 set axel item 4 Bag 0
 set axel item 5 Tomahawk 101
 set axel item 6 PegasusBrace 101
-set axel item 7 Bhuj 101
+set axel item 7 LiquidVitality 101
 set axel growth axe 60
 set axel base axe +10
 
@@ -451,7 +447,7 @@ set larentia item 6 Scimitar+ 101
 set larentia item 7 Bag 0
 set larentia growth sword 60
 set larentia growth spear 80
-set larentia growth shield 20
+set larentia growth sshield 20
 set larentia base sword +15
 set larentia base spear +15
 set larentia base sshield +15
@@ -487,7 +483,7 @@ set burroughs growth crossbow 100
 set burroughs base crossbow +20
 
 set derrick growth axe 60
-set derrick growth shield 50
+set derrick growth Lshield 50
 set derrick growth defense 20
 set derrick growth strength 30
 set Derrick item 0 ImperialAxe 101
@@ -497,7 +493,7 @@ set Derrick item 4 WideShield 101
 set Derrick item 5 GeneralShield 101
 set Derrick item 6 Tabarzin 101
 set Derrick item 7 Bag 0
-set Derrick base axe +10
+set Derrick base axe +20
 set Derrick base lshield +10
 
 set saphira item 1 Holy 20
@@ -1191,7 +1187,7 @@ set derrick skill pulverize
 set derrick skill throw
 set derrick skill windsweep
 set derrick skill desperation
-set derrick skill adept
+set derrick skill counter
 
 set saphira	skill critical 
 set saphira	skill paragon
@@ -1260,6 +1256,7 @@ set Zweihander effect restore-uses
 set Fauchard effect restore-uses
 set Pascanion effect restore-uses
 set Pascanion2 effect restore-uses
+set Pascanion2 stat level 20
 set Bhuj effect restore-uses
 set Brymranger effect restore-uses
 set Perseid effect restore-uses
@@ -1647,6 +1644,7 @@ set GaleShield stat Weight 5
 // M-Shield Stuff
 set LadyMShd stat cost 4000
 set LadyMShd stat weight 5
+set LadyMShd stat accuracy 50
 
 set LightningShield stat accuracy 50
 set RadiantShield stat accuracy 50
@@ -1827,9 +1825,9 @@ set Lord cap sshield 60
 
 set Acolyte cap holy 60
 
-set WindMage cap Fire 30
-set WindMage cap Wind 50
-set WindSage cap Fire 30
+set WindMage cap Fire 50
+set WindMage cap Wind 60
+set WindSage cap Fire 50
 set WindSage cap Wind 60
 
 set ThunderMage cap Wind 30
@@ -1851,15 +1849,15 @@ set Bishop cap light 60
 set Bishop cap dark 60
 
 set LadyKnight_R cap bow 50
-set LadyKnight_R cap crossbow 50
+set LadyKnight_R cap crossbow 60
 set LadyKnight cap bow 50
-set LadyKnight cap crossbow 50
+set LadyKnight cap crossbow 60
 
-set Axefighter cap Axe 50
+set Axefighter cap Axe 60
 
 //set HighHunter cap Sword 50
 
-set Hunter cap Bow 50
+set Hunter cap Bow 60
 set Hunter cap Knife 50
 
 set FlameFencer cap Sword 50
@@ -1878,7 +1876,7 @@ set LanceKnight2_R cap sshield 50
 set Horseman cap Bow 60
 set Horseman_R cap Bow 60
 
-set Cleric cap Holy 50
+set Cleric cap Holy 60
 
 set Priestess cap Holy 60
 
@@ -1886,18 +1884,18 @@ set Myrmidon cap Sword 60
 
 set Swordfighter_M cap Sword 60
 
-set SpearKnight cap spear 50
+set SpearKnight cap spear 60
 set SpearKnight cap sshield 50
 
-set SpearKnight_R cap spear 50
+set SpearKnight_R cap spear 60
 set SpearKnight_R cap sshield 50
 
-set SpearRider_R cap spear 50
+set SpearRider_R cap spear 60
 set SpearRider_R cap sshield 50
-set SpearRider cap spear 50
+set SpearRider cap spear 60
 set SpearRider cap sshield 50
 
-set AxeSoldier cap axe 50
+set AxeSoldier cap axe 60
 set AxeSoldier cap sshield 50
 set AxeSoldier cap mshield 50
 
@@ -1909,7 +1907,7 @@ set Chevalire_R cap sshield 50
 set Chevalire_R cap Spear 50
 set Chevalire_R cap Sword 50
 
-set Mercenary cap Sword 50
+set Mercenary cap Sword 60
 
 set Thief_M cap Knife 60
 set Thief_F cap Knife 60
@@ -1969,8 +1967,8 @@ set SteelArrow+ effect restore-uses
 set IronArrow+ effect restore-uses
 set BronzeArrow+ effect restore-uses
 
-
 //////////////////////////Difficulty Level - Ennemy buff///////////////////
+
 set Spearman base hp +4
 //set Spearman base strength +4
 set Spearman base speed +4
@@ -2407,7 +2405,7 @@ set ArmorKnight skill canto
 set ArmorKnight skill maim
 set ArmorKnight skill pulverize
 set ArmorKnight skill camouflage
-set ArmorKnight skill adept
+set ArmorKnight skill counter
 
 set Bowman base hp +4
 //set Bowman base strength +4
@@ -2805,7 +2803,6 @@ set Assassin skill deathmatch
 set Assassin skill critical
 set Assassin skill fortune
 set Assassin skill throw
-
 
 set Rogue base hp +4
 //set Rogue base strength +4
@@ -3378,7 +3375,7 @@ set GigasKnight base defense +4
 set GigasKnight base hp +4
 set GigasKnight base magic +4
 set GigasKnight base speed +4
-set GigasKnight skill adept
+set GigasKnight skill counter
 set GigasKnight skill armsthrift
 set GigasKnight skill battlecry
 set GigasKnight skill camouflage
