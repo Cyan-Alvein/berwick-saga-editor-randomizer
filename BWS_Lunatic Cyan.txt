@@ -385,7 +385,7 @@ set faramir item 2 SteelArrow+ 20
 set faramir item 3 MithrilSword 101
 set faramir item 4 Bag 0
 set faramir item 5 MithrilArrow 20
-set faramir item 6 Bag 0
+set faramir item 6 Zanbato 101
 set faramir item 7 Apollyon 101
 set faramir growth sword 100
 set faramir growth bow 100
@@ -1361,6 +1361,11 @@ set Tumahann effect restore-uses
 set Wormwood effect restore-uses
 
 
+// Holy Magic
+
+set Holy stat accuracy 80
+set Starlight stat accuracy 70
+
 // Dark Magic
 
 Set Nosferatu stat accuracy 80
@@ -1557,21 +1562,54 @@ set HolyMace effect restore-uses
 //set Rapier stat Fire 10 . Didn't work
 
 //blades
+
+set BastardSword stat accuracy 60
 set Shamshir stat accuracy 60
 set GreatSword stat accuracy 50
-set Zanbato stat accuracy 50
+set Zanbato stat accuracy 60
+set GreatSword stat accuracy 50
+set Balmung stat accuracy 70
+set Balmung2 stat accuracy 70
+set Balmung3 stat accuracy 70
+set Brymranger stat accuracy 50
+
+set BastardSword stat weight 8
+set Zanbato stat weight 8
+set Shamshir stat weight 12
+set GreatSword stat weight 10
+set Adrastia stat weight 9
+set Zweihander stat weight 9
+set Balmung stat weight 8
+set Balmung2 stat weight 8
+set Balmung3 stat weight 8
+set Brymranger stat weight 15
+
+set BastardSword effect restore-uses
 set Zanbato effect restore-uses
-set Zanbato stat cost 1000
+set Shamshir effect restore-uses
+set GreatSword effect restore-uses
+set Adrastia effect restore-uses
+set Zweihander effect restore-uses
+set Balmung effect restore-uses
+set Balmung2 effect restore-uses
+set Balmung3 effect restore-uses
+set Brymranger effect restore-uses
+
+set Zanbato stat cost 2000
+
+set Zanbato stat durability C
+
 set BastardSword effect cripple-rate 6
 
 //spears
 
 set Doru stat accuracy 50
+set SlimSpear stat accuracy 60
 set ImperialSpear stat accuracy 60
 set Longspear stat accuracy 50
 set OldImperialSpear stat accuracy 50
 set VerianSpear stat accuracy 60
-set Partisan stat accuracy 40
+set Partisan stat accuracy 50
 set Pike stat accuracy 60
 set MithrilSpear stat accuracy 60
 set SteelSpear stat accuracy 60
@@ -1631,13 +1669,25 @@ set ImperialSpear effect restore-uses
 set SwiftSpear stat level 15
 
 set Pike effect cripple-rate 6
+
+// fork
+
+
 set MilitaryFork effect cripple-rate 6
 set Pitchfork effect cripple-rate 6
+
 set MilitaryFork stat accuracy 50
 set Pitchfork stat accuracy 50
 
 set GoreFork stat level 1
 set GoreFork stat cost 2000
+
+set Pitchfork stat weight 4
+set MilitaryFork stat weight 7
+set Firebrand stat weight 8
+set GoreFork stat weight 7
+
+set Firebrand stat durability D
 
 //lance
 
@@ -1926,6 +1976,26 @@ set KillerCrossbow stat effect restore-uses
 set ImperialCrossbow stat effect restore-uses
 set OldImperialCrossbow stat effect restore-uses
 set VerianCrossbow stat effect restore-uses
+
+// Balistae
+
+set OldBallista stat durability D
+
+set OldBallista stat might 8
+
+set OldBallista stat accuracy 50
+set SteelBallista stat accuracy 60
+set PrototypeSpringald stat accuracy 60
+set Springald stat accuracy 60
+
+set SteelBallista stat level 10
+set Springald stat level 10
+
+set BronzeBallista stat weight 20
+set IronBallista stat weight 20
+set PrototypeSpringald stat weight 20
+set PrototypeScorpio stat weight 15
+set Scorpio stat weight 15
 
 // sshield
 
