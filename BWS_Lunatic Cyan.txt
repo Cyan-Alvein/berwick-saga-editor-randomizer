@@ -1929,11 +1929,11 @@ set IronCrossbow stat weight 4
 set Gastraphetes stat weight 8
 set HeavyCrossbow stat weight 11
 set BraveCrossbow stat weight 11
-set Chu-ko-nu stat weight 12
+set Chu-ko-nu stat weight 15
 set Arbalest stat weight 16
 set KillerCrossbow stat weight 10
 set Ollerus stat weight 7
-set RapidCrossbow stat weight 12
+set RapidCrossbow stat weight 15
 set Hawkeye stat weight 13
 
 set ImperialCrossbow stat Weight 4
