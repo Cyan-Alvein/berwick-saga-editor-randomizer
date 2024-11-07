@@ -1924,24 +1924,24 @@ set ImperialBow effect restore-uses
 
 //Crossbow
 
-set Bowgun stat weight 5
-set IronCrossbow stat weight 8
-set Gastraphetes stat weight 11
-set HeavyCrossbow stat weight 14
-set BraveCrossbow stat weight 14
-set Chu-ko-nu stat weight 16
-set Arbalest stat weight 18
-set KillerCrossbow stat weight 13
-set Ollerus stat weight 10
-set RapidCrossbow stat weight 16
-set Hawkeye stat weight 16
+set Bowgun stat weight 2
+set IronCrossbow stat weight 4
+set Gastraphetes stat weight 8
+set HeavyCrossbow stat weight 11
+set BraveCrossbow stat weight 11
+set Chu-ko-nu stat weight 12
+set Arbalest stat weight 16
+set KillerCrossbow stat weight 10
+set Ollerus stat weight 7
+set RapidCrossbow stat weight 12
+set Hawkeye stat weight 13
 
-set ImperialCrossbow stat Weight 8
-set OldImperialCrossbow stat Weight 9
-set VerianCrossbow stat Weight 8
+set ImperialCrossbow stat Weight 4
+set OldImperialCrossbow stat Weight 5
+set VerianCrossbow stat Weight 4
 
 set ImperialCrossbow stat might 10
-set OldImperialCrossbow stat might 5
+set OldImperialCrossbow stat might 8
 set VerianCrossbow stat might 10
 
 set Bowgun stat accuracy 70
