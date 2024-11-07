@@ -150,7 +150,7 @@ set ArrowKnight base sword +30
 
 set adel item 2 FireShield 101
 set adel item 3 GoreFork 101
-set adel item 4 Xyston 101
+set adel item 4 SteelSpear 101
 set adel item 5 Treasure 101
 set adel item 6 Bag 0
 set adel item 7 LiquidVitality 1
@@ -163,22 +163,22 @@ set leon item 2 GoreFork 101
 set leon item 3 GreatLance 101
 set leon item 4 ThunderShield 101
 set leon item 5 Bag 0
-set leon item 6 Treasure 101
+set leon item 6 SteelSpear 101
 set leon item 7 Treasure 101
 set leon growth spear 90
 set leon growth sshield 50
 set leon base sshield +20
 set leon base spear +20
 
-set sherlock item 3 Apollyon 101
-set sherlock item 4 SteelArrow+ 20
-set sherlock item 5 IronArrow+ 20
+set sherlock item 3 Longbow 101
+set sherlock item 4 SteelArrow+ 80
+set sherlock item 5 IronArrow+ 80
 set sherlock item 6 Bag 0
 set sherlock item 7 Treasure 101
 set sherlock growth bow 100
 set sherlock base bow +20
 
-set izerna item 1 Heal 20
+set izerna item 1 Fortify 50
 set izerna item 2 BlessedBrace 101
 set izerna item 3 Mend 20
 set izerna item 4 Physic 15
@@ -245,7 +245,7 @@ set FlameFencer base fire +30
 
 set marcel growth sword 70
 set marcel growth Lshield 100
-set Marcel item 2 BastardSword 101
+set Marcel item 2 Zanbato 101
 set Marcel item 3 AmaterasuShield 101
 set Marcel item 4 WideShield 101
 set Marcel item 5 IronShield 101
@@ -335,9 +335,9 @@ set faye growth sword 100
 set faye base sword +20
 
 set sylvis item 3 Apeiron 101
-set sylvis item 4 RaijinArrow 20
+set sylvis item 4 RaijinArrow 80
 set sylvis item 5 Ollerus 101
-set sylvis item 6 MithrilArrow 20
+set sylvis item 6 MithrilArrow 80
 set sylvis item 7 RapidCrossbow 101
 set sylvis growth bow 90
 set sylvis growth crossbow 70
@@ -369,7 +369,7 @@ set esteban growth knife 50
 set esteban growth sword 90
 set esteban growth bow 100
 set esteban item 0 Rossweisse 101
-set esteban item 1 SteelArrow+ 20
+set esteban item 1 SteelArrow+ 80
 set esteban item 2 Bag 0
 set esteban item 3 Pascanion2 101
 set esteban item 4 MithrilArrow 20
@@ -381,10 +381,10 @@ set esteban base bow +20
 set esteban base sword +40
 set HighHunter base sword +40
 
-set faramir item 2 SteelArrow+ 20
+set faramir item 2 SteelArrow+ 80
 set faramir item 3 MithrilSword 101
 set faramir item 4 Bag 0
-set faramir item 5 MithrilArrow 20
+set faramir item 5 MithrilArrow 80
 set faramir item 6 Zanbato 101
 set faramir item 7 Apollyon 101
 set faramir growth sword 100
@@ -438,7 +438,7 @@ set axel base axe +20
 
 set larentia item 2 LadySword 101
 set larentia item 3 Aiantos 101
-set larentia item 4 SlimSpear 101
+set larentia item 4 Angon 101
 set larentia item 5 PrototypeSpear 101
 set larentia item 6 Scimitar+ 101
 set larentia item 7 Bag 0
@@ -486,7 +486,7 @@ set derrick growth strength 30
 set Derrick item 0 ImperialAxe 101
 set Derrick item 2 GigasAxe 101
 set Derrick item 3 AmaterasuShield 101
-set Derrick item 4 WideShield 101
+set Derrick item 4 IronShield 101
 set Derrick item 5 GeneralShield 101
 set Derrick item 6 Tabarzin 101
 set Derrick item 7 Bag 0
@@ -505,8 +505,8 @@ set saphira base holy +20
 
 set lynette item 3 DireThunder 20
 set lynette item 4 Rossweisse 101
-set lynette item 5 SteelArrow+ 20
-set lynette item 6 MithrilArrow 20
+set lynette item 5 SteelArrow+ 80
+set lynette item 6 MithrilArrow 80
 set lynette item 7 LadySword 101
 set lynette growth sword 100
 set lynette growth bow 100
@@ -516,11 +516,11 @@ set lynette base sword +20
 set lynette base bow +20
 
 set paramythis item 0 MithrilSword 101 
-set paramythis item 2 DarkMace 101
+set paramythis item 2 HolyMace 101
 set paramythis item 3 Starlight 10
 set paramythis item 4 Awaken 10
 set paramythis item 5 Detoxify 10
-set paramythis item 6 FeatherBrace 101
+set paramythis item 6 PeerlessBrace 101
 set paramythis item 7 Bag 0
 set paramythis growth sword 100
 set paramythis growth light 80
@@ -1284,6 +1284,8 @@ set Vritra stat level 20
 set Cutlass+ stat level 20
 set Cutlass stat level 15
 set Balmung stat level 20
+set Balmung2 stat level 20
+set Balmung3 stat level 20
 set Vajra stat level 20
 set Hawkeye stat level 20
 set Harperia stat level 10
@@ -1616,7 +1618,6 @@ set SteelSpear stat accuracy 60
 set Brionac stat accuracy 60
 set Harpoon stat accuracy 60
 set PrototypeSpear stat accuracy 50
-set Doru stat accuracy 50
 
 set SlimSpear stat Weight 3
 set IronSpear stat Weight 5
@@ -1667,6 +1668,7 @@ set OldImperialSpear effect restore-uses
 set ImperialSpear effect restore-uses
 
 set SwiftSpear stat level 15
+set SteelSpear stat level 1
 
 set Pike effect cripple-rate 6
 
@@ -1854,7 +1856,9 @@ set DarkAxe stat Weight 9
 
 
 // bows
+
 set Apeiron stat level 1
+set Longbow stat level 1
 
 set BronzeBow stat Weight 1
 set IronBow stat Weight 3
@@ -2160,8 +2164,6 @@ set ShadowShield stat Weight 6
 set BlazingShield stat Weight 6
 set GaleShield stat Weight 6
 
-set LeatherMShd stat might 5
-
 set LadyMShd stat cost 4000
 
 set BlackShield stat level 15
@@ -2331,12 +2333,12 @@ set Pickaxe effect restore-uses
 set Heal effect restore-uses
 set Colichemarde effect restore-uses
 
+//Accessories Buff
+
 set FeatherBrace stat speed 2
 set MuscleBrace stat strength 2
 set GuardBrace stat defense 2
 set SpiritBrace stat magic 2
-
-//Accessories Buff
 
 set TigerBrace stat hit 15
 set GiantsBrace stat strength 4
