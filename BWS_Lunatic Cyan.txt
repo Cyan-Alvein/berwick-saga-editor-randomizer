@@ -87,7 +87,7 @@ unset RazeMonkOwen skill limited
 
 //unset marcel skill slowstart
 
-set reese item 3 FlameSword 101
+set reese item 3 HolySword 101
 set reese item 4 Treasure 101
 set reese item 5 RazeEtoile 101
 set reese item 6 Bag 0
@@ -135,7 +135,7 @@ set Paladin_F_R base spear +30
 set Paladin_F base mshield +30
 set Paladin_F base spear +30
 
-set christine item 3 BraveCrossbow 101
+set christine item 3 Treasure 101
 set christine item 4 IronArrow+ 20
 set christine item 5 Hawkeye 101
 set christine item 6 SteelArrow+ 20
@@ -152,9 +152,9 @@ set ArrowKnight base sword +30
 set adel item 2 FireShield 101
 set adel item 3 GoreFork 101
 set adel item 4 Xyston 101
-set adel item 5 SlimSpear 101
-set adel item 6 MilitaryFork 101
-set adel item 7 Bag 0
+set adel item 5 Treasure 101
+set adel item 6 Bag 0
+set adel item 7 LiquidVitality 1
 set adel growth spear 70
 set adel growth sshield 100
 set adel base sshield +20
@@ -164,8 +164,8 @@ set leon item 2 GoreFork 101
 set leon item 3 GreatLance 101
 set leon item 4 ThunderShield 101
 set leon item 5 Bag 0
-set leon item 6 MilitaryFork 101
-set leon item 7 Drakelance 101
+set leon item 6 Treasure 101
+set leon item 7 Treasure 101
 set leon growth spear 90
 set leon growth sshield 50
 set leon base sshield +20
@@ -236,7 +236,7 @@ set Enid item 1 LadySword 101
 set Enid item 2 Earthblaze 20 
 set Enid item 3 PeerlessBrace 101
 set Enid item 4 DireThunder 20
-set Enid item 5 Albatross 101
+set Enid item 5 LiquidMagic 1
 set Enid item 6 Bag 0
 set Enid item 7 rapier 101
 set Enid base fire +30
@@ -249,7 +249,7 @@ set marcel growth Lshield 100
 set Marcel item 2 BastardSword 101
 set Marcel item 3 AmaterasuShield 101
 set Marcel item 4 WideShield 101
-set Marcel item 5 Bag 0
+set Marcel item 5 IronShield 101
 set Marcel item 6 GeneralShield 101
 set Marcel item 7 Bag 0
 set Marcel base sword +20
@@ -273,7 +273,7 @@ set ruby item 3 LadyMShd 101
 set ruby item 4 LadySword 101
 set ruby item 5 Bag 0
 set ruby item 6 Scimitar+ 101
-set ruby item 7 Cutlass 101
+set ruby item 7 LiquidVitality 1
 set Ruby base magic +3
 set ruby growth sword 90
 set ruby growth spear 100
@@ -308,10 +308,10 @@ set arthur base spear +30
 set kramer item 1 Bag 0
 set kramer item 1 Scimitar+ 101
 set kramer item 1 GrowthCharm 101
-set kramer item 2 FlameSword 101
+set kramer item 2 LevinSword 101
 set kramer item 3 VanishCharm 101
 set kramer item 4 PhoenixBrace 101
-set kramer item 5 LiquidStrength 1
+set kramer item 5 Bag 0
 set kramer item 6 Shortsword 101
 set kramer item 7 LiquidDefense 1
 set kramer growth sword 100
@@ -320,9 +320,9 @@ set kramer base sword +20
 set dean growth axe 100
 set dean item 2 Bag 0
 set dean item 3 Bhuj 101
-set dean item 4 LiquidMagic 1
+set dean item 4 Albatross 101
 set dean item 5 BoltAxe 101 
-set dean item 6 LiquidVitality 1
+set dean item 6 GrowthCharm 101
 set dean item 7 GamblersBrace 101
 set dean base axe +20
 
@@ -331,7 +331,7 @@ set faye item 3 Bag 0
 set faye item 4 Vajra 101
 set faye item 5 FlameSword 101 
 set faye item 6 Shortsword 101
-set faye item 7 Bag 0
+set faye item 7 LiquidStrength 1
 set faye growth sword 100
 set faye base sword +20
 
@@ -351,7 +351,7 @@ set perceval item 3 Treasure 101
 set perceval item 4 Blizzard 15
 set perceval item 5 Lightning 10
 set perceval item 6 TigerBrace 101
-set perceval item 7 Treasure 101
+set perceval item 7 Bag 0
 set perceval growth wind 50
 set perceval growth thunder 90
 set perceval base thunder +30
@@ -433,7 +433,7 @@ set axel item 3 Bag 0
 set axel item 4 Bag 0
 set axel item 5 Tomahawk 101
 set axel item 6 PegasusBrace 101
-set axel item 7 LiquidVitality 1
+set axel item 7 Treasure 101
 set axel growth axe 60
 set axel base axe +20
 
@@ -517,7 +517,7 @@ set lynette base sword +20
 set lynette base bow +20
 
 set paramythis item 0 MithrilSword 101 
-set paramythis item 2 Heal 20
+set paramythis item 2 DarkMace 101
 set paramythis item 3 Starlight 10
 set paramythis item 4 Awaken 10
 set paramythis item 5 Detoxify 10
@@ -671,6 +671,7 @@ set sherlock skill windsweep
 set sherlock skill maim
 set sherlock skill desperation
 set sherlock skill counter
+set sherlock skill overwatch
 
 set izerna skill maim
 set izerna skill charisma 
@@ -915,6 +916,7 @@ set dean skill counter
 set dean skill windsweep
 set dean skill knockaway
 set dean skill parry
+set dean skill guard
 
 set sylvis skill vantage 
 set sylvis skill pursuit
@@ -1388,7 +1390,10 @@ Set OldImperialSword stat Weight 5
 Set OldImperialSword stat accuracy 60
 set AltiumSword stat accuracy 60
 set AltiumSword stat price 2400
-set LevinSword stat accuracy 50
+set LevinSword stat accuracy 60
+set LevinSword stat weight 4
+set LevinSword stat might 6
+set LevinSword stat cost 4000
 set LevinSword stat cost 4000
 set Albatross stat accuracy 50
 set Albatross effect restore-uses
@@ -1397,12 +1402,32 @@ set Scimitar+ stat durability D
 set Scimitar+ stat level 1
 set Scimitar+ effect restore-uses
 set FlameSword stat level 1
+set FlameSword stat accuracy 60
+set FlameSword stat cost 4000
+set FlameSword stat might 8
+set HolySword stat level 1
+set HolySword stat accuracy 60
+set HolySword stat might 10
+set HolySword stat weight 4
+set HolySword stat cost 4500
+set WindEdge stat level 1
+set WindEdge stat might 10
+set WindEdge stat accuracy 60
+set WindEdge stat weight 4
+set WindEdge stat cost 4000
+set InfernalEdge stat cost 5000
+set RazeEtoile stat cost 4000
+set Harperia stat cost 6000
+set Colichemarde stat cost 7000
 
 set HolyMace effect restore-uses
+set HolyMace stat durability D
+set HolyMace stat might 12
 set DarkMace effect restore-uses
 set DarkMace stat cost 1000
+set DarkMace stat durability D
 
-//set Rapier stat Fire 10
+//set Rapier stat Fire 10 . Didn't work
 
 // blades
 set Shamshir stat accuracy 60
@@ -1451,6 +1476,7 @@ set BarbaricAxe stat accuracy 30
 set BanditAxe stat accuracy 50
 set BanditAxe stat might 6
 set BanditAxe stat Weight 6
+set BanditAxe stat durability C
 set Broadaxe stat level 6
 set GigasAxe effect restore-uses
 set GigasAxe stat level 20
@@ -1623,22 +1649,8 @@ set FireShield effect restore-uses
 set ThunderShield effect restore-uses
 set LightShield effect restore-uses
 
-set LightningShield stat level 1
-set RadiantShield stat level 1
-set ShadowShield stat level 1
-set BlazingShield stat level 1
-set GaleShield stat level 1
-
-set LightningShield stat Weight 5
-set RadiantShield stat Weight 5
-set ShadowShield stat Weight 5
-set BlazingShield stat Weight 5
-set GaleShield stat Weight 5
-
 // M-Shield Stuff
 set LadyMShd stat cost 4000
-set LadyMShd stat weight 5
-set LadyMShd stat accuracy 50
 
 set LightningShield stat accuracy 50
 set RadiantShield stat accuracy 50
@@ -1646,11 +1658,29 @@ set ShadowShield stat accuracy 50
 set BlazingShield stat accuracy 50
 set GaleShield stat accuracy 50
 
-set LightningShield stat might 9
-set RadiantShield stat might 9
-set ShadowShield stat might 9
-set BlazingShield stat might 9
-set GaleShield stat might 9
+set LightningShield stat might 11
+set RadiantShield stat might 11
+set ShadowShield stat might 11
+set BlazingShield stat might 11
+set GaleShield stat might 11
+
+set LightningShield stat level 1
+set RadiantShield stat level 1
+set ShadowShield stat level 1
+set BlazingShield stat level 1
+set GaleShield stat level 1
+
+set LightningShield stat Weight 7
+set RadiantShield stat Weight 7
+set ShadowShield stat Weight 7
+set BlazingShield stat Weight 7
+set GaleShield stat Weight 7
+
+set LightningShield stat Durability C
+set RadiantShield stat Durability C
+set ShadowShield stat Durability C
+set BlazingShield stat Durability C
+set GaleShield stat Durability C
 
 set ImpKnightMShd stat might 12
 set ImpOfficerMShd stat might 10
@@ -1662,7 +1692,6 @@ set ImpSoldierMShd stat durability D
 set ImpSoldierMShd+ stat durability D
 set ImpOfficerMShd stat durability D
 set ImpKnightMShd stat durability D
-
 
 set RoundShield effect restore-uses
 
@@ -1687,8 +1716,19 @@ set ImpSoldierLShd+ effect restore-uses
 set LimitShield effect restore-uses
 set LimitShield stat cost 3000
 set VerianLShd stat cost 1000
+set VerianLShd stat Durability D
 set WideShield effect restore-uses
 set WyrmskinShield stat cost 4000
+
+set LeatherLShd stat Durability C
+set WideShield stat Durability C
+set IronShield stat Durability A
+set Greatshield stat Durability B
+set KojinShield stat Durability C
+set FujinShield stat Durability C
+set RaijinShield stat Durability C
+set AmaterasuShield stat Durability C
+set GeneralShield stat Durability C
 
 set AltiumSword effect restore-uses
 set Apollyon effect restore-uses
@@ -1932,7 +1972,7 @@ set Cavalier cap sshield 50
 set Cavalier cap mshield 50
 set Cavalier base mshield +40
 
-set Treasure stat price 60000
+set Treasure stat price 90000
 
 //set Reese bracket no
 //set Ward bracket no
@@ -2750,6 +2790,7 @@ set Pickpocket skill pursuit
 set Pickpocket skill hide
 set Pickpocket skill watchful
 
+// thief with bow
 set Outlaw base hp +4
 //set Outlaw base strength +4
 set Outlaw base speed +4
@@ -2766,9 +2807,8 @@ set Outlaw skill vantage
 set Outlaw skill camouflage
 set Outlaw skill aim
 set Outlaw skill hide
-set Outlaw skill critical
 set Outlaw skill shieldfaire
-set Outlaw skill hide
+set Outlaw skill pursuit
 
 // same stats as thaddy
 set Assassin base hp +4
