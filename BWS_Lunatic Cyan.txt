@@ -20,7 +20,7 @@
 
 // AirKnife got injure-rate 30, so it is a bolt, try to steal it early. Anyway I already give a BoltKnife to Czene & Thaddy so just enjoy the game without wasting your time trying to capture stuff.
 
-// Crossbow weapons got their weight reduced. So Sylvis & Christine got a chance to use their Vantage skill while using them.
+// All weapon and shield got their weight adjusted by a formula depending on their might. For Lshield: Weight = ( Defense * 2 / 3 ) . Formula are writted in // in this script
 
 // Hawkeye & Arbalest got 2 range, Same as Ollerus.
 
@@ -34,13 +34,11 @@
 
 // The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
 
-// Character without shield & Archer & Mage got pursuit skill (Faye Kramer Volo Faramir Owen Enid Perceval ... ) & Dean too since for him his axes are his sword :) ( Hello there Fire Emblem Thraccia with his epic battle animation for Axe Fighter unit.)
+// Character without shield, Archer & Mage got pursuit skill (Faye Kramer Volo Faramir Owen Enid Perceval ... ) & Dean too since for him his axes are his sword :) ( Hello there Fire Emblem Thraccia with his epic battle animation for Axe Fighter unit.)
 
 // All axes users got Vengeful skill. Derrick (ArmorKnight) & GigasKnight & Axel (Pirate - Corsair... ) Got both Vengeful & Counter.
 
-// Dean doesn't have counter skill, he got pursuit & parry instead. He is supposed to deal damage without giving a fuck about his defense just as his lore say. Since he wields his axe as good as the Swordmaster Faye wield her blade (They both have weapon growth rate 90%), I think he deserves the parry skill like Faye & Faramir, just as Axefighter in Fire Emblem Thraccia. 
-
-// Esteban got both adept & pursuit, so he is the best damage archer in the game. Well maybe Faramir with his Pursuit & Critical is better.
+// Esteban & Sherlock got both adept & pursuit, so they are the best damage archer in the game. Well maybe Faramir with his Pursuit & Critical can best them in you feed hime more level.
 
 // All Mshield unit (Paladin - Arthur - Ward - Elbert ... ) got adept. Those who already have adept ( Reese - Alvina - Ruby... ) now have critical for fair.
 
@@ -54,7 +52,7 @@
 
 // TigerBrace = Hit +15 Avoid -10, EagleBrace = Unchanged, GuardBrace = Defense +2, FeatherBrace = Speed +2. You get the idea
 
-// All magic weapon (Exept Dark) got +1 range, so AirBlade = 2 range, DireThunder = 3 range
+// All player magic weapon (Exept Dark) got +1 range, so AirBlade = 2 range, DireThunder = 3 range
 
 // All healing weapon got +2 range, so heal = 3 range, Physic = 5 range (same as Darkmend, It pissed me off a dark healing magic was > than a holy healing magic. WTF Shogo Kaga)
 
@@ -74,10 +72,11 @@
 
 // Sherpa & Adel got swordbane - Arthur & Paramythis got Spearbane - Axel & Ruby got Axebane
 
-// No one forces you to use the Deathmatch skill in the game, it will make the game easy. It is there mainly to allow you to create epic fight vs boss. Normally I will only allow Myrmidon, Axefighter, Assassin and Spearknight to have this skill ( Faye Volo Faramir Dean Leon Adel Czene Thaddy )
+// No one forces you to use the Deathmatch skill in the game, it will make the game a little easy. It is there mainly to allow you to create epic fight vs boss. Normally I will only allow Myrmidon, Axefighter, Assassin and Spearknight to have this skill ( Faye Volo Faramir Dean Leon Adel Czene Thaddy )
 
 // The function "learned" bug too much, instead of learning overwatch, someone can learn the skill "silence" instead. So I never used "learned" 
 
+// All Ennemy Myrmidon, Swordmaster, Swordfighter & Assassin got the Deathmatch. Be careful it is deadly 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -427,10 +426,10 @@ set clifford base spear +20
 set clifford base sshield +20
 set clifford base mshield +20
 
-set axel item 1 SereniaBow 101
+set axel item 1 MaozaWolf 101
 set axel item 2 IronAxe 101
 set axel item 3 Bag 0
-set axel item 4 Bag 0
+set axel item 4 SereniaBow 101
 set axel item 5 Tomahawk 101
 set axel item 6 PegasusBrace 101
 set axel item 7 Treasure 101
@@ -606,6 +605,7 @@ set christine skill paragon
 set christine skill supporter
 set christine skill windsweep
 set christine skill desperation
+set christine skill hide
 
 set adel skill sunder 
 set adel skill windsweep 
@@ -672,6 +672,7 @@ set sherlock skill maim
 set sherlock skill desperation
 set sherlock skill counter
 set sherlock skill overwatch
+set sherlock skill adept
 
 set izerna skill maim
 set izerna skill charisma 
@@ -1359,77 +1360,203 @@ set Darkmend effect restore-uses
 set Tumahann effect restore-uses
 set Wormwood effect restore-uses
 
+
+// Dark Magic
+
+Set Nosferatu stat accuracy 80
+Set Nosferatu+ stat accuracy 50
+Set Scylla stat accuracy 70
+Set KisharsWrath stat accuracy 50
+Set Wormwood stat accuracy 50
+
 //knives
 set AssassinsKnife effect restore-uses
-set AssassinsKnife stat level 20
 set BoltKnife effect restore-uses
 set Carnwenhau effect restore-uses
 set Crotalus effect restore-uses
-set Dart stat accuracy 60
 set TempestKnife effect restore-uses
 set ThiefsKnife effect restore-uses
-set ThiefsKnife stat accuracy 50
 set AirKnife effect restore-uses
-set bloodknife stat durability D
+set ThrowingKnife effect restore-uses
+set Dagger effect restore-uses
+set LetterOpener effect restore-uses
+set Dart effect restore-uses
+set Seax effect restore-uses
+set StunKnife effect restore-uses
+set KillerKnife effect restore-uses
+set BloodKnife effect restore-uses
+set Vespa effect restore-uses
+set Shieldknife effect restore-uses
+set Kris effect restore-uses
+set MainGauche effect restore-uses
+set Swordbreaker effect restore-uses
+
+set dart stat level 1
+set Seax stat level 3
+set TempestKnife stat level 1
+set Swordbreaker stat level 10
+set AssassinsKnife stat level 20
+set Airknife stat level 1
+set ThrowingKnife stat level 1
+
+set Seax stat weight 2
+set vespa stat level 3
+
+set BoltKnife stat durability D
+set LetterOpener stat durability D
+set bloodknife stat durability E
+set kris stat durability C
+set SleepKnife stat durability E
+set AssassinsKnife stat durability E
+set Windshield stat level 1
+
+set ThiefsKnife stat accuracy 60
+set Seax stat accuracy 60
+set stunknife stat accuracy 60
+set KillerKnife stat accuracy 70
+set Shieldknife stat accuracy 50
+set Crotalus stat accuracy 60
+set kris stat accuracy 60
+set maingauche stat accuracy 50
+
 
 set Airknife effect injure-rate 30
-set Airknife stat level 1
+
 set AssassinsKnife effect cripple-rate 4
 
-set maingauche stat accuracy 50
-set Kris stat accuracy 50
-set ThrowingKnife effect restore-uses
-set ThrowingKnife stat level 7
 
 //swords
-set ImperialSword stat accuracy 60
-Set ImperialSword stat Weight 5
-Set ImperialSword stat cost 1000
-Set OldImperialSword stat might 4
-Set OldImperialSword stat Weight 5
-Set OldImperialSword stat accuracy 60
-set AltiumSword stat accuracy 60
-set AltiumSword stat price 2400
-set LevinSword stat accuracy 60
-set LevinSword stat weight 4
+
 set LevinSword stat might 6
-set LevinSword stat cost 4000
-set LevinSword stat cost 4000
-set Albatross stat accuracy 50
-set Albatross effect restore-uses
-set Scimitar+ stat accuracy 50
-set Scimitar+ stat durability D
-set Scimitar+ stat level 1
-set Scimitar+ effect restore-uses
-set FlameSword stat level 1
-set FlameSword stat accuracy 60
-set FlameSword stat cost 4000
 set FlameSword stat might 8
-set HolySword stat level 1
-set HolySword stat accuracy 60
 set HolySword stat might 10
-set HolySword stat weight 4
-set HolySword stat cost 4500
-set WindEdge stat level 1
-set WindEdge stat might 10
+set WindEdge stat might 6
+
+// Sword Weight Formula : Weight = ( 5/9 ) * (Sword_Might+(Sword_MagicEffect-4)
+
+set BronzeSword effect restore-uses
+set Shortsword effect restore-uses
+set Scimitar effect restore-uses
+set Longsword effect restore-uses
+set WindEdge effect restore-uses
+set Broadsword effect restore-uses
+set Scimitar+ effect restore-uses
+set KillingEdge effect restore-uses
+set Saber effect restore-uses
+set AltiumSword effect restore-uses
+set LevinSword effect restore-uses
+set Rapier effect restore-uses
+set Albatross effect restore-uses
+set HolySword effect restore-uses
+set MithrilSword effect restore-uses
+set KnightSword effect restore-uses
+set Estoc effect restore-uses
+set Grimhild effect restore-uses
+set Harperia effect restore-uses
+set FlameSword effect restore-uses
+set InfernalEdge effect restore-uses
+set Colichemarde effect restore-uses
+set Cutlass effect restore-uses
+set Cutlass+ effect restore-uses
+set RazeEtoile effect restore-uses
+set LadySword effect restore-uses
+set Gram effect restore-uses
+// set Nothung effect restore-uses
+set VerianSword effect restore-uses
+Set ImperialSword effect restore-uses
+Set Vajra effect restore-uses
+Set Vritra effect restore-uses
+
+set BronzeSword stat accuracy 60
+set ImperialSword stat accuracy 60
+set AltiumSword stat accuracy 60
+set LevinSword stat accuracy 50
+set Albatross stat accuracy 50
+set Scimitar+ stat accuracy 50
+set FlameSword stat accuracy 50
+set HolySword stat accuracy 50
 set WindEdge stat accuracy 60
-set WindEdge stat weight 4
-set WindEdge stat cost 4000
-set InfernalEdge stat cost 5000
-set RazeEtoile stat cost 4000
+set KillingEdge stat accuracy 70
+set ImperialSword stat accuracy 60
+
+Set ImperialSword stat cost 1000
+set AltiumSword stat cost 2400
+set LevinSword stat cost 3000
+set FlameSword stat cost 3000
+set HolySword stat cost 3500
+set WindEdge stat cost 1200
+set InfernalEdge stat cost 3500
+set RazeEtoile stat cost 6000
 set Harperia stat cost 6000
 set Colichemarde stat cost 7000
 
-set HolyMace effect restore-uses
-set HolyMace stat durability D
+set Scimitar+ stat level 1
+set FlameSword stat level 1
+set HolySword stat level 1
+set WindEdge stat level 1
+set InfernalEdge stat level 1
+
+set BronzeSword stat Weight 3
+set Shortsword stat Weight 2
+set Scimitar stat weight 5
+set Longsword stat weight 5
+set WindEdge stat weight 4
+set Broadsword stat weight 6
+set Scimitar+ stat weight 6
+set KillingEdge stat weight 5
+set Saber stat weight 4
+set AltiumSword stat Weight 5
+set LevinSword stat weight 6
+set Rapier stat Weight 4
+set Albatross stat weight 7
+set HolySword stat weight 6
+set MithrilSword stat weight 5
+set KnightSword stat weight 6
+set Estoc stat weight 3
+set Grimhild stat weight 8
+set Harperia stat weight 3
+set FlameSword stat Weight 6
+set InfernalEdge stat weight 6
+set Colichemarde stat weight 6
+set Cutlass stat Weight 3
+set Cutlass+ stat Weight 4
+set RazeEtoile stat weight 7
+set LadySword stat weight 3
+set Gram stat weight 4
+set Nothung stat weight 5
+
+set VerianSword stat Weight 4
+Set ImperialSword stat Weight 5
+Set Vajra stat Weight 10
+Set Vritra stat Weight 5
+
+
+set Scimitar+ stat Durability D
+
+//mace
+
 set HolyMace stat might 12
-set DarkMace effect restore-uses
+
+set IronClub stat weight 1
+set HolyMace stat weight 4
+set DarkMace stat weight 7
+set PoisonMace stat weight 4
+
+set IronClub stat Accuracy 60
+set HolyMace stat Accuracy 60
+set DarkMace stat Accuracy 50
+set PoisonMace stat Accuracy 60
+
 set DarkMace stat cost 1000
+
 set DarkMace stat durability D
+
+set DarkMace effect restore-uses
+set HolyMace effect restore-uses
 
 //set Rapier stat Fire 10 . Didn't work
 
-// blades
+//blades
 set Shamshir stat accuracy 60
 set GreatSword stat accuracy 50
 set Zanbato stat accuracy 50
@@ -1437,17 +1564,70 @@ set Zanbato effect restore-uses
 set Zanbato stat cost 1000
 set BastardSword effect cripple-rate 6
 
-// spears
+//spears
+
 set Doru stat accuracy 50
 set ImperialSpear stat accuracy 60
-set ImperialSpear stat Weight 7
 set Longspear stat accuracy 50
-set OldImperialSpear stat Weight 10
 set OldImperialSpear stat accuracy 50
 set VerianSpear stat accuracy 60
-set Partisan effect restore-uses
 set Partisan stat accuracy 40
-set Pike stat accuracy 50
+set Pike stat accuracy 60
+set MithrilSpear stat accuracy 60
+set SteelSpear stat accuracy 60
+set Brionac stat accuracy 60
+set Harpoon stat accuracy 60
+set PrototypeSpear stat accuracy 50
+set Doru stat accuracy 50
+
+set SlimSpear stat Weight 3
+set IronSpear stat Weight 5
+set Pilum stat Weight 8
+set SteelSpear stat Weight 7
+set Harpoon stat Weight 6
+set PrototypeSpear stat Weight 8
+set KillerSpear stat Weight 5
+set Pike stat Weight 4
+set Longspear stat Weight 8
+set Verutum stat Weight 7
+set Doru stat Weight 9
+set MithrilSpear stat Weight 7
+set WindSpear stat Weight 9
+set Euthyphro stat Weight 5
+set Javelin stat Weight 11
+set Partisan stat Weight 15
+set Angon stat Weight 8
+set Brionac stat Weight 7
+set SwiftSpear stat Weight 10
+set Fauchard stat Weight 9
+set VerianSpear stat Weight 5
+set OldImperialSpear stat Weight 5
+set ImperialSpear stat Weight 6
+
+set SlimSpear effect restore-uses
+set IronSpear effect restore-uses
+set Pilum effect restore-uses
+set SteelSpear effect restore-uses
+set Harpoon effect restore-uses
+set PrototypeSpear effect restore-uses
+set KillerSpear effect restore-uses
+set Pike effect restore-uses
+set Longspear effect restore-uses
+set Verutum effect restore-uses
+set Doru effect restore-uses
+set MithrilSpear effect restore-uses
+set WindSpear effect restore-uses
+set Euthyphro effect restore-uses
+set Javelin effect restore-uses
+set Partisan effect restore-uses
+set Angon effect restore-uses
+set Brionac effect restore-uses
+set SwiftSpear effect restore-uses
+set Fauchard effect restore-uses
+set VerianSpear effect restore-uses
+set OldImperialSpear effect restore-uses
+set ImperialSpear effect restore-uses
+
 set SwiftSpear stat level 15
 
 set Pike effect cripple-rate 6
@@ -1456,13 +1636,13 @@ set Pitchfork effect cripple-rate 6
 set MilitaryFork stat accuracy 50
 set Pitchfork stat accuracy 50
 
-set Euthyphro effect restore-uses
-
 set GoreFork stat level 1
 set GoreFork stat cost 2000
 
-// lance
+//lance
+
 set Drakelance stat level 15
+
 set Drakelance effect restore-uses
 
 set Drakelance effect cripple-rate 4
@@ -1470,44 +1650,147 @@ set Xyston effect cripple-rate 4
 set IronLance effect cripple-rate 4
 set Oxtongue effect cripple-rate 4
 
+set IronLance Stat Weight 15
+set Oxtongue Stat Weight 18
+set Xyston Stat Weight 15
+set GreatLance Stat Weight 19
+set Drakelance Stat Weight 18
 
-// axe
+set IronLance Stat Accuracy 50
+set Oxtongue Stat Accuracy 50
+set Xyston Stat Accuracy 50
+set GreatLance Stat Accuracy 50
+set Drakelance Stat Accuracy 60
+
+
+//axe
+set BanditAxe stat might 6
+set ImperialAxe stat might 10
+set LogSplitter stat might 6
+set OldImperialAxe stat might 8
+set Hatchet stat might 12
+set Gullveig stat might 14
+
+set LogSplitter stat Weight 4
+set Pickaxe stat Weight 3
+set BattleSaw stat Weight 3
+set HandAxe stat Weight 5
+set BarbaricAxe stat Weight 13
+set CrookedAxe stat Weight 20
+set IronAxe stat Weight 7
+set Francisca stat Weight 7
+set Battleaxe stat Weight 9
+set Broadaxe stat Weight 8
+set VolcanoAxe stat Weight 5
+set GlacierAxe stat Weight 5
+set NimbusAxe stat Weight 5
+set DarkAxe stat Weight 5
+set WarPick stat Weight 7
+set Hatchet stat Weight 8
+set BreakerAxe stat Weight 9
+set Poleax stat Weight 8
+set Tomahawk stat Weight 7
+set BoltAxe stat Weight 8
+set KillerAxe stat Weight 6
+set Hammer stat Weight 10
+set Greataxe stat Weight 16
+set Tabarzin stat Weight 8
+set MithrilAxe stat Weight 10 
+set Gullveig stat Weight 9
+set Mjollnir stat Weight 9
+set Shieldaxe stat Weight 7
+set MaozaWolf stat Weight 20
+set Bhuj stat Weight 9
+set GigasAxe stat Weight 13
+set VerianAxe stat Weight 7
+set OldImperialAxe stat Weight 8
+set ImperialAxe stat Weight 7
+set BanditAxe stat Weight 4
+
 set BarbaricAxe stat accuracy 30
 set BanditAxe stat accuracy 50
-set BanditAxe stat might 6
-set BanditAxe stat Weight 6
-set BanditAxe stat durability C
-set Broadaxe stat level 6
-set GigasAxe effect restore-uses
-set GigasAxe stat level 20
-set Hammer stat level 15
 set ImperialAxe stat accuracy 50
-set ImperialAxe stat might 10
-set ImperialAxe stat Weight 6
 set LogSplitter stat accuracy 50
-set LogSplitter stat might 6
-set LogSplitter stat Weight 6
-set OldImperialAxe stat accuracy 50
-set OldImperialAxe stat might 6
-set OldImperialAxe stat Weight 8
-set Shieldaxe effect restore-uses
+set OldImperialAxe stat accuracy 40
 set Shieldaxe stat accuracy 40
-set Shieldaxe stat might 8
-set Tomahawk effect restore-uses
 set Tomahawk stat accuracy 50
-set Tomahawk stat might 8
-set Tomahawk stat level 4
 set Battleaxe stat accuracy 50
-set Battleaxe effect restore-uses
-set Battleaxe stat cost 1500
 set Poleax stat accuracy 40
 set BreakerAxe stat accuracy 40
 set CrookedAxe stat accuracy 20
-
 set NimbusAxe stat accuracy 50
 set VolcanoAxe stat accuracy 50
 set GlacierAxe stat accuracy 50
 set DarkAxe stat accuracy 50
+set Pickaxe stat accuracy 40
+set HandAxe stat accuracy 50
+set Francisca stat accuracy 50
+set Hammer stat accuracy 40
+set Shieldaxe stat accuracy 50
+set MaozaWolf stat accuracy 40
+set GigasAxe stat accuracy 40
+set VerianAxe stat accuracy 40
+set ImperialAxe stat accuracy 40
+set OldImperialAxe stat accuracy 40
+
+set LogSplitter effect restore-uses
+set Pickaxe effect restore-uses
+set BattleSaw effect restore-uses
+set HandAxe effect restore-uses
+set BarbaricAxe effect restore-uses
+set CrookedAxe effect restore-uses
+set IronAxe effect restore-uses
+set Francisca effect restore-uses
+set Battleaxe effect restore-uses
+set Broadaxe effect restore-uses
+set VolcanoAxe effect restore-uses
+set GlacierAxe effect restore-uses
+set NimbusAxe effect restore-uses
+set DarkAxe effect restore-uses
+set WarPick effect restore-uses
+set Hatchet effect restore-uses
+set BreakerAxe effect restore-uses
+set Poleax effect restore-uses
+set Tomahawk effect restore-uses
+set BoltAxe effect restore-uses
+set KillerAxe effect restore-uses
+set Hammer effect restore-uses
+set Greataxe effect restore-uses
+set Tabarzin effect restore-uses
+set MithrilAxe effect restore-uses
+set Gullveig effect restore-uses
+set Mjollnir effect restore-uses
+set Shieldaxe effect restore-uses
+set MaozaWolf effect restore-uses
+set Bhuj effect restore-uses
+set GigasAxe effect restore-uses
+set VerianAxe effect restore-uses
+set OldImperialAxe effect restore-uses
+set ImperialAxe effect restore-uses
+set BanditAxe effect restore-uses
+
+set Broadaxe stat level 6
+set GigasAxe stat level 20
+set Hammer stat level 15
+set Tomahawk stat level 4
+set MaozaWolf stat level 20
+set VolcanoAxe stat level 1
+set GlacierAxe stat level 1
+set NimbusAxe stat level 1
+set DarkAxe stat level 1
+set BoltAxe stat level 1
+set Mjollnir stat level 1
+
+set BanditAxe stat durability D
+set VolcanoAxe stat durability D
+set GlacierAxe stat durability D
+set NimbusAxe stat durability D
+set DarkAxe stat durability D
+set BoltAxe stat durability C
+set Mjollnir stat durability B
+
+set Battleaxe stat cost 1500
+set GigasAxe stat cost 3000
 
 set NimbusAxe stat might 9
 set VolcanoAxe stat might 9
@@ -1522,57 +1805,113 @@ set DarkAxe stat Weight 9
 
 // bows
 set Apeiron stat level 1
+
+set BronzeBow stat Weight 1
+set IronBow stat Weight 3
+set ShortBow stat Weight 1
+set SwiftBow stat Weight 3
+set Longbow stat Weight 6
+set TripleFireBow stat Weight 8
+set CompositeBow stat Weight 8
+set Apollyon stat Weight 6
+set Strongbow stat Weight 10
+set Greatbow stat Weight 12
+set Killerbow stat Weight 9
+set Apeiron stat Weight 9
+set Rossweisse stat Weight 9
+set Pascanion stat Weight 10
+set Pascanion2 stat Weight 10
+set SereniaBow stat Weight 7
+set VerianBow stat Weight 3
+set OldImperialBow stat Weight 4
+set ImperialBow stat Weight 3
+
 set BronzeBow stat accuracy 50
-set BronzeBow stat might 1
-set BronzeBow stat Weight 6
 set ImperialBow stat accuracy 50
-set ImperialBow stat might 3
-set ImperialBow stat Weight 5
-set IronBow stat might 3
-set IronBow stat Weight 5
-set OldImperialBow stat accuracy 50
-set OldImperialBow stat might 3
-set OldImperialBow stat Weight 7 
+set OldImperialBow stat accuracy 40
 set ShortBow stat accuracy 50
-set ShortBow stat might 1
-set ShortBow stat Weight 3
-set ShortBow stat cost 600
-set Apeiron stat cost 4000
-set TripleFireBow effect restore-uses
 set TripleFireBow stat accuracy 30
 set VerianBow stat accuracy 50
-set VerianBow stat might 3
-set VerianBow stat weight 5
+set Strongbow stat accuracy 40
+set Greatbow stat accuracy 40
+set SwiftBow stat accuracy 50
+set VerianBow stat accuracy 50
+set OldImperialBow stat accuracy 40
+
+set ShortBow stat cost 600
+set Apeiron stat cost 4000
 set VerianBow stat cost 1000
-set Strongbow stat accuracy 50
-set Greatbow stat accuracy 50
+set SereniaBow stat cost 6000
+set Pascanion2 stat cost 8000
+set Pascanion stat cost 8000
+
+set BronzeBow stat might 1
+set ImperialBow stat might 3
+set IronBow stat might 3
+set OldImperialBow stat might 2
+set ShortBow stat might 1
+set VerianBow stat might 3
+
+set BronzeBow effect restore-uses
+set IronBow effect restore-uses
+set ShortBow effect restore-uses
+set SwiftBow effect restore-uses
+set Longbow effect restore-uses
+set TripleFireBow effect restore-uses
+set CompositeBow effect restore-uses
+set Apollyon effect restore-uses
+set Strongbow effect restore-uses
+set Greatbow effect restore-uses
+set Killerbow effect restore-uses
+set Apeiron effect restore-uses
+set Rossweisse effect restore-uses
+set Pascanion effect restore-uses
+set Pascanion2 effect restore-uses
+set SereniaBow effect restore-uses
+set VerianBow effect restore-uses
+set OldImperialBow effect restore-uses
+set ImperialBow effect restore-uses
 
 //Crossbow
-set ImperialCrossbow stat accuracy 70
-set ImperialCrossbow stat might 10
-set ImperialCrossbow stat Weight 8
-set OldImperialCrossbow stat accuracy 70
-set OldImperialCrossbow stat Weight 8
-set OldImperialCrossbow stat might 5
-set VerianCrossbow stat accuracy 70
-set VerianCrossbow stat might 10
-set VerianCrossbow stat Weight 8
 
-set Bowgun effect restore-uses
-
-set Arbalest stat accuracy 50
-set Arbalest stat max-range 2
-set Arbalest stat might 20
-
-set Bowgun stat weight 4
-set Gastraphetes stat weight 10
-set HeavyCrossbow stat weight 11
-set BraveCrossbow stat weight 13
-set Chu-ko-nu stat weight 15
-set Arbalest stat weight 14
+set Bowgun stat weight 5
+set IronCrossbow stat weight 8
+set Gastraphetes stat weight 11
+set HeavyCrossbow stat weight 14
+set BraveCrossbow stat weight 14
+set Chu-ko-nu stat weight 16
+set Arbalest stat weight 18
+set KillerCrossbow stat weight 13
 set Ollerus stat weight 10
 set RapidCrossbow stat weight 16
-set Hawkeye stat weight 13
+set Hawkeye stat weight 16
+
+set ImperialCrossbow stat Weight 8
+set OldImperialCrossbow stat Weight 9
+set VerianCrossbow stat Weight 8
+
+set ImperialCrossbow stat might 10
+set OldImperialCrossbow stat might 5
+set VerianCrossbow stat might 10
+
+set Bowgun stat accuracy 70
+set IronCrossbow stat accuracy 70
+set Gastraphetes stat accuracy 70
+set HeavyCrossbow stat accuracy 70
+set BraveCrossbow stat accuracy 60
+set Chu-ko-nu stat accuracy 60
+set Arbalest stat accuracy 60
+set KillerCrossbow stat accuracy 80
+set Ollerus stat accuracy 70
+set RapidCrossbow stat accuracy 60
+set Hawkeye stat accuracy 60
+
+set ImperialCrossbow stat accuracy 70
+set Bowgun stat accuracy 70
+set OldImperialCrossbow stat accuracy 60
+set VerianCrossbow stat accuracy 70
+
+set Arbalest stat max-range 2
 
 set Bowgun effect restore-uses
 set Gastraphetes effect restore-uses
@@ -1583,48 +1922,93 @@ set Arbalest stat effect restore-uses
 set Ollerus stat effect restore-uses
 set RapidCrossbow effect restore-uses
 set Hawkeye stat effect restore-uses
+set KillerCrossbow stat effect restore-uses
+set ImperialCrossbow stat effect restore-uses
+set OldImperialCrossbow stat effect restore-uses
+set VerianCrossbow stat effect restore-uses
 
 // sshield
-set ShiningShield effect negate-dark 100
-set ShiningShield effect restore-uses
-set DarkShield stat dark_res 10
-set WyrmskinShield effect restore-uses
-set LadyShield effect restore-uses
-set RoundShield stat cost 2000
-set mithrilshield stat cost 3000
-set mithrilshield stat level 10
-set Perseid stat cost 6000
-set DarkShield effect restore-uses
+
 set ShiningShield stat level 12
 
+set ShiningShield effect negate-dark 100
+set DarkShield stat dark_res 10
+
+set ShiningShield effect restore-uses
+set WyrmskinShield effect restore-uses
+set LadyShield effect restore-uses
+set DarkShield effect restore-uses
+set MithrilShield effect restore-uses
+set MetalShield effect restore-uses
+set Aspis effect restore-uses
+set PrototypeSShd effect restore-uses
+set Buckler effect restore-uses
+set LeatherSShd effect restore-uses
+set RoundShield effect restore-uses
+set Vollenden effect restore-uses
+set Windshield effect restore-uses
+set FireShield effect restore-uses
+set ThunderShield effect restore-uses
+set LightShield effect restore-uses
+
 set LeatherSShd stat might 2
+set ImpSoldierSShd stat might 4
+set OldImpSShd stat might 3
+set Vollenden stat might 7
+
+set LeatherSShd stat Weight 2
+set Buckler stat Weight 2
+set PrototypeSShd stat Weight 3
+set Aspis stat Weight 3
+set RoundShield stat Weight 3
+set Windshield stat Weight 3
+set FireShield stat Weight 3
+set ThunderShield stat Weight 3
+set LightShield stat Weight 3
+set DarkShield stat Weight 3
+set MetalShield stat weight 4
+set MithrilShield stat weight 4
+set Vollenden stat weight 4
+set ShiningShield stat Weight 4
+
+Set VerianSShd Stat Weight 3
+set OldImpSShd stat Weight 4
+set ImpSoldierSShd stat Weight 3
+set ImpSoldierSShd+ stat Weight 3
+set ImpOfficerSShd stat weight 3
+set ImpKnightSShd stat weight 5
+
+set ShiningShield Stat Cost 5000
+set Vollenden stat Cost 7000
+set RoundShield stat cost 2000
+set mithrilshield stat cost 3000
+set Perseid stat cost 6000
 set LeatherSShd stat cost 500
 
-set OldImpSShd stat Weight 4
-set OldImpSShd stat accuracy 40
+set Vollenden stat accuracy 50
+set OldImpSShd stat accuracy 30
 set VerianSShd stat accuracy 40
 set ImpSoldierSShd stat accuracy 40
+set ImpSoldierSShd+ stat accuracy 50
+
 set VerianSShd stat durability D
 set OldImpSShd stat durability E
 set ImpSoldierSShd stat durability D
 set ImpSoldierSShd+ stat durability D
-set ImpSoldierLShd+ stat durability D
 set ImpOfficerSShd stat durability D
 set ImpKnightSShd stat durability D
 set ImpKnightSShd stat cost 1000
 
-
-set Windshield stat level 1
 set FireShield stat level 1
 set ThunderShield stat level 1
 set LightShield stat level 1
 set DarkShield stat level 1
 
-set Windshield stat accuracy 50
-set FireShield stat accuracy 50
-set ThunderShield stat accuracy 50
-set LightShield stat accuracy 50
-set DarkShield stat accuracy 50
+set Windshield stat accuracy 40
+set FireShield stat accuracy 40
+set ThunderShield stat accuracy 40
+set LightShield stat accuracy 40
+set DarkShield stat accuracy 40
 
 set Windshield stat might 6
 set FireShield stat might 6
@@ -1632,49 +2016,28 @@ set ThunderShield stat might 6
 set LightShield stat might 6
 set DarkShield stat might 6
 
-set Windshield stat Weight 2
-set FireShield stat Weight 2
-set ThunderShield stat Weight 2
-set LightShield stat Weight 2
-set DarkShield stat Weight 2
-
 set Windshield stat cost 2000
 set FireShield stat cost 2000
 set ThunderShield stat cost 2000
 set LightShield stat cost 2000
 set DarkShield stat cost 2000
 
-set Windshield effect restore-uses
-set FireShield effect restore-uses
-set ThunderShield effect restore-uses
-set LightShield effect restore-uses
+//mshield Stuff
 
-// M-Shield Stuff
-set LadyMShd stat cost 4000
-
-set LightningShield stat accuracy 50
-set RadiantShield stat accuracy 50
-set ShadowShield stat accuracy 50
-set BlazingShield stat accuracy 50
-set GaleShield stat accuracy 50
-
-set LightningShield stat might 11
-set RadiantShield stat might 11
-set ShadowShield stat might 11
-set BlazingShield stat might 11
-set GaleShield stat might 11
-
-set LightningShield stat level 1
-set RadiantShield stat level 1
-set ShadowShield stat level 1
-set BlazingShield stat level 1
-set GaleShield stat level 1
-
-set LightningShield stat Weight 7
-set RadiantShield stat Weight 7
-set ShadowShield stat Weight 7
-set BlazingShield stat Weight 7
-set GaleShield stat Weight 7
+Set LeatherMShd stat Weight 3
+Set Kiteshield stat Weight 6
+Set SquareShield stat Weight 7
+Set KnightShield stat Weight 8
+Set LimitShield stat Weight 7
+Set Hestia stat Weight 7
+Set WyrmskinShield stat Weight 7
+Set PaladinShield stat Weight 8
+Set BlackShield stat Weight 9
+Set VerianMShd stat Weight 5
+Set ImpSoldierMShd stat Weight 5
+Set ImpSoldierMShd+ stat Weight 5
+Set ImpOfficerMShd stat Weight 6
+Set ImpKnightMShd stat Weight 7
 
 set LightningShield stat Durability C
 set RadiantShield stat Durability C
@@ -1682,44 +2045,70 @@ set ShadowShield stat Durability C
 set BlazingShield stat Durability C
 set GaleShield stat Durability C
 
-set ImpKnightMShd stat might 12
-set ImpOfficerMShd stat might 10
-
-set LeatherMShd stat might 5
-set BlackShield stat level 15
-set VerianMShd effect restore-uses
 set ImpSoldierMShd stat durability D
 set ImpSoldierMShd+ stat durability D
 set ImpOfficerMShd stat durability D
 set ImpKnightMShd stat durability D
 
-set RoundShield effect restore-uses
+
+Set PaladinShield effect restore-uses
+set VerianMShd effect restore-uses
+set LeatherMShd effect restore-uses
+set Kiteshield effect restore-uses
+set SquareShield effect restore-uses
+set KnightShield effect restore-uses
+set Hestia effect restore-uses
+set WyrmskinShield effect restore-uses
+set PaladinShield effect restore-uses
+set BlackShield effect restore-uses
+set ImpSoldierMShd effect restore-uses
+set ImpSoldierMShd+ effect restore-uses
+set ImpOfficerMShd effect restore-uses
+set ImpKnightMShd effect restore-uses
+
+set LightningShield stat accuracy 40
+set RadiantShield stat accuracy 40
+set ShadowShield stat accuracy 40
+set BlazingShield stat accuracy 40
+set GaleShield stat accuracy 40
+
+set LightningShield stat might 10
+set RadiantShield stat might 10
+set ShadowShield stat might 10
+set BlazingShield stat might 10
+set GaleShield stat might 10
+
+set LightningShield stat level 1
+set RadiantShield stat level 1
+set ShadowShield stat level 1
+set BlazingShield stat level 1
+set GaleShield stat level 1
+
+set LightningShield stat Weight 6
+set RadiantShield stat Weight 6
+set ShadowShield stat Weight 6
+set BlazingShield stat Weight 6
+set GaleShield stat Weight 6
+
+set LeatherMShd stat might 5
+
+set LadyMShd stat cost 4000
+
+set BlackShield stat level 15
 
 // l-shield stuff
-set AmaterasuShield effect restore-uses
-set AmaterasuShield stat cost 4000
-set AmaterasuShield stat level 20
-set BlackShield effect restore-uses
-set GeneralShield effect restore-uses
-set GeneralShield stat level 20
-set Greatshield effect restore-uses
-set Hestia stat cost 4000
-set ImpKnightLShd stat cost 1000
-set ImpKnightLShd stat durability D
-set ImpOfficerLShd stat cost 1000
-set ImpOfficerLShd stat durability D
-set ImpSoldierLShd stat cost 1000
-set ImpSoldierLShd stat durability D
-set ImpSoldierLShd+ stat cost 1000
-set ImpSoldierLShd+ stat durability D
-set ImpSoldierLShd+ effect restore-uses
-set LimitShield effect restore-uses
-set LimitShield stat cost 3000
-set VerianLShd stat cost 1000
-set VerianLShd stat Durability D
-set WideShield effect restore-uses
-set WyrmskinShield stat cost 4000
 
+set AmaterasuShield stat level 16
+set GeneralShield stat level 16
+set KojinShield stat level 1
+set FujinShield stat level 1
+set RaijinShield stat level 1
+
+set ImpKnightLShd stat durability D
+set ImpOfficerLShd stat durability D
+set ImpSoldierLShd stat durability D
+set ImpSoldierLShd+ stat durability D
+set VerianLShd stat Durability D
 set LeatherLShd stat Durability C
 set WideShield stat Durability C
 set IronShield stat Durability A
@@ -1730,6 +2119,44 @@ set RaijinShield stat Durability C
 set AmaterasuShield stat Durability C
 set GeneralShield stat Durability C
 
+set AmaterasuShield effect restore-uses
+set BlackShield effect restore-uses
+set GeneralShield effect restore-uses
+set Greatshield effect restore-uses
+set ImpSoldierLShd+ effect restore-uses
+set LimitShield effect restore-uses
+set WideShield effect restore-uses
+set LeatherLShd effect restore-uses
+set IronShield effect restore-uses
+set ImpKnightLShd effect restore-uses
+set ImpOfficerLShd effect restore-uses
+set ImpSoldierLShd effect restore-uses
+set VerianLShd effect restore-uses
+
+set AmaterasuShield stat cost 4000
+set Hestia stat cost 4000
+set ImpSoldierLShd stat cost 1000
+set ImpSoldierLShd+ stat cost 1000
+set LimitShield stat cost 3000
+set VerianLShd stat cost 1000
+set WyrmskinShield stat cost 4000
+
+// Formula used : Weight = ( Defense * 2 / 3 )
+// I created this formula from AmaterasuShield & GeneralShield Stats
+
+Set LeatherLShd Stat Weight 5
+Set WideShield Stat Weight 9
+Set IronShield Stat Weight 11
+Set Greatshield Stat Weight 13
+Set GeneralShield Stat Weight 13
+
+Set VerianLShd Stat Weight 9
+Set ImpSoldierLShd Stat Weight 10
+Set ImpSoldierLShd+ Stat Weight 9
+Set ImpOfficerLShd Stat Weight 10
+Set ImpKnightLShd Stat Weight 11
+
+// restore-uses
 set AltiumSword effect restore-uses
 set Apollyon effect restore-uses
 set Aspis effect restore-uses
@@ -1816,7 +2243,6 @@ set Xyston effect restore-uses
 set battlesaw effect restore-uses
 set bloodknife effect restore-uses
 set killercrossbow effect restore-uses
-set killingedge effect restore-uses
 set maingauche effect restore-uses
 set mithrilshield effect restore-uses
 set paladinshield effect restore-uses
@@ -1839,6 +2265,8 @@ set FeatherBrace stat speed 2
 set MuscleBrace stat strength 2
 set GuardBrace stat defense 2
 set SpiritBrace stat magic 2
+
+//Accessories Buff
 
 set TigerBrace stat hit 15
 set GiantsBrace stat strength 4
