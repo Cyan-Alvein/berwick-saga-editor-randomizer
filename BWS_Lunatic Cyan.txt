@@ -87,9 +87,9 @@ unset RazeMonkOwen skill limited
 //unset marcel skill slowstart
 
 set reese item 3 HolySword 101
-set reese item 4 Treasure 101
+set reese item 4 Colichemarde 101
 set reese item 5 RazeEtoile 101
-set reese item 6 Bag 0
+set reese item 6 Grimhild 101
 set reese item 7 DarkShield 101
 set reese growth sword 90
 set reese growth sshield 100
@@ -383,31 +383,31 @@ set HighHunter base sword +40
 
 set faramir item 2 SteelArrow+ 80
 set faramir item 3 MithrilSword 101
-set faramir item 4 Bag 0
+set faramir item 4 Adrastia 101
 set faramir item 5 MithrilArrow 80
 set faramir item 6 Zanbato 101
-set faramir item 7 Apollyon 101
+set faramir item 7 Greatbow 101
 set faramir growth sword 100
 set faramir growth bow 100
 set faramir base sword +20
 set faramir base bow +20
 
 set volo item 1 Shortsword 101
-set volo item 2 Scimitar+ 101
+set volo item 2 KnightSword 101
 set volo item 3 InfernalEdge 101
 set volo item 4 Bag 0
-set volo item 5 Grimhild 101
+set volo item 5 BastardSword 101
 set volo item 6 PhoenixBrace 101
-set volo item 7 Colichemarde 101
+set volo item 7 Zanbato 101
 set volo growth sword 90
 set volo base sword +20
 
 set sherpa growth sword 60
-set Sherpa item 1 Bag 0
+set Sherpa item 1 BastardSword 101
 set Sherpa item 2 ShiningShield 101
 set Sherpa item 3 Treasure 101
 set Sherpa item 4 Shortsword 101 
-set Sherpa item 5 Bag 0
+set Sherpa item 5 Zanbato 101
 set Sherpa item 6 Bag 0
 set Sherpa item 7 Treasure 101
 set Sherpa base sword +20
@@ -483,7 +483,7 @@ set derrick growth axe 60
 set derrick growth Lshield 50
 set derrick growth defense 20
 set derrick growth strength 30
-set Derrick item 0 ImperialAxe 101
+set Derrick item 0 Broadaxe 101
 set Derrick item 2 GigasAxe 101
 set Derrick item 3 RaijinShield 101
 set Derrick item 4 IronShield 101
@@ -628,6 +628,7 @@ set adel skill supporter
 set adel skill throw
 set adel skill vantage
 set adel skill desperation
+set adel skill expert
 
 set leon skill vantage 
 set leon skill throw 
@@ -649,6 +650,7 @@ set leon skill paragon
 set leon skill pitchfork
 set leon skill robust
 set leon skill supporter
+set leon skill expert
 
 set sherlock skill aim 
 set sherlock skill pursuit
@@ -673,6 +675,7 @@ set sherlock skill desperation
 set sherlock skill counter
 set sherlock skill overwatch
 set sherlock skill adept
+set sherlock skill expert
 
 set izerna skill maim
 set izerna skill charisma 
@@ -684,6 +687,7 @@ set izerna skill celerity
 set izerna skill hurry
 set izerna skill paragon
 set izerna skill resistor
+set izerna skill expert
 
 set czene skill vantage 
 set czene skill steal 
@@ -873,6 +877,7 @@ set kramer skill knockaway
 set kramer skill mercy
 set kramer skill paragon
 set kramer skill pursuit
+set kramer skill expert
 
 set sherpa skill parry 
 set sherpa skill battlecry
@@ -894,6 +899,7 @@ set sherpa skill sunder
 set sherpa skill windsweep
 set sherpa skill swordbane
 set sherpa skill pursuit
+set sherpa skill expert
 
 set dean skill throw 
 set dean skill climber 
@@ -918,6 +924,7 @@ set dean skill windsweep
 set dean skill knockaway
 set dean skill parry
 set dean skill guard
+set dean skill expert
 
 set sylvis skill vantage 
 set sylvis skill pursuit
@@ -1019,6 +1026,7 @@ set faye skill sunder
 set faye skill desperation
 set faye skill fortune
 set faye skill counter
+set faye skill expert
 
 set faramir skill sunder 
 set faramir skill windsweep 
@@ -1044,6 +1052,7 @@ set faramir skill parry
 set faramir skill pulverize
 set faramir skill pursuit
 set faramir skill desperation
+set faramir skill expert
 
 set volo skill counter 
 set volo skill astra
@@ -1066,6 +1075,7 @@ set volo skill windsweep
 set volo skill pursuit
 set volo skill parry
 set volo skill desperation
+set volo skill expert
 
 set clifford skill battlecry
 set clifford skill canto
@@ -1114,6 +1124,7 @@ set axel skill adept
 set axel skill windsweep
 set axel skill desperation
 set axel skill pursuit
+set axel skill expert
 
 set larentia skill sunder 
 set larentia skill windsweep 
@@ -1221,6 +1232,7 @@ set lynette skill supporter
 set lynette skill pursuit
 set lynette skill windsweep
 set lynette skill desperation
+set lynette skill expert
 
 set paramythis skill parry 
 set paramythis skill spearbane 
