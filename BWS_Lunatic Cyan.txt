@@ -118,7 +118,7 @@ set elbert item 1 RoundShield 101
 set elbert item 2 Longsword 101
 set elbert item 3 MithrilShield 101
 set elbert item 4 Windshield 101
-set elbert item 5 Verutum 101
+set elbert item 5 Verutum 20
 set elbert item 6 LiquidSpeed 1
 set elbert item 7 Bag 0
 set elbert growth sword 100
@@ -627,6 +627,7 @@ set christine skill supporter
 set christine skill windsweep
 set christine skill desperation
 set christine skill hide
+set christine skill expert
 
 set adel skill sunder 
 set adel skill windsweep 
