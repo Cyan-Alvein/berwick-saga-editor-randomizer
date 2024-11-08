@@ -91,7 +91,7 @@ unset RazeMonkOwen skill limited
 set reese item 3 HolySword 101
 set reese item 4 Colichemarde 101
 set reese item 5 RazeEtoile 101
-set reese item 6 Treasure 101
+set reese item 6 LiquidSpeed 1
 set reese item 7 DarkShield 101
 set reese growth sword 90
 set reese growth sshield 100
@@ -99,9 +99,11 @@ set reese growth mshield 100
 set reese base sword +20
 set reese base sshield +20
 
-set ward item 3 Pike 101
+set ward item 1 Bag 0
+set ward item 2 BlackShield 101
+set ward item 3 Bag 0
 set ward item 4 WindSpear 101
-set ward item 5 MithrilSpear 101
+set ward item 5 Treasure 101
 set ward item 6 SwiftSpear 101
 set ward item 7 WyrmskinShield 101
 set ward growth sword 60
@@ -111,11 +113,13 @@ set ward base mshield +15
 set ward base sword +15
 set ward base spear +15
 
-set elbert item 2 Bag 0
-set elbert item 3 Vollenden 101
+set elbert item 0 SteelSpear 101
+set elbert item 1 RoundShield 101
+set elbert item 2 Longsword 101
+set elbert item 3 MithrilShield 101
 set elbert item 4 Windshield 101
 set elbert item 5 Verutum 101
-set elbert item 6 SteelSpear 101
+set elbert item 6 LiquidSpeed 1
 set elbert item 7 Bag 0
 set elbert growth sword 100
 set elbert growth spear 70
@@ -136,10 +140,13 @@ set Paladin_F_R base spear +30
 set Paladin_F base mshield +30
 set Paladin_F base spear +30
 
-set christine item 3 Treasure 101
-set christine item 4 IronArrow+ 80
-set christine item 5 Hawkeye 101
-set christine item 6 SteelArrow+ 80
+set christine item 0 Gastraphetes 101
+set christine item 1 IronArrow+ 80
+//set christine item 2 Don't Touch Bag 4 Vulnaries
+set christine item 3 SteelArrow+ 80
+set christine item 4 MithrilArrow 80
+set christine item 5 BronzeArrow+ 80
+set christine item 6 Treasure 101
 set christine item 7 Bag 0
 set christine growth sword 80
 set christine growth bow 80
@@ -150,6 +157,8 @@ set christine base sword +30
 set ArrowKnight_R base sword +30
 set ArrowKnight base sword +30
 
+set adel item 0 SteelSpear 101
+set adel item 1 RoundShield 101
 set adel item 2 FireShield 101
 set adel item 3 GoreFork 101
 set adel item 4 Angon 101
@@ -161,18 +170,22 @@ set adel growth sshield 100
 set adel base sshield +20
 set adel base spear +20
 
+set leon item 0 SteelSpear 101
+set leon item 1 RoundShield 101
 set leon item 2 GoreFork 101
 set leon item 3 Treasure 101
 set leon item 4 ThunderShield 101
-set leon item 5 Bag 0
-set leon item 6 SteelSpear 101
+set leon item 5 Vollenden 101
+set leon item 6 LiquidVitality 1
 set leon item 7 Verutum 20
 set leon growth spear 90
 set leon growth sshield 50
 set leon base sshield +20
 set leon base spear +20
 
-set sherlock item 3 Apollyon 101
+set sherlock item 0 Apollyon 101
+set sherlock item 1 BronzeArrow+ 80
+set sherlock item 3 Treasure 101
 set sherlock item 4 SteelArrow+ 80
 set sherlock item 5 IronArrow+ 80
 set sherlock item 6 Bag 0
@@ -274,7 +287,7 @@ set ruby item 3 LadyMShd 101
 set ruby item 4 LadySword 101
 set ruby item 5 Bag 0
 set ruby item 6 Harperia 101
-set ruby item 7 LiquidVitality 1
+set ruby item 7 LiquidStrength 1
 set Ruby base magic +3
 set ruby growth sword 90
 set ruby growth spear 100
@@ -331,7 +344,7 @@ set faye item 2 GiantsBrace 101
 set faye item 3 Bag 0
 set faye item 4 Vajra 101
 set faye item 5 FlameSword 101 
-set faye item 6 Shortsword 101
+set faye item 6 GrowthCharm 101
 set faye item 7 LiquidStrength 1
 set faye growth sword 100
 set faye base sword +20
@@ -386,6 +399,8 @@ set esteban base bow +20
 set esteban base sword +40
 set HighHunter base sword +40
 
+set faramir item 0 Cutlass+ 101
+set faramir item 1 KillerBow 101
 set faramir item 2 SteelArrow+ 80
 set faramir item 3 MithrilSword 101
 set faramir item 4 Adrastia 101
@@ -420,7 +435,7 @@ set Sherpa base sword +20
 set clifford item 3 Drakelance 101
 set clifford item 4 Partisan 101
 set clifford item 5 LimitShield 101
-set clifford item 6 SwiftSpear 101
+set clifford item 6 BlackShield 101
 set clifford item 7 KnightSword 101
 set clifford growth sword 80
 set clifford growth spear 60
@@ -1454,6 +1469,8 @@ set AssassinsKnife effect cripple-rate 4
 
 //swords
 
+set BronzeSword stat might 4
+set Shortsword stat might 6
 set LevinSword stat might 6
 set FlameSword stat might 8
 set HolySword stat might 10
@@ -1517,16 +1534,16 @@ set InfernalEdge stat cost 3000
 set RazeEtoile stat cost 6000
 set Harperia stat cost 5000
 set Colichemarde stat cost 7000
-set BronzeSword stat cost 600
 
 set Scimitar+ stat level 1
 set FlameSword stat level 1
 set HolySword stat level 1
 set WindEdge stat level 1
 set InfernalEdge stat level 1
+set Grimhild stat level 1
 
-set BronzeSword stat Weight 3
-set Shortsword stat Weight 2
+set BronzeSword stat Weight 4
+set Shortsword stat Weight 4
 set Scimitar stat weight 4
 set Longsword stat weight 5
 set WindEdge stat weight 4
@@ -2025,6 +2042,10 @@ set Springald stat accuracy 60
 
 set SteelBallista stat level 7
 set Springald stat level 7
+set Springald effect restore-uses
+set StandardBolt effect restore-uses
+set New-TypeBolt effect restore-uses
+set Scorpio effect restore-uses
 
 set BronzeBallista stat weight 20
 set IronBallista stat weight 20
