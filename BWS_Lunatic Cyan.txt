@@ -91,7 +91,7 @@ unset RazeMonkOwen skill limited
 set reese item 3 HolySword 101
 set reese item 4 Colichemarde 101
 set reese item 5 RazeEtoile 101
-set reese item 6 Grimhild 101
+set reese item 6 Treasure 101
 set reese item 7 DarkShield 101
 set reese growth sword 90
 set reese growth sshield 100
@@ -114,7 +114,7 @@ set ward base spear +15
 set elbert item 2 Bag 0
 set elbert item 3 Vollenden 101
 set elbert item 4 Windshield 101
-set elbert item 5 Pike 101
+set elbert item 5 Verutum 101
 set elbert item 6 SteelSpear 101
 set elbert item 7 Bag 0
 set elbert growth sword 100
@@ -152,7 +152,7 @@ set ArrowKnight base sword +30
 
 set adel item 2 FireShield 101
 set adel item 3 GoreFork 101
-set adel item 4 Pike 101
+set adel item 4 Angon 101
 set adel item 5 Treasure 101
 set adel item 6 Bag 0
 set adel item 7 LiquidVitality 1
@@ -166,13 +166,13 @@ set leon item 3 Treasure 101
 set leon item 4 ThunderShield 101
 set leon item 5 Bag 0
 set leon item 6 SteelSpear 101
-set leon item 7 Pike 101
+set leon item 7 Verutum 20
 set leon growth spear 90
 set leon growth sshield 50
 set leon base sshield +20
 set leon base spear +20
 
-set sherlock item 3 Longbow 101
+set sherlock item 3 Apollyon 101
 set sherlock item 4 SteelArrow+ 80
 set sherlock item 5 IronArrow+ 80
 set sherlock item 6 Bag 0
@@ -221,7 +221,7 @@ set Daoud item 1 GaleShield 101
 set Daoud item 2 Concoction 1
 set Daoud item 3 Gullveig 101
 set Daoud item 4 LightShield 101
-set Daoud item 5 Tomahawk 101
+set Daoud item 5 Bag 0
 set Daoud item 6 Bag 0
 set Daoud item 7 Treasure 101
 set Daoud base axe +10
@@ -239,7 +239,7 @@ set Enid item 3 PeerlessBrace 101
 set Enid item 4 DireThunder 20
 set Enid item 5 LiquidMagic 1
 set Enid item 6 Bag 0
-set Enid item 7 rapier 101
+set Enid item 7 Rapier 101
 set Enid base fire +30
 set Enid base thunder +30
 set FlameFencer base thunder +30
@@ -251,7 +251,7 @@ set Marcel item 2 Zanbato 101
 set Marcel item 3 AmaterasuShield 101
 set Marcel item 4 KojinShield 101
 set Marcel item 5 FujinShield 101
-set Marcel item 6 GeneralShield 101
+set Marcel item 6 BastardSword 101
 set Marcel item 7 Bag 0
 set Marcel base sword +20
 set Marcel base lshield +20
@@ -273,7 +273,7 @@ set ruby item 2 LadyShield 101
 set ruby item 3 LadyMShd 101
 set ruby item 4 LadySword 101
 set ruby item 5 Bag 0
-set ruby item 6 Scimitar+ 101
+set ruby item 6 Harperia 101
 set ruby item 7 LiquidVitality 1
 set Ruby base magic +3
 set ruby growth sword 90
@@ -292,7 +292,7 @@ set ruby base mshield +40
 //set arthur item 6 BlazingShield 101
 //set arthur item 7 WindSpear 101
 set arthur item 2 Bag 0
-set arthur item 3 Shortsword 101
+set arthur item 3 Grimhild 101
 set arthur item 4 Scimitar+ 101
 set arthur item 5 BlazingShield 101
 set arthur item 6 ShadowShield 101
@@ -307,12 +307,12 @@ set arthur base mshield +20
 set arthur base spear +30
 
 set kramer item 1 Bag 0
-set kramer item 1 Scimitar+ 101
+set kramer item 1 KillingEdge 101
 set kramer item 1 GrowthCharm 101
 set kramer item 2 LevinSword 101
 set kramer item 3 VanishCharm 101
 set kramer item 4 PhoenixBrace 101
-set kramer item 5 Bag 0
+set kramer item 5 Albatross 101
 set kramer item 6 Shortsword 101
 set kramer item 7 LiquidDefense 1
 set kramer growth sword 100
@@ -321,7 +321,7 @@ set kramer base sword +20
 set dean growth axe 100
 set dean item 2 Bag 0
 set dean item 3 Bhuj 101
-set dean item 4 Albatross 101
+set dean item 4 Treasure
 set dean item 5 BoltAxe 101 
 set dean item 6 GrowthCharm 101
 set dean item 7 GamblersBrace 101
@@ -336,6 +336,9 @@ set faye item 7 LiquidStrength 1
 set faye growth sword 100
 set faye base sword +20
 
+set sylvis item 0 Bag 0
+set sylvis item 1 Apollyon 101
+set sylvis item 2 SteelArrow+ 80
 set sylvis item 3 Apeiron 101
 set sylvis item 4 RaijinArrow 80
 set sylvis item 5 Ollerus 101
@@ -394,7 +397,7 @@ set faramir growth bow 100
 set faramir base sword +20
 set faramir base bow +20
 
-set volo item 1 Shortsword 101
+set volo item 1 Treasure 101
 set volo item 2 KnightSword 101
 set volo item 3 InfernalEdge 101
 set volo item 4 Bag 0
@@ -408,7 +411,7 @@ set sherpa growth sword 60
 set Sherpa item 1 BastardSword 101
 set Sherpa item 2 ShiningShield 101
 set Sherpa item 3 Treasure 101
-set Sherpa item 4 Shortsword 101 
+set Sherpa item 4 LiquidDefense 101 
 set Sherpa item 5 Zanbato 101
 set Sherpa item 6 Bag 0
 set Sherpa item 7 Treasure 101
@@ -428,8 +431,9 @@ set clifford base spear +20
 set clifford base sshield +20
 set clifford base mshield +20
 
+set axel item 0 Broadaxe 101
 set axel item 1 MaozaWolf 101
-set axel item 2 Broadaxe 101
+set axel item 2 KillerAxe 101
 set axel item 3 Bag 0
 set axel item 4 SereniaBow 101
 set axel item 5 Tomahawk 101
@@ -440,8 +444,8 @@ set axel base axe +20
 
 set larentia item 2 LadySword 101
 set larentia item 3 Aiantos 101
-set larentia item 4 Angon 101
-set larentia item 5 PrototypeSpear 101
+set larentia item 4 Verutum 101
+set larentia item 5 MithrilSpear 101
 set larentia item 6 Scimitar+ 101
 set larentia item 7 Bag 0
 set larentia growth sword 60
@@ -451,9 +455,9 @@ set larentia base sword +15
 set larentia base spear +15
 set larentia base sshield +15
 
-set Owen item 5 Thunder 20
-set Owen item 6 Fire 20
-set Owen item 7 AirBlade 40
+set Owen item 5 Sleep 12
+set Owen item 6 Berserk 20
+set Owen item 7 Darkmend 20
 set owen growth light 70
 set owen growth fire 30
 set owen growth thunder 30
@@ -474,8 +478,8 @@ set burroughs item 0 Scylla 20
 set burroughs item 1 Swarm 20
 set burroughs item 2 Tumahann 16
 set burroughs item 3 KisharsWrath 8
-set burroughs item 4 Wormwood 18
-set burroughs item 5 Darkmend 20
+set burroughs item 4 Scorpio 101
+set burroughs item 5 Springald 101
 set burroughs item 6 Bag 0
 set burroughs item 7 Bag 0
 set burroughs growth crossbow 100
@@ -500,7 +504,7 @@ set saphira item 2 Heal 20
 set saphira item 3 LightRing 101
 set saphira item 4 Physic 15
 set saphira item 5 Awaken 10
-set saphira item 6 Bag 0
+set saphira item 6 Mend 20
 set saphira item 7 Bag 0
 set saphira growth holy 100
 set saphira base holy +20
@@ -517,7 +521,7 @@ set lynette base thunder +20
 set lynette base sword +20
 set lynette base bow +20
 
-set paramythis item 0 MithrilSword 101 
+set paramythis item 0 LadySword 101 
 set paramythis item 2 HolyMace 101
 set paramythis item 3 Starlight 10
 set paramythis item 4 Awaken 10
@@ -690,6 +694,7 @@ set izerna skill hurry
 set izerna skill paragon
 set izerna skill resistor
 set izerna skill expert
+set izerna skill versatile
 
 set czene skill vantage 
 set czene skill steal 
@@ -1007,6 +1012,7 @@ set esteban skill watchful
 set esteban skill windsweep
 set esteban skill desperation
 set esteban skill counter
+set esteban skill expert
 	
 set faye skill pulverize
 set faye skill windsweep 
@@ -1302,7 +1308,7 @@ set Balmung2 stat level 20
 set Balmung3 stat level 20
 set Vajra stat level 20
 set Hawkeye stat level 20
-set Harperia stat level 10
+set Harperia stat level 1
 set BoltKnife stat level 1
 set SereniaBow stat level 20
 set Gram stat level 20
@@ -1415,7 +1421,7 @@ set Swordbreaker effect restore-uses
 set dart stat level 1
 set Seax stat level 3
 set TempestKnife stat level 1
-set Swordbreaker stat level 10
+set Swordbreaker stat level 7
 set AssassinsKnife stat level 20
 set Airknife stat level 1
 set ThrowingKnife stat level 1
@@ -1452,6 +1458,8 @@ set LevinSword stat might 6
 set FlameSword stat might 8
 set HolySword stat might 10
 set WindEdge stat might 6
+set KillingEdge stat might 9
+set Broadsword stat might 12
 
 set BronzeSword effect restore-uses
 set Shortsword effect restore-uses
@@ -1497,16 +1505,17 @@ set HolySword stat accuracy 50
 set WindEdge stat accuracy 60
 set KillingEdge stat accuracy 70
 set ImperialSword stat accuracy 60
+set Harperia stat accuracy 60
 
 Set ImperialSword stat cost 1000
 set AltiumSword stat cost 2400
 set LevinSword stat cost 3000
 set FlameSword stat cost 3000
-set HolySword stat cost 3500
+set HolySword stat cost 4000
 set WindEdge stat cost 1200
-set InfernalEdge stat cost 3500
+set InfernalEdge stat cost 3000
 set RazeEtoile stat cost 6000
-set Harperia stat cost 6000
+set Harperia stat cost 5000
 set Colichemarde stat cost 7000
 set BronzeSword stat cost 600
 
@@ -1528,15 +1537,15 @@ set Saber stat weight 3
 set AltiumSword stat Weight 5
 set LevinSword stat weight 6
 set Rapier stat Weight 3
-set Albatross stat weight 7
+set Albatross stat weight 6
 set HolySword stat weight 5
 set MithrilSword stat weight 4
 set KnightSword stat weight 6
 set Estoc stat weight 2
 set Grimhild stat weight 7
 set Harperia stat weight 3
-set FlameSword stat Weight 5
-set InfernalEdge stat weight 5
+set FlameSword stat Weight 6
+set InfernalEdge stat weight 6
 set Colichemarde stat weight 4
 set Cutlass stat Weight 3
 set Cutlass+ stat Weight 4
@@ -1582,7 +1591,6 @@ set BastardSword stat accuracy 60
 set Shamshir stat accuracy 60
 set GreatSword stat accuracy 50
 set Zanbato stat accuracy 60
-set GreatSword stat accuracy 50
 set Balmung stat accuracy 70
 set Balmung2 stat accuracy 70
 set Balmung3 stat accuracy 70
@@ -1591,7 +1599,7 @@ set Brymranger stat accuracy 50
 set BastardSword stat weight 8
 set Zanbato stat weight 8
 set Shamshir stat weight 7
-set GreatSword stat weight 10
+set GreatSword stat weight 9
 set Adrastia stat weight 9
 set Zweihander stat weight 9
 set Balmung stat weight 8
@@ -1631,26 +1639,30 @@ set SteelSpear stat accuracy 60
 set Brionac stat accuracy 60
 set Harpoon stat accuracy 60
 set PrototypeSpear stat accuracy 60
+set KillerSpear stat accuracy 70
+
+set Verutum stat might 12
+set Verutum stat level 4
 
 set SlimSpear stat Weight 4
 set IronSpear stat Weight 6
 set Pilum stat Weight 7
 set SteelSpear stat Weight 7
 set Harpoon stat Weight 7
-set PrototypeSpear stat Weight 7
+set PrototypeSpear stat Weight 8
 set KillerSpear stat Weight 6
-set Pike stat Weight 6
-set Longspear stat Weight 8
+set Pike stat Weight 7
+set Longspear stat Weight 7
 set Verutum stat Weight 7
-set Doru stat Weight 7
-set MithrilSpear stat Weight 7
-set WindSpear stat Weight 9
+set Doru stat Weight 8
+set MithrilSpear stat Weight 5
+set WindSpear stat Weight 8
 set Euthyphro stat Weight 6
-set Javelin stat Weight 10
+set Javelin stat Weight 8
 set Partisan stat Weight 10
-set Angon stat Weight 6
+set Angon stat Weight 7
 set Brionac stat Weight 7
-set SwiftSpear stat Weight 9
+set SwiftSpear stat Weight 10
 set Fauchard stat Weight 7
 set VerianSpear stat Weight 6
 set OldImperialSpear stat Weight 7
@@ -1684,8 +1696,6 @@ set OldImperialSpear effect restore-uses
 set ImperialSpear effect restore-uses
 
 set SwiftSpear stat level 15
-set SteelSpear stat level 1
-set set Pike stat level 1
 
 set Pike effect cripple-rate 6
 
@@ -1695,13 +1705,15 @@ set Pike effect cripple-rate 6
 set MilitaryFork effect cripple-rate 6
 set Pitchfork effect cripple-rate 6
 
-set MilitaryFork stat accuracy 50
-set Pitchfork stat accuracy 50
+set MilitaryFork stat accuracy 60
+set Pitchfork stat accuracy 60
+set GoreFork stat accuracy 50
+set Firebrand stat accuracy 60
 
 set GoreFork stat level 1
 set GoreFork stat cost 2000
 
-set Pitchfork stat weight 4
+set Pitchfork stat weight 5
 set MilitaryFork stat weight 7
 set Firebrand stat weight 8
 set GoreFork stat weight 8
@@ -1737,13 +1749,11 @@ set BanditAxe stat might 6
 set ImperialAxe stat might 10
 set LogSplitter stat might 6
 set OldImperialAxe stat might 8
-set Hatchet stat might 12
-set Gullveig stat might 14
 
-set LogSplitter stat Weight 4
-set Pickaxe stat Weight 3
-set BattleSaw stat Weight 6
-set HandAxe stat Weight 5
+set LogSplitter stat Weight 5
+set Pickaxe stat Weight 4
+set BattleSaw stat Weight 9
+set HandAxe stat Weight 7
 set BarbaricAxe stat Weight 13
 set CrookedAxe stat Weight 15
 set IronAxe stat Weight 7
@@ -1755,17 +1765,17 @@ set GlacierAxe stat Weight 7
 set NimbusAxe stat Weight 7
 set DarkAxe stat Weight 7
 set WarPick stat Weight 7
-set Hatchet stat Weight 8
+set Hatchet stat Weight 7
 set BreakerAxe stat Weight 8
 set Poleax stat Weight 9
 set Tomahawk stat Weight 7
-set BoltAxe stat Weight 7
+set BoltAxe stat Weight 8
 set KillerAxe stat Weight 7
 set Hammer stat Weight 12
-set Greataxe stat Weight 15
-set Tabarzin stat Weight 9
-set MithrilAxe stat Weight 7
-set Gullveig stat Weight 8
+set Greataxe stat Weight 14
+set Tabarzin stat Weight 8
+set MithrilAxe stat Weight 6
+set Gullveig stat Weight 7
 set Mjollnir stat Weight 8
 set Shieldaxe stat Weight 9
 set MaozaWolf stat Weight 20
@@ -1792,14 +1802,14 @@ set VolcanoAxe stat accuracy 50
 set GlacierAxe stat accuracy 50
 set DarkAxe stat accuracy 50
 set Pickaxe stat accuracy 40
-set HandAxe stat accuracy 50
-set Francisca stat accuracy 50
+set HandAxe stat accuracy 40
+set Francisca stat accuracy 40
 set Hammer stat accuracy 40
 set Shieldaxe stat accuracy 50
 set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 40
-set VerianAxe stat accuracy 40
-set ImperialAxe stat accuracy 40
+set VerianAxe stat accuracy 50
+set ImperialAxe stat accuracy 50
 set OldImperialAxe stat accuracy 40
 
 set LogSplitter effect restore-uses
@@ -1863,20 +1873,33 @@ set GigasAxe stat cost 3000
 
 // bows
 
-set Apeiron stat level 1
-set Longbow stat level 1
+set KillerArrow stat might 5
+set PoisonArrow stat might 5
+set SleepArrow stat might 5
+set PoisonArrow stat might 5
+set BroadheadArrow stat might 5
+set BodkinArrow stat might 5
+set BreakerArrow stat might 5
+set EmberArrow stat might 5
+set FreezeArrow stat might 5
+set ImperialArrow stat might 8
+set ImperialArrow+ stat might 8
+set WoodenArrow stat might 3
+set StoneArrow stat might 4
 
-set BronzeBow stat Weight 4
+set Apeiron stat level 1
+
+set BronzeBow stat Weight 5
 set IronBow stat Weight 4
-set ShortBow stat Weight 2
-set SwiftBow stat Weight 3
+set ShortBow stat Weight 3
+set SwiftBow stat Weight 4
 set Longbow stat Weight 6
 set TripleFireBow stat Weight 10
 set CompositeBow stat Weight 8
 set Apollyon stat Weight 5
 set Strongbow stat Weight 9
 set Greatbow stat Weight 10
-set Killerbow stat Weight 9
+set Killerbow stat Weight 6
 set Apeiron stat Weight 7
 set Rossweisse stat Weight 5
 set Pascanion stat Weight 7
@@ -1890,11 +1913,11 @@ set BronzeBow stat accuracy 50
 set ImperialBow stat accuracy 50
 set OldImperialBow stat accuracy 40
 set ShortBow stat accuracy 50
-set TripleFireBow stat accuracy 40
+set TripleFireBow stat accuracy 30
 set VerianBow stat accuracy 50
 set Strongbow stat accuracy 40
 set Greatbow stat accuracy 40
-set SwiftBow stat accuracy 50
+set SwiftBow stat accuracy 40
 set VerianBow stat accuracy 50
 set OldImperialBow stat accuracy 40
 
@@ -1936,8 +1959,8 @@ set ImperialBow effect restore-uses
 
 set Bowgun stat weight 4
 set IronCrossbow stat weight 6
-set Gastraphetes stat weight 7
-set HeavyCrossbow stat weight 8
+set Gastraphetes stat weight 8
+set HeavyCrossbow stat weight 9
 set BraveCrossbow stat weight 9
 set Chu-ko-nu stat weight 10
 set Arbalest stat weight 10
@@ -1973,6 +1996,8 @@ set VerianCrossbow stat accuracy 70
 
 set Arbalest stat max-range 2
 
+set Bowgun stat cost 700
+
 set Bowgun effect restore-uses
 set Gastraphetes effect restore-uses
 set HeavyCrossbow effect restore-uses
@@ -2006,6 +2031,8 @@ set IronBallista stat weight 20
 set PrototypeSpringald stat weight 20
 set PrototypeScorpio stat weight 15
 set Scorpio stat weight 15
+
+set Springald stat level 7
 
 // sshield
 
@@ -2109,10 +2136,10 @@ Set Kiteshield stat Weight 6
 Set SquareShield stat Weight 7
 Set KnightShield stat Weight 8
 Set LimitShield stat Weight 7
-Set Hestia stat Weight 7
-Set WyrmskinShield stat Weight 6
-Set PaladinShield stat Weight 7
-Set BlackShield stat Weight 7
+Set Hestia stat Weight 8
+Set WyrmskinShield stat Weight 7
+Set PaladinShield stat Weight 8
+Set BlackShield stat Weight 8
 
 Set VerianMShd stat Weight 5
 Set ImpSoldierMShd stat Weight 5
@@ -2236,16 +2263,16 @@ set VerianLShd stat cost 1000
 set WyrmskinShield stat cost 4000
 
 Set LeatherLShd Stat Weight 6
-Set WideShield Stat Weight 8
-Set IronShield Stat Weight 9
-Set Greatshield Stat Weight 10
-Set GeneralShield Stat Weight 10
-Set KojinShield Stat Weight 8
-Set FujinShield Stat Weight 8
-Set RaijinShield Stat Weight 8
-Set AmaterasuShield Stat Weight 8
+Set WideShield Stat Weight 9
+Set IronShield Stat Weight 10
+Set Greatshield Stat Weight 12
+Set GeneralShield Stat Weight 12
+Set KojinShield Stat Weight 9
+Set FujinShield Stat Weight 9
+Set RaijinShield Stat Weight 9
+Set AmaterasuShield Stat Weight 9
 
-Set VerianLShd Stat Weight 8
+Set VerianLShd Stat Weight 9
 Set ImpSoldierLShd Stat Weight 9
 Set ImpSoldierLShd+ Stat Weight 9
 Set ImpOfficerLShd Stat Weight 9
