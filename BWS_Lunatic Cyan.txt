@@ -114,10 +114,10 @@ set ward base sword +15
 set ward base spear +15
 
 set elbert item 0 SteelSpear 101
-set elbert item 1 RoundShield 101
+set elbert item 1 Windshield 101
 set elbert item 2 Longsword 101
 set elbert item 3 MithrilShield 101
-set elbert item 4 Windshield 101
+set elbert item 4 RoundShield 101
 set elbert item 5 Verutum 20
 set elbert item 6 LiquidSpeed 1
 set elbert item 7 Bag 0
@@ -145,7 +145,7 @@ set christine item 1 IronArrow+ 80
 //set christine item 2 Don't Touch Bag 4 Vulnaries
 set christine item 3 SteelArrow+ 80
 set christine item 4 MithrilArrow 80
-set christine item 5 BronzeArrow+ 80
+set christine item 5 Hawkeye 101
 set christine item 6 Treasure 101
 set christine item 7 Bag 0
 set christine growth sword 80
@@ -184,7 +184,7 @@ set leon base sshield +20
 set leon base spear +20
 
 set sherlock item 0 Apollyon 101
-set sherlock item 1 BronzeArrow+ 80
+set sherlock item 1 MithrilArrow 80
 set sherlock item 3 Treasure 101
 set sherlock item 4 SteelArrow+ 80
 set sherlock item 5 IronArrow+ 80
