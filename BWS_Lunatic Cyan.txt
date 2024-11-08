@@ -78,6 +78,8 @@
 
 // All Ennemy Myrmidon, Swordmaster, Swordfighter & Assassin got the Deathmatch. Be careful it is deadly 
 
+// All Lshield gain + 10 accuracy, so WideShield = 60 accuracy. Then Derrick with his 40 shiel skill cap will have 100 block rate with it.
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
