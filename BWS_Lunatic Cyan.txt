@@ -2023,16 +2023,14 @@ set SteelBallista stat accuracy 60
 set PrototypeSpringald stat accuracy 60
 set Springald stat accuracy 60
 
-set SteelBallista stat level 10
-set Springald stat level 10
+set SteelBallista stat level 7
+set Springald stat level 7
 
 set BronzeBallista stat weight 20
 set IronBallista stat weight 20
 set PrototypeSpringald stat weight 20
 set PrototypeScorpio stat weight 15
 set Scorpio stat weight 15
-
-set Springald stat level 7
 
 // sshield
 
