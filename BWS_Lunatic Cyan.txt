@@ -427,7 +427,7 @@ set clifford base sshield +20
 set clifford base mshield +20
 
 set axel item 1 MaozaWolf 101
-set axel item 2 IronAxe 101
+set axel item 2 Broadaxe 101
 set axel item 3 Bag 0
 set axel item 4 SereniaBow 101
 set axel item 5 Tomahawk 101
@@ -1725,35 +1725,35 @@ set Gullveig stat might 14
 
 set LogSplitter stat Weight 4
 set Pickaxe stat Weight 3
-set BattleSaw stat Weight 3
+set BattleSaw stat Weight 6
 set HandAxe stat Weight 5
 set BarbaricAxe stat Weight 13
-set CrookedAxe stat Weight 20
+set CrookedAxe stat Weight 15
 set IronAxe stat Weight 7
 set Francisca stat Weight 7
 set Battleaxe stat Weight 9
 set Broadaxe stat Weight 8
-set VolcanoAxe stat Weight 5
-set GlacierAxe stat Weight 5
-set NimbusAxe stat Weight 5
-set DarkAxe stat Weight 5
+set VolcanoAxe stat Weight 7
+set GlacierAxe stat Weight 7
+set NimbusAxe stat Weight 7
+set DarkAxe stat Weight 7
 set WarPick stat Weight 7
 set Hatchet stat Weight 8
-set BreakerAxe stat Weight 9
-set Poleax stat Weight 8
+set BreakerAxe stat Weight 8
+set Poleax stat Weight 9
 set Tomahawk stat Weight 7
-set BoltAxe stat Weight 8
-set KillerAxe stat Weight 6
-set Hammer stat Weight 10
-set Greataxe stat Weight 16
-set Tabarzin stat Weight 8
-set MithrilAxe stat Weight 10 
-set Gullveig stat Weight 9
-set Mjollnir stat Weight 9
-set Shieldaxe stat Weight 7
+set BoltAxe stat Weight 7
+set KillerAxe stat Weight 7
+set Hammer stat Weight 12
+set Greataxe stat Weight 15
+set Tabarzin stat Weight 9
+set MithrilAxe stat Weight 7
+set Gullveig stat Weight 8
+set Mjollnir stat Weight 8
+set Shieldaxe stat Weight 9
 set MaozaWolf stat Weight 20
 set Bhuj stat Weight 9
-set GigasAxe stat Weight 13
+set GigasAxe stat Weight 16
 set VerianAxe stat Weight 7
 set OldImperialAxe stat Weight 8
 set ImperialAxe stat Weight 7
@@ -1821,7 +1821,7 @@ set OldImperialAxe effect restore-uses
 set ImperialAxe effect restore-uses
 set BanditAxe effect restore-uses
 
-set Broadaxe stat level 6
+set Broadaxe stat level 3
 set GigasAxe stat level 20
 set Hammer stat level 15
 set Tomahawk stat level 4
@@ -1860,25 +1860,25 @@ set DarkAxe stat Weight 9
 set Apeiron stat level 1
 set Longbow stat level 1
 
-set BronzeBow stat Weight 1
-set IronBow stat Weight 3
-set ShortBow stat Weight 1
+set BronzeBow stat Weight 2
+set IronBow stat Weight 4
+set ShortBow stat Weight 2
 set SwiftBow stat Weight 3
 set Longbow stat Weight 6
-set TripleFireBow stat Weight 8
+set TripleFireBow stat Weight 10
 set CompositeBow stat Weight 8
-set Apollyon stat Weight 6
-set Strongbow stat Weight 10
-set Greatbow stat Weight 12
+set Apollyon stat Weight 5
+set Strongbow stat Weight 9
+set Greatbow stat Weight 10
 set Killerbow stat Weight 9
-set Apeiron stat Weight 9
-set Rossweisse stat Weight 9
-set Pascanion stat Weight 10
-set Pascanion2 stat Weight 10
-set SereniaBow stat Weight 7
-set VerianBow stat Weight 3
-set OldImperialBow stat Weight 4
-set ImperialBow stat Weight 3
+set Apeiron stat Weight 7
+set Rossweisse stat Weight 5
+set Pascanion stat Weight 7
+set Pascanion2 stat Weight 7
+set SereniaBow stat Weight 3
+set VerianBow stat Weight 4
+set OldImperialBow stat Weight 5
+set ImperialBow stat Weight 4
 
 set BronzeBow stat accuracy 50
 set ImperialBow stat accuracy 50
@@ -1928,21 +1928,21 @@ set ImperialBow effect restore-uses
 
 //Crossbow
 
-set Bowgun stat weight 2
-set IronCrossbow stat weight 4
+set Bowgun stat weight 3
+set IronCrossbow stat weight 6
 set Gastraphetes stat weight 8
-set HeavyCrossbow stat weight 11
-set BraveCrossbow stat weight 11
-set Chu-ko-nu stat weight 15
-set Arbalest stat weight 16
-set KillerCrossbow stat weight 10
-set Ollerus stat weight 7
-set RapidCrossbow stat weight 15
-set Hawkeye stat weight 13
+set HeavyCrossbow stat weight 9
+set BraveCrossbow stat weight 9
+set Chu-ko-nu stat weight 10
+set Arbalest stat weight 10
+set KillerCrossbow stat weight 6
+set Ollerus stat weight 8
+set RapidCrossbow stat weight 10
+set Hawkeye stat weight 7
 
-set ImperialCrossbow stat Weight 4
-set OldImperialCrossbow stat Weight 5
-set VerianCrossbow stat Weight 4
+set ImperialCrossbow stat Weight 6
+set OldImperialCrossbow stat Weight 7
+set VerianCrossbow stat Weight 6
 
 set ImperialCrossbow stat might 10
 set OldImperialCrossbow stat might 8
@@ -2104,9 +2104,10 @@ Set SquareShield stat Weight 7
 Set KnightShield stat Weight 8
 Set LimitShield stat Weight 7
 Set Hestia stat Weight 7
-Set WyrmskinShield stat Weight 7
-Set PaladinShield stat Weight 8
-Set BlackShield stat Weight 9
+Set WyrmskinShield stat Weight 6
+Set PaladinShield stat Weight 7
+Set BlackShield stat Weight 7
+
 Set VerianMShd stat Weight 5
 Set ImpSoldierMShd stat Weight 5
 Set ImpSoldierMShd+ stat Weight 5
@@ -2213,14 +2214,15 @@ set LimitShield stat cost 3000
 set VerianLShd stat cost 1000
 set WyrmskinShield stat cost 4000
 
-// Formula used : Weight = ( Defense * 2 / 3 )
-// I created this formula from AmaterasuShield & GeneralShield Stats
-
 Set LeatherLShd Stat Weight 5
-Set WideShield Stat Weight 9
-Set IronShield Stat Weight 11
-Set Greatshield Stat Weight 13
-Set GeneralShield Stat Weight 13
+Set WideShield Stat Weight 8
+Set IronShield Stat Weight 9
+Set Greatshield Stat Weight 11
+Set GeneralShield Stat Weight 11
+Set KojinShield Stat Weight 8
+Set FujinShield Stat Weight 8
+Set RaijinShield Stat Weight 8
+Set AmaterasuShield Stat Weight 8
 
 Set VerianLShd Stat Weight 9
 Set ImpSoldierLShd Stat Weight 10
