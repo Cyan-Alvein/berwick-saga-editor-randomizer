@@ -143,8 +143,8 @@ set Paladin_F base spear +30
 set christine item 0 Gastraphetes 101
 set christine item 1 IronArrow+ 80
 //set christine item 2 Don't Touch Bag 4 Vulnaries
-set christine item 3 SteelArrow+ 80
-set christine item 4 MithrilArrow 80
+set christine item 3 SteelArrow+ 20
+set christine item 4 MithrilArrow 20
 set christine item 5 Hawkeye 101
 set christine item 6 Treasure 101
 set christine item 7 Bag 0
@@ -184,9 +184,9 @@ set leon base sshield +20
 set leon base spear +20
 
 set sherlock item 0 Apollyon 101
-set sherlock item 1 MithrilArrow 80
+set sherlock item 1 MithrilArrow 20
 set sherlock item 3 Treasure 101
-set sherlock item 4 SteelArrow+ 80
+set sherlock item 4 SteelArrow+ 20
 set sherlock item 5 IronArrow+ 80
 set sherlock item 6 Bag 0
 set sherlock item 7 Treasure 101
@@ -229,7 +229,7 @@ set aegina base wind +30
 set daoud growth axe 100
 set daoud growth sshield 100
 set daoud growth mshield 100
-set Daoud item 0 IronAxe 101
+set Daoud item 0 Broadaxe 101
 set Daoud item 1 GaleShield 101
 set Daoud item 2 Concoction 1
 set Daoud item 3 Gullveig 101
@@ -351,11 +351,11 @@ set faye base sword +20
 
 set sylvis item 0 Bag 0
 set sylvis item 1 Apollyon 101
-set sylvis item 2 SteelArrow+ 80
+set sylvis item 2 SteelArrow+ 20
 set sylvis item 3 Apeiron 101
 set sylvis item 4 RaijinArrow 80
 set sylvis item 5 Ollerus 101
-set sylvis item 6 MithrilArrow 80
+set sylvis item 6 MithrilArrow 20
 set sylvis item 7 RapidCrossbow 101
 set sylvis growth bow 90
 set sylvis growth crossbow 70
@@ -387,7 +387,7 @@ set esteban growth knife 50
 set esteban growth sword 90
 set esteban growth bow 100
 set esteban item 0 Rossweisse 101
-set esteban item 1 SteelArrow+ 80
+set esteban item 1 SteelArrow+ 20
 set esteban item 2 Bag 0
 set esteban item 3 Pascanion2 101
 set esteban item 4 MithrilArrow 20
@@ -401,10 +401,10 @@ set HighHunter base sword +40
 
 set faramir item 0 Cutlass+ 101
 set faramir item 1 KillerBow 101
-set faramir item 2 SteelArrow+ 80
+set faramir item 2 SteelArrow+ 20
 set faramir item 3 MithrilSword 101
 set faramir item 4 Adrastia 101
-set faramir item 5 MithrilArrow 80
+set faramir item 5 MithrilArrow 20
 set faramir item 6 Zanbato 101
 set faramir item 7 Greatbow 101
 set faramir growth sword 100
@@ -526,8 +526,8 @@ set saphira base holy +20
 
 set lynette item 3 DireThunder 20
 set lynette item 4 Rossweisse 101
-set lynette item 5 SteelArrow+ 80
-set lynette item 6 MithrilArrow 80
+set lynette item 5 SteelArrow+ 20
+set lynette item 6 MithrilArrow 20
 set lynette item 7 LadySword 101
 set lynette growth sword 100
 set lynette growth bow 100
