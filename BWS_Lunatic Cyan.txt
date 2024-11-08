@@ -20,7 +20,7 @@
 
 // AirKnife got injure-rate 30, so it is a bolt, try to steal it early. Anyway I already give a BoltKnife to Czene & Thaddy so just enjoy the game without wasting your time trying to capture stuff.
 
-// All weapon and shield got their weight adjusted by a formula depending on their might. For Lshield: Weight = ( Defense * 2 / 3 ) . Formula are writted in // in this script
+// All weapon and shield got their weight adjusted. Mainly crossbow, now they same a weight relative to bow unit, so Christine & Sylvis can use their Vantage skill with it
 
 // Hawkeye & Arbalest got 2 range, Same as Ollerus.
 
@@ -98,10 +98,10 @@ set reese base sword +20
 set reese base sshield +20
 
 set ward item 3 Pike 101
-set ward item 4 Bag 0
+set ward item 4 WindSpear 101
 set ward item 5 MithrilSpear 101
 set ward item 6 SwiftSpear 101
-set ward item 7 Bag 0
+set ward item 7 WyrmskinShield 101
 set ward growth sword 60
 set ward growth spear 60
 set ward growth mshield 60
@@ -109,11 +109,11 @@ set ward base mshield +15
 set ward base sword +15
 set ward base spear +15
 
-set elbert item 2 WindSpear 101
+set elbert item 2 Bag 0
 set elbert item 3 Vollenden 101
 set elbert item 4 Windshield 101
-set elbert item 5 WyrmskinShield 101
-set elbert item 6 Bag 0
+set elbert item 5 Pike 101
+set elbert item 6 SteelSpear 101
 set elbert item 7 Bag 0
 set elbert growth sword 100
 set elbert growth spear 70
@@ -135,9 +135,9 @@ set Paladin_F base mshield +30
 set Paladin_F base spear +30
 
 set christine item 3 Treasure 101
-set christine item 4 IronArrow+ 20
+set christine item 4 IronArrow+ 80
 set christine item 5 Hawkeye 101
-set christine item 6 SteelArrow+ 20
+set christine item 6 SteelArrow+ 80
 set christine item 7 Bag 0
 set christine growth sword 80
 set christine growth bow 80
@@ -150,7 +150,7 @@ set ArrowKnight base sword +30
 
 set adel item 2 FireShield 101
 set adel item 3 GoreFork 101
-set adel item 4 SteelSpear 101
+set adel item 4 Pike 101
 set adel item 5 Treasure 101
 set adel item 6 Bag 0
 set adel item 7 LiquidVitality 1
@@ -160,11 +160,11 @@ set adel base sshield +20
 set adel base spear +20
 
 set leon item 2 GoreFork 101
-set leon item 3 GreatLance 101
+set leon item 3 Treasure 101
 set leon item 4 ThunderShield 101
 set leon item 5 Bag 0
 set leon item 6 SteelSpear 101
-set leon item 7 Treasure 101
+set leon item 7 Pike 101
 set leon growth spear 90
 set leon growth sshield 50
 set leon base sshield +20
@@ -178,7 +178,7 @@ set sherlock item 7 Treasure 101
 set sherlock growth bow 100
 set sherlock base bow +20
 
-set izerna item 1 Fortify 50
+set izerna item 1 Fortify 20
 set izerna item 2 BlessedBrace 101
 set izerna item 3 Mend 20
 set izerna item 4 Physic 15
@@ -247,8 +247,8 @@ set marcel growth sword 70
 set marcel growth Lshield 100
 set Marcel item 2 Zanbato 101
 set Marcel item 3 AmaterasuShield 101
-set Marcel item 4 WideShield 101
-set Marcel item 5 IronShield 101
+set Marcel item 4 KojinShield 101
+set Marcel item 5 FujinShield 101
 set Marcel item 6 GeneralShield 101
 set Marcel item 7 Bag 0
 set Marcel base sword +20
@@ -485,7 +485,7 @@ set derrick growth defense 20
 set derrick growth strength 30
 set Derrick item 0 ImperialAxe 101
 set Derrick item 2 GigasAxe 101
-set Derrick item 3 AmaterasuShield 101
+set Derrick item 3 RaijinShield 101
 set Derrick item 4 IronShield 101
 set Derrick item 5 GeneralShield 101
 set Derrick item 6 Tabarzin 101
@@ -1494,6 +1494,7 @@ set InfernalEdge stat cost 3500
 set RazeEtoile stat cost 6000
 set Harperia stat cost 6000
 set Colichemarde stat cost 7000
+set BronzeSword stat cost 600
 
 set Scimitar+ stat level 1
 set FlameSword stat level 1
@@ -1641,6 +1642,9 @@ set VerianSpear stat Weight 6
 set OldImperialSpear stat Weight 7
 set ImperialSpear stat Weight 6
 
+set SlimSpear stat cost 700
+set ImperialSpear stat cost 1200
+
 set SlimSpear effect restore-uses
 set IronSpear effect restore-uses
 set Pilum effect restore-uses
@@ -1667,6 +1671,7 @@ set ImperialSpear effect restore-uses
 
 set SwiftSpear stat level 15
 set SteelSpear stat level 1
+set set Pike stat level 1
 
 set Pike effect cripple-rate 6
 
@@ -2156,7 +2161,7 @@ set LadyMShd stat cost 4000
 
 set BlackShield stat level 15
 
-// l-shield stuff
+// lshield stuff
 
 set AmaterasuShield stat level 16
 set GeneralShield stat level 16
@@ -2173,11 +2178,26 @@ set LeatherLShd stat Durability C
 set WideShield stat Durability C
 set IronShield stat Durability A
 set Greatshield stat Durability B
-set KojinShield stat Durability C
-set FujinShield stat Durability C
-set RaijinShield stat Durability C
+set KojinShield stat Durability B
+set FujinShield stat Durability B
+set RaijinShield stat Durability B
 set AmaterasuShield stat Durability C
 set GeneralShield stat Durability C
+
+set ImpKnightLShd stat accuracy 50
+set ImpOfficerLShd stat accuracy 50
+set ImpSoldierLShd stat accuracy 50
+set ImpSoldierLShd+ stat accuracy 60
+set VerianLShd stat accuracy 50
+set LeatherLShd stat accuracy 50
+set WideShield stat accuracy 60
+set IronShield stat accuracy 50
+set Greatshield stat accuracy 60
+set KojinShield stat accuracy 60
+set FujinShield stat accuracy 60
+set RaijinShield stat accuracy 60
+set AmaterasuShield stat accuracy 60
+set GeneralShield stat accuracy 60
 
 set AmaterasuShield effect restore-uses
 set BlackShield effect restore-uses
