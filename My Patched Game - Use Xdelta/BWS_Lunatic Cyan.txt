@@ -282,6 +282,7 @@ set alvina base spear +20
 set alvina base sshield +20
 set alvina base mshield +20
 
+set ruby item 1 Verutum 20
 set ruby item 2 LadyShield 101
 set ruby item 3 LadyMShd 101
 set ruby item 4 LadySword 101
