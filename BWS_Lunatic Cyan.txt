@@ -184,10 +184,10 @@ set leon base sshield +20
 set leon base spear +20
 
 set sherlock item 0 Apollyon 101
-set sherlock item 1 MithrilArrow 20
+set sherlock item 1 IronArrow+ 80
 set sherlock item 3 Treasure 101
 set sherlock item 4 SteelArrow+ 20
-set sherlock item 5 IronArrow+ 80
+set sherlock item 5 MithrilArrow 20
 set sherlock item 6 Bag 0
 set sherlock item 7 Treasure 101
 set sherlock growth bow 100
@@ -1030,27 +1030,27 @@ set esteban skill desperation
 set esteban skill counter
 set esteban skill expert
 	
-set faye skill pulverize
-set faye skill windsweep 
-set faye skill arrowbane 
-set faye skill critical 
-set faye skill pursuit
 set faye skill adept
+set faye skill arrowbane 
 set faye skill battlecry
 set faye skill canto
+set faye skill counter
+set faye skill critical 
 set faye skill deathmatch
+set faye skill desperation
 set faye skill evasion
+set faye skill expert
 set faye skill flourish
+set faye skill fortune
 set faye skill hurry
 set faye skill iaido
 set faye skill mercy
 set faye skill paragon
 set faye skill parry
+set faye skill pulverize
+set faye skill pursuit
 set faye skill sunder
-set faye skill desperation
-set faye skill fortune
-set faye skill counter
-set faye skill expert
+set faye skill windsweep 
 
 set faramir skill sunder 
 set faramir skill windsweep 
@@ -1078,28 +1078,29 @@ set faramir skill pursuit
 set faramir skill desperation
 set faramir skill expert
 
-set volo skill counter 
-set volo skill astra
-set volo skill critical 
-set volo skill arrowbane 
 set volo skill adept
+set volo skill arrowbane 
+set volo skill astra
 set volo skill battlecry
 set volo skill canto
+set volo skill counter 
+set volo skill critical 
 set volo skill deathmatch
+set volo skill desperation
 set volo skill despoil
 set volo skill evasion
+set volo skill expert
 set volo skill flourish
 set volo skill hurry
 set volo skill iaido
 set volo skill maim
 set volo skill mercy
+set volo skill parry
 set volo skill pulverize
+set volo skill pursuit
 set volo skill sunder
 set volo skill windsweep
-set volo skill pursuit
-set volo skill parry
-set volo skill desperation
-set volo skill expert
+set volo skill fortune
 
 set clifford skill battlecry
 set clifford skill canto
