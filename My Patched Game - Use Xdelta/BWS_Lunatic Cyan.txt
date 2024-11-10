@@ -80,6 +80,14 @@
 
 // All Lshield gain + 10 accuracy, so WideShield = 60 accuracy. Then Derrick with his 40 shiel skill cap will have 100 block rate with it.
 
+// Difference between Faye Volo Faramir. All Swordfighter unit got Astra Adept Arrowbane Pursuit Critical Parry Counter Iaido. Faye don't have Counter but has Fortune. Volo has Counter, but no fortune. Faramir don't have adept & Arrowbane but has Aim Deadeye Overwatch & Magicbane.
+
+// Difference between Sylvis & Christine. All Crossbow unit got Counter Pursuit Vantage Huntman Hide. Sylvis got Fortune. Christine got Supporter with all Initial Shinon Knight (Reese Ward Sherlock Elbert Lynette)
+
+// Difference between Sherlock Esteban. All Archer unit got Counter Pursuit Adept Huntman Hide.
+
+// Difference between Ruby Arthur Elbert Alvina Reese. All Paladin unit got Adept. Ruby got Critical (since she already has adept for fair vs Arthur) & Vantage but no Shieldfaire. Arthur got Counter But no Shieldfaire. Elbert got Shieldfaire With Supporter. Alvina & Reese got Critical
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -1039,7 +1047,7 @@ set faye skill adept
 set faye skill arrowbane 
 set faye skill battlecry
 set faye skill canto
-set faye skill counter
+//set faye skill counter
 set faye skill critical 
 set faye skill deathmatch
 set faye skill desperation
@@ -1105,7 +1113,7 @@ set volo skill pulverize
 set volo skill pursuit
 set volo skill sunder
 set volo skill windsweep
-set volo skill fortune
+//set volo skill fortune
 
 set clifford skill battlecry
 set clifford skill canto
@@ -1453,13 +1461,20 @@ set ThrowingKnife stat level 1
 set Seax stat weight 2
 set vespa stat level 3
 
-set BoltKnife stat durability D
+set BoltKnife stat durability C
 set LetterOpener stat durability D
-set bloodknife stat durability E
+set bloodknife stat durability C
 set kris stat durability C
-set SleepKnife stat durability E
-set AssassinsKnife stat durability E
-set Windshield stat level 1
+set SleepKnife stat durability C
+set AssassinsKnife stat durability D
+set ThiefsKnife stat durability C
+set AirKnife stat durability C
+set StunKnife stat durability C
+set Vespa stat durability C
+set TempestKnife stat durability D
+set Carnwenhau stat durability B
+set ThrowingKnife stat durability C
+set Swordbreaker stat durability C
 
 set ThiefsKnife stat accuracy 60
 set Seax stat accuracy 60
@@ -1587,6 +1602,10 @@ Set Vritra stat Weight 5
 
 
 set Scimitar+ stat Durability D
+set LevinSword stat Durability C
+set BronzeSword stat Durability C
+set MithrilSword stat Durability A
+set RazeEtoile stat Durability C
 
 //mace
 
@@ -1604,14 +1623,15 @@ set PoisonMace stat Accuracy 60
 
 set DarkMace stat cost 1000
 
-set DarkMace stat durability D
+set DarkMace stat durability C
+set PoisonMace stat durability C
 
 set DarkMace effect restore-uses
 set HolyMace effect restore-uses
 
 //set Rapier stat Fire 10 . Didn't work
 
-//blades
+//blades // blades
 
 set BastardSword stat accuracy 60
 set Shamshir stat accuracy 60
@@ -1644,13 +1664,14 @@ set Balmung2 effect restore-uses
 set Balmung3 effect restore-uses
 set Brymranger effect restore-uses
 
-set Zanbato stat cost 2000
+set Shamshir stat durability B
+set Zanbato stat durability B
 
-set Zanbato stat durability C
+set Zanbato stat cost 2000
 
 set BastardSword effect cripple-rate 6
 
-//spears
+//spears // spears
 
 set Doru stat accuracy 50
 set SlimSpear stat accuracy 60
@@ -1669,7 +1690,6 @@ set KillerSpear stat accuracy 70
 
 set Verutum stat might 12
 set Verutum stat level 7
-
 set SlimSpear stat Weight 4
 set IronSpear stat Weight 6
 set Pilum stat Weight 7
@@ -1697,6 +1717,14 @@ set ImperialSpear stat Weight 6
 set SlimSpear stat cost 700
 set ImperialSpear stat cost 1200
 
+set PrototypeSpear stat durability C
+set Pike stat durability B
+set Doru stat durability B
+set MithrilSpear stat durability A
+set Partisan stat durability B
+set Brionac stat durability B
+set Harpoon stat durability D
+
 set SlimSpear effect restore-uses
 set IronSpear effect restore-uses
 set Pilum effect restore-uses
@@ -1720,6 +1748,8 @@ set Fauchard effect restore-uses
 set VerianSpear effect restore-uses
 set OldImperialSpear effect restore-uses
 set ImperialSpear effect restore-uses
+
+set Doru stat level 8
 
 set SwiftSpear stat level 22
 
@@ -1746,7 +1776,7 @@ set GoreFork stat weight 8
 
 set Firebrand stat durability D
 
-//lance
+//lance // lance
 
 set Drakelance stat level 22
 
@@ -1769,12 +1799,19 @@ set Xyston Stat Accuracy 50
 set GreatLance Stat Accuracy 50
 set Drakelance Stat Accuracy 60
 
+set Drakelance stat Durability B
+set Xyston stat Durability B
+set Oxtongue stat Durability B
+set IronLance stat Durability D
 
-//axe
+set IronLance stat cost 
+
+//axe // axe
 set BanditAxe stat might 6
 set ImperialAxe stat might 10
 set LogSplitter stat might 6
 set OldImperialAxe stat might 8
+set DarkAxe stat might 6
 
 set LogSplitter stat Weight 5
 set Pickaxe stat Weight 4
@@ -1893,6 +1930,9 @@ set NimbusAxe stat durability D
 set DarkAxe stat durability D
 set BoltAxe stat durability C
 set Mjollnir stat durability B
+set LogSplitter stat durability D
+set Battleaxe stat durability C
+set MithrilAxe stat durability A
 
 set Battleaxe stat cost 1500
 set GigasAxe stat cost 3000
@@ -1947,6 +1987,11 @@ set SwiftBow stat accuracy 40
 set VerianBow stat accuracy 50
 set OldImperialBow stat accuracy 40
 
+set Shortbow stat durability D
+set Longbow stat durability B
+set Apollyon stat durability B
+set Apeiron stat durability B
+
 set ShortBow stat cost 600
 set Apeiron stat cost 4000
 set VerianBow stat cost 1000
@@ -1994,7 +2039,6 @@ set KillerCrossbow stat weight 6
 set Ollerus stat weight 7
 set RapidCrossbow stat weight 10
 set Hawkeye stat weight 7
-
 set ImperialCrossbow stat Weight 6
 set OldImperialCrossbow stat Weight 7
 set VerianCrossbow stat Weight 6
@@ -2014,13 +2058,17 @@ set KillerCrossbow stat accuracy 80
 set Ollerus stat accuracy 70
 set RapidCrossbow stat accuracy 60
 set Hawkeye stat accuracy 60
-
 set ImperialCrossbow stat accuracy 70
 set Bowgun stat accuracy 70
 set OldImperialCrossbow stat accuracy 60
 set VerianCrossbow stat accuracy 70
 
 set Arbalest stat max-range 2
+
+set Bowgun stat durability C
+set HeavyCrossbow stat durability B
+set KillerCrossbow stat durability C
+set Hawkeye stat durability C
 
 set Bowgun stat cost 700
 
@@ -2061,6 +2109,8 @@ set IronBallista stat weight 20
 set PrototypeSpringald stat weight 20
 set PrototypeScorpio stat weight 15
 set Scorpio stat weight 15
+
+set Scorpio stat Durability B
 
 // sshield
 
@@ -2105,7 +2155,6 @@ set MetalShield stat weight 4
 set MithrilShield stat weight 3
 set Vollenden stat weight 5
 set ShiningShield stat Weight 3
-
 Set VerianSShd Stat Weight 4
 set OldImpSShd stat Weight 4
 set ImpSoldierSShd stat Weight 4
@@ -2132,7 +2181,18 @@ set ImpSoldierSShd stat durability D
 set ImpSoldierSShd+ stat durability D
 set ImpOfficerSShd stat durability D
 set ImpKnightSShd stat durability D
+set RoundShield stat durability B
+set Windshield stat durability C
+set FireShield stat durability C
+set ThunderShield stat durability C
+set LightShield stat durability C
+set DarkShield stat durability C
+set MithrilShield stat durability A
+set ShiningShield stat durability A
+set LadyShield stat durability B
+
 set ImpKnightSShd stat cost 1000
+set Buckler stat cost 6 00
 
 set FireShield stat level 1
 set ThunderShield stat level 1
@@ -2168,7 +2228,6 @@ Set Hestia stat Weight 8
 Set WyrmskinShield stat Weight 7
 Set PaladinShield stat Weight 8
 Set BlackShield stat Weight 8
-
 Set VerianMShd stat Weight 5
 Set ImpSoldierMShd stat Weight 5
 Set ImpSoldierMShd+ stat Weight 5
@@ -2185,7 +2244,10 @@ set ImpSoldierMShd stat durability D
 set ImpSoldierMShd+ stat durability D
 set ImpOfficerMShd stat durability D
 set ImpKnightMShd stat durability D
-
+set PaladinShield stat durability B
+set BlackShield stat durability B
+set LimitShield stat durability B
+set SquareShield stat durability C
 
 Set PaladinShield effect restore-uses
 set VerianMShd effect restore-uses
@@ -2429,7 +2491,8 @@ set GamblersBrace stat defense 4
 set LightRing stat magic 6
 
 //set ThorsScale stat crit_avoid_penalty 18
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////Unit Weapon cap/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set Lord_R cap sshield 60
 set Lord_R cap sword 60
@@ -3387,6 +3450,7 @@ set Outlaw skill aim
 set Outlaw skill hide
 set Outlaw skill shieldfaire
 set Outlaw skill pursuit
+set Outlaw skill counter
 
 // same stats as thaddy
 set Assassin base hp +4
@@ -4155,7 +4219,6 @@ set Thief_M skill celerity
 set Thief_M skill hide
 set Thief_M skill mug
 set Thief_M skill pursuit
-set Thief_M skill critical
 set Thief_M skill steal
 set Thief_M skill sunder
 set Thief_M skill supporter
