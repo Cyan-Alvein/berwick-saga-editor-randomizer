@@ -110,7 +110,7 @@ set reese base sshield +20
 set ward item 0 KnightSword 101
 set ward item 1 Vajra 101
 set ward item 2 BlackShield 101
-set ward item 3 Treasure 101
+set ward item 3 Vollenden 101
 set ward item 4 WindSpear 101
 set ward item 5 Treasure 101
 set ward item 6 SwiftSpear 101
@@ -184,7 +184,7 @@ set leon item 1 RoundShield 101
 set leon item 2 GoreFork 101
 set leon item 3 Xyston 101
 set leon item 4 ThunderShield 101
-set leon item 5 Vollenden 101
+set leon item 5 Bag 0
 set leon item 6 LiquidVitality 1
 set leon item 7 Verutum 20
 set leon growth spear 90
@@ -686,7 +686,6 @@ set leon skill throw
 set leon skill vantage 
 set leon skill windsweep 
 
-set sherlock skill adept
 set sherlock skill aim 
 set sherlock skill battlecry
 set sherlock skill canto
@@ -2953,6 +2952,7 @@ set General skill maim
 set General skill counter
 set General skill protector
 set General skill commander
+set General skill resistor
 set General skill camouflage
 
 //set WyvernKnight_R base hp +4
@@ -3323,7 +3323,6 @@ set Bandit skill mug
 set Bandit skill camouflage
 set Bandit skill climber
 set Bandit skill counter
-set Bandit skill adept
 set Bandit skill hide
 set Bandit skill pulverize
 set Bandit skill pursuit
@@ -3347,7 +3346,10 @@ set Corsair skill counter
 set Corsair skill hide
 set Corsair skill adept
 set Corsair skill pursuit
-//set Corsair skill knockaway
+set Corsair skill commander
+set Corsair skill resistor
+set Corsair skill protector
+
 
 set Ruffian_R base hp +4
 //set Ruffian_R base strength +4
@@ -3451,7 +3453,6 @@ set Assassin skill throw
 
 // Rogue use only spear
 set Rogue base hp +4
-//set Rogue base strength +4
 set Rogue base speed +4
 set Rogue base defense +4
 set Rogue base magic +4
@@ -3525,6 +3526,7 @@ set RazeBishop skill blessing
 set RazeBishop skill canto
 set RazeBishop skill commander
 set RazeBishop skill resistor
+set RazeBishop skill protector
 set RazeBishop skill camouflage
 set RazeBishop skill versatile
 set RazeBishop skill imbue
@@ -3654,15 +3656,12 @@ set SnowBandit skill pulverize
 set SnowBandit skill throw
 set SnowBandit skill maim
 set SnowBandit skill mug
-set SnowBandit skill steal
 set SnowBandit skill hide
 set SnowBandit skill supporter
 set SnowBandit skill camouflage
 set SnowBandit skill climber
 set SnowBandit skill hide
-set SnowBandit skill adept
 set SnowBandit skill pursuit
-//set SnowBandit skill knockaway
 
 set Barbarian base hp +4
 set Barbarian base speed +4
@@ -3670,7 +3669,6 @@ set Barbarian base defense +4
 set Barbarian base magic +4
 set Barbarian skill vengeful
 set Barbarian skill counter
-set Barbarian skill parry
 set Barbarian skill canto
 set Barbarian skill pulverize
 set Barbarian skill throw
@@ -3681,9 +3679,7 @@ set Barbarian skill supporter
 set Barbarian skill camouflage
 set Barbarian skill climber
 set Barbarian skill hide
-set Barbarian skill adept
 set Barbarian skill pursuit
-//set Barbarian skill knockaway
 
 set Duke base hp +4
 set Duke base speed +4
@@ -3736,6 +3732,9 @@ set RazeWarMonk2 skill camouflage
 set RazeWarMonk2 skill parry
 set RazeWarMonk2 skill versatile
 set RazeWarMonk2 skill pursuit
+set RazeWarMonk2 skill commander
+set RazeWarMonk2 skill protector
+set RazeWarMonk2 skill resistor
 
 set FailedPoet base hp +4
 set FailedPoet base speed +4
@@ -3923,6 +3922,7 @@ set LanceKnight_R skill supporter
 set LanceKnight_R skill sunder
 set LanceKnight_R skill camouflage
 set LanceKnight_R skill adept
+set LanceKnight_R skill charisma
 
 set LanceKnight base hp +4
 set LanceKnight base speed +4
@@ -3936,6 +3936,7 @@ set LanceKnight skill supporter
 set LanceKnight skill sunder
 set LanceKnight skill camouflage
 set LanceKnight skill adept
+set LanceKnight skill charisma
 
 set LanceKnight2_R base hp +4
 set LanceKnight2_R base speed +4
@@ -3949,6 +3950,7 @@ set LanceKnight2_R skill supporter
 set LanceKnight2_R skill sunder
 set LanceKnight2_R skill camouflage
 set LanceKnight2_R skill adept
+set LanceKnight2_R skill charisma
 
 set LanceKnight2 base defense +4
 set LanceKnight2 base hp +4
@@ -3956,24 +3958,30 @@ set LanceKnight2 base magic +4
 set LanceKnight2 base speed +4
 set LanceKnight2 skill adept
 set LanceKnight2 skill armsthrift
-set LanceKnight2 skill camouflage
 set LanceKnight2 skill maim
 set LanceKnight2 skill shieldfaire
 set LanceKnight2 skill sunder
 set LanceKnight2 skill supporter
 set LanceKnight2 skill throw
+set LanceKnight2 skill charisma
+set LanceKnight2 skill camouflage
 
+//Maybe this is alvina class
 set Paladin base defense +4
 set Paladin base hp +4
 set Paladin base magic +4
 set Paladin base speed +4
-set Paladin skill adept
-set Paladin skill armsthrift
-set Paladin skill camouflage
+set Paladin skill canto
+set Paladin skill supporter
 set Paladin skill shieldfaire
 set Paladin skill sunder
-set Paladin skill supporter
+set Paladin skill armsthrift
+set Paladin skill maim
 set Paladin skill throw
+set Paladin skill adept
+set Paladin skill camouflage
+set Paladin skill protector
+set Paladin skill resistor
 
 set BlackRider_R base defense +4
 set BlackRider_R base hp +4
@@ -3987,6 +3995,7 @@ set BlackRider_R skill shieldfaire
 set BlackRider_R skill sunder
 set BlackRider_R skill supporter
 set BlackRider_R skill throw
+set BlackRider_R skill charisma
 
 set BlackRider base defense +4
 set BlackRider base hp +4
@@ -3999,9 +4008,7 @@ set BlackRider skill maim
 set BlackRider skill shieldfaire
 set BlackRider skill supporter
 set BlackRider skill throw
-set BlackRider skill commander
-set BlackRider skill protector
-set BlackRider skill resistor
+set BlackRider skill charisma
 
 set GigasKnight base defense +4
 set GigasKnight base hp +4
@@ -4015,9 +4022,7 @@ set GigasKnight skill maim
 set GigasKnight skill pulverize
 set GigasKnight skill supporter
 set GigasKnight skill vengeful
-set GigasKnight skill commander
-set GigasKnight skill protector
-set GigasKnight skill resistor
+set GigasKnight skill charisma
 
 set Transporter base hp +4
 set Transporter base speed +4
@@ -4097,6 +4102,8 @@ set Paladin_M_R skill maim
 set Paladin_M_R skill shieldfaire
 set Paladin_M_R skill sunder
 set Paladin_M_R skill supporter
+set Paladin_M_R skill protector
+set Paladin_M_R skill resistor
 
 set Paladin_M base defense +4
 set Paladin_M base hp +4
@@ -4140,7 +4147,6 @@ set Grassrunner_R skill celerity
 set Grassrunner_R skill hide
 set Grassrunner_R skill mug
 set Grassrunner_R skill pursuit
-set Grassrunner_R skill steal
 set Grassrunner_R skill sunder
 set Grassrunner_R skill supporter
 set Grassrunner_R skill vantage
@@ -4158,7 +4164,6 @@ set Grassrunner skill canto
 set Grassrunner skill hide
 set Grassrunner skill mug
 set Grassrunner skill pursuit
-set Grassrunner skill steal
 set Grassrunner skill sunder
 set Grassrunner skill supporter
 set Grassrunner skill watchful
@@ -4196,7 +4201,6 @@ set Bishop skill imbue
 set Bishop skill maim
 set Bishop skill sunder
 set Bishop skill versatile
-set Bishop skill miracle
 
 set Thief_M base defense +4
 set Thief_M base hp +4
@@ -4209,25 +4213,21 @@ set Thief_M skill celerity
 set Thief_M skill hide
 set Thief_M skill mug
 set Thief_M skill pursuit
-set Thief_M skill steal
 set Thief_M skill sunder
 set Thief_M skill supporter
 set Thief_M skill vantage
 set Thief_M skill watchful
 
 set Axefighter skill adept
-set Axefighter skill camouflage
 set Axefighter skill canto
 set Axefighter skill climber
 set Axefighter skill critical
 set Axefighter skill maim
-set Axefighter skill parry
 set Axefighter skill pulverize
 set Axefighter skill pursuit
 set Axefighter skill vengeful
 set Axefighter skill fortune
 set Axefighter skill counter
-set Axefighter skill knockaway
 
 set Swordfighter_M skill adept
 set Swordfighter_M skill arrowbane
@@ -4235,7 +4235,6 @@ set Swordfighter_M skill canto
 set Swordfighter_M skill critical
 set Swordfighter_M skill deathmatch
 set Swordfighter_M skill iaido
-set Swordfighter_M skill parry
 set Swordfighter_M skill pulverize
 set Swordfighter_M skill pursuit
 set Swordfighter_M skill fortune
@@ -4252,7 +4251,6 @@ set Swordmaster skill maim
 set Swordmaster skill parry
 set Swordmaster skill pulverize
 set Swordmaster skill pursuit
-set Swordmaster skill counter
 
 set SwordKnight_R skill adept
 set SwordKnight_R skill counter
@@ -4264,12 +4262,10 @@ set SwordKnight skill counter
 set SwordKnight skill armsthrift
 set SwordKnight skill throw
 
-set Pirate skill adept
 set Pirate skill camouflage
 set Pirate skill climber
 set Pirate skill counter
 set Pirate skill hide
-//set Pirate skill knockaway
 set Pirate skill mug
 set Pirate skill pulverize
 set Pirate skill throw
@@ -4333,10 +4329,8 @@ set Myrmidon skill canto
 set Myrmidon skill critical
 set Myrmidon skill deathmatch
 set Myrmidon skill iaido
-set Myrmidon skill parry
 set Myrmidon skill pulverize
 set Myrmidon skill pursuit
-set Myrmidon skill counter
 
 set AxeSoldier skill adept
 set AxeSoldier skill armsthrift
