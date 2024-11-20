@@ -107,9 +107,9 @@ set reese growth mshield 100
 set reese base sword +20
 set reese base sshield +20
 
-set ward item 1 Bag 0
-set ward item 2 BlackShield 101
-set ward item 3 Bag 0
+set ward item 1 BlackShield 101
+set ward item 2 Vajra 101
+set ward item 3 Treasure 101
 set ward item 4 WindSpear 101
 set ward item 5 Treasure 101
 set ward item 6 SwiftSpear 101
@@ -123,7 +123,7 @@ set ward base spear +15
 
 set elbert item 0 SteelSpear 101
 set elbert item 1 Windshield 101
-set elbert item 2 Longsword 101
+set elbert item 2 Saber 101
 set elbert item 3 MithrilShield 101
 set elbert item 4 RoundShield 101
 set elbert item 5 Verutum 20
@@ -170,7 +170,7 @@ set adel item 1 RoundShield 101
 set adel item 2 FireShield 101
 set adel item 3 GoreFork 101
 set adel item 4 Angon 101
-set adel item 5 Treasure 101
+set adel item 5 Xyston 101
 set adel item 6 Bag 0
 set adel item 7 LiquidVitality 1
 set adel growth spear 70
@@ -181,7 +181,7 @@ set adel base spear +20
 set leon item 0 SteelSpear 101
 set leon item 1 RoundShield 101
 set leon item 2 GoreFork 101
-set leon item 3 Treasure 101
+set leon item 3 Xyston 101
 set leon item 4 ThunderShield 101
 set leon item 5 Vollenden 101
 set leon item 6 LiquidVitality 1
@@ -196,7 +196,7 @@ set sherlock item 1 IronArrow+ 80
 set sherlock item 3 Treasure 101
 set sherlock item 4 SteelArrow+ 20
 set sherlock item 5 MithrilArrow 20
-set sherlock item 6 Bag 0
+set sherlock item 6 Treasure 101
 set sherlock item 7 Treasure 101
 set sherlock growth bow 100
 set sherlock base bow +20
@@ -228,7 +228,7 @@ set aegina item 3 DivineBrace 101
 set aegina item 4 Bag 0
 set aegina item 5 Windstorm 60
 set aegina item 6 Fire 20
-set aegina item 7 Treasure 101
+set aegina item 7 Bag 0
 set aegina growth wind 80
 set aegina growth fire 50
 set aegina base fire +20
@@ -244,7 +244,7 @@ set Daoud item 3 Gullveig 101
 set Daoud item 4 LightShield 101
 set Daoud item 5 Bag 0
 set Daoud item 6 Bag 0
-set Daoud item 7 Treasure 101
+set Daoud item 7 Bag 0
 set Daoud base axe +10
 set Daoud base sshield +20
 set Daoud base mshield +20
@@ -317,7 +317,7 @@ set arthur item 0 AltiumSword 101
 set arthur item 1 SquareShield 101
 set arthur item 2 Bag 0
 set arthur item 3 Grimhild 101
-set arthur item 4 Scimitar+ 101
+set arthur item 4 Rapier 101
 set arthur item 5 BlazingShield 101
 set arthur item 6 ShadowShield 101
 set arthur item 7 LiquidSpeed 1
@@ -353,9 +353,9 @@ set dean base axe +20
 
 set faye item 2 GiantsBrace 101
 set faye item 3 Bag 0
-set faye item 4 Vajra 101
+set faye item 4 LadySword 101
 set faye item 5 FlameSword 101 
-set faye item 6 MithrilAxe 101
+set faye item 6 MithrilSword 101
 set faye item 7 LiquidStrength 1
 set faye growth sword 100
 set faye base sword +20
@@ -375,11 +375,11 @@ set sylvis base crossbow +20
 
 set perceval item 1 Thunder 100
 set perceval item 2 Bag 0
-set perceval item 3 Treasure 101
+set perceval item 3 Bag 0
 set perceval item 4 Blizzard 15
 set perceval item 5 Lightning 10
 set perceval item 6 TigerBrace 101
-set perceval item 7 Bag 0
+set perceval item 7 Windstorm 60
 set perceval growth wind 50
 set perceval growth thunder 90
 set perceval base thunder +30
@@ -404,7 +404,7 @@ set esteban item 3 Pascanion2 101
 set esteban item 4 MithrilArrow 20
 set esteban item 5 BoltKnife 101
 set esteban item 6 Bag 0
-set esteban item 7 Treasure 101
+set esteban item 7 BloodKnife 101
 set esteban base knife +20
 set esteban base bow +20
 set esteban base sword +40
@@ -436,11 +436,11 @@ set volo base sword +20
 set sherpa growth sword 60
 set Sherpa item 1 BastardSword 101
 set Sherpa item 2 ShiningShield 101
-set Sherpa item 3 Treasure 101
+set Sherpa item 3 Bag 0
 set Sherpa item 4 LiquidDefense 1
 set Sherpa item 5 Zanbato 101
 set Sherpa item 6 Bag 0
-set Sherpa item 7 Treasure 101
+set Sherpa item 7 Bag 0
 set Sherpa base sword +20
 
 set clifford item 3 Drakelance 101
@@ -559,34 +559,37 @@ set paramythis growth light 80
 set paramythis base sword +20
 set paramythis base light +20
 
-set reese skill guard
-set reese skill sunder
-set reese skill windsweep 
 set reese skill adept
-set reese skill critical
 set reese skill battlecry
 set reese skill canto
 set reese skill commander
+set reese skill critical
 set reese skill deathmatch
+set reese skill desperation
 set reese skill expert
 set reese skill flourish
+set reese skill guard
 set reese skill horselover
+set reese skill horseswap 
 set reese skill hurry
 set reese skill mercy
 set reese skill paragon
 set reese skill robust
+set reese skill sunder
 set reese skill supporter
-set reese skill desperation
+set reese skill windsweep 
 
-set ward skill arrowbane
 set ward skill adept
+set ward skill arrowbane
 set ward skill battlecry
 set ward skill canto
 set ward skill deathmatch
+set ward skill desperation
 set ward skill despoil
 set ward skill flourish
 set ward skill guard
 set ward skill horselover
+set ward skill horseswap
 set ward skill hurry
 set ward skill maim
 set ward skill mercy
@@ -595,414 +598,405 @@ set ward skill robust
 set ward skill supporter
 set ward skill throw
 set ward skill windsweep
-set ward skill desperation
 
-set elbert skill throw 
-set elbert skill shieldfaire 
-set elbert skill guard 
-set elbert skill sunder 
-set elbert skill robust 
+set elbert skill adept
 set elbert skill arrowbane
 set elbert skill battlecry
 set elbert skill canto
 set elbert skill deathmatch
+set elbert skill desperation
+set elbert skill expert
 set elbert skill flourish
+set elbert skill guard 
 set elbert skill horselover
+set elbert skill horseswap
 set elbert skill hurry
 set elbert skill mercy
 set elbert skill paragon
 set elbert skill provoke
+set elbert skill robust 
+set elbert skill shieldfaire 
+set elbert skill sunder 
 set elbert skill supporter
+set elbert skill throw 
 set elbert skill windsweep
-set elbert skill desperation
-set elbert skill adept
-set elbert skill expert
 
-set christine skill deadeye 
-set christine skill vantage 
-set christine skill pursuit
-set christine skill overwatch 
-set christine skill sunder 
-set christine skill counter 
 set christine skill aim
 set christine skill armsthrift
 set christine skill battlecry
 set christine skill canto
+set christine skill counter 
+set christine skill deadeye 
 set christine skill deathmatch
+set christine skill desperation
+set christine skill expert
 set christine skill flourish
+set christine skill hide
 set christine skill horselover
 set christine skill horseswap
 set christine skill hurry
 set christine skill mercy
+set christine skill overwatch 
 set christine skill paragon
+set christine skill pursuit
+set christine skill sunder 
 set christine skill supporter
+set christine skill vantage 
 set christine skill windsweep
-set christine skill desperation
-set christine skill hide
-set christine skill expert
 
-set adel skill sunder 
-set adel skill windsweep 
-set adel skill counter 
 set adel skill adept
-set adel skill swordbane 
 set adel skill battlecry
 set adel skill canto
+set adel skill counter 
 set adel skill deathmatch
+set adel skill desperation
+set adel skill expert
 set adel skill flourish
 set adel skill guard
 set adel skill horselover
+set adel skill horseswap 
 set adel skill hurry
-//set adel skill lance
+set adel skill lance
 set adel skill mercy
 set adel skill paragon
 set adel skill pitchfork
 set adel skill shieldfaire
+set adel skill sunder 
 set adel skill supporter
 set adel skill throw
 set adel skill vantage
-set adel skill desperation
-set adel skill expert
+set adel skill windsweep 
 
-set leon skill vantage 
-set leon skill throw 
-set leon skill maim
-set leon skill sunder 
-set leon skill windsweep 
-set leon skill pursuit
 set leon skill battlecry
 set leon skill canto
 set leon skill deathmatch
 set leon skill desperation
+set leon skill expert
 set leon skill flourish
 set leon skill guard
 set leon skill horselover
+set leon skill horseswap 
 set leon skill hurry
-//set leon skill lance
+set leon skill lance
+set leon skill maim
 set leon skill mercy
 set leon skill paragon
 set leon skill pitchfork
+set leon skill pursuit
 set leon skill robust
+set leon skill sunder 
 set leon skill supporter
-set leon skill expert
+set leon skill throw 
+set leon skill vantage 
+set leon skill windsweep 
 
+set sherlock skill adept
 set sherlock skill aim 
-set sherlock skill pursuit
-set sherlock skill deadeye 
-set sherlock skill sunder 
 set sherlock skill battlecry
 set sherlock skill canto
 set sherlock skill celerity
+set sherlock skill counter
+set sherlock skill deadeye 
 set sherlock skill deathmatch
+set sherlock skill desperation
+set sherlock skill expert
 set sherlock skill flourish
 set sherlock skill hide
 set sherlock skill horselover
+set sherlock skill horseswap
 set sherlock skill huntsman
 set sherlock skill hurry
+set sherlock skill maim
 set sherlock skill mercy
 set sherlock skill onetwo
+set sherlock skill overwatch
 set sherlock skill paragon
+set sherlock skill pursuit
+set sherlock skill sunder 
 set sherlock skill supporter
 set sherlock skill windsweep
-set sherlock skill maim
-set sherlock skill desperation
-set sherlock skill counter
-set sherlock skill overwatch
-set sherlock skill adept
-set sherlock skill expert
 
-set izerna skill maim
-set izerna skill charisma 
-set izerna skill imbue 
-set izerna skill miracle 
 set izerna skill blessing
 set izerna skill canto
 set izerna skill celerity
+set izerna skill expert
 set izerna skill hurry
+set izerna skill imbue 
+set izerna skill maim
+set izerna skill miracle 
 set izerna skill paragon
 set izerna skill resistor
-set izerna skill expert
 set izerna skill versatile
 
-set czene skill vantage 
-set czene skill steal 
-set czene skill throw 
-set czene skill scotopic 
-set czene skill robbery 
-set czene skill pursuit
-set czene skill sunder 
-set czene skill windsweep 
-set czene skill camouflage 
 set czene skill adept
 set czene skill battlecry
+set czene skill camouflage 
 set czene skill canto
+set czene skill celerity
 set czene skill deathmatch
+set czene skill desperation
 set czene skill evasion
 set czene skill expert
 set czene skill flourish
 set czene skill hurry
 set czene skill mercy
 set czene skill paragon
+set czene skill pursuit
+set czene skill robbery 
+set czene skill scotopic 
+set czene skill steal 
+set czene skill sunder 
+set czene skill throw 
+set czene skill vantage 
 set czene skill watchful
-set czene skill desperation
-set czene skill celerity
+set czene skill windsweep 
 
-set daoud skill throw 
-set daoud skill guard 
-set daoud skill vengeful 
-set daoud skill maim
-set daoud skill provoke 
-set daoud skill despoil 
+set daoud skill adept
 set daoud skill axeguard
 set daoud skill battlecry
 set daoud skill canto
 set daoud skill deathmatch
+set daoud skill desperation
+set daoud skill despoil 
 set daoud skill expert
 set daoud skill flourish
+set daoud skill guard 
 set daoud skill hurry
+set daoud skill maim
 set daoud skill mercy
+set daoud skill provoke 
 set daoud skill pulverize
 set daoud skill robust
+set daoud skill throw 
+set daoud skill vengeful 
 set daoud skill windsweep
-set daoud skill desperation
-set daoud skill adept
 
-set enid skill vantage 
-set enid skill maim
-set enid skill sunder 
-set enid skill imbue 
 set enid skill battlecry
 set enid skill canto
 set enid skill charisma
 set enid skill deathmatch
+set enid skill desperation
 set enid skill expert
 set enid skill hurry
+set enid skill imbue 
+set enid skill maim
 set enid skill mercy
 set enid skill paragon
 set enid skill pursuit
+set enid skill sunder 
+set enid skill vantage 
 set enid skill windsweep
-set enid skill desperation
 
-set aegina skill sunder 
-set aegina skill imbue 
-set aegina skill vantage 
-set aegina skill charisma 
 set aegina skill battlecry
 set aegina skill canto
+set aegina skill desperation
 set aegina skill expert
 set aegina skill focuschant
 set aegina skill hurry
+set aegina skill imbue 
 set aegina skill mercy
 set aegina skill miracle
 set aegina skill paragon
 set aegina skill pursuit
+set aegina skill sunder 
+set aegina skill vantage 
 set aegina skill windsweep
-set aegina skill desperation
 
-set perceval skill maim
-set perceval skill sunder 
-set perceval skill imbue 
-set perceval skill magicbane 
-set perceval skill focuschant
 set perceval skill adept
 set perceval skill arrowbane
 set perceval skill battlecry
 set perceval skill canto
 set perceval skill deathmatch
+set perceval skill desperation
 set perceval skill expert
 set perceval skill hurry
+set perceval skill imbue 
+set perceval skill magicbane 
+set perceval skill maim
 set perceval skill mercy
 set perceval skill paragon
-set perceval skill windsweep
-set perceval skill desperation
 set perceval skill pursuit
+set perceval skill sunder 
+set perceval skill windsweep
 
-set marcel skill sunder 
-set marcel skill pulverize 
-set marcel skill protector 
 set marcel skill armsthrift 
 set marcel skill battlecry
 set marcel skill canto
 set marcel skill counter
 set marcel skill deathmatch
+set marcel skill desperation
 set marcel skill expert
 set marcel skill flourish
 set marcel skill guard
 set marcel skill hurry
-set marcel skill mercy
-set marcel skill shieldfaire
 set marcel skill maim
+set marcel skill mercy
+set marcel skill pulverize 
+set marcel skill shieldfaire
+set marcel skill sunder 
 set marcel skill windsweep
-set marcel skill desperation
 
-set alvina skill maim 
-set alvina skill imbue 
 set alvina skill adept
 set alvina skill battlecry
 set alvina skill canto
+set alvina skill critical
 set alvina skill deathmatch
+set alvina skill desperation
 set alvina skill flourish
 set alvina skill guard
 set alvina skill horselover
 set alvina skill hurry
+set alvina skill imbue 
+set alvina skill maim 
 set alvina skill mercy
 set alvina skill shieldfaire
 set alvina skill sunder
 set alvina skill throw
 set alvina skill windsweep
-set alvina skill desperation
-set alvina skill critical
+set alvina skill horseswap
 
-set ruby skill throw 
-set ruby skill sunder 
-set ruby skill windsweep 
 set ruby skill adept 
-set ruby skill vantage 
-set ruby skill imbue 
 set ruby skill axebane
 set ruby skill battlecry
 set ruby skill canto
+set ruby skill critical
 set ruby skill deathmatch
+set ruby skill desperation
 set ruby skill flourish
 set ruby skill guard
 set ruby skill horselover
 set ruby skill hurry
+set ruby skill imbue 
 set ruby skill mercy
 set ruby skill paragon
-set ruby skill desperation
-set ruby skill critical
+set ruby skill sunder 
+set ruby skill throw 
+set ruby skill vantage 
+set ruby skill windsweep 
+set ruby skill horseswap 
 
-set arthur skill throw
-set arthur skill sunder 
-set arthur skill counter 
-set arthur skill maim 
-set arthur skill spearbane 
+set arthur skill adept
 set arthur skill armsthrift
 set arthur skill battlecry
 set arthur skill canto
 set arthur skill celerity
+set arthur skill counter 
 set arthur skill deathmatch
 set arthur skill desperation
+set arthur skill expert
 set arthur skill flourish
 set arthur skill guard
 set arthur skill horselover
 set arthur skill hurry
+set arthur skill maim 
 set arthur skill mercy
 set arthur skill paragon
+set arthur skill sunder 
+set arthur skill throw
 set arthur skill windsweep
-set arthur skill adept
-set arthur skill expert
+set arthur skill horseswap
 
-set kramer skill counter 
-set kramer skill provoke 
 set kramer skill adept 
-set kramer skill desperation 
-set kramer skill sunder 
-set kramer skill windsweep 
-set kramer skill pulverize 
-set kramer skill maim 
 set kramer skill arrowbane
 set kramer skill battlecry
 set kramer skill canto
 set kramer skill climber
+set kramer skill counter 
 set kramer skill deathmatch
+set kramer skill desperation 
+set kramer skill expert
 set kramer skill flourish
 set kramer skill guard
 set kramer skill hurry
 set kramer skill knockaway
+set kramer skill maim 
 set kramer skill mercy
 set kramer skill paragon
+set kramer skill provoke 
+set kramer skill pulverize 
 set kramer skill pursuit
-set kramer skill expert
+set kramer skill sunder 
+set kramer skill windsweep 
 
-set sherpa skill parry 
 set sherpa skill battlecry
 set sherpa skill canto
 set sherpa skill climber
 set sherpa skill counter
 set sherpa skill deathmatch
 set sherpa skill desperation
+set sherpa skill expert
 set sherpa skill flourish
-set sherpa skill fortune
 set sherpa skill guard
 set sherpa skill hurry
+set sherpa skill knockaway
 set sherpa skill maim
 set sherpa skill mercy
+set sherpa skill parry 
 set sherpa skill provoke
 set sherpa skill pulverize
+set sherpa skill pursuit
 set sherpa skill robust
 set sherpa skill sunder
 set sherpa skill windsweep
-set sherpa skill swordbane
-set sherpa skill pursuit
-set sherpa skill expert
 
-set dean skill throw 
-set dean skill climber 
-set dean skill pulverize
-set dean skill sunder 
-set dean skill maim
 set dean skill adept
 set dean skill axeguard
 set dean skill battlecry
 set dean skill canto
+set dean skill climber 
+set dean skill counter
+set dean skill critical
 set dean skill deathmatch
 set dean skill desperation
+set dean skill expert
+set dean skill guard
 set dean skill hurry
+set dean skill maim
 set dean skill mercy
 set dean skill paragon
 set dean skill provoke
-set dean skill vengeful
+set dean skill pulverize
 set dean skill pursuit
-set dean skill critical
-set dean skill counter
+set dean skill sunder 
+set dean skill throw 
+set dean skill vengeful
 set dean skill windsweep
-set dean skill knockaway
-set dean skill parry
-set dean skill guard
-set dean skill expert
 
-set sylvis skill vantage 
-set sylvis skill pursuit
-set sylvis skill camouflage 
-set sylvis skill scotopic 
-set sylvis skill sunder 
-set sylvis skill watchful 
-set sylvis skill magicbane 
 set sylvis skill aim
 set sylvis skill battlecry
 set sylvis skill canto
+set sylvis skill counter
 set sylvis skill deadeye
 set sylvis skill deathmatch
+set sylvis skill desperation
 set sylvis skill expert
 set sylvis skill flourish
+set sylvis skill fortune
 set sylvis skill hide
 set sylvis skill huntsman
 set sylvis skill hurry
+set sylvis skill magicbane 
 set sylvis skill maim
 set sylvis skill mercy
 set sylvis skill overwatch
 set sylvis skill paragon
-set sylvis skill counter
+set sylvis skill pursuit
+set sylvis skill scotopic 
+set sylvis skill sunder 
+set sylvis skill vantage 
+set sylvis skill watchful 
 set sylvis skill windsweep
-set sylvis skill fortune
-set sylvis skill desperation
 
-set thaddy skill vantage 
-set thaddy skill throw 
-set thaddy skill watchful 
-set thaddy skill camouflage 
-set thaddy skill robbery 
-set thaddy skill pursuit
-set thaddy skill sunder 
-set thaddy skill windsweep 
 set thaddy skill battlecry
+set thaddy skill camouflage 
 set thaddy skill canto
 set thaddy skill critical
 set thaddy skill deathmatch
+set thaddy skill desperation
 set thaddy skill evasion
 set thaddy skill expert
 set thaddy skill flourish
+set thaddy skill fortune
 set thaddy skill hide
 set thaddy skill hurry
 set thaddy skill locktouch
@@ -1010,44 +1004,49 @@ set thaddy skill mercy
 set thaddy skill mug
 set thaddy skill paragon
 set thaddy skill provoke
+set thaddy skill pursuit
+set thaddy skill robbery 
 set thaddy skill scotopic
 set thaddy skill steal
-set thaddy skill desperation
-set thaddy skill fortune
+set thaddy skill sunder 
+set thaddy skill throw 
+set thaddy skill vantage 
+set thaddy skill watchful 
+set thaddy skill windsweep 
 
-set esteban skill aim 
-set esteban skill sunder 
-set esteban skill maim 
-set esteban skill pursuit 
 set esteban skill adept 
-set esteban skill magicbane
+set esteban skill aim 
 set esteban skill battlecry
 set esteban skill camouflage
 set esteban skill canto
+set esteban skill counter
 set esteban skill deadeye
 set esteban skill deathmatch
+set esteban skill desperation
+set esteban skill expert
 set esteban skill flourish
 set esteban skill hide
 set esteban skill huntsman
 set esteban skill hurry
 set esteban skill locktouch
+set esteban skill magicbane
+set esteban skill maim 
 set esteban skill mercy
 set esteban skill mug
 set esteban skill overwatch
 set esteban skill paragon
+set esteban skill pursuit 
 set esteban skill scotopic
 set esteban skill steal
+set esteban skill sunder 
 set esteban skill watchful
 set esteban skill windsweep
-set esteban skill desperation
-set esteban skill counter
-set esteban skill expert
 	
+//set faye skill counter
 set faye skill adept
 set faye skill arrowbane 
 set faye skill battlecry
 set faye skill canto
-//set faye skill counter
 set faye skill critical 
 set faye skill deathmatch
 set faye skill desperation
@@ -1065,31 +1064,32 @@ set faye skill pursuit
 set faye skill sunder
 set faye skill windsweep 
 
-set faramir skill sunder 
-set faramir skill windsweep 
-set faramir skill astra 
-set faramir skill critical 
-set faramir skill counter 
-set faramir skill magicbane 
 set faramir skill aim
+set faramir skill astra 
 set faramir skill battlecry
 set faramir skill canto
 set faramir skill celerity
+set faramir skill counter 
+set faramir skill critical 
 set faramir skill deadeye
 set faramir skill deathmatch
+set faramir skill desperation
 set faramir skill evasion
+set faramir skill expert
 set faramir skill flourish
+set faramir skill fortune 
 set faramir skill guard
 set faramir skill hurry
 set faramir skill iaido
+set faramir skill magicbane 
 set faramir skill maim
 set faramir skill mercy
 set faramir skill overwatch
 set faramir skill parry
 set faramir skill pulverize
 set faramir skill pursuit
-set faramir skill desperation
-set faramir skill expert
+set faramir skill sunder 
+set faramir skill windsweep 
 
 set volo skill adept
 set volo skill arrowbane 
@@ -1104,21 +1104,23 @@ set volo skill despoil
 set volo skill evasion
 set volo skill expert
 set volo skill flourish
+set volo skill fortune
 set volo skill hurry
 set volo skill iaido
 set volo skill maim
 set volo skill mercy
-set volo skill parry
 set volo skill pulverize
 set volo skill pursuit
 set volo skill sunder
 set volo skill windsweep
-//set volo skill fortune
 
+set clifford skill adept
 set clifford skill battlecry
 set clifford skill canto
 set clifford skill deathmatch
+set clifford skill desperation
 set clifford skill despoil
+set clifford skill expert
 set clifford skill flourish
 set clifford skill guard
 set clifford skill horselover
@@ -1129,22 +1131,15 @@ set clifford skill provoke
 set clifford skill shieldfaire
 set clifford skill throw
 set clifford skill windsweep
-set clifford skill desperation
-set clifford skill adept
-set clifford skill expert
 
-set axel skill throw 
-set axel skill knockaway
-set axel skill climber 
-set axel skill watchful 
-set axel skill vengeful 
 set axel skill axeguard 
-set axel skill camouflage 
-set axel skill axebane 
 set axel skill battlecry
 set axel skill canto
+set axel skill climber 
+set axel skill counter
 set axel skill deathmatch
-set axel skill despoil
+set axel skill desperation
+set axel skill expert
 set axel skill flourish
 set axel skill guard
 set axel skill hide
@@ -1155,111 +1150,108 @@ set axel skill mug
 set axel skill paragon
 set axel skill provoke
 set axel skill pulverize
+set axel skill pursuit
 set axel skill robbery
 set axel skill robust
 set axel skill steal
-set axel skill counter
+set axel skill throw 
+set axel skill vengeful 
 set axel skill windsweep
-set axel skill desperation
-set axel skill pursuit
-set axel skill expert
 
-set larentia skill sunder 
-set larentia skill windsweep 
-set larentia skill vantage 
 set larentia skill adept
 set larentia skill battlecry
 set larentia skill canto
+set larentia skill critical
 set larentia skill deathmatch
+set larentia skill desperation
+set larentia skill expert
 set larentia skill flourish
 set larentia skill hurry
 set larentia skill mercy
 set larentia skill paragon
+set larentia skill sunder 
 set larentia skill throw
+set larentia skill vantage 
 set larentia skill watchful
-set larentia skill desperation
-set larentia skill critical
-set larentia skill expert
+set larentia skill windsweep 
 
-set owen skill imbue 
 set owen skill adept
-set owen skill pursuit
-set owen skill miracle 
-set owen skill focuschant
 set owen skill battlecry
 set owen skill canto
+set owen skill desperation
 set owen skill despoil
 set owen skill expert
+set owen skill focuschant
 set owen skill hurry
+set owen skill imbue 
 set owen skill mercy
+set owen skill miracle 
+set owen skill pursuit
 set owen skill sunder
 set owen skill versatile
 set owen skill windsweep
-set owen skill desperation
 
-set burroughs skill expert 
-set burroughs skill maim
-set burroughs skill sunder 
-set burroughs skill arrowbane 
-set burroughs skill magicbane 
 set burroughs skill armsthrift
+set burroughs skill arrowbane 
 set burroughs skill battlecry
 set burroughs skill canto
 set burroughs skill deathmatch
+set burroughs skill desperation
+set burroughs skill expert 
 set burroughs skill flourish
 set burroughs skill hurry
+set burroughs skill magicbane 
+set burroughs skill maim
 set burroughs skill mercy
 set burroughs skill paragon
-set burroughs skill desperation
+set burroughs skill sunder 
 
 set derrick skill armsthrift 
-set derrick skill robust 
-set derrick skill guard 
-set derrick skill vengeful
-set derrick skill expert 
 set derrick skill axeguard
 set derrick skill battlecry
 set derrick skill canto
+set derrick skill counter
 set derrick skill deathmatch
+set derrick skill desperation
 set derrick skill despoil
+set derrick skill expert 
 set derrick skill flourish
+set derrick skill guard 
 set derrick skill hurry
 set derrick skill mercy
 set derrick skill paragon
 set derrick skill provoke
 set derrick skill pulverize
+set derrick skill robust 
 set derrick skill throw
+set derrick skill vengeful
 set derrick skill windsweep
-set derrick skill desperation
-set derrick skill counter
 
 set saphira	skill critical 
 set saphira	skill paragon
-set saphira skill sunder 
-set saphira skill vantage 
-set saphira skill maim 
-set saphira skill focuschant 
 set saphira skill blessing
 set saphira skill canto
+set saphira skill desperation
 set saphira skill expert
+set saphira skill focuschant 
 set saphira skill hurry
 set saphira skill imbue
+set saphira skill maim 
 set saphira skill miracle
-set saphira skill versatile
-set saphira skill charisma
 set saphira skill pursuit
-set saphira skill windsweep
-set saphira skill desperation
 set saphira skill resistor
+set saphira skill sunder 
+set saphira skill vantage 
+set saphira skill versatile
+set saphira skill windsweep
 
-set lynette	skill blessing
-set lynette skill swordbane 
 set lynette skill aim
 set lynette skill battlecry
 set lynette skill canto
-set lynette skill charisma
 set lynette skill deadeye
 set lynette skill deathmatch
+set lynette skill desperation
+set lynette skill expert
 set lynette skill flourish
 set lynette skill focuschant
 set lynette skill hurry
@@ -1267,20 +1259,18 @@ set lynette skill imbue
 set lynette skill maim
 set lynette skill mercy
 set lynette skill protector
-set lynette skill supporter
 set lynette skill pursuit
+set lynette skill supporter
 set lynette skill windsweep
-set lynette skill desperation
-set lynette skill expert
 
-set paramythis skill parry 
-set paramythis skill spearbane 
 set paramythis skill adept
 set paramythis skill battlecry
+set paramythis skill blessing
 set paramythis skill camouflage
 set paramythis skill canto
 set paramythis skill celerity
 set paramythis skill deathmatch
+set paramythis skill desperation
 set paramythis skill expert
 set paramythis skill flourish
 set paramythis skill guard
@@ -1288,11 +1278,11 @@ set paramythis skill horselover
 set paramythis skill hurry
 set paramythis skill imbue
 set paramythis skill mercy
+set paramythis skill parry 
 set paramythis skill pursuit
 set paramythis skill sunder
 set paramythis skill versatile
 set paramythis skill windsweep
-set paramythis skill desperation
 
 // prfs
 set cutlass effect restore-uses
@@ -1565,7 +1555,7 @@ set WindEdge stat level 1
 set InfernalEdge stat level 1
 set Grimhild stat level 1
 
-set BronzeSword stat Weight 4
+set BronzeSword stat Weight 3
 set Shortsword stat Weight 4
 set Scimitar stat weight 4
 set Longsword stat weight 5
@@ -1605,6 +1595,7 @@ set LevinSword stat Durability C
 set BronzeSword stat Durability C
 set MithrilSword stat Durability A
 set RazeEtoile stat Durability C
+set LadySword stat Durability C
 
 //mace
 
@@ -1752,7 +1743,7 @@ set Doru stat level 8
 
 set SwiftSpear stat level 22
 
-set Pike effect cripple-rate 6
+//set Pike effect cripple-rate 6
 
 // fork
 
@@ -1792,18 +1783,19 @@ set Xyston Stat Weight 15
 set GreatLance Stat Weight 19
 set Drakelance Stat Weight 18
 
-set IronLance Stat Accuracy 50
-set Oxtongue Stat Accuracy 50
+set IronLance Stat Accuracy 40
+set Oxtongue Stat Accuracy 40
 set Xyston Stat Accuracy 50
 set GreatLance Stat Accuracy 50
 set Drakelance Stat Accuracy 60
 
 set Drakelance stat Durability B
-set Xyston stat Durability B
-set Oxtongue stat Durability B
+set Xyston stat Durability C
+set Oxtongue stat Durability D
 set IronLance stat Durability D
 
-set IronLance stat cost 
+//set IronLance stat cost 4000
+//set Oxtongue stat cost 4500
 
 //axe // axe
 set BanditAxe stat might 6
@@ -2612,7 +2604,7 @@ set Cavalier cap sshield 50
 set Cavalier cap mshield 50
 set Cavalier base mshield +40
 
-set Treasure stat price 90000
+set Treasure stat price 60000
 
 //set Reese bracket no
 //set Ward bracket no
@@ -2653,6 +2645,8 @@ set Treasure stat price 90000
 set SteelArrow+ effect restore-uses
 set IronArrow+ effect restore-uses
 set BronzeArrow+ effect restore-uses
+set MithrilArrow effect restore-uses
+set RaijinArrow effect restore-uses
 
 //////////////////////////Difficulty Level - Ennemy buff///////////////////
 
@@ -3089,7 +3083,6 @@ set Bowman skill supporter
 set Bowman skill armsthrift
 set Bowman skill maim
 set Bowman skill aim
-set Bowman skill overwatch
 set Bowman skill camouflage
 set Bowman skill hide
 set Bowman skill adept
@@ -3105,7 +3098,6 @@ set Bowman skill supporter
 set Bowman skill armsthrift
 set Bowman skill maim
 set Bowman skill aim
-set Bowman skill overwatch
 set Bowman skill camouflage
 set Bowman skill hide
 set Bowman skill adept
@@ -3122,7 +3114,6 @@ set BowRider skill supporter
 set BowRider skill armsthrift
 set BowRider skill maim
 set BowRider skill aim
-set BowRider skill overwatch
 set BowRider skill camouflage
 set BowRider skill hide
 set BowRider skill adept
@@ -3139,10 +3130,8 @@ set Gunner skill supporter
 set Gunner skill armsthrift
 set Gunner skill maim
 set Gunner skill aim
-set Gunner skill overwatch
 set Gunner skill camouflage
 set Gunner skill hide
-set Gunner skill watchful
 set Gunner skill vantage
 set Gunner skill pursuit
 set Gunner skill counter
@@ -3157,9 +3146,7 @@ set HeavyGunner skill supporter
 set HeavyGunner skill armsthrift
 set HeavyGunner skill maim
 set HeavyGunner skill aim
-set HeavyGunner skill overwatch
 set HeavyGunner skill camouflage
-set HeavyGunner skill watchful
 set HeavyGunner skill vantage
 set HeavyGunner skill pursuit
 set HeavyGunner skill counter
@@ -3174,7 +3161,6 @@ set ImperialBowman skill supporter
 set ImperialBowman skill armsthrift
 set ImperialBowman skill maim
 set ImperialBowman skill aim
-set ImperialBowman skill overwatch
 set ImperialBowman skill camouflage
 set ImperialBowman skill hide
 set ImperialBowman skill adept
@@ -3191,7 +3177,6 @@ set ImperialBowRider_R skill supporter
 set ImperialBowRider_R skill armsthrift
 set ImperialBowRider_R skill maim
 set ImperialBowRider_R skill aim
-set ImperialBowRider_R skill overwatch
 set ImperialBowRider_R skill camouflage
 set ImperialBowRider_R skill hide
 set ImperialBowRider_R skill adept
@@ -3208,7 +3193,6 @@ set ImperialBowRider skill supporter
 set ImperialBowRider skill armsthrift
 set ImperialBowRider skill maim
 set ImperialBowRider skill aim
-set ImperialBowRider skill overwatch
 set ImperialBowRider skill camouflage
 set ImperialBowRider skill hide
 set ImperialBowRider skill adept
@@ -3225,7 +3209,6 @@ set ImperialGunner skill supporter
 set ImperialGunner skill armsthrift
 set ImperialGunner skill maim
 set ImperialGunner skill aim
-set ImperialGunner skill overwatch
 set ImperialGunner skill camouflage
 set ImperialGunner skill hide
 set ImperialGunner skill vantage
@@ -3242,7 +3225,6 @@ set ImperialHeavyGunner skill supporter
 set ImperialHeavyGunner skill armsthrift
 set ImperialHeavyGunner skill maim
 set ImperialHeavyGunner skill aim
-set ImperialHeavyGunner skill overwatch
 set ImperialHeavyGunner skill camouflage
 set ImperialHeavyGunner skill hide
 set ImperialHeavyGunner skill vantage
@@ -3259,7 +3241,6 @@ set Marksman skill supporter
 set Marksman skill armsthrift
 set Marksman skill maim
 set Marksman skill aim
-set Marksman skill overwatch
 set Marksman skill camouflage
 set Marksman skill hide
 set Marksman skill adept
@@ -3279,7 +3260,6 @@ set ImperialMarksman skill armsthrift
 set ImperialMarksman skill maim
 set ImperialMarksman skill throw
 set ImperialMarksman skill aim
-set ImperialMarksman skill overwatch
 set ImperialMarksman skill camouflage
 set ImperialMarksman skill hide
 set ImperialMarksman skill adept
@@ -3316,7 +3296,6 @@ set Hunter skill aim
 set Hunter skill maim
 set Hunter skill pursuit
 set Hunter skill adept
-set Hunter skill overwatch
 set Hunter skill hide
 set Hunter skill celerity
 set Hunter skill canto
@@ -3339,7 +3318,7 @@ set Bandit skill armsthrift
 set Bandit skill maim
 set Bandit skill throw
 set Bandit skill vengeful
-set Bandit skill knockaway
+//set Bandit skill knockaway
 set Bandit skill mug
 set Bandit skill camouflage
 set Bandit skill climber
@@ -3368,7 +3347,7 @@ set Corsair skill counter
 set Corsair skill hide
 set Corsair skill adept
 set Corsair skill pursuit
-set Corsair skill knockaway
+//set Corsair skill knockaway
 
 set Ruffian_R base hp +4
 //set Ruffian_R base strength +4
@@ -3622,13 +3601,11 @@ set RogueArcher skill aim
 set RogueArcher skill canto
 set RogueArcher skill supporter
 set RogueArcher skill armsthrift
-set RogueArcher skill overwatch
 set RogueArcher skill hide
 set RogueArcher skill maim
 set RogueArcher skill counter
 set RogueArcher skill camouflage
 set RogueArcher skill hide
-set RogueArcher skill watchful
 set RogueArcher skill adept
 set RogueArcher skill pursuit
 
@@ -3639,13 +3616,11 @@ set RogueGunner base magic +4
 set RogueGunner skill aim
 set RogueGunner skill maim
 set RogueGunner skill canto
-set RogueGunner skill overwatch
 set RogueGunner skill counter
 set RogueGunner skill armsthrift
 set RogueGunner skill supporter
 set RogueGunner skill camouflage
 set RogueGunner skill hide
-set RogueGunner skill watchful
 set RogueGunner skill adept
 set RogueGunner skill vantage
 
@@ -3685,7 +3660,7 @@ set SnowBandit skill climber
 set SnowBandit skill hide
 set SnowBandit skill adept
 set SnowBandit skill pursuit
-set SnowBandit skill knockaway
+//set SnowBandit skill knockaway
 
 set Barbarian base hp +4
 set Barbarian base speed +4
@@ -3706,7 +3681,7 @@ set Barbarian skill climber
 set Barbarian skill hide
 set Barbarian skill adept
 set Barbarian skill pursuit
-set Barbarian skill knockaway
+//set Barbarian skill knockaway
 
 set Duke base hp +4
 set Duke base speed +4
@@ -4175,7 +4150,6 @@ set Priest base magic +4
 set Priest base speed +4
 set Priest skill adept
 set Priest skill pursuit
-set Priest skill charisma
 set Priest skill blessing
 set Priest skill camouflage
 set Priest skill canto
@@ -4192,7 +4166,6 @@ set Aristocrat skill adept
 set Aristocrat skill armsthrift
 set Aristocrat skill camouflage 
 set Aristocrat skill canto
-set Aristocrat skill charisma
 set Aristocrat skill maim
 
 set Bishop skill adept
@@ -4278,7 +4251,7 @@ set Pirate skill camouflage
 set Pirate skill climber
 set Pirate skill counter
 set Pirate skill hide
-set Pirate skill knockaway
+//set Pirate skill knockaway
 set Pirate skill mug
 set Pirate skill pulverize
 set Pirate skill throw
