@@ -108,8 +108,8 @@ set reese base sword +20
 set reese base sshield +20
 
 set ward item 0 KnightSword 101
-set ward item 1 BlackShield 101
-set ward item 2 Vajra 101
+set ward item 1 Vajra 101
+set ward item 2 BlackShield 101
 set ward item 3 Treasure 101
 set ward item 4 WindSpear 101
 set ward item 5 Treasure 101
@@ -581,6 +581,7 @@ set ward skill canto
 set ward skill deathmatch
 set ward skill desperation
 set ward skill despoil
+set ward skill expert
 set ward skill flourish
 set ward skill guard
 set ward skill horselover
@@ -944,6 +945,7 @@ set dean skill critical
 set dean skill deathmatch
 set dean skill desperation
 set dean skill expert
+set dean skill flourish
 set dean skill guard
 set dean skill hurry
 set dean skill maim
@@ -1183,6 +1185,7 @@ set owen skill pursuit
 set owen skill sunder
 set owen skill versatile
 set owen skill windsweep
+set owen skill blessing
 
 set burroughs skill armsthrift
 set burroughs skill arrowbane 
@@ -1251,6 +1254,7 @@ set lynette skill hurry
 set lynette skill imbue
 set lynette skill maim
 set lynette skill mercy
+set lynette skill overwatch
 set lynette skill protector
 set lynette skill pursuit
 set lynette skill supporter
@@ -1262,6 +1266,7 @@ set paramythis skill blessing
 set paramythis skill camouflage
 set paramythis skill canto
 set paramythis skill celerity
+set paramythis skill counter
 set paramythis skill deathmatch
 set paramythis skill desperation
 set paramythis skill expert
@@ -3053,7 +3058,6 @@ set AxeGuard skill supporter
 set AxeGuard skill pulverize
 set AxeGuard skill camouflage
 set AxeGuard skill adept
-set AxeGuard skill battlecry
 
 //set ArmorKnight base hp +4
 //set ArmorKnight base strength +4
