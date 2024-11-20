@@ -107,6 +107,7 @@ set reese growth mshield 100
 set reese base sword +20
 set reese base sshield +20
 
+set ward item 0 KnightSword 101
 set ward item 1 BlackShield 101
 set ward item 2 Vajra 101
 set ward item 3 Treasure 101
@@ -261,10 +262,10 @@ set Enid item 4 DireThunder 20
 set Enid item 5 LiquidMagic 1
 set Enid item 6 Bag 0
 set Enid item 7 Rapier 101
-set Enid base fire +30
+set Enid base fire +40
 set Enid base thunder +30
 set FlameFencer base thunder +30
-set FlameFencer base fire +30
+set FlameFencer base fire +40
 
 set marcel growth sword 70
 set marcel growth Lshield 100
@@ -307,12 +308,6 @@ set ruby base spear +20
 set ruby base sshield +20
 set ruby base mshield +40
 
-//set arthur item 2 RadiantShield 101
-//set arthur item 3 LightningShield 101
-//set arthur item 4 ShadowShield 101
-//set arthur item 5 GaleShield 101
-//set arthur item 6 BlazingShield 101
-//set arthur item 7 WindSpear 101
 set arthur item 0 AltiumSword 101
 set arthur item 1 SquareShield 101
 set arthur item 2 Bag 0
@@ -424,7 +419,7 @@ set faramir base sword +20
 set faramir base bow +20
 
 set volo item 1 Treasure 101
-set volo item 2 KnightSword 101
+set volo item 2 MithrilSword 101
 set volo item 3 InfernalEdge 101
 set volo item 4 Bag 0
 set volo item 5 BastardSword 101
@@ -1181,11 +1176,9 @@ set owen skill canto
 set owen skill desperation
 set owen skill despoil
 set owen skill expert
-set owen skill focuschant
 set owen skill hurry
 set owen skill imbue 
 set owen skill mercy
-set owen skill miracle 
 set owen skill pursuit
 set owen skill sunder
 set owen skill versatile
@@ -2399,7 +2392,6 @@ set KillerSpear effect restore-uses
 set KillingEdge effect restore-uses
 set KisharsWrath effect restore-uses
 set KnightShield effect restore-uses
-set KnightSword effect restore-uses
 set LadyShield effect restore-uses
 set LadySword effect restore-uses
 set LeatherLShd effect restore-uses
@@ -2866,6 +2858,8 @@ set ImperialPaladin_R skill throw
 set ImperialPaladin_R skill adept
 set ImperialPaladin_R skill commander
 set ImperialPaladin_R skill camouflage
+set ImperialPaladin_R skill protector
+set ImperialPaladin_R skill resistor
 
 set ImperialPaladin base hp +4
 //set ImperialPaladin base strength +4
@@ -2881,6 +2875,8 @@ set ImperialPaladin skill maim
 set ImperialPaladin skill throw
 set ImperialPaladin skill adept
 set ImperialPaladin skill camouflage
+set ImperialPaladin skill protector
+set ImperialPaladin skill resistor
 
 set HighKnight_R base hp +4
 //set HighKnight_R base strength +4
@@ -3550,6 +3546,8 @@ set DarkMaster skill versatile
 set DarkMaster skill celerity
 set DarkMaster skill imbue
 set DarkMaster skill miracle
+set DarkMaster skill protector
+set DarkMaster skill resistor
 
 // same as Volo
 set RazeWarMonk base hp +4
@@ -3714,6 +3712,9 @@ set Scoundrel skill counter
 set Scoundrel skill pursuit
 set Scoundrel skill parry
 set Scoundrel skill hide
+set Scoundrel skill commander
+set Scoundrel skill protector
+set Scoundrel skill resistor
 
 set RazeWarMonk2 base hp +4
 set RazeWarMonk2 base speed +4
@@ -3798,6 +3799,9 @@ set Captain skill iaido
 set Captain skill camouflage
 set Captain skill parry
 set Captain skill counter
+set Captain skill commander
+set Captain skill protector
+set Captain skill resistor
 
 set Huntress base hp +4
 set Huntress base speed +4
@@ -3991,6 +3995,9 @@ set BlackRider skill maim
 set BlackRider skill shieldfaire
 set BlackRider skill supporter
 set BlackRider skill throw
+set BlackRider skill commander
+set BlackRider skill protector
+set BlackRider skill resistor
 
 set GigasKnight base defense +4
 set GigasKnight base hp +4
@@ -4004,6 +4011,9 @@ set GigasKnight skill maim
 set GigasKnight skill pulverize
 set GigasKnight skill supporter
 set GigasKnight skill vengeful
+set GigasKnight skill commander
+set GigasKnight skill protector
+set GigasKnight skill resistor
 
 set Transporter base hp +4
 set Transporter base speed +4
@@ -4032,6 +4042,9 @@ set Chief skill sunder
 set Chief skill supporter
 set Chief skill throw
 set Chief skill vantage
+set Chief skill commander
+set Chief skill protector
+set Chief skill resistor
 
 set Icewyrm base defense +4
 set Icewyrm base hp +4
@@ -4093,6 +4106,8 @@ set Paladin_M skill maim
 set Paladin_M skill shieldfaire
 set Paladin_M skill sunder
 set Paladin_M skill supporter
+set Paladin_M skill protector
+set Paladin_M skill resistor
 
 set AxeSergeant base defense +4
 set AxeSergeant base hp +4
@@ -4173,7 +4188,6 @@ set Bishop skill blessing
 set Bishop skill camouflage 
 set Bishop skill canto
 set Bishop skill pursuit
-set Bishop skill focuschant
 set Bishop skill imbue
 set Bishop skill maim
 set Bishop skill sunder
