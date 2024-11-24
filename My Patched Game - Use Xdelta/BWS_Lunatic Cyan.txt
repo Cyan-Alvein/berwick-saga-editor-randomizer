@@ -161,7 +161,7 @@ set adel item 1 RoundShield 101
 set adel item 2 FireShield 101
 set adel item 3 GoreFork 101
 set adel item 4 Angon 101
-set adel item 5 Xyston 101
+set adel item 5 Oxtongue 101
 set adel item 6 Bag 0
 set adel item 7 LiquidVitality 1
 set adel growth spear 70
@@ -172,7 +172,7 @@ set adel base spear +20
 set leon item 0 SteelSpear 101
 set leon item 1 RoundShield 101
 set leon item 2 GoreFork 101
-set leon item 3 Xyston 101
+set leon item 3 Oxtongue 101
 set leon item 4 ThunderShield 101
 set leon item 5 Bag 0
 set leon item 6 LiquidVitality 1
@@ -442,7 +442,7 @@ set clifford base spear +20
 set clifford base sshield +20
 set clifford base mshield +20
 
-set axel item 0 Broadaxe 101
+set axel item 0 IronAxe 101
 set axel item 1 MaozaWolf 101
 set axel item 2 KillerAxe 101
 set axel item 3 Bag 0
@@ -500,7 +500,7 @@ set derrick growth axe 60
 set derrick growth Lshield 50
 set derrick growth defense 20
 set derrick growth strength 30
-set Derrick item 0 Broadaxe 101
+set Derrick item 0 IronAxe 101
 set Derrick item 2 GigasAxe 101
 set Derrick item 3 RaijinShield 101
 set Derrick item 4 IronShield 101
@@ -571,7 +571,7 @@ set ward skill canto
 set ward skill deathmatch
 set ward skill desperation
 set ward skill despoil
-set ward skill expert
+//set ward skill expert
 set ward skill flourish
 set ward skill guard
 set ward skill horselover
@@ -591,7 +591,7 @@ set elbert skill battlecry
 set elbert skill canto
 set elbert skill deathmatch
 set elbert skill desperation
-set elbert skill expert
+//set elbert skill expert
 set elbert skill flourish
 set elbert skill guard 
 set elbert skill horselover
@@ -615,7 +615,7 @@ set christine skill counter
 set christine skill deadeye 
 set christine skill deathmatch
 set christine skill desperation
-set christine skill expert
+//set christine skill expert
 set christine skill flourish
 set christine skill hide
 set christine skill horselover
@@ -636,7 +636,7 @@ set adel skill canto
 set adel skill counter 
 set adel skill deathmatch
 set adel skill desperation
-set adel skill expert
+//set adel skill expert
 set adel skill flourish
 set adel skill guard
 set adel skill horselover
@@ -657,7 +657,7 @@ set leon skill battlecry
 set leon skill canto
 set leon skill deathmatch
 set leon skill desperation
-set leon skill expert
+//set leon skill expert
 set leon skill flourish
 set leon skill guard
 set leon skill horselover
@@ -721,7 +721,7 @@ set czene skill celerity
 set czene skill deathmatch
 set czene skill desperation
 set czene skill evasion
-set czene skill expert
+//set czene skill expert
 set czene skill flourish
 set czene skill hurry
 set czene skill mercy
@@ -743,7 +743,7 @@ set daoud skill canto
 set daoud skill deathmatch
 set daoud skill desperation
 set daoud skill despoil 
-set daoud skill expert
+//set daoud skill expert
 set daoud skill flourish
 set daoud skill guard 
 set daoud skill hurry
@@ -810,7 +810,7 @@ set marcel skill canto
 set marcel skill counter
 set marcel skill deathmatch
 set marcel skill desperation
-set marcel skill expert
+//set marcel skill expert
 set marcel skill flourish
 set marcel skill guard
 set marcel skill hurry
@@ -869,7 +869,7 @@ set arthur skill celerity
 set arthur skill counter 
 set arthur skill deathmatch
 set arthur skill desperation
-set arthur skill expert
+//set arthur skill expert
 set arthur skill flourish
 set arthur skill guard
 set arthur skill horselover
@@ -890,7 +890,7 @@ set kramer skill climber
 set kramer skill counter 
 set kramer skill deathmatch
 set kramer skill desperation 
-set kramer skill expert
+//set kramer skill expert
 set kramer skill flourish
 set kramer skill guard
 set kramer skill hurry
@@ -910,7 +910,7 @@ set sherpa skill climber
 set sherpa skill counter
 set sherpa skill deathmatch
 set sherpa skill desperation
-set sherpa skill expert
+//set sherpa skill expert
 set sherpa skill flourish
 set sherpa skill guard
 set sherpa skill hurry
@@ -934,7 +934,7 @@ set dean skill counter
 set dean skill critical
 set dean skill deathmatch
 set dean skill desperation
-set dean skill expert
+//set dean skill expert
 set dean skill flourish
 set dean skill guard
 set dean skill hurry
@@ -1010,7 +1010,7 @@ set esteban skill counter
 set esteban skill deadeye
 set esteban skill deathmatch
 set esteban skill desperation
-set esteban skill expert
+//set esteban skill expert
 set esteban skill flourish
 set esteban skill hide
 set esteban skill huntsman
@@ -1038,7 +1038,7 @@ set faye skill critical
 set faye skill deathmatch
 set faye skill desperation
 set faye skill evasion
-set faye skill expert
+//set faye skill expert
 set faye skill flourish
 set faye skill fortune
 set faye skill hurry
@@ -1062,7 +1062,7 @@ set faramir skill deadeye
 set faramir skill deathmatch
 set faramir skill desperation
 set faramir skill evasion
-set faramir skill expert
+//set faramir skill expert
 set faramir skill flourish
 set faramir skill fortune 
 set faramir skill guard
@@ -1089,7 +1089,7 @@ set volo skill deathmatch
 set volo skill desperation
 set volo skill despoil
 set volo skill evasion
-set volo skill expert
+//set volo skill expert
 set volo skill flourish
 set volo skill fortune
 set volo skill hurry
@@ -1107,7 +1107,7 @@ set clifford skill canto
 set clifford skill deathmatch
 set clifford skill desperation
 set clifford skill despoil
-set clifford skill expert
+//set clifford skill expert
 set clifford skill flourish
 set clifford skill guard
 set clifford skill horselover
@@ -1126,7 +1126,7 @@ set axel skill climber
 set axel skill counter
 set axel skill deathmatch
 set axel skill desperation
-set axel skill expert
+//set axel skill expert
 set axel skill flourish
 set axel skill guard
 set axel skill hide
@@ -1151,7 +1151,7 @@ set larentia skill canto
 set larentia skill pursuit
 set larentia skill deathmatch
 set larentia skill desperation
-set larentia skill expert
+//set larentia skill expert
 set larentia skill flourish
 set larentia skill hurry
 set larentia skill mercy
@@ -1200,7 +1200,7 @@ set derrick skill counter
 set derrick skill deathmatch
 set derrick skill desperation
 set derrick skill despoil
-set derrick skill expert 
+//set derrick skill expert 
 set derrick skill flourish
 set derrick skill guard 
 set derrick skill hurry
@@ -1260,7 +1260,7 @@ set paramythis skill celerity
 set paramythis skill counter
 set paramythis skill deathmatch
 set paramythis skill desperation
-set paramythis skill expert
+//set paramythis skill expert
 set paramythis skill flourish
 set paramythis skill guard
 set paramythis skill horselover
@@ -1281,7 +1281,7 @@ set Zweihander effect restore-uses
 set Fauchard effect restore-uses
 set Pascanion effect restore-uses
 set Pascanion2 effect restore-uses
-set Pascanion2 stat level 27
+set Pascanion2 stat level 20
 set Bhuj effect restore-uses
 set Brymranger effect restore-uses
 set Perseid effect restore-uses
@@ -1305,23 +1305,23 @@ set Tabarzin effect restore-uses
 set InfernalEdge effect restore-uses
 set ImpSoldierMShd+ effect restore-uses
 
-set Bhuj stat level 27
-set Brymranger stat level 27
-set Fauchard stat level 22
-set Perseid stat level 27
-set RazeEtoile stat level 17
-set Vritra stat level 27
-set Cutlass+ stat level 27
-set Cutlass stat level 22
-set Balmung stat level 27
-set Balmung2 stat level 27
-set Balmung3 stat level 27
-set Vajra stat level 27
-set Hawkeye stat level 27
+set Bhuj stat level 20
+set Brymranger stat level 20
+set Fauchard stat level 15
+set Perseid stat level 20
+set RazeEtoile stat level 15
+set Vritra stat level 20
+set Cutlass+ stat level 20
+set Cutlass stat level 15
+set Balmung stat level 20
+set Balmung2 stat level 20
+set Balmung3 stat level 20
+set Vajra stat level 20
+set Hawkeye stat level 20
 //set Harperia stat level 7
 //set BoltKnife stat level 7
-//set SereniaBow stat level 27
-set Gram stat level 27
+set SereniaBow stat level 20
+set Gram stat level 20
 
 // magic
 set Blizzard effect restore-uses
@@ -1340,7 +1340,7 @@ set Earthblaze stat max-range 3
 set Earthblaze effect restore-uses
 set Hellfire stat max-range 2
 set Hellfire effect restore-uses
-set PallasLeia stat level 30
+set PallasLeia stat level 20
 set PallasLeia stat max-range 2
 
 set Thunder stat max-range 3
@@ -1349,7 +1349,7 @@ set DireThunder stat max-range 3
 set DireThunder effect restore-uses
 set Lightning stat max-range 2
 set Lightning effect restore-uses
-set PallasSerenia stat level 30
+set PallasSerenia stat level 20
 set PallasSerenia stat max-range 3
 
 set Physic stat max-range 5
@@ -1360,8 +1360,8 @@ set Holy stat uses 20
 set holy effect cripple-rate 6
 set Starlight effect cripple-rate 8
 
-set Starlight stat level 30
-set Rehabilitate stat level 30
+set Starlight stat level 20
+set Rehabilitate stat level 20
 
 set AirBlade effect injure-rate 6
 set Windstorm effect injure-rate 6
@@ -1429,15 +1429,16 @@ set MainGauche effect restore-uses
 set Swordbreaker effect restore-uses
 
 set dart stat level 1
-set Seax stat level 3
+//set Seax stat level 3
 set TempestKnife stat level 1
-set Swordbreaker stat level 7
-set AssassinsKnife stat level 27
+//set Swordbreaker stat level 1
+set AssassinsKnife stat level 20
 set Airknife stat level 1
 set ThrowingKnife stat level 1
 
 set Seax stat weight 2
-set vespa stat level 3
+
+//set vespa stat level 7
 
 set BoltKnife stat durability C
 set LetterOpener stat durability D
@@ -1543,8 +1544,9 @@ set HolySword stat level 1
 set WindEdge stat level 1
 set InfernalEdge stat level 1
 set Grimhild stat level 1
+set AltiumSword stat level 3
 
-set BronzeSword stat Weight 3
+set BronzeSword stat Weight 4
 set Shortsword stat Weight 4
 set Scimitar stat weight 4
 set Longsword stat weight 5
@@ -1592,7 +1594,7 @@ set HolyMace stat might 12
 
 set IronClub stat weight 2
 set HolyMace stat weight 4
-set DarkMace stat weight 6
+set DarkMace stat weight 5
 set PoisonMace stat weight 4
 
 set IronClub stat Accuracy 60
@@ -1668,8 +1670,11 @@ set PrototypeSpear stat accuracy 60
 set KillerSpear stat accuracy 70
 
 set Verutum stat might 12
-set Verutum stat level 7
-set SlimSpear stat Weight 4
+
+set Verutum stat level 1
+set SteelSpear stat level 1
+
+set SlimSpear stat Weight 5
 set IronSpear stat Weight 6
 set Pilum stat Weight 7
 set SteelSpear stat Weight 7
@@ -1730,7 +1735,7 @@ set ImperialSpear effect restore-uses
 
 set Doru stat level 8
 
-set SwiftSpear stat level 22
+set SwiftSpear stat level 15
 
 //set Pike effect cripple-rate 6
 
@@ -1757,7 +1762,7 @@ set Firebrand stat durability D
 
 //lance // lance
 
-set Drakelance stat level 22
+set Drakelance stat level 15
 
 set Drakelance effect restore-uses
 
@@ -1767,10 +1772,10 @@ set IronLance effect cripple-rate 4
 set Oxtongue effect cripple-rate 4
 
 set IronLance Stat Weight 15
-set Oxtongue Stat Weight 18
+set Oxtongue Stat Weight 16
 set Xyston Stat Weight 15
-set GreatLance Stat Weight 19
-set Drakelance Stat Weight 18
+set GreatLance Stat Weight 16
+set Drakelance Stat Weight 17
 
 set IronLance Stat Accuracy 40
 set Oxtongue Stat Accuracy 40
@@ -1794,26 +1799,26 @@ set OldImperialAxe stat might 8
 set DarkAxe stat might 6
 
 set LogSplitter stat Weight 5
-set Pickaxe stat Weight 4
-set BattleSaw stat Weight 9
+set Pickaxe stat Weight 5
+set BattleSaw stat Weight 8
 set HandAxe stat Weight 7
 set BarbaricAxe stat Weight 13
 set CrookedAxe stat Weight 15
-set IronAxe stat Weight 7
-set Francisca stat Weight 7
-set Battleaxe stat Weight 9
-set Broadaxe stat Weight 8
+set IronAxe stat Weight 6
+set Francisca stat Weight 8
+set Battleaxe stat Weight 10
+set Broadaxe stat Weight 7
 set VolcanoAxe stat Weight 7
 set GlacierAxe stat Weight 7
 set NimbusAxe stat Weight 7
 set DarkAxe stat Weight 7
 set WarPick stat Weight 7
-set Hatchet stat Weight 7
+set Hatchet stat Weight 6
 set BreakerAxe stat Weight 8
 set Poleax stat Weight 9
 set Tomahawk stat Weight 7
 set BoltAxe stat Weight 8
-set KillerAxe stat Weight 7
+set KillerAxe stat Weight 6
 set Hammer stat Weight 12
 set Greataxe stat Weight 14
 set Tabarzin stat Weight 8
@@ -1823,11 +1828,11 @@ set Mjollnir stat Weight 8
 set Shieldaxe stat Weight 9
 set MaozaWolf stat Weight 20
 set Bhuj stat Weight 9
-set GigasAxe stat Weight 16
+set GigasAxe stat Weight 15
 set VerianAxe stat Weight 7
 set OldImperialAxe stat Weight 8
 set ImperialAxe stat Weight 7
-set BanditAxe stat Weight 4
+set BanditAxe stat Weight 5
 
 set BarbaricAxe stat accuracy 30
 set BanditAxe stat accuracy 50
@@ -1891,10 +1896,10 @@ set OldImperialAxe effect restore-uses
 set ImperialAxe effect restore-uses
 set BanditAxe effect restore-uses
 
-set Broadaxe stat level 3
+//set Broadaxe stat level 7
 set GigasAxe stat level 20
-set Hammer stat level 22
-set Tomahawk stat level 4
+set Hammer stat level 15
+set Tomahawk stat level 1
 set MaozaWolf stat level 20
 set VolcanoAxe stat level 1
 set GlacierAxe stat level 1
@@ -1935,11 +1940,11 @@ set StoneArrow stat might 4
 
 set Apeiron stat level 1
 
-set BronzeBow stat Weight 5
-set IronBow stat Weight 4
-set ShortBow stat Weight 3
+set BronzeBow stat Weight 4
+set IronBow stat Weight 5
+set ShortBow stat Weight 4
 set SwiftBow stat Weight 4
-set Longbow stat Weight 6
+set Longbow stat Weight 7
 set TripleFireBow stat Weight 10
 set CompositeBow stat Weight 8
 set Apollyon stat Weight 5
@@ -1951,9 +1956,9 @@ set Rossweisse stat Weight 5
 set Pascanion stat Weight 7
 set Pascanion2 stat Weight 7
 set SereniaBow stat Weight 3
-set VerianBow stat Weight 4
+set VerianBow stat Weight 5
 set OldImperialBow stat Weight 5
-set ImperialBow stat Weight 4
+set ImperialBow stat Weight 5
 
 set BronzeBow stat accuracy 50
 set ImperialBow stat accuracy 50
@@ -1967,8 +1972,8 @@ set SwiftBow stat accuracy 40
 set VerianBow stat accuracy 50
 set OldImperialBow stat accuracy 40
 
-set Shortbow stat durability D
-set Longbow stat durability B
+set Shortbow stat durability C
+set Longbow stat durability C
 set Apollyon stat durability B
 set Apeiron stat durability B
 
@@ -2008,6 +2013,8 @@ set OldImperialBow effect restore-uses
 set ImperialBow effect restore-uses
 
 //Crossbow
+
+set Gastraphetes stat level 1
 
 set Bowgun stat weight 4
 set IronCrossbow stat weight 6
@@ -2078,8 +2085,9 @@ set SteelBallista stat accuracy 60
 set PrototypeSpringald stat accuracy 60
 set Springald stat accuracy 60
 
-set SteelBallista stat level 7
-set Springald stat level 7
+set SteelBallista stat level 10
+set Springald stat level 15
+
 set Springald effect restore-uses
 set StandardBolt effect restore-uses
 set New-TypeBolt effect restore-uses
@@ -2095,7 +2103,7 @@ set Scorpio stat Durability B
 
 // sshield
 
-set ShiningShield stat level 20
+set ShiningShield stat level 15
 
 set ShiningShield effect negate-dark 100
 set DarkShield stat dark_res 10
@@ -2141,14 +2149,14 @@ set OldImpSShd stat Weight 4
 set ImpSoldierSShd stat Weight 4
 set ImpSoldierSShd+ stat Weight 4
 set ImpOfficerSShd stat weight 4
-set ImpKnightSShd stat weight 5
+set ImpKnightSShd stat weight 4
 
 set ShiningShield Stat Cost 5000
 set Vollenden stat Cost 7000
 set RoundShield stat cost 2000
 set mithrilshield stat cost 4000
 set Perseid stat cost 6000
-set LeatherSShd stat cost 500
+set LeatherSShd stat cost 600
 
 set Vollenden stat accuracy 80
 set OldImpSShd stat accuracy 30
@@ -2173,7 +2181,7 @@ set ShiningShield stat durability A
 set LadyShield stat durability B
 
 set ImpKnightSShd stat cost 1000
-set Buckler stat cost 6 00
+set Buckler stat cost 800
 
 set FireShield stat level 1
 set ThunderShield stat level 1
@@ -2271,12 +2279,12 @@ set GaleShield stat Weight 4
 
 set LadyMShd stat cost 4000
 
-set BlackShield stat level 22
+set BlackShield stat level 15
 
 // lshield stuff
 
-set AmaterasuShield stat level 22
-set GeneralShield stat level 22
+set AmaterasuShield stat level 15
+set GeneralShield stat level 15
 set KojinShield stat level 1
 set FujinShield stat level 1
 set RaijinShield stat level 1
