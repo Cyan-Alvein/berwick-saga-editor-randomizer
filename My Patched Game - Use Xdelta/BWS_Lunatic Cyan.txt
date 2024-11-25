@@ -1829,9 +1829,9 @@ set Shieldaxe stat Weight 9
 set MaozaWolf stat Weight 20
 set Bhuj stat Weight 9
 set GigasAxe stat Weight 15
-set VerianAxe stat Weight 7
-set OldImperialAxe stat Weight 8
-set ImperialAxe stat Weight 7
+set VerianAxe stat Weight 6
+set OldImperialAxe stat Weight 7
+set ImperialAxe stat Weight 6
 set BanditAxe stat Weight 5
 
 set BarbaricAxe stat accuracy 30
@@ -1957,7 +1957,7 @@ set Pascanion stat Weight 7
 set Pascanion2 stat Weight 7
 set SereniaBow stat Weight 3
 set VerianBow stat Weight 5
-set OldImperialBow stat Weight 5
+set OldImperialBow stat Weight 6
 set ImperialBow stat Weight 5
 
 set BronzeBow stat accuracy 50
