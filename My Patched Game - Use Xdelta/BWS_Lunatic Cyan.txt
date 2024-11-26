@@ -630,13 +630,11 @@ set christine skill supporter
 set christine skill vantage 
 set christine skill windsweep
 
-set adel skill pursuit
 set adel skill battlecry
 set adel skill canto
 set adel skill counter 
 set adel skill deathmatch
 set adel skill desperation
-//set adel skill expert
 set adel skill flourish
 set adel skill guard
 set adel skill horselover
@@ -646,6 +644,7 @@ set adel skill lance
 set adel skill mercy
 set adel skill paragon
 set adel skill pitchfork
+set adel skill pursuit
 set adel skill shieldfaire
 set adel skill sunder 
 set adel skill supporter
@@ -653,11 +652,11 @@ set adel skill throw
 set adel skill vantage
 set adel skill windsweep 
 
+//set leon skill adept
 set leon skill battlecry
 set leon skill canto
 set leon skill deathmatch
 set leon skill desperation
-//set leon skill expert
 set leon skill flourish
 set leon skill guard
 set leon skill horselover
@@ -2637,12 +2636,6 @@ set Treasure stat price 60000
 //set Alvina bracket no
 //set Paramythis bracket no
 //set Lynette bracket no
-
-set SteelArrow+ effect restore-uses
-set IronArrow+ effect restore-uses
-set BronzeArrow+ effect restore-uses
-set MithrilArrow effect restore-uses
-set RaijinArrow effect restore-uses
 
 //////////////////////////Difficulty Level - Ennemy buff///////////////////
 
