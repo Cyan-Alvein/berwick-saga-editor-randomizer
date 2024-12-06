@@ -4,9 +4,9 @@
 
 // If you wanna tip me:
 //My monero address is: 87totSvhKggX9E14sC5dAu2Rb9X5nEEiZPCJHGUsPgLU65RjixyB7uMcxpq4ATNcM77qQa3s8QimNYHvd6uAgScwNmZG3Fo
-//My bitcoin address is: bc1q3e0knh6kahwgmwt4jjs4xw7l5sx452zsz8vyvv
+//My bitcoin address is: bc1q6sw5ncx3rept6qh3t2u9dgvyadnkrr4k9euwap
 // If you wanna contact me:
-// Simplex Address: https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2Fh--vW7ZSkXPeOUpfxlFGgauQmXNFOzGoizak7Ult7cw%3D%40smp15.simplex.im%2FQ7pGQDFZgl6wyjhJToF-IV0r6Yp5mjz0%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEA_yFMi-B0MDEb2PZPnPC2qX6o86wks29AyoHCZO6Ej34%253D%26srv%3Doauu4bgijybyhczbnxtlggo6hiubahmeutaqineuyy23aojpih3dajad.onion
+// Simplex Address: https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2F1OwYGt-yqOfe2IyVHhxz3ohqo3aCCMjtB-8wn4X_aoY%3D%40smp11.simplex.im%2FauRyJGGaqyJEL7307oHmXU10-O0_gpey%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEA95PSnSRri1RaSKqN5ho0tsz2E3nUvpO_2mwsKTVVbGc%253D%26srv%3D6ioorbm6i3yxmuoezrhjk6f6qgkc4syabh7m3so74xunb5nzr4pwgfqd.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22lGqfQI9kcrPOApQah_5XpQ%3D%3D%22%7D
 // Gmail Address: Cyan.Alvein@gmail.com
 // My Twitter Account: https://x.com/GlennFrost15
 // My Nosttr Account: https://nostter.app/nprofile1qqs8486svgm5dgret9gr3xamkgkj9mudy6cpzzha9ug9g6l205tklvgpuuyn3
