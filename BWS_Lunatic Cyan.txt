@@ -498,8 +498,7 @@ set burroughs base crossbow +20
 
 set derrick growth axe 60
 set derrick growth Lshield 50
-set derrick growth defense 20
-set derrick growth strength 30
+set derrick growth defense 30
 set Derrick item 0 IronAxe 101
 set Derrick item 2 GigasAxe 101
 set Derrick item 3 RaijinShield 101
@@ -1356,8 +1355,8 @@ set Physic effect restore-uses
 set Fortify effect restore-uses
 set Holy stat might 5
 set Holy stat uses 20
-set holy effect cripple-rate 6
-set Starlight effect cripple-rate 8
+set holy effect cripple-x2
+set Starlight effect cripple-x2
 
 set Starlight stat level 20
 set Rehabilitate stat level 20
@@ -1369,9 +1368,9 @@ set Blizzard effect injure-rate 80
 set Fire effect injure-rate 12
 set Hellfire effect injure-rate 18
 set PallasLeia effect injure-rate 24
-set Thunder effect cripple-rate 2
-set DireThunder effect cripple-rate 2
-set PallasSerenia effect cripple-rate 8
+set Thunder effect cripple-rate 8
+set DireThunder effect cripple-rate 8
+set PallasSerenia effect cripple-x2
 
 set Heal stat max-range 3
 set Soothe stat max-range 3
@@ -1466,7 +1465,7 @@ set maingauche stat accuracy 50
 
 set Airknife effect injure-rate 30
 
-set AssassinsKnife effect cripple-rate 4
+set AssassinsKnife effect cripple-x2
 
 
 //swords
@@ -1649,7 +1648,7 @@ set Zanbato stat durability B
 
 set Zanbato stat cost 2000
 
-set BastardSword effect cripple-rate 6
+set BastardSword effect cripple-x2
 
 //spears // spears
 
@@ -1736,13 +1735,13 @@ set Doru stat level 8
 
 set SwiftSpear stat level 15
 
-//set Pike effect cripple-rate 6
+//set Pike effect cripple-x2
 
 // fork
 
 
-set MilitaryFork effect cripple-rate 6
-set Pitchfork effect cripple-rate 6
+set MilitaryFork effect cripple-x2
+set Pitchfork effect cripple-x2
 
 set MilitaryFork stat accuracy 60
 set Pitchfork stat accuracy 60
@@ -1765,10 +1764,10 @@ set Drakelance stat level 15
 
 set Drakelance effect restore-uses
 
-set Drakelance effect cripple-rate 4
-set Xyston effect cripple-rate 4
-set IronLance effect cripple-rate 4
-set Oxtongue effect cripple-rate 4
+set Drakelance effect cripple-x2
+set Xyston effect cripple-x2
+set IronLance effect cripple-x2
+set Oxtongue effect cripple-x2
 
 set IronLance Stat Weight 15
 set Oxtongue Stat Weight 16
