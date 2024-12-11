@@ -140,7 +140,7 @@ set Paladin_F base mshield +30
 set Paladin_F base spear +30
 
 set christine item 0 Gastraphetes 101
-set christine item 1 IronArrow+ 80
+set christine item 1 IronArrow+ 20
 //set christine item 2 Don't Touch Bag 4 Vulnaries
 set christine item 3 SteelArrow+ 20
 set christine item 4 MithrilArrow 20
@@ -161,7 +161,7 @@ set adel item 1 RoundShield 101
 set adel item 2 FireShield 101
 set adel item 3 GoreFork 101
 set adel item 4 Angon 101
-set adel item 5 Oxtongue 101
+set adel item 5 IronLance 101
 set adel item 6 Bag 0
 set adel item 7 LiquidVitality 1
 set adel growth spear 70
@@ -172,7 +172,7 @@ set adel base spear +20
 set leon item 0 SteelSpear 101
 set leon item 1 RoundShield 101
 set leon item 2 GoreFork 101
-set leon item 3 Oxtongue 101
+set leon item 3 IronLance 101
 set leon item 4 ThunderShield 101
 set leon item 5 Bag 0
 set leon item 6 LiquidVitality 1
@@ -183,7 +183,7 @@ set leon base sshield +20
 set leon base spear +20
 
 set sherlock item 0 Apollyon 101
-set sherlock item 1 IronArrow+ 80
+set sherlock item 1 IronArrow+ 20
 set sherlock item 3 Treasure 101
 set sherlock item 4 SteelArrow+ 20
 set sherlock item 5 MithrilArrow 20
@@ -315,14 +315,13 @@ set arthur base sshield +20
 set arthur base mshield +20
 set arthur base spear +30
 
-set kramer item 1 Bag 0
+set kramer item 0 AltiumSword 101
 set kramer item 1 KillingEdge 101
-set kramer item 1 AltiumSword 101
 set kramer item 2 LevinSword 101
 set kramer item 3 VanishCharm 101
 set kramer item 4 PhoenixBrace 101
-set kramer item 5 Albatross 101
-set kramer item 6 MithrilSword 101
+set kramer item 5 Bag 0
+set kramer item 6 BastardSword 101
 set kramer item 7 LiquidDefense 1
 set kramer growth sword 100
 set kramer base sword +20
@@ -331,7 +330,7 @@ set dean growth axe 100
 set dean item 2 Bag 0
 set dean item 3 Bhuj 101
 set dean item 4 MithrilAxe 101
-set dean item 5 BoltAxe 101 
+set dean item 5 Tomahawk 101 
 set dean item 6 Shieldaxe 101
 set dean item 7 GamblersBrace 101
 set dean base axe +20
@@ -340,7 +339,7 @@ set faye item 2 GiantsBrace 101
 set faye item 3 Bag 0
 set faye item 4 LadySword 101
 set faye item 5 FlameSword 101 
-set faye item 6 MithrilSword 101
+set faye item 6 Albatross 101
 set faye item 7 LiquidStrength 1
 set faye growth sword 100
 set faye base sword +20
@@ -349,7 +348,7 @@ set sylvis item 0 Bag 0
 set sylvis item 1 Apollyon 101
 set sylvis item 2 SteelArrow+ 20
 set sylvis item 3 Apeiron 101
-set sylvis item 4 RaijinArrow 80
+set sylvis item 4 RaijinArrow 20
 set sylvis item 5 Ollerus 101
 set sylvis item 6 MithrilArrow 20
 set sylvis item 7 RapidCrossbow 101
@@ -562,6 +561,7 @@ set reese skill robust
 set reese skill sunder
 set reese skill supporter
 set reese skill windsweep 
+set reese skill prepared 
 
 set ward skill pursuit
 set ward skill arrowbane
@@ -583,7 +583,8 @@ set ward skill robust
 set ward skill supporter
 set ward skill throw
 set ward skill windsweep
-
+set ward skill prepared
+	
 set elbert skill pursuit
 set elbert skill arrowbane
 set elbert skill battlecry
@@ -605,12 +606,13 @@ set elbert skill sunder
 set elbert skill supporter
 set elbert skill throw 
 set elbert skill windsweep
+set elbert skill prepared
 
 set christine skill aim
 set christine skill armsthrift
 set christine skill battlecry
 set christine skill canto
-set christine skill counter 
+set christine skill counter
 set christine skill deadeye 
 set christine skill deathmatch
 set christine skill desperation
@@ -630,6 +632,7 @@ set christine skill vantage
 set christine skill windsweep
 set christine skill prepared
 set christine skill tripleshot
+set christine skill maim
 
 set adel skill battlecry
 set adel skill canto
@@ -652,6 +655,7 @@ set adel skill supporter
 set adel skill throw
 set adel skill vantage
 set adel skill windsweep 
+set adel skill prepared 
 
 //set leon skill adept
 set leon skill battlecry
@@ -675,6 +679,7 @@ set leon skill supporter
 set leon skill throw 
 set leon skill vantage 
 set leon skill windsweep 
+set leon skill prepared
 
 set sherlock skill aim 
 set sherlock skill battlecry
@@ -760,6 +765,7 @@ set daoud skill robust
 set daoud skill throw 
 set daoud skill vengeful 
 set daoud skill windsweep
+set daoud skill prepared
 
 set enid skill battlecry
 set enid skill canto
@@ -849,6 +855,8 @@ set alvina skill sunder
 set alvina skill throw
 set alvina skill windsweep
 set alvina skill horseswap
+set alvina skill prepared
+set alvina skill vantage
 
 set ruby skill adept 
 set ruby skill axebane
@@ -869,6 +877,7 @@ set ruby skill throw
 set ruby skill vantage 
 set ruby skill windsweep 
 set ruby skill horseswap 
+set ruby skill prepared 
 
 set arthur skill pursuit
 set arthur skill armsthrift
@@ -890,6 +899,7 @@ set arthur skill sunder
 set arthur skill throw
 set arthur skill windsweep
 set arthur skill horseswap
+set arthur skill prepared
 
 set kramer skill adept 
 set kramer skill arrowbane
@@ -913,6 +923,7 @@ set kramer skill pursuit
 set kramer skill sunder 
 set kramer skill windsweep 
 set kramer skill prepared 
+set kramer skill blade 
 
 set sherpa skill battlecry
 set sherpa skill canto
@@ -1045,8 +1056,9 @@ set esteban skill sunder
 set esteban skill watchful
 set esteban skill windsweep
 set esteban skill prepared
+set esteban skill tripleshot
 	
-//set faye skill counter
+set faye skill counter
 set faye skill adept
 set faye skill arrowbane 
 set faye skill battlecry
@@ -1068,6 +1080,7 @@ set faye skill pursuit
 set faye skill sunder
 set faye skill windsweep 
 set faye skill prepared 
+set faye skill blade 
 
 set faramir skill aim
 set faramir skill astra 
@@ -1139,6 +1152,8 @@ set clifford skill provoke
 set clifford skill shieldfaire
 set clifford skill throw
 set clifford skill windsweep
+set clifford skill prepared
+set clifford skill counter
 
 set axel skill axeguard 
 set axel skill battlecry
@@ -1183,6 +1198,7 @@ set larentia skill throw
 set larentia skill vantage 
 set larentia skill watchful
 set larentia skill windsweep 
+set larentia skill prepared 
 
 set owen skill adept
 set owen skill battlecry
@@ -1213,6 +1229,7 @@ set burroughs skill maim
 set burroughs skill mercy
 set burroughs skill paragon
 set burroughs skill sunder 
+set burroughs skill prepared 
 
 set derrick skill armsthrift 
 set derrick skill axeguard
@@ -1254,6 +1271,7 @@ set saphira skill sunder
 set saphira skill vantage 
 set saphira skill versatile
 set saphira skill windsweep
+set saphira skill prepared
 
 set lynette skill aim
 set lynette skill battlecry
@@ -4454,11 +4472,13 @@ set SwordKnight_R skill pursuit
 set SwordKnight_R skill counter
 set SwordKnight_R skill armsthrift
 set SwordKnight_R skill throw
+set SwordKnight_R skill prepared
 
 set SwordKnight skill pursuit
 set SwordKnight skill counter
 set SwordKnight skill armsthrift
 set SwordKnight skill throw
+set SwordKnight skill prepared
 
 set Pirate skill camouflage
 set Pirate skill climber
@@ -4507,15 +4527,18 @@ set SpearKnight skill supporter
 set SpearKnight skill pursuit
 set SpearKnight skill throw
 set SpearKnight skill vantage
+set SpearKnight skill prepared
 
 set SpearKnight_R skill supporter
 set SpearKnight_R skill pursuit
 set SpearKnight_R skill throw
 set SpearKnight_R skill vantage
+set SpearKnight_R skill prepared
 
 set Ballistician skill aim
 set Ballistician skill armsthrift
 set Ballistician skill maim
+set Ballistician skill prepared
 
 set Burglar skill camouflage
 set Burglar skill celerity
@@ -4546,5 +4569,6 @@ set AxeSoldier skill maim
 set AxeSoldier skill pulverize
 set AxeSoldier skill throw
 set AxeSoldier skill vengeful
+set AxeSoldier skill prepared
 
 //////////////////////////////////////////////////////////////////////////////////
