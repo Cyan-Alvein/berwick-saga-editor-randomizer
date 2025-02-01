@@ -561,7 +561,7 @@ set ward skill deathmatch
 set ward skill desperation
 set ward skill despoil
 //set ward skill expert
-//set ward skill counter
+set ward skill counter
 set ward skill flourish
 set ward skill guard
 set ward skill horselover
@@ -602,7 +602,7 @@ set christine skill aim
 set christine skill armsthrift
 set christine skill battlecry
 set christine skill canto
-set christine skill counter
+//set christine skill counter
 set christine skill deadeye 
 set christine skill deathmatch
 set christine skill desperation
@@ -913,7 +913,8 @@ set sherpa skill knockaway
 set sherpa skill maim
 set sherpa skill mercy
 set sherpa skill provoke
-set sherpa skill critical
+set sherpa skill adept
+set sherpa skill arrowbane
 set sherpa skill pulverize
 set sherpa skill robust
 set sherpa skill sunder
@@ -1273,6 +1274,7 @@ set paramythis skill sunder
 set paramythis skill versatile
 set paramythis skill windsweep
 set paramythis skill prepared
+set paramythis skill pursuit
 
 // prfs
 set cutlass effect restore-uses
@@ -4178,7 +4180,7 @@ set Thief_M skill watchful
 set Axefighter skill adept
 set Axefighter skill canto
 set Axefighter skill climber
-set Axefighter skill critical
+//set Axefighter skill critical
 set Axefighter skill maim
 set Axefighter skill pulverize
 set Axefighter skill vengeful
