@@ -4270,7 +4270,7 @@ set Axefighter skill canto
 set Axefighter skill climber
 set Axefighter skill critical
 set Axefighter skill maim
-set Axefighter skill pulverize
+//set Axefighter skill pulverize
 set Axefighter skill vengeful
 set Axefighter skill fortune
 
