@@ -15,9 +15,9 @@
 
 // pitchfork & MilitaryFork got cripple-rate *4. I don't know really well how cripple-rate function works. I wanted to ask Mintx about it but I still got no response.
 
-// Pike & holy & BastardSword got cripple-rate *6
+// Pike & holy, BanditAxe, BastardSword & all lance weapons got cripple-x2
 
-// AirKnife got injure-rate 30, so it is a bolt, try to steal it early. Anyway I already give a BoltKnife to Czene & Thaddy so just enjoy the game without wasting your time trying to capture stuff.
+// Anyway I already give a BoltKnife to Czene & Thaddy so just enjoy the game without wasting your time trying to capture stuff.
 
 // All weapon and shield got their weight adjusted. Mainly crossbow, now they same a weight relative to bow unit, so Christine & Sylvis can use their Vantage skill with it
 
@@ -1440,10 +1440,10 @@ set BoltKnife effect thunder-damage 7
 set BoltKnife effect injure-rate 33
 set Carnwenhau effect steal-rate-plus 20
 set Crotalus effect steal-rate-plus 20
-set TempestKnife effect wind-damage 12
+set TempestKnife effect wind-damage 8
 set ThiefsKnife effect steal-rate-plus 50
 set AirKnife effect wind-damage 6
-set AirKnife effect injure-rate 33
+//set AirKnife effect injure-rate 33
 set ThrowingKnife effect steal-rate-plus 20
 set Dagger effect steal-rate-plus 20
 set LetterOpener effect steal-rate-plus 20
@@ -1452,11 +1452,11 @@ set Seax effect steal-rate-plus 20
 set StunKnife effect disarm-rate 50
 set KillerKnife effect steal-rate-plus 20
 set BloodKnife effect steal-rate-plus 20
-set BloodKnife effect dark-damage 7
+//set BloodKnife effect dark-damage 7
 set Vespa effect steal-rate-plus 20
 set Shieldknife effect steal-rate-plus 20
 set Kris effect steal-rate-plus 20
-set MainGauche effect steal-rate-plus 20
+//set MainGauche effect steal-rate-plus 20
 set Swordbreaker effect sword-break 50
 
 set BoltKnife stat weight 2
@@ -1948,6 +1948,8 @@ set VerianAxe effect restore-uses
 set OldImperialAxe effect restore-uses
 set ImperialAxe effect restore-uses
 set BanditAxe effect restore-uses
+
+set BanditAxe effect cripple-x2
 
 //set Broadaxe stat level 7
 set GigasAxe stat level 20
@@ -2587,13 +2589,13 @@ set LanceKnight2 cap sshield 50
 set LanceKnight2_R cap spear 60
 set LanceKnight2_R cap sshield 50
 
-set Guardian cap Sword 60
+set Guardian cap Sword 50
 set Guardian cap lshield 50
 
 set ArmorKnight cap lshield 50
-set ArmorKnight cap Axe 60
+set ArmorKnight cap Axe 50
 
-set pirate cap Axe 60
+//set pirate cap Axe 60
 
 set WyvernKnight cap Spear 50
 set WyvernKnight_R cap Spear 50
@@ -4370,6 +4372,6 @@ set AxeSoldier skill armsthrift
 set AxeSoldier skill maim
 set AxeSoldier skill pulverize
 set AxeSoldier skill throw
-set AxeSoldier skill vengeful
+//set AxeSoldier skill vengeful
 
 //////////////////////////////////////////////////////////////////////////////////
