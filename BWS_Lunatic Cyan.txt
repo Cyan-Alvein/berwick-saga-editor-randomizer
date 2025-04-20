@@ -4386,7 +4386,7 @@ set Horseman skill onetwo
 set Horseman skill supporter
 set Horseman skill hide
 set Horseman skill critical
-set Horseman skill tripleshot
+set Horseman skill doubleshot
 set Horseman skill pursuit
 set Horseman skill adept
 
@@ -4395,7 +4395,7 @@ set Horseman_R skill onetwo
 set Horseman_R skill supporter
 set Horseman_R skill hide
 set Horseman_R skill critical
-set Horseman_R skill tripleshot
+set Horseman_R skill doubleshot
 set Horseman_R skill pursuit
 set Horseman_R skill adept
 
