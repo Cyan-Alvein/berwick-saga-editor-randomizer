@@ -15,11 +15,11 @@
 
 // pitchfork & MilitaryFork got cripple-rate *4. I don't know really well how cripple-rate function works. I wanted to ask Mintx about it but I still got no response.
 
-// Pike & holy, BanditAxe, BastardSword & all lance weapons got cripple-x2
+// Pike & holy, BanditAxe, BastardSword, Gastraphetes & all lance weapons got cripple-x2
 
 // Anyway I already give a BoltKnife to Czene & Thaddy so just enjoy the game without wasting your time trying to capture stuff.
 
-// All weapon and shield got their weight adjusted. Mainly crossbow, now they same a weight relative to bow unit, so Christine & Sylvis can use their Vantage skill with it
+// All weapon and shield got their weight adjusted. Christine & Sylvis can use their Vantage skill with Crossbow
 
 // Hawkeye & Arbalest got 2 range, Same as Ollerus.
 
@@ -33,7 +33,7 @@
 
 // The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
 
-// All axes users got Vengeful skill. Derrick (ArmorKnight) & GigasKnight & Axel (Pirate - Corsair... ) Got both Vengeful & Counter.
+// All axes users got 	 skill. Derrick (ArmorKnight) & GigasKnight & Axel (Pirate - Corsair... ) Got both Vengeful & Counter.
 
 // All player characters got +20 base weapon skill, so don't waste your time trying to farm Weapon EEXP, just play and enjoy the game.
 
@@ -65,10 +65,10 @@
 
 unset RazeMonkOwen skill limited
 
-//unset marcel skill slowstart
+unset marcel skill slowstart
 
-set reese item 3 HolySword 101
-set reese item 4 Estoc 101
+set reese item 3 LevinSword 101
+set reese item 4 Saber 101
 set reese item 5 Scimitar+ 101
 set reese item 6 LiquidSpeed 1
 set reese item 7 DarkShield 101
@@ -95,11 +95,11 @@ set ward base spear +15
 
 set elbert item 0 SteelSpear 101
 set elbert item 1 Windshield 101
-set elbert item 2 Saber 101
-set elbert item 3 MithrilShield 101
-set elbert item 4 RoundShield 101
+set elbert item 2 Harpoon 101
+set elbert item 3 Doru 101
+set elbert item 4 Pike 101
 set elbert item 5 Verutum 20
-set elbert item 6 LiquidSpeed 1
+set elbert item 6 LiquidVitality 1
 set elbert item 7 Bag 0
 set elbert growth sword 100
 set elbert growth spear 70
@@ -123,11 +123,11 @@ set Paladin_F base spear +30
 set christine item 0 Gastraphetes 101
 set christine item 1 IronArrow+ 20
 //set christine item 2 Don't Touch Bag 4 Vulnaries
-set christine item 3 SteelArrow+ 5
-set christine item 4 MithrilArrow 5
+set christine item 3 SteelArrow+ 10
+set christine item 4 MithrilArrow 10
 set christine item 5 HeavyCrossbow 101
 set christine item 6 Treasure 101
-set christine item 7 Bag 0
+set christine item 7 LiquidStrength 1
 set christine growth sword 80
 set christine growth bow 80
 set christine growth crossbow 100
@@ -138,26 +138,26 @@ set ArrowKnight_R base sword +30
 set ArrowKnight base sword +30
 
 set adel item 0 SteelSpear 101
-set adel item 1 RoundShield 101
+set adel item 1 Pike 101
 set adel item 2 FireShield 101
 set adel item 3 GoreFork 101
-set adel item 4 Pilum 6
+set adel item 4 Doru 101
 set adel item 5 IronLance 101
-set adel item 6 Bag 0
-set adel item 7 LiquidVitality 1
+set adel item 6 Verutum 20
+set adel item 7 Harpoon 101
 set adel growth spear 70
 set adel growth sshield 100
 set adel base sshield +20
 set adel base spear +20
 
 set leon item 0 SteelSpear 101
-set leon item 1 RoundShield 101
+set leon item 1 Pike 101
 set leon item 2 GoreFork 101
-set leon item 3 Xyston 101
+set leon item 3 IronLance 101
 set leon item 4 ThunderShield 101
-set leon item 5 Bag 0
-set leon item 6 LiquidVitality 1
-set leon item 7 Pilum 6
+set leon item 5 Verutum 20
+set leon item 6 Doru 101
+set leon item 7 Harpoon 101
 set leon growth spear 90
 set leon growth sshield 50
 set leon base sshield +20
@@ -166,8 +166,8 @@ set leon base spear +20
 set sherlock item 0 Apollyon 101
 set sherlock item 1 IronArrow+ 20
 set sherlock item 3 Treasure 101
-set sherlock item 4 SteelArrow+ 5
-set sherlock item 5 MithrilArrow 5
+set sherlock item 4 SteelArrow+ 10
+set sherlock item 5 LiquidSpeed 1
 set sherlock item 6 Treasure 101
 set sherlock item 7 Treasure 101
 set sherlock growth bow 100
@@ -197,9 +197,9 @@ set czene base knife +20
 set aegina item 1 Blizzard 15 
 set aegina item 2 Earthblaze 10 
 set aegina item 3 DivineBrace 101
-set aegina item 4 Bag 0
+set aegina item 4 Shieldaxe 101
 set aegina item 5 Windstorm 60
-set aegina item 6 Fire 20
+set aegina item 6 LiquidMagic 1
 set aegina item 7 Bag 0
 set aegina growth wind 80
 set aegina growth fire 50
@@ -212,10 +212,10 @@ set daoud growth mshield 100
 set Daoud item 0 Broadaxe 101
 set Daoud item 1 GaleShield 101
 set Daoud item 2 Concoction 1
-set Daoud item 3 HandAxe 101
+set Daoud item 3 Hatchet 6
 set Daoud item 4 LightShield 101
-set Daoud item 5 Bag 0
-set Daoud item 6 Bag 0
+set Daoud item 5 LiquidDefense 1
+set Daoud item 6 LiquidVitality 1
 set Daoud item 7 Bag 0
 set Daoud base axe +10
 set Daoud base sshield +20
@@ -245,14 +245,14 @@ set Marcel item 3 Iuppiter 101
 set Marcel item 4 TsukuyomiShield 101
 set Marcel item 5 FujinShield 101
 set Marcel item 6 BastardSword 101
-set Marcel item 7 Bag 0
+set Marcel item 7 LiquidDefense 1
 set Marcel base sword +20
 set Marcel base lshield +20
 
 set alvina item 4 LadyMShd 101
 set alvina item 5 LadyShield 101
 set alvina item 6 LadySword 101
-set alvina item 7 MithrilSword 101
+set alvina item 7 Javelin 101
 set alvina growth sword 80
 set alvina growth spear 80
 set alvina growth sshield 90
@@ -262,7 +262,7 @@ set alvina base spear +20
 set alvina base sshield +20
 set alvina base mshield +20
 
-set ruby item 1 Pilum 6
+set ruby item 1 Verutum 20
 set ruby item 2 LadyShield 101
 set ruby item 3 LadyMShd 101
 set ruby item 4 LadySword 101
@@ -279,14 +279,14 @@ set ruby base spear +20
 set ruby base sshield +20
 set ruby base mshield +40
 
-set arthur item 0 AltiumSword 101
-set arthur item 1 SquareShield 101
+set arthur item 0 Longsword 101
+set arthur item 1 Kiteshield 101
 set arthur item 2 Bag 0
 set arthur item 3 Scimitar+ 101
 set arthur item 4 Rapier 101
 set arthur item 5 BlazingShield 101
 set arthur item 6 ShadowShield 101
-set arthur item 7 LiquidSpeed 1
+set arthur item 7 LiquidVitality 1
 set arthur growth sword 80
 set arthur growth spear 100
 set arthur growth sshield 90
@@ -299,9 +299,9 @@ set arthur base spear +30
 set kramer item 0 AltiumSword 101
 set kramer item 1 Scimitar+ 101
 set kramer item 2 WindEdge 101
-set kramer item 3 Epee 101
+set kramer item 3 Bag 0
 set kramer item 4 FeatherBrace 101
-set kramer item 5 Bag 0
+set kramer item 5 MuscleBrace 101
 set kramer item 6 BastardSword 101
 set kramer item 7 LiquidDefense 1
 set kramer growth sword 100
@@ -309,10 +309,10 @@ set kramer base sword +20
 
 set dean growth axe 100
 set dean item 2 Bag 0
-set dean item 3 Mjollnir 101
+set dean item 3 VolcanoAxe 101
 set dean item 4 MithrilAxe 101
 set dean item 5 Tomahawk 101 
-set dean item 6 Shieldaxe 101
+set dean item 6 LiquidVitality 1
 set dean item 7 GamblersBrace 101
 set dean base axe +20
 
@@ -327,11 +327,11 @@ set faye base sword +20
 
 set sylvis item 0 Bag 0
 set sylvis item 1 Apollyon 101
-set sylvis item 2 SteelArrow+ 5
+set sylvis item 2 SteelArrow+ 10
 set sylvis item 3 Apeiron 101
-set sylvis item 4 RaijinArrow 5
-set sylvis item 5 SwiftBow 101
-set sylvis item 6 MithrilArrow 5
+set sylvis item 4 RaijinArrow 10
+set sylvis item 5 LiquidStrength 1
+set sylvis item 6 MithrilArrow 10
 set sylvis item 7 TripleFireBow 101
 set sylvis growth bow 90
 set sylvis growth crossbow 70
@@ -339,7 +339,7 @@ set sylvis base bow +20
 set sylvis base crossbow +20
 
 set perceval item 1 Thunder 100
-set perceval item 2 Bag 0
+set perceval item 2 LiquidSpeed 1
 set perceval item 3 Bag 0
 set perceval item 4 Blizzard 15
 set perceval item 5 Lightning 100
@@ -363,10 +363,10 @@ set esteban growth knife 50
 set esteban growth sword 90
 set esteban growth bow 100
 set esteban item 0 SwiftBow 101
-set esteban item 1 SteelArrow+ 5
+set esteban item 1 SteelArrow+ 10
 set esteban item 2 Bag 0
-set esteban item 3 TripleFireBow 101
-set esteban item 4 MithrilArrow 5
+set esteban item 3 LiquidSpeed 1
+set esteban item 4 MithrilArrow 10
 set esteban item 5 BoltKnife 101
 set esteban item 6 Bag 0
 set esteban item 7 BloodKnife 101
@@ -377,10 +377,10 @@ set HighHunter base sword +40
 
 set faramir item 0 Cutlass+ 101
 set faramir item 1 KillerBow 101
-set faramir item 2 SteelArrow+ 5
+set faramir item 2 SteelArrow+ 10
 set faramir item 3 MithrilSword 101
 set faramir item 4 CompositeBow 101
-set faramir item 5 MithrilArrow 5
+set faramir item 5 MithrilArrow 10
 set faramir item 6 Strongbow 101
 set faramir item 7 Greatbow 101
 set faramir growth sword 100
@@ -390,7 +390,7 @@ set faramir base bow +20
 
 set volo item 1 Treasure 101
 set volo item 2 MithrilSword 101
-set volo item 3 LevinSword 101
+set volo item 3 Bag 0
 set volo item 4 Bag 0
 set volo item 5 BastardSword 101
 set volo item 6 PhoenixBrace 101
@@ -422,12 +422,12 @@ set clifford base spear +20
 set clifford base sshield +20
 set clifford base mshield +20
 
-set axel item 0 IronAxe 101
-set axel item 1 HandAxe 6
+set axel item 0 Broadaxe 101
+set axel item 1 Hammer 101
 set axel item 2 KillerAxe 101
-set axel item 3 Bag 0
-set axel item 4 Bag 0
-set axel item 5 Tomahawk 101
+set axel item 3 BattleAxe 101
+set axel item 4 DarkAxe 101
+set axel item 5 Gullveig 101
 set axel item 6 PegasusBrace 101
 set axel item 7 Treasure 101
 set axel growth axe 60
@@ -435,7 +435,7 @@ set axel base axe +20
 
 set larentia item 2 LadySword 101
 set larentia item 3 MithrilSword 101
-set larentia item 4 Pilum 6
+set larentia item 4 Angon 101
 set larentia item 5 MithrilSpear 101
 set larentia item 6 Scimitar+ 101
 set larentia item 7 Bag 0
@@ -479,12 +479,12 @@ set burroughs base crossbow +20
 set derrick growth axe 60
 set derrick growth Lshield 50
 set derrick growth defense 22
-set Derrick item 0 IronAxe 101
+set Derrick item 0 ImperialAxe 101
 set Derrick item 2 GigasAxe 101
 set Derrick item 3 RaijinShield 101
 set Derrick item 4 IronShield 101
 set Derrick item 5 GeneralShield 101
-set Derrick item 6 HandAxe 6
+set Derrick item 6 Hatchet 6
 set Derrick item 7 Bag 0
 set Derrick base axe +20
 set Derrick base lshield +10
@@ -495,11 +495,11 @@ set saphira item 3 LightRing 101
 set saphira item 4 Physic 15
 set saphira item 5 Awaken 10
 set saphira item 6 Mend 20
-set saphira item 7 Bag 0
+set saphira item 7 LiquidMagic 1
 set saphira growth holy 100
 set saphira base holy +20
 
-set lynette item 3 DireThunder 20
+set lynette item 3 LiquidMagic 1
 set lynette item 4 Arrow++ 20
 set lynette item 5 SteelArrow+ 20
 set lynette item 6 MithrilArrow 20
@@ -535,7 +535,7 @@ set reese skill horselover
 set reese skill horseswap 
 set reese skill hurry
 set reese skill mercy
-set reese skill paragon
+//set reese skill paragon
 set reese skill robust
 set reese skill sunder
 set reese skill windsweep 
@@ -570,10 +570,10 @@ set elbert skill horselover
 set elbert skill horseswap
 set elbert skill hurry
 set elbert skill mercy
-set elbert skill paragon
+//set elbert skill paragon
 set elbert skill prepared
 set elbert skill provoke
-//set elbert skill shieldfaire 
+set elbert skill shieldfaire 
 set elbert skill sunder 
 set elbert skill windsweep
 set elbert skill maim
@@ -591,13 +591,12 @@ set christine skill flourish
 set christine skill hide
 set christine skill horselover
 set christine skill horseswap
-set christine skill huntsman
 set christine skill hurry
 set christine skill maim
 set christine skill mercy
 set christine skill onetwo
 set christine skill overwatch 
-set christine skill paragon
+//set christine skill paragon
 set christine skill prepared
 set christine skill sunder 
 set christine skill doubleshot
@@ -616,9 +615,9 @@ set adel skill horseswap
 set adel skill hurry
 set adel skill lance
 set adel skill mercy
-set adel skill paragon
+//set adel skill paragon
 set adel skill pitchfork
-//set adel skill shieldfaire
+set adel skill shieldfaire
 set adel skill sunder 
 set adel skill supporter
 set adel skill throw
@@ -637,16 +636,17 @@ set leon skill hurry
 set leon skill lance
 set leon skill maim
 set leon skill mercy
-set leon skill paragon
+//set leon skill paragon
 set leon skill pitchfork
 set leon skill prepared
 set leon skill pursuit
 set leon skill robust
 set leon skill sunder 
 set leon skill supporter
-//set leon skill throw 
+set leon skill throw 
 set leon skill windsweep 
 set leon skill adept
+set leon skill vantage
 
 set sherlock skill pursuit
 set sherlock skill aim 
@@ -667,32 +667,34 @@ set sherlock skill hurry
 set sherlock skill maim
 set sherlock skill mercy
 set sherlock skill onetwo
-//set sherlock skill overwatch
-set sherlock skill paragon
+set sherlock skill overwatch
+//set sherlock skill paragon
 set sherlock skill scotopic 
 set sherlock skill sunder 
 set sherlock skill watchful 
 set sherlock skill windsweep
 set sherlock skill adept
+set sherlock skill Tripleshot
+unset sherlock skill DoubleShot
 
 set izerna skill blessing
 set izerna skill canto
 set izerna skill celerity
-//set izerna skill expert
+set izerna skill expert
 set izerna skill hurry
 set izerna skill imbue 
 set izerna skill maim
 set izerna skill miracle 
 set izerna skill paragon
 set izerna skill resistor
-//set izerna skill versatile
+set izerna skill prepared
 set izerna skill vantage
 set izerna skill charisma
 
 set czene skill adept
 set czene skill camouflage 
 set czene skill canto
-set czene skill celerity
+set czene skill fortune
 set czene skill deathmatch
 set czene skill evasion
 set czene skill expert
@@ -732,7 +734,7 @@ set daoud skill pulverize
 set daoud skill robust
 set daoud skill throw
 set daoud skill vengeful 
-set daoud skill paragon
+//set daoud skill paragon
 set daoud skill counter
 set daoud skill pursuit
 
@@ -792,7 +794,7 @@ set marcel skill guard
 set marcel skill hurry
 set marcel skill maim
 set marcel skill mercy
-set marcel skill paragon
+//set marcel skill paragon
 set marcel skill provoke
 set marcel skill pulverize 
 set marcel skill robust
@@ -818,7 +820,7 @@ set alvina skill windsweep
 set alvina skill vantage
 set alvina skill pursuit
 
-//set ruby skill adept 
+set ruby skill adept 
 set ruby skill axebane
 set ruby skill canto
 set ruby skill deathmatch
@@ -831,7 +833,7 @@ set ruby skill mercy
 set ruby skill paragon
 set ruby skill prepared 
 set ruby skill sunder 
-//set ruby skill throw 
+set ruby skill throw 
 set ruby skill vantage 
 set ruby skill windsweep 
 set ruby skill pursuit
@@ -849,7 +851,7 @@ set arthur skill horseswap
 set arthur skill hurry
 set arthur skill maim 
 set arthur skill mercy
-set arthur skill paragon
+//set arthur skill paragon
 set arthur skill prepared
 set arthur skill throw
 set arthur skill windsweep
@@ -870,7 +872,7 @@ set kramer skill hurry
 set kramer skill knockaway
 set kramer skill maim 
 set kramer skill mercy
-set kramer skill paragon
+//set kramer skill paragon
 set kramer skill provoke 
 set kramer skill pulverize 
 set kramer skill pursuit 
@@ -901,12 +903,12 @@ set dean skill canto
 set dean skill climber 
 set dean skill desperation
 set dean skill flourish
-//set dean skill fortune
+set dean skill fortune
 set dean skill guard
 set dean skill hurry
 set dean skill maim
-//set dean skill mercy
-set dean skill paragon
+set dean skill mercy
+//set dean skill paragon
 set dean skill prepared
 set dean skill knockaway
 set dean skill pulverize
@@ -917,7 +919,6 @@ set dean skill provoke
 set sylvis skill aim
 set sylvis skill battlecry
 set sylvis skill canto
-set sylvis skill critical
 set sylvis skill deadeye
 set sylvis skill deathmatch
 set sylvis skill expert
@@ -931,7 +932,7 @@ set sylvis skill maim
 set sylvis skill mercy
 set sylvis skill onetwo
 set sylvis skill overwatch
-set sylvis skill paragon
+//set sylvis skill paragon
 set sylvis skill prepared
 set sylvis skill scotopic 
 set sylvis skill sunder 
@@ -968,8 +969,10 @@ set thaddy skill watchful
 set thaddy skill windsweep 
 set thaddy skill onetwo
 set thaddy skill prepared
+set thaddy skill expert
+set thaddy skill celerity
 
-//set esteban skill aim 
+set esteban skill aim 
 set esteban skill camouflage
 set esteban skill canto
 set esteban skill adept
@@ -984,18 +987,16 @@ set esteban skill magicbane
 set esteban skill maim 
 set esteban skill mercy
 set esteban skill mug
-set esteban skill onetwo 
 set esteban skill overwatch
-set esteban skill paragon
+//set esteban skill paragon
 set esteban skill prepared
-//set esteban skill pursuit 
+set esteban skill pursuit 
 set esteban skill scotopic 
 set esteban skill steal
 set esteban skill sunder 
-set esteban skill doubleshot
+set esteban skill DoubleShot
 set esteban skill watchful
 set esteban skill windsweep
-set esteban skill critical
 	
 set faye skill adept
 set faye skill arrowbane 
@@ -1010,7 +1011,7 @@ set faye skill fortune
 set faye skill hurry
 set faye skill iaido
 set faye skill mercy
-set faye skill paragon
+//set faye skill paragon
 set faye skill parry
 set faye skill sunder
 set faye skill windsweep 
@@ -1039,7 +1040,7 @@ set faramir skill sunder
 set faramir skill windsweep 
 set faramir skill scotopic 
 set faramir skill pursuit 
-set faramir skill doubleshot 
+set faramir skill DoubleShot
 set faramir skill onetwo 
 
 set volo skill adept
@@ -1083,6 +1084,7 @@ set clifford skill pursuit
 set axel skill axeguard 
 set axel skill battlecry
 set axel skill canto
+set axel skill camouflage
 set axel skill pursuit
 set axel skill flourish
 set axel skill guard
@@ -1091,13 +1093,14 @@ set axel skill hurry
 set axel skill locktouch
 set axel skill mercy
 set axel skill mug
-set axel skill paragon
+//set axel skill paragon
 set axel skill prepared
 set axel skill pulverize
 set axel skill robbery
 set axel skill steal
 set axel skill vengeful
 set axel skill knockaway
+set axel skill provoke
 
 set larentia skill adept
 set larentia skill canto
@@ -1106,14 +1109,13 @@ set larentia skill flourish
 set larentia skill guard 
 set larentia skill hurry
 set larentia skill mercy
-set larentia skill paragon
+//set larentia skill paragon
 set larentia skill prepared 
 set larentia skill pursuit 
 set larentia skill throw
 set larentia skill vantage 
 set larentia skill watchful
 set larentia skill windsweep 
-set larentia skill critical
 
 set owen skill adept
 set owen skill blessing
@@ -1147,7 +1149,7 @@ set derrick skill flourish
 set derrick skill guard 
 set derrick skill hurry
 set derrick skill mercy
-set derrick skill paragon
+//set derrick skill paragon
 set derrick skill prepared
 set derrick skill provoke
 set derrick skill pulverize
@@ -1173,6 +1175,7 @@ set saphira skill resistor
 set saphira skill sunder 
 set saphira skill vantage 
 set saphira skill windsweep
+set saphira skill celerity
 
 set lynette skill aim
 set lynette skill canto
@@ -1188,7 +1191,7 @@ set lynette skill mercy
 set lynette skill overwatch
 set lynette skill protector
 set lynette skill windsweep
-set lynette skill doubleshot
+set lynette skill Doubleshot
 set lynette skill prepared
 set lynette skill onetwo
 set lynette skill adept
@@ -1211,7 +1214,7 @@ set paramythis skill pursuit
 set paramythis skill sunder
 set paramythis skill versatile
 set paramythis skill windsweep
-set paramythis skill adept
+set paramythis skill fortune
 
 
 // prfs
@@ -1411,7 +1414,7 @@ set ThrowingKnife stat level 1
 
 set Seax stat weight 2
 
-//set vespa stat level 7
+set vespa stat level 3
 
 set BoltKnife stat durability C
 set LetterOpener stat durability D
@@ -1441,10 +1444,13 @@ set maingauche stat accuracy 50
 
 set BronzeSword stat might 4
 set Shortsword stat might 6
-//set LevinSword stat might 5
-//set FlameSword stat might 8
-//set HolySword stat might 10
-//set WindEdge stat might 6
+
+set LevinSword stat might 1
+set FlameSword stat might 4
+set HolySword stat might 6
+set WindEdge stat might 2
+set InfernalEdge stat might 2
+
 set KillingEdge stat might 9
 //set Broadsword stat might 11
 
@@ -1518,6 +1524,7 @@ set WindEdge stat level 1
 set InfernalEdge stat level 1
 set Grimhild stat level 1
 set AltiumSword stat level 3
+set LevinSword stat level 7
 
 set BronzeSword stat Weight 4
 set Shortsword stat Weight 4
@@ -1573,8 +1580,12 @@ set HolyMace stat Accuracy 60
 set DarkMace stat Accuracy 50
 set PoisonMace stat Accuracy 60
 
-set HolyMace effect holy-damage 7
-set DarkMace effect dark-damage 11
+set HolyMace stat might 1
+set DarkMace stat might 1
+set PoisonMace stat might 7
+
+set HolyMace effect holy-damage 14
+set DarkMace effect dark-damage 14
 
 set DarkMace stat cost 1000
 
@@ -1646,7 +1657,8 @@ set Verutum stat might 12
 
 set Verutum stat level 1
 set SteelSpear stat level 1
-set Pike stat level 4
+set Pike stat level 1
+set Doru stat level 1
 
 set SlimSpear stat Weight 5
 set IronSpear stat Weight 6
@@ -1656,18 +1668,19 @@ set Harpoon stat Weight 7
 set PrototypeSpear stat Weight 8
 set KillerSpear stat Weight 6
 set Pike stat Weight 7
-set Longspear stat Weight 7
+set Longspear stat Weight 8
 set Verutum stat Weight 7
-set Doru stat Weight 8
+set Doru stat Weight 9
 set MithrilSpear stat Weight 5
-set WindSpear stat Weight 9
+set WindSpear stat Weight 7
 set Euthyphro stat Weight 7
 set Javelin stat Weight 8
 set Partisan stat Weight 10
-set Angon stat Weight 7
+set Angon stat Weight 6
 set Brionac stat Weight 7
 set SwiftSpear stat Weight 10
 set Fauchard stat Weight 7
+
 set VerianSpear stat Weight 6
 set OldImperialSpear stat Weight 7
 set ImperialSpear stat Weight 6
@@ -1714,11 +1727,14 @@ set WindSpear effect wind-damage 12
 set Euthyphro effect wind-damage 9
 set Partisan effect cripple-rate 12
 
-set Doru stat level 8
+set Doru stat level 1
+set Pike stat level 1
+set Harpoon stat level 1
 
 set SwiftSpear stat level 15
 
 set Pike effect cripple-x2
+
 
 // fork
 
@@ -1726,7 +1742,8 @@ set Pike effect cripple-x2
 set MilitaryFork effect cripple-x2
 set Pitchfork effect cripple-x2
 set GoreFork effect cripple-rate 12
-set Firebrand effect fire-damage 9
+set Firebrand effect cripple-x2
+set Firebrand effect fire-damage 11
 
 set MilitaryFork stat accuracy 60
 set Pitchfork stat accuracy 60
@@ -1736,10 +1753,15 @@ set Firebrand stat accuracy 60
 set GoreFork stat level 1
 set GoreFork stat cost 2000
 
-set Pitchfork stat weight 5
-set MilitaryFork stat weight 7
-set Firebrand stat weight 9
-set GoreFork stat weight 8
+set Pitchfork stat weight 4
+set MilitaryFork stat weight 6
+set Firebrand stat weight 7
+set GoreFork stat weight 7
+
+set MilitaryFork stat might 12
+set Firebrand stat might 1
+set Pitchfork stat might 8
+set GoreFork stat might 10
 
 set Firebrand stat durability D
 
@@ -1753,6 +1775,8 @@ set Drakelance effect cripple-x2
 set Xyston effect cripple-x2
 set IronLance effect cripple-x2
 set Oxtongue effect cripple-x2
+
+set IronLance stat level 1
 
 set IronLance Stat Weight 15
 set Oxtongue Stat Weight 16
@@ -1780,24 +1804,30 @@ set BanditAxe stat might 6
 set ImperialAxe stat might 10
 set LogSplitter stat might 6
 set OldImperialAxe stat might 8
-//set DarkAxe stat might 6
+
+set VolcanoAxe stat might 1
+set GlacierAxe stat might 1
+set NimbusAxe stat might 1
+set DarkAxe stat might 1
+set Mjollnir stat might 5
+set BoltAxe stat might 5
 
 set VolcanoAxe effect fire-damage 10
 set GlacierAxe effect wind-damage 10
 set NimbusAxe effect thunder-damage 10
-set DarkAxe effect dark-damage 9
+set DarkAxe effect dark-damage 11
 set Mjollnir effect thunder-damage 13
 set BoltAxe effect thunder-damage 11
 
 set LogSplitter stat Weight 5
 set Pickaxe stat Weight 5
-set BattleSaw stat Weight 8
+set BattleSaw stat Weight 7
 set HandAxe stat Weight 7
 set BarbaricAxe stat Weight 13
 set CrookedAxe stat Weight 15
 set IronAxe stat Weight 6
 set Francisca stat Weight 8
-set Battleaxe stat Weight 10
+set Battleaxe stat Weight 8
 set Broadaxe stat Weight 7
 set VolcanoAxe stat Weight 8
 set GlacierAxe stat Weight 8
@@ -1805,16 +1835,16 @@ set NimbusAxe stat Weight 8
 set DarkAxe stat Weight 8
 set WarPick stat Weight 7
 set Hatchet stat Weight 6
-set BreakerAxe stat Weight 8
-set Poleax stat Weight 9
-set Tomahawk stat Weight 7
+set BreakerAxe stat Weight 9
+set Poleax stat Weight 8
+set Tomahawk stat Weight 8
 set BoltAxe stat Weight 9
 set KillerAxe stat Weight 6
 set Hammer stat Weight 12
 set Greataxe stat Weight 14
 set Tabarzin stat Weight 8
 set MithrilAxe stat Weight 6
-set Gullveig stat Weight 7
+set Gullveig stat Weight 9
 set Mjollnir stat Weight 9
 set Shieldaxe stat Weight 9
 set MaozaWolf stat Weight 20
@@ -1888,8 +1918,13 @@ set ImperialAxe effect restore-uses
 set BanditAxe effect restore-uses
 
 set BanditAxe effect cripple-x2
+set BattleAxe effect steal-rate-plus 50
+set Greataxe effect steal-rate-plus 50
+set MithrilAxe effect steal-rate-plus 50
+set Gullveig effect steal-rate-plus 50
 
-//set Broadaxe stat level 7
+set Battleaxe stat level 5
+set Broadaxe stat level 5
 set GigasAxe stat level 20
 set Hammer stat level 15
 set Tomahawk stat level 1
@@ -1897,9 +1932,10 @@ set MaozaWolf stat level 20
 set VolcanoAxe stat level 1
 set GlacierAxe stat level 1
 set NimbusAxe stat level 1
-//set DarkAxe stat level 1
-//set BoltAxe stat level 1
-//set Mjollnir stat level 1
+set DarkAxe stat level 1
+set BoltAxe stat level 1
+set Mjollnir stat level 1
+set Hatchet stat level 1
 
 set BanditAxe stat durability D
 set VolcanoAxe stat durability D
@@ -1920,19 +1956,18 @@ set GigasAxe stat cost 3000
 set KillerArrow stat might 5
 set PoisonArrow stat might 5
 set SleepArrow stat might 5
-set PoisonArrow stat might 5
 set BroadheadArrow stat might 5
 set BodkinArrow stat might 5
 set BreakerArrow stat might 5
-set EmberArrow stat might 1
-set FreezeArrow stat might 1
+set EmberArrow stat might 0
+set FreezeArrow stat might 0
 set ImperialArrow stat might 8
 set ImperialArrow+ stat might 8
 set WoodenArrow stat might 3
 set StoneArrow stat might 4
 
-set EmberArrow effect fire-damage 7
-set FreezeArrow effect wind-damage 7
+set EmberArrow effect fire-damage 8
+set FreezeArrow effect wind-damage 8
 set RaijinArrow effect thunder-damage 11
 
 set Apeiron stat level 1
@@ -1941,17 +1976,17 @@ set BronzeBow stat Weight 4
 set IronBow stat Weight 5
 set ShortBow stat Weight 4
 set SwiftBow stat Weight 4
-set Longbow stat Weight 7
-set TripleFireBow stat Weight 10
-set CompositeBow stat Weight 8
-set Apollyon stat Weight 5
-set Strongbow stat Weight 9
-set Greatbow stat Weight 10
-set Killerbow stat Weight 6
-set Apeiron stat Weight 7
-set Rossweisse stat Weight 5
-set Pascanion stat Weight 7
-set Pascanion2 stat Weight 7
+set Longbow stat Weight 6
+set TripleFireBow stat Weight 9
+set CompositeBow stat Weight 7
+set Apollyon stat Weight 4
+set Strongbow stat Weight 8
+set Greatbow stat Weight 9
+set Killerbow stat Weight 5
+set Apeiron stat Weight 6
+set Rossweisse stat Weight 4
+set Pascanion stat Weight 6
+set Pascanion2 stat Weight 6
 set SereniaBow stat Weight 3
 set VerianBow stat Weight 5
 set OldImperialBow stat Weight 6
@@ -2012,21 +2047,23 @@ set ImperialBow effect restore-uses
 //Crossbow
 
 set Gastraphetes stat level 1
+set Gastraphetes effect cripple-x2
 
-set Bowgun stat weight 4
-set IronCrossbow stat weight 6
-set Gastraphetes stat weight 8
-set HeavyCrossbow stat weight 9
-set BraveCrossbow stat weight 9
-set Chu-ko-nu stat weight 10
-set Arbalest stat weight 10
-set KillerCrossbow stat weight 6
-set Ollerus stat weight 7
-set RapidCrossbow stat weight 10
-set Hawkeye stat weight 7
-set ImperialCrossbow stat Weight 6
-set OldImperialCrossbow stat Weight 7
-set VerianCrossbow stat Weight 6
+set Bowgun stat weight 5
+set IronCrossbow stat weight 7
+set Gastraphetes stat weight 9
+set HeavyCrossbow stat weight 11
+set BraveCrossbow stat weight 11
+set Chu-ko-nu stat weight 13
+set Arbalest stat weight 13
+set KillerCrossbow stat weight 7
+set Ollerus stat weight 9
+set RapidCrossbow stat weight 13
+set Hawkeye stat weight 8
+
+set ImperialCrossbow stat Weight 7
+set OldImperialCrossbow stat Weight 8
+set VerianCrossbow stat Weight 7
 
 set ImperialCrossbow stat might 10
 set OldImperialCrossbow stat might 8
@@ -2103,7 +2140,7 @@ set Scorpio stat Durability B
 set ShiningShield stat level 15
 
 set ShiningShield effect negate-dark 100
-set DarkShield stat dark_res 10
+//set DarkShield stat dark_res 10
 
 set ShiningShield effect restore-uses
 set WyrmskinShield effect restore-uses
@@ -2217,6 +2254,7 @@ Set WyrmskinShield stat Weight 7
 Set PaladinShield stat Weight 8
 Set BlackShield stat Weight 8
 Set VerianMShd stat Weight 5
+
 Set ImpSoldierMShd stat Weight 5
 Set ImpSoldierMShd+ stat Weight 5
 Set ImpOfficerMShd stat Weight 6
@@ -2269,6 +2307,7 @@ set RadiantShield stat level 1
 set ShadowShield stat level 1
 set BlazingShield stat level 1
 set GaleShield stat level 1
+set Kiteshield stat level 2
 
 set LightningShield stat Weight 4
 set RadiantShield stat Weight 4
@@ -3057,7 +3096,6 @@ set Axeman base hp +4
 set Axeman base speed +4
 set Axeman base defense +4
 set Axeman base magic +4
-set Axeman skill vengeful
 set Axeman skill throw
 set Axeman skill armsthrift
 set Axeman skill canto
@@ -3074,7 +3112,6 @@ set ImperialAxeman base hp +4
 set ImperialAxeman base speed +4
 set ImperialAxeman base defense +4
 set ImperialAxeman base magic +4
-set ImperialAxeman skill vengeful
 set ImperialAxeman skill throw
 set ImperialAxeman skill armsthrift
 set ImperialAxeman skill canto
@@ -3132,7 +3169,7 @@ set Bowman skill aim
 set Bowman skill camouflage
 set Bowman skill hide
 set Bowman skill pursuit
-set Bowman skill tripleshot
+set Bowman skill Doubleshot
 set Bowman skill charisma
 set Bowman skill onetwo
 set Bowman skill adept
@@ -3150,7 +3187,7 @@ set Bowman skill camouflage
 set Bowman skill hide
 set Bowman skill pursuit
 set Bowman skill adept
-set Bowman skill tripleshot
+set Bowman skill DoubleShot
 set Bowman skill charisma
 set Bowman skill onetwo
 
@@ -3168,7 +3205,7 @@ set BowRider skill camouflage
 set BowRider skill hide
 set BowRider skill pursuit
 set BowRider skill adept
-set BowRider skill tripleshot
+set BowRider skill DoubleShot
 set BowRider skill charisma
 set BowRider skill onetwo
 
@@ -3185,7 +3222,7 @@ set Gunner skill aim
 set Gunner skill camouflage
 set Gunner skill hide
 set Gunner skill vantage
-set Gunner skill tripleshot
+set Gunner skill DoubleShot
 set Gunner skill charisma
 set Gunner skill pursuit
 set Gunner skill adept
@@ -3203,7 +3240,7 @@ set HeavyGunner skill maim
 set HeavyGunner skill aim
 set HeavyGunner skill camouflage
 set HeavyGunner skill vantage
-set HeavyGunner skill tripleshot
+set HeavyGunner skill DoubleShot
 set HeavyGunner skill charisma
 set HeavyGunner skill pursuit
 set HeavyGunner skill adept
@@ -3222,7 +3259,7 @@ set ImperialBowman skill aim
 set ImperialBowman skill camouflage
 set ImperialBowman skill hide
 set ImperialBowman skill pursuit
-set ImperialBowman skill tripleshot
+set ImperialBowman skill DoubleShot
 set ImperialBowman skill charisma
 set ImperialBowman skill adept
 
@@ -3239,7 +3276,7 @@ set ImperialBowRider_R skill aim
 set ImperialBowRider_R skill camouflage
 set ImperialBowRider_R skill hide
 set ImperialBowRider_R skill pursuit
-set ImperialBowRider_R skill tripleshot
+set ImperialBowRider_R skill DoubleShot
 set ImperialBowRider_R skill charisma
 set ImperialBowRider_R skill adept
 set ImperialBowRider_R skill onetwo
@@ -3257,7 +3294,7 @@ set ImperialBowRider skill aim
 set ImperialBowRider skill camouflage
 set ImperialBowRider skill hide
 set ImperialBowRider skill pursuit
-set ImperialBowRider skill tripleshot
+set ImperialBowRider skill DoubleShot
 set ImperialBowRider skill charisma
 set ImperialBowRider skill adept
 set ImperialBowRider skill onetwo
@@ -3275,7 +3312,7 @@ set ImperialGunner skill aim
 set ImperialGunner skill camouflage
 set ImperialGunner skill hide
 set ImperialGunner skill vantage
-set ImperialGunner skill tripleshot
+set ImperialGunner skill DoubleShot
 set ImperialGunner skill charisma
 set ImperialGunner skill pursuit
 set ImperialGunner skill adept
@@ -3294,7 +3331,7 @@ set ImperialHeavyGunner skill aim
 set ImperialHeavyGunner skill camouflage
 set ImperialHeavyGunner skill hide
 set ImperialHeavyGunner skill vantage
-set ImperialHeavyGunner skill tripleshot
+set ImperialHeavyGunner skill DoubleShot
 set ImperialHeavyGunner skill charisma
 set ImperialHeavyGunner skill pursuit
 set ImperialHeavyGunner skill adept
@@ -3314,7 +3351,7 @@ set Marksman skill camouflage
 set Marksman skill hide
 set Marksman skill adept
 set Marksman skill pursuit
-set Marksman skill tripleshot
+set Marksman skill DoubleShot
 set Marksman skill charisma
 set Marksman skill onetwo
 
@@ -3334,9 +3371,8 @@ set ImperialMarksman skill camouflage
 set ImperialMarksman skill hide
 set ImperialMarksman skill adept
 set ImperialMarksman skill pursuit
-set ImperialMarksman skill tripleshot
+set ImperialMarksman skill DoubleShot
 set ImperialMarksman skill charisma
-set ImperialMarksman skill critical
 set ImperialMarksman skill onetwo
 
 set Warrior base hp +4
@@ -3377,9 +3413,8 @@ set Hunter skill hide
 set Hunter skill watchful
 set Hunter skill pursuit
 set Hunter skill adept
-set Hunter skill tripleshot
+set Hunter skill DoubleShot
 set Hunter skill onetwo
-set Hunter skill critical
 
 set Bandit base hp +4
 //set Bandit base strength +4
@@ -3396,7 +3431,7 @@ set Bandit skill throw
 //set Bandit skill knockaway
 set Bandit skill camouflage
 set Bandit skill climber
-set Bandit skill counter
+//set Bandit skill counter
 set Bandit skill hide
 set Bandit skill pulverize
 set Bandit skill charisma
@@ -3503,7 +3538,7 @@ set Outlaw skill aim
 set Outlaw skill hide
 set Outlaw skill shieldfaire
 set Outlaw skill charisma
-set Outlaw skill tripleshot
+set Outlaw skill DoubleShot
 set Outlaw skill pursuit
 set Outlaw skill onetwo
 
@@ -3689,7 +3724,7 @@ set RogueArcher skill pursuit
 set RogueArcher skill camouflage
 set RogueArcher skill hide
 set RogueArcher skill adept
-set RogueArcher skill tripleshot
+set RogueArcher skill DoubleShot
 set RogueArcher skill charisma
 set RogueArcher skill onetwo
 
@@ -3705,7 +3740,7 @@ set RogueGunner skill supporter
 set RogueGunner skill camouflage
 set RogueGunner skill hide
 set RogueGunner skill vantage
-set RogueGunner skill tripleshot
+set RogueGunner skill DoubleShot
 set RogueGunner skill charisma
 set RogueGunner skill pursuit
 set RogueGunner skill onetwo
@@ -3732,7 +3767,6 @@ set SnowBandit base hp +4
 set SnowBandit base speed +4
 set SnowBandit base defense +4
 set SnowBandit base magic +4
-set SnowBandit skill counter
 //set SnowBandit skill vengeful
 set SnowBandit skill canto
 set SnowBandit skill pulverize
@@ -3751,7 +3785,6 @@ set Barbarian base speed +4
 set Barbarian base defense +4
 set Barbarian base magic +4
 //set Barbarian skill vengeful
-set Barbarian skill counter
 set Barbarian skill canto
 set Barbarian skill pulverize
 set Barbarian skill throw
@@ -3911,7 +3944,7 @@ set Huntress skill vantage
 set Huntress skill iaido
 set Huntress skill camouflage
 set Huntress skill hide
-set Huntress skill tripleshot
+set Huntress skill DoubleShot
 set Huntress skill charisma
 set Huntress skill pursuit
 
@@ -3988,7 +4021,7 @@ set ArrowKnight skill armsthrift
 set ArrowKnight skill vantage
 set ArrowKnight skill supporter
 set ArrowKnight skill sunder
-set ArrowKnight skill tripleshot
+set ArrowKnight skill DoubleShot
 set ArrowKnight skill pursuit
 set ArrowKnight skill adept
 
@@ -4003,7 +4036,7 @@ set ArrowKnight_R skill armsthrift
 set ArrowKnight_R skill vantage
 set ArrowKnight_R skill supporter
 set ArrowKnight_R skill sunder
-set ArrowKnight_R skill tripleshot
+set ArrowKnight_R skill DoubleShot
 set ArrowKnight_R skill pursuit
 set ArrowKnight_R skill adept
 
@@ -4383,26 +4416,23 @@ set Pirate skill pursuit
 
 set Horseman skill aim
 set Horseman skill onetwo
-set Horseman skill supporter
 set Horseman skill hide
 set Horseman skill critical
-set Horseman skill doubleshot
 set Horseman skill pursuit
 set Horseman skill adept
+set Horseman skill Tripleshot
 
 set Horseman_R skill aim
 set Horseman_R skill onetwo
-set Horseman_R skill supporter
 set Horseman_R skill hide
 set Horseman_R skill critical
-set Horseman_R skill doubleshot
 set Horseman_R skill pursuit
 set Horseman_R skill adept
+set Horseman_R skill Tripleshot
 
 set BowKnight_R skill aim
 set BowKnight_R skill supporter
-set BowKnight_R skill tripleshot
-set BowKnight_R skill critical
+set BowKnight_R skill DoubleShot
 set BowKnight_R skill onetwo
 set BowKnight_R skill sunder
 set BowKnight_R skill pursuit
@@ -4410,21 +4440,18 @@ set BowKnight_R skill adept
 
 set BowKnight skill aim
 set BowKnight skill supporter
-set BowKnight skill tripleshot
-set BowKnight skill critical
+set BowKnight skill DoubleShot
 set BowKnight skill onetwo
 set BowKnight skill sunder
 set BowKnight skill pursuit
 set BowKnight skill adept
 
-set SpearKnight skill supporter
-set SpearKnight skill throw
 set SpearKnight skill vantage
+set SpearKnight skill supporter
 set SpearKnight skill pursuit
 
-set SpearKnight_R skill supporter
-set SpearKnight_R skill throw
 set SpearKnight_R skill vantage
+set SpearKnight_R skill supporter
 set SpearKnight_R skill pursuit
 
 set Ballistician skill aim
@@ -4432,7 +4459,7 @@ set Ballistician skill armsthrift
 set Ballistician skill maim
 
 set Burglar skill camouflage
-set Burglar skill celerity
+//set Burglar skill celerity
 set Burglar skill hide
 set Burglar skill scotopic
 set Burglar skill vantage
@@ -4448,7 +4475,7 @@ set Myrmidon skill arrowbane
 set Myrmidon skill canto
 set Myrmidon skill deathmatch
 set Myrmidon skill iaido
-set Myrmidon skill pulverize
+//set Myrmidon skill pulverize
 set Myrmidon skill critical
 set Myrmidon skill fortune
 set Myrmidon skill pursuit
@@ -4490,3 +4517,5 @@ set Arrow++ stat might 8
 //BagII 6 bugged
 //GrowthCharm 101
 //Arrow++ 101 IronArrow with +20 prec
+
+//supporter on horseman removed
