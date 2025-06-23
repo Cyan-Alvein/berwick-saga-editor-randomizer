@@ -88,8 +88,9 @@ set ward item 0 KnightSword 101
 //set ward item 2 BlackShield 101
 //set ward item 3 PaladinShield 101
 set ward item 1 Kiteshield 101
-set ward item 2 Harpoon 101
-set ward item 3 Bag 0
+set ward item 2 SquareShield 101
+set ward item 3 Longspear 101
+set ward item 4 Harpoon 101
 set ward item 5 Treasure 101
 set ward item 6 Bag 0
 set ward item 7 Bag 0
@@ -618,6 +619,7 @@ set christine skill vantage
 set christine skill watchful 
 set christine skill windsweep
 set christine skill pursuit
+set christine skill guard
 
 set adel skill canto
 set adel skill counter 
@@ -691,6 +693,7 @@ set sherlock skill adept
 set sherlock skill Tripleshot
 unset sherlock skill DoubleShot
 unset sherlock skill Prepared
+unset sherlock skill guard
 
 set izerna skill blessing
 set izerna skill canto
@@ -733,6 +736,7 @@ set czene skill watchful
 set czene skill windsweep 
 set czene skill onetwo
 set czene skill prepared
+set czene skill guard
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -768,6 +772,7 @@ set enid skill windsweep
 set enid skill prepared
 set enid skill onetwo
 set enid skill pursuit
+set enid skill guard
 
 set aegina skill battlecry
 set aegina skill canto
@@ -784,6 +789,7 @@ set aegina skill windsweep
 set aegina skill prepared
 set aegina skill onetwo
 set aegina skill pursuit
+set aegina skill guard
 
 set perceval skill arrowbane
 set perceval skill adept
@@ -801,6 +807,7 @@ set perceval skill windsweep
 set perceval skill onetwo
 set perceval skill focuschant
 set perceval skill pursuit
+set perceval skill guard
 
 set marcel skill armsthrift 
 set marcel skill canto
@@ -937,6 +944,7 @@ set dean skill vengeful
 set dean skill pursuit
 set dean skill provoke
 set dean skill throw
+set dean skill counter
 
 set sylvis skill aim
 set sylvis skill battlecry
@@ -963,6 +971,7 @@ set sylvis skill vantage
 set sylvis skill watchful 
 set sylvis skill windsweep
 set sylvis skill pursuit
+set sylvis skill guard
 
 set thaddy skill battlecry
 set thaddy skill camouflage 
@@ -993,6 +1002,7 @@ set thaddy skill onetwo
 set thaddy skill prepared
 set thaddy skill expert
 set thaddy skill celerity
+set thaddy skill guard
 
 set esteban skill aim 
 set esteban skill camouflage
@@ -1019,6 +1029,7 @@ set esteban skill sunder
 set esteban skill DoubleShot
 set esteban skill watchful
 set esteban skill windsweep
+set esteban skill guard
 	
 set faye skill adept
 set faye skill arrowbane 
@@ -1038,6 +1049,9 @@ set faye skill parry
 set faye skill sunder
 set faye skill windsweep 
 set faye skill pursuit 
+set faye skill climber 
+set faye skill guard 
+set faye skill pulverize 
 
 set faramir skill aim
 set faramir skill battlecry 
@@ -1064,6 +1078,9 @@ set faramir skill scotopic
 set faramir skill pursuit 
 set faramir skill DoubleShot
 set faramir skill onetwo 
+set faramir skill climber 
+set faramir skill guard 
+set faramir skill pulverize 
 
 set volo skill adept
 set volo skill arrowbane 
@@ -1085,6 +1102,9 @@ set volo skill sunder
 set volo skill windsweep
 set volo skill despoil
 set volo skill Prepared
+set volo skill climber
+set volo skill guard
+set volo skill pulverize
 
 set clifford skill battlecry
 set clifford skill canto
@@ -1152,6 +1172,7 @@ set owen skill prepared
 set owen skill sunder
 set owen skill windsweep
 set owen skill pursuit
+set owen skill guard
 
 set burroughs skill armsthrift
 set burroughs skill arrowbane 
@@ -1224,6 +1245,7 @@ set lynette skill prepared
 set lynette skill onetwo
 set lynette skill adept
 set lynette skill pursuit
+set lynette skill guard
 
 set paramythis skill blessing
 set paramythis skill camouflage
@@ -3107,7 +3129,6 @@ set Bandit base magic +4
 set Bandit skill canto
 set Bandit skill supporter
 set Bandit skill shieldfaire
-set Bandit skill sunder
 set Bandit skill armsthrift
 set Bandit skill maim
 set Bandit skill throw
@@ -3267,7 +3288,6 @@ set Rogue skill pursuit
 set Mercenary skill adept
 set Mercenary skill counter
 set Mercenary skill sunder
-set Mercenary skill pulverize
 set Mercenary skill maim
 set Mercenary skill climber
 set Mercenary skill canto
@@ -3375,7 +3395,6 @@ set RogueGuard base hp +4
 set RogueGuard base speed +4
 set RogueGuard base defense +4
 set RogueGuard base magic +4
-set RogueGuard skill sunder
 set RogueGuard skill canto
 set RogueGuard skill armsthrift
 set RogueGuard skill maim
@@ -3790,7 +3809,6 @@ set Chief skill iaido
 set Chief skill pulverize
 set Chief skill parry
 set Chief skill steal
-set Chief skill sunder
 set Chief skill supporter
 set Chief skill throw
 set Chief skill vantage
@@ -3953,6 +3971,7 @@ set Swordfighter_M skill fortune
 set Swordfighter_M skill counter
 set Swordfighter_M skill critical
 set Swordfighter_M skill pursuit
+set Swordfighter_M skill pulverize
 
 set Swordmaster skill adept
 set Swordmaster skill arrowbane
@@ -3963,7 +3982,7 @@ set Swordmaster skill iaido
 set Swordmaster skill maim
 set Swordmaster skill parry
 set Swordmaster skill critical
-set Swordmaster skill sunder
+set Swordmaster skill pulverize
 set Swordmaster skill astra
 set Swordmaster skill pursuit
 
@@ -4032,7 +4051,6 @@ set Myrmidon skill iaido
 set Myrmidon skill critical
 set Myrmidon skill fortune
 set Myrmidon skill pursuit
-set Myrmidon skill sunder
 
 set AxeSoldier skill armsthrift
 set AxeSoldier skill maim
