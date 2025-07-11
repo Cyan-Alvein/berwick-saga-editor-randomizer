@@ -105,8 +105,8 @@ set elbert item 4 Pike 101
 set elbert item 5 Pilum 6
 set elbert item 6 Bag 0
 set elbert item 7 Bag 0
-//set elbert growth sword 100
-//set elbert growth spear 70
+set elbert growth sword 80
+set elbert growth spear 50
 //set elbert growth sshield 50
 //set elbert growth mshield 50
 set elbert base sshield +10
@@ -153,8 +153,8 @@ set adel item 4 Bag 0
 set adel item 5 IronLance 101
 set adel item 6 Pilum 6
 set adel item 7 Harpoon 101
-//set adel growth spear 70
-//set adel growth sshield 100
+set adel growth spear 50
+set adel growth sshield 80
 set adel base sshield +10
 set adel base spear +10
 
@@ -166,8 +166,8 @@ set leon item 4 Pike 101
 set leon item 5 Pilum 6
 set leon item 6 Bag 0
 set leon item 7 Harpoon 101
-//set leon growth spear 90
-//set leon growth sshield 50
+set leon growth spear 60
+set leon growth sshield 50
 set leon base sshield +10
 set leon base spear +10
 
@@ -188,7 +188,7 @@ set izerna item 4 Physic 15
 set izerna item 5 holy 20
 set izerna item 6 Bag 0
 set izerna item 7 Rehabilitate 10
-//set izerna growth holy 80
+set izerna growth holy 70
 set izerna base holy +20
 
 set czene item 0 Dagger 101
@@ -199,7 +199,7 @@ set czene item 4 Bag 0
 set czene item 5 Bag 0
 set czene item 6 Bag 0
 set czene item 7 Bag 0
-//set czene growth knife 90
+set czene growth knife 80
 set czene base knife +20
 
 set aegina item 1 Blizzard 15 
@@ -209,8 +209,8 @@ set aegina item 4 Shieldaxe 101
 set aegina item 5 Windstorm 60
 set aegina item 6 Bag 0
 set aegina item 7 Bag 0
-//set aegina growth wind 80
-//set aegina growth fire 50
+set aegina growth wind 60
+set aegina growth fire 30
 set aegina base fire +10
 set aegina base wind +10
 
@@ -261,10 +261,10 @@ set alvina item 4 LadyMShd 101
 set alvina item 5 LadyShield 101
 set alvina item 6 LadySword 101
 set alvina item 7 Javelin 6
-//set alvina growth sword 80
-//set alvina growth spear 80
-//set alvina growth sshield 90
-//set alvina growth mshield 90
+set alvina growth sword 70
+set alvina growth spear 80
+set alvina growth sshield 70
+set alvina growth mshield 70
 set alvina base sword +20
 set alvina base spear +20
 set alvina base sshield +20
@@ -353,8 +353,8 @@ set perceval item 4 Blizzard 15
 set perceval item 5 Lightning 15
 set perceval item 6 TigerBrace 101
 set perceval item 7 Windstorm 60
-//set perceval growth wind 50
-//set perceval growth thunder 90
+set perceval growth wind 30
+set perceval growth thunder 60
 set perceval base thunder +10
 set perceval base wind +10
 
@@ -364,10 +364,10 @@ set thaddy item 4 Swordbreaker 101
 set thaddy item 5 Bag 0
 set thaddy item 6 stunknife 101
 set thaddy item 7 Bag 0
-//set thaddy growth knife 70
+set thaddy growth knife 60
 set thaddy base knife +20
 
-//set esteban growth knife 50
+set esteban growth knife 40
 //set esteban growth sword 90
 //set esteban growth bow 100
 set esteban item 0 IronBow 101
@@ -403,10 +403,10 @@ set volo item 4 Bag 0
 set volo item 5 BastardSword 101
 set volo item 6 PhoenixBrace 101
 set volo item 7 Bag 0
-//set volo growth sword 90
+set volo growth sword 80
 set volo base sword +20
 
-//set sherpa growth sword 60
+set sherpa growth sword 60
 set Sherpa item 1 BastardSword 101
 set Sherpa item 2 BronzeSword 101
 set Sherpa item 3 Glaive 101
@@ -422,9 +422,9 @@ set clifford item 5 Bag 0
 set clifford item 6 Bag 0
 set clifford item 7 Bag 0
 //set clifford growth sword 80
-//set clifford growth spear 60
-//set clifford growth sshield 40
-//set clifford growth mshield 40
+set clifford growth spear 50
+set clifford growth sshield 50
+set clifford growth mshield 50
 set clifford base sword +7
 set clifford base spear +7
 set clifford base sshield +7
@@ -438,7 +438,7 @@ set axel item 4 Bag 0
 set axel item 5 Tomahawk 101
 set axel item 6 PegasusBrace 101
 set axel item 7 Treasure 101
-//set axel growth axe 60
+set axel growth axe 60
 set axel base axe +20
 
 set larentia item 2 LadySword 101
@@ -447,9 +447,9 @@ set larentia item 4 ImperialSpear 101
 set larentia item 5 Shortsword 101
 set larentia item 6 Bag 0
 set larentia item 7 Bag 0
-//set larentia growth sword 60
-//set larentia growth spear 80
-//set larentia growth sshield 20
+set larentia growth sword 60
+set larentia growth spear 80
+set larentia growth sshield 70
 set larentia base sword +7
 set larentia base spear +7
 set larentia base sshield +7
@@ -457,17 +457,18 @@ set larentia base sshield +7
 set Owen item 5 Bag 0
 set Owen item 6 Bag 0
 set Owen item 7 Bag 0
-//set owen growth light 70
-//set owen growth fire 30
-//set owen growth thunder 30
-//set owen growth wind 30
-//set Owen growth dark 100
+set owen growth light 70
+set owen growth fire 30
+set owen growth thunder 30
+set owen growth wind 30
+set Owen growth dark 100
 set Owen base fire +10
 set Owen base wind +10
 set Owen base thunder +10
 set Owen base light +10
 set Owen base dark +40
 set RazeMonkOwen base dark +40
+set RazeMonkOwen growth dark 100
 set RazeMonkOwen base fire +30
 set RazeMonkOwen base wind +30
 set RazeMonkOwen base thunder +30
@@ -484,8 +485,8 @@ set burroughs item 7 New-TypeBolt 20
 //set burroughs growth crossbow 100
 set burroughs base crossbow +20
 
-//set derrick growth axe 60
-//set derrick growth Lshield 50
+set derrick growth axe 50
+set derrick growth Lshield 60
 set derrick growth defense 22
 set Derrick item 0 ImperialAxe 101
 set Derrick item 2 GigasAxe 101
@@ -562,7 +563,6 @@ set ward skill prepared
 set ward skill provoke
 set ward skill robust
 set ward skill pursuit
-set ward skill battlecry
 	
 set elbert skill arrowbane
 set elbert skill canto
@@ -651,6 +651,7 @@ set sherlock skill counter
 unset sherlock skill DoubleShot
 set sherlock skill deathmatch
 set sherlock skill battlecry
+set sherlock skill prepared
 
 set izerna skill blessing
 set izerna skill canto
@@ -738,6 +739,7 @@ set perceval skill paragon
 set perceval skill prepared
 set perceval skill pursuit
 set perceval skill guard
+set perceval skill focuschant
 
 set marcel skill canto
 set marcel skill counter
@@ -909,7 +911,7 @@ set esteban skill prepared
 set esteban skill pursuit 
 set esteban skill scotopic 
 set esteban skill steal
-set esteban skill DoubleShot
+set esteban skill Tripleshot
 set esteban skill watchful
 set esteban skill guard
 set esteban skill deathmatch
