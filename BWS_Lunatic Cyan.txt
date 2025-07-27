@@ -603,6 +603,7 @@ set christine skill vantage
 set christine skill deathmatch
 set christine skill counter
 set christine skill windsweep
+set christine skill maim
 
 set adel skill canto
 set adel skill counter 
@@ -771,6 +772,7 @@ set perceval skill battlecry
 set perceval skill vantage
 set perceval skill windsweep
 set perceval skill sunder
+set perceval skill maim
 
 set marcel skill canto
 set marcel skill counter
@@ -3617,6 +3619,10 @@ set ArrowKnight skill pursuit
 set ArrowKnight skill vantage
 set ArrowKnight skill counter
 
+set Berserker skill maim
+
+set FlameFencer skill maim
+
 set VeteranKnight_R skill Armsthrift
 set VeteranKnight_R skill Counter
 set VeteranKnight_R skill Pursuit
@@ -3723,3 +3729,4 @@ set Pacify effect restore-uses
 	
 //Brymranger to check
 //Bug, Robbery and steal are linked, when robbery proc, it will decrease steal activation counter. So you can only robbery & steal 3 times by map.
+// maim to percy lynette enid sherlock christine maybe
