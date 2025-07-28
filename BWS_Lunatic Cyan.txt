@@ -61,19 +61,11 @@ unset RazeMonkOwen skill limited
 
 unset marcel skill slowstart
 
-//set reese item 3 Bag 0
-//set reese item 4 Saber 101
-//set reese item 5 Bag 0
-//set reese item 6 LiquidSpeed 1
-//set reese item 7 DarkShield 101
 set reese item 3 Bag 0
 set reese item 4 Bag 0
 set reese item 5 Bag 0
 set reese item 6 Bag 0
 set reese item 7 Bag 0
-set reese growth sword 90
-//set reese growth sshield 100
-//set reese growth mshield 100
 set reese base sword +10
 set reese base sshield +10
 set reese base mshield +30
@@ -81,9 +73,6 @@ set KnightLord_R base mshield +30
 set KnightLord base mshield +30
 
 set ward item 0 KnightSword 101
-//set ward item 1 Partisan 101
-//set ward item 2 BlackShield 101
-//set ward item 3 PaladinShield 101
 set ward item 1 Kiteshield 101
 set ward item 2 SquareShield 101
 set ward item 3 Longspear 101
@@ -91,9 +80,6 @@ set ward item 4 Harpoon 101
 set ward item 5 Treasure 101
 set ward item 6 Bag 0
 set ward item 7 Bag 0
-//set ward growth sword 60
-//set ward growth spear 60
-//set ward growth mshield 60
 set ward base mshield +7
 set ward base sword +7
 set ward base spear +7
@@ -106,10 +92,9 @@ set elbert item 4 Pike 101
 set elbert item 5 Pilum 6
 set elbert item 6 Bag 0
 set elbert item 7 Bag 0
-set elbert growth sword 60
-set elbert growth spear 50
-//set elbert growth sshield 50
-//set elbert growth mshield 50
+set elbert growth spear 40
+set elbert growth sshield 90
+set elbert growth mshield 90
 set elbert base sshield +10
 set elbert base sword +10
 set elbert base spear +10
@@ -154,8 +139,6 @@ set adel item 4 Bag 0
 set adel item 5 IronLance 101
 set adel item 6 Pilum 6
 set adel item 7 Harpoon 101
-set adel growth spear 40
-set adel growth sshield 70
 set adel base sshield +10
 set adel base spear +10
 
@@ -167,8 +150,6 @@ set leon item 4 Pike 101
 set leon item 5 Pilum 6
 set leon item 6 Bag 0
 set leon item 7 Harpoon 101
-set leon growth spear 60
-set leon growth sshield 50
 set leon base sshield +10
 set leon base spear +10
 
@@ -179,7 +160,7 @@ set sherlock item 4 BronzeArrow+ 20
 set sherlock item 5 Bag 0
 set sherlock item 6 Bag 0
 set sherlock item 7 Treasure 101
-//set sherlock growth bow 100
+set sherlock growth bow 90
 set sherlock base bow +10
 
 set izerna item 1 Soothe 20
@@ -189,7 +170,9 @@ set izerna item 4 Physic 15
 set izerna item 5 holy 20
 set izerna item 6 Bag 0
 set izerna item 7 Rehabilitate 10
-//set izerna growth holy 50
+set izerna growth holy 90
+set izerna growth speed 20
+set izerna growth magic 25
 set izerna base holy +10
 
 set czene item 0 Dagger 101
@@ -200,7 +183,9 @@ set czene item 4 Bag 0
 set czene item 5 Bag 0
 set czene item 6 Bag 0
 set czene item 7 Bag 0
-//set czene growth knife 80
+set czene growth knife 90
+set czene growth hp 20
+set czene growth strength 10
 set czene base knife +10
 
 set aegina item 1 Blizzard 15 
@@ -210,14 +195,16 @@ set aegina item 4 Shieldaxe 101
 set aegina item 5 Windstorm 60
 set aegina item 6 Bag 0
 set aegina item 7 Bag 0
-set aegina growth wind 60
-set aegina growth fire 40
+set aegina growth wind 90
+set aegina growth fire 36
 set aegina base fire +10
 set aegina base wind +10
 
-//set daoud growth axe 100
-//set daoud growth sshield 100
-//set daoud growth mshield 100
+set daoud growth axe 70
+set daoud growth sshield 90
+set daoud growth mshield 90
+set daoud growth defense 20
+set daoud growth speed 20
 set Daoud item 0 Broadaxe 101
 set Daoud item 1 Aspis 101
 set Daoud item 2 Kiteshield 101
@@ -230,10 +217,6 @@ set Daoud base axe +10
 set Daoud base sshield +10
 set Daoud base mshield +10
 
-//set enid growth sword 90
-//set enid growth fire 100
-//set enid growth thunder 70
-//set enid base magic +1
 set enid base sword +10
 set enid base fire +30
 set enid base thunder +20
@@ -247,8 +230,9 @@ set Enid item 7 Rapier 101
 set FlameFencer base thunder +20
 set FlameFencer base fire +30
 
-set marcel growth sword 50
-set marcel growth Lshield 60
+set marcel growth sword 70
+set marcel growth Lshield 90
+set marcel growth defense 30
 set Marcel item 2 Bag 0
 set Marcel item 3 Iuppiter 101
 set Marcel item 4 TsukuyomiShield 101
@@ -262,10 +246,6 @@ set alvina item 4 LadyMShd 101
 set alvina item 5 LadyShield 101
 set alvina item 6 LadySword 101
 set alvina item 7 Javelin 6
-set alvina growth sword 70
-set alvina growth spear 80
-set alvina growth sshield 70
-set alvina growth mshield 70
 set alvina base sword +20
 set alvina base spear +20
 set alvina base sshield +20
@@ -316,7 +296,6 @@ set kramer item 7 Bag 0
 //set kramer growth sword 100
 set kramer base sword +10
 
-//set dean growth axe 100
 set dean item 2 HandAxe 6
 set dean item 3 BattleAxe 101
 set dean item 4 Bag 0
@@ -324,6 +303,7 @@ set dean item 5 Bag 0
 set dean item 6 Bag 0
 set dean item 7 GamblersBrace 101
 set dean base axe +10
+set dean growth axe 90
 
 set faye item 2 GiantsBrace 101
 set faye item 3 Shortsword 101
@@ -348,14 +328,14 @@ set sylvis base bow +10
 set sylvis base crossbow +10
 
 set perceval item 1 Thunder 20
-set perceval item 2 LiquidSpeed 1
+set perceval item 2 Bag 0
 set perceval item 3 Bag 0
 set perceval item 4 Blizzard 15
 set perceval item 5 Lightning 15
 set perceval item 6 TigerBrace 101
 set perceval item 7 Windstorm 60
-set perceval growth wind 40
-set perceval growth thunder 60
+set perceval growth wind 26
+set perceval growth thunder 90
 set perceval base thunder +10
 set perceval base wind +10
 
@@ -366,6 +346,8 @@ set thaddy item 5 Bag 0
 set thaddy item 6 stunknife 101
 set thaddy item 7 Bag 0
 set thaddy growth knife 60
+set thaddy growth hp 25
+set thaddy growth strength 15
 set thaddy base knife +10
 
 set esteban growth knife 40
@@ -404,10 +386,12 @@ set volo item 4 Bag 0
 set volo item 5 BastardSword 101
 set volo item 6 PhoenixBrace 101
 set volo item 7 Bag 0
-set volo growth sword 80
+set volo growth sword 90
+set volo growth strength 25
+set volo growth def 12
 set volo base sword +10
 
-set sherpa growth sword 60
+set sherpa growth sword 90
 set Sherpa item 1 BastardSword 101
 set Sherpa item 2 BronzeSword 101
 set Sherpa item 3 Glaive 101
@@ -422,10 +406,6 @@ set clifford item 4 Springald 101
 set clifford item 5 Bag 0
 set clifford item 6 Bag 0
 set clifford item 7 Bag 0
-//set clifford growth sword 80
-set clifford growth spear 50
-set clifford growth sshield 50
-set clifford growth mshield 50
 set clifford base sword +7
 set clifford base spear +7
 set clifford base sshield +7
@@ -439,8 +419,8 @@ set axel item 4 Bag 0
 set axel item 5 Tomahawk 101
 set axel item 6 PegasusBrace 101
 set axel item 7 Treasure 101
-set axel growth axe 50
 set axel base axe +10
+set axel growth axe 50
 
 set larentia item 2 LadySword 101
 set larentia item 3 Pilum 6
@@ -448,8 +428,8 @@ set larentia item 4 ImperialSpear 101
 set larentia item 5 Shortsword 101
 set larentia item 6 Bag 0
 set larentia item 7 Bag 0
-set larentia growth sword 70
-set larentia growth spear 70
+set larentia growth sword 80
+set larentia growth spear 80
 set larentia growth sshield 60
 set larentia base sword +7
 set larentia base spear +7
@@ -459,17 +439,17 @@ set Owen item 5 Bag 0
 set Owen item 6 Bag 0
 set Owen item 7 Bag 0
 set owen growth light 60
-set owen growth fire 30
-set owen growth thunder 30
-set owen growth wind 30
-set Owen growth dark 100
+set owen growth fire 20
+set owen growth thunder 20
+set owen growth wind 20
+set Owen growth dark 90
 set Owen base fire +10
 set Owen base wind +10
 set Owen base thunder +10
 set Owen base light +10
 set Owen base dark +40
 set RazeMonkOwen base dark +40
-set RazeMonkOwen growth dark 100
+set RazeMonkOwen growth dark 90
 set RazeMonkOwen base fire +30
 set RazeMonkOwen base wind +30
 set RazeMonkOwen base thunder +30
@@ -486,9 +466,10 @@ set burroughs item 7 New-TypeBolt 20
 //set burroughs growth crossbow 100
 set burroughs base crossbow +20
 
-set derrick growth axe 60
-set derrick growth Lshield 50
-set derrick growth defense 22
+set derrick growth axe 80
+set derrick growth lshield 80
+set derrick growth defense 40
+set derrick growth strength 30
 set Derrick item 0 ImperialAxe 101
 set Derrick item 2 GigasAxe 101
 set Derrick item 3 HandAxe 6
@@ -506,8 +487,9 @@ set saphira item 4 Physic 15
 set saphira item 5 Awaken 10
 set saphira item 6 Mend 20
 set saphira item 7 Bag 0
-//set saphira growth holy 100
-set saphira base holy +20
+set saphira growth holy 90
+set saphira growth magic 30
+set saphira base holy +10
 
 set lynette item 3 LiquidMagic 1
 set lynette item 4 Arrow++ 20
@@ -661,7 +643,7 @@ set sherlock skill scotopic
 set sherlock skill watchful 
 set sherlock skill Tripleshot
 set sherlock skill counter
-unset sherlock skill DoubleShot
+set sherlock skill DoubleShot
 set sherlock skill deathmatch
 set sherlock skill battlecry
 set sherlock skill prepared
@@ -958,6 +940,7 @@ set esteban skill pursuit
 set esteban skill scotopic 
 set esteban skill steal
 set esteban skill Tripleshot
+set esteban skill DoubleShot
 set esteban skill watchful
 set esteban skill guard
 set esteban skill deathmatch
