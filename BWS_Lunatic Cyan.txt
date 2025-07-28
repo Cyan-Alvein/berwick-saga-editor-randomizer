@@ -1886,6 +1886,8 @@ set ImpSoldierSShd stat might 2
 set ImpSoldierSShd+ stat might 2
 set ImpOfficerSShd stat might 4
 set ImpKnightSShd stat might 5
+set Perseid stat might 5
+set LadyShield stat might 5
 
 set LeatherSShd stat Weight 0
 set Buckler stat Weight 1
@@ -1899,6 +1901,8 @@ set LightShield stat Weight 2
 set DarkShield stat Weight 2
 set MetalShield stat weight 3
 set MithrilShield stat weight 2
+set Perseid stat weight 1
+set LadyShield stat weight 1
 set Vollenden stat weight 4
 set ShiningShield stat Weight 2
 Set VerianSShd Stat Weight 1
@@ -1973,9 +1977,12 @@ Set KnightShield stat Weight 6
 Set LimitShield stat Weight 6
 Set Hestia stat Weight 6
 Set WyrmskinShield stat Weight 5
+Set LadyMShd stat Weight 4
 Set PaladinShield stat Weight 6
 Set BlackShield stat Weight 6
 Set VerianMShd stat Weight 3
+
+Set LadyMShd stat accuracy 50
 
 Set LeatherMShd stat might 4
 Set Kiteshield stat might 6
@@ -1984,6 +1991,7 @@ Set KnightShield stat might 10
 Set LimitShield stat might 9
 Set Hestia stat might 8
 Set WyrmskinShield stat might 12
+Set LadyMShd stat might 9
 Set PaladinShield stat might 11
 Set BlackShield stat might 11
 
