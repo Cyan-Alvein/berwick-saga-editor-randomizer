@@ -721,6 +721,7 @@ set enid skill battlecry
 set enid skill adept
 set enid skill windsweep
 set enid skill sunder
+set enid skill deathmatch
 
 set aegina skill canto
 set aegina skill focuschant
@@ -738,6 +739,7 @@ set aegina skill vantage
 set aegina skill adept
 set aegina skill windsweep
 set aegina skill sunder
+set aegina skill deathmatch
 
 set perceval skill arrowbane
 set perceval skill adept
@@ -756,6 +758,7 @@ set perceval skill vantage
 set perceval skill windsweep
 set perceval skill sunder
 set perceval skill maim
+set perceval skill deathmatch
 
 set marcel skill canto
 set marcel skill counter
@@ -965,6 +968,8 @@ set faye skill guard
 //set faye skill pulverize 
 set faye skill prepared
 set faye skill windsweep
+set faye skill fortune
+set faye skill celerity
 
 set faramir skill aim
 set faramir skill canto
@@ -984,7 +989,7 @@ set faramir skill pursuit
 set faramir skill DoubleShot
 set faramir skill climber 
 set faramir skill guard 
-//set faramir skill pulverize 
+set faramir skill pulverize 
 set faramir skill fortune
 set faramir skill deathmatch
 set faramir skill sunder
@@ -1007,7 +1012,7 @@ set volo skill climber
 set volo skill guard
 set volo skill sunder
 set volo skill windsweep
-//set volo skill pulverize
+set volo skill pulverize
 
 set clifford skill canto
 set clifford skill counter
@@ -1076,6 +1081,7 @@ set owen skill celerity
 set owen skill vantage
 set owen skill focuschant
 set owen skill windsweep
+set owen skill deathmatch
 
 set burroughs skill armsthrift
 set burroughs skill arrowbane 
@@ -1120,6 +1126,7 @@ set saphira skill celerity
 set saphira skill Prepared
 set saphira skill pursuit
 set saphira skill windsweep
+set saphira skill deathmatch
 
 set lynette skill aim
 set lynette skill canto
@@ -1187,7 +1194,7 @@ set Gram stat level 20
 // magic
 set Blizzard stat max-range 2
 set AirBlade stat max-range 2
-set PallasRiana stat level 30
+set PallasRiana stat level 20
 set PallasRiana stat uses 60
 set PallasRiana stat max-range 3
 set Windstorm stat max-range 2
@@ -1535,8 +1542,8 @@ set Pike effect cripple-x2
 // MilitaryFork similar stat than LongSpear + cripple effect
 // Firebrand similar stat than WindSpear + Fire Damage Effect
 
-set MilitaryFork effect cripple-rate 8
-set Pitchfork effect cripple-rate 8
+set MilitaryFork effect cripple-x2
+set Pitchfork effect cripple-x2
 //set GoreFork effect cripple-rate 8
 set Firebrand effect cripple-rate 4
 set Firebrand effect fire-damage 7
@@ -3474,6 +3481,7 @@ set Swordmaster skill parry
 set Swordmaster skill astra
 set Swordmaster skill pursuit
 set Swordmaster skill sunder
+set Swordmaster skill pulverize
 
 set SwordKnight_R skill counter
 set SwordKnight_R skill armsthrift
