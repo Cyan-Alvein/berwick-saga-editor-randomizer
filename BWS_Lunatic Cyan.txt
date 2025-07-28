@@ -649,6 +649,7 @@ set sherlock skill battlecry
 set sherlock skill prepared
 set sherlock skill windsweep
 set sherlock skill sunder
+set sherlock skill maim
 
 set izerna skill blessing
 set izerna skill canto
@@ -2271,41 +2272,41 @@ set Cavalier base mshield +40
 
 set Treasure stat price 60000
 
-//set Reese bracket no
-//set Ward bracket no
-//set Leon bracket no
-//set Adel bracket no
-//set Sherlock bracket no
-//set Elbert bracket no
-//set Christine bracket no
-//set Dean bracket no
-//set Izerna bracket no
-//set Volo bracket no
-//set Axel bracket no
-//set Sylvis bracket no
-//set Ruby bracket no
-//set Arthur bracket no
-//set Czene bracket no
-//set Kramer bracket no
-//set Faye bracket no
-//set Derrick bracket no
-//set Clifford bracket no
-//set Faramir bracket no
-//set Esteban bracket no
-//set Aegina bracket no
-//set Sherpa bracket no
-//set Saphira bracket no
-//set Owen bracket no
-//set Daoud bracket no
-//set Larentia bracket no
-//set Thaddy bracket no
-//set Marcel bracket no
-//set Enid bracket no
-//set Perceval bracket no
-//set Burroughs bracket no
-//set Alvina bracket no
-//set Paramythis bracket no
-//set Lynette bracket no
+set Reese bracket no
+set Ward bracket no
+set Leon bracket no
+set Adel bracket no
+set Sherlock bracket no
+set Elbert bracket no
+set Christine bracket no
+set Dean bracket no
+set Izerna bracket no
+set Volo bracket no
+set Axel bracket no
+set Sylvis bracket no
+set Ruby bracket no
+set Arthur bracket no
+set Czene bracket no
+set Kramer bracket no
+set Faye bracket no
+set Derrick bracket no
+set Clifford bracket no
+set Faramir bracket no
+set Esteban bracket no
+set Aegina bracket no
+set Sherpa bracket no
+set Saphira bracket no
+set Owen bracket no
+set Daoud bracket no
+set Larentia bracket no
+set Thaddy bracket no
+set Marcel bracket no
+set Enid bracket no
+set Perceval bracket no
+set Burroughs bracket no
+set Alvina bracket no
+set Paramythis bracket no
+set Lynette bracket no
 
 //////////////////////////Difficulty Level - Ennemy buff///////////////////
 
