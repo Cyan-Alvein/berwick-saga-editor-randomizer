@@ -921,6 +921,7 @@ set thaddy skill prepared
 set thaddy skill guard
 set thaddy skill windsweep
 set thaddy skill sunder
+set thaddy skill celerity
 
 set esteban skill aim 
 set esteban skill camouflage
@@ -2323,7 +2324,6 @@ set Spearman base hp +2
 set Spearman base defense +2
 set Spearman base magic +2
 set Spearman skill canto
-set Spearman skill supporter
 set Spearman skill shieldfaire
 set Spearman skill armsthrift
 set Spearman skill throw
@@ -2337,7 +2337,6 @@ set SpearRider_R base hp +2
 set SpearRider_R base defense +2
 set SpearRider_R base magic +2
 set SpearRider_R skill canto
-set SpearRider_R skill supporter
 set SpearRider_R skill shieldfaire
 set SpearRider_R skill armsthrift
 set SpearRider_R skill throw
@@ -2351,7 +2350,6 @@ set SpearRider base hp +2
 set SpearRider base defense +2
 set SpearRider base magic +2
 set SpearRider skill canto
-set SpearRider skill supporter
 set SpearRider skill shieldfaire
 set SpearRider skill armsthrift
 set SpearRider skill throw
@@ -2365,7 +2363,6 @@ set ImperialSpearman base hp +2
 set ImperialSpearman base defense +2
 set ImperialSpearman base magic +2
 set ImperialSpearman skill canto
-set ImperialSpearman skill supporter
 set ImperialSpearman skill shieldfaire
 set ImperialSpearman skill armsthrift
 set ImperialSpearman skill throw
@@ -2379,7 +2376,6 @@ set ImperialSpearRider_R base hp +2
 set ImperialSpearRider_R base defense +2
 set ImperialSpearRider_R base magic +2
 set ImperialSpearRider_R skill canto
-set ImperialSpearRider_R skill supporter
 set ImperialSpearRider_R skill shieldfaire
 set ImperialSpearRider_R skill armsthrift
 set ImperialSpearRider_R skill throw
@@ -2393,7 +2389,6 @@ set ImperialSpearRider base hp +2
 set ImperialSpearRider base defense +2
 set ImperialSpearRider base magic +2
 set ImperialSpearRider skill canto
-set ImperialSpearRider skill supporter
 set ImperialSpearRider skill shieldfaire
 set ImperialSpearRider skill armsthrift
 set ImperialSpearRider skill throw
@@ -2407,7 +2402,6 @@ set Farmer base hp +2
 set Farmer base defense +2
 set Farmer base magic +2
 set Farmer skill canto
-set Farmer skill supporter
 set Farmer skill shieldfaire
 set Farmer skill armsthrift
 set Farmer skill throw
@@ -2421,7 +2415,6 @@ set VerianKnight_R base hp +2
 set VerianKnight_R base defense +2
 set VerianKnight_R base magic +2
 set VerianKnight_R skill canto
-set VerianKnight_R skill supporter
 set VerianKnight_R skill shieldfaire
 set VerianKnight_R skill armsthrift
 set VerianKnight_R skill throw
@@ -2434,7 +2427,6 @@ set VerianKnight base hp +2
 set VerianKnight base defense +2
 set VerianKnight base magic +2
 set VerianKnight skill canto
-set VerianKnight skill supporter
 set VerianKnight skill shieldfaire
 set VerianKnight skill armsthrift
 set VerianKnight skill throw
@@ -2447,7 +2439,6 @@ set VerianKnight2_R base hp +2
 set VerianKnight2_R base defense +2
 set VerianKnight2_R base magic +2
 set VerianKnight2_R skill canto
-set VerianKnight2_R skill supporter
 set VerianKnight2_R skill shieldfaire
 set VerianKnight2_R skill armsthrift
 set VerianKnight2_R skill throw
@@ -2460,7 +2451,6 @@ set VerianKnight2 base hp +2
 set VerianKnight2 base defense +2
 set VerianKnight2 base magic +2
 set VerianKnight2 skill canto
-set VerianKnight2 skill supporter
 set VerianKnight2 skill shieldfaire
 set VerianKnight2 skill armsthrift
 set VerianKnight2 skill throw
@@ -2473,7 +2463,6 @@ set ImperialKnight_R base hp +2
 set ImperialKnight_R base defense +2
 set ImperialKnight_R base magic +2
 set ImperialKnight_R skill canto
-set ImperialKnight_R skill supporter
 set ImperialKnight_R skill shieldfaire
 set ImperialKnight_R skill armsthrift
 set ImperialKnight_R skill throw
@@ -2486,7 +2475,6 @@ set ImperialKnight base hp +2
 set ImperialKnight base defense +2
 set ImperialKnight base magic +2
 set ImperialKnight skill canto
-set ImperialKnight skill supporter
 set ImperialKnight skill shieldfaire
 set ImperialKnight skill armsthrift
 set ImperialKnight skill throw
@@ -2499,7 +2487,6 @@ set ImperialPaladin_R base hp +2
 set ImperialPaladin_R base defense +2
 set ImperialPaladin_R base magic +2
 set ImperialPaladin_R skill canto
-set ImperialPaladin_R skill supporter
 set ImperialPaladin_R skill shieldfaire
 set ImperialPaladin_R skill armsthrift
 set ImperialPaladin_R skill throw
@@ -2513,7 +2500,6 @@ set ImperialPaladin base hp +2
 set ImperialPaladin base defense +2
 set ImperialPaladin base magic +2
 set ImperialPaladin skill canto
-set ImperialPaladin skill supporter
 set ImperialPaladin skill shieldfaire
 set ImperialPaladin skill armsthrift
 set ImperialPaladin skill throw
@@ -2526,7 +2512,6 @@ set HighKnight_R base hp +2
 set HighKnight_R base defense +2
 set HighKnight_R base magic +2
 set HighKnight_R skill canto
-set HighKnight_R skill supporter
 set HighKnight_R skill shieldfaire
 set HighKnight_R skill armsthrift
 set HighKnight_R skill throw
@@ -2539,7 +2524,6 @@ set HighKnight base hp +2
 set HighKnight base defense +2
 set HighKnight base magic +2
 set HighKnight skill canto
-set HighKnight skill supporter
 set HighKnight skill shieldfaire
 set HighKnight skill armsthrift
 set HighKnight skill throw
@@ -2552,7 +2536,6 @@ set HighKnight2_R base hp +2
 set HighKnight2_R base defense +2
 set HighKnight2_R base magic +2
 set HighKnight2_R skill canto
-set HighKnight2_R skill supporter
 set HighKnight2_R skill shieldfaire
 set HighKnight2_R skill armsthrift
 set HighKnight2_R skill throw
@@ -2565,7 +2548,6 @@ set HighKnight2 base hp +2
 set HighKnight2 base defense +2
 set HighKnight2 base magic +2
 set HighKnight2 skill canto
-set HighKnight2 skill supporter
 set HighKnight2 skill shieldfaire
 set HighKnight2 skill armsthrift
 set HighKnight2 skill throw
@@ -2578,7 +2560,6 @@ set General base hp +2
 set General base defense +2
 set General base magic +2
 set General skill canto
-set General skill supporter
 set General skill shieldfaire
 set General skill armsthrift
 set General skill commander
@@ -2606,7 +2587,6 @@ set WyvernLord_R base hp +2
 set WyvernLord_R base defense +2
 set WyvernLord_R base magic +2
 set WyvernLord_R skill canto
-set WyvernLord_R skill supporter
 set WyvernLord_R skill shieldfaire
 set WyvernLord_R skill armsthrift
 set WyvernLord_R skill throw
@@ -2620,7 +2600,6 @@ set WyvernLord base hp +2
 set WyvernLord base defense +2
 set WyvernLord base magic +2
 set WyvernLord skill canto
-set WyvernLord skill supporter
 set WyvernLord skill shieldfaire
 set WyvernLord skill armsthrift
 set WyvernLord skill throw
@@ -2637,7 +2616,6 @@ set Axeman skill throw
 set Axeman skill armsthrift
 set Axeman skill canto
 set Axeman skill shieldfaire
-set Axeman skill supporter
 set Axeman skill pulverize
 set Axeman skill camouflage
 set Axeman skill charisma
@@ -2651,7 +2629,6 @@ set ImperialAxeman skill throw
 set ImperialAxeman skill armsthrift
 set ImperialAxeman skill canto
 set ImperialAxeman skill shieldfaire
-set ImperialAxeman skill supporter
 set ImperialAxeman skill pulverize
 set ImperialAxeman skill camouflage
 set ImperialAxeman skill charisma
@@ -2665,7 +2642,6 @@ set AxeGuard skill throw
 set AxeGuard skill armsthrift
 set AxeGuard skill canto
 set AxeGuard skill shieldfaire
-set AxeGuard skill supporter
 set AxeGuard skill pulverize
 set AxeGuard skill camouflage
 set AxeGuard skill charisma
@@ -2676,7 +2652,6 @@ set Bowman base hp +2
 set Bowman base defense +2
 set Bowman base magic +2
 set Bowman skill canto
-set Bowman skill supporter
 set Bowman skill armsthrift
 set Bowman skill aim
 set Bowman skill camouflage
@@ -2690,7 +2665,6 @@ set Bowman base hp +2
 set Bowman base defense +2
 set Bowman base magic +2
 set Bowman skill canto
-set Bowman skill supporter
 set Bowman skill armsthrift
 set Bowman skill aim
 set Bowman skill camouflage
@@ -2704,7 +2678,6 @@ set BowRider base hp +2
 set BowRider base defense +2
 set BowRider base magic +2
 set BowRider skill canto
-set BowRider skill supporter
 set BowRider skill armsthrift
 set BowRider skill aim
 set BowRider skill camouflage
@@ -2718,7 +2691,6 @@ set Gunner base hp +2
 set Gunner base defense +2
 set Gunner base magic +2
 set Gunner skill canto
-set Gunner skill supporter
 set Gunner skill armsthrift
 set Gunner skill aim
 set Gunner skill camouflage
@@ -2733,7 +2705,6 @@ set HeavyGunner base hp +2
 set HeavyGunner base defense +2
 set HeavyGunner base magic +2
 set HeavyGunner skill canto
-set HeavyGunner skill supporter
 set HeavyGunner skill armsthrift
 set HeavyGunner skill aim
 set HeavyGunner skill camouflage
@@ -2748,7 +2719,6 @@ set ImperialBowman base hp +2
 set ImperialBowman base defense +2
 set ImperialBowman base magic +2
 set ImperialBowman skill canto
-set ImperialBowman skill supporter
 set ImperialBowman skill armsthrift
 set ImperialBowman skill aim
 set ImperialBowman skill camouflage
@@ -2762,7 +2732,6 @@ set ImperialBowRider_R base hp +2
 set ImperialBowRider_R base defense +2
 set ImperialBowRider_R base magic +2
 set ImperialBowRider_R skill canto
-set ImperialBowRider_R skill supporter
 set ImperialBowRider_R skill armsthrift
 set ImperialBowRider_R skill aim
 set ImperialBowRider_R skill camouflage
@@ -2776,7 +2745,6 @@ set ImperialBowRider base hp +2
 set ImperialBowRider base defense +2
 set ImperialBowRider base magic +2
 set ImperialBowRider skill canto
-set ImperialBowRider skill supporter
 set ImperialBowRider skill armsthrift
 set ImperialBowRider skill aim
 set ImperialBowRider skill camouflage
@@ -2790,7 +2758,6 @@ set ImperialGunner base hp +2
 set ImperialGunner base defense +2
 set ImperialGunner base magic +2
 set ImperialGunner skill canto
-set ImperialGunner skill supporter
 set ImperialGunner skill armsthrift
 set ImperialGunner skill aim
 set ImperialGunner skill camouflage
@@ -2805,7 +2772,6 @@ set ImperialHeavyGunner base hp +2
 set ImperialHeavyGunner base defense +2
 set ImperialHeavyGunner base magic +2
 set ImperialHeavyGunner skill canto
-set ImperialHeavyGunner skill supporter
 set ImperialHeavyGunner skill armsthrift
 set ImperialHeavyGunner skill aim
 set ImperialHeavyGunner skill camouflage
@@ -2820,7 +2786,6 @@ set Marksman base hp +2
 set Marksman base defense +2
 set Marksman base magic +2
 set Marksman skill canto
-set Marksman skill supporter
 set Marksman skill armsthrift
 set Marksman skill aim
 set Marksman skill camouflage
@@ -2834,7 +2799,6 @@ set ImperialMarksman base hp +2
 set ImperialMarksman base defense +2
 set ImperialMarksman base magic +2
 set ImperialMarksman skill canto
-set ImperialMarksman skill supporter
 set ImperialMarksman skill armsthrift
 set ImperialMarksman skill throw
 set ImperialMarksman skill aim
@@ -2849,7 +2813,6 @@ set Warrior base hp +2
 set Warrior base defense +2
 set Warrior base magic +2
 set Warrior skill canto
-set Warrior skill supporter
 set Warrior skill shieldfaire
 set Warrior skill armsthrift
 set Warrior skill throw
@@ -2866,7 +2829,6 @@ set Bandit base hp +2
 set Bandit base defense +2
 set Bandit base magic +2
 set Bandit skill canto
-set Bandit skill supporter
 set Bandit skill shieldfaire
 set Bandit skill armsthrift
 set Bandit skill throw
@@ -2881,7 +2843,6 @@ set Corsair base hp +2
 set Corsair base defense +2
 set Corsair base magic +2
 set Corsair skill canto
-set Corsair skill supporter
 set Corsair skill armsthrift
 set Corsair skill throw
 set Corsair skill camouflage
@@ -2896,7 +2857,6 @@ set Ruffian_R base hp +2
 set Ruffian_R base defense +2
 set Ruffian_R base magic +2
 set Ruffian_R skill canto
-set Ruffian_R skill supporter
 set Ruffian_R skill shieldfaire
 set Ruffian_R skill armsthrift
 set Ruffian_R skill throw
@@ -2911,7 +2871,6 @@ set Ruffian base hp +2
 set Ruffian base defense +2
 set Ruffian base magic +2
 set Ruffian skill canto
-set Ruffian skill supporter
 set Ruffian skill armsthrift
 set Ruffian skill throw
 set Ruffian skill camouflage
@@ -2928,7 +2887,6 @@ set Pickpocket skill canto
 set Pickpocket skill adept
 set Pickpocket skill vantage
 set Pickpocket skill throw
-set Pickpocket skill supporter
 set Pickpocket skill throw
 set Pickpocket skill camouflage
 set Pickpocket skill charisma
@@ -2938,7 +2896,6 @@ set Outlaw base hp +2
 set Outlaw base defense +2
 set Outlaw base magic +2
 set Outlaw skill canto
-set Outlaw skill supporter
 set Outlaw skill throw
 set Outlaw skill armsthrift
 set Outlaw skill adept
@@ -2956,18 +2913,18 @@ set Assassin base defense +2
 set Assassin base magic +2
 set Assassin skill canto
 set Assassin skill vantage
-set Assassin skill supporter
 set Assassin skill camouflage
 set Assassin skill deathmatch
 set Assassin skill critical
 set Assassin skill pursuit
 set Assassin skill throw
 set Assassin skill charisma
+set Assassin skill celerity
+set Assassin skill windsweep
 
 set Rogue base hp +2
 set Rogue base defense +2
 set Rogue base magic +2
-set Rogue skill supporter
 set Rogue skill armsthrift
 set Rogue skill shieldfaire
 set Rogue skill throw
@@ -2981,7 +2938,6 @@ set RazeMonk base hp +2
 set RazeMonk base defense +2
 set RazeMonk base magic +2
 set RazeMonk skill blessing
-set RazeMonk skill supporter
 set RazeMonk skill focuschant
 set RazeMonk skill canto
 set RazeMonk skill camouflage
@@ -2996,7 +2952,6 @@ set RazePriest base hp +2
 set RazePriest base defense +2
 set RazePriest base magic +2
 set RazePriest skill focuschant
-set RazePriest skill supporter
 set RazePriest skill blessing
 set RazePriest skill canto
 set RazePriest skill camouflage
@@ -3012,7 +2967,6 @@ set RazeBishop base hp +2
 set RazeBishop base defense +2
 set RazeBishop base magic +2
 set RazeBishop skill focuschant
-set RazeBishop skill supporter
 set RazeBishop skill adept
 set RazeBishop skill blessing
 set RazeBishop skill canto
@@ -3039,7 +2993,6 @@ set DarkMaster skill sunder
 
 // same as Volo
 set RazeWarMonk skill focuschant
-set RazeWarMonk skill supporter
 set RazeWarMonk skill adept
 set RazeWarMonk skill canto
 set RazeWarMonk skill blessing
@@ -3054,7 +3007,6 @@ set RogueGuard base defense +2
 set RogueGuard base magic +2
 set RogueGuard skill canto
 set RogueGuard skill armsthrift
-set RogueGuard skill supporter
 set RogueGuard skill shieldfaire
 set RogueGuard skill camouflage
 set RogueGuard skill adept
@@ -3070,7 +3022,6 @@ set RogueArcher base defense +2
 set RogueArcher base magic +2
 set RogueArcher skill aim
 set RogueArcher skill canto
-set RogueArcher skill supporter
 set RogueArcher skill armsthrift
 set RogueArcher skill pursuit
 set RogueArcher skill camouflage
@@ -3085,7 +3036,6 @@ set RogueGunner base magic +2
 set RogueGunner skill aim
 set RogueGunner skill canto
 set RogueGunner skill armsthrift
-set RogueGunner skill supporter
 set RogueGunner skill camouflage
 set RogueGunner skill vantage
 set RogueGunner skill DoubleShot
@@ -3101,7 +3051,6 @@ set RogueWarrior skill shieldfaire
 set RogueWarrior skill canto
 set RogueWarrior skill pursuit
 set RogueWarrior skill throw
-set RogueWarrior skill supporter
 set RogueWarrior skill iaido
 set RogueWarrior skill camouflage
 set RogueWarrior skill adept
@@ -3113,7 +3062,6 @@ set SnowBandit base magic +2
 set SnowBandit skill canto
 set SnowBandit skill pulverize
 set SnowBandit skill throw
-set SnowBandit skill supporter
 set SnowBandit skill camouflage
 set SnowBandit skill climber
 set SnowBandit skill charisma
@@ -3125,7 +3073,6 @@ set Duke base magic +2
 set Barbarian skill canto
 set Barbarian skill pulverize
 set Barbarian skill throw
-set Barbarian skill supporter
 set Barbarian skill camouflage
 set Barbarian skill climber
 set Barbarian skill charisma
@@ -3136,7 +3083,6 @@ set Duke skill canto
 set Duke skill shieldfaire
 set Duke skill throw
 set Duke skill armsthrift
-set Duke skill supporter
 set Duke skill commander
 set Duke skill camouflage
 set Duke skill charisma
@@ -3148,7 +3094,6 @@ set Scoundrel base defense +2
 set Scoundrel base magic +2
 set Scoundrel skill adept
 set Scoundrel skill canto
-set Scoundrel skill supporter
 set Scoundrel skill iaido
 set Scoundrel skill camouflage
 set Scoundrel skill climber
@@ -3161,7 +3106,6 @@ set RazeWarMonk2 base hp +2
 set RazeWarMonk2 base defense +2
 set RazeWarMonk2 base magic +2
 set RazeWarMonk2 skill focuschant
-set RazeWarMonk2 skill supporter
 set RazeWarMonk2 skill adept
 set RazeWarMonk2 skill canto
 set RazeWarMonk2 skill iaido
@@ -3180,7 +3124,6 @@ set FailedPoet skill throw
 set FailedPoet skill charisma
 set FailedPoet skill commander
 set FailedPoet skill armsthrift
-set FailedPoet skill supporter
 set FailedPoet skill adept
 set FailedPoet skill canto
 set FailedPoet skill camouflage
@@ -3191,7 +3134,6 @@ set RazeBishop2 base hp +2
 set RazeBishop2 base defense +2
 set RazeBishop2 base magic +2
 set RazeBishop2 skill focuschant
-set RazeBishop2 skill supporter
 set RazeBishop2 skill adept
 set RazeBishop2 skill canto
 set RazeBishop2 skill blessing
@@ -3207,7 +3149,6 @@ set King base hp +2
 set King base defense +2
 set King base magic +2
 set King skill shieldfaire
-set King skill supporter
 set King skill armsthrift
 set King skill canto
 set King skill commander
@@ -3229,7 +3170,6 @@ set Captain skill charisma
 set Captain skill pursuit
 
 set Huntress skill armsthrift
-set Huntress skill supporter
 set Huntress skill canto
 set Huntress skill adept
 set Huntress skill counter
@@ -3243,7 +3183,6 @@ set DragonKnight_R base hp +2
 set DragonKnight_R base defense +2
 set DragonKnight_R base magic +2
 set DragonKnight_R skill armsthrift
-set DragonKnight_R skill supporter
 set DragonKnight_R skill canto
 set DragonKnight_R skill shieldfaire
 set DragonKnight_R skill throw
@@ -3256,7 +3195,6 @@ set DragonKnight base hp +2
 set DragonKnight base defense +2
 set DragonKnight base magic +2
 set DragonKnight skill armsthrift
-set DragonKnight skill supporter
 set DragonKnight skill vantage
 set DragonKnight skill shieldfaire
 set DragonKnight skill throw
@@ -3269,7 +3207,6 @@ set WarMonk base hp +2
 set WarMonk base defense +2
 set WarMonk base magic +2
 set WarMonk skill armsthrift
-set WarMonk skill supporter
 set WarMonk skill counter
 set WarMonk skill canto
 set WarMonk skill camouflage
@@ -3282,7 +3219,6 @@ set WarMonk skill pursuit
 set Flamewyrm base hp +2
 set Flamewyrm base defense +2
 set Flamewyrm base magic +2
-set Flamewyrm skill supporter
 set Flamewyrm skill camouflage
 set Flamewyrm skill charisma
 set Flamewyrm skill focuschant
@@ -3294,7 +3230,6 @@ set BlackRider_R base magic +2
 set BlackRider_R skill armsthrift
 set BlackRider_R skill camouflage
 set BlackRider_R skill shieldfaire
-set BlackRider_R skill supporter
 set BlackRider_R skill throw
 set BlackRider_R skill charisma
 set BlackRider_R skill pursuit
@@ -3306,7 +3241,6 @@ set BlackRider base magic +2
 set BlackRider skill armsthrift
 set BlackRider skill camouflage
 set BlackRider skill shieldfaire
-set BlackRider skill supporter
 set BlackRider skill throw
 set BlackRider skill charisma
 set BlackRider skill pursuit
@@ -3319,7 +3253,6 @@ set GigasKnight skill armsthrift
 set GigasKnight skill camouflage
 set GigasKnight skill canto
 set GigasKnight skill pulverize
-set GigasKnight skill supporter
 set GigasKnight skill charisma
 set GigasKnight skill pursuit
 set GigasKnight skill adept
@@ -3327,7 +3260,6 @@ set GigasKnight skill adept
 set Transporter base hp +2
 set Transporter base defense +2
 set Transporter base magic +2
-set Transporter skill supporter
 set Transporter skill camouflage
 set Transporter skill charisma
 
@@ -3340,7 +3272,6 @@ set Chief skill camouflage
 set Chief skill canto
 set Chief skill iaido
 set Chief skill pulverize
-set Chief skill supporter
 set Chief skill throw
 set Chief skill vantage
 set Chief skill commander
@@ -3352,7 +3283,6 @@ set Icewyrm base defense +2
 set Icewyrm base magic +2
 set Icewyrm skill armsthrift
 set Icewyrm skill camouflage
-set Icewyrm skill supporter
 set Icewyrm skill charisma
 set Icewyrm skill focuschant
 set Icewyrm skill adept
@@ -3362,7 +3292,6 @@ set Levinwyrm base defense +2
 set Levinwyrm base magic +2
 set Levinwyrm skill armsthrift
 set Levinwyrm skill camouflage
-set Levinwyrm skill supporter
 set Levinwyrm skill charisma
 set Levinwyrm skill focuschant
 set Levinwyrm skill adept
@@ -3372,7 +3301,6 @@ set Wyvern base defense +2
 set Wyvern base magic +2
 set Wyvern skill armsthrift
 set Wyvern skill camouflage
-set Wyvern skill supporter
 set Wyvern skill charisma
 set Wyvern skill focuschant
 set Wyvern skill adept
@@ -3503,11 +3431,9 @@ set Horseman_R skill Tripleshot
 set Horseman_R skill counter
 
 set SpearKnight skill vantage
-set SpearKnight skill supporter
 set SpearKnight skill pursuit
 
 set SpearKnight_R skill vantage
-set SpearKnight_R skill supporter
 set SpearKnight_R skill pursuit
 
 set Ballistician skill aim
@@ -3656,7 +3582,6 @@ set Arrow++ stat might 8
 //GrowthCharm 101
 //Arrow++ 101 IronArrow with +20 prec
 
-//supporter on horseman removed
 
 set Cutlass effect restore-uses
 set Cutlass+ effect restore-uses
@@ -3727,3 +3652,4 @@ set Pacify effect restore-uses
 //Bug, Robbery and steal are linked, when robbery proc, it will decrease steal activation counter. So you can only robbery & steal 3 times by map.
 // maim to percy lynette enid sherlock christine maybe
 //Shieldaxe shouldn't be a stand-still skill
+//need to test remove bracket for ennemy so they can have 1000 hp without bugging then adding on attack
