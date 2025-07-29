@@ -141,6 +141,7 @@ set adel item 6 Pilum 6
 set adel item 7 Harpoon 101
 set adel base sshield +10
 set adel base spear +10
+set adel growth spear 40
 
 set leon item 0 IronSpear 101
 set leon item 1 LeatherSShd 101
@@ -170,7 +171,7 @@ set izerna item 4 Physic 15
 set izerna item 5 holy 20
 set izerna item 6 Bag 0
 set izerna item 7 Rehabilitate 10
-set izerna growth holy 90
+set izerna growth holy 80
 set izerna growth speed 20
 set izerna growth magic 25
 set izerna base holy +10
@@ -232,7 +233,8 @@ set FlameFencer base fire +30
 
 set marcel growth sword 70
 set marcel growth Lshield 90
-set marcel growth defense 30
+set marcel growth hp 40
+set marcel growth defense 20
 set Marcel item 2 Bag 0
 set Marcel item 3 Iuppiter 101
 set Marcel item 4 TsukuyomiShield 101
@@ -374,8 +376,6 @@ set faramir item 4 CompositeBow 101
 set faramir item 5 Bag 0
 set faramir item 6 Bag 0
 set faramir item 7 Bag 0
-//set faramir growth sword 100
-//set faramir growth bow 100
 set faramir base sword +10
 set faramir base bow +10
 
@@ -387,8 +387,6 @@ set volo item 5 BastardSword 101
 set volo item 6 PhoenixBrace 101
 set volo item 7 Bag 0
 set volo growth sword 90
-set volo growth strength 25
-set volo growth def 12
 set volo base sword +10
 
 set sherpa growth sword 90
@@ -420,7 +418,7 @@ set axel item 5 Tomahawk 101
 set axel item 6 PegasusBrace 101
 set axel item 7 Treasure 101
 set axel base axe +10
-set axel growth axe 50
+set axel growth axe 40
 
 set larentia item 2 LadySword 101
 set larentia item 3 Pilum 6
@@ -468,7 +466,8 @@ set burroughs base crossbow +20
 
 set derrick growth axe 80
 set derrick growth lshield 80
-set derrick growth defense 40
+set derrick growth hp 40
+set derrick growth defense 30
 set derrick growth strength 30
 set Derrick item 0 ImperialAxe 101
 set Derrick item 2 GigasAxe 101
@@ -548,6 +547,7 @@ set ward skill provoke
 set ward skill robust
 set ward skill pursuit
 set ward skill windsweep
+set ward skill maim
 	
 set elbert skill arrowbane
 set elbert skill canto
@@ -585,6 +585,7 @@ set christine skill deathmatch
 set christine skill counter
 set christine skill windsweep
 set christine skill maim
+set christine skill onetwo
 
 set adel skill canto
 set adel skill counter 
@@ -606,6 +607,7 @@ set adel skill sunder
 set adel skill battlecry
 set adel skill desperation
 set adel skill windsweep
+set adel skill maim
 
 set leon skill canto
 set leon skill deathmatch
@@ -626,6 +628,7 @@ set leon skill vantage
 set leon skill windsweep
 set leon skill sunder
 set leon skill battlecry
+set leon skill maim
 
 set sherlock skill pursuit
 set sherlock skill aim 
@@ -641,6 +644,7 @@ set sherlock skill overwatch
 set sherlock skill scotopic 
 set sherlock skill watchful 
 set sherlock skill tripleshot
+set sherlock skill doubleshot
 set sherlock skill counter
 set sherlock skill deathmatch
 set sherlock skill battlecry
@@ -699,7 +703,7 @@ set daoud skill prepared
 set daoud skill pulverize
 set daoud skill robust
 set daoud skill pursuit
-set daoud skill shieldfaire
+set daoud skill counter
 set daoud skill throw
 set daoud skill desperation
 set daoud skill windsweep
@@ -786,6 +790,7 @@ set alvina skill windsweep
 set alvina skill deathmatch
 set alvina skill vantage
 set alvina skill sunder
+set alvina skill maim
 
 set ruby skill adept 
 set ruby skill axebane
@@ -819,6 +824,8 @@ set arthur skill prepared
 set arthur skill pursuit
 set arthur skill throw
 set arthur skill windsweep
+set arthur skill maim
+set arthur skill celerity
 
 set kramer skill adept 
 set kramer skill arrowbane
@@ -887,6 +894,7 @@ set sylvis skill mercy
 set sylvis skill overwatch
 set sylvis skill prepared
 set sylvis skill tripleshot
+set sylvis skill doubleshot
 set sylvis skill vantage 
 set sylvis skill watchful 
 set sylvis skill pursuit
@@ -894,6 +902,7 @@ set sylvis skill guard
 set sylvis skill deathmatch
 set sylvis skill windsweep
 set sylvis skill sunder
+set sylvis skill fortune
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -941,12 +950,14 @@ set esteban skill prepared
 set esteban skill pursuit 
 set esteban skill scotopic 
 set esteban skill steal
-set esteban skill Tripleshot
+set esteban skill tripleshot
+set esteban skill doubleshot
 set esteban skill watchful
 set esteban skill guard
 set esteban skill deathmatch
 set esteban skill windsweep
 set esteban skill sunder
+set esteban skill maim
 	
 set faye skill adept
 set faye skill deathmatch
@@ -962,7 +973,9 @@ set faye skill sunder
 set faye skill pursuit 
 set faye skill climber 
 set faye skill guard 
-//set faye skill pulverize 
+set faye skill pulverize 
+set faye skill celerity
+set faye skill fortune
 set faye skill prepared
 set faye skill windsweep
 
@@ -981,7 +994,6 @@ set faramir skill parry
 set faramir skill prepared
 set faramir skill scotopic 
 set faramir skill pursuit 
-set faramir skill DoubleShot
 set faramir skill climber 
 set faramir skill guard 
 set faramir skill pulverize 
@@ -989,6 +1001,9 @@ set faramir skill fortune
 set faramir skill deathmatch
 set faramir skill sunder
 set faramir skill windsweep
+set faramir skill doubleshot
+set faramir skill tripleshot
+set faramir skill astra
 
 set volo skill adept
 set volo skill arrowbane 
@@ -1008,6 +1023,9 @@ set volo skill guard
 set volo skill sunder
 set volo skill windsweep
 set volo skill pulverize
+set volo skill fortune
+set volo skill celerity
+set volo skill astra
 
 set clifford skill canto
 set clifford skill counter
@@ -1100,7 +1118,7 @@ set derrick skill prepared
 set derrick skill pulverize
 set derrick skill throw
 set derrick skill pursuit
-set derrick skill vengeful
+set derrick skill counter
 set derrick skill battlecry
 set derrick skill desperation
 set derrick skill paragon
@@ -1161,6 +1179,8 @@ set paramythis skill deathmatch
 set paramythis skill sunder
 set paramythis skill windsweep
 set paramythis skill miracle
+set paramythis skill maim
+set paramythis skill celerity
 
 
 // prfs
@@ -1212,7 +1232,7 @@ set Holy stat uses 20
 set holy effect cripple-x2
 set Starlight effect cripple-x2
 
-set Starlight stat level 20
+set Starlight stat level 27
 set Rehabilitate stat level 15
 
 set AirBlade effect injure-rate 4
@@ -1326,7 +1346,7 @@ set WindEdge effect wind-damage 7
 set BronzeSword stat accuracy 50
 set ImperialSword stat accuracy 60
 set AltiumSword stat accuracy 60
-//set LevinSword stat accuracy 40
+set LevinSword stat accuracy 50
 set Albatross stat accuracy 50
 set Scimitar+ stat accuracy 50
 set FlameSword stat accuracy 50
@@ -1339,10 +1359,10 @@ set Harperia stat accuracy 60
 Set ImperialSword stat cost 1000
 set AltiumSword stat cost 2400
 //set LevinSword stat cost 3000
-//set FlameSword stat cost 3000
+set FlameSword stat cost 4000
 //set HolySword stat cost 4000
 //set WindEdge stat cost 1200
-//set InfernalEdge stat cost 3000
+set InfernalEdge stat cost 6000
 set RazeEtoile stat cost 6000
 set Harperia stat cost 5000
 set Colichemarde stat cost 7000
@@ -1407,7 +1427,7 @@ set PoisonMace stat weight 4
 
 set IronClub stat Accuracy 60
 set HolyMace stat Accuracy 60
-set DarkMace stat Accuracy 50
+set DarkMace stat Accuracy 60
 set PoisonMace stat Accuracy 60
 
 set HolyMace stat might 1
@@ -2199,6 +2219,7 @@ set Hunter cap Knife 50
 
 set FlameFencer cap Sword 50
 set FlameFencer cap Thunder 50
+set FlameFencer cap Fire 60
 
 set LanceKnight2 cap spear 60
 set LanceKnight2 cap sshield 50
@@ -2213,8 +2234,8 @@ set ArmorKnight cap Axe 50
 
 //set pirate cap Axe 60
 
-set WyvernKnight cap Spear 50
-set WyvernKnight_R cap Spear 50
+set WyvernKnight cap Spear 60
+set WyvernKnight_R cap Spear 60
 
 set Horseman cap Bow 60
 set Horseman_R cap Bow 60
@@ -2647,6 +2668,7 @@ set AxeGuard skill camouflage
 set AxeGuard skill charisma
 set AxeGuard skill adept
 set AxeGuard skill pursuit
+set AxeGuard skill counter
 
 set Bowman base hp +2
 set Bowman base defense +2
@@ -2849,7 +2871,6 @@ set Corsair skill camouflage
 set Corsair skill pulverize
 set Corsair skill pursuit
 set Corsair skill adept
-set Corsair skill commander
 set Corsair skill charisma
 
 
@@ -3336,6 +3357,7 @@ set AxeSergeant skill canto
 set AxeSergeant skill pulverize
 set AxeSergeant skill vengeful
 set AxeSergeant skill pursuit
+set AxeSergeant skill counter
 
 //Will fuck Czene Stat on rankup
 set Grassrunner_R skill adept
@@ -3393,7 +3415,9 @@ set Swordfighter_M skill deathmatch
 set Swordfighter_M skill iaido
 set Swordfighter_M skill counter
 set Swordfighter_M skill pursuit
-set Swordfighter_M skill sunder
+set Swordfighter_M skill pulverize
+set Swordfighter_M skill celerity
+set Swordfighter_M skill fortune
 
 set Swordmaster skill adept
 set Swordmaster skill arrowbane
@@ -3402,10 +3426,10 @@ set Swordmaster skill iaido
 set Swordmaster skill parry
 set Swordmaster skill astra
 set Swordmaster skill pursuit
-set Swordmaster skill sunder
 set Swordmaster skill pulverize
 set Swordmaster skill fortune
 set Swordmaster skill celerity
+set Swordmaster skill maim
 
 set SwordKnight_R skill counter
 set SwordKnight_R skill armsthrift
@@ -3457,7 +3481,7 @@ set AxeSoldier skill armsthrift
 set AxeSoldier skill pulverize
 set AxeSoldier skill throw
 set AxeSoldier skill pursuit
-set AxeSoldier skill shieldfaire
+set AxeSoldier skill counter
 
 //Derrick Stat
 set ArmorKnight skill throw
@@ -3465,6 +3489,7 @@ set ArmorKnight skill armsthrift
 set ArmorKnight skill canto
 set ArmorKnight skill pulverize
 set ArmorKnight skill pursuit
+set ArmorKnight skill counter
 
 //Esteban stat
 set Hunter skill aim
@@ -3509,7 +3534,6 @@ set LadyKnight_R skill aim
 set LadyKnight_R skill armsthrift
 set LadyKnight_R skill canto
 set LadyKnight_R skill prepared
-set LadyKnight_R skill doubleshot
 set LadyKnight_R skill pursuit
 set LadyKnight_R skill vantage
 set LadyKnight_R skill counter
@@ -3518,7 +3542,6 @@ set LadyKnight skill aim
 set LadyKnight skill armsthrift
 set LadyKnight skill canto
 set LadyKnight skill prepared
-set LadyKnight skill doubleshot
 set LadyKnight skill pursuit
 set LadyKnight skill vantage
 set LadyKnight skill counter
@@ -3527,7 +3550,6 @@ set ArrowKnight_R skill aim
 set ArrowKnight_R skill armsthrift
 set ArrowKnight_R skill canto
 set ArrowKnight_R skill prepared
-set ArrowKnight_R skill doubleshot
 set ArrowKnight_R skill pursuit
 set ArrowKnight_R skill vantage
 set ArrowKnight_R skill counter
@@ -3536,7 +3558,6 @@ set ArrowKnight skill aim
 set ArrowKnight skill armsthrift
 set ArrowKnight skill canto
 set ArrowKnight skill prepared
-set ArrowKnight skill doubleshot
 set ArrowKnight skill pursuit
 set ArrowKnight skill vantage
 set ArrowKnight skill counter
