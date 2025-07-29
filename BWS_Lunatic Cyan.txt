@@ -577,7 +577,6 @@ set christine skill hurry
 set christine skill mercy
 set christine skill overwatch 
 set christine skill prepared
-set christine skill doubleshot
 set christine skill watchful 
 set christine skill pursuit
 set christine skill guard
@@ -641,9 +640,8 @@ set sherlock skill onetwo
 set sherlock skill overwatch
 set sherlock skill scotopic 
 set sherlock skill watchful 
-set sherlock skill Tripleshot
+set sherlock skill tripleshot
 set sherlock skill counter
-set sherlock skill DoubleShot
 set sherlock skill deathmatch
 set sherlock skill battlecry
 set sherlock skill prepared
@@ -888,13 +886,12 @@ set sylvis skill maim
 set sylvis skill mercy
 set sylvis skill overwatch
 set sylvis skill prepared
-set sylvis skill doubleshot
+set sylvis skill tripleshot
 set sylvis skill vantage 
 set sylvis skill watchful 
 set sylvis skill pursuit
 set sylvis skill guard
 set sylvis skill deathmatch
-set sylvis skill counter
 set sylvis skill windsweep
 set sylvis skill sunder
 
@@ -944,7 +941,6 @@ set esteban skill pursuit
 set esteban skill scotopic 
 set esteban skill steal
 set esteban skill Tripleshot
-set esteban skill DoubleShot
 set esteban skill watchful
 set esteban skill guard
 set esteban skill deathmatch
@@ -968,8 +964,6 @@ set faye skill guard
 //set faye skill pulverize 
 set faye skill prepared
 set faye skill windsweep
-set faye skill fortune
-set faye skill celerity
 
 set faramir skill aim
 set faramir skill canto
@@ -3482,6 +3476,8 @@ set Swordmaster skill astra
 set Swordmaster skill pursuit
 set Swordmaster skill sunder
 set Swordmaster skill pulverize
+set Swordmaster skill fortune
+set Swordmaster skill celerity
 
 set SwordKnight_R skill counter
 set SwordKnight_R skill armsthrift
@@ -3730,3 +3726,4 @@ set Pacify effect restore-uses
 //Brymranger to check
 //Bug, Robbery and steal are linked, when robbery proc, it will decrease steal activation counter. So you can only robbery & steal 3 times by map.
 // maim to percy lynette enid sherlock christine maybe
+//Shieldaxe shouldn't be a stand-still skill
