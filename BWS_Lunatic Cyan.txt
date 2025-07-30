@@ -2160,9 +2160,9 @@ set FeatherBrace stat speed 2
 set MuscleBrace stat strength 2
 set GuardBrace stat defense 2
 set SpiritBrace stat magic 2
-set EagleBrace stat hit 10
+//set EagleBrace stat hit 5
 
-set TigerBrace stat hit 15
+//set TigerBrace stat hit 10
 set GiantsBrace stat strength 3
 set PhoenixBrace stat defense 3
 set PegasusBrace stat speed 3
