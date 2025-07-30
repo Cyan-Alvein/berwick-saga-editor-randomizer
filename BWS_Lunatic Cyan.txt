@@ -703,7 +703,7 @@ set daoud skill prepared
 set daoud skill pulverize
 set daoud skill robust
 set daoud skill pursuit
-set daoud skill counter
+set daoud skill shieldfaire
 set daoud skill throw
 set daoud skill desperation
 set daoud skill windsweep
@@ -3357,7 +3357,7 @@ set AxeSergeant skill canto
 set AxeSergeant skill pulverize
 set AxeSergeant skill vengeful
 set AxeSergeant skill pursuit
-set AxeSergeant skill counter
+set AxeSergeant skill shieldfaire
 
 //Will fuck Czene Stat on rankup
 set Grassrunner_R skill adept
@@ -3481,7 +3481,7 @@ set AxeSoldier skill armsthrift
 set AxeSoldier skill pulverize
 set AxeSoldier skill throw
 set AxeSoldier skill pursuit
-set AxeSoldier skill counter
+set AxeSoldier skill shieldfaire
 
 //Derrick Stat
 set ArmorKnight skill throw
@@ -3674,3 +3674,5 @@ set Pacify effect restore-uses
 // maim to percy lynette enid sherlock christine maybe
 //Shieldaxe shouldn't be a stand-still skill
 //need to test remove bracket for ennemy so they can have 1000 hp without bugging then adding on attack
+//Vengeful should proc during deathmatch
+//Daoud got shieldfaire instead of counter. Shieldfaire is better I think.
