@@ -1348,7 +1348,7 @@ set WindEdge stat might 4
 
 set KillingEdge stat might 9
 //set Broadsword stat might 11
-set AltiumSwordl stat might 11
+set AltiumSwordl stat might 13
 
 set WindEdge effect wind-damage 7
 //set LevinSword effect thunder-damage 9
@@ -1358,7 +1358,7 @@ set WindEdge effect wind-damage 7
 
 set BronzeSword stat accuracy 50
 set ImperialSword stat accuracy 60
-set AltiumSword stat accuracy 60
+set AltiumSword stat accuracy 50
 set LevinSword stat accuracy 50
 set Albatross stat accuracy 50
 set Scimitar+ stat accuracy 50
@@ -1370,7 +1370,7 @@ set ImperialSword stat accuracy 60
 set Harperia stat accuracy 60
 
 Set ImperialSword stat cost 1000
-set AltiumSword stat cost 2400
+set AltiumSword stat cost 3000
 //set LevinSword stat cost 3000
 set FlameSword stat cost 4000
 //set HolySword stat cost 4000
@@ -1398,7 +1398,7 @@ set Broadsword stat weight 6
 set Scimitar+ stat weight 7
 set KillingEdge stat weight 5
 set Saber stat weight 3
-set AltiumSword stat Weight 6
+set AltiumSword stat Weight 7
 set LevinSword stat weight 6
 set Rapier stat Weight 3
 set Albatross stat weight 6
