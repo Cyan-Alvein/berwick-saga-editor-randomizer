@@ -566,7 +566,6 @@ set elbert skill windsweep
 set elbert skill throw
 set elbert skill desperation
 set elbert skill battlecry
-set elbert skill counter
 
 set christine skill aim
 set christine skill armsthrift
@@ -650,7 +649,6 @@ set sherlock skill scotopic
 set sherlock skill watchful 
 set sherlock skill tripleshot
 set sherlock skill doubleshot
-set sherlock skill parry
 set sherlock skill deathmatch
 set sherlock skill battlecry
 set sherlock skill prepared
