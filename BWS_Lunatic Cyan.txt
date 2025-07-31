@@ -586,6 +586,7 @@ set christine skill counter
 set christine skill windsweep
 set christine skill maim
 set christine skill onetwo
+set christine skill huntsman
 
 set adel skill canto
 set adel skill counter 
@@ -631,6 +632,7 @@ set leon skill battlecry
 set leon skill maim
 
 set sherlock skill pursuit
+set sherlock skill adept
 set sherlock skill aim 
 set sherlock skill canto
 set sherlock skill deadeye 
@@ -652,6 +654,7 @@ set sherlock skill prepared
 set sherlock skill windsweep
 set sherlock skill sunder
 set sherlock skill maim
+set sherlock skill huntsman
 
 set izerna skill blessing
 set izerna skill canto
@@ -903,6 +906,8 @@ set sylvis skill deathmatch
 set sylvis skill windsweep
 set sylvis skill sunder
 set sylvis skill fortune
+set sylvis skill scotopic
+set sylvis skill huntsman
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -958,6 +963,7 @@ set esteban skill deathmatch
 set esteban skill windsweep
 set esteban skill sunder
 set esteban skill maim
+set esteban skill celerity
 	
 set faye skill adept
 set faye skill deathmatch
@@ -1079,6 +1085,7 @@ set larentia skill watchful
 set larentia skill windsweep 
 set larentia skill deathmatch
 set larentia skill sunder
+set larentia skill scotopic
 
 set owen skill adept
 set owen skill blessing
@@ -1498,6 +1505,9 @@ set Verutum stat might 12
 //set Pike stat level 1
 //set Doru stat level 1
 
+set Partisan stat level 15
+set SwiftSpear stat level 15
+
 set SlimSpear stat Weight 5
 set IronSpear stat Weight 6
 set Pilum stat Weight 7
@@ -1709,7 +1719,7 @@ set Broadaxe stat level 5
 set GigasAxe stat level 20
 set Hammer stat level 15
 set Tomahawk stat level 1
-set MaozaWolf stat level 20
+set MaozaWolf stat level 15
 set VolcanoAxe stat level 1
 set GlacierAxe stat level 1
 set NimbusAxe stat level 1
@@ -1717,6 +1727,9 @@ set DarkAxe stat level 1
 set BoltAxe stat level 1
 set Mjollnir stat level 1
 //set Hatchet stat level 1
+set Greataxe stat level 15
+set Greataxe stat level 15
+set Shieldaxe stat level 15
 
 set BanditAxe stat durability D
 set VolcanoAxe stat durability D
@@ -1753,6 +1766,7 @@ set FreezeArrow effect wind-damage 7
 set RaijinArrow effect thunder-damage 10
 
 set Apeiron stat level 1
+set Greatbow stat level 15
 
 set BronzeBow stat Weight 4
 set IronBow stat Weight 5
@@ -1811,6 +1825,8 @@ set VerianBow stat might 3
 
 //set Gastraphetes stat level 1
 set Gastraphetes effect cripple-x2
+
+set Arbalest stat level 15
 
 set Bowgun stat weight 7
 set IronCrossbow stat weight 9
@@ -1977,6 +1993,7 @@ set ThunderShield stat level 1
 set LightShield stat level 1
 set DarkShield stat level 1
 set Windshield stat level 1
+set ShiningShield stat level 10
 
 set Windshield stat accuracy 50
 set FireShield stat accuracy 50
@@ -2061,6 +2078,9 @@ set ShadowShield stat level 1
 set BlazingShield stat level 1
 set GaleShield stat level 1
 set Kiteshield stat level 2
+set Hestia stat level 5
+set BlackShield stat level 15
+set PaladinShield stat level 15
 
 set LightningShield stat Weight 4
 set RadiantShield stat Weight 4
