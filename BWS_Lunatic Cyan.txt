@@ -587,6 +587,7 @@ set christine skill windsweep
 set christine skill maim
 set christine skill onetwo
 set christine skill huntsman
+set christine skill adept
 
 set adel skill canto
 set adel skill counter 
@@ -908,6 +909,7 @@ set sylvis skill sunder
 set sylvis skill fortune
 set sylvis skill scotopic
 set sylvis skill huntsman
+set sylvis skill adept
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -964,6 +966,8 @@ set esteban skill windsweep
 set esteban skill sunder
 set esteban skill maim
 set esteban skill celerity
+set esteban skill onetwo
+set esteban skill battlecry
 	
 set faye skill adept
 set faye skill deathmatch
@@ -984,6 +988,7 @@ set faye skill celerity
 set faye skill fortune
 set faye skill prepared
 set faye skill windsweep
+set faye skill counter
 
 set faramir skill aim
 set faramir skill canto
@@ -1010,6 +1015,7 @@ set faramir skill windsweep
 set faramir skill doubleshot
 set faramir skill tripleshot
 set faramir skill astra
+set faramir skill adept
 
 set volo skill adept
 set volo skill arrowbane 
