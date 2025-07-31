@@ -532,6 +532,7 @@ set reese skill windsweep
 set reese skill deathmatch
 set reese skill battlecry
 set reese skill sunder
+set reese skill counter
 
 set ward skill arrowbane
 set ward skill canto
@@ -565,6 +566,7 @@ set elbert skill windsweep
 set elbert skill throw
 set elbert skill desperation
 set elbert skill battlecry
+set elbert skill counter
 
 set christine skill aim
 set christine skill armsthrift
@@ -648,7 +650,7 @@ set sherlock skill scotopic
 set sherlock skill watchful 
 set sherlock skill tripleshot
 set sherlock skill doubleshot
-set sherlock skill counter
+set sherlock skill parry
 set sherlock skill deathmatch
 set sherlock skill battlecry
 set sherlock skill prepared
@@ -656,6 +658,7 @@ set sherlock skill windsweep
 set sherlock skill sunder
 set sherlock skill maim
 set sherlock skill huntsman
+set sherlock skill counter
 
 set izerna skill blessing
 set izerna skill canto
@@ -711,6 +714,7 @@ set daoud skill shieldfaire
 set daoud skill throw
 set daoud skill desperation
 set daoud skill windsweep
+set daoud skill counter
 
 set enid skill canto
 set enid skill charisma
@@ -910,6 +914,7 @@ set sylvis skill fortune
 set sylvis skill scotopic
 set sylvis skill huntsman
 set sylvis skill adept
+set sylvis skill parry
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -968,6 +973,7 @@ set esteban skill maim
 set esteban skill celerity
 set esteban skill onetwo
 set esteban skill battlecry
+set esteban skill parry
 	
 set faye skill adept
 set faye skill deathmatch
@@ -1173,6 +1179,7 @@ set lynette skill guard
 set lynette skill deathmatch
 set lynette skill windsweep
 set lynette skill sunder
+set lynette skill vantage
 
 set paramythis skill blessing
 set paramythis skill camouflage
@@ -1194,6 +1201,8 @@ set paramythis skill windsweep
 set paramythis skill miracle
 set paramythis skill maim
 set paramythis skill celerity
+set paramythis skill counter
+set paramythis skill parry
 
 
 // prfs
@@ -1353,13 +1362,13 @@ set AltiumSwordl stat might 13
 set WindEdge effect wind-damage 7
 //set LevinSword effect thunder-damage 9
 //set HolySword effect holy-damage 7
-//set FlameSword effect fire-damage 11
-//set InfernalEdge effect fire-damage 14
+//set FlameSword effect fire-damage 7
+//set InfernalEdge effect fire-damage 10
 
 set BronzeSword stat accuracy 50
 set ImperialSword stat accuracy 60
 set AltiumSword stat accuracy 50
-set LevinSword stat accuracy 50
+set LevinSword stat accuracy 40
 set Albatross stat accuracy 50
 set Scimitar+ stat accuracy 50
 set FlameSword stat accuracy 50
@@ -1399,7 +1408,7 @@ set Scimitar+ stat weight 7
 set KillingEdge stat weight 5
 set Saber stat weight 3
 set AltiumSword stat Weight 7
-set LevinSword stat weight 6
+set LevinSword stat weight 5
 set Rapier stat Weight 3
 set Albatross stat weight 6
 set HolySword stat weight 6
@@ -1408,7 +1417,7 @@ set KnightSword stat weight 6
 set Estoc stat weight 2
 set Grimhild stat weight 7
 set Harperia stat weight 3
-set FlameSword stat Weight 5
+set FlameSword stat Weight 6
 set InfernalEdge stat weight 5
 set Colichemarde stat weight 4
 set Cutlass stat Weight 3
@@ -3383,7 +3392,7 @@ set AxeSergeant skill canto
 set AxeSergeant skill pulverize
 set AxeSergeant skill vengeful
 set AxeSergeant skill pursuit
-set AxeSergeant skill shieldfaire
+set AxeSergeant skill counter
 
 //Will fuck Czene Stat on rankup
 set Grassrunner_R skill adept
@@ -3507,7 +3516,7 @@ set AxeSoldier skill armsthrift
 set AxeSoldier skill pulverize
 set AxeSoldier skill throw
 set AxeSoldier skill pursuit
-set AxeSoldier skill shieldfaire
+set AxeSoldier skill counter
 
 //Derrick Stat
 set ArmorKnight skill throw
