@@ -12,9 +12,9 @@
 
 /////////////////////////////////////////////README - Most Important Changes//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// pitchfork & MilitaryFork got cripple-rate +8. 
+// pitchfork & MilitaryFork got cripple-x2
 
-// Pike & Gastraphetes, BastardSword all lance weapons got cripple-x2
+// Pike, Longspear, Altium, Gastraphetes, BastardSword & all lance weapons got cripple-x2
 
 // All weapon and shield got their weight adjusted. Christine & Sylvis can use their Vantage skill with Crossbow
 
@@ -26,11 +26,11 @@
 
 // NB: Sherpa & Kramer can use Pulverize when they have a Blade Equiped. Now you understand why the Blade skill is OP, since Pulverize is the best offensive skill in the game.
 
-// All ennemy got huge amount of skill too + Supporter to increase their hit rate and crit (The game refuse to increase their hit rate with base sword +10 and stuff (Yeah even deathmatch, Good luck vs a Chaos with Deathmatch, Critical, Adept, Pursuit, Parry aka all Volo skill without Astra - May the best win)
+// All ennemy got huge amount of skill too (The game refuse to increase their hit rate with base sword +10 and stuff (Yeah even deathmatch, Good luck vs a Chaos with Deathmatch, Critical, Adept, Pursuit, Parry aka all Volo skill without Astra - May the best win)
 
 // The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
 
-// All player characters got +20 base weapon skill, so don't waste your time trying to farm Weapon EEXP, just play and enjoy the game.
+// All player characters got +10 base weapon skill & some got increased weapon growth rate (adel, aegina, daoud ...), so don't waste your time trying to farm Weapon EEXP, just play and enjoy the game.
 
 // All unpromoted player class weapon cap are set as promoted class weapon cap. So Sherlock can reach bow rank 60 without getting promoted
 
@@ -50,8 +50,6 @@
 // All priest class got resistor skill, yes even Izerna & ennemy priest
 
 // The function "learned" bug too much, instead of learning overwatch, someone can learn the skill "silence" instead. So I never used "learned" 
-
-// All Lshield gain + 10 accuracy, so WideShield = 60 accuracy. Then Derrick with his 40 shiel skill cap will have 100 block rate with it.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -588,6 +586,7 @@ set christine skill counter
 set christine skill windsweep
 set christine skill maim
 set christine skill huntsman
+set christine skill hide
 
 set adel skill canto
 set adel skill counter 
@@ -609,7 +608,6 @@ set adel skill sunder
 set adel skill battlecry
 set adel skill desperation
 set adel skill windsweep
-set adel skill maim
 
 set leon skill canto
 set leon skill deathmatch
@@ -657,6 +655,7 @@ set sherlock skill huntsman
 set sherlock skill parry
 set sherlock skill counter
 set sherlock skill celerity
+set sherlock skill hide
 
 set izerna skill blessing
 set izerna skill canto
@@ -798,7 +797,6 @@ set alvina skill windsweep
 set alvina skill deathmatch
 set alvina skill vantage
 set alvina skill sunder
-set alvina skill maim
 
 set ruby skill adept 
 set ruby skill axebane
@@ -832,7 +830,6 @@ set arthur skill prepared
 set arthur skill pursuit
 set arthur skill throw
 set arthur skill windsweep
-set arthur skill maim
 set arthur skill celerity
 
 set kramer skill adept 
@@ -994,6 +991,7 @@ set faye skill prepared
 set faye skill windsweep
 set faye skill counter
 set faye skill robust
+set faye skill maim
 
 set faramir skill aim
 set faramir skill canto
@@ -1018,6 +1016,7 @@ set faramir skill sunder
 set faramir skill windsweep
 set faramir skill adept
 set faramir skill vantage
+set faramir skill maim
 
 set volo skill adept
 set volo skill arrowbane 
@@ -1040,6 +1039,7 @@ set volo skill pulverize
 set volo skill fortune
 set volo skill celerity
 set volo skill robust
+set volo skill maim
 
 set clifford skill canto
 set clifford skill counter
@@ -1056,6 +1056,7 @@ set clifford skill shieldfaire
 set clifford skill pursuit
 set clifford skill desperation
 set clifford skill windsweep
+set clifford skill maim
 
 set axel skill axeguard 
 set axel skill canto
@@ -1095,6 +1096,7 @@ set larentia skill windsweep
 set larentia skill deathmatch
 set larentia skill sunder
 set larentia skill scotopic
+set larentia skill maim
 
 set owen skill adept
 set owen skill blessing
@@ -1141,6 +1143,7 @@ set derrick skill paragon
 set derrick skill windsweep
 set derrick skill robust
 set derrick skill shieldfaire
+set derrick skill maim
 
 set saphira skill blessing
 set saphira skill canto
@@ -1356,7 +1359,9 @@ set WindEdge stat might 4
 
 set KillingEdge stat might 9
 //set Broadsword stat might 11
-set AltiumSwordl stat might 13
+set AltiumSword stat might 13
+
+set AltiumSword effect cripple-x2
 
 set WindEdge effect wind-damage 7
 //set LevinSword effect thunder-damage 9
@@ -1548,6 +1553,7 @@ set OldImperialSpear stat Weight 7
 set ImperialSpear stat Weight 5
 
 Set Harpoon effect injure-rate 12
+Set Longspear effect cripple-x2
 
 set SlimSpear stat cost 700
 set ImperialSpear stat cost 1200
@@ -1934,8 +1940,8 @@ set Vollenden stat might 6
 set ShiningShield stat might 5
 Set VerianSShd Stat might 2
 set OldImpSShd stat might 2
-set ImpSoldierSShd stat might 2
-set ImpSoldierSShd+ stat might 2
+set ImpSoldierSShd stat might 3
+set ImpSoldierSShd+ stat might 3
 set ImpOfficerSShd stat might 4
 set ImpKnightSShd stat might 5
 set Perseid stat might 5
@@ -1959,8 +1965,8 @@ set Vollenden stat weight 4
 set ShiningShield stat Weight 2
 Set VerianSShd Stat Weight 1
 set OldImpSShd stat Weight 2
-set ImpSoldierSShd stat Weight 1
-set ImpSoldierSShd+ stat Weight 1
+set ImpSoldierSShd stat Weight 2
+set ImpSoldierSShd+ stat Weight 2
 set ImpOfficerSShd stat weight 2
 set ImpKnightSShd stat weight 3
 
@@ -2000,6 +2006,7 @@ set LadyShield stat durability B
 set ImpSoldierSShd+ stat durability D
 
 set ImpKnightSShd stat cost 1000
+
 set Buckler stat cost 800
 
 set FireShield stat level 1
