@@ -226,8 +226,12 @@ set Enid item 4 DireThunder 20
 set Enid item 5 Bag 0
 set Enid item 6 Bag 0
 set Enid item 7 Rapier 101
+set Enid growth fire 100
+set Enid growth thunder 90
 set FlameFencer base thunder +20
 set FlameFencer base fire +30
+set FlameFencer growth fire 100
+set FlameFencer growth thunder 90
 
 set marcel growth sword 70
 set marcel growth Lshield 90
@@ -2731,20 +2735,7 @@ set Bowman skill Doubleshot
 set Bowman skill charisma
 set Bowman skill adept
 set Bowman skill counter
-
-set Bowman base hp +2
-set Bowman base defense +2
-set Bowman base magic +2
-set Bowman skill canto
-set Bowman skill armsthrift
-set Bowman skill aim
-set Bowman skill camouflage
-set Bowman skill pursuit
-set Bowman skill adept
-set Bowman skill DoubleShot
-set Bowman skill charisma
-set Bowman skill counter
-
+	
 set BowRider base hp +2
 set BowRider base defense +2
 set BowRider base magic +2
