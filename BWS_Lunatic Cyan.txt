@@ -608,6 +608,7 @@ set adel skill sunder
 set adel skill battlecry
 set adel skill desperation
 set adel skill windsweep
+set adel skill adept
 
 set leon skill canto
 set leon skill deathmatch
@@ -629,6 +630,7 @@ set leon skill windsweep
 set leon skill sunder
 set leon skill battlecry
 set leon skill maim
+set leon skill adept
 
 set sherlock skill pursuit
 set sherlock skill aim 
@@ -656,6 +658,7 @@ set sherlock skill parry
 set sherlock skill counter
 set sherlock skill celerity
 set sherlock skill hide
+set sherlock skill fortune
 
 set izerna skill blessing
 set izerna skill canto
@@ -695,6 +698,7 @@ set czene skill guard
 set czene skill evasion
 set czene skill windsweep
 set czene skill sunder
+set czene skill fortune
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -868,6 +872,7 @@ set sherpa skill battlecry
 set sherpa skill desperation
 set sherpa skill knockaway
 set sherpa skill parry
+set sherpa skill fortune
 
 set dean skill adept
 set dean skill axeguard
@@ -890,6 +895,7 @@ set dean skill windsweep
 set dean skill robust
 set dean skill knockaway
 set dean skill maim
+set dean skill parry
 
 set sylvis skill aim
 set sylvis skill canto
@@ -1076,6 +1082,7 @@ set axel skill provoke
 set axel skill climber
 set axel skill throw
 set axel skill vengeful
+set axel skill counter
 set axel skill battlecry
 set axel skill desperation
 set axel skill windsweep
@@ -1097,6 +1104,7 @@ set larentia skill deathmatch
 set larentia skill sunder
 set larentia skill scotopic
 set larentia skill maim
+set larentia skill shieldfaire
 
 set owen skill adept
 set owen skill blessing
