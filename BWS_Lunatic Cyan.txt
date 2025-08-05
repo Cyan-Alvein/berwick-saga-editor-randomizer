@@ -526,7 +526,7 @@ set reese skill horselover
 set reese skill horseswap 
 set reese skill hurry
 set reese skill mercy
-//set reese skill paragon
+set reese skill paragon
 set reese skill robust
 set reese skill pursuit
 set reese skill Prepared
@@ -534,7 +534,7 @@ set reese skill windsweep
 set reese skill deathmatch
 set reese skill battlecry
 set reese skill sunder
-set reese skill counter
+set reese skill shieldfaire
 
 set ward skill arrowbane
 set ward skill canto
@@ -999,6 +999,7 @@ set esteban skill windsweep
 set esteban skill sunder
 set esteban skill maim
 set esteban skill vantage
+set esteban skill robbery
 	
 set faye skill adept
 set faye skill deathmatch
@@ -1217,7 +1218,6 @@ set lynette skill guard
 set lynette skill deathmatch
 set lynette skill windsweep
 set lynette skill sunder
-set lynette skill windsweep
 set lynette skill vantage
 set lynette skill adept
 
@@ -1607,7 +1607,7 @@ set Harpoon stat durability D
 
 //set WindSpear effect wind-damage 8
 //set Euthyphro effect wind-damage 7
-set Partisan effect cripple-rate 8
+set Partisan effect cripple-x2
 
 set Doru stat level 1
 set Pike stat level 1
@@ -1627,7 +1627,7 @@ set Pike effect cripple-x2
 set MilitaryFork effect cripple-x2
 set Pitchfork effect cripple-x2
 //set GoreFork effect cripple-rate 8
-set Firebrand effect cripple-rate 4
+set Firebrand effect cripple-x2
 set Firebrand effect fire-damage 7
 
 set MilitaryFork stat accuracy 60
@@ -1951,6 +1951,12 @@ set IronBallista stat weight 20
 set PrototypeSpringald stat weight 20
 set PrototypeScorpio stat weight 15
 set Scorpio stat weight 15
+
+set BronzeBallista effect cripple-rate 8
+set IronBallista effect cripple-rate 8
+set PrototypeSpringald effect cripple-rate 8
+set PrototypeScorpio effect cripple-rate 8
+set Scorpio effect cripple-rate 8
 
 set Scorpio stat Durability B
 
@@ -3830,3 +3836,5 @@ set Pacify effect restore-uses
 //need to test remove bracket for ennemy so they can have 1000 hp without bugging then adding on attack
 //Vengeful should proc during deathmatch
 //Daoud got shieldfaire instead of counter. Shieldfaire is better I think.
+// Reese & Ruby shield skill increase to 30 on promotion failed. No idea how to fix it.
+//sshield accuracy 30 average
