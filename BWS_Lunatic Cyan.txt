@@ -989,7 +989,7 @@ set faye skill celerity
 set faye skill fortune
 set faye skill prepared
 set faye skill windsweep
-set faye skill counter
+set faye skill pursuit
 set faye skill robust
 set faye skill maim
 
@@ -1013,16 +1013,15 @@ set faramir skill fortune
 set faramir skill deathmatch
 set faramir skill sunder
 set faramir skill windsweep
-set faramir skill astra
+set faramir skill pursuit
 set faramir skill vantage
-set faramir skill doubleshot
 set faramir skill maim
 
 set volo skill adept
 set volo skill arrowbane 
 set volo skill blade
 set volo skill canto
-set volo skill counter
+set volo skill pursuit
 set volo skill deathmatch
 set volo skill flourish
 set volo skill hurry
@@ -3397,7 +3396,7 @@ set Swordfighter_M skill canto
 set Swordfighter_M skill arrowbane
 set Swordfighter_M skill deathmatch
 set Swordfighter_M skill iaido
-set Swordfighter_M skill counter
+set Swordfighter_M skill pursuit
 set Swordfighter_M skill pulverize
 set Swordfighter_M skill celerity
 set Swordfighter_M skill fortune
@@ -3413,7 +3412,7 @@ set Swordmaster skill pulverize
 set Swordmaster skill fortune
 set Swordmaster skill celerity
 set Swordmaster skill maim
-set Swordmaster skill counter
+set Swordmaster skill pursuit
 
 set SwordKnight_R skill counter
 set SwordKnight_R skill armsthrift
