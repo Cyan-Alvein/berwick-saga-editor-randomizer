@@ -628,6 +628,7 @@ set leon skill windsweep
 set leon skill sunder
 set leon skill maim
 set leon skill adept
+set leon skill pursuit
 
 set sherlock skill aim 
 set sherlock skill canto
@@ -888,7 +889,7 @@ set dean skill prepared
 set dean skill pulverize
 set dean skill vengeful
 set dean skill throw
-set dean skill counter
+set dean skill pursuit
 set dean skill battlecry
 set dean skill windsweep
 set dean skill robust
@@ -1094,7 +1095,7 @@ set larentia skill deathmatch
 set larentia skill sunder
 set larentia skill scotopic
 set larentia skill maim
-set larentia skill shieldfaire
+set larentia skill pursuit
 
 set owen skill adept
 set owen skill blessing
@@ -2617,11 +2618,13 @@ set WyvernKnight_R skill canto
 set WyvernKnight_R skill throw
 set WyvernKnight_R skill adept
 set WyvernKnight_R skill vantage
+set WyvernKnight_R skill pursuit
 
 set WyvernKnight skill canto
 set WyvernKnight skill throw
 set WyvernKnight skill adept
 set WyvernKnight skill vantage
+set WyvernKnight skill pursuit
 
 set WyvernLord_R base hp +2
 set WyvernLord_R base defense +2
@@ -3386,7 +3389,7 @@ set Axefighter skill climber
 set Axefighter skill pulverize
 set Axefighter skill vengeful
 set Axefighter skill throw
-set Axefighter skill counter
+set Axefighter skill pursuit
 set Axefighter skill knockaway
 set Axefighter skill parry
 set Axefighter skill fortune
