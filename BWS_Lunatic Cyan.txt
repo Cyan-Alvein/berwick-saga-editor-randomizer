@@ -993,6 +993,7 @@ set faye skill windsweep
 set faye skill pursuit
 set faye skill robust
 set faye skill maim
+set faye skill counter
 
 set faramir skill aim
 set faramir skill canto
@@ -1347,6 +1348,7 @@ set maingauche stat accuracy 50
 
 set BronzeSword stat might 6
 set Shortsword stat might 4
+set Scimitar stat might 10
 
 //set LevinSword stat might 5
 //set FlameSword stat might 4
@@ -1399,7 +1401,7 @@ set Colichemarde stat cost 7000
 //set AltiumSword stat level 3
 //set LevinSword stat level 7
 
-set BronzeSword stat Weight 4
+set BronzeSword stat Weight 5
 set Shortsword stat Weight 4
 set Scimitar stat weight 4
 set Longsword stat weight 5
@@ -1785,9 +1787,9 @@ set RaijinArrow effect thunder-damage 10
 set Apeiron stat level 1
 set Greatbow stat level 15
 
-set BronzeBow stat Weight 4
-set IronBow stat Weight 5
-set ShortBow stat Weight 4
+set BronzeBow stat Weight 5
+set IronBow stat Weight 4
+set ShortBow stat Weight 5
 set SwiftBow stat Weight 4
 set Longbow stat Weight 6
 set TripleFireBow stat Weight 9
@@ -1801,20 +1803,19 @@ set Rossweisse stat Weight 4
 set Pascanion stat Weight 6
 set Pascanion2 stat Weight 6
 set SereniaBow stat Weight 3
-set VerianBow stat Weight 5
-set OldImperialBow stat Weight 6
-set ImperialBow stat Weight 5
+set VerianBow stat Weight 4
+set OldImperialBow stat Weight 5
+set ImperialBow stat Weight 4
 
 set BronzeBow stat accuracy 40
 set ImperialBow stat accuracy 50
 set OldImperialBow stat accuracy 40
 set ShortBow stat accuracy 40
 set TripleFireBow stat accuracy 30
-set VerianBow stat accuracy 50
 set Strongbow stat accuracy 40
 set Greatbow stat accuracy 40
 set SwiftBow stat accuracy 40
-set VerianBow stat accuracy 50
+set VerianBow stat accuracy 40
 set OldImperialBow stat accuracy 40
 
 set Shortbow stat durability C
@@ -1830,12 +1831,12 @@ set Pascanion2 stat cost 8000
 set Pascanion stat cost 8000
 set WoodenArrow stat cost 150
 
-set BronzeBow stat might 1
-set ImperialBow stat might 3
-set IronBow stat might 3
-set OldImperialBow stat might 2
-set ShortBow stat might 1
-set VerianBow stat might 3
+set BronzeBow stat might 3
+set ImperialBow stat might 1
+set IronBow stat might 1
+set OldImperialBow stat might 1
+set ShortBow stat might 3
+set VerianBow stat might 1
 
 
 //Crossbow
@@ -2043,7 +2044,9 @@ Set WyrmskinShield stat Weight 5
 Set LadyMShd stat Weight 4
 Set PaladinShield stat Weight 6
 Set BlackShield stat Weight 6
-Set VerianMShd stat Weight 3
+Set VerianMShd stat Weight 4
+
+Set VerianMShd stat cost 1200
 
 Set LadyMShd stat accuracy 50
 
@@ -2057,6 +2060,7 @@ Set WyrmskinShield stat might 12
 Set LadyMShd stat might 9
 Set PaladinShield stat might 11
 Set BlackShield stat might 11
+Set VerianMShd stat might 6
 
 Set ImpSoldierMShd stat might 6
 Set ImpSoldierMShd+ stat might 6
