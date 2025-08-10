@@ -1878,7 +1878,6 @@ set Ollerus stat accuracy 70
 set RapidCrossbow stat accuracy 60
 set Hawkeye stat accuracy 60
 set ImperialCrossbow stat accuracy 70
-set Bowgun stat accuracy 70
 set OldImperialCrossbow stat accuracy 60
 set VerianCrossbow stat accuracy 70
 
@@ -3289,6 +3288,7 @@ set Chief skill throw
 set Chief skill vantage
 set Chief skill commander
 set Chief skill charisma
+set Chief skill counter
 
 set Icewyrm base hp +2
 set Icewyrm base defense +2
