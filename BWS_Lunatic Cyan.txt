@@ -644,7 +644,6 @@ set sherlock skill counter
 set sherlock skill celerity
 set sherlock skill hide
 set sherlock skill magicbane
-set sherlock skill parry
 set sherlock skill robbery
 set sherlock skill adept
 
@@ -1006,7 +1005,6 @@ set esteban skill adept
 	
 set faye skill adept
 set faye skill deathmatch
-set faye skill arrowbane 
 set faye skill blade 
 set faye skill canto
 set faye skill flourish
@@ -1054,7 +1052,6 @@ set faramir skill hide
 set faramir skill watchful
 
 set volo skill adept
-set volo skill arrowbane 
 set volo skill blade
 set volo skill canto
 set volo skill pursuit
@@ -1193,6 +1190,7 @@ set derrick skill maim
 set derrick skill armsthrift
 set derrick skill shieldfaire
 set derrick skill vengeful
+set derrick skill counter
 set derrick skill robbery
 set derrick skill sunder
 set derrick skill pulverize
@@ -2796,7 +2794,6 @@ set Bowman skill camouflage
 set Bowman skill Doubleshot
 set Bowman skill charisma
 set Bowman skill counter
-set Bowman skill parry
 set Bowman skill hide
 set Bowman skill adept
 	
@@ -2810,7 +2807,6 @@ set BowRider skill camouflage
 set BowRider skill DoubleShot
 set BowRider skill charisma
 set BowRider skill counter
-set BowRider skill parry
 set BowRider skill hide
 set BowRider skill adept
 
@@ -2850,7 +2846,6 @@ set ImperialBowman skill camouflage
 set ImperialBowman skill DoubleShot
 set ImperialBowman skill charisma
 set ImperialBowman skill counter
-set ImperialBowman skill parry
 set ImperialBowman skill hide
 set ImperialBowman skill adept
 
@@ -2864,7 +2859,6 @@ set ImperialBowRider_R skill camouflage
 set ImperialBowRider_R skill DoubleShot
 set ImperialBowRider_R skill charisma
 set ImperialBowRider_R skill counter
-set ImperialBowRider_R skill parry
 set ImperialBowRider_R skill hide
 set ImperialBowRider_R skill adept
 
@@ -2878,7 +2872,6 @@ set ImperialBowRider skill camouflage
 set ImperialBowRider skill DoubleShot
 set ImperialBowRider skill charisma
 set ImperialBowRider skill counter
-set ImperialBowRider skill parry
 set ImperialBowRider skill hide
 set ImperialBowRider skill adept
 
@@ -2918,7 +2911,6 @@ set Marksman skill camouflage
 set Marksman skill DoubleShot
 set Marksman skill charisma
 set Marksman skill counter
-set Marksman skill parry
 set Marksman skill hide
 set Marksman skill adept
 
@@ -2933,7 +2925,6 @@ set ImperialMarksman skill camouflage
 set ImperialMarksman skill DoubleShot
 set ImperialMarksman skill charisma
 set ImperialMarksman skill counter
-set ImperialMarksman skill parry
 set ImperialMarksman skill hide
 set ImperialMarksman skill adept
 
@@ -3045,7 +3036,6 @@ set Outlaw skill charisma
 set Outlaw skill DoubleShot
 set Outlaw skill pursuit
 set Outlaw skill counter
-set Outlaw skill parry
 set Outlaw skill hide
 
 // same stats as thaddy
@@ -3173,7 +3163,6 @@ set RogueArcher skill adept
 set RogueArcher skill DoubleShot
 set RogueArcher skill charisma
 set RogueArcher skill counter
-set RogueArcher skill parry
 set RogueArcher skill hide
 
 set RogueGunner base hp +2
@@ -3200,8 +3189,8 @@ set RogueWarrior skill camouflage
 set RogueWarrior skill pursuit
 set RogueWarrior skill charisma
 set RogueWarrior skill counter
-set RogueWarrior skill parry
-set RogueWarrior skill celerity
+set RogueWarrior skill knockaway
+set RogueWarrior skill arrowbane
 set RogueWarrior skill hide
 
 set SnowBandit base hp +2
@@ -3515,6 +3504,7 @@ set Grassrunner_R skill pursuit
 set Grassrunner_R skill hide
 
 //Will fuck Czene Stat on rankup
+set Grassrunner skill adept
 set Grassrunner skill camouflage
 set Grassrunner skill canto
 set Grassrunner skill vantage
@@ -3563,7 +3553,6 @@ set Axefighter skill hide
 
 set Swordfighter_M skill adept
 set Swordfighter_M skill canto
-set Swordfighter_M skill arrowbane
 set Swordfighter_M skill deathmatch
 set Swordfighter_M skill iaido
 set Swordfighter_M skill pursuit
@@ -3574,7 +3563,6 @@ set Swordfighter_M skill parry
 set Swordfighter_M skill hide
 
 set Swordmaster skill adept
-set Swordmaster skill arrowbane
 set Swordmaster skill canto
 set Swordmaster skill iaido
 set Swordmaster skill parry
@@ -3606,7 +3594,6 @@ set Horseman skill aim
 set Horseman skill Tripleshot
 set Horseman skill doubleshot
 set Horseman skill counter
-set Horseman skill parry
 set Horseman skill hide
 set Horseman skill adept
 
@@ -3614,17 +3601,18 @@ set BowKnight_R skill DoubleShot
 set BowKnight_R skill Tripleshot
 set BowKnight_R skill hide
 set BowKnight_R skill adept
+set BowKnight_R skill counter
 
 set BowKnight skill DoubleShot
 set BowKnight skill Tripleshot
 set BowKnight skill hide
 set BowKnight skill adept
+set BowKnight skill counter
 
 set Horseman_R skill aim
 set Horseman_R skill Tripleshot
 set Horseman_R skill doubleshot
 set Horseman_R skill counter
-set Horseman_R skill parry
 set Horseman_R skill hide
 set Horseman_R skill adept
 
@@ -3649,7 +3637,6 @@ set Burglar skill hide
 
 set Myrmidon skill adept
 set Myrmidon skill pursuit
-set Myrmidon skill arrowbane
 set Myrmidon skill canto
 set Myrmidon skill iaido
 set Myrmidon skill parry
@@ -3670,6 +3657,7 @@ set ArmorKnight skill armsthrift
 set ArmorKnight skill canto
 set ArmorKnight skill shieldfaire
 set ArmorKnight skill vengeful
+set ArmorKnight skill counter
 set ArmorKnight skill pulverize
 set ArmorKnight skill hide
 
