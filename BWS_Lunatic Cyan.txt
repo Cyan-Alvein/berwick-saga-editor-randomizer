@@ -3011,7 +3011,6 @@ set Corsair skill counter
 set Corsair skill vengeful
 set Corsair skill hide
 set Corsair skill pursuit
-set Corsair skill adept
 
 set Ruffian_R base hp +2
 set Ruffian_R base defense +2
