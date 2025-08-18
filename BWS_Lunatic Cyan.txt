@@ -1006,7 +1006,7 @@ set esteban skill mug
 set esteban skill mug2
 set esteban skill overwatch
 set esteban skill prepared
-set esteban skill pursuit 
+set esteban skill pursuit
 set esteban skill scotopic 
 set esteban skill steal
 set esteban skill watchful
@@ -1019,6 +1019,7 @@ set esteban skill vantage
 set esteban skill robbery
 set esteban skill celerity
 set esteban skill battlecry
+set esteban skill doubleshot
 	
 set faye skill counter
 set faye skill adept
@@ -1073,6 +1074,7 @@ set faramir skill watchful
 set faramir skill pulverize
 set faramir skill battlecry
 set faramir skill astra
+set faramir skill doubleshot
 
 set volo skill counter
 set volo skill adept
@@ -3715,7 +3717,6 @@ set Hunter skill camouflage
 set Hunter skill vantage
 set Hunter skill magicbane
 set Hunter skill pursuit
-set Hunter skill adept
 set Hunter skill hide
 
 //same stat as Kramer
@@ -3731,10 +3732,12 @@ set Mercenary skill hide
 set LanceKnight2_R skill vantage
 set LanceKnight2_R skill throw
 set LanceKnight2_R skill hide
+set LanceKnight2_R skill adept
 
 set LanceKnight2 skill vantage
 set LanceKnight2 skill throw
 set LanceKnight2 skill hide
+set LanceKnight2 skill adept
 
 set LanceKnight skill vantage
 set LanceKnight skill throw
