@@ -3604,6 +3604,7 @@ set Swordfighter_M skill celerity
 set Swordfighter_M skill fortune
 set Swordfighter_M skill parry
 set Swordfighter_M skill hide
+set Swordfighter_M skill counter
 
 set Swordmaster skill adept
 set Swordmaster skill canto
@@ -3616,6 +3617,7 @@ set Swordmaster skill celerity
 set Swordmaster skill maim
 set Swordmaster skill pursuit
 set Swordmaster skill hide
+set Swordmaster skill counter
 
 set SwordKnight_R skill counter
 set SwordKnight_R skill armsthrift
@@ -3791,11 +3793,11 @@ set FlameFencer skill maim
 set FlameFencer skill hide
 
 set VeteranKnight_R skill Armsthrift
-set VeteranKnight_R skill Counter
+set VeteranKnight_R skill shieldfaire
 set VeteranKnight_R skill hide
 
 set VeteranKnight skill Armsthrift
-set VeteranKnight skill Counter
+set VeteranKnight skill shieldfaire
 set VeteranKnight skill hide
 //////////////////////////////////////////////////////////////////////////////////
 
