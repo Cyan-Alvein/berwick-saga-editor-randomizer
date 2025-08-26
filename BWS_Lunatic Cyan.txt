@@ -543,7 +543,7 @@ set elbert skill provoke
 set elbert skill shieldfaire 
 set elbert skill windsweep
 set elbert skill throw
-set elbert skill deathmatch
+set elbert skill desperation
 set elbert skill armsthrift
 set elbert skill maim
 set elbert skill robbery
@@ -551,7 +551,6 @@ set elbert skill sunder
 set elbert skill hide
 set elbert skill battlecry
 set elbert skill counter
-
 
 set christine skill aim
 set christine skill armsthrift
@@ -856,7 +855,6 @@ set arthur skill canto
 set arthur skill counter 
 set arthur skill adept 
 set arthur skill desperation
-set arthur skill deathmatch
 set arthur skill flourish
 set arthur skill guard
 set arthur skill horselover
@@ -3124,6 +3122,7 @@ set Assassin skill pursuit
 set Assassin skill fortune
 set Assassin skill hide
 
+//farmer with ring
 set Rogue base hp +2
 set Rogue base defense +2
 set Rogue base magic +2
@@ -3136,6 +3135,8 @@ set Rogue skill camouflage
 set Rogue skill charisma
 set Rogue skill pursuit
 set Rogue skill hide
+set Rogue skill counter
+set Rogue skill vantage
 
 set RazeMonk base hp +2
 set RazeMonk base defense +2
