@@ -1000,6 +1000,7 @@ set esteban skill mug
 set esteban skill mug2
 set esteban skill overwatch
 set esteban skill prepared
+set esteban skill adept
 set esteban skill pursuit
 set esteban skill scotopic 
 set esteban skill steal
@@ -1009,7 +1010,8 @@ set esteban skill deathmatch
 set esteban skill windsweep
 set esteban skill sunder
 set esteban skill maim
-set esteban skill vantage
+set esteban skill doubleshot
+set esteban skill tripleshot
 set esteban skill robbery
 set esteban skill celerity
 set esteban skill battlecry
@@ -2243,12 +2245,12 @@ set Iuppiter stat Durability C
 set ImpKnightLShd stat accuracy 40
 set ImpOfficerLShd stat accuracy 40
 set ImpSoldierLShd stat accuracy 40
-set ImpSoldierLShd+ stat accuracy 40
+set ImpSoldierLShd+ stat accuracy 50
 set VerianLShd stat accuracy 40
 set LeatherLShd stat accuracy 40
 set WideShield stat accuracy 50
 set IronShield stat accuracy 40
-set Greatshield stat accuracy 50
+set Greatshield stat accuracy 40
 set KojinShield stat accuracy 50
 set FujinShield stat accuracy 50
 set RaijinShield stat accuracy 50
@@ -3736,6 +3738,8 @@ set Hunter skill canto
 set Hunter skill camouflage
 set Hunter skill vantage
 set Hunter skill pursuit
+set Hunter skill adept
+set Hunter skill doubleshot
 set Hunter skill hide
 
 //same stat as Kramer
