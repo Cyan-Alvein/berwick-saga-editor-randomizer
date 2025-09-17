@@ -505,7 +505,6 @@ set reese skill paragon
 set reese skill Prepared
 set reese skill windsweep
 set reese skill deathmatch
-set reese skill battlecry
 set reese skill sunder
 set reese skill robbery
 set reese skill hide
@@ -574,7 +573,6 @@ set christine skill hide
 set christine skill onetwo
 set christine skill robbery
 set christine skill adept
-set christine skill battlecry
 
 set adel skill canto
 set adel skill counter 
@@ -599,7 +597,6 @@ set adel skill robust
 set adel skill robbery
 set adel skill hide
 set adel skill adept
-set adel skill battlecry
 set adel skill armsthrift
 
 set leon skill canto
@@ -695,7 +692,6 @@ set czene skill windsweep
 set czene skill sunder
 set czene skill fortune
 set czene skill celerity
-set czene skill battlecry
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -834,7 +830,6 @@ set ruby skill sunder
 set ruby skill maim
 set ruby skill robbery
 set ruby skill hide
-set ruby skill battlecry
 
 set arthur skill armsthrift
 set arthur skill canto
@@ -853,7 +848,6 @@ set arthur skill maim
 set arthur skill robbery
 set arthur skill sunder
 set arthur skill hide
-set arthur skill battlecry
 
 set kramer skill adept
 set kramer skill pursuit
@@ -872,7 +866,6 @@ set kramer skill prepared
 set kramer skill desperation
 set kramer skill windsweep
 set kramer skill robust
-set kramer skill battlecry
 set kramer skill maim
 set kramer skill robbery
 set kramer skill sunder
@@ -892,7 +885,6 @@ set sherpa skill robust
 set sherpa skill windsweep
 set sherpa skill blade
 set sherpa skill Prepared
-set sherpa skill battlecry
 set sherpa skill desperation
 set sherpa skill knockaway
 set sherpa skill maim
@@ -953,7 +945,6 @@ set sylvis skill huntsman
 set sylvis skill tripleshot
 set sylvis skill robbery
 set sylvis skill adept
-set sylvis skill battlecry
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -981,7 +972,6 @@ set thaddy skill guard
 set thaddy skill windsweep
 set thaddy skill sunder
 set thaddy skill celerity
-set thaddy skill battlecry
 
 set esteban skill aim 
 set esteban skill camouflage
@@ -1011,7 +1001,6 @@ set esteban skill doubleshot
 set esteban skill tripleshot
 set esteban skill robbery
 set esteban skill celerity
-set esteban skill battlecry
 	
 set faye skill adept
 set faye skill deathmatch
@@ -1034,7 +1023,6 @@ set faye skill maim
 set faye skill robbery
 set faye skill hide
 set faye skill watchful
-set faye skill battlecry
 set faye skill pulverize
 
 set faramir skill aim
@@ -1061,7 +1049,6 @@ set faramir skill robbery
 set faramir skill hide
 set faramir skill watchful
 set faramir skill pulverize
-set faramir skill battlecry
 set faramir skill astra
 set faramir skill doubleshot
 set faramir skill tripleshot
@@ -1088,7 +1075,6 @@ set volo skill parry
 set volo skill robbery
 set volo skill hide
 set volo skill watchful
-set volo skill battlecry
 set volo skill pulverize
 
 set clifford skill canto
@@ -1109,7 +1095,6 @@ set clifford skill maim
 set clifford skill robbery
 set clifford skill sunder
 set clifford skill hide
-set clifford skill battlecry
 set clifford skill throw
 
 set axel skill axeguard 
@@ -1159,7 +1144,6 @@ set larentia skill maim
 set larentia skill pursuit
 set larentia skill robbery
 set larentia skill hide
-set larentia skill battlecry
 set larentia skill shieldfaire
 
 set owen skill adept
@@ -1258,7 +1242,6 @@ set lynette skill maim
 set lynette skill robbery
 set lynette skill hide
 set lynette skill watchful
-set lynette skill battlecry
 
 set paramythis skill blessing
 set paramythis skill camouflage
@@ -1285,7 +1268,6 @@ set paramythis skill adept
 set paramythis skill hide
 set paramythis skill watchful
 set paramythis skill fortune
-set paramythis skill battlecry
 
 
 // prfs
@@ -2020,47 +2002,47 @@ set ShiningShield stat level 15
 set ShiningShield effect negate-dark 100
 //set DarkShield stat dark_res 10
 
-set LeatherSShd stat might 1
-set Buckler stat might 2
-set PrototypeSShd stat might 3
-set Aspis stat might 4
-set RoundShield stat might 4
-set Windshield stat might 4
-set FireShield stat might 4
-set ThunderShield stat might 4
-set LightShield stat might 4
-set DarkShield stat might 4
-set MetalShield stat might 5
-set MithrilShield stat might 5
-set Vollenden stat might 6
-set ShiningShield stat might 5
-Set VerianSShd Stat might 2
-set OldImpSShd stat might 2
-set ImpSoldierSShd stat might 3
-set ImpSoldierSShd+ stat might 3
-set ImpOfficerSShd stat might 4
-set ImpKnightSShd stat might 5
-set Perseid stat might 5
-set LadyShield stat might 5
+set LeatherSShd stat might 2
+set Buckler stat might 3
+set PrototypeSShd stat might 4
+set Aspis stat might 5
+set RoundShield stat might 5
+set Windshield stat might 5
+set FireShield stat might 5
+set ThunderShield stat might 
+set LightShield stat might 5
+set DarkShield stat might 5
+set MetalShield stat might 6
+set MithrilShield stat might 7
+set Vollenden stat might 8
+set ShiningShield stat might 7
+Set VerianSShd Stat might 4
+set OldImpSShd stat might 4
+set ImpSoldierSShd stat might 4
+set ImpSoldierSShd+ stat might 4
+set ImpOfficerSShd stat might 5
+set ImpKnightSShd stat might 6
+set Perseid stat might 7
+set LadyShield stat might 7
 
-set LeatherSShd stat Weight 0
-set Buckler stat Weight 1
+set LeatherSShd stat Weight 1
+set Buckler stat Weight 2
 set PrototypeSShd stat Weight 2
-set Aspis stat Weight 2
-set RoundShield stat Weight 2
-set Windshield stat Weight 2
-set FireShield stat Weight 2
-set ThunderShield stat Weight 2
-set LightShield stat Weight 2
-set DarkShield stat Weight 2
+set Aspis stat Weight 3
+set RoundShield stat Weight 3
+set Windshield stat Weight 3
+set FireShield stat Weight 3
+set ThunderShield stat Weight 3
+set LightShield stat Weight 3
+set DarkShield stat Weight 3
 set MetalShield stat weight 3
-set MithrilShield stat weight 2
-set Perseid stat weight 1
-set LadyShield stat weight 1
+set MithrilShield stat weight 3
+set Perseid stat weight 2
+set LadyShield stat weight 2
 set Vollenden stat weight 4
-set ShiningShield stat Weight 2
-Set VerianSShd Stat Weight 1
-set OldImpSShd stat Weight 2
+set ShiningShield stat Weight 3
+Set VerianSShd Stat Weight 2
+set OldImpSShd stat Weight 4
 set ImpSoldierSShd stat Weight 2
 set ImpSoldierSShd+ stat Weight 2
 set ImpOfficerSShd stat weight 2
@@ -2142,22 +2124,24 @@ Set VerianMShd stat cost 1200
 
 Set LadyMShd stat accuracy 50
 
-Set LeatherMShd stat might 4
-Set Kiteshield stat might 6
-Set SquareShield stat might 8
-Set KnightShield stat might 10
-Set LimitShield stat might 9
-Set Hestia stat might 8
-Set WyrmskinShield stat might 12
-Set LadyMShd stat might 9
-Set PaladinShield stat might 11
-Set BlackShield stat might 11
+Set LeatherMShd stat might 5
+Set Kiteshield stat might 8
+Set SquareShield stat might 10
+Set KnightShield stat might 12
+Set LimitShield stat might 11
+Set Hestia stat might 10
+Set WyrmskinShield stat might 14
+Set LadyMShd stat might 12
+Set PaladinShield stat might 13
+Set BlackShield stat might 13
 Set VerianMShd stat might 6
 
-Set ImpSoldierMShd stat might 6
-Set ImpSoldierMShd+ stat might 6
-Set ImpOfficerMShd stat might 8
-Set ImpKnightMShd stat might 10
+Set ImpSoldierMShd stat might 8
+Set ImpSoldierMShd+ stat might 8
+Set ImpOfficerMShd stat might 10
+Set ImpKnightMShd stat might 12
+
+set ImpSoldierMShd+ stat accuracy 50
 
 Set ImpSoldierMShd stat Weight 4
 Set ImpSoldierMShd+ stat Weight 4
@@ -2277,7 +2261,7 @@ set VerianLShd stat cost 1000
 set WyrmskinShield stat cost 4000
 set LeatherLShd stat cost 1000
 
-Set LeatherLShd Stat Weight 4
+Set LeatherLShd Stat Weight 5
 Set WideShield Stat Weight 7
 Set IronShield Stat Weight 8
 Set Greatshield Stat Weight 9
