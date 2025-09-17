@@ -891,7 +891,7 @@ set sherpa skill maim
 set sherpa skill robbery
 set sherpa skill sunder
 set sherpa skill parry
-set sherpa skill adept
+set sherpa skill pursuit
 set sherpa skill hide
 set sherpa skill fortune
 set sherpa skill provoke
