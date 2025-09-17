@@ -2115,7 +2115,7 @@ Set KnightShield stat Weight 6
 Set LimitShield stat Weight 6
 Set Hestia stat Weight 6
 Set WyrmskinShield stat Weight 5
-Set LadyMShd stat Weight 4
+Set LadyMShd stat Weight 5
 Set PaladinShield stat Weight 6
 Set BlackShield stat Weight 6
 Set VerianMShd stat Weight 4
@@ -2131,7 +2131,7 @@ Set KnightShield stat might 12
 Set LimitShield stat might 11
 Set Hestia stat might 10
 Set WyrmskinShield stat might 14
-Set LadyMShd stat might 12
+Set LadyMShd stat might 11
 Set PaladinShield stat might 13
 Set BlackShield stat might 13
 Set VerianMShd stat might 6
@@ -2142,6 +2142,7 @@ Set ImpOfficerMShd stat might 10
 Set ImpKnightMShd stat might 12
 
 set ImpSoldierMShd+ stat accuracy 50
+set LadyMShd stat accuracy 50
 
 Set ImpSoldierMShd stat Weight 4
 Set ImpSoldierMShd+ stat Weight 4
@@ -3827,76 +3828,74 @@ set Arrow++ stat might 8
 //Arrow++ 101 IronArrow with +20 prec
 
 
-set Cutlass effect restore-uses
-set Cutlass+ effect restore-uses
-set Brymranger effect restore-uses
-set Zweihander effect restore-uses
-set Apeiron effect restore-uses
-set BoltKnife effect restore-uses
-set Hawkeye effect restore-uses
-set Perseid effect restore-uses
-set Gram effect restore-uses
-set DireThunder effect restore-uses
-set RazeEtoile effect restore-uses
-set Balmung3 effect restore-uses
-set Balmung2 effect restore-uses
-set Balmung effect restore-uses
-set Fauchard effect restore-uses
-set Bhuj effect restore-uses
-set Carnwenhau effect restore-uses
-set GeneralShield effect restore-uses
-set Pascanion effect restore-uses
-set Pascanion2 effect restore-uses
-set LadyMShd effect restore-uses
-set LadyShield effect restore-uses
-set ThiefsKnife effect restore-uses
-set Iuppiter effect restore-uses
-set TsukuyomiShield effect restore-uses
-set GigasAxe effect restore-uses
-set Rossweisse effect restore-uses
-set Drakelance effect restore-uses
-set Crotalus effect restore-uses
-set AssassinsKnife effect restore-uses
-set Grimhild effect restore-uses
-set Harperia effect restore-uses
-set Adrastia effect restore-uses
-set Colichemarde effect restore-uses
-set SwiftSpear effect restore-uses
-set Euthyphro effect restore-uses
-set Partisan effect restore-uses
-set Angon effect restore-uses
-set Brionac effect restore-uses
-set Gullveig effect restore-uses
-set Tabarzin effect restore-uses
-set Gullveig effect restore-uses
-set RapidCrossbow effect restore-uses
-set Ollerus effect restore-uses
-set Scorpio effect restore-uses
-set SteelBallista effect restore-uses
-set Springald effect restore-uses
-set Earthblaze effect restore-uses
-set ShiningShield effect restore-uses
-set Aiantos effect restore-uses
-set LadyMShd effect restore-uses
-set WyrmskinShield effect restore-uses
-set BlackShield effect restore-uses
-set Hestia effect restore-uses
-set Fortify effect restore-uses
-set Rehabilitate effect restore-uses
-set Shieldaxe effect restore-uses
-set Vollenden effect restore-uses
-set AmaterasuShield effect restore-uses
-set Blizzard effect restore-uses
-set Lightning effect restore-uses
-set Escape effect restore-uses
-set Pacify effect restore-uses
+//set Cutlass effect restore-uses
+//set Cutlass+ effect restore-uses
+//set Brymranger effect restore-uses
+//set Zweihander effect restore-uses
+//set Apeiron effect restore-uses
+//set BoltKnife effect restore-uses
+//set Hawkeye effect restore-uses
+//set Perseid effect restore-uses
+//set Gram effect restore-uses
+//set DireThunder effect restore-uses
+//set RazeEtoile effect restore-uses
+//set Balmung3 effect restore-uses
+//set Balmung2 effect restore-uses
+//set Balmung effect restore-uses
+//set Fauchard effect restore-uses
+//set Bhuj effect restore-uses
+//set Carnwenhau effect restore-uses
+//set GeneralShield effect restore-uses
+//set Pascanion effect restore-uses
+//set Pascanion2 effect restore-uses
+//set LadyMShd effect restore-uses
+//set LadyShield effect restore-uses
+//set ThiefsKnife effect restore-uses
+//set Iuppiter effect restore-uses
+//set TsukuyomiShield effect restore-uses
+//set GigasAxe effect restore-uses
+//set Rossweisse effect restore-uses
+//set Drakelance effect restore-uses
+//set Crotalus effect restore-uses
+//set AssassinsKnife effect restore-uses
+//set Grimhild effect restore-uses
+//set Harperia effect restore-uses
+//set Adrastia effect restore-uses
+//set Colichemarde effect restore-uses
+//set SwiftSpear effect restore-uses
+//set Euthyphro effect restore-uses
+//set Partisan effect restore-uses
+//set Angon effect restore-uses
+//set Brionac effect restore-uses
+//set Gullveig effect restore-uses
+//set Tabarzin effect restore-uses
+//set Gullveig effect restore-uses
+//set RapidCrossbow effect restore-uses
+//set Ollerus effect restore-uses
+//set Scorpio effect restore-uses
+//set SteelBallista effect restore-uses
+//set Springald effect restore-uses
+//set Earthblaze effect restore-uses
+//set ShiningShield effect restore-uses
+//set Aiantos effect restore-uses
+//set LadyMShd effect restore-uses
+//set WyrmskinShield effect restore-uses
+//set BlackShield effect restore-uses
+//set Hestia effect restore-uses
+//set Fortify effect restore-uses
+//set Rehabilitate effect restore-uses
+//set Shieldaxe effect restore-uses
+//set Vollenden effect restore-uses
+//set AmaterasuShield effect restore-uses
+//set Blizzard effect restore-uses
+//set Lightning effect restore-uses
+//set Escape effect restore-uses
+//set Pacify effect restore-uses
 	
-//Brymranger to check
 //Bug, Robbery and steal are linked, when robbery proc, it will decrease steal activation counter. So you can only robbery & steal 3 times by map.
-// maim to percy lynette enid sherlock christine maybe
 //Shieldaxe shouldn't be a stand-still skill
 //need to test remove bracket for ennemy so they can have 1000 hp without bugging then adding on attack
 //Vengeful should proc during deathmatch
-//Daoud got shieldfaire instead of counter. Shieldfaire is better I think.
 // Reese & Ruby shield skill increase to 30 on promotion failed. No idea how to fix it.
-//sshield accuracy 30 average
+//maybe sshield accuracy 30 average
+//maybe adept on marcel
