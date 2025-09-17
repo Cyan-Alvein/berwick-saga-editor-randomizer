@@ -507,7 +507,6 @@ set reese skill windsweep
 set reese skill deathmatch
 set reese skill battlecry
 set reese skill sunder
-set reese skill shieldfaire
 set reese skill robbery
 set reese skill hide
 
@@ -551,7 +550,6 @@ set elbert skill robbery
 set elbert skill sunder
 set elbert skill hide
 set elbert skill battlecry
-set elbert skill counter
 
 set christine skill aim
 set christine skill armsthrift
@@ -627,7 +625,6 @@ set leon skill robbery
 set leon skill hide
 set leon skill battlecry
 set leon skill adept
-set leon skill shieldfaire
 
 set sherlock skill aim 
 set sherlock skill canto
@@ -842,7 +839,6 @@ set ruby skill battlecry
 set arthur skill armsthrift
 set arthur skill canto
 set arthur skill counter 
-set arthur skill adept 
 set arthur skill desperation
 set arthur skill flourish
 set arthur skill guard
@@ -3531,19 +3527,15 @@ set Aristocrat skill hide
 
 set Paladin_M skill throw
 set Paladin_M skill hide
-set Paladin_M skill adept
 
 set Paladin_M_R skill throw
 set Paladin_M_R skill hide
-set Paladin_M_R skill adept
 
 set Paladin_R skill throw
 set Paladin_R skill hide
-set Paladin_R skill adept
 
 set Paladin skill throw
 set Paladin skill hide
-set Paladin skill adept
 
 //set Paladin_F_R skill adept
 //set Paladin_F_R skill throw
@@ -3816,12 +3808,10 @@ set FlameFencer skill hide
 set VeteranKnight_R skill Armsthrift
 set VeteranKnight_R skill shieldfaire
 set VeteranKnight_R skill hide
-set VeteranKnight_R skill adept
 
 set VeteranKnight skill Armsthrift
 set VeteranKnight skill shieldfaire
 set VeteranKnight skill hide
-set VeteranKnight skill adept
 //////////////////////////////////////////////////////////////////////////////////
 
 set Glaive stat durability C
