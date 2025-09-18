@@ -448,8 +448,8 @@ set burroughs base crossbow +20
 
 set derrick growth axe 40
 set derrick growth lshield 30
-set derrick growth hp 40
-set derrick growth defense 30
+set derrick growth hp 30
+set derrick growth defense 22
 set derrick growth strength 20
 set Derrick item 0 ImperialAxe 101
 set Derrick item 2 GigasAxe 101
