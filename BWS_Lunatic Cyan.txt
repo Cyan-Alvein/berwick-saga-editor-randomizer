@@ -1330,7 +1330,7 @@ set Rehabilitate stat level 15
 set AirBlade effect injure-rate 4
 set Windstorm effect injure-rate 4
 set PallasRiana effect injure-rate 4
-set Blizzard effect injure-rate 30
+set Blizzard effect injure-rate 33
 set Fire effect cripple-rate 4
 set Hellfire effect cripple-rate 6
 set PallasLeia effect cripple-rate 8
@@ -1365,10 +1365,9 @@ set AssassinsKnife effect cripple-x2
 //set BoltKnife effect steal-rate-plus 20  //I can't, it will remove thunder damage
 //set BoltKnife effect thunder-damage 3
 //set TempestKnife effect wind-damage 8
-set ThiefsKnife effect steal-rate-plus 50
-set ThiefsCharm effect steal-rate-plus 50
+set ThiefsKnife effect steal-rate-plus 33
+set ThiefsCharm effect steal-rate-plus 33
 set AirKnife effect wind-damage 5
-set StunKnife effect disarm-rate 50
 //set BloodKnife effect dark-damage 7
 set Swordbreaker effect sword-break 50
 
@@ -1621,7 +1620,7 @@ set VerianSpear stat Weight 6
 set OldImperialSpear stat Weight 7
 set ImperialSpear stat Weight 5
 
-Set Harpoon effect injure-rate 12
+Set Harpoon effect injure-rate 16
 Set Longspear effect cripple-x2
 
 set SlimSpear stat cost 700
@@ -1797,7 +1796,7 @@ set VerianAxe stat accuracy 50
 set ImperialAxe stat accuracy 50
 set OldImperialAxe stat accuracy 40
 
-set BanditAxe effect steal-rate-plus 50
+set BanditAxe effect steal-rate-plus 33
 set BattleAxe effect cripple-x2
 set Greataxe effect steal-rate-plus 15
 set MithrilAxe effect steal-rate-plus 15
@@ -1861,6 +1860,8 @@ set RaijinArrow effect thunder-damage 10
 
 set Apeiron stat level 1
 set Greatbow stat level 15
+
+set CompositeBow effect cripple-x2
 
 set BronzeBow stat Weight 5
 set IronBow stat Weight 4
@@ -3899,3 +3900,4 @@ set Arrow++ stat might 8
 // Reese & Ruby shield skill increase to 30 on promotion failed. No idea how to fix it.
 //maybe sshield accuracy 30 average
 //maybe adept on marcel
+//disarm-rate don't work
