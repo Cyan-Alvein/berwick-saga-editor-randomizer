@@ -1050,8 +1050,6 @@ set faramir skill hide
 set faramir skill watchful
 set faramir skill pulverize
 set faramir skill astra
-set faramir skill doubleshot
-set faramir skill tripleshot
 
 set volo skill adept
 set volo skill blade
