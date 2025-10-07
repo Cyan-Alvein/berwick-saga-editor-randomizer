@@ -803,7 +803,6 @@ set alvina skill shieldfaire
 set alvina skill throw
 set alvina skill windsweep
 set alvina skill deathmatch
-set alvina skill vantage
 set alvina skill sunder
 set alvina skill maim
 set alvina skill robbery
