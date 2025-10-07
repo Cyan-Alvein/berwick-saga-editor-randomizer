@@ -543,10 +543,8 @@ set elbert skill shieldfaire
 set elbert skill windsweep
 set elbert skill throw
 set elbert skill desperation
-set elbert skill armsthrift
 set elbert skill maim
 set elbert skill robbery
-set elbert skill sunder
 set elbert skill hide
 set elbert skill battlecry
 
@@ -1570,9 +1568,9 @@ set Zanbato stat cost 2000
 
 set Doru stat accuracy 50
 set SlimSpear stat accuracy 50
-set ImperialSpear stat accuracy 50
+set ImperialSpear stat accuracy 60
 set Longspear stat accuracy 50
-set OldImperialSpear stat accuracy 50
+set OldImperialSpear stat accuracy 60
 set VerianSpear stat accuracy 60
 set Partisan stat accuracy 50
 set Pike stat accuracy 60
@@ -1598,7 +1596,7 @@ set IronSpear stat Weight 6
 set Pilum stat Weight 7
 set SteelSpear stat Weight 7
 set Harpoon stat Weight 7
-set PrototypeSpear stat Weight 8
+//set PrototypeSpear stat Weight 7
 set KillerSpear stat Weight 6
 set Pike stat Weight 7
 set Longspear stat Weight 8
@@ -1615,8 +1613,8 @@ set SwiftSpear stat Weight 10
 set Fauchard stat Weight 7
 
 set VerianSpear stat Weight 6
-set OldImperialSpear stat Weight 7
-set ImperialSpear stat Weight 5
+set OldImperialSpear stat Weight 9
+set ImperialSpear stat Weight 7
 
 Set Harpoon effect injure-rate 16
 Set Longspear effect cripple-x2
@@ -1625,7 +1623,7 @@ set SlimSpear stat cost 700
 set ImperialSpear stat cost 1200
 set Harpoon stat cost 1000
 
-set PrototypeSpear stat durability C
+//set PrototypeSpear stat durability C
 set Pike stat durability B
 set Doru stat durability B
 set MithrilSpear stat durability A
@@ -1858,6 +1856,9 @@ set RaijinArrow effect thunder-damage 10
 
 set Apeiron stat level 1
 set Greatbow stat level 15
+set Greatbow stat max-range 3
+set Rossweisse stat max-range 3
+set Apeiron stat max-range 3
 
 set CompositeBow effect cripple-x2
 
@@ -2426,7 +2427,7 @@ set Cavalier cap sshield 50
 set Cavalier cap mshield 50
 set Cavalier base mshield +40
 
-set Treasure stat price 60000
+set Treasure stat price 40000
 
 //set Reese bracket no
 //set Ward bracket no
@@ -3899,3 +3900,5 @@ set Arrow++ stat might 8
 //maybe sshield accuracy 30 average
 //maybe adept on marcel
 //disarm-rate don't work
+//Increase Christine arrow mastery at rank up didn't work --set ArrowKnight_R base sword +30
+//Increase Ruby & Reese MShield mastery at rank up didn't work
