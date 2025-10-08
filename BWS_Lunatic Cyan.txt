@@ -1042,6 +1042,7 @@ set faramir skill fortune
 set faramir skill deathmatch
 set faramir skill sunder
 set faramir skill windsweep
+set faramir skill adept
 set faramir skill pursuit
 set faramir skill maim
 set faramir skill robbery
@@ -1049,8 +1050,6 @@ set faramir skill hide
 set faramir skill watchful
 set faramir skill pulverize
 set faramir skill astra
-set faramir skill doubleshot
-set faramir skill tripleshot
 
 set volo skill adept
 set volo skill blade
