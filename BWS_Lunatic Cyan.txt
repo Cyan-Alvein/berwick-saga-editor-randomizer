@@ -12,6 +12,10 @@
 
 /////////////////////////////////////////////README - Most Important Changes//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//Vantage on ruby, Counter on Arthur, Adept Pursuit Astra Celerity on Faye Faramir Volo, Adept Pursuit DoubleShot Tripleshot Vantage on Sylvis Esteban
+
+//Steal on Esteban Axel Czene, Robbery Hury Flourish windsweep on everyone ...
+
 // pitchfork & MilitaryFork got cripple-x2
 
 // Pike, Longspear, Altium, Gastraphetes, BastardSword & all lance weapons got cripple-x2
@@ -369,7 +373,7 @@ set volo item 5 BastardSword 101
 set volo item 6 PhoenixBrace 101
 set volo item 7 Bag 0
 set volo growth sword 90
-set volo base sword +25
+set volo base sword +35
 
 set sherpa growth sword 90
 set Sherpa item 1 BastardSword 101
