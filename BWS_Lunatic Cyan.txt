@@ -647,6 +647,7 @@ set sherlock skill celerity
 set sherlock skill hide
 set sherlock skill robbery
 set sherlock skill adept
+set sherlock skill guard
 
 set izerna skill blessing
 set izerna skill canto
@@ -664,6 +665,7 @@ set izerna skill windsweep
 set izerna skill mercy
 set izerna skill hide
 set izerna skill watchful
+set izerna skill guard
 
 set czene skill adept
 set czene skill deathmatch
@@ -942,6 +944,7 @@ set sylvis skill huntsman
 set sylvis skill tripleshot
 set sylvis skill robbery
 set sylvis skill adept
+set sylvis skill pursuit
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -997,7 +1000,7 @@ set esteban skill maim
 set esteban skill doubleshot
 set esteban skill tripleshot
 set esteban skill robbery
-set esteban skill celerity
+set esteban skill vantage
 	
 set faye skill adept
 set faye skill deathmatch
@@ -1035,7 +1038,6 @@ set faramir skill overwatch
 set faramir skill parry
 set faramir skill prepared
 set faramir skill scotopic 
-set faramir skill guard 
 set faramir skill fortune
 set faramir skill deathmatch
 set faramir skill sunder
@@ -1047,6 +1049,8 @@ set faramir skill hide
 set faramir skill watchful
 set faramir skill pulverize
 set faramir skill astra
+set faramir skill doubleshot
+set faramir skill tripleshot
 
 set volo skill adept
 set volo skill blade
@@ -1071,6 +1075,7 @@ set volo skill robbery
 set volo skill hide
 set volo skill watchful
 set volo skill pulverize
+set volo skill astra
 
 set clifford skill canto
 set clifford skill counter
@@ -1212,6 +1217,7 @@ set saphira skill deathmatch
 set saphira skill mercy
 set saphira skill hide
 set saphira skill watchful
+set saphira skill guard
 
 set lynette skill aim
 set lynette skill canto
@@ -2521,6 +2527,7 @@ set ImperialSpearman skill charisma
 set ImperialSpearman skill adept
 set ImperialSpearman skill hide
 set ImperialSpearman skill pursuit
+set ImperialSpearman skill counter
 
 set ImperialSpearRider_R base hp +2
 set ImperialSpearRider_R base defense +2
@@ -2535,6 +2542,7 @@ set ImperialSpearRider_R skill charisma
 set ImperialSpearRider_R skill adept
 set ImperialSpearRider_R skill hide
 set ImperialSpearRider_R skill pursuit
+set ImperialSpearRider_R skill counter
 
 set ImperialSpearRider base hp +2
 set ImperialSpearRider base defense +2
