@@ -624,6 +624,7 @@ set leon skill robbery
 set leon skill hide
 set leon skill battlecry
 set leon skill adept
+set leon skill parry
 
 set sherlock skill aim 
 set sherlock skill canto
