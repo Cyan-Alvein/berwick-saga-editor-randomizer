@@ -647,11 +647,10 @@ set sherlock skill windsweep
 set sherlock skill sunder
 set sherlock skill maim
 set sherlock skill huntsman
-set sherlock skill counter
-set sherlock skill celerity
 set sherlock skill hide
 set sherlock skill robbery
 set sherlock skill adept
+set sherlock skill pursuit
 set sherlock skill guard
 
 set izerna skill blessing
@@ -2848,7 +2847,7 @@ set Bowman skill aim
 set Bowman skill camouflage
 set Bowman skill Doubleshot
 set Bowman skill charisma
-set Bowman skill counter
+set Bowman skill pursuit
 set Bowman skill hide
 set Bowman skill adept
 	
@@ -2861,7 +2860,7 @@ set BowRider skill aim
 set BowRider skill camouflage
 set BowRider skill DoubleShot
 set BowRider skill charisma
-set BowRider skill counter
+set BowRider skill pursuit
 set BowRider skill hide
 set BowRider skill adept
 
@@ -2900,7 +2899,7 @@ set ImperialBowman skill aim
 set ImperialBowman skill camouflage
 set ImperialBowman skill DoubleShot
 set ImperialBowman skill charisma
-set ImperialBowman skill counter
+set ImperialBowman skill pursuit
 set ImperialBowman skill hide
 set ImperialBowman skill adept
 
@@ -2913,7 +2912,7 @@ set ImperialBowRider_R skill aim
 set ImperialBowRider_R skill camouflage
 set ImperialBowRider_R skill DoubleShot
 set ImperialBowRider_R skill charisma
-set ImperialBowRider_R skill counter
+set ImperialBowRider_R skill pursuit
 set ImperialBowRider_R skill hide
 set ImperialBowRider_R skill adept
 
@@ -2926,7 +2925,7 @@ set ImperialBowRider skill aim
 set ImperialBowRider skill camouflage
 set ImperialBowRider skill DoubleShot
 set ImperialBowRider skill charisma
-set ImperialBowRider skill counter
+set ImperialBowRider skill pursuit
 set ImperialBowRider skill hide
 set ImperialBowRider skill adept
 
@@ -2965,7 +2964,7 @@ set Marksman skill aim
 set Marksman skill camouflage
 set Marksman skill DoubleShot
 set Marksman skill charisma
-set Marksman skill counter
+set Marksman skill pursuit
 set Marksman skill hide
 set Marksman skill adept
 
@@ -2979,7 +2978,7 @@ set ImperialMarksman skill aim
 set ImperialMarksman skill camouflage
 set ImperialMarksman skill DoubleShot
 set ImperialMarksman skill charisma
-set ImperialMarksman skill counter
+set ImperialMarksman skill pursuit
 set ImperialMarksman skill hide
 set ImperialMarksman skill adept
 
@@ -3043,7 +3042,7 @@ set Ruffian_R skill aim
 set Ruffian_R skill charisma
 set Ruffian_R skill doubleshot
 set Ruffian_R skill hide
-set Ruffian_R skill counter
+set Ruffian_R skill pursuit
 
 set Ruffian base hp +2
 set Ruffian base defense +2
@@ -3059,7 +3058,7 @@ set Ruffian skill charisma
 set Ruffian skill shieldfaire
 set Ruffian skill doubleshot
 set Ruffian skill hide
-set Ruffian skill counter
+set Ruffian skill pursuit
 
 set Pickpocket base hp +2
 set Pickpocket base defense +2
@@ -3219,7 +3218,7 @@ set RogueArcher skill camouflage
 set RogueArcher skill adept
 set RogueArcher skill DoubleShot
 set RogueArcher skill charisma
-set RogueArcher skill counter
+set RogueArcher skill pursuit
 set RogueArcher skill hide
 
 set RogueGunner base hp +2
@@ -3648,7 +3647,7 @@ set Pirate skill hide
 set Horseman skill aim
 set Horseman skill Tripleshot
 set Horseman skill doubleshot
-set Horseman skill counter
+set Horseman skill pursuit
 set Horseman skill hide
 set Horseman skill adept
 
@@ -3656,18 +3655,18 @@ set BowKnight_R skill DoubleShot
 set BowKnight_R skill Tripleshot
 set BowKnight_R skill hide
 set BowKnight_R skill adept
-set BowKnight_R skill counter
+set BowKnight_R skill pursuit
 
 set BowKnight skill DoubleShot
 set BowKnight skill Tripleshot
 set BowKnight skill hide
 set BowKnight skill adept
-set BowKnight skill counter
+set BowKnight skill pursuit
 
 set Horseman_R skill aim
 set Horseman_R skill Tripleshot
 set Horseman_R skill doubleshot
-set Horseman_R skill counter
+set Horseman_R skill pursuit
 set Horseman_R skill hide
 set Horseman_R skill adept
 
@@ -3741,17 +3740,14 @@ set LanceKnight2_R skill throw
 set LanceKnight2_R skill hide
 set LanceKnight2_R skill adept
 
-set LanceKnight2 skill vantage
 set LanceKnight2 skill throw
 set LanceKnight2 skill hide
 set LanceKnight2 skill adept
 
-set LanceKnight skill vantage
 set LanceKnight skill throw
 set LanceKnight skill hide
 set LanceKnight skill adept
 
-set LanceKnight_R skill vantage
 set LanceKnight_R skill throw
 set LanceKnight_R skill hide
 set LanceKnight_R skill adept
