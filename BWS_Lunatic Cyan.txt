@@ -485,12 +485,8 @@ set lynette base sword +20
 set lynette base bow +20
 
 set paramythis item 0 HolyMace 101
-set paramythis item 2 Bag 0
+set paramythis item 2 PeerlessBrace 101
 set paramythis item 3 Bag 0
-set paramythis item 4 Bag 0
-set paramythis item 5 Bag 0
-set paramythis item 6 PeerlessBrace 101
-set paramythis item 7 Bag 0
 set paramythis base sword +25
 set paramythis base light +25
 
