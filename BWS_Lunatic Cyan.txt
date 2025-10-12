@@ -12,10 +12,6 @@
 
 /////////////////////////////////////////////README - Most Important Changes//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Vantage on ruby, Counter on Arthur, Adept Pursuit Astra Celerity on Faye Faramir Volo, Adept Pursuit DoubleShot Tripleshot Vantage on Sylvis Esteban
-
-//Steal on Esteban Axel Czene, Robbery Hury Flourish windsweep on everyone ...
-
 // pitchfork & MilitaryFork got cripple-x2
 
 // Pike, Longspear, Altium, Gastraphetes, BastardSword & all lance weapons got cripple-x2
@@ -209,7 +205,7 @@ set Daoud item 3 Treasure 101
 set Daoud item 4 Treasure 101 
 set Daoud item 5 Treasure 101 
 set Daoud item 6 Treasure 101 
-set Daoud item 7 Bag 0
+set Daoud item 7 Treasure 101 
 set Daoud base axe +10
 set Daoud base sshield +15
 set Daoud base mshield +15
@@ -233,7 +229,7 @@ set FlameFencer growth thunder 90
 
 set marcel growth sword 60
 set marcel growth Lshield 60
-set Marcel item 2 BastardSword 101
+set Marcel item 2 Bag 0
 set Marcel item 3 Bag 0
 set Marcel item 4 Bag 0
 set Marcel item 5 WideShield 101
@@ -243,9 +239,9 @@ set Marcel base sword +15
 set Marcel base lshield +15
 
 set alvina item 4 LadyMShd 101
-set alvina item 5 LadyShield 101
-set alvina item 6 LadySword 101
-set alvina item 7 Javelin 6
+set alvina item 5 Treasure 101
+set alvina item 6 Bag 0
+set alvina item 7 Bag 0
 set alvina base sword +25
 set alvina base spear +25
 set alvina base sshield +25
@@ -282,7 +278,7 @@ set kramer item 2 Bag 0
 set kramer item 3 Bag 0
 set kramer item 4 FeatherBrace 101
 set kramer item 5 MuscleBrace 101
-set kramer item 6 BastardSword 101
+set kramer item 6 Altium 101
 set kramer item 7 Bag 0
 set kramer base sword +15
 
@@ -307,7 +303,7 @@ set faye base sword +15
 set sylvis item 0 Bag 0
 set sylvis item 1 CompositeBow 101
 set sylvis item 2 SteelArrow+ 20
-set sylvis item 3 Apeiron 101
+set sylvis item 3 Treasure 101
 set sylvis item 4 IronArrow+ 20
 set sylvis item 5 BodkinArrow 20
 set sylvis item 6 Bag 0
@@ -377,11 +373,10 @@ set volo base sword +25
 
 set sherpa growth sword 90
 set Sherpa item 1 BastardSword 101
-set Sherpa item 2 BronzeSword 101
-set Sherpa item 3 Glaive 101
-set Glaive effect kill-horse
+set Sherpa item 2 Shortsword 101
+set Sherpa item 3 Treasure 101
 set Sherpa item 4 Bag 0
-set Sherpa item 5 Claymore 101
+set Sherpa item 5 Treasure 101
 set Sherpa item 6 Albatross 101
 set Sherpa item 7 Bag 0
 set Sherpa base sword +15
@@ -409,8 +404,8 @@ set axel growth axe 40
 
 set larentia item 2 LadySword 101
 set larentia item 3 Pilum 6
-set larentia item 4 ImperialSpear 101
-set larentia item 5 Shortsword 101
+set larentia item 4 Treasure 101
+set larentia item 5 Treasure 101
 set larentia item 6 Bag 0
 set larentia item 7 Bag 0
 set larentia growth sword 40
@@ -432,7 +427,7 @@ set Owen base fire +10
 set Owen base wind +10
 set Owen base thunder +10
 set Owen base light +10
-set Owen base dark +40
+set Owen base dark +50
 set RazeMonkOwen base dark +50
 set RazeMonkOwen growth dark 90
 set RazeMonkOwen base fire +30
@@ -486,6 +481,7 @@ set lynette base bow +20
 set paramythis item 0 HolyMace 101
 set paramythis item 2 PeerlessBrace 101
 set paramythis item 3 Bag 0
+set paramythis item 4 Treasure 101
 set paramythis base sword +25
 set paramythis base light +25
 
@@ -662,6 +658,8 @@ set czene skill evasion
 set czene skill windsweep
 set czene skill sunder
 set czene skill fortune
+set czene skill deathmatch
+set czene skill celerity
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -914,8 +912,9 @@ set thaddy skill guard
 set thaddy skill windsweep
 set thaddy skill sunder
 set thaddy skill celerity
+set thaddy skill deathmatch
 
-//set esteban skill aim 
+set esteban skill aim 
 set esteban skill camouflage
 set esteban skill canto
 set esteban skill deadeye
@@ -956,6 +955,7 @@ set faye skill maim
 set faye skill robbery
 set faye skill hide
 set faye skill watchful
+set faye skill celerity
 //set faye skill pulverize
 
 set faramir skill aim
@@ -1002,6 +1002,7 @@ set volo skill parry
 set volo skill robbery
 set volo skill hide
 set volo skill watchful
+set volo skill celerity
 //set volo skill pulverize
 set volo skill astra
 
@@ -1065,6 +1066,7 @@ set larentia skill maim
 set larentia skill robbery
 set larentia skill hide
 set larentia skill parry
+set larentia skill windsweep
 
 set owen skill adept
 set owen skill blessing
@@ -2193,7 +2195,7 @@ set GuardBrace stat defense 2
 set SpiritBrace stat magic 2
 //set EagleBrace stat hit 5
 
-set TigerBrace stat hit 15
+//set TigerBrace stat hit 10
 set GiantsBrace stat strength 3
 set PhoenixBrace stat defense 3
 set PegasusBrace stat speed 3
@@ -3665,3 +3667,4 @@ set Arrow++ stat might 8
 //disarm-rate don't work
 //Increase Christine arrow mastery at rank up didn't work --set ArrowKnight_R base sword +30
 //Increase Ruby & Reese MShield mastery at rank up didn't work
+//set Glaive effect kill-horse
