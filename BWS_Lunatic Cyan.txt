@@ -1,5 +1,5 @@
 //Hi, this script was made by Cyan Alvein, Most changes are written in these comments.
-//It took me more than 8 months to made this, fixing all bugs, testing all possibilities by replaying the patched games many times (Yeah I love this game too much), managing character balances so someone (Faye Dean Ruby Derrick...) aren't too OP
+//It took me more than a year to make this, fixing all bugs, testing all possibilities by replaying the patched games many times (Yeah I love this game too much), managing character balance so someone (Faye Dean Ruby Derrick...) aren't too OP
 
 
 // If you wanna tip me:
