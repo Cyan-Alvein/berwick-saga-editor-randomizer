@@ -453,9 +453,7 @@ set burroughs base crossbow +20
 
 set derrick growth axe 40
 set derrick growth lshield 30
-set derrick growth hp 30
-set derrick growth defense 22
-set derrick growth strength 20
+set derrick growth defense 12
 set Derrick item 0 ImperialAxe 101
 set Derrick item 2 GigasAxe 101
 set Derrick item 3 HandAxe 6
@@ -477,7 +475,7 @@ set saphira growth holy 90
 set saphira base holy +15
 
 set lynette item 3 LiquidMagic 1
-set lynette item 4 Arrow++ 20
+set lynette item 4 DireThunder 20
 set lynette item 5 SteelArrow+ 20
 set lynette item 6 MithrilArrow 20
 set lynette item 7 LadySword 101
@@ -522,7 +520,6 @@ set ward skill robust
 set ward skill maim
 set ward skill robbery
 set ward skill hide
-set ward skill battlecry
 	
 set elbert skill arrowbane
 set elbert skill canto
@@ -540,7 +537,6 @@ set elbert skill desperation
 set elbert skill maim
 set elbert skill robbery
 set elbert skill hide
-set elbert skill battlecry
 
 set christine skill aim
 set christine skill armsthrift
@@ -562,7 +558,6 @@ set christine skill huntsman
 set christine skill hide
 set christine skill onetwo
 set christine skill robbery
-set christine skill battlecry
 
 set adel skill canto
 set adel skill counter 
@@ -603,7 +598,6 @@ set leon skill throw
 set leon skill maim
 set leon skill robbery
 set leon skill hide
-set leon skill battlecry
 set leon skill adept
 set leon skill parry
 
@@ -620,7 +614,6 @@ set sherlock skill overwatch
 set sherlock skill scotopic 
 set sherlock skill watchful 
 set sherlock skill doubleshot
-set sherlock skill battlecry
 set sherlock skill prepared
 set sherlock skill maim
 set sherlock skill huntsman
@@ -758,7 +751,6 @@ set marcel skill maim
 set marcel skill robbery
 //set marcel skill pulverize
 set marcel skill hide
-set marcel skill battlecry
 
 set alvina skill adept
 set alvina skill canto
@@ -1109,7 +1101,6 @@ set derrick skill hurry
 set derrick skill mercy
 set derrick skill prepared
 set derrick skill throw
-set derrick skill battlecry
 set derrick skill desperation
 set derrick skill paragon
 set derrick skill robust
@@ -1209,7 +1200,7 @@ set Gram stat level 20
 set Blizzard stat max-range 2
 set AirBlade stat max-range 2
 set PallasRiana stat level 20
-set PallasRiana stat uses 60
+//set PallasRiana stat uses 60
 set PallasRiana stat max-range 3
 set Windstorm stat max-range 2
 
@@ -1227,7 +1218,7 @@ set PallasSerenia stat max-range 3
 
 set Physic stat max-range 5
 set Holy stat might 5
-set Holy stat uses 20
+//set Holy stat uses 20
 set holy effect cripple-x2
 set Starlight effect cripple-x2
 set Starlight stat max-range 2
@@ -2392,7 +2383,6 @@ set Spearman skill throw
 set Spearman skill camouflage
 set Spearman skill charisma
 set Spearman skill adept
-set Spearman skill vantage
 set Spearman skill hide
 
 set SpearRider_R base hp +2
@@ -2470,7 +2460,6 @@ set Farmer skill throw
 set Farmer skill camouflage
 set Farmer skill charisma
 set Farmer skill adept
-set Farmer skill vantage
 set Farmer skill hide
 
 set VerianKnight_R base hp +2
@@ -2963,7 +2952,6 @@ set Rogue skill canto
 set Rogue skill camouflage
 set Rogue skill charisma
 set Rogue skill hide
-set Rogue skill vantage
 
 set RazeMonk base hp +2
 set RazeMonk base defense +2
