@@ -509,7 +509,6 @@ set reese skill deathmatch
 set reese skill robbery
 set reese skill hide
 
-set ward skill arrowbane
 set ward skill canto
 set ward skill flourish
 set ward skill guard
@@ -523,6 +522,7 @@ set ward skill robust
 set ward skill maim
 set ward skill robbery
 set ward skill hide
+set ward skill counter
 	
 set elbert skill arrowbane
 set elbert skill canto
@@ -555,6 +555,7 @@ set christine skill prepared
 set christine skill watchful 
 set christine skill guard
 set christine skill vantage
+set christine skill adept
 set christine skill counter
 set christine skill maim
 set christine skill huntsman
@@ -891,7 +892,7 @@ set sylvis skill scotopic
 set sylvis skill huntsman
 set sylvis skill robbery
 set sylvis skill adept
-set sylvis skill doubleshot
+set sylvis skill tripleshot
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -935,6 +936,7 @@ set esteban skill mug2
 set esteban skill overwatch
 set esteban skill prepared
 set esteban skill adept
+set esteban skill doubleshot
 set esteban skill scotopic 
 set esteban skill steal
 set esteban skill watchful
@@ -968,6 +970,7 @@ set faye skill celerity
 set faramir skill aim
 set faramir skill canto
 set faramir skill celerity
+set faramir skill deathmatch
 set faramir skill deadeye
 set faramir skill flourish
 set faramir skill guard
@@ -1117,7 +1120,6 @@ set derrick skill paragon
 set derrick skill robust
 set derrick skill maim
 set derrick skill shieldfaire
-set derrick skill counter
 set derrick skill robbery
 //set derrick skill pulverize
 set derrick skill hide
@@ -2640,6 +2642,7 @@ set General skill camouflage
 set General skill charisma
 set General skill adept
 set General skill hide
+set General skill counter
 
 // This may be Larentia Stat too
 set WyvernKnight_R skill canto
@@ -3572,6 +3575,7 @@ set LanceKnight skill hide
 set LanceKnight_R skill throw
 set LanceKnight_R skill hide
 
+set Guardian skill counter
 set Guardian skill Shieldfaire
 set Guardian skill hide
 
