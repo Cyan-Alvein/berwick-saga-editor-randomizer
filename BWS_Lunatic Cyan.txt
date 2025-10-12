@@ -821,6 +821,7 @@ set kramer skill robbery
 set kramer skill hide
 set kramer skill fortune
 set kramer skill provoke
+set kramer skill battlecry
 
 set sherpa skill canto
 set sherpa skill climber
@@ -843,6 +844,7 @@ set sherpa skill adept
 set sherpa skill hide
 set sherpa skill fortune
 set sherpa skill provoke
+set sherpa skill battlecry
 
 set dean skill adept
 set dean skill axeguard
