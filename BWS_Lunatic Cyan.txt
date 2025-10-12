@@ -1048,7 +1048,6 @@ set axel skill knockaway
 set axel skill watchful
 set axel skill counter
 set axel skill vengeful
-set axel skill fortune
 
 set larentia skill adept
 set larentia skill canto
@@ -1171,7 +1170,6 @@ set paramythis skill resistor
 set paramythis skill robbery
 set paramythis skill hide
 set paramythis skill watchful
-set paramythis skill fortune
 
 
 // prfs
