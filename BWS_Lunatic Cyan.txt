@@ -1,6 +1,6 @@
 //Hi, this script was made by Cyan Alvein, Most changes are written in these comments.
 //It took me more than a year to make this, fixing all bugs, testing all possibilities by replaying the patched games many times (Yeah I love this game too much), managing character balance so someone (Faye Dean Ruby Derrick...) aren't too OP
-
+//This file link : https://github.com/Cyan-Alvein/berwick-saga-editor-randomizer/blob/main/BWS_Lunatic%20Cyan.txt
 
 // If you wanna tip me:
 //My monero address is: 473xfHS4yyyRsyv2bhSMBHUSm1VHtXDkM677oV8iMtruBjuRrN3YuXQAqEADq3THEwWoYoSZjz2D57826daXMSdXSyrCzh7
@@ -168,7 +168,7 @@ set izerna item 1 Soothe 20
 set izerna item 2 BlessedBrace 101
 set izerna item 3 Mend 20
 set izerna item 4 Physic 15
-set izerna item 5 holy 20
+set izerna item 5 holy 10
 set izerna item 6 Bag 0
 set izerna item 7 Rehabilitate 10
 set izerna growth holy 80
@@ -284,7 +284,7 @@ set kramer item 2 Bag 0
 set kramer item 3 Bag 0
 set kramer item 4 FeatherBrace 101
 set kramer item 5 MuscleBrace 101
-set kramer item 6 Altium 101
+set kramer item 6 AltiumSword 101
 set kramer item 7 Bag 0
 set kramer base sword +15
 
@@ -466,7 +466,7 @@ set Derrick item 7 Bag 0
 set Derrick base axe +15
 set Derrick base lshield +15
 
-set saphira item 1 Holy 20
+set saphira item 1 Holy 10
 set saphira item 2 Bag 0
 set saphira item 3 LightRing 101
 set saphira item 4 Physic 15
@@ -1963,7 +1963,7 @@ Set VerianSShd Stat Weight 2
 set OldImpSShd stat Weight 4
 set ImpSoldierSShd stat Weight 2
 set ImpSoldierSShd+ stat Weight 2
-set ImpOfficerSShd stat weight 2
+set ImpOfficerSShd stat weight 3
 set ImpKnightSShd stat weight 3
 
 set ShiningShield Stat Cost 5000
