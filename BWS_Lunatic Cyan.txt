@@ -1,6 +1,5 @@
 //Hi, this script was made by Cyan Alvein, Most changes are written in these comments.
 //It took me more than a year to make this, fixing all bugs, testing all possibilities by replaying the patched games many times (Yeah I love this game too much), managing character balance so someone (Faye Dean Ruby Derrick...) aren't too OP
-//This file link : https://github.com/Cyan-Alvein/berwick-saga-editor-randomizer/blob/main/BWS_Lunatic%20Cyan.txt
 
 // If you wanna tip me:
 //My monero address is: 473xfHS4yyyRsyv2bhSMBHUSm1VHtXDkM677oV8iMtruBjuRrN3YuXQAqEADq3THEwWoYoSZjz2D57826daXMSdXSyrCzh7
@@ -2731,6 +2730,7 @@ set Bowman skill Doubleshot
 set Bowman skill charisma
 set Bowman skill hide
 set Bowman skill adept
+set Bowman skill watchful
 	
 set BowRider base hp +2
 set BowRider base defense +2
@@ -2743,6 +2743,7 @@ set BowRider skill DoubleShot
 set BowRider skill charisma
 set BowRider skill hide
 set BowRider skill adept
+set BowRider skill watchful
 
 set Gunner base hp +2
 set Gunner base defense +2
@@ -2755,6 +2756,7 @@ set Gunner skill vantage
 set Gunner skill charisma
 set Gunner skill hide
 set Gunner skill adept
+set Gunner skill watchful
 //set Gunner skill counter
 
 set HeavyGunner base hp +2
@@ -2768,6 +2770,7 @@ set HeavyGunner skill vantage
 set HeavyGunner skill charisma
 set HeavyGunner skill hide
 set HeavyGunner skill adept
+set HeavyGunner skill watchful
 //set HeavyGunner skill counter
 
 set ImperialBowman base hp +2
@@ -2781,6 +2784,7 @@ set ImperialBowman skill DoubleShot
 set ImperialBowman skill charisma
 set ImperialBowman skill hide
 set ImperialBowman skill adept
+set ImperialBowman skill watchful
 
 set ImperialBowRider_R base hp +2
 set ImperialBowRider_R base defense +2
@@ -2793,6 +2797,7 @@ set ImperialBowRider_R skill DoubleShot
 set ImperialBowRider_R skill charisma
 set ImperialBowRider_R skill hide
 set ImperialBowRider_R skill adept
+set ImperialBowRider_R skill watchful
 
 set ImperialBowRider base hp +2
 set ImperialBowRider base defense +2
@@ -2805,6 +2810,7 @@ set ImperialBowRider skill DoubleShot
 set ImperialBowRider skill charisma
 set ImperialBowRider skill hide
 set ImperialBowRider skill adept
+set ImperialBowRider skill watchful
 
 set ImperialGunner base hp +2
 set ImperialGunner base defense +2
@@ -2817,6 +2823,7 @@ set ImperialGunner skill vantage
 set ImperialGunner skill charisma
 set ImperialGunner skill hide
 set ImperialGunner skill adept
+set ImperialGunner skill watchful
 //set ImperialGunner skill counter
 
 set ImperialHeavyGunner base hp +2
@@ -2830,6 +2837,7 @@ set ImperialHeavyGunner skill vantage
 set ImperialHeavyGunner skill charisma
 set ImperialHeavyGunner skill hide
 set ImperialHeavyGunner skill adept
+set ImperialHeavyGunner skill watchful
 //set ImperialHeavyGunner skill counter
 
 set Marksman base hp +2
@@ -2843,6 +2851,7 @@ set Marksman skill DoubleShot
 set Marksman skill charisma
 set Marksman skill hide
 set Marksman skill adept
+set Marksman skill watchful
 
 set ImperialMarksman base hp +2
 set ImperialMarksman base defense +2
@@ -2856,6 +2865,7 @@ set ImperialMarksman skill DoubleShot
 set ImperialMarksman skill charisma
 set ImperialMarksman skill hide
 set ImperialMarksman skill adept
+set ImperialMarksman skill watchful
 
 set Warrior base hp +2
 set Warrior base defense +2
@@ -2909,6 +2919,7 @@ set Ruffian_R skill aim
 set Ruffian_R skill charisma
 set Ruffian_R skill doubleshot
 set Ruffian_R skill hide
+set Ruffian_R skill watchful
 
 set Ruffian base hp +2
 set Ruffian base defense +2
@@ -2924,6 +2935,7 @@ set Ruffian skill charisma
 set Ruffian skill shieldfaire
 set Ruffian skill doubleshot
 set Ruffian skill hide
+set Ruffian skill watchful
 
 set Pickpocket base hp +2
 set Pickpocket base defense +2
@@ -3095,6 +3107,7 @@ set RogueGunner skill vantage
 set RogueGunner skill charisma
 set RogueGunner skill adept
 set RogueGunner skill hide
+set RogueGunner skill watchful
 //set RogueGunner skill counter
 
 set RogueWarrior base hp +2
@@ -3240,6 +3253,7 @@ set Huntress skill camouflage
 set Huntress skill charisma
 set Huntress skill hide
 set Huntress skill counter
+set Huntress skill watchful
 
 set DragonKnight_R base hp +2
 set DragonKnight_R base defense +2
@@ -3417,6 +3431,7 @@ set Grassrunner_R skill vantage
 set Grassrunner_R skill throw
 set Grassrunner_R skill pursuit
 set Grassrunner_R skill hide
+set Grassrunner_R skill watchful
 
 //Will fuck Czene Stat on rankup
 set Grassrunner skill adept
@@ -3426,6 +3441,7 @@ set Grassrunner skill vantage
 set Grassrunner skill throw
 set Grassrunner skill pursuit
 set Grassrunner skill hide
+set Grassrunner skill watchful
 
 set Priest skill blessing
 set Priest skill camouflage
@@ -3436,6 +3452,7 @@ set Priest skill miracle
 set Priest skill charisma
 set Priest skill adept
 set Priest skill hide
+set Priest skill watchful
 
 set Bishop skill adept
 set Bishop skill blessing
@@ -3443,7 +3460,7 @@ set Bishop skill camouflage
 set Bishop skill canto
 set Bishop skill imbue
 set Bishop skill versatile
-set Bishop skill hide
+set Bishop skill watchful
 
 //thaddy stat
 set Thief_M skill camouflage 
@@ -3454,6 +3471,7 @@ set Thief_M skill throw
 set Thief_M skill pursuit
 set Thief_M skill fortune
 set Thief_M skill hide
+set Thief_M skill watchful
 
 set Axefighter skill adept
 set Axefighter skill canto
@@ -3467,6 +3485,7 @@ set Swordfighter_M skill fortune
 set Swordfighter_M skill parry
 set Swordfighter_M skill hide
 set Swordfighter_M skill counter
+set Swordfighter_M skill watchful
 
 set Swordmaster skill adept
 set Swordmaster skill canto
@@ -3477,6 +3496,7 @@ set Swordmaster skill fortune
 set Swordmaster skill maim
 set Swordmaster skill hide
 set Swordmaster skill counter
+set Swordmaster skill watchful
 
 set SwordKnight_R skill armsthrift
 set SwordKnight_R skill hide
@@ -3495,24 +3515,28 @@ set Horseman skill doubleshot
 set Horseman skill hide
 set Horseman skill watchful
 set Horseman skill adept
+set Horseman skill watchful
 
 set BowKnight_R skill DoubleShot
 set BowKnight_R skill hide
 set BowKnight_R skill watchful
 set BowKnight_R skill adept
 set BowKnight_R skill aim
+set BowKnight_R skill watchful
 
 set BowKnight skill DoubleShot
 set BowKnight skill hide
 set BowKnight skill adept
 set BowKnight skill watchful
 set BowKnight skill aim
+set BowKnight skill watchful
 
 set Horseman_R skill aim
 set Horseman_R skill doubleshot
 set Horseman_R skill hide
 set Horseman_R skill watchful
 set Horseman_R skill adept
+set Horseman_R skill watchful
 
 set SpearKnight skill hide
 
@@ -3537,6 +3561,7 @@ set Myrmidon skill iaido
 set Myrmidon skill parry
 set Myrmidon skill hide
 set Myrmidon skill counter
+set Myrmidon skill watchful
 
 //Daoud Stat
 set AxeSoldier skill throw
@@ -3556,6 +3581,7 @@ set Hunter skill adept
 set Hunter skill hide
 set Hunter skill watchful
 set Hunter skill aim
+set Hunter skill watchful
 
 //Kramer Stat
 set Mercenary skill adept
@@ -3585,6 +3611,7 @@ set LadyKnight_R skill canto
 set LadyKnight_R skill prepared
 set LadyKnight_R skill vantage
 set LadyKnight_R skill hide
+set LadyKnight_R skill watchful
 
 set LadyKnight skill aim
 set LadyKnight skill armsthrift
@@ -3592,6 +3619,7 @@ set LadyKnight skill canto
 set LadyKnight skill prepared
 set LadyKnight skill vantage
 set LadyKnight skill hide
+set LadyKnight skill watchful
 
 set ArrowKnight_R skill aim
 set ArrowKnight_R skill armsthrift
@@ -3599,6 +3627,7 @@ set ArrowKnight_R skill canto
 set ArrowKnight_R skill prepared
 set ArrowKnight_R skill vantage
 set ArrowKnight_R skill hide
+set ArrowKnight_R skill watchful
 
 set ArrowKnight skill aim
 set ArrowKnight skill armsthrift
@@ -3606,6 +3635,7 @@ set ArrowKnight skill canto
 set ArrowKnight skill prepared
 set ArrowKnight skill vantage
 set ArrowKnight skill hide
+set ArrowKnight skill watchful
 
 set Berserker skill maim
 set Berserker skill hide
