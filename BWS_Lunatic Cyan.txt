@@ -1936,7 +1936,7 @@ set ShiningShield stat might 7
 Set VerianSShd Stat might 4
 set OldImpSShd stat might 4
 set ImpSoldierSShd stat might 4
-set ImpSoldierSShd+ stat might 4
+set ImpSoldierSShd++ stat might 4
 set ImpOfficerSShd stat might 5
 set ImpKnightSShd stat might 6
 set Perseid stat might 7
@@ -1961,7 +1961,7 @@ set ShiningShield stat Weight 3
 Set VerianSShd Stat Weight 2
 set OldImpSShd stat Weight 4
 set ImpSoldierSShd stat Weight 2
-set ImpSoldierSShd+ stat Weight 2
+set ImpSoldierSShd++ stat Weight 2
 set ImpOfficerSShd stat weight 3
 set ImpKnightSShd stat weight 3
 
@@ -1976,7 +1976,7 @@ set Vollenden stat accuracy 80
 set OldImpSShd stat accuracy 30
 set VerianSShd stat accuracy 40
 set ImpSoldierSShd stat accuracy 40
-set ImpSoldierSShd+ stat accuracy 50
+set ImpSoldierSShd++ stat accuracy 50
 set FireShield stat accuracy 50
 set ThunderShield stat accuracy 50
 set LightShield stat accuracy 50
@@ -1986,7 +1986,7 @@ set Windshield stat accuracy 50
 set VerianSShd stat durability D
 set OldImpSShd stat durability E
 set ImpSoldierSShd stat durability D
-set ImpSoldierSShd+ stat durability D
+set ImpSoldierSShd++ stat durability D
 set ImpOfficerSShd stat durability D
 set ImpKnightSShd stat durability D
 set RoundShield stat durability B
@@ -1998,7 +1998,6 @@ set DarkShield stat durability C
 set MithrilShield stat durability A
 set ShiningShield stat durability A
 set LadyShield stat durability B
-set ImpSoldierSShd+ stat durability D
 
 set ImpKnightSShd stat cost 1000
 
