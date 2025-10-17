@@ -3485,6 +3485,7 @@ set Swordfighter_M skill parry
 set Swordfighter_M skill hide
 set Swordfighter_M skill counter
 set Swordfighter_M skill watchful
+set Swordfighter_M skill celerity
 
 set Swordmaster skill adept
 set Swordmaster skill canto
@@ -3496,6 +3497,7 @@ set Swordmaster skill maim
 set Swordmaster skill hide
 set Swordmaster skill counter
 set Swordmaster skill watchful
+set Swordmaster skill celerity
 
 set SwordKnight_R skill armsthrift
 set SwordKnight_R skill hide
@@ -3561,6 +3563,7 @@ set Myrmidon skill parry
 set Myrmidon skill hide
 set Myrmidon skill counter
 set Myrmidon skill watchful
+set Myrmidon skill celerity
 
 //Daoud Stat
 set AxeSoldier skill throw
