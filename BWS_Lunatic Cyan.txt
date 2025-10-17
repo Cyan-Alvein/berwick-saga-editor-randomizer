@@ -1753,7 +1753,7 @@ set GigasAxe stat cost 3000
 
 // bows
 
-set KillerArrow stat might 8
+//set KillerArrow stat might 8
 set PoisonArrow stat might 5
 set SleepArrow stat might 5
 set BroadheadArrow stat might 5
