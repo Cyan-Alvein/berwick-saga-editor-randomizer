@@ -1493,7 +1493,7 @@ set Partisan stat accuracy 50
 set Pike stat accuracy 60
 set MithrilSpear stat accuracy 60
 set SteelSpear stat accuracy 60
-set Brionac stat accuracy 60
+set Brionac stat accuracy 70
 set Harpoon stat accuracy 60
 set PrototypeSpear stat accuracy 60
 set KillerSpear stat accuracy 70
@@ -1525,7 +1525,7 @@ set Euthyphro stat Weight 7
 set Javelin stat Weight 8
 set Partisan stat Weight 10
 set Angon stat Weight 6
-set Brionac stat Weight 7
+set Brionac stat Weight 5
 set SwiftSpear stat Weight 10
 set Fauchard stat Weight 7
 
