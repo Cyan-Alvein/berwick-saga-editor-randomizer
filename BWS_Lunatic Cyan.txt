@@ -504,7 +504,6 @@ set reese skill mercy
 set reese skill robust
 set reese skill paragon
 set reese skill Prepared
-set reese skill deathmatch
 set reese skill robbery
 set reese skill hide
 
@@ -666,6 +665,7 @@ set czene skill windsweep
 set czene skill sunder
 set czene skill fortune
 set czene skill celerity
+set czene skill deathmatch
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -1093,7 +1093,6 @@ set owen skill hide
 set owen skill battlecry
 
 set burroughs skill armsthrift
-set burroughs skill arrowbane 
 set burroughs skill battlecry
 set burroughs skill canto
 set burroughs skill expert 
@@ -3582,7 +3581,6 @@ set Hunter skill adept
 set Hunter skill hide
 set Hunter skill watchful
 set Hunter skill aim
-set Hunter skill watchful
 
 //Kramer Stat
 set Mercenary skill adept
@@ -3647,6 +3645,82 @@ set FlameFencer skill hide
 set VeteranKnight_R skill hide
 
 set VeteranKnight skill hide
+
+//Commander to ennemy
+set Spearman skill commander
+set SpearRider_R skill commander
+set SpearRider skill commander
+set ImperialSpearman skill commander
+set ImperialSpearRider_R skill commander
+set ImperialSpearRider skill commander
+set Farmer skill commander
+set VerianKnight_R skill commander
+set VerianKnight skill commander
+set VerianKnight2_R skill commander
+set VerianKnight2 skill commander
+set ImperialKnight_R skill commander
+set ImperialKnight skill commander
+set ImperialPaladin_R skill commander
+set ImperialPaladin skill commander
+set HighKnight_R skill commander
+set HighKnight skill commander
+set HighKnight2_R skill commander
+set HighKnight2 skill commander
+set General skill commander
+set WyvernLord_R skill commander
+set WyvernLord skill commander
+set Axeman skill commander
+set ImperialAxeman skill commander
+set AxeGuard skill commander
+set Bowman skill commander
+set BowRider skill commander
+set Gunner skill commander
+set HeavyGunner skill commander
+set ImperialBowman skill commander
+set ImperialBowRider_R skill commander
+set ImperialBowRider skill commander
+set ImperialGunner skill commander
+set ImperialHeavyGunner skill commander
+set Marksman skill commander
+set ImperialMarksman skill commander
+set Warrior skill commander
+set Bandit skill commander
+set Corsair skill commander
+set Ruffian_R skill commander
+set Ruffian skill commander
+set Pickpocket skill commander
+set Outlaw skill commander
+set Assassin skill commander
+set Rogue skill commander
+set RazeMonk skill commander
+set RazePriest skill commander
+set RazeBishop skill commander
+set RogueGuard skill commander
+set RogueArcher skill commander
+set RogueGunner skill commander
+set RogueWarrior skill commander
+set SnowBandit skill commander
+set Barbarian skill commander
+set Duke skill commander
+set Scoundrel skill commander
+set RazeWarMonk2 skill commander
+set FailedPoet skill commander
+set RazeBishop2 skill commander
+set King skill commander
+set Captain skill commander
+set DragonKnight_R skill commander
+set DragonKnight skill commander
+set WarMonk skill commander
+set Flamewyrm skill commander
+set BlackRider_R skill commander
+set BlackRider skill commander
+set GigasKnight skill commander
+set Transporter skill commander
+set Chief skill commander
+set Icewyrm skill commander
+set Levinwyrm skill commander
+set Wyvern skill commander
+set Aristocrat skill commander
 
 //supporter to ennemy
 set Spearman skill supporter
