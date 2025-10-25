@@ -164,7 +164,7 @@ set sherlock item 7 Treasure 101
 set sherlock base bow +15
 
 set izerna item 1 Soothe 20
-set izerna item 2 BlessedBrace 1
+set izerna item 2 BlessedBrace 101
 set izerna item 3 Mend 20
 set izerna item 4 Physic 15
 set izerna item 5 holy 10
@@ -281,8 +281,8 @@ set kramer item 0 Longsword 101
 set kramer item 1 Shortsword 101
 set kramer item 2 Bag 0
 set kramer item 3 Bag 0
-set kramer item 4 FeatherBrace 1
-set kramer item 5 MuscleBrace 1
+set kramer item 4 FeatherBrace 101
+set kramer item 5 MuscleBrace 101
 set kramer item 6 AltiumSword 1
 set kramer item 7 Bag 0
 set kramer base sword +15
@@ -292,11 +292,11 @@ set dean item 3 BattleAxe 101
 set dean item 4 Bag 0
 set dean item 5 Bag 0
 set dean item 6 Bag 0
-set dean item 7 GamblersBrace 1
+set dean item 7 GamblersBrace 101
 set dean base axe +15
 //set dean growth axe 90
 
-set faye item 2 GiantsBrace 1
+set faye item 2 GiantsBrace 101
 set faye item 3 Shortsword 101
 set faye item 4 LadySword 101
 set faye item 5 Bag 0
@@ -323,14 +323,14 @@ set perceval item 2 Bag 0
 set perceval item 3 Bag 0
 set perceval item 4 Blizzard 15
 set perceval item 5 Lightning 15
-set perceval item 6 TigerBrace 1
+set perceval item 6 TigerBrace 101
 set perceval item 7 Windstorm 60
 //set perceval growth wind 26
 //set perceval growth thunder 90
 set perceval base thunder +15
 set perceval base wind +15
 
-set thaddy item 2 FeatherBrace 1
+set thaddy item 2 FeatherBrace 101
 set thaddy item 3 Dart 6
 set thaddy item 4 Swordbreaker 101
 set thaddy item 5 Bag 0
@@ -372,7 +372,7 @@ set volo item 2 Bag 0
 set volo item 3 Bag 0
 set volo item 4 Bag 0
 set volo item 5 BastardSword 101
-set volo item 6 PhoenixBrace 1
+set volo item 6 PhoenixBrace 101
 set volo item 7 Bag 0
 //set volo growth sword 100
 set volo base sword +25
@@ -403,7 +403,7 @@ set axel item 2 Bag 0
 set axel item 3 BattleAxe 101
 set axel item 4 Bag 0
 set axel item 5 Tomahawk 101
-set axel item 6 PegasusBrace 1
+set axel item 6 PegasusBrace 101
 set axel item 7 Treasure 101
 set axel base axe +15
 //set axel growth axe 40
@@ -485,7 +485,7 @@ set lynette base sword +20
 set lynette base bow +20
 
 set paramythis item 0 HolyMace 101
-set paramythis item 2 PeerlessBrace 1
+set paramythis item 2 PeerlessBrace 101
 set paramythis item 3 Bag 0
 set paramythis item 4 Treasure 101
 set paramythis base sword +25
@@ -505,6 +505,7 @@ set reese skill robust
 set reese skill paragon
 set reese skill Prepared
 set reese skill robbery
+set reese skill desperation
 set reese skill hide
 
 set ward skill canto
@@ -521,6 +522,7 @@ set ward skill maim
 set ward skill robbery
 set ward skill hide
 set ward skill counter
+set ward skill desperation
 	
 set elbert skill arrowbane
 set elbert skill canto
@@ -581,6 +583,7 @@ set adel skill maim
 set adel skill robust
 set adel skill robbery
 set adel skill hide
+set adel skill windsweep
 
 set leon skill canto
 set leon skill deathmatch
@@ -623,6 +626,7 @@ set sherlock skill hide
 set sherlock skill robbery
 set sherlock skill adept
 set sherlock skill guard
+set sherlock skill battlecry
 
 set izerna skill blessing
 set izerna skill canto
@@ -754,6 +758,7 @@ set marcel skill maim
 set marcel skill robbery
 //set marcel skill pulverize
 set marcel skill hide
+set marcel skill battlecry
 
 set alvina skill adept
 set alvina skill canto
@@ -769,6 +774,7 @@ set alvina skill throw
 set alvina skill maim
 set alvina skill robbery
 set alvina skill hide
+set alvina skill desperation
 
 //set ruby skill adept 
 set ruby skill axebane
@@ -783,7 +789,7 @@ set ruby skill paragon
 set ruby skill prepared 
 set ruby skill throw 
 set ruby skill vantage 
-set ruby skill deathmatch
+set ruby skill desperation
 set ruby skill maim
 set ruby skill robbery
 set ruby skill hide
@@ -825,6 +831,7 @@ set kramer skill hide
 set kramer skill fortune
 set kramer skill provoke
 set kramer skill battlecry
+set kramer skill windsweep
 
 set sherpa skill canto
 set sherpa skill climber
@@ -945,6 +952,7 @@ set esteban skill robbery
 set faye skill adept
 set faye skill counter
 set faye skill deathmatch
+set faye skill desperation
 set faye skill blade 
 set faye skill canto
 set faye skill flourish
@@ -963,12 +971,15 @@ set faye skill robbery
 set faye skill hide
 set faye skill watchful
 set faye skill celerity
+set faye skill scotopic
+set faye skill battlecry
 //set faye skill pulverize
 
 set faramir skill aim
 set faramir skill canto
 set faramir skill celerity
 set faramir skill deathmatch
+set faramir skill desperation
 set faramir skill deadeye
 set faramir skill flourish
 set faramir skill guard
@@ -989,12 +1000,14 @@ set faramir skill hide
 set faramir skill watchful
 //set faramir skill pulverize
 set faramir skill astra
+set faramir skill battlecry
 
 set volo skill adept
 set volo skill counter
 set volo skill blade
 set volo skill canto
 set volo skill deathmatch
+set volo skill desperation
 set volo skill flourish
 set volo skill hurry
 set volo skill iaido
@@ -1012,11 +1025,12 @@ set volo skill robbery
 set volo skill hide
 set volo skill watchful
 set volo skill celerity
+set volo skill battlecry
+set volo skill scotopic
 //set volo skill pulverize
 set volo skill astra
 
 set clifford skill canto
-set clifford skill counter
 set clifford skill flourish
 set clifford skill guard
 set clifford skill horselover
@@ -1068,7 +1082,6 @@ set larentia skill mercy
 set larentia skill prepared 
 set larentia skill throw
 set larentia skill watchful
-set larentia skill deathmatch
 set larentia skill desperation
 set larentia skill scotopic
 set larentia skill maim
@@ -1120,6 +1133,7 @@ set derrick skill shieldfaire
 set derrick skill robbery
 //set derrick skill pulverize
 set derrick skill hide
+set derrick skill battlecry
 
 set saphira skill blessing
 set saphira skill canto
@@ -1179,6 +1193,7 @@ set paramythis skill resistor
 set paramythis skill robbery
 set paramythis skill hide
 set paramythis skill watchful
+set paramythis skill desperation
 
 
 // prfs
@@ -3474,6 +3489,7 @@ set Axefighter skill adept
 set Axefighter skill canto
 set Axefighter skill throw
 set Axefighter skill hide
+set Axefighter skill fortune
 
 set Swordfighter_M skill adept
 set Swordfighter_M skill canto
@@ -3562,6 +3578,7 @@ set Myrmidon skill hide
 set Myrmidon skill counter
 set Myrmidon skill watchful
 set Myrmidon skill celerity
+set Myrmidon skill fortune
 
 //Daoud Stat
 set AxeSoldier skill throw
