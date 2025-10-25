@@ -2661,6 +2661,7 @@ set WyvernKnight_R skill throw
 set WyvernKnight_R skill adept
 set WyvernKnight_R skill hide
 
+// larentia stat
 set WyvernKnight skill canto
 set WyvernKnight skill throw
 set WyvernKnight skill adept
@@ -3062,6 +3063,9 @@ set RazeBishop skill vantage
 set RazeBishop skill hide
 set RazeBishop skill watchful
 
+set DarkMaster base hp +2
+set DarkMaster base defense +2
+set DarkMaster base magic +2
 set DarkMaster skill canto
 set DarkMaster skill counter
 set DarkMaster skill commander
@@ -3069,6 +3073,9 @@ set DarkMaster skill imbue
 set DarkMaster skill hide
 
 // same as kramer
+set RazeWarMonk base hp +2
+set RazeWarMonk base defense +2
+set RazeWarMonk base magic +2
 set RazeWarMonk skill focuschant
 set RazeWarMonk skill adept
 set RazeWarMonk skill canto
@@ -3081,7 +3088,7 @@ set RazeWarMonk skill hide
 set RazeWarMonk skill watchful
 set RazeWarMonk skill counter
 
-//kramer stat
+// same as kramer 
 set RogueGuard base hp +2
 set RogueGuard base defense +2
 set RogueGuard base magic +2
@@ -3466,6 +3473,7 @@ set Priest skill adept
 set Priest skill hide
 set Priest skill watchful
 
+//Owen stat
 set Bishop skill adept
 set Bishop skill blessing
 set Bishop skill camouflage 
@@ -3474,7 +3482,7 @@ set Bishop skill imbue
 set Bishop skill versatile
 set Bishop skill watchful
 
-//thaddy stat
+//thaddy stat to test, thadddy is a burglar
 set Thief_M skill camouflage 
 set Thief_M skill canto
 set Thief_M skill vantage
@@ -3561,6 +3569,7 @@ set Ballistician skill aim
 set Ballistician skill armsthrift
 set Ballistician skill hide
 
+// thaddy stat
 set Burglar skill camouflage
 set Burglar skill scotopic
 set Burglar skill vantage
@@ -3570,6 +3579,7 @@ set Burglar skill critical
 set Burglar skill hide
 set Burglar skill watchful
 
+// faye stat
 set Myrmidon skill adept
 set Myrmidon skill canto
 set Myrmidon skill iaido
@@ -3738,6 +3748,8 @@ set Icewyrm skill commander
 set Levinwyrm skill commander
 set Wyvern skill commander
 set Aristocrat skill commander
+set RazeWarMonk skill commander
+set DarkMaster skill commander
 
 //supporter to ennemy
 set Spearman skill supporter
@@ -3814,6 +3826,8 @@ set Icewyrm skill supporter
 set Levinwyrm skill supporter
 set Wyvern skill supporter
 set Aristocrat skill supporter
+set RazeWarMonk skill supporter
+set DarkMaster skill supporter
 
 
 //////////////////////////////////////////////////////////////////////////////////
