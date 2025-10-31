@@ -164,7 +164,7 @@ set sherlock item 7 Treasure 101
 set sherlock base bow +15
 
 set izerna item 1 Soothe 20
-set izerna item 2 BlessedBrace 101
+set izerna item 2 BlessedBrace 0
 set izerna item 3 Mend 20
 set izerna item 4 Physic 15
 set izerna item 5 holy 10
@@ -207,7 +207,7 @@ set Daoud item 2 Kiteshield 101
 set Daoud item 3 Treasure 101 
 set Daoud item 4 Treasure 101 
 set Daoud item 5 Treasure 101 
-set Daoud item 6 Vulnaries 1
+set Daoud item 6 Concoction 1
 set Daoud item 7 Bag 0
 set Daoud base axe +10
 set Daoud base sshield +15
@@ -281,9 +281,9 @@ set kramer item 0 Longsword 101
 set kramer item 1 Shortsword 101
 set kramer item 2 Bag 0
 set kramer item 3 Bag 0
-set kramer item 4 FeatherBrace 101
-set kramer item 5 MuscleBrace 101
-set kramer item 6 AltiumSword 1
+set kramer item 4 FeatherBrace 0
+set kramer item 5 MuscleBrace 0
+set kramer item 6 AltiumSword 101
 set kramer item 7 Bag 0
 set kramer base sword +15
 
@@ -292,11 +292,11 @@ set dean item 3 BattleAxe 101
 set dean item 4 Bag 0
 set dean item 5 Bag 0
 set dean item 6 Bag 0
-set dean item 7 GamblersBrace 101
+set dean item 7 GamblersBrace 0
 set dean base axe +15
 //set dean growth axe 90
 
-set faye item 2 GiantsBrace 101
+set faye item 2 GiantsBrace 0
 set faye item 3 Shortsword 101
 set faye item 4 LadySword 101
 set faye item 5 Bag 0
@@ -323,14 +323,14 @@ set perceval item 2 Bag 0
 set perceval item 3 Bag 0
 set perceval item 4 Blizzard 15
 set perceval item 5 Lightning 15
-set perceval item 6 TigerBrace 101
+set perceval item 6 TigerBrace 0
 set perceval item 7 Windstorm 60
 //set perceval growth wind 26
 //set perceval growth thunder 90
 set perceval base thunder +15
 set perceval base wind +15
 
-set thaddy item 2 FeatherBrace 101
+set thaddy item 2 FeatherBrace 0
 set thaddy item 3 Dart 6
 set thaddy item 4 Swordbreaker 101
 set thaddy item 5 Bag 0
@@ -372,7 +372,7 @@ set volo item 2 Bag 0
 set volo item 3 Bag 0
 set volo item 4 Bag 0
 set volo item 5 BastardSword 101
-set volo item 6 PhoenixBrace 101
+set volo item 6 PhoenixBrace 0
 set volo item 7 Bag 0
 //set volo growth sword 100
 set volo base sword +25
@@ -403,7 +403,7 @@ set axel item 2 Bag 0
 set axel item 3 BattleAxe 101
 set axel item 4 Bag 0
 set axel item 5 Tomahawk 101
-set axel item 6 PegasusBrace 101
+set axel item 6 PegasusBrace 0
 set axel item 7 Treasure 101
 set axel base axe +15
 //set axel growth axe 40
@@ -428,14 +428,14 @@ set Owen item 7 Bag 0
 //set owen growth fire 20
 //set owen growth thunder 20
 //set owen growth wind 20
-//set Owen growth dark 40
+set Owen growth dark 40
 set Owen base fire +10
 set Owen base wind +10
 set Owen base thunder +10
 set Owen base light +10
 set Owen base dark +50
 set RazeMonkOwen base dark +50
-//set RazeMonkOwen growth dark 40
+set RazeMonkOwen growth dark 40
 set RazeMonkOwen base fire +30
 set RazeMonkOwen base wind +30
 set RazeMonkOwen base thunder +30
@@ -485,7 +485,7 @@ set lynette base sword +20
 set lynette base bow +20
 
 set paramythis item 0 HolyMace 101
-set paramythis item 2 PeerlessBrace 101
+set paramythis item 2 PeerlessBrace 0
 set paramythis item 3 Bag 0
 set paramythis item 4 Treasure 101
 set paramythis base sword +25
@@ -554,7 +554,6 @@ set christine skill overwatch
 set christine skill prepared
 set christine skill watchful 
 set christine skill guard
-set christine skill vantage
 set christine skill adept
 set christine skill counter
 set christine skill maim
@@ -562,6 +561,7 @@ set christine skill huntsman
 set christine skill hide
 set christine skill onetwo
 set christine skill robbery
+set christine skill doubleshot
 
 set adel skill canto
 set adel skill counter 
@@ -605,6 +605,7 @@ set leon skill robbery
 set leon skill hide
 set leon skill adept
 set leon skill parry
+set leon skill windsweep
 
 set sherlock skill aim 
 set sherlock skill canto
@@ -627,6 +628,7 @@ set sherlock skill robbery
 set sherlock skill adept
 set sherlock skill guard
 set sherlock skill battlecry
+set sherlock skill counter
 
 set izerna skill blessing
 set izerna skill canto
@@ -656,11 +658,9 @@ set czene skill mercy
 set czene skill mug
 set czene skill mug2
 set czene skill paragon
-set czene skill pursuit
 set czene skill scotopic 
 set czene skill steal 
 set czene skill throw 
-set czene skill vantage 
 set czene skill watchful
 set czene skill prepared
 set czene skill guard
@@ -669,7 +669,6 @@ set czene skill windsweep
 set czene skill sunder
 set czene skill fortune
 set czene skill celerity
-set czene skill deathmatch
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -878,6 +877,7 @@ set dean skill pulverize
 set dean skill knockaway
 set dean skill battlecry
 set dean skill provoke
+set dean skill windsweep
 
 set sylvis skill aim
 set sylvis skill canto
@@ -890,7 +890,7 @@ set sylvis skill maim
 set sylvis skill mercy
 set sylvis skill overwatch
 set sylvis skill prepared
-set sylvis skill vantage 
+set sylvis skill counter
 set sylvis skill watchful 
 set sylvis skill guard
 set sylvis skill scotopic
@@ -913,18 +913,15 @@ set thaddy skill mug
 set thaddy skill mug2
 set thaddy skill paragon
 set thaddy skill provoke
-set thaddy skill pursuit
 set thaddy skill scotopic
 set thaddy skill steal
 set thaddy skill throw 
-set thaddy skill vantage 
 set thaddy skill watchful 
 set thaddy skill prepared
 set thaddy skill guard
 set thaddy skill windsweep
 set thaddy skill sunder
 set thaddy skill celerity
-set thaddy skill deathmatch
 
 set esteban skill aim 
 set esteban skill camouflage
@@ -940,8 +937,9 @@ set esteban skill mug
 set esteban skill mug2
 set esteban skill overwatch
 set esteban skill prepared
-set esteban skill adept
+set esteban skill counter
 set esteban skill doubleshot
+set esteban skill pursuit
 set esteban skill scotopic 
 set esteban skill steal
 set esteban skill watchful
@@ -1287,6 +1285,52 @@ Set KisharsWrath stat accuracy 50
 Set Wormwood stat accuracy 50
 
 //knives
+set dagger stat might 2
+set Seax stat might 4
+set Dart stat might 3
+set Vespa stat might 3
+set Airknife stat might 2
+set ThiefsKnife stat might 2
+set Carnwenhau stat might 3
+set StunKnife stat might 3
+set KillerKnife stat might 3
+set BloodKnife stat might 3
+set TempestKnife stat might 2
+set Shieldknife stat might 2
+set Crotalus stat might 2
+set Kris stat might 2
+set ThrowingKnife stat might 3
+set Swordbreaker stat might 2
+set PoisonKnife stat might 2
+set SleepKnife stat might 2
+set BoltKnife stat might 2
+set AssassinsKnife stat might 4
+set LetterOpener stat might 1
+set MainGauche stat might 3
+
+set dagger stat rounds 1
+set Seax stat rounds 1
+set Dart stat rounds 1
+set Vespa stat rounds 1
+set Airknife stat rounds 1
+set ThiefsKnife stat rounds 1
+set Carnwenhau stat rounds 2
+set StunKnife stat rounds 1
+set KillerKnife stat rounds 1
+set BloodKnife stat rounds 1
+set TempestKnife stat rounds 1
+set Shieldknife stat rounds 1
+set Crotalus stat rounds 1
+set Kris stat rounds 1
+set ThrowingKnife stat rounds 1
+set Swordbreaker stat rounds 1
+set PoisonKnife stat rounds 1
+set SleepKnife stat rounds 1
+set BoltKnife stat rounds 1
+set AssassinsKnife stat rounds 1
+set LetterOpener stat might 1
+set MainGauche stat rounds 1
+
 set AssassinsKnife effect cripple-x2
 //set BoltKnife effect steal-rate-plus 20  //I can't, it will remove thunder damage
 //set BoltKnife effect thunder-damage 3
@@ -1301,7 +1345,6 @@ set BoltKnife stat weight 2
 set TempestKnife stat weight 2
 set AirKnife stat weight 2
 set BloodKnife stat weight 2
-
 
 set dart stat level 1
 //set Seax stat level 3
@@ -1338,6 +1381,8 @@ set Shieldknife stat accuracy 50
 set Crotalus stat accuracy 60
 set kris stat accuracy 60
 set maingauche stat accuracy 50
+
+set stunknife effect disarm-rate 50
 
 //swords
 
@@ -1485,7 +1530,7 @@ set Balmung2 stat weight 8
 set Balmung3 stat weight 8
 set Brymranger stat weight 9
 
-set Zanbato effect kill-horse
+set Zanbato effect kill-horse 100
 set BastardSword effect cripple-x2
 
 
@@ -1506,7 +1551,7 @@ set Partisan stat accuracy 50
 set Pike stat accuracy 60
 set MithrilSpear stat accuracy 60
 set SteelSpear stat accuracy 60
-set Brionac stat accuracy 70
+set Brionac stat accuracy 60
 set Harpoon stat accuracy 60
 set PrototypeSpear stat accuracy 60
 set KillerSpear stat accuracy 70
@@ -1538,15 +1583,27 @@ set Euthyphro stat Weight 7
 set Javelin stat Weight 8
 set Partisan stat Weight 10
 set Angon stat Weight 6
-set Brionac stat Weight 5
+set Brionac stat Weight 8
 set SwiftSpear stat Weight 10
 set Fauchard stat Weight 7
+set ImperialSpear stat Weight 6
+
+set Harpoon stat might 3
+set Fauchard stat might 8
+set Brionac stat might 8
+
+set ImperialSpear stat might 8
+set Fauchard stat hex 1
+set Brionac stat hex 2
 
 set VerianSpear stat Weight 6
 set OldImperialSpear stat Weight 9
 set ImperialSpear stat Weight 7
 
 Set Harpoon effect injure-rate 16
+
+Set Harpoon stat rounds 1
+
 Set Longspear effect cripple-x2
 
 set SlimSpear stat cost 700
@@ -1564,7 +1621,7 @@ set Harpoon stat durability D
 
 //set WindSpear effect wind-damage 8
 //set Euthyphro effect wind-damage 7
-set Partisan effect cripple-x2
+set Partisan effect cripple-rate 15
 
 set Doru stat level 1
 set Pike stat level 1
@@ -1581,16 +1638,22 @@ set Pike effect cripple-x2
 // MilitaryFork similar stat than LongSpear + cripple effect
 // Firebrand similar stat than WindSpear + Fire Damage Effect
 
-set MilitaryFork effect cripple-x2
-set Pitchfork effect cripple-x2
+set MilitaryFork effect cripple-rate 15
+set Pitchfork effect cripple-rate 15
 //set GoreFork effect cripple-rate 8
 set Firebrand effect cripple-x2
 set Firebrand effect fire-damage 7
 
-set MilitaryFork stat accuracy 60
+set MilitaryFork stat hex 1
+set Pitchfork stat hex 1
+set GoreFork stat hex 1
+set Firebrand stat hex 1
+
+
+set MilitaryFork stat accuracy 50
 set Pitchfork stat accuracy 60
 set GoreFork stat accuracy 50
-set Firebrand stat accuracy 60
+set Firebrand stat accuracy 50
 
 //set GoreFork stat level 1
 set GoreFork stat cost 2000
@@ -1616,6 +1679,12 @@ set Drakelance effect cripple-x2
 set Xyston effect cripple-x2
 set IronLance effect cripple-x2
 set Oxtongue effect cripple-x2
+
+set Xyston stat hex 4
+set Drakelance stat hex 5
+
+set Oxtongue Stat might 5
+set GreatLance Stat might 5
 
 set IronLance stat level 1
 
@@ -1853,15 +1922,15 @@ set Arbalest stat level 15
 
 set Bowgun stat weight 7
 set IronCrossbow stat weight 9
-set Gastraphetes stat weight 10
-set HeavyCrossbow stat weight 11
-set BraveCrossbow stat weight 11
-set Chu-ko-nu stat weight 12
-set Arbalest stat weight 12
+set Gastraphetes stat weight 11
+set HeavyCrossbow stat weight 13
+set BraveCrossbow stat weight 13
+set Chu-ko-nu stat weight 15
+set Arbalest stat weight 15
 set KillerCrossbow stat weight 9
-set Ollerus stat weight 10
-set RapidCrossbow stat weight 12
-set Hawkeye stat weight 9
+set Ollerus stat weight 11
+set RapidCrossbow stat weight 15
+set Hawkeye stat weight 10
 
 set ImperialCrossbow stat Weight 7
 set OldImperialCrossbow stat Weight 8
@@ -1933,7 +2002,7 @@ set ShiningShield effect negate-dark 100
 //set DarkShield stat dark_res 10
 
 set LeatherSShd stat might 2
-set Buckler stat might 3
+set Buckler stat might 4
 set PrototypeSShd stat might 4
 set Aspis stat might 5
 set RoundShield stat might 5
@@ -2407,6 +2476,7 @@ set Spearman skill camouflage
 set Spearman skill charisma
 set Spearman skill adept
 set Spearman skill hide
+set Spearman skill counter
 
 set SpearRider_R base hp +2
 set SpearRider_R base defense +2
@@ -2420,6 +2490,7 @@ set SpearRider_R skill vantage
 set SpearRider_R skill charisma
 set SpearRider_R skill adept
 set SpearRider_R skill hide
+set SpearRider_R skill counter
 
 set SpearRider base hp +2
 set SpearRider base defense +2
@@ -2433,6 +2504,7 @@ set SpearRider skill vantage
 set SpearRider skill charisma
 set SpearRider skill adept
 set SpearRider skill hide
+set SpearRider skill counter
 
 set ImperialSpearman base hp +2
 set ImperialSpearman base defense +2
@@ -2446,6 +2518,7 @@ set ImperialSpearman skill vantage
 set ImperialSpearman skill charisma
 set ImperialSpearman skill adept
 set ImperialSpearman skill hide
+set ImperialSpearman skill counter
 
 set ImperialSpearRider_R base hp +2
 set ImperialSpearRider_R base defense +2
@@ -2459,6 +2532,7 @@ set ImperialSpearRider_R skill vantage
 set ImperialSpearRider_R skill charisma
 set ImperialSpearRider_R skill adept
 set ImperialSpearRider_R skill hide
+set ImperialSpearRider_R skill counter
 
 set ImperialSpearRider base hp +2
 set ImperialSpearRider base defense +2
@@ -2472,6 +2546,7 @@ set ImperialSpearRider skill vantage
 set ImperialSpearRider skill charisma
 set ImperialSpearRider skill adept
 set ImperialSpearRider skill hide
+set ImperialSpearRider skill counter
 
 set Farmer base hp +2
 set Farmer base defense +2
@@ -2496,7 +2571,7 @@ set VerianKnight_R skill camouflage
 set VerianKnight_R skill charisma
 set VerianKnight_R skill adept
 set VerianKnight_R skill hide
-//set VerianKnight_R skill counter
+set VerianKnight_R skill counter
 
 set VerianKnight base hp +2
 set VerianKnight base defense +2
@@ -2509,7 +2584,7 @@ set VerianKnight skill camouflage
 set VerianKnight skill charisma
 set VerianKnight skill adept
 set VerianKnight skill hide
-//set VerianKnight skill counter
+set VerianKnight skill counter
 
 set VerianKnight2_R base hp +2
 set VerianKnight2_R base defense +2
@@ -2522,7 +2597,7 @@ set VerianKnight2_R skill camouflage
 set VerianKnight2_R skill charisma
 set VerianKnight2_R skill adept
 set VerianKnight2_R skill hide
-//set VerianKnight2_R skill counter
+set VerianKnight2_R skill counter
 
 set VerianKnight2 base hp +2
 set VerianKnight2 base defense +2
@@ -2535,7 +2610,7 @@ set VerianKnight2 skill camouflage
 set VerianKnight2 skill charisma
 set VerianKnight2 skill adept
 set VerianKnight2 skill hide
-//set VerianKnight2 skill counter
+set VerianKnight2 skill counter
 
 set ImperialKnight_R base hp +2
 set ImperialKnight_R base defense +2
@@ -2548,7 +2623,7 @@ set ImperialKnight_R skill camouflage
 set ImperialKnight_R skill charisma
 set ImperialKnight_R skill adept
 set ImperialKnight_R skill hide
-//set ImperialKnight_R skill counter
+set ImperialKnight_R skill counter
 
 set ImperialKnight base hp +2
 set ImperialKnight base defense +2
@@ -2561,7 +2636,7 @@ set ImperialKnight skill camouflage
 set ImperialKnight skill charisma
 set ImperialKnight skill adept
 set ImperialKnight skill hide
-//set ImperialKnight skill counter
+set ImperialKnight skill counter
 
 set ImperialPaladin_R base hp +2
 set ImperialPaladin_R base defense +2
@@ -2575,7 +2650,7 @@ set ImperialPaladin_R skill camouflage
 set ImperialPaladin_R skill charisma
 set ImperialPaladin_R skill adept
 set ImperialPaladin_R skill hide
-//set ImperialPaladin_R skill counter
+set ImperialPaladin_R skill counter
 
 set ImperialPaladin base hp +2
 set ImperialPaladin base defense +2
@@ -2588,7 +2663,7 @@ set ImperialPaladin skill camouflage
 set ImperialPaladin skill charisma
 set ImperialPaladin skill adept
 set ImperialPaladin skill hide
-//set ImperialPaladin skill counter
+set ImperialPaladin skill counter
 
 set HighKnight_R base hp +2
 set HighKnight_R base defense +2
@@ -2601,7 +2676,7 @@ set HighKnight_R skill camouflage
 set HighKnight_R skill charisma
 set HighKnight_R skill adept
 set HighKnight_R skill hide
-//set HighKnight_R skill counter
+set HighKnight_R skill counter
 
 set HighKnight base hp +2
 set HighKnight base defense +2
@@ -2614,7 +2689,7 @@ set HighKnight skill camouflage
 set HighKnight skill charisma
 set HighKnight skill adept
 set HighKnight skill hide
-//set HighKnight skill counter
+set HighKnight skill counter
 
 set HighKnight2_R base hp +2
 set HighKnight2_R base defense +2
@@ -2627,7 +2702,7 @@ set HighKnight2_R skill camouflage
 set HighKnight2_R skill charisma
 set HighKnight2_R skill adept
 set HighKnight2_R skill hide
-//set HighKnight2_R skill counter
+set HighKnight2_R skill counter
 
 set HighKnight2 base hp +2
 set HighKnight2 base defense +2
@@ -2640,7 +2715,7 @@ set HighKnight2 skill camouflage
 set HighKnight2 skill charisma
 set HighKnight2 skill adept
 set HighKnight2 skill hide
-//set HighKnight2 skill counter
+set HighKnight2 skill counter
 
 set General base hp +2
 set General base defense +2
@@ -2679,6 +2754,7 @@ set WyvernLord_R skill commander
 set WyvernLord_R skill camouflage
 set WyvernLord_R skill charisma
 set WyvernLord_R skill hide
+set WyvernLord_R skill counter
 
 set WyvernLord base hp +2
 set WyvernLord base defense +2
@@ -2692,6 +2768,7 @@ set WyvernLord skill commander
 set WyvernLord skill camouflage
 set WyvernLord skill charisma
 set WyvernLord skill hide
+set WyvernLord skill counter
 
 set Axeman base hp +2
 set Axeman base defense +2
@@ -2704,7 +2781,7 @@ set Axeman skill camouflage
 set Axeman skill charisma
 set Axeman skill adept
 set Axeman skill hide
-//set Axeman skill counter
+set Axeman skill counter
 
 set ImperialAxeman base hp +2
 set ImperialAxeman base defense +2
@@ -2717,7 +2794,7 @@ set ImperialAxeman skill camouflage
 set ImperialAxeman skill charisma
 set ImperialAxeman skill adept
 set ImperialAxeman skill hide
-//set ImperialAxeman skill counter
+set ImperialAxeman skill counter
 
 set AxeGuard base hp +2
 set AxeGuard base defense +2
@@ -2744,6 +2821,7 @@ set Bowman skill charisma
 set Bowman skill hide
 set Bowman skill adept
 set Bowman skill watchful
+set Bowman skill counter
 	
 set BowRider base hp +2
 set BowRider base defense +2
@@ -2757,6 +2835,7 @@ set BowRider skill charisma
 set BowRider skill hide
 set BowRider skill adept
 set BowRider skill watchful
+set BowRider skill counter
 
 set Gunner base hp +2
 set Gunner base defense +2
@@ -2765,12 +2844,11 @@ set Gunner skill canto
 set Gunner skill armsthrift
 set Gunner skill aim
 set Gunner skill camouflage
-set Gunner skill vantage
 set Gunner skill charisma
 set Gunner skill hide
 set Gunner skill adept
 set Gunner skill watchful
-//set Gunner skill counter
+set Gunner skill counter
 
 set HeavyGunner base hp +2
 set HeavyGunner base defense +2
@@ -2779,12 +2857,11 @@ set HeavyGunner skill canto
 set HeavyGunner skill armsthrift
 set HeavyGunner skill aim
 set HeavyGunner skill camouflage
-set HeavyGunner skill vantage
 set HeavyGunner skill charisma
 set HeavyGunner skill hide
 set HeavyGunner skill adept
 set HeavyGunner skill watchful
-//set HeavyGunner skill counter
+set HeavyGunner skill counter
 
 set ImperialBowman base hp +2
 set ImperialBowman base defense +2
@@ -2798,6 +2875,7 @@ set ImperialBowman skill charisma
 set ImperialBowman skill hide
 set ImperialBowman skill adept
 set ImperialBowman skill watchful
+set ImperialBowman skill counter
 
 set ImperialBowRider_R base hp +2
 set ImperialBowRider_R base defense +2
@@ -2811,6 +2889,7 @@ set ImperialBowRider_R skill charisma
 set ImperialBowRider_R skill hide
 set ImperialBowRider_R skill adept
 set ImperialBowRider_R skill watchful
+set ImperialBowRider_R skill counter
 
 set ImperialBowRider base hp +2
 set ImperialBowRider base defense +2
@@ -2824,6 +2903,7 @@ set ImperialBowRider skill charisma
 set ImperialBowRider skill hide
 set ImperialBowRider skill adept
 set ImperialBowRider skill watchful
+set ImperialBowRider skill counter
 
 set ImperialGunner base hp +2
 set ImperialGunner base defense +2
@@ -2832,12 +2912,11 @@ set ImperialGunner skill canto
 set ImperialGunner skill armsthrift
 set ImperialGunner skill aim
 set ImperialGunner skill camouflage
-set ImperialGunner skill vantage
 set ImperialGunner skill charisma
 set ImperialGunner skill hide
 set ImperialGunner skill adept
 set ImperialGunner skill watchful
-//set ImperialGunner skill counter
+set ImperialGunner skill counter
 
 set ImperialHeavyGunner base hp +2
 set ImperialHeavyGunner base defense +2
@@ -2846,12 +2925,11 @@ set ImperialHeavyGunner skill canto
 set ImperialHeavyGunner skill armsthrift
 set ImperialHeavyGunner skill aim
 set ImperialHeavyGunner skill camouflage
-set ImperialHeavyGunner skill vantage
 set ImperialHeavyGunner skill charisma
 set ImperialHeavyGunner skill hide
 set ImperialHeavyGunner skill adept
 set ImperialHeavyGunner skill watchful
-//set ImperialHeavyGunner skill counter
+set ImperialHeavyGunner skill counter
 
 set Marksman base hp +2
 set Marksman base defense +2
@@ -2865,6 +2943,7 @@ set Marksman skill charisma
 set Marksman skill hide
 set Marksman skill adept
 set Marksman skill watchful
+set Marksman skill counter
 
 set ImperialMarksman base hp +2
 set ImperialMarksman base defense +2
@@ -2879,6 +2958,7 @@ set ImperialMarksman skill charisma
 set ImperialMarksman skill hide
 set ImperialMarksman skill adept
 set ImperialMarksman skill watchful
+set ImperialMarksman skill counter
 
 set Warrior base hp +2
 set Warrior base defense +2
@@ -2904,7 +2984,7 @@ set Bandit skill throw
 set Bandit skill camouflage
 set Bandit skill charisma
 set Bandit skill hide
-//set Bandit skill counter
+set Bandit skill counter
 
 set Corsair base hp +2
 set Corsair base defense +2
@@ -2915,7 +2995,7 @@ set Corsair skill throw
 set Corsair skill camouflage
 set Corsair skill charisma
 set Corsair skill hide
-//set Corsair skill counter
+set Corsair skill counter
 
 // Rufffian is cav archer, sherlock
 set Ruffian_R base hp +2
@@ -2927,12 +3007,12 @@ set Ruffian_R skill armsthrift
 set Ruffian_R skill throw
 set Ruffian_R skill camouflage
 set Ruffian_R skill adept
-set Ruffian_R skill vantage
 set Ruffian_R skill aim
 set Ruffian_R skill charisma
 set Ruffian_R skill doubleshot
 set Ruffian_R skill hide
 set Ruffian_R skill watchful
+set Ruffian_R skill counter
 
 set Ruffian base hp +2
 set Ruffian base defense +2
@@ -2943,25 +3023,23 @@ set Ruffian skill throw
 set Ruffian skill camouflage
 set Ruffian skill adept
 set Ruffian skill aim
-set Ruffian skill vantage
 set Ruffian skill charisma
 set Ruffian skill shieldfaire
 set Ruffian skill doubleshot
 set Ruffian skill hide
 set Ruffian skill watchful
+set Ruffian skill counter
 
 set Pickpocket base hp +2
 set Pickpocket base defense +2
 set Pickpocket base magic +2
 set Pickpocket skill canto
 set Pickpocket skill adept
-set Pickpocket skill vantage
 set Pickpocket skill throw
 set Pickpocket skill throw
 set Pickpocket skill camouflage
 set Pickpocket skill charisma
 set Pickpocket skill doubleshot
-set Pickpocket skill pursuit
 set Pickpocket skill hide
 set Pickpocket skill watchful
 
@@ -2973,7 +3051,6 @@ set Outlaw skill canto
 set Outlaw skill throw
 set Outlaw skill armsthrift
 set Outlaw skill adept
-set Outlaw skill vantage
 set Outlaw skill camouflage
 set Outlaw skill aim
 set Outlaw skill shieldfaire
@@ -2981,20 +3058,19 @@ set Outlaw skill charisma
 set Outlaw skill DoubleShot
 set Outlaw skill hide
 set Outlaw skill watchful
+set Outlaw skill counter
 
 // same stats as thaddy
 set Assassin base hp +2
 set Assassin base defense +2
 set Assassin base magic +2
 set Assassin skill canto
-set Assassin skill vantage
 set Assassin skill camouflage
 set Assassin skill critical
 set Assassin skill throw
 set Assassin skill charisma
 set Assassin skill celerity
 set Assassin skill windsweep
-set Assassin skill pursuit
 set Assassin skill fortune
 set Assassin skill hide
 set Assassin skill watchful
@@ -3114,6 +3190,7 @@ set RogueArcher skill DoubleShot
 set RogueArcher skill charisma
 set RogueArcher skill hide
 set RogueArcher skill watchful
+set RogueArcher skill counter
 
 set RogueGunner base hp +2
 set RogueGunner base defense +2
@@ -3122,12 +3199,11 @@ set RogueGunner skill aim
 set RogueGunner skill canto
 set RogueGunner skill armsthrift
 set RogueGunner skill camouflage
-set RogueGunner skill vantage
 set RogueGunner skill charisma
 set RogueGunner skill adept
 set RogueGunner skill hide
 set RogueGunner skill watchful
-//set RogueGunner skill counter
+set RogueGunner skill counter
 
 set RogueWarrior base hp +2
 set RogueWarrior base defense +2
@@ -3151,7 +3227,7 @@ set SnowBandit skill throw
 set SnowBandit skill camouflage
 set SnowBandit skill charisma
 set SnowBandit skill hide
-//set SnowBandit skill counter
+set SnowBandit skill counter
 
 set Barbarian base hp +2
 set Barbarian base defense +2
@@ -3161,7 +3237,7 @@ set Barbarian skill throw
 set Barbarian skill camouflage
 set Barbarian skill charisma
 set Barbarian skill hide
-//set Barbarian skill counter
+set Barbarian skill counter
 
 set Duke base hp +2
 set Duke base defense +2
@@ -3175,7 +3251,7 @@ set Duke skill camouflage
 set Duke skill charisma
 set Duke skill adept
 set Duke skill hide
-//set Duke skill counter
+set Duke skill counter
 
 set Scoundrel base hp +2
 set Scoundrel base defense +2
@@ -3213,7 +3289,6 @@ set FailedPoet skill throw
 set FailedPoet skill charisma
 set FailedPoet skill commander
 set FailedPoet skill armsthrift
-set FailedPoet skill pursuit
 set FailedPoet skill adept
 set FailedPoet skill canto
 set FailedPoet skill camouflage
@@ -3249,7 +3324,7 @@ set King skill camouflage
 set King skill charisma
 set King skill adept
 set King skill hide
-//set King skill counter
+set King skill counter
 
 set Captain base hp +2
 set Captain base defense +2
@@ -3285,7 +3360,7 @@ set DragonKnight_R skill camouflage
 set DragonKnight_R skill charisma
 set DragonKnight_R skill hide
 set DragonKnight_R skill adept
-//set DragonKnight_R skill counter
+set DragonKnight_R skill counter
 
 set DragonKnight base hp +2
 set DragonKnight base defense +2
@@ -3298,7 +3373,7 @@ set DragonKnight skill charisma
 set DragonKnight skill adept
 set DragonKnight skill hide
 set DragonKnight skill canto
-//set DragonKnight skill counter
+set DragonKnight skill counter
 
 set WarMonk base hp +2
 set WarMonk base defense +2
@@ -3332,7 +3407,7 @@ set BlackRider_R skill throw
 set BlackRider_R skill charisma
 set BlackRider_R skill hide
 set BlackRider_R skill adept
-//set BlackRider_R skill counter
+set BlackRider_R skill counter
 
 set BlackRider base hp +2
 set BlackRider base defense +2
@@ -3343,7 +3418,7 @@ set BlackRider skill shieldfaire
 set BlackRider skill throw
 set BlackRider skill charisma
 set BlackRider skill adept
-//set BlackRider skill counter
+set BlackRider skill counter
 
 set GigasKnight base hp +2
 set GigasKnight base defense +2
@@ -3412,6 +3487,7 @@ set Aristocrat skill canto
 set Aristocrat skill charisma
 set Aristocrat skill adept
 set Aristocrat skill hide
+set Aristocrat skill counter
 
 set Paladin_M skill throw
 set Paladin_M skill hide
@@ -3446,9 +3522,7 @@ set AxeSergeant skill shieldfaire
 set Grassrunner_R skill adept
 set Grassrunner_R skill camouflage
 set Grassrunner_R skill canto
-set Grassrunner_R skill vantage
 set Grassrunner_R skill throw
-set Grassrunner_R skill pursuit
 set Grassrunner_R skill hide
 set Grassrunner_R skill watchful
 
@@ -3456,9 +3530,7 @@ set Grassrunner_R skill watchful
 set Grassrunner skill adept
 set Grassrunner skill camouflage
 set Grassrunner skill canto
-set Grassrunner skill vantage
 set Grassrunner skill throw
-set Grassrunner skill pursuit
 set Grassrunner skill hide
 set Grassrunner skill watchful
 
@@ -3472,6 +3544,8 @@ set Priest skill charisma
 set Priest skill adept
 set Priest skill hide
 set Priest skill watchful
+set Priest skill vantage
+set Priest skill prepared
 
 //Owen stat
 set Bishop skill adept
@@ -3481,14 +3555,17 @@ set Bishop skill canto
 set Bishop skill imbue
 set Bishop skill versatile
 set Bishop skill watchful
+set Bishop skill vantage
+set Bishop skill prepared
 
-//thaddy stat to test, thadddy is a burglar
+//thaddy or czene stat to test, thadddy is a burglar, czene may be Thief_F class
+set Thief_M base hp +2
+set Thief_M base defense +2
+set Thief_M base magic +2
 set Thief_M skill camouflage 
 set Thief_M skill canto
-set Thief_M skill vantage
-set Thief_M skill critical
+set Thief_M skill adept
 set Thief_M skill throw
-set Thief_M skill pursuit
 set Thief_M skill fortune
 set Thief_M skill hide
 set Thief_M skill watchful
@@ -3531,14 +3608,14 @@ set SwordKnight skill counter
 
 set Pirate skill throw
 set Pirate skill hide
-//set Pirate skill counter
+set Pirate skill counter
 
 set Horseman skill aim
 set Horseman skill doubleshot
 set Horseman skill hide
 set Horseman skill watchful
 set Horseman skill adept
-set Horseman skill watchful
+set Horseman skill counter
 
 set BowKnight_R skill DoubleShot
 set BowKnight_R skill hide
@@ -3546,6 +3623,7 @@ set BowKnight_R skill watchful
 set BowKnight_R skill adept
 set BowKnight_R skill aim
 set BowKnight_R skill watchful
+set BowKnight_R skill counter
 
 set BowKnight skill DoubleShot
 set BowKnight skill hide
@@ -3553,6 +3631,7 @@ set BowKnight skill adept
 set BowKnight skill watchful
 set BowKnight skill aim
 set BowKnight skill watchful
+set BowKnight skill counter
 
 set Horseman_R skill aim
 set Horseman_R skill doubleshot
@@ -3560,6 +3639,7 @@ set Horseman_R skill hide
 set Horseman_R skill watchful
 set Horseman_R skill adept
 set Horseman_R skill watchful
+set Horseman_R skill counter
 
 set SpearKnight skill hide
 
@@ -3572,7 +3652,6 @@ set Ballistician skill hide
 // thaddy stat
 set Burglar skill camouflage
 set Burglar skill scotopic
-set Burglar skill vantage
 set Burglar skill fortune
 set Burglar skill throw
 set Burglar skill critical
@@ -3604,10 +3683,11 @@ set ArmorKnight skill hide
 //Esteban stat
 set Hunter skill canto
 set Hunter skill camouflage
-set Hunter skill adept
+set Hunter skill pursuit
 set Hunter skill hide
 set Hunter skill watchful
 set Hunter skill aim
+set Hunter skill counter
 
 //Kramer Stat
 set Mercenary skill adept
@@ -3635,7 +3715,6 @@ set LadyKnight_R skill aim
 set LadyKnight_R skill armsthrift
 set LadyKnight_R skill canto
 set LadyKnight_R skill prepared
-set LadyKnight_R skill vantage
 set LadyKnight_R skill hide
 set LadyKnight_R skill watchful
 
@@ -3643,31 +3722,33 @@ set LadyKnight skill aim
 set LadyKnight skill armsthrift
 set LadyKnight skill canto
 set LadyKnight skill prepared
-set LadyKnight skill vantage
 set LadyKnight skill hide
 set LadyKnight skill watchful
+set LadyKnight skill counter
 
 set ArrowKnight_R skill aim
 set ArrowKnight_R skill armsthrift
 set ArrowKnight_R skill canto
 set ArrowKnight_R skill prepared
-set ArrowKnight_R skill vantage
 set ArrowKnight_R skill hide
 set ArrowKnight_R skill watchful
+set ArrowKnight_R skill counter
 
 set ArrowKnight skill aim
 set ArrowKnight skill armsthrift
 set ArrowKnight skill canto
 set ArrowKnight skill prepared
-set ArrowKnight skill vantage
 set ArrowKnight skill hide
 set ArrowKnight skill watchful
+set ArrowKnight skill counter
 
 set Berserker skill maim
 set Berserker skill hide
+set Berserker skill adept
 
 set FlameFencer skill maim
 set FlameFencer skill hide
+set FlameFencer skill adept
 
 set VeteranKnight_R skill hide
 
@@ -3750,6 +3831,7 @@ set Wyvern skill commander
 set Aristocrat skill commander
 set RazeWarMonk skill commander
 set DarkMaster skill commander
+//set Thief_M skill commander
 
 //supporter to ennemy
 set Spearman skill supporter
@@ -3828,7 +3910,9 @@ set Wyvern skill supporter
 set Aristocrat skill supporter
 set RazeWarMonk skill supporter
 set DarkMaster skill supporter
+//set Thief_M skill supporter
 
+set Tico stat uses 12
 
 //////////////////////////////////////////////////////////////////////////////////
 
@@ -3932,8 +4016,7 @@ set Arrow++ stat might 8
 // Reese & Ruby shield skill increase to 30 on promotion failed. No idea how to fix it.
 //maybe sshield accuracy 30 average
 //maybe adept on marcel
-//disarm-rate don't work
 //Increase Christine arrow mastery at rank up didn't work --set ArrowKnight_R base sword +30
 //Increase Ruby & Reese MShield mastery at rank up didn't work
 //set Glaive effect kill-horse
-// Kill-horse effect doesn't work
+//set ward item 6 Concoction 1
