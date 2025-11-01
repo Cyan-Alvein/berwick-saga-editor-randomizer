@@ -84,7 +84,7 @@ set ward base mshield +10
 set ward base sword +10
 set ward base spear +10
 
-set elbert item 0 IronSpear 101
+set elbert item 0 Longsword 101
 set elbert item 1 Aspis 101
 set elbert item 2 Harpoon 101
 set elbert item 3 Bag 0
@@ -938,8 +938,7 @@ set esteban skill mug2
 set esteban skill overwatch
 set esteban skill prepared
 set esteban skill counter
-set esteban skill doubleshot
-set esteban skill pursuit
+set esteban skill tripleshot
 set esteban skill scotopic 
 set esteban skill steal
 set esteban skill watchful
@@ -1621,7 +1620,7 @@ set Harpoon stat durability D
 
 //set WindSpear effect wind-damage 8
 //set Euthyphro effect wind-damage 7
-set Partisan effect cripple-rate 15
+set Partisan effect cripple-rate 8
 
 set Doru stat level 1
 set Pike stat level 1
@@ -1638,8 +1637,8 @@ set Pike effect cripple-x2
 // MilitaryFork similar stat than LongSpear + cripple effect
 // Firebrand similar stat than WindSpear + Fire Damage Effect
 
-set MilitaryFork effect cripple-rate 15
-set Pitchfork effect cripple-rate 15
+set MilitaryFork effect cripple-rate 8
+set Pitchfork effect cripple-rate 8
 //set GoreFork effect cripple-rate 8
 set Firebrand effect cripple-x2
 set Firebrand effect fire-damage 7
