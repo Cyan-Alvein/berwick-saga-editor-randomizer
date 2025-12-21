@@ -675,7 +675,6 @@ set daoud skill mercy
 set daoud skill prepared
 set daoud skill pulverize
 set daoud skill robust
-set daoud skill shieldfaire
 set daoud skill throw
 set daoud skill desperation
 set daoud skill maim
@@ -695,7 +694,6 @@ set enid skill miracle
 set enid skill battlecry
 set enid skill robust
 set enid skill maim
-set enid skill adept
 set enid skill robbery
 set enid skill hide
 set enid skill watchful
@@ -714,7 +712,6 @@ set aegina skill battlecry
 set aegina skill charisma
 set aegina skill vantage
 set aegina skill robust
-set aegina skill adept
 set aegina skill maim
 set aegina skill robbery
 set aegina skill hide
@@ -733,7 +730,6 @@ set perceval skill battlecry
 set perceval skill vantage
 set perceval skill maim
 set perceval skill robust
-set perceval skill focuschant
 set perceval skill robbery
 set perceval skill hide
 set perceval skill watchful
@@ -3033,7 +3029,6 @@ set RazeMonk skill resistor
 set RazeMonk skill versatile
 set RazeMonk skill miracle
 set RazeMonk skill charisma
-set RazeMonk skill adept
 set RazeMonk skill vantage
 set RazeMonk skill hide
 set RazeMonk skill watchful
@@ -3050,7 +3045,6 @@ set RazePriest skill imbue
 set RazePriest skill resistor
 set RazePriest skill miracle
 set RazePriest skill charisma
-set RazePriest skill adept
 set RazePriest skill vantage
 set RazePriest skill hide
 set RazePriest skill watchful
@@ -3059,7 +3053,6 @@ set RazeBishop base hp +2
 set RazeBishop base defense +2
 set RazeBishop base magic +2
 set RazeBishop skill focuschant
-set RazeBishop skill adept
 set RazeBishop skill blessing
 set RazeBishop skill canto
 set RazeBishop skill commander
@@ -3223,7 +3216,6 @@ set RazeBishop2 base hp +2
 set RazeBishop2 base defense +2
 set RazeBishop2 base magic +2
 set RazeBishop2 skill focuschant
-set RazeBishop2 skill adept
 set RazeBishop2 skill canto
 set RazeBishop2 skill blessing
 set RazeBishop2 skill commander
