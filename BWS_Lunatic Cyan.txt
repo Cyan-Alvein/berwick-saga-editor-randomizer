@@ -2544,7 +2544,6 @@ set VerianKnight_R skill armsthrift
 set VerianKnight_R skill throw
 set VerianKnight_R skill camouflage
 set VerianKnight_R skill charisma
-set VerianKnight_R skill adept
 set VerianKnight_R skill hide
 
 set VerianKnight base hp +2
@@ -2556,7 +2555,6 @@ set VerianKnight skill armsthrift
 set VerianKnight skill throw
 set VerianKnight skill camouflage
 set VerianKnight skill charisma
-set VerianKnight skill adept
 set VerianKnight skill hide
 
 set VerianKnight2_R base hp +2
@@ -2568,7 +2566,6 @@ set VerianKnight2_R skill armsthrift
 set VerianKnight2_R skill throw
 set VerianKnight2_R skill camouflage
 set VerianKnight2_R skill charisma
-set VerianKnight2_R skill adept
 set VerianKnight2_R skill hide
 
 set VerianKnight2 base hp +2
@@ -2580,7 +2577,6 @@ set VerianKnight2 skill armsthrift
 set VerianKnight2 skill throw
 set VerianKnight2 skill camouflage
 set VerianKnight2 skill charisma
-set VerianKnight2 skill adept
 set VerianKnight2 skill hide
 
 set ImperialKnight_R base hp +2
@@ -2592,7 +2588,6 @@ set ImperialKnight_R skill armsthrift
 set ImperialKnight_R skill throw
 set ImperialKnight_R skill camouflage
 set ImperialKnight_R skill charisma
-set ImperialKnight_R skill adept
 set ImperialKnight_R skill hide
 
 set ImperialKnight base hp +2
@@ -2604,7 +2599,6 @@ set ImperialKnight skill armsthrift
 set ImperialKnight skill throw
 set ImperialKnight skill camouflage
 set ImperialKnight skill charisma
-set ImperialKnight skill adept
 set ImperialKnight skill hide
 
 set ImperialPaladin_R base hp +2
@@ -2617,7 +2611,6 @@ set ImperialPaladin_R skill throw
 set ImperialPaladin_R skill commander
 set ImperialPaladin_R skill camouflage
 set ImperialPaladin_R skill charisma
-set ImperialPaladin_R skill adept
 set ImperialPaladin_R skill hide
 
 set ImperialPaladin base hp +2
@@ -2629,7 +2622,6 @@ set ImperialPaladin skill armsthrift
 set ImperialPaladin skill throw
 set ImperialPaladin skill camouflage
 set ImperialPaladin skill charisma
-set ImperialPaladin skill adept
 set ImperialPaladin skill hide
 
 set HighKnight_R base hp +2
@@ -2641,7 +2633,6 @@ set HighKnight_R skill armsthrift
 set HighKnight_R skill throw
 set HighKnight_R skill camouflage
 set HighKnight_R skill charisma
-set HighKnight_R skill adept
 set HighKnight_R skill hide
 
 set HighKnight base hp +2
@@ -2653,7 +2644,6 @@ set HighKnight skill armsthrift
 set HighKnight skill throw
 set HighKnight skill camouflage
 set HighKnight skill charisma
-set HighKnight skill adept
 set HighKnight skill hide
 
 set HighKnight2_R base hp +2
@@ -2665,7 +2655,6 @@ set HighKnight2_R skill armsthrift
 set HighKnight2_R skill throw
 set HighKnight2_R skill camouflage
 set HighKnight2_R skill charisma
-set HighKnight2_R skill adept
 set HighKnight2_R skill hide
 
 set HighKnight2 base hp +2
@@ -2677,7 +2666,6 @@ set HighKnight2 skill armsthrift
 set HighKnight2 skill throw
 set HighKnight2 skill camouflage
 set HighKnight2 skill charisma
-set HighKnight2 skill adept
 set HighKnight2 skill hide
 
 set General base hp +2
@@ -2689,20 +2677,17 @@ set General skill armsthrift
 set General skill commander
 set General skill camouflage
 set General skill charisma
-set General skill adept
 set General skill hide
 set General skill counter
 
 // This may be Larentia Stat too
 set WyvernKnight_R skill canto
 set WyvernKnight_R skill throw
-set WyvernKnight_R skill adept
 set WyvernKnight_R skill hide
 
 // larentia stat
 set WyvernKnight skill canto
 set WyvernKnight skill throw
-set WyvernKnight skill adept
 set WyvernKnight skill hide
 
 set WyvernLord_R base hp +2
@@ -2712,7 +2697,6 @@ set WyvernLord_R skill canto
 set WyvernLord_R skill shieldfaire
 set WyvernLord_R skill armsthrift
 set WyvernLord_R skill throw
-set WyvernLord_R skill adept
 set WyvernLord_R skill commander
 set WyvernLord_R skill camouflage
 set WyvernLord_R skill charisma
@@ -2725,7 +2709,6 @@ set WyvernLord skill canto
 set WyvernLord skill shieldfaire
 set WyvernLord skill armsthrift
 set WyvernLord skill throw
-set WyvernLord skill adept
 set WyvernLord skill commander
 set WyvernLord skill camouflage
 set WyvernLord skill charisma
@@ -2740,7 +2723,6 @@ set Axeman skill canto
 set Axeman skill shieldfaire
 set Axeman skill camouflage
 set Axeman skill charisma
-set Axeman skill adept
 set Axeman skill hide
 
 set ImperialAxeman base hp +2
@@ -2752,7 +2734,6 @@ set ImperialAxeman skill canto
 set ImperialAxeman skill shieldfaire
 set ImperialAxeman skill camouflage
 set ImperialAxeman skill charisma
-set ImperialAxeman skill adept
 set ImperialAxeman skill hide
 
 set AxeGuard base hp +2
@@ -2764,7 +2745,6 @@ set AxeGuard skill canto
 set AxeGuard skill shieldfaire
 set AxeGuard skill camouflage
 set AxeGuard skill charisma
-set AxeGuard skill adept
 set AxeGuard skill hide
 //set AxeGuard skill counter
 
@@ -2940,7 +2920,6 @@ set Ruffian_R skill shieldfaire
 set Ruffian_R skill armsthrift
 set Ruffian_R skill throw
 set Ruffian_R skill camouflage
-set Ruffian_R skill adept
 set Ruffian_R skill aim
 set Ruffian_R skill charisma
 set Ruffian_R skill doubleshot
@@ -2954,7 +2933,6 @@ set Ruffian skill canto
 set Ruffian skill armsthrift
 set Ruffian skill throw
 set Ruffian skill camouflage
-set Ruffian skill adept
 set Ruffian skill aim
 set Ruffian skill charisma
 set Ruffian skill shieldfaire
@@ -3012,7 +2990,6 @@ set Rogue base magic +2
 set Rogue skill armsthrift
 set Rogue skill shieldfaire
 set Rogue skill throw
-set Rogue skill adept
 set Rogue skill canto
 set Rogue skill camouflage
 set Rogue skill charisma
@@ -3123,7 +3100,6 @@ set RogueGunner skill canto
 set RogueGunner skill armsthrift
 set RogueGunner skill camouflage
 set RogueGunner skill charisma
-set RogueGunner skill adept
 set RogueGunner skill hide
 set RogueGunner skill watchful
 
@@ -3168,7 +3144,6 @@ set Duke skill armsthrift
 set Duke skill commander
 set Duke skill camouflage
 set Duke skill charisma
-set Duke skill adept
 set Duke skill hide
 
 set Scoundrel base hp +2
@@ -3205,7 +3180,6 @@ set FailedPoet skill throw
 set FailedPoet skill charisma
 set FailedPoet skill commander
 set FailedPoet skill armsthrift
-set FailedPoet skill adept
 set FailedPoet skill canto
 set FailedPoet skill camouflage
 set FailedPoet skill charisma
@@ -3237,13 +3211,11 @@ set King skill canto
 set King skill commander
 set King skill camouflage
 set King skill charisma
-set King skill adept
 set King skill hide
 
 set Captain base hp +2
 set Captain base defense +2
 set Captain base magic +2
-set Captain skill adept
 set Captain skill armsthrift
 set Captain skill canto
 set Captain skill iaido
@@ -3254,7 +3226,6 @@ set Captain skill hide
 
 set Huntress skill armsthrift
 set Huntress skill canto
-set Huntress skill adept
 set Huntress skill iaido
 set Huntress skill camouflage
 set Huntress skill charisma
@@ -3271,7 +3242,6 @@ set DragonKnight_R skill throw
 set DragonKnight_R skill camouflage
 set DragonKnight_R skill charisma
 set DragonKnight_R skill hide
-set DragonKnight_R skill adept
 
 set DragonKnight base hp +2
 set DragonKnight base defense +2
@@ -3281,7 +3251,6 @@ set DragonKnight skill shieldfaire
 set DragonKnight skill throw
 set DragonKnight skill camouflage
 set DragonKnight skill charisma
-set DragonKnight skill adept
 set DragonKnight skill hide
 set DragonKnight skill canto
 
@@ -3315,7 +3284,6 @@ set BlackRider_R skill shieldfaire
 set BlackRider_R skill throw
 set BlackRider_R skill charisma
 set BlackRider_R skill hide
-set BlackRider_R skill adept
 
 set BlackRider base hp +2
 set BlackRider base defense +2
@@ -3325,7 +3293,6 @@ set BlackRider skill camouflage
 set BlackRider skill shieldfaire
 set BlackRider skill throw
 set BlackRider skill charisma
-set BlackRider skill adept
 
 set GigasKnight base hp +2
 set GigasKnight base defense +2
@@ -3391,7 +3358,6 @@ set Aristocrat skill armsthrift
 set Aristocrat skill camouflage 
 set Aristocrat skill canto
 set Aristocrat skill charisma
-set Aristocrat skill adept
 set Aristocrat skill hide
 
 set Paladin_M skill throw
@@ -3622,7 +3588,6 @@ set Berserker skill hide
 
 set FlameFencer skill maim
 set FlameFencer skill hide
-set FlameFencer skill adept
 
 set VeteranKnight_R skill hide
 
