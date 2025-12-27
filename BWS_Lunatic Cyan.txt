@@ -1533,7 +1533,7 @@ set Pike stat accuracy 60
 set MithrilSpear stat accuracy 60
 set SteelSpear stat accuracy 60
 set Brionac stat accuracy 60
-set Harpoon stat accuracy 60
+set Harpoon stat accuracy 50
 set PrototypeSpear stat accuracy 60
 set KillerSpear stat accuracy 70
 
