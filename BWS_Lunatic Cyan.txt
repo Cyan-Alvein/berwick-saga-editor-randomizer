@@ -2755,7 +2755,6 @@ set Bowman skill canto
 set Bowman skill armsthrift
 set Bowman skill aim
 set Bowman skill camouflage
-set Bowman skill Doubleshot
 set Bowman skill charisma
 set Bowman skill hide
 set Bowman skill watchful
@@ -2767,7 +2766,6 @@ set BowRider skill canto
 set BowRider skill armsthrift
 set BowRider skill aim
 set BowRider skill camouflage
-set BowRider skill DoubleShot
 set BowRider skill charisma
 set BowRider skill hide
 set BowRider skill watchful
@@ -2801,7 +2799,6 @@ set ImperialBowman skill canto
 set ImperialBowman skill armsthrift
 set ImperialBowman skill aim
 set ImperialBowman skill camouflage
-set ImperialBowman skill DoubleShot
 set ImperialBowman skill charisma
 set ImperialBowman skill hide
 set ImperialBowman skill watchful
@@ -2813,7 +2810,6 @@ set ImperialBowRider_R skill canto
 set ImperialBowRider_R skill armsthrift
 set ImperialBowRider_R skill aim
 set ImperialBowRider_R skill camouflage
-set ImperialBowRider_R skill DoubleShot
 set ImperialBowRider_R skill charisma
 set ImperialBowRider_R skill hide
 set ImperialBowRider_R skill watchful
@@ -2825,7 +2821,6 @@ set ImperialBowRider skill canto
 set ImperialBowRider skill armsthrift
 set ImperialBowRider skill aim
 set ImperialBowRider skill camouflage
-set ImperialBowRider skill DoubleShot
 set ImperialBowRider skill charisma
 set ImperialBowRider skill hide
 set ImperialBowRider skill watchful
@@ -2859,7 +2854,6 @@ set Marksman skill canto
 set Marksman skill armsthrift
 set Marksman skill aim
 set Marksman skill camouflage
-set Marksman skill DoubleShot
 set Marksman skill charisma
 set Marksman skill hide
 set Marksman skill watchful
@@ -2872,7 +2866,6 @@ set ImperialMarksman skill armsthrift
 set ImperialMarksman skill throw
 set ImperialMarksman skill aim
 set ImperialMarksman skill camouflage
-set ImperialMarksman skill DoubleShot
 set ImperialMarksman skill charisma
 set ImperialMarksman skill hide
 set ImperialMarksman skill watchful
@@ -2922,7 +2915,6 @@ set Ruffian_R skill throw
 set Ruffian_R skill camouflage
 set Ruffian_R skill aim
 set Ruffian_R skill charisma
-set Ruffian_R skill doubleshot
 set Ruffian_R skill hide
 set Ruffian_R skill watchful
 
@@ -2936,7 +2928,6 @@ set Ruffian skill camouflage
 set Ruffian skill aim
 set Ruffian skill charisma
 set Ruffian skill shieldfaire
-set Ruffian skill doubleshot
 set Ruffian skill hide
 set Ruffian skill watchful
 
@@ -2949,7 +2940,6 @@ set Pickpocket skill throw
 set Pickpocket skill throw
 set Pickpocket skill camouflage
 set Pickpocket skill charisma
-set Pickpocket skill doubleshot
 set Pickpocket skill hide
 set Pickpocket skill watchful
 
@@ -2964,7 +2954,6 @@ set Outlaw skill camouflage
 set Outlaw skill aim
 set Outlaw skill shieldfaire
 set Outlaw skill charisma
-set Outlaw skill DoubleShot
 set Outlaw skill hide
 set Outlaw skill watchful
 
@@ -3087,7 +3076,6 @@ set RogueArcher skill aim
 set RogueArcher skill canto
 set RogueArcher skill armsthrift
 set RogueArcher skill camouflage
-set RogueArcher skill DoubleShot
 set RogueArcher skill charisma
 set RogueArcher skill hide
 set RogueArcher skill watchful
@@ -3473,7 +3461,6 @@ set Pirate skill hide
 
 //sherlock stats
 set Horseman skill aim
-set Horseman skill doubleshot
 set Horseman skill hide
 set Horseman skill watchful
 
@@ -3486,7 +3473,6 @@ set BowKnight skill watchful
 set BowKnight skill aim
 
 set Horseman_R skill aim
-set Horseman_R skill doubleshot
 set Horseman_R skill hide
 set Horseman_R skill watchful
 
