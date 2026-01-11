@@ -698,6 +698,7 @@ set enid skill robbery
 set enid skill hide
 set enid skill watchful
 set enid skill flourish
+set enid skill adept
 
 set aegina skill canto
 set aegina skill focuschant
