@@ -1394,7 +1394,8 @@ set ImperialSword stat accuracy 60
 set AltiumSword stat accuracy 50
 set LevinSword stat accuracy 40
 set Albatross stat accuracy 50
-set Scimitar+ stat accuracy 50
+//set Scimitar+ stat accuracy 50
+//set KnightSword stat accuracy 60
 set FlameSword stat accuracy 50
 set HolySword stat accuracy 50
 set WindEdge stat accuracy 50
@@ -1410,7 +1411,7 @@ set FlameSword stat cost 4000
 //set WindEdge stat cost 1200
 set InfernalEdge stat cost 6000
 set RazeEtoile stat cost 6000
-set Harperia stat cost 5000
+set Harperia stat cost 6000
 set Colichemarde stat cost 7000
 
 //set Scimitar+ stat level 1
@@ -1839,6 +1840,7 @@ set Greatbow stat level 15
 set Greatbow stat max-range 3
 set Rossweisse stat max-range 3
 set Apeiron stat max-range 3
+set Apeiron stat accuracy 60
 
 set CompositeBow effect cripple-x2
 
