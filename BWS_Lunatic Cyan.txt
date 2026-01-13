@@ -1048,6 +1048,7 @@ set axel skill climber
 set axel skill throw
 set axel skill battlecry
 set axel skill desperation
+set axel skill deathmatch
 set axel skill robust
 set axel skill maim
 set axel skill mug2
@@ -1065,6 +1066,7 @@ set larentia skill prepared
 set larentia skill throw
 set larentia skill watchful
 set larentia skill desperation
+set larentia skill deathmatch
 set larentia skill scotopic
 set larentia skill maim
 set larentia skill robbery
@@ -3851,3 +3853,4 @@ set Arrow++ stat might 8
 //set Glaive effect kill-horse
 //set ward item 6 Concoction 1
 //Give HP & weapon skill to class is bugged, don't work, need to work on it.
+//Adding the option to move, then trade, then attack, will be nice for next game.
