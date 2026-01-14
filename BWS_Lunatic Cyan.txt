@@ -507,6 +507,7 @@ set reese skill Prepared
 set reese skill robbery
 set reese skill desperation
 set reese skill hide
+set reese skill windsweep
 
 set ward skill canto
 set ward skill flourish
@@ -624,6 +625,7 @@ set sherlock skill hide
 set sherlock skill robbery
 set sherlock skill guard
 set sherlock skill battlecry
+set sherlock skill windsweep
 
 set izerna skill blessing
 set izerna skill canto
@@ -664,6 +666,7 @@ set czene skill windsweep
 set czene skill sunder
 set czene skill fortune
 set czene skill celerity
+set czene skill deathmatch
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -888,6 +891,7 @@ set sylvis skill scotopic
 set sylvis skill huntsman
 set sylvis skill robbery
 set sylvis skill tripleshot
+set sylvis skill windsweep
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -912,6 +916,7 @@ set thaddy skill guard
 set thaddy skill windsweep
 set thaddy skill sunder
 set thaddy skill celerity
+set thaddy skill deathmatch
 
 set esteban skill aim 
 set esteban skill camouflage
@@ -934,6 +939,7 @@ set esteban skill watchful
 set esteban skill guard
 set esteban skill maim
 set esteban skill robbery
+set esteban skill windsweep
 	
 set faye skill adept
 set faye skill deathmatch
@@ -1055,6 +1061,7 @@ set axel skill mug2
 set axel skill knockaway
 set axel skill watchful
 set axel skill vengeful
+set axel skill windsweep
 
 set larentia skill adept
 set larentia skill canto
@@ -1152,7 +1159,6 @@ set lynette skill protector
 set lynette skill prepared
 set lynette skill guard
 set lynette skill vantage
-set lynette skill adept
 set lynette skill maim
 set lynette skill robbery
 set lynette skill hide
@@ -1178,6 +1184,7 @@ set paramythis skill robbery
 set paramythis skill hide
 set paramythis skill watchful
 set paramythis skill desperation
+set paramythis skill deathmatch
 
 
 // prfs
