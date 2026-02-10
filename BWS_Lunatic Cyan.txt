@@ -506,6 +506,7 @@ set reese skill paragon
 set reese skill Prepared
 set reese skill robbery
 set reese skill desperation
+set reese skill deathmatch
 set reese skill hide
 set reese skill windsweep
 
@@ -523,6 +524,7 @@ set ward skill maim
 set ward skill robbery
 set ward skill hide
 set ward skill shieldfaire
+set ward skill arrowbane
 set ward skill desperation
 	
 set elbert skill arrowbane
@@ -536,6 +538,7 @@ set elbert skill mercy
 set elbert skill prepared
 set elbert skill provoke
 set elbert skill shieldfaire 
+set elbert skill counter
 set elbert skill throw
 set elbert skill desperation
 set elbert skill maim
@@ -683,6 +686,7 @@ set daoud skill desperation
 set daoud skill maim
 set daoud skill robbery
 set daoud skill hide
+set daoud skill counter
 
 set enid skill canto
 set enid skill charisma
@@ -769,6 +773,7 @@ set alvina skill maim
 set alvina skill robbery
 set alvina skill hide
 set alvina skill desperation
+set alvina skill deathmatch
 
 //set ruby skill adept 
 set ruby skill axebane
@@ -783,7 +788,9 @@ set ruby skill paragon
 set ruby skill prepared 
 set ruby skill throw 
 set ruby skill vantage 
+set ruby skill vantage 
 set ruby skill desperation
+set ruby skill deathmatch
 set ruby skill maim
 set ruby skill robbery
 set ruby skill hide
@@ -792,6 +799,7 @@ set arthur skill armsthrift
 set arthur skill canto
 set arthur skill counter 
 set arthur skill desperation
+set arthur skill shieldfaire
 set arthur skill flourish
 set arthur skill guard
 set arthur skill horselover
@@ -1145,7 +1153,6 @@ set saphira skill guard
 set lynette skill aim
 set lynette skill canto
 set lynette skill deadeye
-set lynette skill charisma
 set lynette skill expert
 set lynette skill flourish
 set lynette skill focuschant
@@ -3387,6 +3394,7 @@ set AxeSergeant skill armsthrift
 set AxeSergeant skill canto
 set AxeSergeant skill throw
 set AxeSergeant skill hide
+set AxeSergeant skill counter
 
 //Will fuck Czene Stat on rankup
 set Grassrunner_R skill adept
@@ -3518,6 +3526,7 @@ set Myrmidon skill fortune
 //Daoud Stat
 set AxeSoldier skill throw
 set AxeSoldier skill hide
+set AxeSoldier skill counter
 
 //Derrick Stat
 set ArmorKnight skill throw
