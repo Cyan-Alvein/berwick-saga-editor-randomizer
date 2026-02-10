@@ -522,7 +522,7 @@ set ward skill robust
 set ward skill maim
 set ward skill robbery
 set ward skill hide
-set ward skill counter
+set ward skill shieldfaire
 set ward skill desperation
 	
 set elbert skill arrowbane
@@ -869,7 +869,6 @@ set dean skill robust
 set dean skill maim
 set dean skill robbery
 set dean skill pulverize
-set dean skill knockaway
 set dean skill battlecry
 set dean skill provoke
 set dean skill windsweep
@@ -1057,10 +1056,9 @@ set axel skill desperation
 set axel skill deathmatch
 set axel skill robust
 set axel skill maim
-set axel skill mug2
-set axel skill knockaway
 set axel skill watchful
 set axel skill vengeful
+set axel skill counter
 set axel skill windsweep
 
 set larentia skill adept
