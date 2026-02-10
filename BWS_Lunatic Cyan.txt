@@ -1058,6 +1058,7 @@ set axel skill robust
 set axel skill maim
 set axel skill watchful
 set axel skill vengeful
+set axel skill counter
 set axel skill windsweep
 
 set larentia skill adept
