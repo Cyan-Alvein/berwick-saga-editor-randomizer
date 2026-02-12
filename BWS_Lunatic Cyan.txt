@@ -788,7 +788,6 @@ set ruby skill paragon
 set ruby skill prepared 
 set ruby skill throw 
 set ruby skill vantage 
-set ruby skill vantage 
 set ruby skill desperation
 set ruby skill deathmatch
 set ruby skill maim
@@ -936,7 +935,6 @@ set esteban skill hurry
 set esteban skill locktouch
 set esteban skill mercy
 set esteban skill mug
-set esteban skill mug2
 set esteban skill overwatch
 set esteban skill prepared
 set esteban skill doubleshot
