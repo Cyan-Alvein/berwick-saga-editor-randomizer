@@ -11,29 +11,29 @@
 
 /////////////////////////////////////////////README - Most Important Changes//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// pitchfork & MilitaryFork got cripple-x2
+// pitchfork & MilitaryFork got cripple rate 8
 
-// Pike, Longspear, Altium, Gastraphetes, BastardSword & all lance weapons got cripple-x2
+// Pike, Longspear, Altium, Gastraphetes, Composite Bow, BattleAxe, BastardSword & all lance weapons got cripple-x2
 
-// All weapon and shield got their weight adjusted. Christine & Sylvis can use their Vantage skill with Crossbow
+// Hawkeye & Arbalest got 2 range, Same as Ollerus. Apeiron, Rossweisse & Greatbow got 3 range.
 
-// Hawkeye & Arbalest got 2 range, Same as Ollerus.
+// Everyone got Mercy, Canto, Flourish, Maim, Horse_lover ...
 
-// All forged and unique weapon & magic regenerate, so use them at will
+// NB: Faye, Faramir, Volo use Astra. Faye, Faramir, Volo, Sherpa & Kramer can use Pulverize when they have a Blade Equiped. Now you understand why the Blade skill is OP, since Pulverize is the best offensive skill in the game.
 
-// Everyone got Mercy, Canto, Flourish. Thaddy got celerity & fortune too, and both thaddy and Czene got vantage too. Now Thaddy is even better than czene. You can provoke ennemy and perma vantage them. 
+//Reese, Ruby, Alvina, Larentia, Kramer, Sherpa, Faye, Faramir, Dean got Deathmatch Skill
 
-// NB: Sherpa & Kramer can use Pulverize when they have a Blade Equiped. Now you understand why the Blade skill is OP, since Pulverize is the best offensive skill in the game.
+// All ennemy got supporter & hide skill.
 
-// All ennemy got huge amount of skill too (The game refuse to increase their hit rate with base sword +10 and stuff (Yeah even deathmatch, Good luck vs a Chaos with Deathmatch, Critical, Adept, Pursuit, Parry aka all Volo skill without Astra - May the best win)
+// Archer, priest, swordmaster ennemy got watchful
 
 // The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
 
-// All player characters got +10 base weapon skill & some got increased weapon growth rate (adel, aegina, daoud ...), so don't waste your time trying to farm Weapon EEXP, just play and enjoy the game.
+// All player characters got +20 base weapon skill & some got increased weapon growth rate (adel, aegina, daoud ...), so don't waste your time trying to farm Weapon EEXP, just play and enjoy the game.
 
 // All unpromoted player class weapon cap are set as promoted class weapon cap. So Sherlock can reach bow rank 60 without getting promoted
 
-// If you want Leon & Adel or even ruby to use lance, just type this code Set Ruby Skill Lance, I tested it and it worked. But don't 
+// If you want Leon & Adel or even ruby to use lance, just type this code Set Ruby Skill Lance, I tested it and it worked. But don't use
  the skill desperation while attacking with lance, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
 
 // Accessories item got huge buff, SpiritBrace = Magic +2, BlessedBrace  = Magic +3 Speed -2, DivineBrace (Aegina own it)= Magic +4 Defense -2 Speed -2
