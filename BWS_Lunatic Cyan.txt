@@ -1324,7 +1324,7 @@ set PoisonKnife stat rounds 1
 set SleepKnife stat rounds 1
 set BoltKnife stat rounds 1
 set AssassinsKnife stat rounds 1
-set LetterOpener stat might 1
+set LetterOpener stat rounds 1
 set MainGauche stat rounds 1
 
 set AssassinsKnife effect cripple-x2
