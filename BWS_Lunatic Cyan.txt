@@ -1783,7 +1783,7 @@ set Francisca stat accuracy 40
 set Hammer stat accuracy 40
 set Shieldaxe stat accuracy 40
 set MaozaWolf stat accuracy 40
-set GigasAxe stat accuracy 40
+set GigasAxe stat accuracy 30
 set VerianAxe stat accuracy 50
 set ImperialAxe stat accuracy 50
 set OldImperialAxe stat accuracy 40
