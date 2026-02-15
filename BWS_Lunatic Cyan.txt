@@ -826,6 +826,7 @@ set kramer skill desperation
 set kramer skill robust
 set kramer skill maim
 set kramer skill robbery
+set kramer skill arrowbane
 set kramer skill hide
 set kramer skill fortune
 set kramer skill provoke
@@ -1041,6 +1042,7 @@ set clifford skill hide
 set clifford skill throw
 
 set axel skill canto
+set axel skill axeguard
 set axel skill flourish
 set axel skill guard
 set axel skill hide
