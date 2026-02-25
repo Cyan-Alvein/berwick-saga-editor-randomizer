@@ -13,11 +13,11 @@
 
 // pitchfork & MilitaryFork got cripple rate 8
 
-// Pike, Longspear, Altium, Gastraphetes, Composite Bow, BattleAxe, BastardSword & all lance weapons got cripple-x2
+// Pike, Longspear, Altium, Gastraphetes, Composite Bow, BattleAxe, BastardSword, Holy & all lance weapons got cripple-x2
 
 // Hawkeye & Arbalest got 2 range, Same as Ollerus. Apeiron, Rossweisse & Greatbow got 3 range.
 
-// Everyone got Mercy, Canto, Flourish, Maim, Horse_lover ...
+// Everyone got Mercy, Canto, Flourish, Maim, Horse_lover, Guard ...
 
 // NB: Faye, Faramir, Volo use Astra. Faye, Faramir, Volo, Sherpa & Kramer can use Pulverize when they have a Blade Equiped. Now you understand why the Blade skill is OP, since Pulverize is the best offensive skill in the game.
 
