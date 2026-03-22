@@ -467,7 +467,7 @@ set Derrick base lshield +15
 
 set saphira item 1 Holy 10
 set saphira item 2 Bag 0
-set saphira item 3 LightRing 101
+set saphira item 3 LightRing 0
 set saphira item 4 Physic 15
 set saphira item 5 Awaken 10
 set saphira item 6 Mend 20
