@@ -879,6 +879,7 @@ set dean skill pulverize
 set dean skill battlecry
 set dean skill provoke
 set dean skill windsweep
+set dean skill knockaway
 
 set sylvis skill aim
 set sylvis skill canto
@@ -1066,6 +1067,7 @@ set axel skill watchful
 set axel skill vengeful
 set axel skill counter
 set axel skill windsweep
+set axel skill fortune
 
 set larentia skill adept
 set larentia skill canto
