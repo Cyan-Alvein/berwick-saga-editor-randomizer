@@ -586,6 +586,7 @@ set adel skill robust
 set adel skill robbery
 set adel skill hide
 set adel skill windsweep
+set adel skill fortune
 
 set leon skill canto
 set leon skill deathmatch
@@ -608,6 +609,7 @@ set leon skill hide
 set leon skill adept
 set leon skill parry
 set leon skill windsweep
+set leon skill fortune
 
 set sherlock skill aim 
 set sherlock skill canto
@@ -648,6 +650,7 @@ set izerna skill mercy
 set izerna skill hide
 set izerna skill watchful
 set izerna skill guard
+set izerna skill fortune
 
 set czene skill adept
 set czene skill camouflage 
@@ -1093,6 +1096,7 @@ set larentia skill robbery
 set larentia skill hide
 set larentia skill parry
 set larentia skill windsweep
+set larentia skill fortune
 
 set owen skill adept
 set owen skill blessing
@@ -1201,6 +1205,7 @@ set paramythis skill hide
 set paramythis skill watchful
 set paramythis skill desperation
 set paramythis skill deathmatch
+set paramythis skill fortune
 
 
 // prfs
