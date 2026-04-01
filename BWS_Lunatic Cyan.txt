@@ -3798,6 +3798,12 @@ set Arrow++ stat might 8
 //set Escape effect restore-uses
 //set Pacify effect restore-uses
 	
+//Increasing ennemy class HP is bugged, it may increase ennemy Strenght instead
+//Increasing ennemy class Weapon Skill is bugged, doesn't work, to fix.
+//Learned function is bugged
+//restore-uses doesn't work when the item is in the storage room in Reese's house.
+//Adding 2 effect on an iteam doesn't work, only the last effect will apply. So you shouldn't touch Bolt's Knife otherwise you will remove his injure + thunder damage effect.
+//Adept doesn't work with desperate, so giving Dean Deathmatch is a Huge buff.
 //Bug, Robbery and steal are linked, when robbery proc, it will decrease steal activation counter. So you can only robbery & steal 3 times by map.
 //Shieldaxe shouldn't be a stand-still skill
 //need to test remove bracket for ennemy so they can have 1000 hp without bugging then adding on attack
