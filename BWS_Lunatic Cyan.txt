@@ -2929,7 +2929,6 @@ set Pickpocket base hp +2
 set Pickpocket base defense +2
 set Pickpocket base magic +2
 set Pickpocket skill canto
-set Pickpocket skill adept
 set Pickpocket skill throw
 set Pickpocket skill throw
 set Pickpocket skill camouflage
@@ -3344,7 +3343,6 @@ set AxeSergeant skill hide
 set AxeSergeant skill counter
 
 //Will fuck Czene Stat on rankup
-set Grassrunner_R skill adept
 set Grassrunner_R skill camouflage
 set Grassrunner_R skill canto
 set Grassrunner_R skill throw
@@ -3352,7 +3350,6 @@ set Grassrunner_R skill hide
 set Grassrunner_R skill watchful
 
 //Will fuck Czene Stat on rankup
-set Grassrunner skill adept
 set Grassrunner skill camouflage
 set Grassrunner skill canto
 set Grassrunner skill throw
