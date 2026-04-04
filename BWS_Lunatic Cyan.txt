@@ -795,7 +795,6 @@ set ruby skill mercy
 set ruby skill paragon
 set ruby skill prepared 
 set ruby skill throw 
-set ruby skill vantage 
 set ruby skill desperation
 set ruby skill deathmatch
 set ruby skill maim
