@@ -2361,10 +2361,10 @@ set FlameFencer cap Sword 50
 set FlameFencer cap Thunder 50
 set FlameFencer cap Fire 60
 
-//set LanceKnight2 cap spear 60
-//set LanceKnight2 cap sshield 50
-//set LanceKnight2_R cap spear 60
-//set LanceKnight2_R cap sshield 50
+set LanceKnight2 cap spear 60
+set LanceKnight2 cap sshield 50
+set LanceKnight2_R cap spear 60
+set LanceKnight2_R cap sshield 50
 
 //set Guardian cap Sword 50
 //set Guardian cap lshield 50
@@ -2395,10 +2395,10 @@ set SpearKnight cap sshield 40
 set SpearKnight_R cap spear 40
 set SpearKnight_R cap sshield 40
 
-set SpearRider_R cap spear 40
-set SpearRider_R cap sshield 40
-set SpearRider cap spear 40
-set SpearRider cap sshield 40
+set SpearRider_R cap spear 60
+set SpearRider_R cap sshield 50
+set SpearRider cap spear 60
+set SpearRider cap sshield 50
 
 set AxeSoldier cap axe 60
 set AxeSoldier cap sshield 50
