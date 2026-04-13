@@ -2372,11 +2372,14 @@ set LanceKnight2_R cap sshield 50
 //set ArmorKnight cap lshield 50
 //set ArmorKnight cap Axe 50
 
-//set pirate cap Axe 60
+set pirate cap Axe 60
 
-//set WyvernKnight cap Spear 50
-//set WyvernKnight_R cap Spear 50
-//set Larentia cap Spear 50
+set WyvernKnight cap Spear 60
+set WyvernKnight_R cap Spear 60
+set Larentia cap Spear 60
+set WyvernKnight cap sshield 50
+set WyvernKnight_R cap sshield 50
+set Larentia cap sshield 50
 
 set Horseman cap Bow 60
 set Horseman_R cap Bow 60
@@ -2389,11 +2392,10 @@ set Myrmidon cap Sword 60
 
 set Swordfighter_M cap Sword 60
 
-set SpearKnight cap spear 40
-set SpearKnight cap sshield 40
-
-set SpearKnight_R cap spear 40
-set SpearKnight_R cap sshield 40
+set SpearKnight cap spear 60
+set SpearKnight cap sshield 50
+set SpearKnight_R cap spear 60
+set SpearKnight_R cap sshield 50
 
 set SpearRider_R cap spear 60
 set SpearRider_R cap sshield 50
