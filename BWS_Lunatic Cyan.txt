@@ -567,6 +567,7 @@ set christine skill fortune
 
 set adel skill canto
 set adel skill counter 
+set adel skill adept
 set adel skill flourish
 set adel skill guard
 set adel skill horselover
@@ -785,6 +786,7 @@ set alvina skill deathmatch
 
 //set ruby skill adept 
 set ruby skill axebane
+set ruby skill vantage
 set ruby skill canto
 set ruby skill flourish
 set ruby skill guard
