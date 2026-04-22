@@ -1389,7 +1389,7 @@ set ThrowingKnife stat durability C
 set Swordbreaker stat durability C
 
 set ThiefsKnife stat accuracy 50
-set Seax stat accuracy 60
+set Seax stat accuracy 50
 set stunknife stat accuracy 50
 set KillerKnife stat accuracy 70
 set Shieldknife stat accuracy 50
@@ -1852,11 +1852,11 @@ set GigasAxe stat cost 3000
 // bows
 
 //set KillerArrow stat might 8
-set PoisonArrow stat might 5
-set SleepArrow stat might 5
-set BroadheadArrow stat might 5
+set PoisonArrow stat might 1
+set SleepArrow stat might 1
+set BroadheadArrow stat might 1
 set BodkinArrow stat might 5
-set BreakerArrow stat might 5
+set BreakerArrow stat might 1
 set EmberArrow stat might 0
 set FreezeArrow stat might 0
 set ImperialArrow stat might 8
@@ -2366,11 +2366,11 @@ set LanceKnight2 cap sshield 50
 set LanceKnight2_R cap spear 60
 set LanceKnight2_R cap sshield 50
 
-//set Guardian cap Sword 50
-//set Guardian cap lshield 50
+set Guardian cap Sword 50
+set Guardian cap lshield 50
 
-//set ArmorKnight cap lshield 50
-//set ArmorKnight cap Axe 50
+set ArmorKnight cap lshield 50
+set ArmorKnight cap Axe 50
 
 set pirate cap Axe 60
 
@@ -3814,6 +3814,7 @@ set Arrow++ stat might 8
 //need to test remove bracket for ennemy so they can have 1000 hp without bugging then adding on attack
 //Vengeful should proc during deathmatch
 // Reese & Ruby shield skill increase to 30 on promotion failed. No idea how to fix it.
+// Christine & Esteban Sword skill increase on promo failed
 //maybe sshield accuracy 30 average
 //maybe adept on marcel
 //Increase Christine arrow mastery at rank up didn't work --set ArrowKnight_R base sword +30
@@ -3822,3 +3823,5 @@ set Arrow++ stat might 8
 //set ward item 6 Concoction 1
 //Give HP & weapon skill to class is bugged, don't work, need to work on it.
 //Adding the option to move, then trade, then attack, will be nice for next game.
+//For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
+//Allow the option to separate arrow
