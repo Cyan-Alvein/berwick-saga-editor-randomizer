@@ -566,7 +566,7 @@ set christine skill robbery
 set christine skill fortune
 
 set adel skill canto
-set adel skill counter 
+set adel skill pursuit 
 set adel skill adept
 set adel skill flourish
 set adel skill guard
