@@ -1383,7 +1383,7 @@ set ThrowingKnife stat level 1
 
 set Seax stat weight 2
 
-set vespa stat level 3
+//set vespa stat level 3
 
 set BoltKnife stat durability C
 set LetterOpener stat durability D
@@ -1591,8 +1591,8 @@ set Verutum stat might 12
 //set Pike stat level 1
 //set Doru stat level 1
 
-set Partisan stat level 15
-set SwiftSpear stat level 15
+//set Partisan stat level 15
+//set SwiftSpear stat level 15
 
 set SlimSpear stat Weight 5
 set IronSpear stat Weight 6
@@ -1655,8 +1655,6 @@ set Doru stat level 1
 set Pike stat level 1
 set Harpoon stat level 1
 
-set SwiftSpear stat level 15
-
 set Pike effect cripple-x2
 
 
@@ -1700,7 +1698,7 @@ set Firebrand stat durability D
 
 //lance // lance
 
-set Drakelance stat level 15
+//set Drakelance stat level 15
 
 
 set Drakelance effect cripple-x2
@@ -1833,7 +1831,7 @@ set ImperialAxe effect steal-rate-plus 15
 set Battleaxe stat level 5
 set Broadaxe stat level 5
 set GigasAxe stat level 20
-set Hammer stat level 15
+//set Hammer stat level 15
 set Tomahawk stat level 1
 set MaozaWolf stat level 15
 set VolcanoAxe stat level 1
@@ -1841,11 +1839,10 @@ set GlacierAxe stat level 1
 set NimbusAxe stat level 1
 set DarkAxe stat level 1
 set BoltAxe stat level 1
-set Mjollnir stat level 1
+//set Mjollnir stat level 1
 //set Hatchet stat level 1
-set Greataxe stat level 15
-set Greataxe stat level 15
-set Shieldaxe stat level 15
+//set Greataxe stat level 15
+//set Shieldaxe stat level 15
 
 set BanditAxe stat durability D
 set VolcanoAxe stat durability D
@@ -1882,7 +1879,7 @@ set FreezeArrow effect wind-damage 7
 set RaijinArrow effect thunder-damage 10
 
 set Apeiron stat level 1
-set Greatbow stat level 15
+//set Greatbow stat level 15
 set Greatbow stat max-range 3
 set Rossweisse stat max-range 3
 set Apeiron stat max-range 3
@@ -1947,7 +1944,7 @@ set VerianBow stat might 1
 //set Gastraphetes stat level 1
 set Gastraphetes effect cripple-x2
 
-set Arbalest stat level 15
+//set Arbalest stat level 15
 
 set Bowgun stat weight 7
 set IronCrossbow stat weight 9
@@ -2024,8 +2021,6 @@ set Scorpio effect cripple-rate 8
 set Scorpio stat Durability B
 
 // sshield
-
-set ShiningShield stat level 15
 
 set ShiningShield effect negate-dark 100
 //set DarkShield stat dark_res 10
@@ -2221,8 +2216,6 @@ set BlazingShield stat Weight 4
 set GaleShield stat Weight 4
 
 set LadyMShd stat cost 4000
-
-set BlackShield stat level 15
 
 // lshield stuff
 
