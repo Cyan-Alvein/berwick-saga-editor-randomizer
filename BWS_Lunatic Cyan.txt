@@ -844,6 +844,7 @@ set kramer skill fortune
 set kramer skill provoke
 set kramer skill battlecry
 set kramer skill windsweep
+set kramer skill pursuit
 set kramer skill deathmatch
 
 set sherpa skill canto
