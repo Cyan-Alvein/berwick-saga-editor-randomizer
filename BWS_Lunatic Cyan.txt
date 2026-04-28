@@ -564,10 +564,11 @@ set christine skill hide
 set christine skill onetwo
 set christine skill robbery
 set christine skill fortune
+set christine skill pursuit
 
 set adel skill canto
 set adel skill pursuit 
-set adel skill adept
+set adel skill parry
 set adel skill flourish
 set adel skill guard
 set adel skill horselover
@@ -608,7 +609,7 @@ set leon skill maim
 set leon skill robbery
 set leon skill hide
 set leon skill adept
-set leon skill parry
+set leon skill pursuit
 set leon skill windsweep
 set leon skill fortune
 
@@ -624,7 +625,7 @@ set sherlock skill onetwo
 set sherlock skill overwatch
 set sherlock skill scotopic 
 set sherlock skill watchful 
-set sherlock skill doubleshot
+set sherlock skill tripleshot
 set sherlock skill prepared
 set sherlock skill maim
 set sherlock skill huntsman
@@ -634,6 +635,7 @@ set sherlock skill guard
 set sherlock skill battlecry
 set sherlock skill windsweep
 set sherlock skill fortune
+set sherlock skill pursuit
 
 set izerna skill blessing
 set izerna skill canto
@@ -654,6 +656,7 @@ set izerna skill guard
 set izerna skill fortune
 
 set czene skill adept
+set czene skill pursuit
 set czene skill camouflage 
 set czene skill canto
 set czene skill flourish
@@ -784,7 +787,7 @@ set alvina skill hide
 set alvina skill desperation
 set alvina skill deathmatch
 
-//set ruby skill adept 
+set ruby skill adept 
 set ruby skill axebane
 set ruby skill vantage
 set ruby skill canto
@@ -864,6 +867,7 @@ set sherpa skill hide
 set sherpa skill fortune
 set sherpa skill provoke
 set sherpa skill battlecry
+set sherpa skill pursuit
 set sherpa skill deathmatch
 
 set dean skill adept
@@ -889,6 +893,7 @@ set dean skill battlecry
 set dean skill provoke
 set dean skill windsweep
 set dean skill knockaway
+set dean skill pursuit
 
 set sylvis skill aim
 set sylvis skill canto
@@ -909,6 +914,7 @@ set sylvis skill robbery
 set sylvis skill tripleshot
 set sylvis skill windsweep
 set sylvis skill fortune
+set sylvis skill pursuit
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -934,6 +940,7 @@ set thaddy skill windsweep
 set thaddy skill sunder
 set thaddy skill celerity
 set thaddy skill deathmatch
+set thaddy skill pursuit
 
 set esteban skill aim 
 set esteban skill camouflage
@@ -948,7 +955,7 @@ set esteban skill mercy
 set esteban skill mug
 set esteban skill overwatch
 set esteban skill prepared
-set esteban skill doubleshot
+set esteban skill tripleshot
 set esteban skill scotopic 
 set esteban skill steal
 set esteban skill watchful
@@ -957,6 +964,7 @@ set esteban skill maim
 set esteban skill robbery
 set esteban skill windsweep
 set esteban skill fortune
+set esteban skill pursuit
 	
 set faye skill adept
 set faye skill deathmatch
@@ -982,6 +990,7 @@ set faye skill celerity
 set faye skill scotopic
 set faye skill battlecry
 set faye skill pulverize
+set faye skill pursuit
 
 set faramir skill aim
 set faramir skill canto
@@ -1008,6 +1017,7 @@ set faramir skill watchful
 set faramir skill pulverize
 set faramir skill astra
 set faramir skill battlecry
+set faramir skill pursuit
 
 set volo skill adept
 set volo skill blade
@@ -1035,6 +1045,7 @@ set volo skill battlecry
 set volo skill scotopic
 set volo skill pulverize
 set volo skill astra
+set volo skill pursuit
 
 set clifford skill canto
 set clifford skill flourish
@@ -1076,7 +1087,7 @@ set axel skill robust
 set axel skill maim
 set axel skill watchful
 set axel skill vengeful
-set axel skill counter
+set axel skill pursuit
 set axel skill windsweep
 set axel skill fortune
 
@@ -1095,7 +1106,7 @@ set larentia skill scotopic
 set larentia skill maim
 set larentia skill robbery
 set larentia skill hide
-set larentia skill parry
+set larentia skill pursuit
 set larentia skill windsweep
 set larentia skill fortune
 
@@ -1323,28 +1334,28 @@ set AssassinsKnife stat might 4
 set LetterOpener stat might 1
 set MainGauche stat might 3
 
-set dagger stat rounds 1
-set Seax stat rounds 1
-set Dart stat rounds 1
-set Vespa stat rounds 1
-set Airknife stat rounds 1
-set ThiefsKnife stat rounds 1
-set Carnwenhau stat rounds 2
-set StunKnife stat rounds 1
-set KillerKnife stat rounds 1
-set BloodKnife stat rounds 1
-set TempestKnife stat rounds 1
-set Shieldknife stat rounds 1
-set Crotalus stat rounds 1
-set Kris stat rounds 1
-set ThrowingKnife stat rounds 1
-set Swordbreaker stat rounds 1
-set PoisonKnife stat rounds 1
-set SleepKnife stat rounds 1
-set BoltKnife stat rounds 1
-set AssassinsKnife stat rounds 1
-set LetterOpener stat rounds 1
-set MainGauche stat rounds 1
+//set dagger stat rounds 1
+//set Seax stat rounds 1
+//set Dart stat rounds 1
+//set Vespa stat rounds 1
+//set Airknife stat rounds 1
+//set ThiefsKnife stat rounds 1
+//set Carnwenhau stat rounds 2
+//set StunKnife stat rounds 1
+//set KillerKnife stat rounds 1
+//set BloodKnife stat rounds 1
+//set TempestKnife stat rounds 1
+//set Shieldknife stat rounds 1
+//set Crotalus stat rounds 1
+//set Kris stat rounds 1
+//set ThrowingKnife stat rounds 1
+//set Swordbreaker stat rounds 1
+//set PoisonKnife stat rounds 1
+//set SleepKnife stat rounds 1
+//set BoltKnife stat rounds 1
+//set AssassinsKnife stat rounds 1
+//set LetterOpener stat rounds 1
+//set MainGauche stat rounds 1
 
 set AssassinsKnife effect cripple-x2
 //set BoltKnife effect steal-rate-plus 20  //I can't, it will remove thunder damage
@@ -3126,7 +3137,7 @@ set Scoundrel skill commander
 set Scoundrel skill sunder
 set Scoundrel skill knockaway
 set Scoundrel skill hide
-set Scoundrel skill counter
+//set Scoundrel skill counter
 set Scoundrel skill charisma
 
 set RazeWarMonk2 base hp +2
@@ -3706,6 +3717,160 @@ set DarkMaster skill supporter
 
 //set Thief_M skill supporter
 
+
+//Pursuit to everyone except mage otherwise derrick & marchel will get OS.
+set Aristocrat skill pursuit
+set ArmorKnight skill pursuit
+set ArrowKnight skill pursuit
+set ArrowKnight_R skill pursuit
+set Assassin skill pursuit
+set Axefighter skill fortune
+set Axefighter skill pursuit
+set Axeman skill pursuit
+set AxeSergeant skill pursuit
+set AxeSoldier skill pursuit
+set Bandit skill pursuit
+set Barbarian skill pursuit
+set Berserker skill pursuit
+set BlackRider skill pursuit
+set BlackRider_R skill pursuit
+set BowKnight skill pursuit
+set BowKnight_R skill pursuit
+set Bowman skill pursuit
+set BowRider skill pursuit
+set Burglar skill pursuit
+set Captain skill pursuit
+set Cavalier skill pursuit
+set Cavalier_R skill pursuit
+set Chevalire skill pursuit
+set Chevalire_R skill pursuit
+set Chief skill pursuit
+set Corsair skill pursuit
+set DragonKnight skill pursuit
+set DragonKnight_R skill pursuit
+set FailedPoet skill pursuit
+set Farmer skill pursuit
+set Flamewyrm skill pursuit
+set General skill pursuit
+set GigasKnight skill pursuit
+set Grassrunner skill pursuit
+set Grassrunner_R skill pursuit
+set Guardian skill pursuit
+set HighHunter skill pursuit
+set HighKnight skill pursuit
+set HighKnight_R skill pursuit
+set HighKnight2 skill pursuit
+set HighKnight2_R skill pursuit
+set Horseman skill pursuit
+set Horseman_R skill pursuit
+set Hunter skill pursuit
+set Huntress skill pursuit
+set Icewyrm skill pursuit
+set ImperialAxeman skill pursuit
+set ImperialBowman skill pursuit
+set ImperialBowRider skill pursuit
+set ImperialBowRider_R skill pursuit
+set ImperialKnight skill pursuit
+set ImperialKnight_R skill pursuit
+set ImperialMarksman skill pursuit
+set ImperialPaladin skill pursuit
+set ImperialPaladin_R skill pursuit
+set ImperialSpearman skill pursuit
+set ImperialSpearRider skill pursuit
+set ImperialSpearRider_R skill pursuit
+set King skill pursuit
+set LadyKnight skill pursuit
+set LadyKnight_R skill pursuit
+set LanceKnight skill pursuit
+set LanceKnight_R skill pursuit
+set LanceKnight2 skill pursuit
+set LanceKnight2_R skill pursuit
+set Levinwyrm skill pursuit
+set Lord skill pursuit
+set Lord_R skill pursuit
+set Marksman skill pursuit
+set Mercenary skill pursuit
+set Myrmidon skill pursuit
+set Outlaw skill pursuit
+set Paladin skill pursuit
+set Paladin_F skill pursuit
+set Paladin_F_R skill pursuit
+set Paladin_M skill pursuit
+set Paladin_M_R skill pursuit
+set Paladin_R skill pursuit
+set Pickpocket skill pursuit
+set Pirate skill pursuit
+set RazeWarMonk skill pursuit
+set RazeWarMonk2 skill pursuit
+set Rogue skill pursuit
+set RogueArcher skill pursuit
+set RogueGuard skill pursuit
+set RogueWarrior skill pursuit
+set Ruffian skill pursuit
+set Ruffian_R skill pursuit
+set Scoundrel skill pursuit
+set SnowBandit skill pursuit
+set SpearKnight skill pursuit
+set SpearKnight_R skill pursuit
+set Spearman skill pursuit
+set SpearRider skill pursuit
+set SpearRider_R skill pursuit
+set Swordfighter_M skill celerity
+set Swordfighter_M skill pursuit
+set SwordKnight skill pursuit
+set SwordKnight_R skill pursuit
+set Swordmaster skill pursuit
+set Thief_M skill pursuit
+set VerianKnight skill pursuit
+set VerianKnight_R skill pursuit
+set VerianKnight2 skill pursuit
+set VerianKnight2_R skill pursuit
+set VeteranKnight skill pursuit
+set VeteranKnight_R skill pursuit
+set WarMonk skill pursuit
+set Warrior skill pursuit
+set Wyvern skill pursuit
+set WyvernKnight skill pursuit
+set WyvernKnight_R skill pursuit
+set WyvernLord skill pursuit
+set WyvernLord_R skill pursuit
+
+set reese skill pursuit
+set ward skill pursuit
+set elbert skill pursuit
+set christine skill pursuit
+set adel skill pursuit
+set leon skill pursuit
+set sherlock skill pursuit
+set czene skill pursuit
+set daoud skill pursuit
+set marcel skill pursuit
+//set enid skill pursuit
+//set aegina skill pursuit
+//set perceval skill pursuit
+set alvina skill pursuit
+set ruby skill pursuit
+set arthur skill pursuit
+set kramer skill pursuit
+set sherpa skill pursuit
+set dean skill pursuit
+set sylvis skill pursuit
+set thaddy skill pursuit
+set esteban skill pursuit
+set faye skill pursuit
+set faramir skill pursuit
+set volo skill pursuit
+set clifford skill pursuit
+set axel skill pursuit
+set larentia skill pursuit
+//set owen skill pursuit
+//set burroughs skill pursuit
+set derrick skill pursuit
+//set saphira skill pursuit
+//set lynette skill pursuit
+set paramythis skill pursuit
+//set izerna skill pursuit
+
 set Tico stat uses 12
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -3825,3 +3990,8 @@ set Arrow++ stat might 8
 //Adding the option to move, then trade, then attack, will be nice for next game.
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
+//Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
+
+
+
+
