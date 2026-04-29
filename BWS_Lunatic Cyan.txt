@@ -1962,25 +1962,37 @@ set Gastraphetes effect cripple-x2
 
 //set Arbalest stat level 15
 
-set Bowgun stat weight 7
-set IronCrossbow stat weight 9
-set Gastraphetes stat weight 11
-set HeavyCrossbow stat weight 13
-set BraveCrossbow stat weight 13
-set Chu-ko-nu stat weight 15
-set Arbalest stat weight 15
-set KillerCrossbow stat weight 9
-set Ollerus stat weight 11
-set RapidCrossbow stat weight 15
-set Hawkeye stat weight 10
+set Bowgun stat weight 13
+set IronCrossbow stat weight 13
+set Gastraphetes stat weight 14
+set HeavyCrossbow stat weight 15
+set BraveCrossbow stat weight 15
+set Chu-ko-nu stat weight 17
+set Arbalest stat weight 17
+set KillerCrossbow stat weight 13
+set Ollerus stat weight 14
+set RapidCrossbow stat weight 17
+set Hawkeye stat weight 13
 
-set ImperialCrossbow stat Weight 7
-set OldImperialCrossbow stat Weight 8
-set VerianCrossbow stat Weight 7
+set ImperialCrossbow stat weight 13
+set OldImperialCrossbow stat weight 15
+set VerianCrossbow stat weight 13
 
-set ImperialCrossbow stat might 10
-set OldImperialCrossbow stat might 8
-set VerianCrossbow stat might 10
+set Bowgun stat might 20
+set IronCrossbow stat might 28
+set Gastraphetes stat might 32
+set HeavyCrossbow stat might 36
+set BraveCrossbow stat might 17
+set Chu-ko-nu stat might 12
+set Arbalest stat might 40
+set KillerCrossbow stat might 34
+set Ollerus stat might 30
+set RapidCrossbow stat might 17
+set Hawkeye stat might 36
+
+set ImperialCrossbow stat might 28
+set OldImperialCrossbow stat might 24
+set VerianCrossbow stat might 28
 
 set Bowgun stat accuracy 60
 set IronCrossbow stat accuracy 70
@@ -1990,9 +2002,9 @@ set BraveCrossbow stat accuracy 60
 set Chu-ko-nu stat accuracy 50
 set Arbalest stat accuracy 60
 set KillerCrossbow stat accuracy 80
-set Ollerus stat accuracy 70
+set Ollerus stat accuracy 60
 set RapidCrossbow stat accuracy 60
-set Hawkeye stat accuracy 60
+set Hawkeye stat accuracy 70
 set ImperialCrossbow stat accuracy 70
 set OldImperialCrossbow stat accuracy 60
 set VerianCrossbow stat accuracy 70
