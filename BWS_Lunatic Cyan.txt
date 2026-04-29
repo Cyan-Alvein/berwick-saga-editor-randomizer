@@ -2434,11 +2434,11 @@ set Chevalire_R cap Sword 50
 
 set Mercenary cap Sword 60
 
-//set Thief_M cap Knife 60
-//set Thief_F cap Knife 60
-//set Burglar cap Knife 60
-//set Grassrunner cap Knife 60
-//set Grassrunner_R cap Knife 60
+set Thief_M cap Knife 60
+set Thief_F cap Knife 60
+set Burglar cap Knife 60
+set Grassrunner cap Knife 60
+set Grassrunner_R cap Knife 60
 
 set SwordKnight cap sshield 50
 set SwordKnight cap mshield 50
