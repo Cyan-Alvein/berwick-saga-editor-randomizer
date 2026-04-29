@@ -687,6 +687,7 @@ set czene skill celerity
 set czene skill deathmatch
 set czene skill vantage
 set czene skill provoke
+set czene skill battlecry
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -956,6 +957,7 @@ set thaddy skill deathmatch
 set thaddy skill pursuit
 set thaddy skill vantage
 set thaddy skill adept
+set thaddy skill battlecry
 
 set esteban skill aim 
 set esteban skill camouflage
