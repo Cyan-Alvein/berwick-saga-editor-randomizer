@@ -686,6 +686,7 @@ set czene skill fortune
 set czene skill celerity
 set czene skill deathmatch
 set czene skill vantage
+set czene skill provoke
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -829,6 +830,7 @@ set arthur skill throw
 set arthur skill maim
 set arthur skill robbery
 set arthur skill hide
+set arthur skill provoke
 
 set kramer skill blade 
 set kramer skill canto
@@ -925,6 +927,7 @@ set sylvis skill pursuit
 set sylvis skill vantage
 set sylvis skill deathmatch
 set sylvis skill armsthrift
+set sylvis skill celerity
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -978,7 +981,7 @@ set esteban skill windsweep
 set esteban skill fortune
 set esteban skill pursuit
 set esteban skill celerity
-set esteban skill parry
+set esteban skill vantage
 set esteban skill deathmatch
 	
 set faye skill adept
@@ -3016,6 +3019,7 @@ set Pickpocket skill hide
 set Pickpocket skill watchful
 set Pickpocket skill adept
 set Pickpocket skill critical
+set Pickpocket skill vantage
 
 //Thief ennemy with bow, didn't see any dagger yet
 set Outlaw base hp +2
@@ -3047,6 +3051,7 @@ set Assassin skill fortune
 set Assassin skill hide
 set Assassin skill watchful
 set Assassin skill adept
+set Assassin skill vantage
 
 //farmer with ring
 set Rogue base hp +2
@@ -3471,6 +3476,7 @@ set Grassrunner_R skill hide
 set Grassrunner_R skill watchful
 set Grassrunner_R skill critical
 set Grassrunner_R skill adept
+set Grassrunner_R skill vantage
 
 //Will fuck Czene Stat on rankup
 set Grassrunner skill camouflage
@@ -3480,6 +3486,7 @@ set Grassrunner skill hide
 set Grassrunner skill watchful
 set Grassrunner skill critical
 set Grassrunner skill adept
+set Grassrunner skill vantage
 
 set Priest skill blessing
 set Priest skill camouflage
@@ -3513,6 +3520,7 @@ set Thief_M skill hide
 set Thief_M skill watchful
 set Thief_M skill critical
 set Thief_M skill adept
+set Thief_M skill vantage
 
 set Axefighter skill adept
 set Axefighter skill canto
@@ -3589,6 +3597,7 @@ set Burglar skill critical
 set Burglar skill hide
 set Burglar skill watchful
 set Burglar skill adept
+set Burglar skill vantage
 
 // faye stat
 set Myrmidon skill adept
@@ -3617,7 +3626,7 @@ set Hunter skill camouflage
 set Hunter skill hide
 set Hunter skill watchful
 set Hunter skill aim
-set Hunter skill parry
+set Hunter skill vantage
 set Hunter skill tripleshot
 
 //Kramer Stat
@@ -4224,16 +4233,3 @@ set Arrow++ stat might 8
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 
 
-//to remove, this is for adding skill to my unit without restarting the game
-set highhunter skill celerity
-set highhunter skill deathmatch
-set highhunter skill parry
-set ArrowKnight skill deathmatch
-set ArrowKnight_R skill deathmatch
-set Sniper skill vantage
-set Sniper skill deathmatch
-set BowKnight skill deathmatch
-set BowKnight_R skill deathmatch
-set KnightLord_R skill pursuit
-set KnightLord skill pursuit
-set HighHunter skill tripleshot
