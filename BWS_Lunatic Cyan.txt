@@ -1945,7 +1945,7 @@ set VerianBow stat cost 1000
 set SereniaBow stat cost 6000
 set Pascanion2 stat cost 8000
 set Pascanion stat cost 8000
-set WoodenArrow stat cost 150
+//set WoodenArrow stat cost 100
 
 set BronzeBow stat might 3
 set ImperialBow stat might 1
@@ -2756,12 +2756,14 @@ set WyvernKnight_R skill canto
 set WyvernKnight_R skill throw
 set WyvernKnight_R skill hide
 set WyvernKnight_R skill adept
+set WyvernKnight_R skill parry
 
 // larentia stat
 set WyvernKnight skill canto
 set WyvernKnight skill throw
 set WyvernKnight skill hide
 set WyvernKnight skill adept
+set WyvernKnight skill parry
 
 set WyvernLord_R base strength +1
 set WyvernLord_R base defense +5
@@ -3254,7 +3256,7 @@ set FailedPoet skill camouflage
 set FailedPoet skill hide
 set FailedPoet skill watchful
 set FailedPoet skill critical
-
+set FailedPoet skill adept
 
 set RazeBishop2 base strength +1
 set RazeBishop2 base defense +5
@@ -3616,8 +3618,6 @@ set Hunter skill camouflage
 set Hunter skill hide
 set Hunter skill watchful
 set Hunter skill aim
-set Hunter skill vantage
-set Hunter skill tripleshot
 
 //Kramer Stat
 set Mercenary skill canto
@@ -4163,5 +4163,4 @@ set Arrow++ stat might 8
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 //to do, increase crossbow damage and accuracy
-
 
