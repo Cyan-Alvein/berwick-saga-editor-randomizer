@@ -661,6 +661,7 @@ set izerna skill guard
 set izerna skill fortune
 
 set czene skill adept
+set czene skill critical
 set czene skill pursuit
 set czene skill camouflage 
 set czene skill canto
@@ -684,6 +685,7 @@ set czene skill sunder
 set czene skill fortune
 set czene skill celerity
 set czene skill deathmatch
+set czene skill vantage
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -898,7 +900,6 @@ set dean skill pulverize
 set dean skill battlecry
 set dean skill provoke
 set dean skill windsweep
-set dean skill knockaway
 set dean skill pursuit
 
 set sylvis skill aim
@@ -950,6 +951,8 @@ set thaddy skill sunder
 set thaddy skill celerity
 set thaddy skill deathmatch
 set thaddy skill pursuit
+set thaddy skill vantage
+set thaddy skill adept
 
 set esteban skill aim 
 set esteban skill camouflage
@@ -979,6 +982,7 @@ set esteban skill parry
 set esteban skill deathmatch
 	
 set faye skill adept
+set faye skill arrowbane
 set faye skill deathmatch
 set faye skill desperation
 set faye skill blade 
@@ -1000,7 +1004,6 @@ set faye skill hide
 set faye skill watchful
 set faye skill celerity
 set faye skill scotopic
-set faye skill battlecry
 set faye skill pulverize
 set faye skill pursuit
 
@@ -1028,10 +1031,10 @@ set faramir skill hide
 set faramir skill watchful
 set faramir skill pulverize
 set faramir skill astra
-set faramir skill battlecry
 set faramir skill pursuit
 
 set volo skill adept
+set volo skill arrowbane
 set volo skill blade
 set volo skill canto
 set volo skill deathmatch
@@ -1053,7 +1056,6 @@ set volo skill robbery
 set volo skill hide
 set volo skill watchful
 set volo skill celerity
-set volo skill battlecry
 set volo skill scotopic
 set volo skill pulverize
 set volo skill astra
@@ -3013,6 +3015,7 @@ set Pickpocket skill camouflage
 set Pickpocket skill hide
 set Pickpocket skill watchful
 set Pickpocket skill adept
+set Pickpocket skill critical
 
 //Thief ennemy with bow, didn't see any dagger yet
 set Outlaw base hp +2
@@ -3043,6 +3046,7 @@ set Assassin skill windsweep
 set Assassin skill fortune
 set Assassin skill hide
 set Assassin skill watchful
+set Assassin skill adept
 
 //farmer with ring
 set Rogue base hp +2
@@ -3104,10 +3108,10 @@ set RazeBishop skill vantage
 set RazeBishop skill hide
 set RazeBishop skill watchful
 
-//set DarkMaster base hp +2
-//set DarkMaster base defense +4
-//set DarkMaster base magic +1
-//set DarkMaster base speed +4
+set DarkMaster base hp +2
+set DarkMaster base defense +4
+set DarkMaster base magic +1
+set DarkMaster base speed +4
 set DarkMaster skill canto
 set DarkMaster skill counter
 set DarkMaster skill commander
@@ -3250,6 +3254,8 @@ set FailedPoet skill canto
 set FailedPoet skill camouflage
 set FailedPoet skill hide
 set FailedPoet skill watchful
+set FailedPoet skill critical
+
 
 set RazeBishop2 base hp +2
 set RazeBishop2 base defense +4
@@ -3463,6 +3469,8 @@ set Grassrunner_R skill canto
 set Grassrunner_R skill throw
 set Grassrunner_R skill hide
 set Grassrunner_R skill watchful
+set Grassrunner_R skill critical
+set Grassrunner_R skill adept
 
 //Will fuck Czene Stat on rankup
 set Grassrunner skill camouflage
@@ -3470,6 +3478,8 @@ set Grassrunner skill canto
 set Grassrunner skill throw
 set Grassrunner skill hide
 set Grassrunner skill watchful
+set Grassrunner skill critical
+set Grassrunner skill adept
 
 set Priest skill blessing
 set Priest skill camouflage
@@ -3501,6 +3511,8 @@ set Thief_M skill throw
 set Thief_M skill fortune
 set Thief_M skill hide
 set Thief_M skill watchful
+set Thief_M skill critical
+set Thief_M skill adept
 
 set Axefighter skill adept
 set Axefighter skill canto
@@ -3516,6 +3528,7 @@ set Swordfighter_M skill parry
 set Swordfighter_M skill hide
 set Swordfighter_M skill watchful
 set Swordfighter_M skill celerity
+set Swordfighter_M skill arrowbane
 
 set Swordmaster skill adept
 set Swordmaster skill canto
@@ -3527,6 +3540,7 @@ set Swordmaster skill maim
 set Swordmaster skill hide
 set Swordmaster skill watchful
 set Swordmaster skill celerity
+set Swordmaster skill arrowbane
 
 set SwordKnight_R skill armsthrift
 set SwordKnight_R skill hide
@@ -3574,6 +3588,7 @@ set Burglar skill throw
 set Burglar skill critical
 set Burglar skill hide
 set Burglar skill watchful
+set Burglar skill adept
 
 // faye stat
 set Myrmidon skill adept
@@ -3603,11 +3618,13 @@ set Hunter skill hide
 set Hunter skill watchful
 set Hunter skill aim
 set Hunter skill parry
+set Hunter skill tripleshot
 
 //Kramer Stat
 set Mercenary skill canto
 set Mercenary skill hide
 set Mercenary skill counter
+set Mercenary skill arrowbane
 
 set LanceKnight skill adept
 set LanceKnight2 skill adept
@@ -3683,13 +3700,17 @@ set ArrowKnight_R skill vantage
 
 set Berserker skill maim
 set Berserker skill hide
+set Berserker skill vengeful
+set Berserker skill adept
 
 set FlameFencer skill maim
 set FlameFencer skill hide
 
 set VeteranKnight_R skill hide
+set VeteranKnight_R skill shieldfaire
 
 set VeteranKnight skill hide
+set VeteranKnight skill shieldfaire
 
 //Commander to ennemy
 //set Spearman skill commander
@@ -3850,6 +3871,84 @@ set RazeWarMonk skill supporter
 set DarkMaster skill supporter
 
 //set Thief_M skill supporter
+
+//adept to ennemy
+set Spearman skill adept
+set SpearRider_R skill adept
+set SpearRider skill adept
+set ImperialSpearman skill adept
+set ImperialSpearRider_R skill adept
+set ImperialSpearRider skill adept
+set Farmer skill adept
+set VerianKnight_R skill adept
+set VerianKnight skill adept
+set VerianKnight2_R skill adept
+set VerianKnight2 skill adept
+set ImperialKnight_R skill adept
+set ImperialKnight skill adept
+set ImperialPaladin_R skill adept
+set ImperialPaladin skill adept
+set HighKnight_R skill adept
+set HighKnight skill adept
+set HighKnight2_R skill adept
+set HighKnight2 skill adept
+set General skill adept
+set WyvernLord_R skill adept
+set WyvernLord skill adept
+set Axeman skill adept
+set ImperialAxeman skill adept
+set AxeGuard skill adept
+set Bowman skill adept
+set BowRider skill adept
+set Gunner skill adept
+set HeavyGunner skill adept
+set ImperialBowman skill adept
+set ImperialBowRider_R skill adept
+set ImperialBowRider skill adept
+set ImperialGunner skill adept
+set ImperialHeavyGunner skill adept
+set Marksman skill adept
+set ImperialMarksman skill adept
+set Warrior skill adept
+set Bandit skill adept
+set Corsair skill adept
+set Ruffian_R skill adept
+set Ruffian skill adept
+set Pickpocket skill adept
+set Outlaw skill adept
+set Assassin skill adept
+set Rogue skill adept
+set RazeMonk skill adept
+set RazePriest skill adept
+set RazeBishop skill adept
+set RogueGuard skill adept
+set RogueArcher skill adept
+set RogueGunner skill adept
+set RogueWarrior skill adept
+set SnowBandit skill adept
+set Barbarian skill adept
+set Duke skill adept
+set Scoundrel skill adept
+set RazeWarMonk2 skill adept
+set FailedPoet skill adept
+set RazeBishop2 skill adept
+set King skill adept
+set Captain skill adept
+set DragonKnight_R skill adept
+set DragonKnight skill adept
+set WarMonk skill adept
+set Flamewyrm skill adept
+set BlackRider_R skill adept
+set BlackRider skill adept
+set GigasKnight skill adept
+set Transporter skill adept
+set Chief skill adept
+set Icewyrm skill adept
+set Levinwyrm skill adept
+set Wyvern skill adept
+set Aristocrat skill adept
+set RazeWarMonk skill adept
+
 
 
 //Pursuit to everyone except mage otherwise derrick & marcel will get OS.
