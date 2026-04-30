@@ -388,7 +388,7 @@ set Sherpa item 7 Bag 0
 set Sherpa base sword +15
 
 set clifford item 3 Bag 0
-set clifford item 4 Springald 101
+set clifford item 4 GreatLance 101
 set clifford item 5 Bag 0
 set clifford item 6 Bag 0
 set clifford item 7 Bag 0
@@ -1721,6 +1721,12 @@ set Xyston effect cripple-x2
 set IronLance effect cripple-x2
 set Oxtongue effect cripple-x2
 
+set IronLance stat hex 5
+set Oxtongue stat hex 6
+set Xyston stat hex 5
+set GreatLance stat hex 7
+set Drakelance stat hex 6
+
 set Xyston stat hex 4
 set Drakelance stat hex 5
 
@@ -1735,11 +1741,11 @@ set Xyston Stat Weight 11
 set GreatLance Stat Weight 12
 set Drakelance Stat Weight 14
 
-set IronLance Stat Accuracy 40
-set Oxtongue Stat Accuracy 40
-set Xyston Stat Accuracy 50
-set GreatLance Stat Accuracy 50
-set Drakelance Stat Accuracy 60
+set IronLance Stat Accuracy 60
+set Oxtongue Stat Accuracy 60
+set Xyston Stat Accuracy 70
+set GreatLance Stat Accuracy 70
+set Drakelance Stat Accuracy 80
 
 set Drakelance stat Durability B
 set Xyston stat Durability C
@@ -1961,33 +1967,33 @@ set Gastraphetes effect cripple-x2
 
 //set Arbalest stat level 15
 
-set Bowgun stat weight 13
+set Bowgun stat weight 12
 set IronCrossbow stat weight 13
 set Gastraphetes stat weight 14
 set HeavyCrossbow stat weight 15
 set BraveCrossbow stat weight 15
-set Chu-ko-nu stat weight 17
-set Arbalest stat weight 17
-set KillerCrossbow stat weight 13
+set Chu-ko-nu stat weight 16
+set Arbalest stat weight 16
+set KillerCrossbow stat weight 12
 set Ollerus stat weight 14
-set RapidCrossbow stat weight 17
+set RapidCrossbow stat weight 16
 set Hawkeye stat weight 13
 
 set ImperialCrossbow stat weight 13
 set OldImperialCrossbow stat weight 15
 set VerianCrossbow stat weight 13
 
-set Bowgun stat might 20
-set IronCrossbow stat might 28
-set Gastraphetes stat might 32
-set HeavyCrossbow stat might 36
+set Bowgun stat might 16
+set IronCrossbow stat might 23
+set Gastraphetes stat might 26
+set HeavyCrossbow stat might 29
 set BraveCrossbow stat might 17
 set Chu-ko-nu stat might 12
-set Arbalest stat might 40
-set KillerCrossbow stat might 34
-set Ollerus stat might 30
+set Arbalest stat might 32
+set KillerCrossbow stat might 27
+set Ollerus stat might 24
 set RapidCrossbow stat might 17
-set Hawkeye stat might 36
+set Hawkeye stat might 30
 
 set ImperialCrossbow stat might 28
 set OldImperialCrossbow stat might 24
@@ -3207,6 +3213,7 @@ set DarkMaster skill commander
 set DarkMaster skill imbue
 set DarkMaster skill hide
 set DarkMaster skill charisma
+set DarkMaster skill knockaway
 
 // same as kramer
 set RazeWarMonk base strength +5
@@ -4119,6 +4126,7 @@ set WyvernLord skill pursuit
 set WyvernLord_R skill pursuit
 set Highlander skill pursuit
 set Hero skill pursuit
+set DarkMaster skill pursuit
 
 set reese skill pursuit
 set ward skill pursuit
@@ -4283,5 +4291,6 @@ set Arrow++ stat might 8
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 //to do, increase crossbow damage and accuracy
+
 
 
