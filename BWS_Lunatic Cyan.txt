@@ -2028,7 +2028,14 @@ set Bowgun stat cost 700
 
 set OldBallista stat durability D
 
-set OldBallista stat might 8
+set OldBallista stat might 12
+set BronzeBallista stat might 12
+set IronBallista stat might 18
+set SteelBallista stat might 22
+set PrototypeSpringald stat might 12
+set Springald stat might 25
+set PrototypeScorpio stat might 13
+set Scorpio stat might 13
 
 set OldBallista stat accuracy 50
 set SteelBallista stat accuracy 60
@@ -2037,7 +2044,6 @@ set Springald stat accuracy 60
 
 set SteelBallista stat level 10
 set Springald stat level 15
-
 
 set BronzeBallista stat weight 20
 set IronBallista stat weight 20
