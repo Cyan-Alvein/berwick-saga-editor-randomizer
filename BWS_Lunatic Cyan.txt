@@ -36,7 +36,7 @@
 // If you want Leon & Adel or even ruby to use lance, just type this code Set Ruby Skill Lance, I tested it and it worked. But don't use
  the skill desperation while attacking with lance, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
 
-// Accessories item got huge buff, SpiritBrace = magic +2, BlessedBrace  = Magic +3 Speed -2, DivineBrace (Aegina own it)= Magic +4 Defense -2 Speed -2
+// Accessories item got huge buff, SpiritBrace = magic +2, BlessedBrace = Magic +3 Speed -2, DivineBrace (Aegina own it)= Magic +4 Defense -2 Speed -2
 
 // TigerBrace = Hit +15 Avoid -10, EagleBrace = Hit +10, GuardBrace = defense +2, FeatherBrace = Speed +2. You get the idea
 
@@ -64,17 +64,16 @@ set reese item 4 RoundShield 101
 set reese item 5 Bag 0
 set reese item 6 Bag 0
 set reese item 7 Bag 0
-set reese base sword +25
-set reese base sshield +25
-set reese base mshield +35
+set reese base sword +20
+set reese base sshield +20
+set reese base mshield +30
+set reese growth sword 80
+set reese growth sshield 100
+set reese growth mshield 100
 set KnightLord_R base mshield +30
-set KnightLord base mshield +30
+set KnightLord base mshield +30 
 set Lord_R base mshield +30
 set Lord base mshield +30
-set KnightLord_R cap mshield 40
-set KnightLord cap  mshield 40
-set Lord_R cap mshield 40
-set Lord cap mshield 40
 
 set ward item 0 KnightSword 101
 set ward item 1 Kiteshield 101
@@ -84,9 +83,12 @@ set ward item 4 Harpoon 101
 set ward item 5 Treasure 101
 set ward item 6 Bag 0
 set ward item 7 Bag 0
-set ward base mshield +10
-set ward base sword +10
-set ward base spear +10
+set ward growth sword 50
+set ward growth spear 60
+set ward growth mshield 50
+set ward base mshield +20
+set ward base sword +20
+set ward base spear +20
 
 set elbert item 0 AltiumSword 101
 set elbert item 1 Aspis 101
@@ -96,40 +98,28 @@ set elbert item 4 Pike 101
 set elbert item 5 Pilum 6
 set elbert item 6 Bag 0
 set elbert item 7 Bag 0
-//set elbert growth spear 40
-//set elbert growth sshield 90
-//set elbert growth mshield 90
+set elbert growth sword 100
+set elbert growth spear 50
+set elbert growth sshield 70
+set elbert growth mshield 70
 set elbert base sshield +10
 set elbert base sword +20
 set elbert base spear +20
 set elbert base mshield +30
 
 //Not tested yet, may help Ruby Elbert Arthur to gain + 30 spear and mshield upon promotion
-set Paladin_R base mshield 30
-set Paladin_R base spear 30
-set Paladin base mshield 30
-set Paladin base spear 30
-set Paladin_F_R base mshield 30
-set Paladin_F_R base spear 30
-set Paladin_F base mshield 30
-set Paladin_F base spear 30
-set Paladin_M_R base mshield 30
-set Paladin_M_R base spear 30
-set Paladin_M base mshield 30
-set Paladin_M base spear 30
-
-set Paladin_R cap mshield 50
-set Paladin_R cap spear 50
-set Paladin cap mshield 50
-set Paladin cap spear 50
-set Paladin_F_R cap mshield 50
-set Paladin_F_R cap spear 50
-set Paladin_F cap mshield 50
-set Paladin_F cap spear 50
-set Paladin_M_R cap mshield 50
-set Paladin_M_R cap spear 50
-set Paladin_M cap mshield 50
-set Paladin_M cap spear 50
+set Paladin_R base mshield +30
+set Paladin_R base spear +30
+set Paladin base mshield +30
+set Paladin base spear +30
+set Paladin_F_R base mshield +30
+set Paladin_F_R base spear +30
+set Paladin_F base mshield +30
+set Paladin_F base spear +30
+set Paladin_M_R base mshield +30
+set Paladin_M_R base spear +30
+set Paladin_M base mshield +30
+set Paladin_M base spear +30
 
 set christine item 0 IronCrossbow 101
 set christine item 1 IronArrow+ 20
@@ -143,17 +133,11 @@ set christine growth bow 70
 set christine growth crossbow 90
 set christine base bow +20
 set christine base crossbow +20
-set christine base sword 30
-set ArrowKnight_R base sword 30
-set ArrowKnight base sword 30
-set LadyKnight base sword 30
-set LadyKnight_R base sword 50
-set christine cap sword 50
-set ArrowKnight_R cap sword 50
-set ArrowKnight cap sword 50
-set LadyKnight cap sword 50
-set LadyKnight_R cap sword 50
-
+set christine base sword +30
+set ArrowKnight_R base sword +30
+set ArrowKnight base sword +30
+set LadyKnight base sword +30
+set LadyKnight_R base sword +50
 
 set adel item 0 IronSpear 101
 set adel item 1 LeatherSShd 101
@@ -166,6 +150,7 @@ set adel item 7 Harpoon 101
 set adel base sshield +20
 set adel base spear +20
 set adel growth spear 50
+set adel growth shield 100
 
 set leon item 0 IronSpear 101
 set leon item 1 LeatherSShd 101
@@ -178,6 +163,7 @@ set leon item 7 Harpoon 101
 set leon base sshield +20
 set leon base spear +20
 set leon growth spear 70
+set leon growth sshield 60
 
 set sherlock item 0 IronBow 101
 set sherlock item 1 IronArrow+ 20
@@ -186,8 +172,8 @@ set sherlock item 4 BronzeArrow+ 20
 set sherlock item 5 Bag 0
 set sherlock item 6 Bag 0
 set sherlock item 7 Treasure 101
-//set sherlock growth bow 90
-set sherlock base bow +15
+set sherlock growth bow 90
+set sherlock base bow +20
 
 set izerna item 1 Soothe 20
 set izerna item 2 BlessedBrace 0
@@ -225,8 +211,8 @@ set aegina base fire +20
 set aegina base wind +20
 
 set daoud growth axe 80
-set daoud growth sshield 90
-set daoud growth mshield 90
+set daoud growth sshield 100
+set daoud growth mshield 100
 set Daoud item 0 Broadaxe 101
 set Daoud item 1 RoundShield 101
 set Daoud item 2 Kiteshield 101
@@ -235,14 +221,14 @@ set Daoud item 4 Treasure 101
 set Daoud item 5 Treasure 101 
 set Daoud item 6 Concoction 1
 set Daoud item 7 Bag 0
-set Daoud base axe +10
+set Daoud base axe +20
 set Daoud base sshield +20
 set Daoud base mshield +20
 
 set enid base sword +15
 set enid base fire 30
 set enid base thunder +20
-set Enid item 1 VerianSword 101
+set Enid item 1 Hellfire 20
 set Enid item 2 Earthblaze 20 
 set Enid item 3 Earthblaze 20 
 set Enid item 4 DireThunder 20
@@ -251,34 +237,34 @@ set Enid item 6 Bag 0
 set Enid item 7 Rapier 101
 set Enid growth fire 100
 set Enid growth thunder 100
-set FlameFencer base thunder 20
-set FlameFencer base fire 30
-set Fencer base thunder 20
-set Fencer base fire 30
-set FlameFencer cap thunder 60
-set FlameFencer cap fire 50
-set Fencer cap thunder 60
-set Fencer cap fire 50
+set FlameFencer base thunder +20
+set FlameFencer base fire +30
+set Fencer base thunder +20
+set Fencer base fire +30
 
 set marcel growth sword 60
-//set marcel growth Lshield 60
+set marcel growth Lshield 90
 set Marcel item 2 Bag 0
 set Marcel item 3 Bag 0
 set Marcel item 4 Bag 0
 set Marcel item 5 WideShield 101
 set Marcel item 6 Bag 0
 set Marcel item 7 Bag 0
-set Marcel base sword +15
-set Marcel base lshield +15
+set Marcel base sword +20
+set Marcel base lshield +20
 
 set alvina item 4 LadyMShd 101
 set alvina item 5 Treasure 101
 set alvina item 6 LadyMShd 101
 set alvina item 7 Bag 0
-set alvina base sword +25
-set alvina base spear +25
-set alvina base sshield +25
-set alvina base mshield +25
+set alvina growth sword 80
+set alvina growth spear 80
+set alvina growth sshield 90
+set alvina growth mshield 90
+set alvina base sword +20
+set alvina base spear +20
+set alvina base sshield +20
+set alvina base mshield +20
 
 set ruby item 1 Bag 0
 set ruby item 2 LadyShield 101
@@ -286,14 +272,15 @@ set ruby item 3 Pike 101
 set ruby item 4 LadySword 101
 set ruby item 5 Pilum 6
 set ruby item 6 IronSpear 101
-set ruby item 7 VerianSword 101
-set ruby base sword +25
-set ruby base spear +25
-set ruby base sshield +25
-set ruby base mshield +25
-set ruby cap mshield 50
-set Chevalire cap mshield 50
-set Chevalire_R cap mshield 50
+set ruby item 7 Harpoon 101
+set ruby growth sword 100
+set ruby growth spear 100
+set ruby growth sshield 90
+set ruby growth mshield 90
+set ruby base sword +20
+set ruby base spear +20
+set ruby base sshield +20
+set ruby base mshield +20
 
 set arthur item 0 Longsword 101
 set arthur item 1 Kiteshield 101
@@ -327,8 +314,8 @@ set dean item 4 Bag 0
 set dean item 5 Bag 0
 set dean item 6 Bag 0
 set dean item 7 GamblersBrace 0
-set dean base axe +25
-//set dean growth axe 90
+set dean base axe +20
+set dean growth axe 100
 
 set faye item 2 GiantsBrace 0
 set faye item 3 VerianSword 101
@@ -336,7 +323,7 @@ set faye item 4 LadySword 101
 set faye item 5 Bag 0
 set faye item 6 Bag 0
 set faye item 7 Bag 0
-//set faye growth sword 100
+set faye growth sword 100
 set faye base sword +25
 
 set sylvis item 0 Gastraphetes 101
@@ -376,7 +363,7 @@ set thaddy growth strength 15
 set thaddy base knife +20
 
 set esteban growth knife 50
-set esteban growth bow 90
+set esteban growth bow 100
 set esteban item 0 IronBow 101
 set esteban item 1 IronArrow+ 20
 set esteban item 2 Dagger 101
@@ -389,11 +376,7 @@ set esteban base knife +20
 set esteban base bow +20
 set esteban base sword +30
 set HighHunter base sword +30
-set Hunter base sword +30
-set esteban cap sword 50
-set HighHunter cap sword 50
-set Hunter cap sword 50
-
+set Hunter base sword +40
 
 //set faramir item 0 Cutlass+ 101
 set faramir item 1 Bag 0
@@ -403,8 +386,10 @@ set faramir item 4 CompositeBow 101
 set faramir item 5 Bag 0
 set faramir item 6 Bag 0
 set faramir item 7 Bag 0
-set faramir base sword +25
-set faramir base bow +25
+set faramir growth sword 100
+set faramir growth bow 100
+set faramir base sword +20
+set faramir base bow +20
 
 set volo item 1 Treasure 101
 set volo item 2 Bag 0
@@ -424,13 +409,18 @@ set Sherpa item 4 Bag 0
 set Sherpa item 5 Treasure 101
 set Sherpa item 6 Albatross 101
 set Sherpa item 7 Bag 0
-set Sherpa base sword +25
+set Sherpa growth sword 50
+set Sherpa base sword +20
 
 set clifford item 3 Bag 0
 set clifford item 4 GreatLance 101
 set clifford item 5 Bag 0
 set clifford item 6 Bag 0
 set clifford item 7 Bag 0
+set clifford growth sword 70
+set clifford growth spear 50
+set clifford growth sshield 60
+set clifford growth mshield 60
 set clifford base sword +20
 set clifford base spear +20
 set clifford base sshield +20
@@ -445,7 +435,7 @@ set axel item 5 Tomahawk 101
 set axel item 6 PegasusBrace 0
 set axel item 7 Treasure 101
 set axel base axe +20
-set axel growth axe 70
+set axel growth axe 50
 
 set larentia item 2 LadySword 101
 set larentia item 3 Pilum 6
@@ -463,7 +453,7 @@ set larentia base sshield +20
 set Owen item 5 holy 10
 set Owen item 6 Bag 0
 set Owen item 7 Bag 0
-set owen growth light 60
+set owen growth holy 60
 set owen growth fire 30
 set owen growth thunder 30
 set owen growth wind 30
@@ -471,7 +461,7 @@ set Owen growth dark 60
 set Owen base fire +20
 set Owen base wind +20
 set Owen base thunder +20
-set Owen base light +20
+set Owen base holy +20
 set Owen base dark +50
 set RazeMonkOwen base dark +50
 set RazeMonkOwen growth dark 60
@@ -487,7 +477,7 @@ set burroughs item 4 BroadheadArrow 20
 set burroughs item 5 Tumahann 16
 set burroughs item 6 BreakerArrow 20
 set burroughs item 7 Bag 0
-set burroughs growth crossbow 90
+set burroughs growth crossbow 100
 set burroughs base crossbow +20
 
 set derrick growth axe 50
@@ -510,8 +500,8 @@ set saphira item 4 Physic 15
 set saphira item 5 Awaken 10
 set saphira item 6 Mend 20
 set saphira item 7 Bag 0
-//set saphira growth holy 90
-set saphira base holy +25
+set saphira growth holy 100
+set saphira base holy +20
 
 set lynette item 3 SniperArrow 10
 set lynette item 4 DireThunder 20
@@ -526,8 +516,10 @@ set paramythis item 0 HolyMace 101
 set paramythis item 2 PeerlessBrace 0
 set paramythis item 3 holy 10
 set paramythis item 4 Treasure 101
-set paramythis base sword +25
-set paramythis base light +25
+set paramythis growth sword 100
+set paramythis growth holy 60
+set paramythis base sword +20
+set paramythis base holy +20
 
 set reese skill adept
 set reese skill canto
@@ -1419,7 +1411,7 @@ set MainGauche stat might 3
 //set MainGauche stat rounds 1
 
 set AssassinsKnife effect cripple-x2
-//set BoltKnife effect steal-rate-plus 20  //I can't, it will remove thunder damage
+//set BoltKnife effect steal-rate-plus 20 //I can't, it will remove thunder damage
 //set BoltKnife effect thunder-damage 3
 //set TempestKnife effect wind-damage 8
 set ThiefsKnife effect steal-rate-plus 33
@@ -1464,7 +1456,7 @@ set ThiefsKnife stat accuracy 50
 set Seax stat accuracy 50
 set stunknife stat accuracy 50
 set KillerKnife stat accuracy 70
-set AssassinsKnife stat accuracy 8çàçààààààààààààààààààààààààààà111111100000000000000000
+set AssassinsKnife stat accuracy 80
 set Shieldknife stat accuracy 50
 set Crotalus stat accuracy 60
 set kris stat accuracy 60
@@ -2420,6 +2412,10 @@ set ShiningKnight cap holy 50
 set ShiningKnight_R cap holy 50
 set ShiningKnightParamythis cap holy 50
 set ShiningKnightParamythis_R cap holy 50
+set ShiningKnight cap sword 60
+set ShiningKnight_R cap sword 60
+set ShiningKnightParamythis cap sword 60
+set ShiningKnightParamythis_R cap sword 60
 
 set Acolyte cap holy 60
 
@@ -4398,3 +4394,72 @@ set AmaterasuShield effect restore-uses
 //set Duke skill pursuit
 //set DukeKnight_R skill pursuit
 //set DukeKnight skill pursuit
+
+//I am trying to fix reese ruby christine esteban low skill on weapon promotion
+set KnightLord_R cap mshield 40
+set KnightLord cap mshield 40
+set Lord_R cap mshield 40
+set Lord cap mshield 40
+
+set christine cap sword 50
+set ArrowKnight_R cap sword 50
+set ArrowKnight cap sword 50
+set LadyKnight cap sword 50
+set LadyKnight_R cap sword 50
+
+set FlameFencer cap thunder 60
+set FlameFencer cap fire 50
+set Fencer cap thunder 60
+set Fencer cap fire 50
+
+set ruby cap mshield 50
+set Chevalire cap mshield 50
+set Chevalire_R cap mshield 50
+
+set esteban cap sword 50
+set HighHunter cap sword 50
+set Hunter cap sword 50
+
+set Paladin_R cap mshield 50
+set Paladin_R cap spear 50
+set Paladin cap mshield 50
+set Paladin cap spear 50
+set Paladin_F_R cap mshield 50
+set Paladin_F_R cap spear 50
+set Paladin_F cap mshield 50
+set Paladin_F cap spear 50
+set Paladin_M_R cap mshield 50
+set Paladin_M_R cap spear 50
+set Paladin_M cap mshield 50
+set Paladin_M cap spear 50
+
+set KnightLord_R growth mshield 100
+set KnightLord growth mshield 100
+set Lord_R growth mshield 100
+set Lord growth mshield 100
+
+set christine growth sword 100
+set ArrowKnight_R growth sword 100
+set ArrowKnight growth sword 100
+set LadyKnight growth sword 100
+set LadyKnight_R growth sword 100
+
+set FlameFencer growth thunder 100
+set FlameFencer growth fire 100
+set Fencer growth thunder 100
+set Fencer growth fire 100
+
+set ruby growth mshield 80
+set Chevalire growth mshield 80
+set Chevalire_R growth mshield 80
+
+set esteban growth sword 100
+set HighHunter growth sword 100
+set Hunter growth sword 100
+
+set Paladin_R growth mshield 100
+set Paladin growth mshield 100
+set Paladin_F_R growth mshield 100
+set Paladin_F growth mshield 100
+set Paladin_M_R growth mshield 100
+set Paladin_M growth mshield 100
