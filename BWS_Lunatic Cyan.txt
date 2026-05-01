@@ -2378,6 +2378,11 @@ set Lord cap sword 60
 set VeteranKnight cap sword 50
 set VeteranKnight_R cap spear 50
 
+set ShiningKnight cap holy 50
+set ShiningKnight_R cap holy 50
+set ShiningKnightParamythis cap holy 50
+set ShiningKnightParamythis_R cap holy 50
+
 set Acolyte cap holy 60
 
 set WindMage cap Fire 30
