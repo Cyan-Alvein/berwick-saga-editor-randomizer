@@ -1639,12 +1639,13 @@ set ImperialSpear stat Weight 6
 set VerianSpear stat Weight 6
 set OldImperialSpear stat Weight 9
 
-set Harpoon stat might 12
+set Harpoon stat might 10
 set Fauchard stat might 8
 set Brionac stat might 8
 
 set ImperialSpear stat might 8
 set Fauchard stat hex 1
+set Harpoon stat hex 1
 set Brionac stat hex 2
 
 
