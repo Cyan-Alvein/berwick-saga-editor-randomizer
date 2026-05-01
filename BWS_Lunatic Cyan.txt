@@ -1639,7 +1639,7 @@ set ImperialSpear stat Weight 6
 set VerianSpear stat Weight 6
 set OldImperialSpear stat Weight 9
 
-set Harpoon stat might 3
+set Harpoon stat might 12
 set Fauchard stat might 8
 set Brionac stat might 8
 
@@ -1649,9 +1649,9 @@ set Brionac stat hex 2
 
 
 
-Set Harpoon effect injure-rate 16
+Set Harpoon effect injure-rate 33
 
-Set Harpoon stat rounds 1
+//Set Harpoon stat rounds 1
 
 Set Longspear effect cripple-x2
 
