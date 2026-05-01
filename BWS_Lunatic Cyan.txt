@@ -421,7 +421,7 @@ set larentia base sword +15
 set larentia base spear +15
 set larentia base sshield +15
 
-set Owen item 5 Bag 0
+set Owen item 5 holy 10
 set Owen item 6 Bag 0
 set Owen item 7 Bag 0
 //set owen growth light 60
@@ -486,7 +486,7 @@ set lynette base bow +20
 
 set paramythis item 0 HolyMace 101
 set paramythis item 2 PeerlessBrace 0
-set paramythis item 3 Bag 0
+set paramythis item 3 holy 10
 set paramythis item 4 Treasure 101
 set paramythis base sword +25
 set paramythis base light +25
@@ -1287,11 +1287,12 @@ set PallasSerenia stat level 20
 set PallasSerenia stat max-range 3
 
 set Physic stat max-range 5
-set Holy stat might 5
+set Holy stat might 10
 //set Holy stat uses 20
 set holy effect cripple-x2
 set Starlight effect cripple-x2
 set Starlight stat max-range 2
+set holy stat max-range 2
 
 set Nosferatu stat max-range 2
 set Nosferatu+ stat max-range 2
