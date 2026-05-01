@@ -1006,6 +1006,7 @@ set faye skill celerity
 set faye skill scotopic
 set faye skill pulverize
 set faye skill pursuit
+set faye skill battlecry
 
 set faramir skill aim
 set faramir skill canto
@@ -1031,6 +1032,7 @@ set faramir skill watchful
 set faramir skill pulverize
 set faramir skill astra
 set faramir skill pursuit
+set faramir skill battlecry
 
 set volo skill adept
 set volo skill arrowbane
@@ -1059,6 +1061,7 @@ set volo skill scotopic
 set volo skill pulverize
 set volo skill astra
 set volo skill pursuit
+set volo skill battlecry
 
 set clifford skill canto
 set clifford skill flourish
@@ -4172,6 +4175,43 @@ set derrick skill pursuit
 //set lynette skill pursuit
 set paramythis skill pursuit
 //set izerna skill pursuit
+
+set reese skill battlecry
+set ward skill battlecry
+set elbert skill battlecry
+set christine skill battlecry
+set adel skill battlecry
+set leon skill battlecry
+set sherlock skill battlecry
+set czene skill battlecry
+set daoud skill battlecry
+set marcel skill battlecry
+set enid skill battlecry
+set aegina skill battlecry
+set perceval skill battlecry
+set alvina skill battlecry
+set ruby skill battlecry
+set arthur skill battlecry
+set kramer skill battlecry
+set sherpa skill battlecry
+set dean skill battlecry
+set sylvis skill battlecry
+set thaddy skill battlecry
+set esteban skill battlecry
+set faye skill battlecry
+set faramir skill battlecry
+set volo skill battlecry
+set clifford skill battlecry
+set axel skill battlecry
+set larentia skill battlecry
+set owen skill battlecry
+set burroughs skill battlecry
+set derrick skill battlecry
+set saphira skill battlecry
+set lynette skill battlecry
+set paramythis skill battlecry
+set izerna skill battlecry
+
 
 set Tico stat uses 12
 
