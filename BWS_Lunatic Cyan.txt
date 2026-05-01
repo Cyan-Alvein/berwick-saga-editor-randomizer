@@ -4434,6 +4434,7 @@ set Paladin_M cap mshield 50
 set Paladin_M cap spear 50
 
 set Reese cap mshield 40
+set Ward cap sword 50
 set Christine cap sword 30
 set Enid cap fire 60
 set Enid cap thunder 30
