@@ -2610,7 +2610,6 @@ set SpearRider_R skill shieldfaire
 set SpearRider_R skill armsthrift
 set SpearRider_R skill throw
 set SpearRider_R skill camouflage
-set SpearRider_R skill vantage
 set SpearRider_R skill adept
 set SpearRider_R skill hide
 
@@ -2624,7 +2623,6 @@ set SpearRider skill shieldfaire
 set SpearRider skill armsthrift
 set SpearRider skill throw
 set SpearRider skill camouflage
-set SpearRider skill vantage
 set SpearRider skill adept
 set SpearRider skill hide
 
@@ -2638,7 +2636,6 @@ set ImperialSpearman skill shieldfaire
 set ImperialSpearman skill armsthrift
 set ImperialSpearman skill throw
 set ImperialSpearman skill camouflage
-set ImperialSpearman skill vantage
 set ImperialSpearman skill adept
 set ImperialSpearman skill hide
 
@@ -2652,7 +2649,6 @@ set ImperialSpearRider_R skill shieldfaire
 set ImperialSpearRider_R skill armsthrift
 set ImperialSpearRider_R skill throw
 set ImperialSpearRider_R skill camouflage
-set ImperialSpearRider_R skill vantage
 set ImperialSpearRider_R skill adept
 set ImperialSpearRider_R skill hide
 
@@ -2666,7 +2662,6 @@ set ImperialSpearRider skill shieldfaire
 set ImperialSpearRider skill armsthrift
 set ImperialSpearRider skill throw
 set ImperialSpearRider skill camouflage
-set ImperialSpearRider skill vantage
 set ImperialSpearRider skill adept
 set ImperialSpearRider skill hide
 
