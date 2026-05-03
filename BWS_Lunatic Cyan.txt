@@ -1855,7 +1855,7 @@ set Shieldaxe stat Weight 9
 set MaozaWolf stat Weight 13
 set Bhuj stat Weight 9
 //set GigasAxe stat Weight 15
-//set VerianAxe stat Weight 6
+set VerianAxe stat Weight 6
 set OldImperialAxe stat Weight 8
 set ImperialAxe stat Weight 6
 set BanditAxe stat Weight 6
