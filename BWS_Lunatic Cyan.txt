@@ -1436,6 +1436,8 @@ set ThrowingKnife stat level 1
 
 set Seax stat weight 2
 
+set ThiefsKnife stat cost 1000
+
 //set vespa stat level 3
 
 set BoltKnife stat durability C
@@ -1471,23 +1473,23 @@ set BronzeSword stat might 6
 set Shortsword stat might 4
 set Scimitar stat might 10
 
-//set LevinSword stat might 5
-//set FlameSword stat might 4
+set LevinSword stat might 3
+set FlameSword stat might 6
 //set HolySword stat might 10
 set WindEdge stat might 4
-//set InfernalEdge stat might 2
+set InfernalEdge stat might 4
 
-set KillingEdge stat might 9
+set KillingEdge stat might 10
 //set Broadsword stat might 11
 set AltiumSword stat might 13
 
 set AltiumSword effect cripple-x2
 
 set WindEdge effect wind-damage 7
-//set LevinSword effect thunder-damage 9
-//set HolySword effect holy-damage 7
-//set FlameSword effect fire-damage 7
-//set InfernalEdge effect fire-damage 10
+set LevinSword effect thunder-damage 11
+set HolySword effect holy-damage 7
+set FlameSword effect fire-damage 9
+set InfernalEdge effect fire-damage 12
 
 set BronzeSword stat accuracy 50
 set ImperialSword stat accuracy 60
@@ -1499,7 +1501,7 @@ set Albatross stat accuracy 50
 set FlameSword stat accuracy 50
 set HolySword stat accuracy 50
 set WindEdge stat accuracy 50
-set KillingEdge stat accuracy 70
+set KillingEdge stat accuracy 60
 set ImperialSword stat accuracy 60
 set Harperia stat accuracy 60
 
@@ -1638,9 +1640,13 @@ set SteelSpear stat accuracy 60
 set Brionac stat accuracy 60
 set Harpoon stat accuracy 50
 set PrototypeSpear stat accuracy 60
-set KillerSpear stat accuracy 70
+set KillerSpear stat accuracy 60
+//set WindSpear stat accuracy 50
 
 set Verutum stat might 12
+set Euthyphro stat might 5
+
+set Euthyphro effect thunder-damage 7
 
 //set Verutum stat level 1
 //set SteelSpear stat level 1
@@ -1654,17 +1660,17 @@ set SlimSpear stat Weight 5
 set IronSpear stat Weight 6
 set Pilum stat Weight 7
 set SteelSpear stat Weight 7
-set Harpoon stat Weight 7
-//set PrototypeSpear stat Weight 7
+set Harpoon stat Weight 10
+set PrototypeSpear stat Weight 8
 set KillerSpear stat Weight 6
-set Pike stat Weight 7
+set Pike stat Weight 6
 set Longspear stat Weight 8
-set Verutum stat Weight 7
+set Verutum stat Weight 8
 set Doru stat Weight 9
 set MithrilSpear stat Weight 5
-set WindSpear stat Weight 7
+set WindSpear stat Weight 5
 set Euthyphro stat Weight 7
-set Javelin stat Weight 8
+set Javelin stat Weight 10
 set Partisan stat Weight 10
 set Angon stat Weight 6
 set Brionac stat Weight 8
@@ -1696,12 +1702,12 @@ set ImperialSpear stat cost 1200
 set Harpoon stat cost 1000
 
 //set PrototypeSpear stat durability C
-set Pike stat durability B
-set Doru stat durability B
-set MithrilSpear stat durability A
-set Partisan stat durability B
-set Brionac stat durability B
-set Harpoon stat durability D
+//set Pike stat durability B
+//set Doru stat durability B
+//set MithrilSpear stat durability A
+//set Partisan stat durability B
+//set Brionac stat durability B
+//set Harpoon stat durability F
 
 
 //set WindSpear effect wind-damage 8
@@ -1809,49 +1815,49 @@ set GlacierAxe stat might 4
 set NimbusAxe stat might 4
 set DarkAxe stat might 4
 set Mjollnir stat might 9
-set BoltAxe stat might 8
+set BoltAxe stat might 7
 
 set VolcanoAxe effect fire-damage 7
 set GlacierAxe effect wind-damage 7
 set NimbusAxe effect thunder-damage 7
-set DarkAxe effect dark-damage 7
-set Mjollnir effect thunder-damage 9
-set BoltAxe effect thunder-damage 8
+set DarkAxe effect dark-damage 9
+set Mjollnir effect thunder-damage 11
+set BoltAxe effect thunder-damage 11
 
-set LogSplitter stat Weight 6
-set Pickaxe stat Weight 5
-set BattleSaw stat Weight 8
-set HandAxe stat Weight 7
+//set LogSplitter stat Weight 8
+//set Pickaxe stat Weight 4
+//set BattleSaw stat Weight 7
+set HandAxe stat Weight 5
 set BarbaricAxe stat Weight 13
 set CrookedAxe stat Weight 15
-set IronAxe stat Weight 7
-set Francisca stat Weight 8
-set Battleaxe stat Weight 9
-set Broadaxe stat Weight 8
-set VolcanoAxe stat Weight 8
-set GlacierAxe stat Weight 8
-set NimbusAxe stat Weight 8
-set DarkAxe stat Weight 8
-set WarPick stat Weight 7
+//set IronAxe stat Weight 6
+set Francisca stat Weight 6
+set Battleaxe stat Weight 8
+//set Broadaxe stat Weight 7
+set VolcanoAxe stat Weight 6
+set GlacierAxe stat Weight 6
+set NimbusAxe stat Weight 6
+set DarkAxe stat Weight 7
+//set WarPick stat Weight 7
 set Hatchet stat Weight 6
 set BreakerAxe stat Weight 10
 set Poleax stat Weight 10
 set Tomahawk stat Weight 8
-set BoltAxe stat Weight 7
-set KillerAxe stat Weight 6
+//set BoltAxe stat Weight 7
+//set KillerAxe stat Weight 6
 set Hammer stat Weight 12
-set Greataxe stat Weight 13
-set Tabarzin stat Weight 8
-set MithrilAxe stat Weight 6
-set Gullveig stat Weight 9
-set Mjollnir stat Weight 9
+set Greataxe stat Weight 11
+//set Tabarzin stat Weight 8
+set MithrilAxe stat Weight 5
+set Gullveig stat Weight 6
+set Mjollnir stat Weight 5
 set Shieldaxe stat Weight 9
-set MaozaWolf stat Weight 14
+set MaozaWolf stat Weight 13
 set Bhuj stat Weight 9
-set GigasAxe stat Weight 15
-set VerianAxe stat Weight 7
+//set GigasAxe stat Weight 15
+//set VerianAxe stat Weight 6
 set OldImperialAxe stat Weight 8
-set ImperialAxe stat Weight 7
+set ImperialAxe stat Weight 6
 set BanditAxe stat Weight 6
 
 set BarbaricAxe stat accuracy 20
@@ -1862,8 +1868,8 @@ set OldImperialAxe stat accuracy 40
 set Shieldaxe stat accuracy 40
 set Tomahawk stat accuracy 50
 set Battleaxe stat accuracy 40
-set Poleax stat accuracy 40
-set BreakerAxe stat accuracy 40
+set Poleax stat accuracy 30
+set BreakerAxe stat accuracy 30
 set CrookedAxe stat accuracy 10
 set NimbusAxe stat accuracy 40
 set VolcanoAxe stat accuracy 40
@@ -1873,7 +1879,7 @@ set Pickaxe stat accuracy 40
 set HandAxe stat accuracy 40
 set Francisca stat accuracy 40
 set Hammer stat accuracy 40
-set Greataxe stat accuracy 50
+set Greataxe stat accuracy 40
 set Shieldaxe stat accuracy 40
 set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 30
@@ -1926,7 +1932,7 @@ set GigasAxe stat cost 3000
 set PoisonArrow stat might 1
 set SleepArrow stat might 1
 set BroadheadArrow stat might 1
-set BodkinArrow stat might 5
+set BodkinArrow stat might 1
 set BreakerArrow stat might 1
 set EmberArrow stat might 0
 set FreezeArrow stat might 0
@@ -1956,15 +1962,15 @@ set SwiftBow stat Weight 4
 set Longbow stat Weight 6
 set TripleFireBow stat Weight 9
 set CompositeBow stat Weight 7
-set Apollyon stat Weight 4
+set Apollyon stat Weight 5
 set Strongbow stat Weight 8
 set Greatbow stat Weight 9
-set Killerbow stat Weight 5
-set Apeiron stat Weight 6
-set Rossweisse stat Weight 4
-set Pascanion stat Weight 6
-set Pascanion2 stat Weight 6
-set SereniaBow stat Weight 3
+set Killerbow stat Weight 6
+set Apeiron stat Weight 7
+set Rossweisse stat Weight 5
+set Pascanion stat Weight 7
+set Pascanion2 stat Weight 7
+set SereniaBow stat Weight 5
 set VerianBow stat Weight 4
 set OldImperialBow stat Weight 5
 set ImperialBow stat Weight 4
@@ -2112,7 +2118,7 @@ set Aspis stat might 5
 set RoundShield stat might 5
 set Windshield stat might 5
 set FireShield stat might 5
-set ThunderShield stat might 
+set ThunderShield stat might 5
 set LightShield stat might 5
 set DarkShield stat might 5
 set MetalShield stat might 6
@@ -2126,7 +2132,7 @@ set ImpSoldierSShd++ stat might 4
 set ImpOfficerSShd stat might 5
 set ImpKnightSShd stat might 6
 set Perseid stat might 7
-set LadyShield stat might 7
+set LadyShield stat might 6
 
 set LeatherSShd stat Weight 1
 set Buckler stat Weight 2
