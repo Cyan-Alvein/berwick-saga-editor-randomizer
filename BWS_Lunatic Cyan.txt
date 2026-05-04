@@ -3799,7 +3799,6 @@ set AxeSoldier skill hide
 //Derrick Stat
 set ArmorKnight skill throw
 set ArmorKnight skill canto
-set ArmorKnight skill vengeful
 set ArmorKnight skill shieldfaire
 set ArmorKnight skill hide
 set ArmorKnight skill armsthrift
@@ -4145,7 +4144,6 @@ set HeavyGunner skill counter
 set ImperialGunner skill counter
 set ImperialHeavyGunner skill counter
 set RogueGunner skill counter
-set ArmorKnight skill counter
 set Axefighter skill counter
 set Hero skill counter
 set Highlander skill counter
@@ -4153,6 +4151,8 @@ set Huntress skill counter
 set Mercenary skill counter
 set WarMonk skill counter
 set Warrior skill counter
+set Pirate skill counter
+set Corsair skill counter
 
 //Pursuit to everyone except mage otherwise derrick & marcel will get OS.
 set Acolyte skill pursuit
@@ -4607,4 +4607,6 @@ set Paladin_F_R growth mshield 100
 set Paladin_F growth mshield 100
 set Paladin_M_R growth mshield 100
 set Paladin_M growth mshield 100
+
+
 
