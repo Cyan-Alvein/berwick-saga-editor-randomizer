@@ -1705,6 +1705,7 @@ set OldImperialSpear stat Weight 9
 set Harpoon stat might 10
 set Fauchard stat might 8
 set Brionac stat might 8
+set KillerSpear stat might 7
 
 set ImperialSpear stat might 8
 set Fauchard stat hex 1
@@ -1846,9 +1847,9 @@ set DarkAxe effect dark-damage 9
 set Mjollnir effect thunder-damage 11
 set BoltAxe effect thunder-damage 11
 
-//set LogSplitter stat Weight 8
-//set Pickaxe stat Weight 4
-//set BattleSaw stat Weight 7
+set LogSplitter stat Weight 6
+set Pickaxe stat Weight 4
+set BattleSaw stat Weight 7
 set HandAxe stat Weight 5
 set BarbaricAxe stat Weight 13
 set CrookedAxe stat Weight 15
@@ -4153,6 +4154,7 @@ set WarMonk skill counter
 set Warrior skill counter
 set Pirate skill counter
 set Corsair skill counter
+set Bandit skill counter
 
 //Pursuit to everyone except mage otherwise derrick & marcel will get OS.
 set Acolyte skill pursuit
@@ -4607,4 +4609,3 @@ set Paladin_F_R growth mshield 100
 set Paladin_F growth mshield 100
 set Paladin_M_R growth mshield 100
 set Paladin_M growth mshield 100
-
