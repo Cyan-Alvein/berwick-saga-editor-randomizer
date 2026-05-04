@@ -225,9 +225,9 @@ set Daoud base axe +20
 set Daoud base sshield +20
 set Daoud base mshield +20
 
-set enid base sword +15
-set enid base fire 30
-set enid base thunder +20
+set enid base sword +20
+set enid base fire +40
+set enid base thunder +30
 set Enid item 1 Hellfire 20
 set Enid item 2 Earthblaze 20 
 set Enid item 3 Earthblaze 20 
@@ -237,10 +237,10 @@ set Enid item 6 Bag 0
 set Enid item 7 Rapier 101
 set Enid growth fire 100
 set Enid growth thunder 100
-set FlameFencer base thunder +20
-set FlameFencer base fire +30
-set Fencer base thunder +20
-set Fencer base fire +30
+set FlameFencer base thunder +30
+set FlameFencer base fire +40
+set Fencer base thunder +30
+set Fencer base fire +40
 
 set marcel growth sword 60
 set marcel growth Lshield 90
@@ -3981,6 +3981,8 @@ set WyvernLord_R skill supporter
 //set ImperialGunner skill adept
 //set ImperialHeavyGunner skill adept
 //set RogueGunner skill adept
+//set LadyKnight skill adept
+//set LadyKnight_R skill adept
 set Acolyte skill adept
 set Apostle skill adept
 set Aristocrat skill adept
@@ -4058,8 +4060,6 @@ set ImperialSpearRider_R skill adept
 set King skill adept
 set KnightLord skill adept
 set KnightLord_R skill adept
-set LadyKnight skill adept
-set LadyKnight_R skill adept
 set LanceKnight skill adept
 set LanceKnight2 skill adept
 set LanceKnight2_R skill adept
@@ -4607,6 +4607,4 @@ set Paladin_F_R growth mshield 100
 set Paladin_F growth mshield 100
 set Paladin_M_R growth mshield 100
 set Paladin_M growth mshield 100
-
-
 
