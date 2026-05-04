@@ -575,6 +575,7 @@ set elbert skill desperation
 set elbert skill maim
 set elbert skill robbery
 set elbert skill hide
+set elbert skill adept
 
 set christine skill aim
 set christine skill armsthrift
@@ -596,6 +597,7 @@ set christine skill onetwo
 set christine skill robbery
 set christine skill fortune
 set christine skill pursuit
+set christine skill counter
 
 set adel skill canto
 set adel skill pursuit 
@@ -669,6 +671,7 @@ set sherlock skill windsweep
 set sherlock skill fortune
 set sherlock skill pursuit
 set sherlock skill deathmatch
+set sherlock skill adept
 
 set izerna skill blessing
 set izerna skill canto
@@ -734,6 +737,8 @@ set daoud skill maim
 set daoud skill robbery
 set daoud skill hide
 set daoud skill counter
+set daoud skill adept
+set daoud skill vengeful
 
 set enid skill canto
 set enid skill charisma
@@ -806,6 +811,8 @@ set marcel skill robbery
 set marcel skill pulverize
 set marcel skill hide
 set marcel skill battlecry
+set marcel skill armsthrift
+set marcel skill adept
 
 set alvina skill adept
 set alvina skill canto
@@ -862,6 +869,7 @@ set arthur skill maim
 set arthur skill robbery
 set arthur skill hide
 set arthur skill provoke
+set arthur skill adept
 
 set kramer skill blade 
 set kramer skill canto
@@ -886,6 +894,7 @@ set kramer skill battlecry
 set kramer skill windsweep
 set kramer skill pursuit
 set kramer skill deathmatch
+set kramer skill adept
 
 set sherpa skill canto
 set sherpa skill climber
@@ -910,6 +919,7 @@ set sherpa skill provoke
 set sherpa skill battlecry
 set sherpa skill pursuit
 set sherpa skill deathmatch
+set sherpa skill adept
 
 set dean skill adept
 set dean skill axeguard
@@ -934,6 +944,7 @@ set dean skill battlecry
 set dean skill provoke
 set dean skill windsweep
 set dean skill pursuit
+set dean skill counter
 
 set sylvis skill aim
 set sylvis skill canto
@@ -957,6 +968,7 @@ set sylvis skill fortune
 set sylvis skill pursuit
 set sylvis skill armsthrift
 set sylvis skill celerity
+set sylvis skill adept
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -1011,6 +1023,7 @@ set esteban skill windsweep
 set esteban skill fortune
 set esteban skill pursuit
 set esteban skill celerity
+set esteban skill adept
 	
 set faye skill adept
 set faye skill arrowbane
@@ -1061,9 +1074,9 @@ set faramir skill robbery
 set faramir skill hide
 set faramir skill watchful
 set faramir skill pulverize
-set faramir skill astra
 set faramir skill pursuit
 set faramir skill battlecry
+set faramir skill adept
 
 set volo skill adept
 set volo skill arrowbane
@@ -1110,6 +1123,7 @@ set clifford skill maim
 set clifford skill robbery
 set clifford skill hide
 set clifford skill throw
+set clifford skill adept
 
 set axel skill canto
 set axel skill axeguard
@@ -1129,7 +1143,6 @@ set axel skill climber
 set axel skill throw
 set axel skill battlecry
 set axel skill desperation
-set axel skill deathmatch
 set axel skill robust
 set axel skill maim
 set axel skill watchful
@@ -1137,6 +1150,8 @@ set axel skill vengeful
 set axel skill pursuit
 set axel skill windsweep
 set axel skill fortune
+set axel skill adept
+set axel skill counter
 
 set larentia skill adept
 set larentia skill parry
@@ -1173,6 +1188,7 @@ set owen skill robbery
 set owen skill hide
 set owen skill battlecry
 set owen skill fortune
+set owen skill focuschant
 
 set burroughs skill armsthrift
 set burroughs skill battlecry
@@ -1199,11 +1215,15 @@ set derrick skill desperation
 set derrick skill paragon
 set derrick skill robust
 set derrick skill maim
+set derrick skill vengeful
 set derrick skill shieldfaire
 set derrick skill robbery
 set derrick skill pulverize
 set derrick skill hide
 set derrick skill battlecry
+set derrick skill armsthrift
+set derrick skill counter
+set derrick skill adept
 
 set saphira skill blessing
 set saphira skill canto
@@ -1247,6 +1267,7 @@ set lynette skill robbery
 set lynette skill hide
 set lynette skill watchful
 set lynette skill fortune
+set lynette skill adept
 
 set paramythis skill blessing
 set paramythis skill camouflage
@@ -1270,6 +1291,7 @@ set paramythis skill watchful
 set paramythis skill desperation
 set paramythis skill fortune
 set paramythis skill charisma
+set paramythis skill adept
 
 
 // prfs
@@ -1529,7 +1551,7 @@ set BronzeSword stat Weight 5
 set Shortsword stat Weight 4
 set Scimitar stat weight 4
 set Longsword stat weight 5
-set WindEdge stat weight 6
+set WindEdge stat weight 5
 set Broadsword stat weight 6
 set Scimitar+ stat weight 7
 set KillingEdge stat weight 5
@@ -1545,7 +1567,7 @@ set Estoc stat weight 2
 set Grimhild stat weight 7
 set Harperia stat weight 3
 set FlameSword stat Weight 6
-set InfernalEdge stat weight 5
+set InfernalEdge stat weight 4
 set Colichemarde stat weight 4
 set Cutlass stat Weight 3
 set Cutlass+ stat Weight 4
@@ -1833,16 +1855,16 @@ set CrookedAxe stat Weight 15
 //set IronAxe stat Weight 6
 set Francisca stat Weight 6
 set Battleaxe stat Weight 8
-//set Broadaxe stat Weight 7
+set Broadaxe stat Weight 7
 set VolcanoAxe stat Weight 6
 set GlacierAxe stat Weight 6
 set NimbusAxe stat Weight 6
-set DarkAxe stat Weight 7
+set DarkAxe stat Weight 6
 //set WarPick stat Weight 7
 set Hatchet stat Weight 6
 set BreakerAxe stat Weight 10
 set Poleax stat Weight 10
-set Tomahawk stat Weight 8
+set Tomahawk stat Weight 6
 //set BoltAxe stat Weight 7
 //set KillerAxe stat Weight 6
 set Hammer stat Weight 12
@@ -2860,7 +2882,6 @@ set General skill armsthrift
 set General skill commander
 set General skill camouflage
 set General skill hide
-set General skill counter
 
 // This may be Larentia Stat too
 set WyvernKnight_R skill canto
@@ -2937,7 +2958,6 @@ set AxeGuard skill canto
 set AxeGuard skill shieldfaire
 set AxeGuard skill camouflage
 set AxeGuard skill hide
-//set AxeGuard skill counter
 
 set Bowman base strength +5
 set Bowman base defense +1
@@ -3096,7 +3116,6 @@ set Warrior skill throw
 set Warrior skill aim
 set Warrior skill camouflage
 set Warrior skill hide
-set Warrior skill counter
 
 set Bandit base strength +5
 set Bandit base defense +1
@@ -3269,7 +3288,6 @@ set DarkMaster base magic +15
 set DarkMaster base speed +5
 set DarkMaster base hp +2
 set DarkMaster skill canto
-set DarkMaster skill counter
 set DarkMaster skill commander
 set DarkMaster skill imbue
 set DarkMaster skill hide
@@ -3290,7 +3308,7 @@ set RazeWarMonk skill versatile
 set RazeWarMonk skill resistor
 set RazeWarMonk skill hide
 set RazeWarMonk skill watchful
-set RazeWarMonk skill counter
+
 set RazeWarMonk skill armsthrift
 
 // same as kramer 
@@ -3304,7 +3322,6 @@ set RogueGuard skill armsthrift
 set RogueGuard skill shieldfaire
 set RogueGuard skill camouflage
 set RogueGuard skill hide
-set RogueGuard skill counter
 
 set RogueArcher base strength +5
 set RogueArcher base defense +1
@@ -3341,7 +3358,6 @@ set RogueWarrior skill throw
 set RogueWarrior skill iaido
 set RogueWarrior skill camouflage
 set RogueWarrior skill hide
-set RogueWarrior skill counter
 
 set SnowBandit base strength +5
 set SnowBandit base defense +1
@@ -3387,7 +3403,6 @@ set Scoundrel skill camouflage
 set Scoundrel skill commander
 set Scoundrel skill sunder
 set Scoundrel skill hide
-set Scoundrel skill counter
 set Scoundrel skill charisma
 
 set RazeWarMonk2 base strength +5
@@ -3403,7 +3418,6 @@ set RazeWarMonk2 skill versatile
 set RazeWarMonk2 skill commander
 set RazeWarMonk2 skill resistor
 set RazeWarMonk2 skill hide
-set RazeWarMonk2 skill counter
 set RazeWarMonk2 skill charisma
 
 set FailedPoet base strength +5
@@ -3507,7 +3521,6 @@ set WarMonk skill camouflage
 set WarMonk skill versatile
 set WarMonk skill hide
 set WarMonk skill watchful
-set WarMonk skill counter
 
 set Flamewyrm base strength +5
 set Flamewyrm base defense +1
@@ -3549,7 +3562,6 @@ set GigasKnight skill armsthrift
 set GigasKnight skill camouflage
 set GigasKnight skill canto
 set GigasKnight skill hide
-//set GigasKnight skill counter
 
 set Transporter base strength +5
 set Transporter base defense +1
@@ -3571,7 +3583,6 @@ set Chief skill iaido
 set Chief skill throw
 set Chief skill commander
 set Chief skill hide
-set Chief skill counter
 set Chief skill charisma
 
 set Icewyrm base strength +5
@@ -3641,7 +3652,6 @@ set AxeSergeant skill armsthrift
 set AxeSergeant skill canto
 set AxeSergeant skill throw
 set AxeSergeant skill hide
-set AxeSergeant skill counter
 
 //Will fuck Czene Stat on rankup
 set Grassrunner_R skill camouflage
@@ -3733,6 +3743,7 @@ set SwordKnight skill hide
 
 set Pirate skill throw
 set Pirate skill hide
+set Pirate skill adept
 
 //sherlock stats
 set Horseman skill aim
@@ -3784,13 +3795,15 @@ set Myrmidon skill arrowbane
 //Daoud Stat
 set AxeSoldier skill throw
 set AxeSoldier skill hide
-set AxeSoldier skill counter
 
 //Derrick Stat
 set ArmorKnight skill throw
 set ArmorKnight skill canto
+set ArmorKnight skill vengeful
 set ArmorKnight skill shieldfaire
 set ArmorKnight skill hide
+set ArmorKnight skill armsthrift
+set ArmorKnight skill adept
 
 //Esteban stat
 set Hunter skill canto
@@ -3798,12 +3811,13 @@ set Hunter skill camouflage
 set Hunter skill hide
 set Hunter skill watchful
 set Hunter skill aim
+set Hunter skill adept
 
 //Kramer Stat
 set Mercenary skill canto
 set Mercenary skill hide
-set Mercenary skill counter
 set Mercenary skill arrowbane
+set Mercenary skill adept
 
 set LanceKnight skill adept
 set LanceKnight2 skill adept
@@ -3827,8 +3841,8 @@ set LanceKnight skill hide
 set LanceKnight_R skill throw
 set LanceKnight_R skill hide
 
-set Guardian skill counter
 set Guardian skill Shieldfaire
+set Guardian skill armsthrift
 set Guardian skill hide
 
 set LadyKnight_R skill aim
@@ -3881,211 +3895,290 @@ set VeteranKnight_R skill shieldfaire
 set VeteranKnight skill hide
 set VeteranKnight skill shieldfaire
 
-//Commander to ennemy
-//set Spearman skill commander
-//set SpearRider_R skill commander
-//set SpearRider skill commander
-//set ImperialSpearman skill commander
-//set ImperialSpearRider_R skill commander
-//set ImperialSpearRider skill commander
-//set Farmer skill commander
-//set VerianKnight_R skill commander
-//set VerianKnight skill commander
-//set VerianKnight2_R skill commander
-//set VerianKnight2 skill commander
-//set ImperialKnight_R skill commander
-//set ImperialKnight skill commander
-//set ImperialPaladin_R skill commander
-//set ImperialPaladin skill commander
-//set HighKnight_R skill commander
-//set HighKnight skill commander
-//set HighKnight2_R skill commander
-//set HighKnight2 skill commander
-//set General skill commander
-//set WyvernLord_R skill commander
-//set WyvernLord skill commander
-//set Axeman skill commander
-//set ImperialAxeman skill commander
-//set AxeGuard skill commander
-//set Bowman skill commander
-//set BowRider skill commander
-//set Gunner skill commander
-//set HeavyGunner skill commander
-//set ImperialBowman skill commander
-//set ImperialBowRider_R skill commander
-//set ImperialBowRider skill commander
-//set ImperialGunner skill commander
-//set ImperialHeavyGunner skill commander
-//set Marksman skill commander
-//set ImperialMarksman skill commander
-//set Warrior skill commander
-//set Bandit skill commander
-//set Corsair skill commander
-//set Ruffian_R skill commander
-//set Ruffian skill commander
-//set Pickpocket skill commander
-//set Outlaw skill commander
-//set Assassin skill commander
-//set Rogue skill commander
-//set RazeMonk skill commander
-//set RazePriest skill commander
-//set RazeBishop skill commander
-//set RogueGuard skill commander
-//set RogueArcher skill commander
-//set RogueGunner skill commander
-//set RogueWarrior skill commander
-//set SnowBandit skill commander
-//set Barbarian skill commander
-//set Duke skill commander
-//set Scoundrel skill commander
-//set RazeWarMonk2 skill commander
-//set FailedPoet skill commander
-//set RazeBishop2 skill commander
-//set King skill commander
-//set Captain skill commander
-//set DragonKnight_R skill commander
-//set DragonKnight skill commander
-//set WarMonk skill commander
-//set Flamewyrm skill commander
-//set BlackRider_R skill commander
-//set BlackRider skill commander
-//set GigasKnight skill commander
-//set Transporter skill commander
-//set Chief skill commander
-//set Icewyrm skill commander
-//set Levinwyrm skill commander
-//set Wyvern skill commander
-//set Aristocrat skill commander
-//set RazeWarMonk skill commander
-//set DarkMaster skill commander
-
-//set Thief_M skill commander
-
 //supporter to ennemy
-set Spearman skill supporter
-set SpearRider_R skill supporter
-set SpearRider skill supporter
-set ImperialSpearman skill supporter
-set ImperialSpearRider_R skill supporter
-set ImperialSpearRider skill supporter
-set Farmer skill supporter
-set VerianKnight_R skill supporter
-set VerianKnight skill supporter
-set VerianKnight2_R skill supporter
-set VerianKnight2 skill supporter
-set ImperialKnight_R skill supporter
-set ImperialKnight skill supporter
-set ImperialPaladin_R skill supporter
-set ImperialPaladin skill supporter
-set HighKnight_R skill supporter
-set HighKnight skill supporter
-set HighKnight2_R skill supporter
-set HighKnight2 skill supporter
-set General skill supporter
-set WyvernLord_R skill supporter
-set WyvernLord skill supporter
-set Axeman skill supporter
-set ImperialAxeman skill supporter
+//set Thief_M skill supporter
+set Aristocrat skill supporter
+set Assassin skill supporter
 set AxeGuard skill supporter
+set Axeman skill supporter
+set Bandit skill supporter
+set Barbarian skill supporter
+set BlackRider skill supporter
+set BlackRider_R skill supporter
 set Bowman skill supporter
 set BowRider skill supporter
+set Captain skill supporter
+set Chief skill supporter
+set Corsair skill supporter
+set DarkMaster skill supporter
+set DragonKnight skill supporter
+set DragonKnight_R skill supporter
+set FailedPoet skill supporter
+set Farmer skill supporter
+set Flamewyrm skill supporter
+set General skill supporter
+set GigasKnight skill supporter
 set Gunner skill supporter
 set HeavyGunner skill supporter
+set HighKnight skill supporter
+set HighKnight2 skill supporter
+set HighKnight2_R skill supporter
+set HighKnight_R skill supporter
+set Icewyrm skill supporter
+set ImperialAxeman skill supporter
 set ImperialBowman skill supporter
-set ImperialBowRider_R skill supporter
 set ImperialBowRider skill supporter
+set ImperialBowRider_R skill supporter
 set ImperialGunner skill supporter
 set ImperialHeavyGunner skill supporter
-set Marksman skill supporter
+set ImperialKnight skill supporter
+set ImperialKnight_R skill supporter
 set ImperialMarksman skill supporter
-set Warrior skill supporter
-set Bandit skill supporter
-set Corsair skill supporter
-set Ruffian_R skill supporter
-set Ruffian skill supporter
-set Pickpocket skill supporter
+set ImperialPaladin skill supporter
+set ImperialPaladin_R skill supporter
+set ImperialSpearman skill supporter
+set ImperialSpearRider skill supporter
+set ImperialSpearRider_R skill supporter
+set King skill supporter
+set Levinwyrm skill supporter
+set Marksman skill supporter
 set Outlaw skill supporter
-set Assassin skill supporter
-set Rogue skill supporter
+set Pickpocket skill supporter
+set RazeBishop skill supporter
+set RazeBishop2 skill supporter
 set RazeMonk skill supporter
 set RazePriest skill supporter
-set RazeBishop skill supporter
-set RogueGuard skill supporter
+set RazeWarMonk skill supporter
+set RazeWarMonk2 skill supporter
+set Rogue skill supporter
 set RogueArcher skill supporter
+set RogueGuard skill supporter
 set RogueGunner skill supporter
 set RogueWarrior skill supporter
-set SnowBandit skill supporter
-set Barbarian skill supporter
+set Ruffian skill supporter
+set Ruffian_R skill supporter
 set Scoundrel skill supporter
-set RazeWarMonk2 skill supporter
-set FailedPoet skill supporter
-set RazeBishop2 skill supporter
-set King skill supporter
-set Captain skill supporter
-set DragonKnight_R skill supporter
-set DragonKnight skill supporter
-set WarMonk skill supporter
-set Flamewyrm skill supporter
-set BlackRider_R skill supporter
-set BlackRider skill supporter
-set GigasKnight skill supporter
+set SnowBandit skill supporter
+set Spearman skill supporter
+set SpearRider skill supporter
+set SpearRider_R skill supporter
 set Transporter skill supporter
-set Chief skill supporter
-set Icewyrm skill supporter
-set Levinwyrm skill supporter
+set VerianKnight skill supporter
+set VerianKnight2 skill supporter
+set VerianKnight2_R skill supporter
+set VerianKnight_R skill supporter
+set WarMonk skill supporter
+set Warrior skill supporter
 set Wyvern skill supporter
-set Aristocrat skill supporter
-set RazeWarMonk skill supporter
-set DarkMaster skill supporter
+set WyvernLord skill supporter
+set WyvernLord_R skill supporter
 
-//set Thief_M skill supporter
-
-//adept to ennemy
-set Spearman skill adept
-set SpearRider_R skill adept
-set SpearRider skill adept
-set ImperialSpearman skill adept
-set ImperialSpearRider_R skill adept
-set ImperialSpearRider skill adept
-set Pickpocket skill adept
-set Assassin skill adept
-set Rogue skill adept
-set RazeMonk skill adept
-set RazePriest skill adept
-set RazeBishop skill adept
-set Duke skill adept
-set FailedPoet skill adept
-set RazeBishop2 skill adept
-set King skill adept
-set Captain skill adept
-set DragonKnight_R skill adept
-set DragonKnight skill adept
-set Flamewyrm skill adept
-set Icewyrm skill adept
-set Levinwyrm skill adept
-set Wyvern skill adept
+//adept to everyone
+//set ArrowKnight skill adept
+//set ArrowKnight_R skill adept
+//set DarkMaster skill adept
+//set Gunner skill adept
+//set HeavyGunner skill adept
+//set ImperialGunner skill adept
+//set ImperialHeavyGunner skill adept
+//set RogueGunner skill adept
+set Acolyte skill adept
+set Apostle skill adept
 set Aristocrat skill adept
+set ArmorKnight skill adept
+set Assassin skill adept
+set Axefighter skill adept
+set AxeGuard skill adept
+set Axeman skill adept
+set AxeSergeant skill adept
+set AxeSoldier skill adept
+set Ballistician skill adept
+set Bandit skill adept
+set Barbarian skill adept
+set Berserker skill adept
+set Bishop skill adept
+set BlackRider skill adept
+set BlackRider_R skill adept
+set BowKnight skill adept
+set BowKnight_R skill adept
+set Bowman skill adept
+set BowRider skill adept
+set BowRider_R skill adept
+set Burglar skill adept
+set Captain skill adept
+set Cavalier skill adept
+set Cavalier_R skill adept
+set Chevalire skill adept
+set Chevalire_R skill adept
+set Chief skill adept
+set ChosenOne skill adept
+set Cleric skill adept
+set Corsair skill adept
+set CourtPriest skill adept
+set DragonKnight skill adept
+set DragonKnight_R skill adept
+set Duke skill adept
+set DukeKnight skill adept
+set DukeKnight_R skill adept
+set Engineer skill adept
+set FailedPoet skill adept
+set Farmer skill adept
+set Fencer skill adept
+set FlameFencer skill adept
+set Flamewyrm skill adept
+set Friar skill adept
+set General skill adept
+set GigasKnight skill adept
+set Grassrunner skill adept
+set Grassrunner_R skill adept
+set Guardian skill adept
+set Hero skill adept
+set HighHunter skill adept
+set HighKnight skill adept
+set HighKnight2 skill adept
+set HighKnight2_R skill adept
+set HighKnight_R skill adept
+set Highlander skill adept
+set Horseman skill adept
+set Horseman_R skill adept
+set Hunter skill adept
+set Huntress skill adept
+set Icewyrm skill adept
+set ImperialAxeman skill adept
+set ImperialBowman skill adept
+set ImperialBowRider skill adept
+set ImperialBowRider_R skill adept
+set ImperialKnight skill adept
+set ImperialKnight_R skill adept
+set ImperialMarksman skill adept
+set ImperialPaladin skill adept
+set ImperialPaladin_R skill adept
+set ImperialSpearman skill adept
+set ImperialSpearRider skill adept
+set ImperialSpearRider_R skill adept
+set King skill adept
+set KnightLord skill adept
+set KnightLord_R skill adept
+set LadyKnight skill adept
+set LadyKnight_R skill adept
+set LanceKnight skill adept
+set LanceKnight2 skill adept
+set LanceKnight2_R skill adept
+set LanceKnight_R skill adept
+set Levinwyrm skill adept
+set Lord skill adept
+set Lord_R skill adept
+set Marksman skill adept
+set Mercenary skill adept
+set Myrmidon skill adept
+set Outlaw skill adept
+set Paladin skill adept
+set Paladin_F skill adept
+set Paladin_F_R skill adept
+set Paladin_M skill adept
+set Paladin_M_R skill adept
+set Paladin_R skill adept
+set Pickpocket skill adept
+set Pirate skill adept
+set Priest skill adept
+set Priestess skill adept
+set Princess skill adept
+set Ranger skill adept
+set RazeBishop skill adept
+set RazeBishop2 skill adept
+set RazeMonk skill adept
+set RazeMonkOwen skill adept
+set RazePriest skill adept
+set RazeWarMonk skill adept
+set RazeWarMonk2 skill adept
+set Rogue skill adept
+set RogueArcher skill adept
+set RogueGuard skill adept
+set RogueWarrior skill adept
+set Ruffian skill adept
+set Ruffian_R skill adept
+set Scoundrel skill adept
+set ShiningKnight skill adept
+set ShiningKnight_R skill adept
+set ShiningKnightParamythis skill adept
+set ShiningKnightParamythis_R skill adept
+set Sniper skill adept
+set SnowBandit skill adept
+set SpearKnight skill adept
+set SpearKnight_R skill adept
+set Spearman skill adept
+set SpearRider skill adept
+set SpearRider_R skill adept
+set Swordfighter_M skill adept
+set SwordKnight skill adept
+set SwordKnight_R skill adept
+set Swordmaster skill adept
+set Thief_F skill adept
+set Thief_M skill adept
+set ThunderMage skill adept
+set ThunderSage skill adept
+set Transporter skill adept
+set VerianKnight skill adept
+set VerianKnight2 skill adept
+set VerianKnight2_R skill adept
+set VerianKnight_R skill adept
+set VeteranKnight skill adept
+set VeteranKnight_R skill adept
+set WarMonk skill adept
+set Warrior skill adept
+set WindMage skill adept
+set WindSage skill adept
+set Wyvern skill adept
+set WyvernKnight skill adept
+set WyvernKnight_R skill adept
+set WyvernKnightLarentia skill adept
+set WyvernKnightLarentia_R skill adept
+set WyvernLord skill adept
+set WyvernLord_R skill adept
 
+//counter to class
+set ArrowKnight skill counter
+set ArrowKnight_R skill counter
+set DarkMaster skill counter
+set Gunner skill counter
+set HeavyGunner skill counter
+set ImperialGunner skill counter
+set ImperialHeavyGunner skill counter
+set RogueGunner skill counter
+set ArmorKnight skill counter
+set Axefighter skill counter
+set Hero skill counter
+set Highlander skill counter
+set Huntress skill counter
+set Mercenary skill counter
+set WarMonk skill counter
+set Warrior skill counter
 
 //Pursuit to everyone except mage otherwise derrick & marcel will get OS.
+set Acolyte skill pursuit
+set Apostle skill pursuit
 set Aristocrat skill pursuit
 set ArmorKnight skill pursuit
 set ArrowKnight skill pursuit
 set ArrowKnight_R skill pursuit
 set Assassin skill pursuit
 set Axefighter skill pursuit
+set AxeGuard skill pursuit
 set Axeman skill pursuit
 set AxeSergeant skill pursuit
 set AxeSoldier skill pursuit
+set Ballistician skill pursuit
 set Bandit skill pursuit
 set Barbarian skill pursuit
 set Berserker skill pursuit
+set Bishop skill pursuit
 set BlackRider skill pursuit
 set BlackRider_R skill pursuit
 set BowKnight skill pursuit
 set BowKnight_R skill pursuit
 set Bowman skill pursuit
 set BowRider skill pursuit
+set BowRider_R skill pursuit
 set Burglar skill pursuit
 set Captain skill pursuit
 set Cavalier skill pursuit
@@ -4093,29 +4186,48 @@ set Cavalier_R skill pursuit
 set Chevalire skill pursuit
 set Chevalire_R skill pursuit
 set Chief skill pursuit
+set ChosenOne skill pursuit
+set Cleric skill pursuit
 set Corsair skill pursuit
+set CourtPriest skill pursuit
+set DarkMaster skill pursuit
 set DragonKnight skill pursuit
 set DragonKnight_R skill pursuit
+set Duke skill pursuit
+set DukeKnight skill pursuit
+set DukeKnight_R skill pursuit
+set Engineer skill pursuit
 set FailedPoet skill pursuit
 set Farmer skill pursuit
+set Fencer skill pursuit
+set FlameFencer skill pursuit
+set Flamewyrm skill pursuit
+set Friar skill pursuit
 set General skill pursuit
 set GigasKnight skill pursuit
 set Grassrunner skill pursuit
 set Grassrunner_R skill pursuit
 set Guardian skill pursuit
+set Gunner skill pursuit
+set HeavyGunner skill pursuit
+set Hero skill pursuit
 set HighHunter skill pursuit
 set HighKnight skill pursuit
-set HighKnight_R skill pursuit
 set HighKnight2 skill pursuit
 set HighKnight2_R skill pursuit
+set HighKnight_R skill pursuit
+set Highlander skill pursuit
 set Horseman skill pursuit
 set Horseman_R skill pursuit
 set Hunter skill pursuit
 set Huntress skill pursuit
+set Icewyrm skill pursuit
 set ImperialAxeman skill pursuit
 set ImperialBowman skill pursuit
 set ImperialBowRider skill pursuit
 set ImperialBowRider_R skill pursuit
+set ImperialGunner skill pursuit
+set ImperialHeavyGunner skill pursuit
 set ImperialKnight skill pursuit
 set ImperialKnight_R skill pursuit
 set ImperialMarksman skill pursuit
@@ -4125,12 +4237,15 @@ set ImperialSpearman skill pursuit
 set ImperialSpearRider skill pursuit
 set ImperialSpearRider_R skill pursuit
 set King skill pursuit
+set KnightLord skill pursuit
+set KnightLord_R skill pursuit
 set LadyKnight skill pursuit
 set LadyKnight_R skill pursuit
 set LanceKnight skill pursuit
-set LanceKnight_R skill pursuit
 set LanceKnight2 skill pursuit
 set LanceKnight2_R skill pursuit
+set LanceKnight_R skill pursuit
+set Levinwyrm skill pursuit
 set Lord skill pursuit
 set Lord_R skill pursuit
 set Marksman skill pursuit
@@ -4145,15 +4260,30 @@ set Paladin_M_R skill pursuit
 set Paladin_R skill pursuit
 set Pickpocket skill pursuit
 set Pirate skill pursuit
+set Priest skill pursuit
+set Priestess skill pursuit
+set Princess skill pursuit
+set Ranger skill pursuit
+set RazeBishop skill pursuit
+set RazeBishop2 skill pursuit
+set RazeMonk skill pursuit
+set RazeMonkOwen skill pursuit
+set RazePriest skill pursuit
 set RazeWarMonk skill pursuit
 set RazeWarMonk2 skill pursuit
 set Rogue skill pursuit
 set RogueArcher skill pursuit
 set RogueGuard skill pursuit
+set RogueGunner skill pursuit
 set RogueWarrior skill pursuit
 set Ruffian skill pursuit
 set Ruffian_R skill pursuit
 set Scoundrel skill pursuit
+set ShiningKnight skill pursuit
+set ShiningKnight_R skill pursuit
+set ShiningKnightParamythis skill pursuit
+set ShiningKnightParamythis_R skill pursuit
+set Sniper skill pursuit
 set SnowBandit skill pursuit
 set SpearKnight skill pursuit
 set SpearKnight_R skill pursuit
@@ -4164,23 +4294,28 @@ set Swordfighter_M skill pursuit
 set SwordKnight skill pursuit
 set SwordKnight_R skill pursuit
 set Swordmaster skill pursuit
+set Thief_F skill pursuit
 set Thief_M skill pursuit
+set ThunderMage skill pursuit
+set ThunderSage skill pursuit
+set Transporter skill pursuit
 set VerianKnight skill pursuit
-set VerianKnight_R skill pursuit
 set VerianKnight2 skill pursuit
 set VerianKnight2_R skill pursuit
+set VerianKnight_R skill pursuit
 set VeteranKnight skill pursuit
 set VeteranKnight_R skill pursuit
 set WarMonk skill pursuit
 set Warrior skill pursuit
+set WindMage skill pursuit
+set WindSage skill pursuit
 set Wyvern skill pursuit
 set WyvernKnight skill pursuit
 set WyvernKnight_R skill pursuit
+set WyvernKnightLarentia skill pursuit
+set WyvernKnightLarentia_R skill pursuit
 set WyvernLord skill pursuit
 set WyvernLord_R skill pursuit
-set Highlander skill pursuit
-set Hero skill pursuit
-set DarkMaster skill pursuit
 
 set reese skill pursuit
 set ward skill pursuit
@@ -4192,9 +4327,9 @@ set sherlock skill pursuit
 set czene skill pursuit
 set daoud skill pursuit
 set marcel skill pursuit
-//set enid skill pursuit
-//set aegina skill pursuit
-//set perceval skill pursuit
+set enid skill pursuit
+set aegina skill pursuit
+set perceval skill pursuit
 set alvina skill pursuit
 set ruby skill pursuit
 set arthur skill pursuit
@@ -4210,13 +4345,13 @@ set volo skill pursuit
 set clifford skill pursuit
 set axel skill pursuit
 set larentia skill pursuit
-//set owen skill pursuit
+set owen skill pursuit
 //set burroughs skill pursuit
 set derrick skill pursuit
-//set saphira skill pursuit
-//set lynette skill pursuit
+set saphira skill pursuit
+set lynette skill pursuit
 set paramythis skill pursuit
-//set izerna skill pursuit
+set izerna skill pursuit
 
 set reese skill battlecry
 set ward skill battlecry
@@ -4382,23 +4517,6 @@ set AmaterasuShield effect restore-uses
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 //to do, increase crossbow damage and accuracy
 
-//to remove, this is for adding skill to my unit without restarting my playthrough. Adding skill on class works when reloading from memcard after recompiling your game with the script. It wont work when adding skill on character directly though
-//set BowKnight skill deathmatch
-//set Grassrunner skill provoke
-//set Grassrunner_R skill provoke
-//set highhunter skill celerity
-//set HighHunter skill tripleshot
-//set KnightLord skill pursuit
-//set KnightLord_R skill pursuit
-//set Ranger skill pursuit
-//set Sniper skill celerity
-//set Sniper skill pursuit
-//set Duke skill pursuit
-//set DukeKnight_R skill pursuit
-//set DukeKnight skill pursuit
-set VeteranKnight skill throw
-set VeteranKnight_R skill throw
-
 //I am trying to fix reese ruby christine esteban low skill on weapon promotion
 set KnightLord_R cap mshield 40
 set KnightLord cap mshield 40
@@ -4489,3 +4607,4 @@ set Paladin_F_R growth mshield 100
 set Paladin_F growth mshield 100
 set Paladin_M_R growth mshield 100
 set Paladin_M growth mshield 100
+
