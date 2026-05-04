@@ -2037,37 +2037,37 @@ set Gastraphetes effect cripple-x2
 
 //set Arbalest stat level 15
 
-set Bowgun stat weight 12
-set IronCrossbow stat weight 13
-set Gastraphetes stat weight 14
-set HeavyCrossbow stat weight 15
-set BraveCrossbow stat weight 15
-set Chu-ko-nu stat weight 16
-set Arbalest stat weight 16
-set KillerCrossbow stat weight 12
-set Ollerus stat weight 14
-set RapidCrossbow stat weight 16
-set Hawkeye stat weight 13
+set Bowgun stat weight 10
+set IronCrossbow stat weight 11
+set Gastraphetes stat weight 12
+set HeavyCrossbow stat weight 13
+set BraveCrossbow stat weight 13
+set Chu-ko-nu stat weight 15
+set Arbalest stat weight 14
+set KillerCrossbow stat weight 11
+set Ollerus stat weight 12
+set RapidCrossbow stat weight 15
+set Hawkeye stat weight 10
 
-set ImperialCrossbow stat weight 13
-set OldImperialCrossbow stat weight 15
-set VerianCrossbow stat weight 13
+set ImperialCrossbow stat weight 11
+set OldImperialCrossbow stat weight 12
+set VerianCrossbow stat weight 11
 
-set Bowgun stat might 16
-set IronCrossbow stat might 23
-set Gastraphetes stat might 26
-set HeavyCrossbow stat might 29
-set BraveCrossbow stat might 17
+set Bowgun stat might 9
+set IronCrossbow stat might 15
+set Gastraphetes stat might 21
+set HeavyCrossbow stat might 27
+set BraveCrossbow stat might 18
 set Chu-ko-nu stat might 12
-set Arbalest stat might 32
-set KillerCrossbow stat might 27
-set Ollerus stat might 24
-set RapidCrossbow stat might 17
+set Arbalest stat might 33
+set KillerCrossbow stat might 25
+set Ollerus stat might 19
+set RapidCrossbow stat might 18
 set Hawkeye stat might 30
 
-set ImperialCrossbow stat might 28
-set OldImperialCrossbow stat might 24
-set VerianCrossbow stat might 28
+set ImperialCrossbow stat might 15
+set OldImperialCrossbow stat might 12
+set VerianCrossbow stat might 15
 
 set Bowgun stat accuracy 60
 set IronCrossbow stat accuracy 70
@@ -3572,6 +3572,7 @@ set Transporter base hp +2
 set Transporter skill camouflage
 set Transporter skill hide
 
+//same as scoundrel, he is a bandit boss
 set Chief base strength +5
 set Chief base defense +1
 set Chief base magic +10
@@ -4155,6 +4156,7 @@ set Warrior skill counter
 set Pirate skill counter
 set Corsair skill counter
 set Bandit skill counter
+set Chief skill counter
 
 //Pursuit to everyone except mage otherwise derrick & marcel will get OS.
 set Acolyte skill pursuit
