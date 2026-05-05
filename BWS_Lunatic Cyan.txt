@@ -61,7 +61,7 @@ unset Guardian skill slowstart
 
 set reese item 3 VerianSword 101
 set reese item 4 RoundShield 101
-set reese item 5 Bag 0
+set reese item 5 AltiumSword 101
 set reese item 6 Bag 0
 set reese item 7 Bag 0
 set reese base sword +20
@@ -99,7 +99,7 @@ set VeteranKnight cap sword 50
 set VeteranKnight_R cap spear 50
 set VeteranKnight_R cap sword 50
 
-set elbert item 0 AltiumSword 101
+set elbert item 0 Longsword 101
 set elbert item 1 Aspis 101
 set elbert item 2 Harpoon 101
 set elbert item 3 Bag 0
