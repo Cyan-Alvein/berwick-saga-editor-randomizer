@@ -129,6 +129,18 @@ set Paladin_M_R base mshield +40
 set Paladin_M_R base spear +40
 set Paladin_M base mshield +40
 set Paladin_M base spear +40
+set Paladin_R cap mshield 50
+set Paladin_R cap spear 50
+set Paladin cap mshield 50
+set Paladin cap spear 50
+set Paladin_F_R cap mshield 50
+set Paladin_F_R cap spear 50
+set Paladin_F cap mshield 50
+set Paladin_F cap spear 50
+set Paladin_M_R cap mshield 50
+set Paladin_M_R cap spear 50
+set Paladin_M cap mshield 50
+set Paladin_M cap spear 50
 
 set LadyKnight_R cap bow 50
 set LadyKnight_R cap crossbow 60
@@ -302,6 +314,9 @@ set ruby base sword +20
 set ruby base spear +20
 set ruby base sshield +20
 set ruby base mshield +40
+set ruby cap mshield 50
+set Chevalire cap mshield 50
+set Chevalire_R cap mshield 50
 
 set arthur item 0 Longsword 101
 set arthur item 1 Kiteshield 101
@@ -383,9 +398,6 @@ set thaddy growth hp 25
 set thaddy growth strength 15
 set thaddy base knife +20
 
-set esteban cap sword 40
-set Hunter cap sword 40
-set HighHunter cap sword 40
 set esteban growth knife 50
 set esteban growth bow 100
 set esteban item 0 IronBow 101
@@ -401,6 +413,10 @@ set esteban base bow +20
 set esteban base sword +40
 set HighHunter base sword +40
 set Hunter base sword +40
+set esteban cap sword 40
+set HighHunter cap sword 40
+set Hunter cap sword 40
+
 
 //set faramir item 0 Cutlass+ 101
 set faramir item 1 Bag 0
@@ -461,11 +477,6 @@ set axel item 7 Treasure 101
 set axel base axe +20
 set axel growth axe 50
 
-set larentia cap spear 50
-set WyvernKnightLarentia_R cap spear 50
-set WyvernKnightLarentia cap cap spear 50
-set WyvernKnight cap spear 50
-set WyvernKnight_R cap spear 50
 set larentia item 2 LadySword 101
 set larentia item 3 Pilum 6
 set larentia item 4 Treasure 101
@@ -478,6 +489,11 @@ set larentia growth sshield 40
 set larentia base sword +20
 set larentia base spear +20
 set larentia base sshield +20
+set larentia cap spear 50
+set WyvernKnightLarentia_R cap spear 50
+set WyvernKnightLarentia cap cap spear 50
+set WyvernKnight cap spear 50
+set WyvernKnight_R cap spear 50
 
 set Owen item 5 holy 10
 set Owen item 6 Bag 0
@@ -2459,9 +2475,6 @@ set LightRing stat magic 3
 
 ///////////////////////////Unit Weapon cap/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-set VeteranKnight cap sword 50
-set VeteranKnight_R cap spear 50
-
 set ShiningKnight cap holy 50
 set ShiningKnight_R cap holy 50
 set ShiningKnightParamythis cap holy 50
@@ -2518,13 +2531,6 @@ set ArmorKnight cap lshield 50
 set ArmorKnight cap Axe 50
 
 set pirate cap Axe 60
-
-set WyvernKnight cap Spear 60
-set WyvernKnight_R cap Spear 60
-//set Larentia cap Spear 60
-set WyvernKnight cap sshield 50
-set WyvernKnight_R cap sshield 50
-set Larentia cap sshield 50
 
 set Horseman cap Bow 60
 set Horseman_R cap Bow 60
@@ -4540,67 +4546,3 @@ set AmaterasuShield effect restore-uses
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 //to do, increase crossbow damage and accuracy
-
-//I am trying to fix reese ruby christine esteban low skill on weapon promotion
-set KnightLord_R cap mshield 40
-set KnightLord cap mshield 40
-set Lord_R cap mshield 40
-set Lord cap mshield 40
-
-set christine cap sword 40
-set ArrowKnight_R cap sword 40
-set ArrowKnight cap sword 40
-set LadyKnight cap sword 40
-set LadyKnight_R cap sword 40
-
-set ruby cap mshield 50
-set Chevalire cap mshield 50
-set Chevalire_R cap mshield 50
-
-set esteban cap sword 50
-set HighHunter cap sword 50
-set Hunter cap sword 50
-
-set Paladin_R cap mshield 50
-set Paladin_R cap spear 50
-set Paladin cap mshield 50
-set Paladin cap spear 50
-set Paladin_F_R cap mshield 50
-set Paladin_F_R cap spear 50
-set Paladin_F cap mshield 50
-set Paladin_F cap spear 50
-set Paladin_M_R cap mshield 50
-set Paladin_M_R cap spear 50
-set Paladin_M cap mshield 50
-set Paladin_M cap spear 50
-
-set KnightLord_R growth mshield 100
-set KnightLord growth mshield 100
-set Lord_R growth mshield 100
-set Lord growth mshield 100
-
-set christine growth sword 100
-set ArrowKnight_R growth sword 100
-set ArrowKnight growth sword 100
-set LadyKnight growth sword 100
-set LadyKnight_R growth sword 100
-
-set FlameFencer growth thunder 100
-set FlameFencer growth fire 100
-set Fencer growth thunder 100
-set Fencer growth fire 100
-
-set ruby growth mshield 80
-set Chevalire growth mshield 80
-set Chevalire_R growth mshield 80
-
-set esteban growth sword 100
-set HighHunter growth sword 100
-set Hunter growth sword 100
-
-set Paladin_R growth mshield 100
-set Paladin growth mshield 100
-set Paladin_F_R growth mshield 100
-set Paladin_F growth mshield 100
-set Paladin_M_R growth mshield 100
-set Paladin_M growth mshield 100
