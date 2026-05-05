@@ -2502,7 +2502,7 @@ set pirate cap Axe 60
 
 set WyvernKnight cap Spear 60
 set WyvernKnight_R cap Spear 60
-set Larentia cap Spear 60
+//set Larentia cap Spear 60
 set WyvernKnight cap sshield 50
 set WyvernKnight_R cap sshield 50
 set Larentia cap sshield 50
@@ -4558,28 +4558,6 @@ set Paladin_M_R cap mshield 50
 set Paladin_M_R cap spear 50
 set Paladin_M cap mshield 50
 set Paladin_M cap spear 50
-
-set Reese cap mshield 40
-set Ward cap sword 50
-set Ward cap spear 50
-set Christine cap sword 30
-set Enid cap fire 60
-set Enid cap thunder 30
-set Enid cap sword 40
-set Ruby cap mshield 50
-set Esteban cap sword 40
-set paramythis cap sword 60
-set paramythis cap holy 50
-set perceval cap thunder 60
-set perceval cap wind 30
-set derrick cap axe 50
-set derrick cap lshield 50
-set axel cap axe 60
-set larentia cap spear 60
-set larentia cap sword 50
-set larentia cap sshield 50
-set czene cap knife 60
-set thaddy cap knife 60
 
 set KnightLord_R growth mshield 100
 set KnightLord growth mshield 100
