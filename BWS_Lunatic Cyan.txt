@@ -97,8 +97,11 @@ set ward base mshield +20
 set ward base sword +20
 set ward base spear +20
 set ward cap spear 50
+set ward cap sword 50
 set VeteranKnight cap spear 50
+set VeteranKnight cap sword 50
 set VeteranKnight_R cap spear 50
+set VeteranKnight_R cap sword 50
 
 set elbert item 0 AltiumSword 101
 set elbert item 1 Aspis 101
@@ -492,8 +495,8 @@ set larentia base sshield +20
 set larentia cap spear 50
 set WyvernKnightLarentia_R cap spear 50
 set WyvernKnightLarentia cap cap spear 50
-set WyvernKnight cap spear 50
-set WyvernKnight_R cap spear 50
+//set WyvernKnight cap spear 50
+//set WyvernKnight_R cap spear 50
 
 set Owen item 5 holy 10
 set Owen item 6 Bag 0
