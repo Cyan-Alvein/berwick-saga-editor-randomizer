@@ -70,10 +70,17 @@ set reese base mshield +30
 set reese growth sword 80
 set reese growth sshield 100
 set reese growth mshield 100
-set KnightLord_R base mshield +30
-set KnightLord base mshield +30 
-set Lord_R base mshield +30
-set Lord base mshield +30
+set Reese cap mshield 40
+set KnightLord_R base mshield +40
+set KnightLord base mshield +40
+set Lord_R base mshield +40
+set Lord base mshield +40
+set Lord_R cap sshield 60
+set Lord_R cap mshield 60
+set Lord_R cap sword 60
+set Lord cap sshield 60
+set Lord cap mshield 60
+set Lord cap sword 60
 
 set ward item 0 KnightSword 101
 set ward item 1 Kiteshield 101
@@ -89,6 +96,9 @@ set ward growth mshield 50
 set ward base mshield +20
 set ward base sword +20
 set ward base spear +20
+set ward cap spear 50
+set VeteranKnight cap spear 50
+set VeteranKnight_R cap spear 50
 
 set elbert item 0 AltiumSword 101
 set elbert item 1 Aspis 101
@@ -105,22 +115,27 @@ set elbert growth mshield 70
 set elbert base sshield +10
 set elbert base sword +20
 set elbert base spear +20
-set elbert base mshield +30
+set elbert base mshield +40
 
-//Not tested yet, may help Ruby Elbert Arthur to gain + 30 spear and mshield upon promotion
-set Paladin_R base mshield +30
-set Paladin_R base spear +30
-set Paladin base mshield +30
-set Paladin base spear +30
-set Paladin_F_R base mshield +30
-set Paladin_F_R base spear +30
-set Paladin_F base mshield +30
-set Paladin_F base spear +30
-set Paladin_M_R base mshield +30
-set Paladin_M_R base spear +30
-set Paladin_M base mshield +30
-set Paladin_M base spear +30
+set Paladin_R base mshield +40
+set Paladin_R base spear +40
+set Paladin base mshield +40
+set Paladin base spear +40
+set Paladin_F_R base mshield +40
+set Paladin_F_R base spear +40
+set Paladin_F base mshield +40
+set Paladin_F base spear +40
+set Paladin_M_R base mshield +40
+set Paladin_M_R base spear +40
+set Paladin_M base mshield +40
+set Paladin_M base spear +40
 
+set LadyKnight_R cap bow 50
+set LadyKnight_R cap crossbow 60
+set LadyKnight cap bow 50
+set LadyKnight cap crossbow 60
+set ArrowKnight cap sword 40
+set ArrowKnight_R cap sword 40
 set christine item 0 IronCrossbow 101
 set christine item 1 IronArrow+ 20
 //set christine item 2 Don't Touch Bag 4 Vulnaries
@@ -134,10 +149,10 @@ set christine growth crossbow 90
 set christine base bow +20
 set christine base crossbow +20
 set christine base sword +30
-set ArrowKnight_R base sword +30
-set ArrowKnight base sword +30
-set LadyKnight base sword +30
-set LadyKnight_R base sword +50
+set ArrowKnight_R base sword +40
+set ArrowKnight base sword +40
+set LadyKnight base sword +40
+set LadyKnight_R base sword +40
 
 set adel item 0 IronSpear 101
 set adel item 1 LeatherSShd 101
@@ -225,6 +240,12 @@ set Daoud base axe +20
 set Daoud base sshield +20
 set Daoud base mshield +20
 
+set enid cap fire 60
+set enid cap thunder 50
+set FlameFencer cap thunder 60
+set FlameFencer cap fire 50
+set Fencer cap thunder 60
+set Fencer cap fire 50
 set enid base sword +20
 set enid base fire +40
 set enid base thunder +30
@@ -280,7 +301,7 @@ set ruby growth mshield 90
 set ruby base sword +20
 set ruby base spear +20
 set ruby base sshield +20
-set ruby base mshield +20
+set ruby base mshield +40
 
 set arthur item 0 Longsword 101
 set arthur item 1 Kiteshield 101
@@ -295,7 +316,7 @@ set arthur growth spear 90
 set arthur base sword +20
 set arthur base sshield +20
 set arthur base mshield +20
-set arthur base spear +30
+set arthur base spear +40
 
 set kramer item 0 Longsword 101
 set kramer item 1 Shortsword 101
@@ -362,6 +383,9 @@ set thaddy growth hp 25
 set thaddy growth strength 15
 set thaddy base knife +20
 
+set esteban cap sword 40
+set Hunter cap sword 40
+set HighHunter cap sword 40
 set esteban growth knife 50
 set esteban growth bow 100
 set esteban item 0 IronBow 101
@@ -374,8 +398,8 @@ set esteban item 6 Bag 0
 set esteban item 7 BloodKnife 101
 set esteban base knife +20
 set esteban base bow +20
-set esteban base sword +30
-set HighHunter base sword +30
+set esteban base sword +40
+set HighHunter base sword +40
 set Hunter base sword +40
 
 //set faramir item 0 Cutlass+ 101
@@ -437,6 +461,11 @@ set axel item 7 Treasure 101
 set axel base axe +20
 set axel growth axe 50
 
+set larentia cap spear 50
+set WyvernKnightLarentia_R cap spear 50
+set WyvernKnightLarentia cap cap spear 50
+set WyvernKnight cap spear 50
+set WyvernKnight_R cap spear 50
 set larentia item 2 LadySword 101
 set larentia item 3 Pilum 6
 set larentia item 4 Treasure 101
@@ -2430,11 +2459,6 @@ set LightRing stat magic 3
 
 ///////////////////////////Unit Weapon cap/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-set Lord_R cap sshield 60
-set Lord_R cap sword 60
-set Lord cap sshield 60
-set Lord cap sword 60
-
 set VeteranKnight cap sword 50
 set VeteranKnight_R cap spear 50
 
@@ -2449,14 +2473,14 @@ set ShiningKnightParamythis_R cap sword 60
 
 set Acolyte cap holy 60
 
-set WindMage cap Fire 30
+set WindMage cap Fire 50
 set WindMage cap Wind 60
-set WindSage cap Fire 30
+set WindSage cap Fire 50
 set WindSage cap Wind 60
 
-set ThunderMage cap Wind 30
+set ThunderMage cap Wind 50
 set ThunderMage cap Thunder 60
-set ThunderSage cap Wind 30
+set ThunderSage cap Wind 50
 set ThunderSage cap Thunder 60
 
 // cette commande n'a pas marché, peut être Owen n'est pas de la classe RazeMonkOwen
@@ -2470,11 +2494,6 @@ set Bishop cap wind 30
 set Bishop cap thunder 30
 set Bishop cap light 60
 set Bishop cap dark 60
-
-set LadyKnight_R cap bow 50
-set LadyKnight_R cap crossbow 60
-set LadyKnight cap bow 50
-set LadyKnight cap crossbow 60
 
 set Axefighter cap Axe 60
 
@@ -4157,8 +4176,9 @@ set Pirate skill counter
 set Corsair skill counter
 set Bandit skill counter
 set Chief skill counter
+set Scoundrel skill counter
 
-//Pursuit to everyone except mage otherwise derrick & marcel will get OS.
+//Pursuit to everyone
 set Acolyte skill pursuit
 set Apostle skill pursuit
 set Aristocrat skill pursuit
@@ -4497,7 +4517,7 @@ set AmaterasuShield effect restore-uses
 //magic = hp
 //speed = defense
 //strenght = speed
-//Increasing ennemy class HP is bugged, it may increase ennemy Strenght instead
+//Increasing Ward & Larentia weapon skill cap is bugged.
 //Increasing ennemy class Weapon Skill is bugged, doesn't work, to fix.
 //Learned function is bugged
 //restore-uses doesn't work when the item is in the storage room in Reese's house.
@@ -4507,7 +4527,7 @@ set AmaterasuShield effect restore-uses
 //Shieldaxe shouldn't be a stand-still skill
 //need to test remove bracket for ennemy so they can have 1000 hp without bugging then adding on attack
 //Vengeful should proc during deathmatch
-// Reese & Ruby shield skill increase to 30 on promotion failed. No idea how to fix it.
+//Reese shield skill increase to 30 on promotion failed. I succeeded on fixing ruby promo mshield increase, maybe adding set ruby cap mshield 50 fixed it.
 // Christine & Esteban Sword skill increase on promo failed
 //maybe sshield accuracy 30 average
 //Increase Christine arrow mastery at rank up didn't work --set ArrowKnight_R base sword +30
@@ -4527,16 +4547,11 @@ set KnightLord cap mshield 40
 set Lord_R cap mshield 40
 set Lord cap mshield 40
 
-set christine cap sword 50
-set ArrowKnight_R cap sword 50
-set ArrowKnight cap sword 50
-set LadyKnight cap sword 50
-set LadyKnight_R cap sword 50
-
-set FlameFencer cap thunder 60
-set FlameFencer cap fire 50
-set Fencer cap thunder 60
-set Fencer cap fire 50
+set christine cap sword 40
+set ArrowKnight_R cap sword 40
+set ArrowKnight cap sword 40
+set LadyKnight cap sword 40
+set LadyKnight_R cap sword 40
 
 set ruby cap mshield 50
 set Chevalire cap mshield 50
