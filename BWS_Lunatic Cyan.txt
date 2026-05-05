@@ -66,20 +66,16 @@ set reese item 6 Bag 0
 set reese item 7 Bag 0
 set reese base sword +20
 set reese base sshield +20
-set reese base mshield +30
 set reese growth sword 80
 set reese growth sshield 100
 set reese growth mshield 100
+set reese base mshield +40
 set Reese cap mshield 40
-set KnightLord_R base mshield +40
-set KnightLord base mshield +40
-set Lord_R base mshield +40
-set Lord base mshield +40
 set Lord_R cap sshield 60
-set Lord_R cap mshield 60
+set Lord_R cap mshield 40
 set Lord_R cap sword 60
 set Lord cap sshield 60
-set Lord cap mshield 60
+set Lord cap mshield 40
 set Lord cap sword 60
 
 set ward item 0 KnightSword 101
@@ -147,10 +143,15 @@ set Paladin_M cap spear 50
 
 set LadyKnight_R cap bow 50
 set LadyKnight_R cap crossbow 60
+set LadyKnight_R cap sword 40
 set LadyKnight cap bow 50
 set LadyKnight cap crossbow 60
+set LadyKnight cap sword 40
 set ArrowKnight cap sword 40
 set ArrowKnight_R cap sword 40
+set Christine cap bow 50
+set Christine cap crossbow 60
+set Christine cap sword 40
 set christine item 0 IronCrossbow 101
 set christine item 1 IronArrow+ 20
 //set christine item 2 Don't Touch Bag 4 Vulnaries
@@ -163,11 +164,7 @@ set christine growth bow 70
 set christine growth crossbow 90
 set christine base bow +20
 set christine base crossbow +20
-set christine base sword +30
-set ArrowKnight_R base sword +40
-set ArrowKnight base sword +40
-set LadyKnight base sword +40
-set LadyKnight_R base sword +40
+set christine base sword +40
 
 set adel item 0 IronSpear 101
 set adel item 1 LeatherSShd 101
@@ -255,12 +252,6 @@ set Daoud base axe +20
 set Daoud base sshield +20
 set Daoud base mshield +20
 
-set enid cap fire 60
-set enid cap thunder 50
-set FlameFencer cap thunder 60
-set FlameFencer cap fire 50
-set Fencer cap thunder 60
-set Fencer cap fire 50
 set enid base sword +20
 set enid base fire +40
 set enid base thunder +30
@@ -273,10 +264,15 @@ set Enid item 6 Bag 0
 set Enid item 7 Rapier 101
 set Enid growth fire 100
 set Enid growth thunder 100
-set FlameFencer base thunder +30
-set FlameFencer base fire +40
-set Fencer base thunder +30
-set Fencer base fire +40
+set enid cap fire 60
+set enid cap thunder 50
+set enid cap sword 40
+set FlameFencer cap fire 60
+set FlameFencer cap thunder 50
+set FlameFencer cap sword 40
+set Fencer cap fire 60
+set Fencer cap thunder 50
+set Fencer cap sword 40
 
 set marcel growth sword 60
 set marcel growth Lshield 90
@@ -320,6 +316,12 @@ set ruby base mshield +40
 set ruby cap mshield 50
 set Chevalire cap mshield 50
 set Chevalire_R cap mshield 50
+set Chevalire cap sshield 50
+set Chevalire cap Spear 50
+set Chevalire cap Sword 50
+set Chevalire_R cap sshield 50
+set Chevalire_R cap Spear 50
+set Chevalire_R cap Sword 50
 
 set arthur item 0 Longsword 101
 set arthur item 1 Kiteshield 101
@@ -414,12 +416,10 @@ set esteban item 7 BloodKnife 101
 set esteban base knife +20
 set esteban base bow +20
 set esteban base sword +40
-set HighHunter base sword +40
-set Hunter base sword +40
-set esteban cap sword 40
-set HighHunter cap sword 40
+set Hunter cap Bow 60
+set Hunter cap Knife 50
 set Hunter cap sword 40
-
+set esteban cap sword 40
 
 //set faramir item 0 Cutlass+ 101
 set faramir item 1 Bag 0
@@ -493,10 +493,10 @@ set larentia base sword +20
 set larentia base spear +20
 set larentia base sshield +20
 set larentia cap spear 50
-set WyvernKnightLarentia_R cap spear 50
-set WyvernKnightLarentia cap cap spear 50
-set WyvernKnight cap spear 50
-set WyvernKnight_R cap spear 50
+set WyvernKnightLarentia_R cap Spear 50
+set WyvernKnightLarentia cap Spear 50
+set WyvernKnight cap Spear 50
+set WyvernKnight_R cap Spear 50
 
 set Owen item 5 holy 10
 set Owen item 6 Bag 0
@@ -2513,15 +2513,6 @@ set Bishop cap dark 60
 
 set Axefighter cap Axe 60
 
-//set HighHunter cap Sword 50
-
-set Hunter cap Bow 60
-set Hunter cap Knife 40
-
-set FlameFencer cap Sword 50
-set FlameFencer cap Thunder 50
-set FlameFencer cap Fire 60
-
 set LanceKnight2 cap spear 60
 set LanceKnight2 cap sshield 50
 set LanceKnight2_R cap spear 60
@@ -2560,13 +2551,7 @@ set AxeSoldier cap axe 60
 set AxeSoldier cap sshield 50
 set AxeSoldier cap mshield 50
 
-set Chevalire cap sshield 50
-set Chevalire cap Spear 50
-set Chevalire cap Sword 50
 
-set Chevalire_R cap sshield 50
-set Chevalire_R cap Spear 50
-set Chevalire_R cap Sword 50
 
 set Mercenary cap Sword 60
 
