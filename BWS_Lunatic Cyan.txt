@@ -495,8 +495,8 @@ set larentia base sshield +20
 set larentia cap spear 50
 set WyvernKnightLarentia_R cap spear 50
 set WyvernKnightLarentia cap cap spear 50
-//set WyvernKnight cap spear 50
-//set WyvernKnight_R cap spear 50
+set WyvernKnight cap spear 50
+set WyvernKnight_R cap spear 50
 
 set Owen item 5 holy 10
 set Owen item 6 Bag 0
