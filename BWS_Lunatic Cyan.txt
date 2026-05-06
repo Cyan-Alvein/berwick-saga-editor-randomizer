@@ -169,8 +169,8 @@ set christine base sword +40
 set adel item 0 IronSpear 101
 set adel item 1 LeatherSShd 101
 set adel item 2 Pike 101
-set adel item 3 Bag 0
-set adel item 4 Bag 0
+set adel item 3 Firebrand 101
+set adel item 4 GoreFork 101
 set adel item 5 IronLance 101
 set adel item 6 Pilum 6
 set adel item 7 Harpoon 101
@@ -181,11 +181,11 @@ set adel growth shield 100
 
 set leon item 0 IronSpear 101
 set leon item 1 LeatherSShd 101
-set leon item 2 Bag 0
+set leon item 2 Firebrand 101
 set leon item 3 IronLance 101
 set leon item 4 Pike 101
 set leon item 5 Pilum 6
-set leon item 6 Bag 0
+set leon item 6 GoreFork 101
 set leon item 7 Harpoon 101
 set leon base sshield +20
 set leon base spear +20
@@ -216,9 +216,9 @@ set czene item 0 Dagger 101
 set czene item 1 BoltKnife 101
 set czene item 2 ThiefsKnife 101
 set czene item 3 ThiefsCharm 0
-set czene item 4 Dart 6
-set czene item 5 Dart 6
-set czene item 6 Dart 6
+set czene item 4 Bag 0
+set czene item 5 Bag 0
+set czene item 6 Bag 0
 set czene item 7 Bag 0
 set czene growth knife 80
 set czene growth hp 20
@@ -1592,7 +1592,7 @@ set Colichemarde stat cost 7000
 //set WindEdge stat level 1
 //set InfernalEdge stat level 1
 //set Grimhild stat level 1
-//set AltiumSword stat level 3
+set AltiumSword stat level 7
 //set LevinSword stat level 7
 
 set BronzeSword stat Weight 5
@@ -1854,11 +1854,11 @@ set GreatLance Stat might 5
 
 set IronLance stat level 1
 
-set IronLance Stat Weight 13
+set IronLance Stat Weight 14
 set Oxtongue Stat Weight 15
-set Xyston Stat Weight 11
-set GreatLance Stat Weight 12
-set Drakelance Stat Weight 14
+set Xyston Stat Weight 14
+set GreatLance Stat Weight 16
+set Drakelance Stat Weight 15
 
 set IronLance Stat Accuracy 60
 set Oxtongue Stat Accuracy 60
@@ -2026,30 +2026,30 @@ set Apeiron stat accuracy 60
 
 set CompositeBow effect cripple-x2
 
-set BronzeBow stat Weight 5
-set IronBow stat Weight 4
-set ShortBow stat Weight 5
-set SwiftBow stat Weight 4
-set Longbow stat Weight 6
-set TripleFireBow stat Weight 9
-set CompositeBow stat Weight 7
-set Apollyon stat Weight 5
-set Strongbow stat Weight 8
-set Greatbow stat Weight 9
-set Killerbow stat Weight 6
-set Apeiron stat Weight 7
-set Rossweisse stat Weight 5
-set Pascanion stat Weight 7
-set Pascanion2 stat Weight 7
-set SereniaBow stat Weight 5
-set VerianBow stat Weight 4
-set OldImperialBow stat Weight 5
-set ImperialBow stat Weight 4
+set BronzeBow stat Weight 6
+set IronBow stat Weight 5
+set ShortBow stat Weight 6
+set SwiftBow stat Weight 8
+set Longbow stat Weight 7
+set TripleFireBow stat Weight 10
+set CompositeBow stat Weight 8
+set Apollyon stat Weight 6
+set Strongbow stat Weight 9
+set Greatbow stat Weight 10
+set Killerbow stat Weight 7
+set Apeiron stat Weight 8
+set Rossweisse stat Weight 6
+set Pascanion stat Weight 8
+set Pascanion2 stat Weight 8
+set SereniaBow stat Weight 6
+set VerianBow stat Weight 5
+set OldImperialBow stat Weight 6
+set ImperialBow stat Weight 5
 
-set BronzeBow stat accuracy 40
+set BronzeBow stat accuracy 50
 set ImperialBow stat accuracy 50
 set OldImperialBow stat accuracy 40
-set ShortBow stat accuracy 40
+set ShortBow stat accuracy 50
 set TripleFireBow stat accuracy 30
 set Strongbow stat accuracy 40
 set Greatbow stat accuracy 40
@@ -2057,7 +2057,10 @@ set SwiftBow stat accuracy 40
 set VerianBow stat accuracy 50
 set OldImperialBow stat accuracy 40
 
+set BronzeBow stat durability C
+set IronBow stat durability C
 set Shortbow stat durability C
+set SwiftBow stat durability C
 set Longbow stat durability C
 set Apollyon stat durability B
 set Apeiron stat durability B
@@ -2085,21 +2088,21 @@ set Gastraphetes effect cripple-x2
 
 //set Arbalest stat level 15
 
-set Bowgun stat weight 10
-set IronCrossbow stat weight 11
-set Gastraphetes stat weight 12
-set HeavyCrossbow stat weight 13
-set BraveCrossbow stat weight 13
-set Chu-ko-nu stat weight 15
-set Arbalest stat weight 14
-set KillerCrossbow stat weight 11
-set Ollerus stat weight 12
-set RapidCrossbow stat weight 15
-set Hawkeye stat weight 10
+set Bowgun stat weight 11
+set IronCrossbow stat weight 12
+set Gastraphetes stat weight 13
+set HeavyCrossbow stat weight 14
+set BraveCrossbow stat weight 15
+set Chu-ko-nu stat weight 16
+set Arbalest stat weight 15
+set KillerCrossbow stat weight 12
+set Ollerus stat weight 13
+set RapidCrossbow stat weight 16
+set Hawkeye stat weight 11
 
-set ImperialCrossbow stat weight 11
-set OldImperialCrossbow stat weight 12
-set VerianCrossbow stat weight 11
+set ImperialCrossbow stat weight 12
+set OldImperialCrossbow stat weight 13
+set VerianCrossbow stat weight 12
 
 set Bowgun stat might 9
 set IronCrossbow stat might 15
@@ -2117,7 +2120,7 @@ set ImperialCrossbow stat might 15
 set OldImperialCrossbow stat might 12
 set VerianCrossbow stat might 15
 
-set Bowgun stat accuracy 60
+set Bowgun stat accuracy 70
 set IronCrossbow stat accuracy 70
 set Gastraphetes stat accuracy 70
 set HeavyCrossbow stat accuracy 60
