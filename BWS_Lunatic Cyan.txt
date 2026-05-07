@@ -2077,7 +2077,6 @@ set Apeiron stat accuracy 60
 
 set CompositeBow effect cripple-x2
 
-set BronzeBow stat Weight 6
 set IronBow stat Weight 5
 set ShortBow stat Weight 6
 set SwiftBow stat Weight 7
@@ -2094,10 +2093,10 @@ set Pascanion stat Weight 8
 set Pascanion2 stat Weight 8
 set SereniaBow stat Weight 6
 
-set BronzeBow stat Weight 4
-set VerianBow stat Weight 4
-set OldImperialBow stat Weight 5
-set ImperialBow stat Weight 4
+set BronzeBow stat Weight 6
+set VerianBow stat Weight 6
+set OldImperialBow stat Weight 7
+set ImperialBow stat Weight 6
 
 set BronzeBow stat accuracy 50
 set ImperialBow stat accuracy 50
@@ -4651,3 +4650,4 @@ set AmaterasuShield effect restore-uses
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 //to do, increase crossbow damage and accuracy
+
