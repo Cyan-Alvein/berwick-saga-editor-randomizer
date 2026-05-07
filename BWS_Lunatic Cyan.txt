@@ -81,7 +81,7 @@ set Lord cap mshield 40
 set Lord cap sword 60
 
 set ward item 0 KnightSword 101
-set ward item 1 Kiteshield 101
+set ward item 1 Bag 0
 set ward item 2 SquareShield 101
 set ward item 3 Longspear 101
 set ward item 4 Harpoon 101
@@ -643,11 +643,12 @@ set christine skill guard
 set christine skill maim
 set christine skill huntsman
 set christine skill hide
-set christine skill onetwo
+//set christine skill onetwo
 set christine skill robbery
 set christine skill fortune
 set christine skill pursuit
 set christine skill counter
+set christine skill adept
 
 set adel skill canto
 set adel skill pursuit 
@@ -1364,7 +1365,7 @@ set Vajra stat level 20
 set Vritra stat level 20
 set Hawkeye stat level 20
 //set Harperia stat level 7
-//set BoltKnife stat level 7
+set BoltKnife stat level 1
 set SereniaBow stat level 20
 set Gram stat level 20
 set Nothung stat level 20
@@ -1404,6 +1405,7 @@ set DireThunder stat max-range 3
 set DireThunder accuracy 60
 set Lightning stat max-range 2
 set Lightning stat accuracy 70
+set Lightning stat level 1
 set PallasSerenia stat level 20
 set PallasSerenia max-range 3
 set PallasSerenia stat accuracy 70
@@ -1667,7 +1669,7 @@ set ImperialSword stat Durability C
 
 set VerianSword stat cost 1200
 set OldImperialSword cost 600
-set ImperialSword stat Durability C
+set ImperialSword cost 1200
 
 //mace
 
@@ -2089,6 +2091,7 @@ set Pascanion stat Weight 8
 set Pascanion2 stat Weight 8
 set SereniaBow stat Weight 6
 
+set BronzeBow stat Weight 4
 set VerianBow stat Weight 4
 set OldImperialBow stat Weight 5
 set ImperialBow stat Weight 4
@@ -2104,7 +2107,6 @@ set SwiftBow stat accuracy 40
 set VerianBow stat accuracy 50
 set OldImperialBow stat accuracy 40
 
-set BronzeBow stat durability C
 set IronBow stat durability C
 set Shortbow stat durability C
 set SwiftBow stat durability C
@@ -2112,17 +2114,22 @@ set Longbow stat durability C
 set Apollyon stat durability B
 set Apeiron stat durability B
 
-set VerianBow stat durability B
-set ImperialBow stat durability B
-set OldImperialBow stat durability C
+set BronzeBow stat durability C
+set VerianBow stat durability C
+set ImperialBow stat durability C
+set OldImperialBow stat durability D
 
-set ShortBow stat cost 600
+set ShortBow stat cost 900
 set Apeiron stat cost 4000
-set VerianBow stat cost 1000
 set SereniaBow stat cost 6000
 set Pascanion2 stat cost 8000
 set Pascanion stat cost 8000
 //set WoodenArrow stat cost 100
+
+set BronzeBow stat cost 900
+set VerianBow stat cost 900
+set ImperialBow stat cost 900
+set OldImperialBow stat cost 450
 
 set BronzeBow stat might 3
 set ImperialBow stat might 3
@@ -2200,6 +2207,9 @@ set OldImperialCrossbow stat durability D
 set VerianCrossbow stat durability C
 
 set Bowgun stat cost 700
+set ImperialCrossbow stat cost 1000
+set OldImperialCrossbow stat cost 500
+set VerianCrossbow stat cost 1000
 
 
 // Balistae
@@ -4092,16 +4102,16 @@ set WyvernLord skill supporter
 set WyvernLord_R skill supporter
 
 //adept to everyone
-//set ArrowKnight skill adept
-//set ArrowKnight_R skill adept
+set ArrowKnight skill adept
+set ArrowKnight_R skill adept
 //set DarkMaster skill adept
-//set Gunner skill adept
-//set HeavyGunner skill adept
-//set ImperialGunner skill adept
-//set ImperialHeavyGunner skill adept
-//set RogueGunner skill adept
-//set LadyKnight skill adept
-//set LadyKnight_R skill adept
+set Gunner skill adept
+set HeavyGunner skill adept
+set ImperialGunner skill adept
+set ImperialHeavyGunner skill adept
+set RogueGunner skill adept
+set LadyKnight skill adept
+set LadyKnight_R skill adept
 set Acolyte skill adept
 set Apostle skill adept
 set Aristocrat skill adept
