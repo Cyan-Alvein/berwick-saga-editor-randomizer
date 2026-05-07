@@ -2401,8 +2401,8 @@ Set WyrmskinShield stat might 14
 Set LadyMShd stat might 11
 Set PaladinShield stat might 13
 Set BlackShield stat might 13
-Set VerianMShd stat might 6
 
+Set VerianMShd stat might 8
 Set ImpSoldierMShd stat might 8
 Set ImpSoldierMShd+ stat might 8
 Set ImpOfficerMShd stat might 10
@@ -3881,10 +3881,14 @@ set Horseman skill watchful
 set BowKnight_R skill hide
 set BowKnight_R skill watchful
 set BowKnight_R skill aim
+set BowKnight_R skill doubleshot
+set BowKnight_R skill tripleshot
 
 set BowKnight skill hide
 set BowKnight skill watchful
 set BowKnight skill aim
+set BowKnight skill doubleshot
+set BowKnight skill tripleshot
 
 set Horseman_R skill aim
 set Horseman_R skill hide
@@ -4647,4 +4651,3 @@ set AmaterasuShield effect restore-uses
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 //to do, increase crossbow damage and accuracy
-
