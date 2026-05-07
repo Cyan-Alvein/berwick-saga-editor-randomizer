@@ -57,7 +57,9 @@
 unset RazeMonkOwen skill limited
 
 unset marcel skill slowstart
+unset marcel skill slowstart2
 unset Guardian skill slowstart
+unset Guardian skill slowstart2
 
 set reese item 3 VerianSword 101
 set reese item 4 RoundShield 101
@@ -1370,36 +1372,58 @@ set Nothung stat level 20
 // magic
 set Blizzard stat max-range 2
 set AirBlade stat max-range 2
+set Windstorm stat max-range 2
 set PallasRiana stat level 20
 //set PallasRiana stat uses 60
+set Windstorm stat accuracy 70
+set Windstorm stat level 1
+set Blizzard stat level 1
 set PallasRiana stat max-range 3
-set Windstorm stat max-range 2
+set PallasRiana stat accuracy 70
+set Sandstorm stat accuracy 80
+set Windtongue stat accuracy 80
+set Icetongue stat accuracy 80
 
 set Fire stat max-range 2
+set Fire stat accuracy 70
 set Earthblaze stat max-range 3
+set Earthblaze stat level 1
 set Hellfire stat max-range 2
+set Hellfire stat accuracy 70
+set Hellfire stat level 1
+set Earthblaze stat accuracy 60
 set PallasLeia stat level 20
 set PallasLeia stat max-range 2
+set PallasLeia stat accuracy 80
+set Flametongue stat accuracy 80
+set Blazetongue stat accuracy 80
 
 set Thunder stat max-range 3
+set Thunder stat accuracy 60
 set DireThunder stat max-range 3
+set DireThunder accuracy 60
 set Lightning stat max-range 2
+set Lightning stat accuracy 70
 set PallasSerenia stat level 20
-set PallasSerenia stat max-range 3
+set PallasSerenia max-range 3
+set PallasSerenia stat accuracy 70
+set Stormtongue stat accuracy 100
 
 set Physic stat max-range 5
 set Holy stat might 10
-//set Holy stat uses 20
+set Holy stat uses 20
 set holy effect cripple-x2
-set Starlight effect cripple-x2
+set Starlight effect holy-vantage
 set Starlight stat max-range 2
+set Starlight stat might 32
+set Starlight stat accuracy 80
 set holy stat max-range 2
 
 set Nosferatu stat max-range 2
 set Nosferatu+ stat max-range 2
 
-set Starlight stat level 27
-set Rehabilitate stat level 15
+set Starlight stat level 20
+set Rehabilitate stat level 10
 
 set AirBlade effect injure-rate 4
 set Windstorm effect injure-rate 4
@@ -1423,8 +1447,7 @@ set Rehabilitate stat max-range 3
 
 // Holy Magic
 
-set Holy stat accuracy 80
-set Starlight stat accuracy 70
+set Holy stat accuracy 70
 
 // Dark Magic
 
@@ -1539,18 +1562,18 @@ set stunknife effect disarm-rate 50
 
 //swords
 
-set BronzeSword stat might 6
-set Shortsword stat might 4
+set BronzeSword stat might 7
+set Shortsword stat might 5
 set Scimitar stat might 10
-
+set VerianSword stat might 9
+set OldImperialSword stat might 7
 set LevinSword stat might 3
 set FlameSword stat might 6
 //set HolySword stat might 10
 set WindEdge stat might 4
 set InfernalEdge stat might 4
-
 set KillingEdge stat might 10
-//set Broadsword stat might 11
+set Broadsword stat might 11
 set AltiumSword stat might 13
 
 set AltiumSword effect cripple-x2
@@ -1561,21 +1584,21 @@ set HolySword effect holy-damage 7
 set FlameSword effect fire-damage 9
 set InfernalEdge effect fire-damage 12
 
-set BronzeSword stat accuracy 50
+set BronzeSword stat accuracy 60
 set ImperialSword stat accuracy 60
 set AltiumSword stat accuracy 50
 set LevinSword stat accuracy 40
 set Albatross stat accuracy 50
-//set Scimitar+ stat accuracy 50
-//set KnightSword stat accuracy 60
+set Scimitar+ stat accuracy 50
+set KnightSword stat accuracy 60
 set FlameSword stat accuracy 50
 set HolySword stat accuracy 50
 set WindEdge stat accuracy 50
 set KillingEdge stat accuracy 60
-set ImperialSword stat accuracy 60
 set Harperia stat accuracy 60
 
-Set ImperialSword stat cost 1000
+
+Set ImperialSword stat cost 1200
 set AltiumSword stat cost 3000
 //set LevinSword stat cost 3000
 set FlameSword stat cost 4000
@@ -1586,7 +1609,7 @@ set RazeEtoile stat cost 6000
 set Harperia stat cost 6000
 set Colichemarde stat cost 7000
 
-//set Scimitar+ stat level 1
+set Scimitar+ stat level 5
 //set FlameSword stat level 1
 //set HolySword stat level 1
 //set WindEdge stat level 1
@@ -1595,13 +1618,13 @@ set Colichemarde stat cost 7000
 set AltiumSword stat level 7
 //set LevinSword stat level 7
 
-set BronzeSword stat Weight 5
-set Shortsword stat Weight 4
+set BronzeSword stat Weight 4
+set Shortsword stat Weight 3
 set Scimitar stat weight 4
 set Longsword stat weight 5
 set WindEdge stat weight 5
 set Broadsword stat weight 6
-set Scimitar+ stat weight 7
+set Scimitar+ stat weight 5
 set KillingEdge stat weight 5
 set Saber stat weight 3
 set AltiumSword stat Weight 7
@@ -1610,7 +1633,7 @@ set Rapier stat Weight 3
 set Albatross stat weight 6
 set HolySword stat weight 6
 set MithrilSword stat weight 4
-set KnightSword stat weight 6
+set KnightSword stat weight 5
 set Estoc stat weight 2
 set Grimhild stat weight 7
 set Harperia stat weight 3
@@ -1624,8 +1647,9 @@ set LadySword stat weight 3
 set Gram stat weight 4
 set Nothung stat weight 5
 
-set VerianSword stat Weight 4
+set VerianSword stat Weight 5
 Set ImperialSword stat Weight 5
+Set OldImperialSword stat Weight 6
 Set Vajra stat Weight 10
 Set Vritra stat Weight 5
 
@@ -1636,6 +1660,14 @@ set BronzeSword stat Durability C
 set MithrilSword stat Durability A
 set RazeEtoile stat Durability C
 set LadySword stat Durability C
+
+set VerianSword stat Durability C
+set OldImperialSword stat Durability D
+set ImperialSword stat Durability C
+
+set VerianSword stat cost 1200
+set OldImperialSword cost 600
+set ImperialSword stat Durability C
 
 //mace
 
@@ -1684,7 +1716,6 @@ set Balmung2 stat weight 8
 set Balmung3 stat weight 8
 set Brymranger stat weight 9
 
-set Zanbato stat might 18
 
 set Zanbato effect kill-horse 100
 set BastardSword effect cripple-x2
@@ -1698,11 +1729,8 @@ set Zanbato stat cost 2000
 //spears // spears
 
 set Doru stat accuracy 50
-set SlimSpear stat accuracy 50
-set ImperialSpear stat accuracy 60
+set SlimSpear stat accuracy 60
 set Longspear stat accuracy 50
-set OldImperialSpear stat accuracy 60
-set VerianSpear stat accuracy 60
 set Partisan stat accuracy 50
 set Pike stat accuracy 60
 set MithrilSpear stat accuracy 60
@@ -1712,9 +1740,21 @@ set Harpoon stat accuracy 50
 set PrototypeSpear stat accuracy 60
 set KillerSpear stat accuracy 60
 //set WindSpear stat accuracy 50
+set VerianSpear stat accuracy 60
+set OldImperialSpear stat accuracy 50
+set ImperialSpear stat accuracy 60
 
+set SlimSpear stat might 6
 set Verutum stat might 12
 set Euthyphro stat might 5
+set Harpoon stat might 10
+set Fauchard stat might 8
+set Brionac stat might 8
+set KillerSpear stat might 7
+
+set ImperialSpear stat might 8
+set VerianSpear stat might 8
+set OldImperialSpear stat might 6
 
 set Euthyphro effect thunder-damage 7
 
@@ -1743,24 +1783,17 @@ set Euthyphro stat Weight 7
 set Javelin stat Weight 10
 set Partisan stat Weight 10
 set Angon stat Weight 6
-set Brionac stat Weight 8
+set Brionac stat Weight 7
 set SwiftSpear stat Weight 10
 set Fauchard stat Weight 7
+
 set ImperialSpear stat Weight 6
 set VerianSpear stat Weight 6
-set OldImperialSpear stat Weight 9
+set OldImperialSpear stat Weight 7
 
-set Harpoon stat might 10
-set Fauchard stat might 8
-set Brionac stat might 8
-set KillerSpear stat might 7
-
-set ImperialSpear stat might 8
 set Fauchard stat hex 1
 set Harpoon stat hex 1
 set Brionac stat hex 2
-
-
 
 Set Harpoon effect injure-rate 33
 
@@ -1780,6 +1813,9 @@ set Harpoon stat cost 1000
 //set Brionac stat durability B
 //set Harpoon stat durability F
 
+set VerianSpear stat durability D
+set ImperialSpear stat durability D
+set OldImperialSpear stat durability E
 
 //set WindSpear effect wind-damage 8
 //set Euthyphro effect wind-damage 7
@@ -1791,6 +1827,9 @@ set Harpoon stat level 1
 
 set Pike effect cripple-x2
 
+set VerianSpear stat cost 1000
+set ImperialSpear stat cost 1000
+set OldImperialSpear stat cost 500
 
 // fork
 
@@ -1809,18 +1848,17 @@ set Pitchfork stat hex 1
 set GoreFork stat hex 1
 set Firebrand stat hex 1
 
-
 set MilitaryFork stat accuracy 60
 set Pitchfork stat accuracy 60
 set GoreFork stat accuracy 50
 set Firebrand stat accuracy 60
 
-//set GoreFork stat level 1
+set GoreFork stat level 1
 set GoreFork stat cost 2000
 
 set Pitchfork stat weight 6
 set MilitaryFork stat weight 8
-set Firebrand stat weight 6
+set Firebrand stat weight 8
 set GoreFork stat weight 8
 
 set MilitaryFork stat might 12
@@ -1835,10 +1873,10 @@ set Firebrand stat durability D
 //set Drakelance stat level 15
 
 
-set Drakelance effect cripple-x2
-set Xyston effect cripple-x2
-set IronLance effect cripple-x2
-set Oxtongue effect cripple-x2
+set Drakelance effect parry
+set Xyston effect parry
+set IronLance effect parry
+set Oxtongue effect parry
 
 set IronLance stat hex 5
 set Oxtongue stat hex 6
@@ -1846,11 +1884,8 @@ set Xyston stat hex 5
 set GreatLance stat hex 7
 set Drakelance stat hex 6
 
-set Xyston stat hex 4
-set Drakelance stat hex 5
-
-set Oxtongue Stat might 5
-set GreatLance Stat might 5
+set Oxtongue stat might 5
+set GreatLance stat might 5
 
 set IronLance stat level 1
 
@@ -1866,10 +1901,10 @@ set Xyston Stat Accuracy 70
 set GreatLance Stat Accuracy 70
 set Drakelance Stat Accuracy 80
 
-set Drakelance stat Durability B
-set Xyston stat Durability C
-set Oxtongue stat Durability D
-set IronLance stat Durability D
+//set Drakelance stat Durability B
+//set Xyston stat Durability C
+//set Oxtongue stat Durability D
+//set IronLance stat Durability D
 
 //set IronLance stat cost 4000
 //set Oxtongue stat cost 4500
@@ -1877,6 +1912,7 @@ set IronLance stat Durability D
 //axe // axe
 
 set BanditAxe stat might 6
+set Pickaxe stat might 6
 set ImperialAxe stat might 10
 set LogSplitter stat might 6
 set OldImperialAxe stat might 8
@@ -1895,7 +1931,7 @@ set DarkAxe effect dark-damage 9
 set Mjollnir effect thunder-damage 11
 set BoltAxe effect thunder-damage 11
 
-set LogSplitter stat Weight 6
+set LogSplitter stat Weight 4
 set Pickaxe stat Weight 4
 set BattleSaw stat Weight 7
 set HandAxe stat Weight 5
@@ -1917,7 +1953,7 @@ set Tomahawk stat Weight 6
 //set BoltAxe stat Weight 7
 //set KillerAxe stat Weight 6
 set Hammer stat Weight 12
-set Greataxe stat Weight 11
+set Greataxe stat Weight 11 
 //set Tabarzin stat Weight 8
 set MithrilAxe stat Weight 5
 set Gullveig stat Weight 6
@@ -1929,12 +1965,14 @@ set Bhuj stat Weight 9
 set VerianAxe stat Weight 6
 set OldImperialAxe stat Weight 8
 set ImperialAxe stat Weight 6
-set BanditAxe stat Weight 6
+set BanditAxe stat Weight 4
+
 
 set BarbaricAxe stat accuracy 20
-set BanditAxe stat accuracy 40
+set BanditAxe stat accuracy 50
 set ImperialAxe stat accuracy 50
-set LogSplitter stat accuracy 40
+set LogSplitter stat accuracy 50
+set Pickaxe stat accuracy 50
 set OldImperialAxe stat accuracy 40
 set Shieldaxe stat accuracy 40
 set Tomahawk stat accuracy 50
@@ -1956,16 +1994,16 @@ set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 30
 set VerianAxe stat accuracy 50
 
-set BanditAxe effect steal-rate-plus 50
-set BattleAxe effect cripple-x2
-set Greataxe effect steal-rate-plus 15
-set MithrilAxe effect steal-rate-plus 15
-set Gullveig effect steal-rate-plus 15
-set BarbaricAxe effect steal-rate-plus 15
-set IronAxe effect steal-rate-plus 15
-set Tomahawk effect steal-rate-plus 15
-set VerianAxe effect steal-rate-plus 15
-set ImperialAxe effect steal-rate-plus 15
+set BanditAxe effect steal-rate-plus 33
+//set BattleAxe effect cripple-x2
+//set Greataxe effect steal-rate-plus 15
+//set MithrilAxe effect steal-rate-plus 15
+//set Gullveig effect steal-rate-plus 15
+//set BarbaricAxe effect steal-rate-plus 15
+//set IronAxe effect steal-rate-plus 15
+//set Tomahawk effect steal-rate-plus 15
+//set VerianAxe effect steal-rate-plus 15
+//set ImperialAxe effect steal-rate-plus 15
 
 set Battleaxe stat level 5
 set Broadaxe stat level 5
@@ -1994,8 +2032,16 @@ set LogSplitter stat durability D
 set Battleaxe stat durability C
 set MithrilAxe stat durability A
 
+set VerianAxe stat durability D
+set ImperialAxe stat durability D
+set OldImperialAxe stat durability E
+
 set Battleaxe stat cost 1500
-set GigasAxe stat cost 3000
+//set GigasAxe stat cost 4000
+set VerianAxe stat cost 600
+set OldImperialAxe stat cost 300
+set ImperialAxe stat cost 600
+
 
 // bows
 
@@ -2029,7 +2075,7 @@ set CompositeBow effect cripple-x2
 set BronzeBow stat Weight 6
 set IronBow stat Weight 5
 set ShortBow stat Weight 6
-set SwiftBow stat Weight 8
+set SwiftBow stat Weight 7
 set Longbow stat Weight 7
 set TripleFireBow stat Weight 10
 set CompositeBow stat Weight 8
@@ -2042,15 +2088,16 @@ set Rossweisse stat Weight 6
 set Pascanion stat Weight 8
 set Pascanion2 stat Weight 8
 set SereniaBow stat Weight 6
-set VerianBow stat Weight 5
-set OldImperialBow stat Weight 6
-set ImperialBow stat Weight 5
+
+set VerianBow stat Weight 4
+set OldImperialBow stat Weight 5
+set ImperialBow stat Weight 4
 
 set BronzeBow stat accuracy 50
 set ImperialBow stat accuracy 50
 set OldImperialBow stat accuracy 40
 set ShortBow stat accuracy 50
-set TripleFireBow stat accuracy 30
+set TripleFireBow stat accuracy 50
 set Strongbow stat accuracy 40
 set Greatbow stat accuracy 40
 set SwiftBow stat accuracy 40
@@ -2065,6 +2112,10 @@ set Longbow stat durability C
 set Apollyon stat durability B
 set Apeiron stat durability B
 
+set VerianBow stat durability B
+set ImperialBow stat durability B
+set OldImperialBow stat durability C
+
 set ShortBow stat cost 600
 set Apeiron stat cost 4000
 set VerianBow stat cost 1000
@@ -2074,11 +2125,12 @@ set Pascanion stat cost 8000
 //set WoodenArrow stat cost 100
 
 set BronzeBow stat might 3
-set ImperialBow stat might 1
+set ImperialBow stat might 3
 set IronBow stat might 1
 set OldImperialBow stat might 1
 set ShortBow stat might 3
-set VerianBow stat might 1
+set VerianBow stat might 3
+set SwiftBow stat might 3
 
 
 //Crossbow
@@ -2117,7 +2169,7 @@ set RapidCrossbow stat might 18
 set Hawkeye stat might 30
 
 set ImperialCrossbow stat might 15
-set OldImperialCrossbow stat might 12
+set OldImperialCrossbow stat might 9
 set VerianCrossbow stat might 15
 
 set Bowgun stat accuracy 70
@@ -2131,6 +2183,7 @@ set KillerCrossbow stat accuracy 80
 set Ollerus stat accuracy 60
 set RapidCrossbow stat accuracy 60
 set Hawkeye stat accuracy 70
+
 set ImperialCrossbow stat accuracy 70
 set OldImperialCrossbow stat accuracy 60
 set VerianCrossbow stat accuracy 70
@@ -2141,6 +2194,10 @@ set Bowgun stat durability C
 set HeavyCrossbow stat durability B
 set KillerCrossbow stat durability C
 set Hawkeye stat durability C
+
+set ImperialCrossbow stat durability C
+set OldImperialCrossbow stat durability D
+set VerianCrossbow stat durability C
 
 set Bowgun stat cost 700
 
@@ -2183,30 +2240,31 @@ set Scorpio stat Durability B
 // sshield
 
 set ShiningShield effect negate-dark 100
-//set DarkShield stat dark_res 10
+set DarkShield stat dark_res 15
 
 set LeatherSShd stat might 2
 set Buckler stat might 4
 set PrototypeSShd stat might 4
-set Aspis stat might 5
-set RoundShield stat might 5
-set Windshield stat might 5
-set FireShield stat might 5
-set ThunderShield stat might 5
-set LightShield stat might 5
-set DarkShield stat might 5
+set Aspis stat might 6
+set RoundShield stat might 6
+set Windshield stat might 6
+set FireShield stat might 6
+set ThunderShield stat might 6
+set LightShield stat might 6
+set DarkShield stat might 6
 set MetalShield stat might 6
-set MithrilShield stat might 7
+set MithrilShield stat might 6
 set Vollenden stat might 8
 set ShiningShield stat might 7
+set LadyShield stat might 6
+set Perseid stat might 7
+
 Set VerianSShd Stat might 4
 set OldImpSShd stat might 4
 set ImpSoldierSShd stat might 4
 set ImpSoldierSShd++ stat might 4
-set ImpOfficerSShd stat might 5
+set ImpOfficerSShd stat might 6
 set ImpKnightSShd stat might 6
-set Perseid stat might 7
-set LadyShield stat might 6
 
 set LeatherSShd stat Weight 1
 set Buckler stat Weight 2
@@ -2219,11 +2277,12 @@ set ThunderShield stat Weight 3
 set LightShield stat Weight 3
 set DarkShield stat Weight 3
 set MetalShield stat weight 3
-set MithrilShield stat weight 3
+set MithrilShield stat weight 2
 set Perseid stat weight 2
 set LadyShield stat weight 2
 set Vollenden stat weight 4
 set ShiningShield stat Weight 3
+
 Set VerianSShd Stat Weight 2
 set OldImpSShd stat Weight 4
 set ImpSoldierSShd stat Weight 2
@@ -2231,12 +2290,29 @@ set ImpSoldierSShd++ stat Weight 2
 set ImpOfficerSShd stat weight 3
 set ImpKnightSShd stat weight 3
 
-set ShiningShield Stat Cost 5000
-set Vollenden stat Cost 7000
+set LeatherSShd stat cost 433
+set Buckler stat cost 866
+set PrototypeSShd stat cost 866
+set Aspis stat cost 1600
 set RoundShield stat cost 2000
-set mithrilshield stat cost 3000
-set Perseid stat cost 6000
-set LeatherSShd stat cost 200
+set Windshield stat cost 2000
+set FireShield stat cost 2000
+set ThunderShield stat cost 2000
+set LightShield stat cost 2000
+set DarkShield stat cost 2000
+set MetalShield stat cost 2000
+set MithrilShield stat cost 2000
+set Perseid stat cost 3000
+set LadyShield stat cost 2500
+set Vollenden stat cost 3000
+set ShiningShield stat cost 1800
+
+Set VerianSShd Stat cost 866
+set OldImpSShd stat cost 866
+set ImpSoldierSShd stat cost 866
+set ImpSoldierSShd++ stat cost 866
+set ImpOfficerSShd stat cost 1300
+set ImpKnightSShd stat cost 1300
 
 set Vollenden stat accuracy 80
 set OldImpSShd stat accuracy 30
@@ -2249,25 +2325,33 @@ set LightShield stat accuracy 50
 set DarkShield stat accuracy 50
 set Windshield stat accuracy 50
 
-set VerianSShd stat durability D
-set OldImpSShd stat durability E
-set ImpSoldierSShd stat durability D
-set ImpSoldierSShd++ stat durability D
-set ImpOfficerSShd stat durability D
-set ImpKnightSShd stat durability D
+set LeatherSShd stat durability C
+set Buckler stat durability C
+set PrototypeSShd stat durability C
+set Aspis stat durability B
 set RoundShield stat durability B
-set Windshield stat durability C
-set FireShield stat durability C
-set ThunderShield stat durability C
-set LightShield stat durability C
-set DarkShield stat durability C
+set Windshield stat durability B
+set FireShield stat durability B
+set ThunderShield stat durability B
+set LightShield stat durability B
+set DarkShield stat durability B
+set MetalShield stat durability A
 set MithrilShield stat durability A
-set ShiningShield stat durability A
-//set LadyShield stat durability B
+set Aiantos stat durability B
+set ShiningShield stat durability B
+set Vollenden stat durability S
+set LadyShield stat durability A
+set Perseid stat durability S
 
-set ImpKnightSShd stat cost 1000
+set VerianSShd stat durability C
+set OldImpSShd stat durability D
+set ImpSoldierSShd stat durability C
+set ImpSoldierSShd++ stat durability C
+set ImpOfficerSShd stat durability C
+set ImpKnightSShd stat durability C
 
-set Buckler stat cost 800
+
+
 
 set FireShield stat level 1
 set ThunderShield stat level 1
@@ -2281,12 +2365,6 @@ set FireShield stat accuracy 50
 set ThunderShield stat accuracy 50
 set LightShield stat accuracy 50
 set DarkShield stat accuracy 50
-
-set Windshield stat cost 2000
-set FireShield stat cost 2000
-set ThunderShield stat cost 2000
-set LightShield stat cost 2000
-set DarkShield stat cost 2000
 
 //mshield Stuff
 
@@ -2302,11 +2380,9 @@ Set PaladinShield stat Weight 6
 Set BlackShield stat Weight 6
 Set VerianMShd stat Weight 4
 
-Set VerianMShd stat cost 1200
-
 Set LadyMShd stat accuracy 50
 
-Set LeatherMShd stat might 5
+Set LeatherMShd stat might 6
 Set Kiteshield stat might 8
 Set SquareShield stat might 10
 Set KnightShield stat might 12
@@ -2325,27 +2401,50 @@ Set ImpKnightMShd stat might 12
 
 set ImpSoldierMShd+ stat accuracy 50
 set LadyMShd stat accuracy 50
+set WyrmskinShield stat accuracy 50
 
 Set ImpSoldierMShd stat Weight 4
 Set ImpSoldierMShd+ stat Weight 4
 Set ImpOfficerMShd stat Weight 5
 Set ImpKnightMShd stat Weight 6
 
-set LightningShield stat Durability C
-set RadiantShield stat Durability C
-set ShadowShield stat Durability C
-set BlazingShield stat Durability C
-set GaleShield stat Durability C
+set LightningShield stat Durability A
+set RadiantShield stat Durability A
+set ShadowShield stat Durability A
+set BlazingShield stat Durability A
+set GaleShield stat Durability A
 
-set ImpSoldierMShd stat durability D
-set ImpSoldierMShd+ stat durability D
-set ImpOfficerMShd stat durability D
-set ImpKnightMShd stat durability D
-set PaladinShield stat durability B
-set BlackShield stat durability B
+set LeatherMShd stat durability B
+set Kiteshield stat durability B
+set SquareShield stat durability A
+set KnightShield stat durability A
 set LimitShield stat durability B
-set SquareShield stat durability C
+set Hestia stat durability A
+set WyrmskinShield stat durability S
+set PaladinShield stat durability A
+set BlackShield stat durability A
 
+set VerianMShd stat durability B
+set ImpSoldierMShd stat durability B
+set ImpSoldierMShd+ stat durability B
+set ImpOfficerMShd stat durability B
+set ImpKnightMShd stat durability B
+
+set LeatherMShd stat cost 1320
+set Kiteshield stat cost 1760
+set SquareShield stat cost 2200
+set KnightShield stat cost 2640
+set LimitShield stat cost 3000
+set Hestia stat cost 4000
+set WyrmskinShield stat cost 4000
+set PaladinShield stat cost 3000
+set BlackShield stat cost 4000
+
+set VerianMShd stat cost 1320
+set ImpSoldierMShd cost 1760
+set ImpSoldierMShd+ cost 1760
+set ImpOfficerMShd cost 2200
+set ImpKnightMShd cost 2640
 
 set LightningShield stat accuracy 50
 set RadiantShield stat accuracy 50
@@ -2375,8 +2474,6 @@ set ShadowShield stat Weight 4
 set BlazingShield stat Weight 4
 set GaleShield stat Weight 4
 
-set LadyMShd stat cost 5000
-
 // lshield stuff
 
 set AmaterasuShield stat level 15
@@ -2385,22 +2482,23 @@ set KojinShield stat level 1
 set FujinShield stat level 1
 set RaijinShield stat level 1
 
-set ImpKnightLShd stat durability D
-set ImpOfficerLShd stat durability D
-set ImpSoldierLShd stat durability D
-set ImpSoldierLShd+ stat durability D
-set VerianLShd stat Durability D
-set LeatherLShd stat Durability C
-set WideShield stat Durability C
+set ImpKnightLShd stat durability A
+set ImpOfficerLShd stat durability A
+set ImpSoldierLShd stat durability A
+set ImpSoldierLShd+ stat durability A
+
+set VerianLShd stat Durability A
+set LeatherLShd stat Durability A
+set WideShield stat Durability A
 set IronShield stat Durability A
-set Greatshield stat Durability B
-set KojinShield stat Durability B
-set FujinShield stat Durability B
-set RaijinShield stat Durability B
-set AmaterasuShield stat Durability C
-set GeneralShield stat Durability C
-set TsukuyomiShield stat Durability C
-set Iuppiter stat Durability C
+set Greatshield stat Durability S
+set KojinShield stat Durability S
+set FujinShield stat Durability S
+set RaijinShield stat Durability S
+set AmaterasuShield stat Durability S
+set GeneralShield stat Durability S
+set TsukuyomiShield stat Durability S
+set Iuppiter stat Durability S
 
 set ImpKnightLShd stat accuracy 40
 set ImpOfficerLShd stat accuracy 40
@@ -2423,7 +2521,7 @@ set ImpSoldierLShd stat might 14
 set ImpSoldierLShd+ stat might 14
 set VerianLShd stat might 12
 
-set LeatherLShd stat might 8
+set LeatherLShd stat might 12
 set WideShield stat might 14
 set IronShield stat might 16
 set Greatshield stat might 19
@@ -2433,16 +2531,19 @@ set RaijinShield stat might 15
 set AmaterasuShield stat might 15
 set GeneralShield stat might 20
 
+set LeatherLShd stat cost 1800
+set WideShield stat cost 2100
+set IronShield stat cost 2400
+set GeneralShield stat cost 2850
 set AmaterasuShield stat cost 4000
-set Hestia stat cost 4000
-set ImpSoldierLShd stat cost 1000
-set ImpSoldierLShd+ stat cost 1000
-set LimitShield stat cost 3000
-set VerianLShd stat cost 1000
-set WyrmskinShield stat cost 4000
-set LeatherLShd stat cost 1000
 
-Set LeatherLShd Stat Weight 5
+set ImpSoldierLShd stat cost 2100
+set ImpSoldierLShd+ stat cost 2100
+set VerianLShd stat cost 1800
+set ImpOfficerLShd stat cost 2400
+set ImpKnightLShd stat cost 2700
+
+Set LeatherLShd Stat Weight 6
 Set WideShield Stat Weight 7
 Set IronShield Stat Weight 8
 Set Greatshield Stat Weight 9
