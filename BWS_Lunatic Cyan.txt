@@ -2218,14 +2218,14 @@ set VerianCrossbow stat cost 1000
 
 set OldBallista stat durability D
 
-set OldBallista stat might 12
-set BronzeBallista stat might 12
-set IronBallista stat might 18
-set SteelBallista stat might 22
-set PrototypeSpringald stat might 12
+set OldBallista stat might 9
+set BronzeBallista stat might 13
+set IronBallista stat might 17
+set SteelBallista stat might 21
+set PrototypeSpringald stat might 13
 set Springald stat might 25
-set PrototypeScorpio stat might 13
-set Scorpio stat might 13
+set PrototypeScorpio stat might 14
+set Scorpio stat might 14
 
 set OldBallista stat accuracy 50
 set SteelBallista stat accuracy 60
@@ -4651,3 +4651,4 @@ set AmaterasuShield effect restore-uses
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 //to do, increase crossbow damage and accuracy
+
