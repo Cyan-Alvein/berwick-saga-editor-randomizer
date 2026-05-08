@@ -13,7 +13,7 @@
 
 // pitchfork & MilitaryFork got cripple rate 8
 
-// Pike, Longspear, Altium, Gastraphetes, Composite Bow, BattleAxe, BastardSword, Holy & all lance weapons got cripple-x2
+// Pike, Longspear, Altium, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Holy & all lance weapons got cripple-x2
 
 // Hawkeye & Arbalest got 2 range, Same as Ollerus. Apeiron, Rossweisse & Greatbow got 3 range.
 
@@ -369,9 +369,9 @@ set faye item 7 Bag 0
 set faye growth sword 100
 set faye base sword +25
 
-set sylvis item 0 Gastraphetes 101
-set sylvis item 1 CompositeBow 101
-set sylvis item 2 SteelArrow+ 20
+set sylvis item 0 CompositeBow 101
+set sylvis item 1 SteelArrow+ 20
+set sylvis item 2 Gastraphetes 101
 set sylvis item 3 Treasure 101
 set sylvis item 4 IronArrow+ 20
 set sylvis item 5 BodkinArrow 20
@@ -643,7 +643,7 @@ set christine skill guard
 set christine skill maim
 set christine skill huntsman
 set christine skill hide
-//set christine skill onetwo
+set christine skill onetwo
 set christine skill robbery
 set christine skill fortune
 set christine skill pursuit
