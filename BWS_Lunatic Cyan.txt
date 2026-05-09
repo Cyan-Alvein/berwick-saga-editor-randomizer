@@ -2313,7 +2313,7 @@ set ThunderShield stat cost 2000
 set LightShield stat cost 2000
 set DarkShield stat cost 2000
 set MetalShield stat cost 2000
-set MithrilShield stat cost 2000
+set MithrilShield stat cost 2500
 set Perseid stat cost 3000
 set LadyShield stat cost 2500
 set Vollenden stat cost 3000
