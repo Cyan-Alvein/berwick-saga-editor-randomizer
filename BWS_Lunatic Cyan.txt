@@ -2265,7 +2265,7 @@ set ThunderShield stat might 6
 set LightShield stat might 6
 set DarkShield stat might 6
 set MetalShield stat might 7
-set MithrilShield stat might 6
+set MithrilShield stat might 7
 set Vollenden stat might 8
 set ShiningShield stat might 7
 set LadyShield stat might 6
@@ -2313,7 +2313,7 @@ set ThunderShield stat cost 2000
 set LightShield stat cost 2000
 set DarkShield stat cost 2000
 set MetalShield stat cost 2000
-set MithrilShield stat cost 2500
+set MithrilShield stat cost 3000
 set Perseid stat cost 3000
 set LadyShield stat cost 2500
 set Vollenden stat cost 3000
