@@ -2278,6 +2278,30 @@ set ImpSoldierSShd+ stat might 4
 set ImpOfficerSShd stat might 6
 set ImpKnightSShd stat might 7
 
+set LeatherSShd stat mind 1
+set Buckler stat mind 2
+set PrototypeSShd stat mind 2
+set Aspis stat mind 3
+set RoundShield stat mind 3
+set Windshield stat mind 3
+set FireShield stat mind 3
+set ThunderShield stat mind 3
+set LightShield stat mind 3
+set DarkShield stat mind 3
+set MetalShield stat mind 3
+set MithrilShield stat mind 6
+set Vollenden stat mind 7
+set ShiningShield stat mind 6
+set LadyShield stat mind 5
+set Perseid stat mind 5
+
+Set VerianSShd Stat mind 2
+set OldImpSShd stat mind 3
+set ImpSoldierSShd stat mind 2
+set ImpSoldierSShd+ stat mind 2
+set ImpOfficerSShd stat mind 3
+set ImpKnightSShd stat mind 3
+
 set LeatherSShd stat Weight 1
 set Buckler stat Weight 2
 set PrototypeSShd stat Weight 2
@@ -2312,12 +2336,12 @@ set FireShield stat cost 2000
 set ThunderShield stat cost 2000
 set LightShield stat cost 2000
 set DarkShield stat cost 2000
-set MetalShield stat cost 2000
-set MithrilShield stat cost 3000
-set Perseid stat cost 3000
-set LadyShield stat cost 2500
-set Vollenden stat cost 3000
-set ShiningShield stat cost 1800
+set MetalShield stat cost 3000
+set MithrilShield stat cost 4000
+set Perseid stat cost 4000
+set LadyShield stat cost 3000
+set Vollenden stat cost 5000
+set ShiningShield stat cost 5000
 
 Set VerianSShd Stat cost 866
 set OldImpSShd stat cost 866
@@ -2349,9 +2373,9 @@ set ThunderShield stat durability B
 set LightShield stat durability B
 set DarkShield stat durability B
 set MetalShield stat durability A
-set MithrilShield stat durability A
-set Aiantos stat durability B
-set ShiningShield stat durability B
+set MithrilShield stat durability S
+set Aiantos stat durability A
+set ShiningShield stat durability A
 set Vollenden stat durability S
 set LadyShield stat durability A
 set Perseid stat durability S
@@ -2388,7 +2412,29 @@ Set WyrmskinShield stat Weight 5
 Set LadyMShd stat Weight 5
 Set PaladinShield stat Weight 6
 Set BlackShield stat Weight 6
+
 Set VerianMShd stat Weight 4
+Set ImpSoldierMShd stat Weight 4
+Set ImpSoldierMShd+ stat Weight 4
+Set ImpOfficerMShd stat Weight 5
+Set ImpKnightMShd stat Weight 6
+
+Set LeatherMShd stat mind 3
+Set Kiteshield stat mind 4
+Set SquareShield stat mind 5
+Set KnightShield stat mind 6
+Set LimitShield stat mind 6
+Set Hestia stat mind 9
+Set WyrmskinShield stat mind 9
+Set LadyMShd stat mind 5
+Set PaladinShield stat mind 9
+Set BlackShield stat mind 6
+
+Set VerianMShd stat mind 4
+Set ImpSoldierMShd stat mind 4
+Set ImpSoldierMShd+ stat mind 4
+Set ImpOfficerMShd stat mind 5
+Set ImpKnightMShd stat mind 6
 
 Set LadyMShd stat accuracy 50
 
@@ -2412,11 +2458,6 @@ Set ImpKnightMShd stat might 12
 set ImpSoldierMShd+ stat accuracy 50
 set LadyMShd stat accuracy 50
 set WyrmskinShield stat accuracy 50
-
-Set ImpSoldierMShd stat Weight 4
-Set ImpSoldierMShd+ stat Weight 4
-Set ImpOfficerMShd stat Weight 5
-Set ImpKnightMShd stat Weight 6
 
 set LightningShield stat Durability A
 set RadiantShield stat Durability A
@@ -2568,6 +2609,22 @@ Set ImpSoldierLShd Stat Weight 7
 Set ImpSoldierLShd+ Stat Weight 7
 Set ImpOfficerLShd Stat Weight 8
 Set ImpKnightLShd Stat Weight 9
+
+Set LeatherLShd Stat mind 6
+Set WideShield Stat mind 7
+Set IronShield Stat mind 8
+Set Greatshield Stat mind 12
+Set GeneralShield Stat mind 12
+Set KojinShield Stat mind 7
+Set FujinShield Stat mind 7
+Set RaijinShield Stat mind 7
+Set AmaterasuShield Stat mind 12
+
+Set VerianLShd Stat mind 6
+Set ImpSoldierLShd Stat mind 7
+Set ImpSoldierLShd+ Stat mind 7
+Set ImpOfficerLShd Stat mind 8
+Set ImpKnightLShd Stat mind 9
 
 
 //Accessories Buff
