@@ -2336,6 +2336,7 @@ set ThunderShield stat accuracy 50
 set LightShield stat accuracy 50
 set DarkShield stat accuracy 50
 set Windshield stat accuracy 50
+set MithrilShield stat accuracy 50
 
 set LeatherSShd stat durability C
 set Buckler stat durability C
