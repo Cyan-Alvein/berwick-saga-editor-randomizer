@@ -2264,7 +2264,7 @@ set FireShield stat might 6
 set ThunderShield stat might 6
 set LightShield stat might 6
 set DarkShield stat might 6
-set MetalShield stat might 6
+set MetalShield stat might 7
 set MithrilShield stat might 6
 set Vollenden stat might 8
 set ShiningShield stat might 7
@@ -2272,11 +2272,11 @@ set LadyShield stat might 6
 set Perseid stat might 7
 
 Set VerianSShd Stat might 4
-set OldImpSShd stat might 4
+set OldImpSShd stat might 3
 set ImpSoldierSShd stat might 4
 set ImpSoldierSShd+ stat might 4
 set ImpOfficerSShd stat might 6
-set ImpKnightSShd stat might 6
+set ImpKnightSShd stat might 7
 
 set LeatherSShd stat Weight 1
 set Buckler stat Weight 2
@@ -2524,7 +2524,7 @@ set RaijinShield stat accuracy 50
 set AmaterasuShield stat accuracy 50
 set GeneralShield stat accuracy 50
 
-set ImpKnightLShd stat might 18
+set ImpKnightLShd stat might 19
 set ImpOfficerLShd stat might 16
 set ImpSoldierLShd stat might 14
 set ImpSoldierLShd+ stat might 14
@@ -2556,7 +2556,7 @@ Set LeatherLShd Stat Weight 6
 Set WideShield Stat Weight 7
 Set IronShield Stat Weight 8
 Set Greatshield Stat Weight 9
-Set GeneralShield Stat Weight 7
+Set GeneralShield Stat Weight 9
 Set KojinShield Stat Weight 7
 Set FujinShield Stat Weight 7
 Set RaijinShield Stat Weight 7
