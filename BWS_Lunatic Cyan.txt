@@ -3281,6 +3281,7 @@ set Ruffian_R skill camouflage
 set Ruffian_R skill aim
 set Ruffian_R skill hide
 set Ruffian_R skill watchful
+set Ruffian_R skill vantage
 
 set Ruffian base strength +5
 set Ruffian base defense +1
@@ -3295,6 +3296,7 @@ set Ruffian skill aim
 set Ruffian skill shieldfaire
 set Ruffian skill hide
 set Ruffian skill watchful
+set Ruffian skill vantage
 
 set Pickpocket base strength +5
 set Pickpocket base defense +1
@@ -4651,4 +4653,3 @@ set AmaterasuShield effect restore-uses
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 //to do, increase crossbow damage and accuracy
-
