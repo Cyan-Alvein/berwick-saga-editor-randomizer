@@ -4355,6 +4355,7 @@ set Corsair skill counter
 set Bandit skill counter
 set Chief skill counter
 set Scoundrel skill counter
+set ArmorKnight skill counter
 
 //Pursuit to everyone
 set Acolyte skill pursuit
