@@ -581,7 +581,7 @@ set reese skill horselover
 set reese skill horseswap 
 set reese skill hurry
 set reese skill mercy
-set reese skill robust
+set reese skill robust2
 set reese skill paragon
 set reese skill Prepared
 set reese skill robbery
@@ -599,7 +599,7 @@ set ward skill hurry
 set ward skill mercy
 set ward skill prepared
 set ward skill provoke
-set ward skill robust
+set ward skill robust2
 set ward skill maim
 set ward skill robbery
 set ward skill hide
@@ -669,7 +669,7 @@ set adel skill vantage
 set adel skill prepared 
 set adel skill desperation
 set adel skill maim
-set adel skill robust
+set adel skill robust2
 set adel skill robbery
 set adel skill hide
 set adel skill windsweep
@@ -687,7 +687,7 @@ set leon skill lance
 set leon skill mercy
 set leon skill pitchfork
 set leon skill prepared
-set leon skill robust
+set leon skill robust2
 set leon skill supporter
 set leon skill throw 
 set leon skill maim
@@ -782,7 +782,7 @@ set daoud skill hurry
 set daoud skill mercy
 set daoud skill prepared
 set daoud skill pulverize
-set daoud skill robust
+set daoud skill robust2
 set daoud skill throw
 set daoud skill desperation
 set daoud skill maim
@@ -802,7 +802,7 @@ set enid skill guard
 set enid skill vantage
 set enid skill miracle
 set enid skill battlecry
-set enid skill robust
+set enid skill robust2
 set enid skill maim
 set enid skill robbery
 set enid skill hide
@@ -822,7 +822,7 @@ set aegina skill guard
 set aegina skill battlecry
 set aegina skill charisma
 set aegina skill vantage
-set aegina skill robust
+set aegina skill robust2
 set aegina skill maim
 set aegina skill robbery
 set aegina skill hide
@@ -841,7 +841,7 @@ set perceval skill guard
 set perceval skill battlecry
 set perceval skill vantage
 set perceval skill maim
-set perceval skill robust
+set perceval skill robust2
 set perceval skill robbery
 set perceval skill hide
 set perceval skill watchful
@@ -857,7 +857,7 @@ set marcel skill mercy
 set marcel skill shieldfaire
 set marcel skill prepared
 set marcel skill desperation
-set marcel skill robust
+set marcel skill robust2
 set marcel skill maim
 set marcel skill robbery
 set marcel skill pulverize
@@ -935,7 +935,7 @@ set kramer skill mercy
 set kramer skill pulverize 
 set kramer skill prepared
 set kramer skill desperation
-set kramer skill robust
+set kramer skill robust2
 set kramer skill maim
 set kramer skill robbery
 set kramer skill arrowbane
@@ -956,7 +956,7 @@ set sherpa skill guard
 set sherpa skill hurry
 set sherpa skill mercy
 set sherpa skill pulverize
-set sherpa skill robust
+set sherpa skill robust2
 set sherpa skill windsweep
 set sherpa skill blade
 set sherpa skill Prepared
@@ -988,7 +988,7 @@ set dean skill prepared
 set dean skill vengeful
 set dean skill throw
 set dean skill hide
-set dean skill robust
+set dean skill robust2
 set dean skill maim
 set dean skill robbery
 set dean skill pulverize
@@ -1095,7 +1095,7 @@ set faye skill guard
 set faye skill fortune
 set faye skill prepared
 set faye skill windsweep
-set faye skill robust
+set faye skill robust2
 set faye skill maim
 set faye skill robbery
 set faye skill hide
@@ -1148,7 +1148,7 @@ set volo skill guard
 set volo skill sunder
 set volo skill windsweep
 set volo skill fortune
-set volo skill robust
+set volo skill robust2
 set volo skill maim
 set volo skill parry
 set volo skill robbery
@@ -1197,7 +1197,7 @@ set axel skill climber
 set axel skill throw
 set axel skill battlecry
 set axel skill desperation
-set axel skill robust
+set axel skill robust2
 set axel skill maim
 set axel skill watchful
 set axel skill vengeful
@@ -1267,7 +1267,7 @@ set derrick skill prepared
 set derrick skill throw
 set derrick skill desperation
 set derrick skill paragon
-set derrick skill robust
+set derrick skill robust2
 set derrick skill maim
 set derrick skill vengeful
 set derrick skill shieldfaire
@@ -1526,7 +1526,8 @@ set AirKnife stat weight 2
 set BloodKnife stat weight 2
 
 set dart stat level 1
-//set Seax stat level 3
+set Seax stat level 8
+set Vespa stat level 4
 //set TempestKnife stat level 1
 //set Swordbreaker stat level 1
 set AssassinsKnife stat level 30
@@ -4717,3 +4718,4 @@ set AmaterasuShield effect restore-uses
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 //to do, increase crossbow damage and accuracy
+
