@@ -1512,13 +1512,14 @@ set MainGauche stat might 3
 set AssassinsKnife effect cripple-x2
 //set BoltKnife effect steal-rate-plus 20 //I can't, it will remove thunder damage
 //set BoltKnife effect thunder-damage 3
-//set TempestKnife effect wind-damage 8
+set TempestKnife effect wind-damage 10
 set ThiefsKnife effect steal-rate-plus 33
 set ThiefsCharm effect steal-rate-plus 33
-set AirKnife effect wind-damage 5
+set AirKnife effect wind-damage 7
 //set BloodKnife effect dark-damage 7
 set Swordbreaker effect sword-break 50
 
+set AirKnife stat weight 2
 set BoltKnife stat weight 2
 set TempestKnife stat weight 2
 set AirKnife stat weight 2
@@ -1532,15 +1533,20 @@ set AssassinsKnife stat level 30
 set Airknife stat level 1
 set ThrowingKnife stat level 1
 
-set Seax stat weight 2
+set Seax stat weight 3
+set KillerKnife stat weight 2
 
+set AirKnife stat cost 1000
 set ThiefsKnife stat cost 1000
+set AssassinsKnife stat cost 3000
+set BloodKnife stat cost 2500
+set KillerKnife stat cost 3000
 
 //set vespa stat level 3
 
 set BoltKnife stat durability C
 set LetterOpener stat durability D
-set bloodknife stat durability C
+set Bloodknife stat durability C
 set kris stat durability C
 set SleepKnife stat durability C
 set AssassinsKnife stat durability D
