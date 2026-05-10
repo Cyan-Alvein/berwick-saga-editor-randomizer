@@ -2156,17 +2156,17 @@ set Gastraphetes effect cripple-x2
 
 //set Arbalest stat level 15
 
-set Bowgun stat weight 11
-set IronCrossbow stat weight 12
-set Gastraphetes stat weight 13
-set HeavyCrossbow stat weight 14
-set BraveCrossbow stat weight 15
-set Chu-ko-nu stat weight 16
-set Arbalest stat weight 15
-set KillerCrossbow stat weight 12
-set Ollerus stat weight 13
-set RapidCrossbow stat weight 16
-set Hawkeye stat weight 11
+set Bowgun stat weight 9
+set IronCrossbow stat weight 10
+set Gastraphetes stat weight 11
+set HeavyCrossbow stat weight 12
+set BraveCrossbow stat weight 13
+set Chu-ko-nu stat weight 14
+set Arbalest stat weight 13
+set KillerCrossbow stat weight 10
+set Ollerus stat weight 11
+set RapidCrossbow stat weight 14
+set Hawkeye stat weight 9
 
 set ImperialCrossbow stat weight 12
 set OldImperialCrossbow stat weight 13
