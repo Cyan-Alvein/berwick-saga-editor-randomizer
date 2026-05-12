@@ -1077,6 +1077,7 @@ set esteban skill pursuit
 set esteban skill celerity
 set esteban skill adept
 set esteban skill doubleshot
+set esteban skill throw
 	
 set faye skill adept
 set faye skill arrowbane
