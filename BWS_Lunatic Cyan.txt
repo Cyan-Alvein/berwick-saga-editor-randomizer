@@ -525,7 +525,7 @@ set burroughs item 3 KisharsWrath 8
 set burroughs item 4 BroadheadArrow 20
 set burroughs item 5 Tumahann 16
 set burroughs item 6 BreakerArrow 20
-set burroughs item 7 Bag 0
+set burroughs item 7 Wormwood 8
 set burroughs growth crossbow 100
 set burroughs base crossbow +20
 
