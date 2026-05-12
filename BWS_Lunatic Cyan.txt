@@ -5,7 +5,6 @@
 //My monero address is: 473xfHS4yyyRsyv2bhSMBHUSm1VHtXDkM677oV8iMtruBjuRrN3YuXQAqEADq3THEwWoYoSZjz2D57826daXMSdXSyrCzh7
 // If you wanna contact me:
 // Simplex Address: https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2F1OwYGt-yqOfe2IyVHhxz3ohqo3aCCMjtB-8wn4X_aoY%3D%40smp11.simplex.im%2FauRyJGGaqyJEL7307oHmXU10-O0_gpey%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEA95PSnSRri1RaSKqN5ho0tsz2E3nUvpO_2mwsKTVVbGc%253D%26srv%3D6ioorbm6i3yxmuoezrhjk6f6qgkc4syabh7m3so74xunb5nzr4pwgfqd.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22lGqfQI9kcrPOApQah_5XpQ%3D%3D%22%7D
-// Session Address: 05af853e07985384220ba0ab98aa1b170eceb3f9899c6756f1f60a47899132e90b
 // My Nosttr Account: https://nostter.app/nprofile1qqs8486svgm5dgret9gr3xamkgkj9mudy6cpzzha9ug9g6l205tklvgpuuyn3
 
 
@@ -1935,6 +1934,7 @@ set NimbusAxe stat might 4
 set DarkAxe stat might 4
 set Mjollnir stat might 9
 set BoltAxe stat might 7
+set MithrilAxe stat might 15
 
 set VolcanoAxe effect fire-damage 7
 set GlacierAxe effect wind-damage 7
@@ -1965,7 +1965,7 @@ set Tomahawk stat Weight 6
 //set BoltAxe stat Weight 7
 //set KillerAxe stat Weight 6
 set Hammer stat Weight 12
-set Greataxe stat Weight 11 
+set Greataxe stat Weight 10
 //set Tabarzin stat Weight 8
 set MithrilAxe stat Weight 5
 set Gullveig stat Weight 6
@@ -2000,7 +2000,7 @@ set Pickaxe stat accuracy 40
 set HandAxe stat accuracy 40
 set Francisca stat accuracy 40
 set Hammer stat accuracy 40
-set Greataxe stat accuracy 40
+set Greataxe stat accuracy 50
 set Shieldaxe stat accuracy 40
 set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 30
@@ -2041,8 +2041,8 @@ set DarkAxe stat durability D
 set BoltAxe stat durability C
 set Mjollnir stat durability B
 set LogSplitter stat durability D
-set Battleaxe stat durability C
-set MithrilAxe stat durability A
+//set Battleaxe stat durability C
+//set MithrilAxe stat durability A
 
 set VerianAxe stat durability D
 set ImperialAxe stat durability D
@@ -4350,6 +4350,7 @@ set Huntress skill counter
 set Mercenary skill counter
 set WarMonk skill counter
 set Warrior skill counter
+set RogueGuard skill counter
 set Pirate skill counter
 set Corsair skill counter
 set Bandit skill counter
@@ -4719,4 +4720,3 @@ set AmaterasuShield effect restore-uses
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 //to do, increase crossbow damage and accuracy
-
