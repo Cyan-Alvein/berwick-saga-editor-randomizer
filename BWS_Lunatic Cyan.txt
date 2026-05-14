@@ -1462,11 +1462,11 @@ set Holy stat accuracy 70
 
 // Dark Magic
 
-Set Nosferatu stat accuracy 80
+Set Nosferatu stat accuracy 50
 Set Nosferatu+ stat accuracy 50
 Set Scylla stat accuracy 70
-Set KisharsWrath stat accuracy 50
-Set Wormwood stat accuracy 50
+Set KisharsWrath stat accuracy 60
+Set Wormwood stat accuracy 40
 
 //knives
 set dagger stat might 2
@@ -1726,7 +1726,7 @@ set Brymranger stat accuracy 50
 set BastardSword stat weight 8
 set Zanbato stat weight 8
 set Shamshir stat weight 7
-set GreatSword stat weight 9
+set GreatSword stat weight 10
 set Adrastia stat weight 9
 set Zweihander stat weight 9
 set Balmung stat weight 8
@@ -1743,6 +1743,8 @@ set Shamshir stat durability B
 set Zanbato stat durability B
 
 set Zanbato stat cost 2000
+
+set Zanbato stat might 16
 
 //spears // spears
 
@@ -1972,7 +1974,7 @@ set Tomahawk stat Weight 6
 //set BoltAxe stat Weight 7
 //set KillerAxe stat Weight 6
 set Hammer stat Weight 12
-set Greataxe stat Weight 10
+set Greataxe stat Weight 11
 //set Tabarzin stat Weight 8
 set MithrilAxe stat Weight 5
 set Gullveig stat Weight 6
@@ -2200,11 +2202,11 @@ set IronCrossbow stat accuracy 70
 set Gastraphetes stat accuracy 70
 set HeavyCrossbow stat accuracy 60
 set BraveCrossbow stat accuracy 60
-set Chu-ko-nu stat accuracy 50
+set Chu-ko-nu stat accuracy 60
 set Arbalest stat accuracy 60
 set KillerCrossbow stat accuracy 80
 set Ollerus stat accuracy 60
-set RapidCrossbow stat accuracy 60
+set RapidCrossbow stat accuracy 70
 set Hawkeye stat accuracy 70
 
 set ImperialCrossbow stat accuracy 70
