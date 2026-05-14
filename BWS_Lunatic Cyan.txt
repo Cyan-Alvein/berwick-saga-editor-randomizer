@@ -1744,7 +1744,7 @@ set Zanbato stat durability B
 
 set Zanbato stat cost 2000
 
-set Zanbato stat might 16
+set Zanbato stat might 18
 
 //spears // spears
 
