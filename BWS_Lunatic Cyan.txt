@@ -28,7 +28,7 @@
 
 // The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
 
-// All player characters got +20 base weapon skill & some got increased weapon growth rate (adel, aegina, daoud ...), so don't waste your time trying to farm Weapon EEXP, just play and enjoy the game.
+// All player characters got +20 base weapon skill and weapon growth.
 
 // All unpromoted player class weapon cap are set as promoted class weapon cap. So Sherlock can reach bow rank 60 without getting promoted
 
@@ -1062,6 +1062,7 @@ set esteban skill hurry
 set esteban skill locktouch
 set esteban skill mercy
 set esteban skill mug
+set esteban skill mug2
 set esteban skill overwatch
 set esteban skill prepared
 set esteban skill tripleshot
@@ -1188,6 +1189,7 @@ set axel skill hurry
 set axel skill locktouch
 set axel skill mercy
 set axel skill mug
+set axel skill mug2
 set axel skill prepared
 set axel skill pulverize
 set axel skill robbery
@@ -4703,7 +4705,6 @@ set AmaterasuShield effect restore-uses
 //magic = hp
 //speed = defense
 //strenght = speed
-//Increasing Ward & Larentia weapon skill cap is bugged.
 //Increasing ennemy class Weapon Skill is bugged, doesn't work, to fix.
 //Learned function is bugged
 //restore-uses doesn't work when the item is in the storage room in Reese's house.
@@ -4711,18 +4712,10 @@ set AmaterasuShield effect restore-uses
 //Adept doesn't work with desperate, but works with deathmatch. so giving Dean Deathmatch is a Huge buff.
 //Bug, Robbery and steal are linked, when robbery proc, it will decrease steal activation counter. So you can only robbery & steal 3 times by map.
 //Shieldaxe shouldn't be a stand-still skill
-//need to test remove bracket for ennemy so they can have 1000 hp without bugging then adding on attack
 //Vengeful should proc during deathmatch
-//Reese shield skill increase to 30 on promotion failed. I succeeded on fixing ruby promo mshield increase, maybe adding set ruby cap mshield 50 fixed it.
-// Christine & Esteban Sword skill increase on promo failed
-//maybe sshield accuracy 30 average
-//Increase Christine arrow mastery at rank up didn't work --set ArrowKnight_R base sword +30
-//Increase Ruby & Reese MShield mastery at rank up didn't work
 //set Glaive effect kill-horse
-//set ward item 6 Concoction 1
 //Give HP & weapon skill to class is bugged, don't work, need to work on it.
 //Adding the option to move, then trade, then attack, will be nice for next game.
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
-//to do, increase crossbow damage and accuracy
