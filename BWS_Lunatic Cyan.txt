@@ -2009,7 +2009,7 @@ set Pickaxe stat accuracy 40
 set HandAxe stat accuracy 40
 set Francisca stat accuracy 40
 set Hammer stat accuracy 40
-set Greataxe stat accuracy 50
+set Greataxe stat accuracy 40
 set Shieldaxe stat accuracy 40
 set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 30
