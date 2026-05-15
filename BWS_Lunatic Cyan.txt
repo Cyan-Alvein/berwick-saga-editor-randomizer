@@ -4974,7 +4974,6 @@ set AmaterasuShield effect restore-uses
 //Shieldaxe shouldn't be a stand-still skill
 //Vengeful should proc during deathmatch
 //set Glaive effect kill-horse
-//Give HP & weapon skill to class is bugged, don't work, need to work on it.
 //Adding the option to move, then trade, then attack, will be nice for next game.
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
