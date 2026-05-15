@@ -673,6 +673,7 @@ set adel skill robbery
 set adel skill hide
 set adel skill windsweep
 set adel skill fortune
+set adel skill armsthrift
 
 set leon skill canto
 set leon skill deathmatch
