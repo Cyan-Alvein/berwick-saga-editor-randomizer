@@ -647,6 +647,7 @@ set christine skill robbery
 set christine skill fortune
 set christine skill pursuit
 set christine skill vantage
+set christine skill counter
 set christine skill adept
 
 set adel skill canto
