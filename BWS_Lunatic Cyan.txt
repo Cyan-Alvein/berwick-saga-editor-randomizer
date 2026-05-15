@@ -4988,33 +4988,3 @@ set AmaterasuShield effect restore-uses
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
-
-set sniper skill doubleshot
-set hunter skill doubleshot
-set hunter skill throw
-set HighHunter skill doubleshot
-set HighHunter skill throw
-set Horseman skill doubleshot
-set Horseman_R skill doubleshot
-set BowKnight skill doubleshot
-set BowKnight_R skill doubleshot
-set LadyKnight skill onetwo
-set LadyKnight_R skill onetwo
-set ArrowKnight skill onetwo
-set ArrowKnight_R skill onetwo
-set Pirate skill mug2
-set Hunter skill mug2
-set HighHunter skill mug2
-set DukeKnight skill counter
-set DukeKnight_R skill counter
-set Duke skill counter
-set LanceKnight skill counter
-set LanceKnight_R skill counter
-set LanceKnight2 skill counter
-set LanceKnight2_R skill counter
-set Paladin_F skill shieldfaire
-set Paladin_F_R skill shieldfaire
-set WyvernKnightLarentia skill shieldfaire
-set WyvernKnightLarentia_R skill shieldfaire
-set ShiningKnightParamythis skill parry
-set ShiningKnightParamythis_R skill parry
