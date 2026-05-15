@@ -4246,7 +4246,7 @@ set WyvernLord_R skill supporter
 //adept to everyone
 set ArrowKnight skill adept
 set ArrowKnight_R skill adept
-//set DarkMaster skill adept
+set DarkMaster skill adept
 set Gunner skill adept
 set HeavyGunner skill adept
 set ImperialGunner skill adept
@@ -4414,7 +4414,6 @@ set Chief skill counter
 set Corsair skill counter
 set DarkMaster skill counter
 set Guardian skill counter
-set Gunner skill vantage
 set Hero skill counter
 set Highlander skill counter
 set Mercenary skill counter
