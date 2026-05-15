@@ -2357,8 +2357,8 @@ set MetalShield stat cost 3000
 set MithrilShield stat cost 4000
 set Perseid stat cost 4000
 set LadyShield stat cost 3000
-set Vollenden stat cost 5000
-set ShiningShield stat cost 5000
+set Vollenden stat cost 3000
+set ShiningShield stat cost 4000
 
 Set VerianSShd Stat cost 866
 set OldImpSShd stat cost 866
@@ -2425,8 +2425,8 @@ Set SquareShield stat Weight 5
 Set KnightShield stat Weight 6
 Set LimitShield stat Weight 6
 Set Hestia stat Weight 6
-Set WyrmskinShield stat Weight 5
-Set LadyMShd stat Weight 5
+Set WyrmskinShield stat Weight 4
+Set LadyMShd stat Weight 4
 Set PaladinShield stat Weight 6
 Set BlackShield stat Weight 6
 
@@ -2442,9 +2442,9 @@ Set SquareShield stat mind 5
 Set KnightShield stat mind 6
 Set LimitShield stat mind 6
 Set Hestia stat mind 9
-Set WyrmskinShield stat mind 9
-Set LadyMShd stat mind 5
-Set PaladinShield stat mind 9
+Set WyrmskinShield stat mind 7
+Set LadyMShd stat mind 7
+Set PaladinShield stat mind 12
 Set BlackShield stat mind 6
 
 Set VerianMShd stat mind 4
@@ -2460,11 +2460,11 @@ Set Kiteshield stat might 8
 Set SquareShield stat might 10
 Set KnightShield stat might 12
 Set LimitShield stat might 11
-Set Hestia stat might 10
+Set Hestia stat might 12
 Set WyrmskinShield stat might 14
-Set LadyMShd stat might 11
-Set PaladinShield stat might 13
-Set BlackShield stat might 13
+Set LadyMShd stat might 12
+Set PaladinShield stat might 14
+Set BlackShield stat might 14
 
 Set VerianMShd stat might 8
 Set ImpSoldierMShd stat might 8
@@ -2592,12 +2592,12 @@ set VerianLShd stat might 12
 set LeatherLShd stat might 12
 set WideShield stat might 14
 set IronShield stat might 16
-set Greatshield stat might 19
+set Greatshield stat might 21
 set KojinShield stat might 15
 set FujinShield stat might 15
 set RaijinShield stat might 15
-set AmaterasuShield stat might 15
-set GeneralShield stat might 20
+set AmaterasuShield stat might 17
+set GeneralShield stat might 21
 
 set LeatherLShd stat cost 1800
 set WideShield stat cost 2100
@@ -2630,12 +2630,12 @@ Set ImpKnightLShd Stat Weight 9
 Set LeatherLShd Stat mind 6
 Set WideShield Stat mind 7
 Set IronShield Stat mind 8
-Set Greatshield Stat mind 12
-Set GeneralShield Stat mind 12
+Set Greatshield Stat mind 15
+Set GeneralShield Stat mind 15
 Set KojinShield Stat mind 7
 Set FujinShield Stat mind 7
 Set RaijinShield Stat mind 7
-Set AmaterasuShield Stat mind 12
+Set AmaterasuShield Stat mind 7
 
 Set VerianLShd Stat mind 6
 Set ImpSoldierLShd Stat mind 7
