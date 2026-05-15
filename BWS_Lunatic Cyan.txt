@@ -581,6 +581,7 @@ set reese skill horseswap
 set reese skill hurry
 set reese skill mercy
 set reese skill robust2
+unset reese skill robust
 set reese skill paragon
 set reese skill Prepared
 set reese skill robbery
@@ -599,6 +600,7 @@ set ward skill mercy
 set ward skill prepared
 set ward skill provoke
 set ward skill robust2
+unset ward skill robust
 set ward skill maim
 set ward skill robbery
 set ward skill hide
@@ -675,6 +677,7 @@ set adel skill hide
 set adel skill windsweep
 set adel skill fortune
 set adel skill armsthrift
+set adel skill counter
 
 set leon skill canto
 set leon skill deathmatch
@@ -689,6 +692,7 @@ set leon skill mercy
 set leon skill pitchfork
 set leon skill prepared
 set leon skill robust2
+unset leon skill robust
 set leon skill supporter
 set leon skill throw 
 set leon skill maim
@@ -784,6 +788,7 @@ set daoud skill mercy
 set daoud skill prepared
 set daoud skill pulverize
 set daoud skill robust2
+unset daoud skill robust
 set daoud skill throw
 set daoud skill desperation
 set daoud skill maim
@@ -883,7 +888,6 @@ set alvina skill robbery
 set alvina skill hide
 set alvina skill desperation
 set alvina skill deathmatch
-set alvina skill charisma
 set alvina skill windsweep
 
 set ruby skill adept 
@@ -904,6 +908,8 @@ set ruby skill deathmatch
 set ruby skill maim
 set ruby skill robbery
 set ruby skill hide
+set ruby skill windsweep
+set ruby skill charisma
 
 set arthur skill armsthrift
 set arthur skill canto
@@ -940,7 +946,6 @@ set kramer skill robust2
 set kramer skill maim
 set kramer skill robbery
 set kramer skill arrowbane
-set kramer skill magicbane
 set kramer skill hide
 set kramer skill fortune
 set kramer skill provoke
@@ -959,6 +964,7 @@ set sherpa skill hurry
 set sherpa skill mercy
 set sherpa skill pulverize
 set sherpa skill robust2
+unset sherpa skill robust
 set sherpa skill windsweep
 set sherpa skill blade
 set sherpa skill Prepared
@@ -967,7 +973,6 @@ set sherpa skill knockaway
 set sherpa skill maim
 set sherpa skill robbery
 set sherpa skill arrowbane
-set sherpa skill magicbane
 set sherpa skill hide
 set sherpa skill fortune
 set sherpa skill provoke
@@ -1112,6 +1117,7 @@ set faye skill pulverize
 set faye skill pursuit
 set faye skill battlecry
 set faye skill vantage
+set faye skill arrowbane
 
 set faramir skill aim
 set faramir skill canto
@@ -1168,6 +1174,7 @@ set volo skill astra
 set volo skill pursuit
 set volo skill battlecry
 set volo skill vantage
+set volo skill arrowbane
 
 set clifford skill canto
 set clifford skill flourish
@@ -1180,6 +1187,7 @@ set clifford skill mercy
 set clifford skill prepared
 set clifford skill provoke
 set clifford skill shieldfaire
+set clifford skill counter
 set clifford skill desperation
 set clifford skill maim
 set clifford skill robbery
@@ -1235,6 +1243,7 @@ set larentia skill hide
 set larentia skill pursuit
 set larentia skill windsweep
 set larentia skill fortune
+set larentia skill vantage
 
 set owen skill adept
 set owen skill blessing
@@ -4030,8 +4039,6 @@ set Hunter skill adept
 //Kramer Stat
 set Mercenary skill canto
 set Mercenary skill hide
-set Mercenary skill arrowbane
-set Mercenary skill magicbane
 set Mercenary skill adept
 
 set LanceKnight skill adept
@@ -4351,10 +4358,8 @@ set WyvernKnightLarentia_R skill adept
 set WyvernLord skill adept
 set WyvernLord_R skill adept
 
-//counter, vantage, bane to class
+//counter to class
 set ArmorKnight skill counter
-set ArrowKnight skill vantage
-set ArrowKnight_R skill vantage
 set Axefighter skill counter
 set Bandit skill counter
 set Chief skill counter
@@ -4362,16 +4367,11 @@ set Corsair skill counter
 set DarkMaster skill counter
 set Guardian skill counter
 set Gunner skill vantage
-set HeavyGunner skill vantage
 set Hero skill counter
 set Highlander skill counter
-set Huntress skill vantage
-set ImperialGunner skill vantage
-set ImperialHeavyGunner skill vantage
 set Mercenary skill counter
 set Pirate skill counter
 set RogueGuard skill counter
-set RogueGunner skill vantage
 set Scoundrel skill counter
 set WarMonk skill counter
 set Warrior skill counter
@@ -4575,6 +4575,206 @@ set lynette skill pursuit
 set paramythis skill pursuit
 set izerna skill pursuit
 
+//vantage to everyone
+set Acolyte skill vantage
+set Apostle skill vantage
+set Aristocrat skill vantage
+set ArmorKnight skill vantage
+set ArrowKnight skill vantage
+set ArrowKnight_R skill vantage
+set Assassin skill vantage
+set Axefighter skill vantage
+set AxeGuard skill vantage
+set Axeman skill vantage
+set AxeSergeant skill vantage
+set AxeSoldier skill vantage
+set Ballistician skill vantage
+set Bandit skill vantage
+set Barbarian skill vantage
+set Berserker skill vantage
+set Bishop skill vantage
+set BlackRider skill vantage
+set BlackRider_R skill vantage
+set BowKnight skill vantage
+set BowKnight_R skill vantage
+set Bowman skill vantage
+set BowRider skill vantage
+set BowRider_R skill vantage
+set Burglar skill vantage
+set Captain skill vantage
+set Cavalier skill vantage
+set Cavalier_R skill vantage
+set Chevalire skill vantage
+set Chevalire_R skill vantage
+set Chief skill vantage
+set ChosenOne skill vantage
+set Cleric skill vantage
+set Corsair skill vantage
+set CourtPriest skill vantage
+set DarkMaster skill vantage
+set DragonKnight skill vantage
+set DragonKnight_R skill vantage
+set Duke skill vantage
+set DukeKnight skill vantage
+set DukeKnight_R skill vantage
+set Engineer skill vantage
+set FailedPoet skill vantage
+set Farmer skill vantage
+set Fencer skill vantage
+set FlameFencer skill vantage
+set Flamewyrm skill vantage
+set Friar skill vantage
+set General skill vantage
+set GigasKnight skill vantage
+set Grassrunner skill vantage
+set Grassrunner_R skill vantage
+set Guardian skill vantage
+set Gunner skill vantage
+set HeavyGunner skill vantage
+set Hero skill vantage
+set HighHunter skill vantage
+set HighKnight skill vantage
+set HighKnight2 skill vantage
+set HighKnight2_R skill vantage
+set HighKnight_R skill vantage
+set Highlander skill vantage
+set Horseman skill vantage
+set Horseman_R skill vantage
+set Hunter skill vantage
+set Huntress skill vantage
+set Icewyrm skill vantage
+set ImperialAxeman skill vantage
+set ImperialBowman skill vantage
+set ImperialBowRider skill vantage
+set ImperialBowRider_R skill vantage
+set ImperialGunner skill vantage
+set ImperialHeavyGunner skill vantage
+set ImperialKnight skill vantage
+set ImperialKnight_R skill vantage
+set ImperialMarksman skill vantage
+set ImperialPaladin skill vantage
+set ImperialPaladin_R skill vantage
+set ImperialSpearman skill vantage
+set ImperialSpearRider skill vantage
+set ImperialSpearRider_R skill vantage
+set King skill vantage
+set KnightLord skill vantage
+set KnightLord_R skill vantage
+set LadyKnight skill vantage
+set LadyKnight_R skill vantage
+set LanceKnight skill vantage
+set LanceKnight2 skill vantage
+set LanceKnight2_R skill vantage
+set LanceKnight_R skill vantage
+set Levinwyrm skill vantage
+set Lord skill vantage
+set Lord_R skill vantage
+set Marksman skill vantage
+set Mercenary skill vantage
+set Myrmidon skill vantage
+set Outlaw skill vantage
+set Paladin skill vantage
+set Paladin_F skill vantage
+set Paladin_F_R skill vantage
+set Paladin_M skill vantage
+set Paladin_M_R skill vantage
+set Paladin_R skill vantage
+set Pickpocket skill vantage
+set Pirate skill vantage
+set Priest skill vantage
+set Priestess skill vantage
+set Princess skill vantage
+set Ranger skill vantage
+set RazeBishop skill vantage
+set RazeBishop2 skill vantage
+set RazeMonk skill vantage
+set RazeMonkOwen skill vantage
+set RazePriest skill vantage
+set RazeWarMonk skill vantage
+set RazeWarMonk2 skill vantage
+set Rogue skill vantage
+set RogueArcher skill vantage
+set RogueGuard skill vantage
+set RogueGunner skill vantage
+set RogueWarrior skill vantage
+set Ruffian skill vantage
+set Ruffian_R skill vantage
+set Scoundrel skill vantage
+set ShiningKnight skill vantage
+set ShiningKnight_R skill vantage
+set ShiningKnightParamythis skill vantage
+set ShiningKnightParamythis_R skill vantage
+set Sniper skill vantage
+set SnowBandit skill vantage
+set SpearKnight skill vantage
+set SpearKnight_R skill vantage
+set Spearman skill vantage
+set SpearRider skill vantage
+set SpearRider_R skill vantage
+set Swordfighter_M skill vantage
+set SwordKnight skill vantage
+set SwordKnight_R skill vantage
+set Swordmaster skill vantage
+set Thief_F skill vantage
+set Thief_M skill vantage
+set ThunderMage skill vantage
+set ThunderSage skill vantage
+set Transporter skill vantage
+set VerianKnight skill vantage
+set VerianKnight2 skill vantage
+set VerianKnight2_R skill vantage
+set VerianKnight_R skill vantage
+set VeteranKnight skill vantage
+set VeteranKnight_R skill vantage
+set WarMonk skill vantage
+set Warrior skill vantage
+set WindMage skill vantage
+set WindSage skill vantage
+set Wyvern skill vantage
+set WyvernKnight skill vantage
+set WyvernKnight_R skill vantage
+set WyvernKnightLarentia skill vantage
+set WyvernKnightLarentia_R skill vantage
+set WyvernLord skill vantage
+set WyvernLord_R skill vantage
+
+set reese skill vantage
+set ward skill vantage
+set elbert skill vantage
+set christine skill vantage
+set adel skill vantage
+set leon skill vantage
+set sherlock skill vantage
+set czene skill vantage
+set daoud skill vantage
+set marcel skill vantage
+set enid skill vantage
+set aegina skill vantage
+set perceval skill vantage
+set alvina skill vantage
+set ruby skill vantage
+set arthur skill vantage
+set kramer skill vantage
+set sherpa skill vantage
+set dean skill vantage
+set sylvis skill vantage
+set thaddy skill vantage
+set esteban skill vantage
+set faye skill vantage
+set faramir skill vantage
+set volo skill vantage
+set clifford skill vantage
+set axel skill vantage
+set larentia skill vantage
+set owen skill vantage
+//set burroughs skill vantage
+set derrick skill vantage
+set saphira skill vantage
+set lynette skill vantage
+set paramythis skill vantage
+set izerna skill vantage
+
+
 set reese skill battlecry
 set ward skill battlecry
 set elbert skill battlecry
@@ -4729,4 +4929,3 @@ set AmaterasuShield effect restore-uses
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
-
