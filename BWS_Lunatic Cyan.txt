@@ -1339,7 +1339,6 @@ set derrick skill pulverize
 set derrick skill hide
 set derrick skill battlecry
 set derrick skill armsthrift
-set derrick skill counter
 set derrick skill adept
 set derrick skill Windsweep
 set derrick skill sunder
@@ -3243,6 +3242,7 @@ set Bowman skill aim
 set Bowman skill camouflage
 set Bowman skill hide
 set Bowman skill watchful
+set Bowman skill doubleshot
 	
 set BowRider base strength +5
 set BowRider base defense +1
@@ -3255,6 +3255,7 @@ set BowRider skill aim
 set BowRider skill camouflage
 set BowRider skill hide
 set BowRider skill watchful
+set BowRider skill doubleshot
 
 set BowRider_R base strength +5
 set BowRider_R base defense +1
@@ -3267,6 +3268,7 @@ set BowRider_R skill aim
 set BowRider_R skill camouflage
 set BowRider_R skill hide
 set BowRider_R skill watchful
+set BowRider_R skill doubleshot
 
 set Gunner base strength +5
 set Gunner base defense +1
@@ -3303,6 +3305,7 @@ set ImperialBowman skill aim
 set ImperialBowman skill camouflage
 set ImperialBowman skill hide
 set ImperialBowman skill watchful
+set ImperialBowman skill doubleshot
 
 set ImperialBowRider_R base strength +5
 set ImperialBowRider_R base defense +1
@@ -3315,6 +3318,7 @@ set ImperialBowRider_R skill aim
 set ImperialBowRider_R skill camouflage
 set ImperialBowRider_R skill hide
 set ImperialBowRider_R skill watchful
+set ImperialBowRider_R skill doubleshot
 
 set ImperialBowRider base strength +5
 set ImperialBowRider base defense +1
@@ -3327,6 +3331,7 @@ set ImperialBowRider skill aim
 set ImperialBowRider skill camouflage
 set ImperialBowRider skill hide
 set ImperialBowRider skill watchful
+set ImperialBowRider skill doubleshot
 
 set ImperialGunner base strength +5
 set ImperialGunner base defense +1
@@ -3363,6 +3368,7 @@ set Marksman skill aim
 set Marksman skill camouflage
 set Marksman skill hide
 set Marksman skill watchful
+set Marksman skill doubleshot
 
 set ImperialMarksman base strength +5
 set ImperialMarksman base defense +1
@@ -3376,6 +3382,7 @@ set ImperialMarksman skill aim
 set ImperialMarksman skill camouflage
 set ImperialMarksman skill hide
 set ImperialMarksman skill watchful
+set ImperialMarksman skill doubleshot
 
 set Warrior base strength +5
 set Warrior base defense +1
@@ -3428,6 +3435,7 @@ set Ruffian_R skill aim
 set Ruffian_R skill hide
 set Ruffian_R skill watchful
 set Ruffian_R skill vantage
+set Ruffian_R skill doubleshot
 
 set Ruffian base strength +5
 set Ruffian base defense +1
@@ -3443,6 +3451,7 @@ set Ruffian skill shieldfaire
 set Ruffian skill hide
 set Ruffian skill watchful
 set Ruffian skill vantage
+set Ruffian skill doubleshot
 
 set Pickpocket base strength +5
 set Pickpocket base defense +1
@@ -3583,7 +3592,6 @@ set RazeWarMonk skill versatile
 set RazeWarMonk skill resistor
 set RazeWarMonk skill hide
 set RazeWarMonk skill watchful
-
 set RazeWarMonk skill armsthrift
 
 // same as kramer 
@@ -3609,6 +3617,7 @@ set RogueArcher skill armsthrift
 set RogueArcher skill camouflage
 set RogueArcher skill hide
 set RogueArcher skill watchful
+set RogueArcher skill doubleshot
 
 set RogueGunner base strength +5
 set RogueGunner base defense +1
@@ -4026,6 +4035,7 @@ set Pirate skill adept
 set Horseman skill aim
 set Horseman skill hide
 set Horseman skill watchful
+set Horseman skill doubleshot
 
 set BowKnight_R skill hide
 set BowKnight_R skill watchful
@@ -4042,10 +4052,13 @@ set BowKnight skill tripleshot
 set Horseman_R skill aim
 set Horseman_R skill hide
 set Horseman_R skill watchful
+set Horseman_R skill doubleshot
 
 set SpearKnight skill hide
+set SpearKnight skill counter
 
 set SpearKnight_R skill hide
+set SpearKnight_R skill counter
 
 set Ballistician skill aim
 set Ballistician skill armsthrift
@@ -4083,6 +4096,7 @@ set AxeSoldier skill vengeful
 set ArmorKnight skill throw
 set ArmorKnight skill canto
 set ArmorKnight skill shieldfaire
+set ArmorKnight skill vengeful
 set ArmorKnight skill hide
 set ArmorKnight skill armsthrift
 set ArmorKnight skill adept
@@ -4094,6 +4108,7 @@ set Hunter skill hide
 set Hunter skill watchful
 set Hunter skill aim
 set Hunter skill adept
+set Hunter skill doubleshot
 
 //Kramer Stat
 set Mercenary skill canto
@@ -4160,7 +4175,11 @@ set SpearKnight skill parry
 set SpearKnight_R skill parry
 
 set BowKnight skill adept
+set BowKnight skill doubleshot
+set BowKnight skill tripleshot
 set BowKnight_R skill adept
+set BowKnight_R skill doubleshot
+set BowKnight_R skill tripleshot
 
 set Berserker skill maim
 set Berserker skill hide
@@ -4419,22 +4438,33 @@ set WyvernLord_R skill adept
 
 //counter to class
 set ArmorKnight skill counter
+set ArrowKnight skill counter
+set ArrowKnight_R skill counter
 set Axefighter skill counter
 set Bandit skill counter
 set Chief skill counter
 set Corsair skill counter
 set DarkMaster skill counter
 set Guardian skill counter
+set Gunner skill counter
+set HeavyGunner skill counter
 set Hero skill counter
 set Highlander skill counter
+set ImperialGunner skill counter
+set ImperialHeavyGunner skill counter
+set LadyKnight skill counter
+set LadyKnight_R skill counter
 set Mercenary skill counter
 set Pirate skill counter
+set Rogue skill counter
 set RogueGuard skill counter
+set RogueGunner skill counter
+set RogueWarrior skill counter
 set Scoundrel skill counter
-set WarMonk skill counter
-set Warrior skill counter
 set VeteranKnight skill counter
 set VeteranKnight_R skill counter
+set WarMonk skill counter
+set Warrior skill counter
 
 //Pursuit to everyone
 set Acolyte skill pursuit
