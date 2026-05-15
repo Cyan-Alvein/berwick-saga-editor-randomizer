@@ -646,7 +646,7 @@ set christine skill onetwo
 set christine skill robbery
 set christine skill fortune
 set christine skill pursuit
-set christine skill counter
+set christine skill vantage
 set christine skill adept
 
 set adel skill canto
@@ -939,6 +939,7 @@ set kramer skill robust2
 set kramer skill maim
 set kramer skill robbery
 set kramer skill arrowbane
+set kramer skill magicbane
 set kramer skill hide
 set kramer skill fortune
 set kramer skill provoke
@@ -965,6 +966,7 @@ set sherpa skill knockaway
 set sherpa skill maim
 set sherpa skill robbery
 set sherpa skill arrowbane
+set sherpa skill magicbane
 set sherpa skill hide
 set sherpa skill fortune
 set sherpa skill provoke
@@ -1022,6 +1024,7 @@ set sylvis skill armsthrift
 set sylvis skill celerity
 set sylvis skill adept
 set sylvis skill doubleshot
+set sylvis skill vantage
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -1080,9 +1083,9 @@ set esteban skill celerity
 set esteban skill adept
 set esteban skill doubleshot
 set esteban skill throw
+set esteban skill vantage
 	
 set faye skill adept
-set faye skill arrowbane
 set faye skill deathmatch
 set faye skill desperation
 set faye skill blade 
@@ -1107,6 +1110,7 @@ set faye skill scotopic
 set faye skill pulverize
 set faye skill pursuit
 set faye skill battlecry
+set faye skill vantage
 
 set faramir skill aim
 set faramir skill canto
@@ -1133,9 +1137,9 @@ set faramir skill pulverize
 set faramir skill pursuit
 set faramir skill battlecry
 set faramir skill adept
+set faramir skill vantage
 
 set volo skill adept
-set volo skill arrowbane
 set volo skill blade
 set volo skill canto
 set volo skill deathmatch
@@ -1162,6 +1166,7 @@ set volo skill pulverize
 set volo skill astra
 set volo skill pursuit
 set volo skill battlecry
+set volo skill vantage
 
 set clifford skill canto
 set clifford skill flourish
@@ -3342,7 +3347,7 @@ set Corsair skill throw
 set Corsair skill camouflage
 set Corsair skill hide
 
-// Rufffian is cav archer, sherlock
+// Rufffian is cav archer & knife, sherlock
 set Ruffian_R base strength +5
 set Ruffian_R base defense +1
 set Ruffian_R base magic +10
@@ -3926,7 +3931,7 @@ set Swordfighter_M skill parry
 set Swordfighter_M skill hide
 set Swordfighter_M skill watchful
 set Swordfighter_M skill celerity
-set Swordfighter_M skill arrowbane
+set Swordfighter_M skill vantage
 
 set Swordmaster skill adept
 set Swordmaster skill canto
@@ -3938,7 +3943,7 @@ set Swordmaster skill maim
 set Swordmaster skill hide
 set Swordmaster skill watchful
 set Swordmaster skill celerity
-set Swordmaster skill arrowbane
+set Swordmaster skill vantage
 
 set SwordKnight_R skill armsthrift
 set SwordKnight_R skill hide
@@ -3999,7 +4004,7 @@ set Myrmidon skill hide
 set Myrmidon skill watchful
 set Myrmidon skill celerity
 set Myrmidon skill fortune
-set Myrmidon skill arrowbane
+set Myrmidon skill vantage
 
 //Daoud Stat
 set AxeSoldier skill throw
@@ -4025,6 +4030,7 @@ set Hunter skill adept
 set Mercenary skill canto
 set Mercenary skill hide
 set Mercenary skill arrowbane
+set Mercenary skill magicbane
 set Mercenary skill adept
 
 set LanceKnight skill adept
@@ -4344,30 +4350,30 @@ set WyvernKnightLarentia_R skill adept
 set WyvernLord skill adept
 set WyvernLord_R skill adept
 
-//counter to class
-set ArrowKnight skill counter
-set ArrowKnight_R skill counter
-set DarkMaster skill counter
-set Gunner skill counter
-set HeavyGunner skill counter
-set ImperialGunner skill counter
-set ImperialHeavyGunner skill counter
-set RogueGunner skill counter
+//counter, vantage, bane to class
+set ArmorKnight skill counter
+set ArrowKnight skill vantage
+set ArrowKnight_R skill vantage
 set Axefighter skill counter
-set Hero skill counter
-set Highlander skill counter
-set Huntress skill counter
-set Mercenary skill counter
-set WarMonk skill counter
-set Warrior skill counter
-set RogueGuard skill counter
-set Pirate skill counter
-set Corsair skill counter
 set Bandit skill counter
 set Chief skill counter
-set Scoundrel skill counter
-set ArmorKnight skill counter
+set Corsair skill counter
+set DarkMaster skill counter
 set Guardian skill counter
+set Gunner skill vantage
+set HeavyGunner skill vantage
+set Hero skill counter
+set Highlander skill counter
+set Huntress skill vantage
+set ImperialGunner skill vantage
+set ImperialHeavyGunner skill vantage
+set Mercenary skill counter
+set Pirate skill counter
+set RogueGuard skill counter
+set RogueGunner skill vantage
+set Scoundrel skill counter
+set WarMonk skill counter
+set Warrior skill counter
 
 //Pursuit to everyone
 set Acolyte skill pursuit
@@ -4722,3 +4728,4 @@ set AmaterasuShield effect restore-uses
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
+
