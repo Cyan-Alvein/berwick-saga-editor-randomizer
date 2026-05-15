@@ -16,9 +16,9 @@
 
 // Hawkeye & Arbalest got 2 range, Same as Ollerus. Apeiron, Rossweisse & Greatbow got 3 range.
 
-// Everyone got Mercy, Canto, Flourish, Maim, Horse_lover, Guard ...
+// Everyone got Mercy, Canto, Flourish, Maim, Horse_lover, Guard, Adept, Pursuit, Windsweep, Sunder, Vantage ...
 
-// NB: Faye, Faramir, Volo use Astra. Faye, Faramir, Volo, Sherpa & Kramer can use Pulverize when they have a Blade Equiped. Now you understand why the Blade skill is OP, since Pulverize is the best offensive skill in the game.
+// NB: Faye, Volo use Astra. Faye, Faramir, Volo, Sherpa & Kramer can use Pulverize when they have a Blade Equiped. Now you understand why the Blade skill is OP, since Pulverize is the best offensive skill in the game.
 
 //Reese, Ruby, Alvina, Larentia, Kramer, Sherpa, Faye, Faramir, Dean got Deathmatch Skill
 
@@ -48,6 +48,10 @@
 // All priest class got resistor skill, yes even Izerna & ennemy priest
 
 // The function "learned" bug too much, instead of learning overwatch, someone can learn the skill "silence" instead. So I never used "learned" 
+
+// Crossbow, Lance and all Shields got huge buffs. More accuracy, damage, shield now protect from magic ...
+
+//Perseid, Gram, BoltKnife & Hestia will repair after each chapter. The game is ultra hard now so you will need those all the time.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
