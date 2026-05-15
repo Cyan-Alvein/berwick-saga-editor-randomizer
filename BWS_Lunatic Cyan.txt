@@ -2188,7 +2188,7 @@ set BronzeBow stat accuracy 50
 set ImperialBow stat accuracy 50
 set OldImperialBow stat accuracy 40
 set ShortBow stat accuracy 50
-set TripleFireBow stat accuracy 50
+set TripleFireBow stat accuracy 40
 set Strongbow stat accuracy 40
 set Greatbow stat accuracy 40
 set SwiftBow stat accuracy 40
