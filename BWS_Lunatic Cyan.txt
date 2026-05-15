@@ -1281,6 +1281,7 @@ set larentia skill windsweep
 set larentia skill fortune
 set larentia skill vantage
 set larentia skill sunder
+set larentia skill shieldfaire
 
 set owen skill adept
 set owen skill blessing
@@ -1412,7 +1413,7 @@ set paramythis skill charisma
 set paramythis skill adept
 set paramythis skill Windsweep
 set paramythis skill sunder
-
+set paramythis skill parry
 
 // prfs
 set Pascanion2 stat level 20
@@ -3154,6 +3155,7 @@ set WyvernKnight_R skill throw
 set WyvernKnight_R skill hide
 set WyvernKnight_R skill adept
 set WyvernKnight_R skill parry
+set WyvernKnight_R skill shieldfaire
 
 // larentia stat
 set WyvernKnight skill canto
@@ -3161,6 +3163,7 @@ set WyvernKnight skill throw
 set WyvernKnight skill hide
 set WyvernKnight skill adept
 set WyvernKnight skill parry
+set WyvernKnight skill shieldfaire
 
 set WyvernLord_R base strength +5
 set WyvernLord_R base defense +1
@@ -3920,6 +3923,7 @@ set AxeSergeant skill armsthrift
 set AxeSergeant skill canto
 set AxeSergeant skill throw
 set AxeSergeant skill hide
+set AxeSergeant skill vengeful
 
 //Will fuck Czene Stat on rankup
 set Grassrunner_R skill camouflage
@@ -4067,6 +4071,8 @@ set Myrmidon skill vantage
 //Daoud Stat
 set AxeSoldier skill throw
 set AxeSoldier skill hide
+set AxeSoldier skill counter
+set AxeSoldier skill vengeful
 
 //Derrick Stat
 set ArmorKnight skill throw
@@ -4977,3 +4983,4 @@ set AmaterasuShield effect restore-uses
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
+
