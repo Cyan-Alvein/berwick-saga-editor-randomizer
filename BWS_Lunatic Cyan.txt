@@ -1966,6 +1966,7 @@ set Drakelance effect cripple-x2
 set Xyston effect cripple-x2
 set IronLance effect cripple-x2
 set Oxtongue effect cripple-x2
+set GreatLance effect cripple-x2
 
 set IronLance stat hex 5
 set Oxtongue stat hex 6
