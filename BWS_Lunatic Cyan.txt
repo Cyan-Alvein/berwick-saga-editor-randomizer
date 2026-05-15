@@ -589,6 +589,7 @@ set reese skill desperation
 set reese skill deathmatch
 set reese skill hide
 set reese skill windsweep
+set reese skill sunder
 
 set ward skill canto
 set ward skill flourish
@@ -608,6 +609,9 @@ set ward skill shieldfaire
 set ward skill arrowbane
 set ward skill desperation
 set ward skill throw
+set ward skill counter
+set ward skill Windsweep
+set ward skill sunder
 	
 set elbert skill arrowbane
 set elbert skill canto
@@ -627,6 +631,8 @@ set elbert skill maim
 set elbert skill robbery
 set elbert skill hide
 set elbert skill adept
+set elbert skill Windsweep
+set elbert skill sunder
 
 set christine skill aim
 set christine skill armsthrift
@@ -651,6 +657,8 @@ set christine skill pursuit
 set christine skill vantage
 set christine skill counter
 set christine skill adept
+set christine skill Windsweep
+set christine skill sunder
 
 set adel skill canto
 set adel skill pursuit 
@@ -678,6 +686,7 @@ set adel skill windsweep
 set adel skill fortune
 set adel skill armsthrift
 set adel skill counter
+set adel skill sunder
 
 set leon skill canto
 set leon skill deathmatch
@@ -703,6 +712,8 @@ set leon skill parry
 set leon skill pursuit
 set leon skill windsweep
 set leon skill fortune
+set leon skill counter
+set leon skill sunder
 
 set sherlock skill aim 
 set sherlock skill canto
@@ -729,6 +740,7 @@ set sherlock skill fortune
 set sherlock skill pursuit
 set sherlock skill deathmatch
 set sherlock skill adept
+set sherlock skill sunder
 
 set izerna skill blessing
 set izerna skill canto
@@ -750,6 +762,8 @@ set izerna skill fortune
 set izerna skill focuschant
 set izerna skill adept
 set izerna skill charisma
+set izerna skill Windsweep
+set izerna skill sunder
 
 set czene skill adept
 set czene skill critical
@@ -797,6 +811,8 @@ set daoud skill hide
 set daoud skill counter
 set daoud skill adept
 set daoud skill vengeful
+set daoud skill Windsweep
+set daoud skill sunder
 
 set enid skill canto
 set enid skill charisma
@@ -816,6 +832,8 @@ set enid skill watchful
 set enid skill flourish
 set enid skill adept
 set enid skill fortune
+set enid skill Windsweep
+set enid skill sunder
 
 set aegina skill canto
 set aegina skill focuschant
@@ -835,6 +853,8 @@ set aegina skill hide
 set aegina skill watchful
 set aegina skill fortune
 set aegina skill adept
+set aegina skill Windsweep
+set aegina skill sunder
 
 set perceval skill arrowbane
 set perceval skill adept
@@ -853,6 +873,8 @@ set perceval skill hide
 set perceval skill watchful
 set perceval skill fortune
 set perceval skill focuschant
+set perceval skill Windsweep
+set perceval skill sunder
 
 set marcel skill canto
 set marcel skill counter
@@ -871,6 +893,8 @@ set marcel skill hide
 set marcel skill battlecry
 set marcel skill armsthrift
 set marcel skill adept
+set marcel skill Windsweep
+set marcel skill sunder
 
 set alvina skill adept
 set alvina skill canto
@@ -889,6 +913,7 @@ set alvina skill hide
 set alvina skill desperation
 set alvina skill deathmatch
 set alvina skill windsweep
+set alvina skill sunder
 
 set ruby skill adept 
 set ruby skill axebane
@@ -909,7 +934,8 @@ set ruby skill maim
 set ruby skill robbery
 set ruby skill hide
 set ruby skill windsweep
-set ruby skill charisma
+set ruby skill shieldfaire
+set ruby skill sunder
 
 set arthur skill armsthrift
 set arthur skill canto
@@ -929,6 +955,8 @@ set arthur skill robbery
 set arthur skill hide
 set arthur skill provoke
 set arthur skill adept
+set arthur skill Windsweep
+set arthur skill sunder
 
 set kramer skill blade 
 set kramer skill canto
@@ -954,6 +982,7 @@ set kramer skill windsweep
 set kramer skill pursuit
 set kramer skill deathmatch
 set kramer skill adept
+set kramer skill sunder
 
 set sherpa skill canto
 set sherpa skill climber
@@ -980,6 +1009,7 @@ set sherpa skill battlecry
 set sherpa skill pursuit
 set sherpa skill deathmatch
 set sherpa skill adept
+set sherpa skill sunder
 
 set dean skill adept
 set dean skill axeguard
@@ -1005,6 +1035,7 @@ set dean skill provoke
 set dean skill windsweep
 set dean skill pursuit
 set dean skill counter
+set dean skill sunder
 
 set sylvis skill aim
 set sylvis skill canto
@@ -1031,6 +1062,7 @@ set sylvis skill celerity
 set sylvis skill adept
 set sylvis skill doubleshot
 set sylvis skill vantage
+set sylvis skill sunder
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -1090,6 +1122,7 @@ set esteban skill adept
 set esteban skill doubleshot
 set esteban skill throw
 set esteban skill vantage
+set esteban skill sunder
 	
 set faye skill adept
 set faye skill deathmatch
@@ -1194,6 +1227,8 @@ set clifford skill robbery
 set clifford skill hide
 set clifford skill throw
 set clifford skill adept
+set clifford skill Windsweep
+set clifford skill sunder
 
 set axel skill canto
 set axel skill axeguard
@@ -1223,6 +1258,7 @@ set axel skill windsweep
 set axel skill fortune
 set axel skill adept
 set axel skill counter
+set axel skill sunder
 
 set larentia skill adept
 set larentia skill parry
@@ -1244,6 +1280,7 @@ set larentia skill pursuit
 set larentia skill windsweep
 set larentia skill fortune
 set larentia skill vantage
+set larentia skill sunder
 
 set owen skill adept
 set owen skill blessing
@@ -1261,6 +1298,8 @@ set owen skill hide
 set owen skill battlecry
 set owen skill fortune
 set owen skill focuschant
+set owen skill Windsweep
+set owen skill sunder
 
 set burroughs skill armsthrift
 set burroughs skill battlecry
@@ -1274,6 +1313,7 @@ set burroughs skill Prepared
 set burroughs skill maim
 set burroughs skill hide
 set burroughs skill fortune
+set burroughs skill sunder
 
 set derrick skill axeguard
 set derrick skill canto
@@ -1296,6 +1336,8 @@ set derrick skill battlecry
 set derrick skill armsthrift
 set derrick skill counter
 set derrick skill adept
+set derrick skill Windsweep
+set derrick skill sunder
 
 set saphira skill blessing
 set saphira skill canto
@@ -1317,6 +1359,8 @@ set saphira skill hide
 set saphira skill watchful
 set saphira skill guard
 set saphira skill fortune
+set saphira skill Windsweep
+set saphira skill sunder
 
 set lynette skill aim
 set lynette skill canto
@@ -1340,6 +1384,8 @@ set lynette skill hide
 set lynette skill watchful
 set lynette skill fortune
 set lynette skill adept
+set lynette skill Windsweep
+set lynette skill sunder
 
 set paramythis skill blessing
 set paramythis skill camouflage
@@ -1364,6 +1410,8 @@ set paramythis skill desperation
 set paramythis skill fortune
 set paramythis skill charisma
 set paramythis skill adept
+set paramythis skill Windsweep
+set paramythis skill sunder
 
 
 // prfs
@@ -4375,6 +4423,8 @@ set RogueGuard skill counter
 set Scoundrel skill counter
 set WarMonk skill counter
 set Warrior skill counter
+set VeteranKnight skill counter
+set VeteranKnight_R skill counter
 
 //Pursuit to everyone
 set Acolyte skill pursuit
