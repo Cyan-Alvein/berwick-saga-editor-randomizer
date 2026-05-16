@@ -691,6 +691,7 @@ set adel skill fortune
 set adel skill armsthrift
 set adel skill counter
 set adel skill sunder
+set adel skill provoke
 
 set leon skill canto
 set leon skill deathmatch
@@ -900,6 +901,7 @@ set marcel skill armsthrift
 set marcel skill adept
 set marcel skill Windsweep
 set marcel skill sunder
+set marcel skill provoke
 
 set alvina skill adept
 set alvina skill canto
@@ -1343,6 +1345,7 @@ set derrick skill armsthrift
 set derrick skill adept
 set derrick skill Windsweep
 set derrick skill sunder
+set derrick skill provoke
 
 set saphira skill blessing
 set saphira skill canto
