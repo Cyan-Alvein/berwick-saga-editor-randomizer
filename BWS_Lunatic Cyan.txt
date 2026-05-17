@@ -1681,7 +1681,7 @@ set AltiumSword effect cripple-x2
 
 set WindEdge effect wind-damage 7
 set LevinSword effect thunder-damage 11
-set HolySword effect holy-damage 7
+//set HolySword effect holy-damage 7
 set FlameSword effect fire-damage 9
 set InfernalEdge effect fire-damage 12
 
@@ -1693,11 +1693,14 @@ set Albatross stat accuracy 50
 set Scimitar+ stat accuracy 50
 set KnightSword stat accuracy 60
 set FlameSword stat accuracy 50
-set HolySword stat accuracy 50
+set HolySword stat accuracy 60
 set WindEdge stat accuracy 50
 set KillingEdge stat accuracy 60
 set Harperia stat accuracy 60
-
+set Gram stat accuracy 60
+set LadySword stat accuracy 70
+set Estoc stat accuracy 70
+set Grimhild stat accuracy 70
 
 Set ImperialSword stat cost 1200
 set AltiumSword stat cost 3000
@@ -1709,6 +1712,8 @@ set InfernalEdge stat cost 6000
 set RazeEtoile stat cost 6000
 set Harperia stat cost 6000
 set Colichemarde stat cost 7000
+set LadySword stat cost 4000
+set Nothung stat cost 10000
 
 set Scimitar+ stat level 5
 //set FlameSword stat level 1
