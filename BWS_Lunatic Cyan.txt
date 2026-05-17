@@ -1467,7 +1467,9 @@ set PallasRiana stat level 20
 set Windstorm stat accuracy 70
 set Windstorm stat level 1
 set Blizzard stat level 1
-set Blizzard stat might 10
+set Blizzard stat might 20
+set AirBlade stat might 4
+set Windstorm stat might 4
 set PallasRiana stat max-range 3
 set PallasRiana stat accuracy 70
 set Sandstorm stat accuracy 80
@@ -1497,7 +1499,7 @@ set DireThunder stat might 10
 set Lightning stat max-range 2
 set Lightning stat accuracy 70
 set Lightning stat level 1
-set Lightning stat might 15
+set Lightning stat might 20
 set PallasSerenia stat level 20
 set PallasSerenia max-range 3
 set PallasSerenia stat accuracy 70
@@ -1522,10 +1524,11 @@ set Rehabilitate stat level 10
 set AirBlade effect injure-rate 4
 set Windstorm effect injure-rate 4
 set PallasRiana effect injure-rate 4
-set Blizzard effect injure-rate 33
+set Blizzard effect injure-rate 66
 set Fire effect cripple-rate 4
-set Hellfire effect cripple-rate 8
-set PallasLeia effect cripple-rate 8
+set Hellfire effect cripple-x2
+set Earthblaze effect cripple-x2
+set PallasLeia effect cripple-x2
 set Thunder effect cripple-rate 4
 set DireThunder effect cripple-rate 4
 set PallasSerenia effect cripple-x2
