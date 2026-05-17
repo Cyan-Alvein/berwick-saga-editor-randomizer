@@ -425,6 +425,8 @@ set Hunter cap Bow 60
 set Hunter cap Knife 50
 set Hunter cap sword 40
 set esteban cap sword 40
+set HighHunter cap Knife 50
+set HighHunter cap Sword 40
 
 //set faramir item 0 Cutlass+ 101
 set faramir item 1 Bag 0
@@ -1071,6 +1073,7 @@ set sylvis skill adept
 set sylvis skill doubleshot
 set sylvis skill vantage
 set sylvis skill sunder
+set sylvis skill counter
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -1131,6 +1134,7 @@ set esteban skill doubleshot
 set esteban skill throw
 set esteban skill vantage
 set esteban skill sunder
+set esteban skill counter
 	
 set faye skill adept
 set faye skill deathmatch
@@ -1186,6 +1190,7 @@ set faramir skill pursuit
 set faramir skill battlecry
 set faramir skill adept
 set faramir skill vantage
+set faramir skill counter
 
 set volo skill adept
 set volo skill blade
@@ -2254,6 +2259,23 @@ set Hawkeye stat weight 11
 set ImperialCrossbow stat weight 10
 set OldImperialCrossbow stat weight 11
 set VerianCrossbow stat weight 10
+
+set Bowgun stat min-range 1
+set IronCrossbow stat min-range 1
+set Gastraphetes stat min-range 1
+set HeavyCrossbow stat min-range 1
+set BraveCrossbow stat min-range 1
+set Chu-ko-nu stat min-range 1
+set Arbalest stat min-range 1
+set KillerCrossbow stat min-range 1
+set Ollerus stat min-range 1
+set RapidCrossbow stat min-range 1
+set Hawkeye stat min-range 1
+
+set ImperialCrossbow stat min-range 1
+set OldImperialCrossbow stat min-range 1
+set VerianCrossbow stat min-range 1
+
 
 set Bowgun stat might 9
 set IronCrossbow stat might 15
