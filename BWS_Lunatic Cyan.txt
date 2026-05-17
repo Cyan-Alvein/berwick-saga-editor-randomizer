@@ -2545,7 +2545,7 @@ Set LeatherMShd stat Weight 3
 Set Kiteshield stat Weight 4
 Set SquareShield stat Weight 5
 Set KnightShield stat Weight 6
-Set LimitShield stat Weight 6
+Set LimitShield stat Weight 5
 Set Hestia stat Weight 6
 Set WyrmskinShield stat Weight 4
 Set LadyMShd stat Weight 4
@@ -2562,7 +2562,7 @@ Set LeatherMShd stat mind 3
 Set Kiteshield stat mind 4
 Set SquareShield stat mind 5
 Set KnightShield stat mind 6
-Set LimitShield stat mind 6
+Set LimitShield stat mind 5
 Set Hestia stat mind 9
 Set WyrmskinShield stat mind 7
 Set LadyMShd stat mind 7
