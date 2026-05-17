@@ -527,10 +527,11 @@ set Bishop base dark +50
 
 //set burroughs item 0 Bag 0
 //set burroughs item 1 BodkinArrow 20
+set burroughs item 2 MithrilArrow 20
 set burroughs item 3 KisharsWrath 8
-set burroughs item 4 BroadheadArrow 20
+set burroughs item 4 Killerbow 101
 set burroughs item 5 Tumahann 16
-set burroughs item 6 BreakerArrow 20
+set burroughs item 6 MithrilShield 101
 set burroughs item 7 Wormwood 8
 set burroughs growth crossbow 100
 set burroughs base crossbow +20
@@ -2179,11 +2180,11 @@ set SwiftBow stat Weight 7
 set Longbow stat Weight 7
 set TripleFireBow stat Weight 10
 set CompositeBow stat Weight 8
-set Apollyon stat Weight 6
+set Apollyon stat Weight 5
 set Strongbow stat Weight 9
 set Greatbow stat Weight 10
-set Killerbow stat Weight 7
-set Apeiron stat Weight 8
+set Killerbow stat Weight 6
+set Apeiron stat Weight 6
 set Rossweisse stat Weight 6
 set Pascanion stat Weight 8
 set Pascanion2 stat Weight 8
@@ -2201,7 +2202,7 @@ set ShortBow stat accuracy 50
 set TripleFireBow stat accuracy 40
 set Strongbow stat accuracy 40
 set Greatbow stat accuracy 40
-set SwiftBow stat accuracy 40
+set SwiftBow stat accuracy 50
 set VerianBow stat accuracy 50
 set OldImperialBow stat accuracy 40
 
@@ -2211,6 +2212,7 @@ set SwiftBow stat durability C
 set Longbow stat durability C
 set Apollyon stat durability B
 set Apeiron stat durability B
+set TripleFireBow stat durability D
 
 set BronzeBow stat durability C
 set VerianBow stat durability C
@@ -2235,7 +2237,9 @@ set IronBow stat might 1
 set OldImperialBow stat might 1
 set ShortBow stat might 3
 set VerianBow stat might 3
-set SwiftBow stat might 3
+set SwiftBow stat might 0
+set TripleFireBow stat might 0
+set Apollyon stat might 6
 
 
 //Crossbow
