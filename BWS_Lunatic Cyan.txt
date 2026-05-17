@@ -12,7 +12,7 @@
 
 // pitchfork & MilitaryFork got cripple rate 8
 
-// Pike, Longspear, Altium, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Holy & all lance weapons got cripple-x2
+// Pike, Longspear, Altium, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Holy , Hellfire, Earthblaze & all lance weapons got cripple-x2
 
 // Hawkeye & Arbalest got 2 range, Same as Ollerus. Apeiron, Rossweisse & Greatbow got 3 range.
 
