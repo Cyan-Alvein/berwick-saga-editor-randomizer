@@ -572,6 +572,9 @@ set paramythis item 0 HolyMace 101
 set paramythis item 2 PeerlessBrace 0
 set paramythis item 3 holy 20
 set paramythis item 4 Treasure 101
+set paramythis item 5 HolySword 101
+set paramythis item 6 WyrmskinShield 101
+set paramythis item 6 GeneralShield 101
 set paramythis growth sword 100
 set paramythis growth holy 60
 set paramythis base sword +20
