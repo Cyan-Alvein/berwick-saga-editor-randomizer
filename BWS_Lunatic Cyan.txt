@@ -1529,8 +1529,8 @@ set Fire effect cripple-rate 4
 set Hellfire effect cripple-x2
 set Earthblaze effect cripple-x2
 set PallasLeia effect cripple-x2
-set Thunder effect cripple-rate 4
-set DireThunder effect cripple-rate 4
+set Thunder effect cripple-rate 8
+set DireThunder effect cripple-rate 8
 set PallasSerenia effect cripple-x2
 
 set Heal stat max-range 3
