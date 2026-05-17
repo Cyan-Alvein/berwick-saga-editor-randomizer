@@ -822,6 +822,7 @@ set daoud skill adept
 set daoud skill vengeful
 set daoud skill Windsweep
 set daoud skill sunder
+set daoud skill provoke
 
 set enid skill canto
 set enid skill charisma
