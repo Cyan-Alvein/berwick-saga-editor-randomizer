@@ -2188,27 +2188,6 @@ set VerianBow stat Weight 6
 set OldImperialBow stat Weight 7
 set ImperialBow stat Weight 6
 
-set IronBow stat min_range 0
-set ShortBow stat min_range 0
-set SwiftBow stat min_range 0
-set Longbow stat min_range 0
-set TripleFireBow stat min_range 0
-set CompositeBow stat min_range 0
-set Apollyon stat min_range 0
-set Strongbow stat min_range 0
-set Greatbow stat min_range 0
-set Killerbow stat min_range 0
-set Apeiron stat min_range 0
-set Rossweisse stat min_range 0
-set Pascanion stat min_range 0
-set Pascanion2 stat min_range 0
-set SereniaBow stat min_range 0
-
-set BronzeBow stat min_range 0
-set VerianBow stat min_range 0
-set OldImperialBow stat min_range 0
-set ImperialBow stat min_range 0
-
 set BronzeBow stat accuracy 50
 set ImperialBow stat accuracy 50
 set OldImperialBow stat accuracy 40
