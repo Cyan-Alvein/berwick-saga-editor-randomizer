@@ -4470,6 +4470,8 @@ set VeteranKnight_R skill counter
 set WarMonk skill counter
 set Warrior skill counter
 set Barbarian skill counter
+set RazeWarMonk skill counter
+set RazeWarMonk2 skill counter
 
 //Pursuit to everyone
 set Acolyte skill pursuit
