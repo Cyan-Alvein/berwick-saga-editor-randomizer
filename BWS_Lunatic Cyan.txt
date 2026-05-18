@@ -1470,6 +1470,7 @@ set Blizzard stat level 1
 set Blizzard stat might 20
 set AirBlade stat might 4
 set Windstorm stat might 4
+set PallasRiana stat might 4
 set PallasRiana stat max-range 3
 set PallasRiana stat accuracy 70
 set Sandstorm stat accuracy 80
@@ -1501,6 +1502,7 @@ set Lightning stat accuracy 70
 set Lightning stat level 1
 set Lightning stat might 20
 set PallasSerenia stat level 20
+set PallasSerenia stat might 32
 set PallasSerenia max-range 3
 set PallasSerenia stat accuracy 70
 set Stormtongue stat accuracy 100
@@ -5078,4 +5080,3 @@ set AmaterasuShield effect restore-uses
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
-
