@@ -64,7 +64,7 @@ unset marcel skill slowstart2
 unset Guardian skill slowstart
 unset Guardian skill slowstart2
 
-set reese item 3 VerianSword 101
+set reese item 3 HolySword 101
 set reese item 4 RoundShield 101
 set reese item 5 AltiumSword 101
 set reese item 6 Bag 0
@@ -84,7 +84,7 @@ set Lord cap mshield 40
 set Lord cap sword 60
 
 set ward item 0 KnightSword 101
-set ward item 1 Bag 0
+set ward item 1 FlameSword 101
 set ward item 2 SquareShield 101
 set ward item 3 Longspear 101
 set ward item 4 Harpoon 101
@@ -160,10 +160,10 @@ set Christine cap sword 40
 set christine item 0 IronCrossbow 101
 set christine item 1 IronArrow+ 20
 //set christine item 2 Don't Touch Bag 4 Vulnaries
-set christine item 3 IronBow 101
+set christine item 3 RaijinArrow 20
 set christine item 4 BronzeArrow+ 20
 set christine item 5 BodkinArrow 20
-set christine item 6 Treasure 101
+set christine item 6 Gastraphetes 101
 set christine item 7 Bag 0
 set christine growth bow 70
 set christine growth crossbow 90
@@ -217,13 +217,13 @@ set izerna item 7 Rehabilitate 10
 set izerna growth holy 70
 set izerna base holy +20
 
-set czene item 0 Dagger 101
+set czene item 0 Vespa 101
 set czene item 1 BoltKnife 101
 set czene item 2 ThiefsKnife 101
 set czene item 3 ThiefsCharm 0
-set czene item 4 Bag 0
-set czene item 5 Bag 0
-set czene item 6 Bag 0
+set czene item 4 ThrowingKnife 101
+set czene item 5 BloodKnife 101
+set czene item 6 TempestKnife 101
 set czene item 7 Bag 0
 set czene growth knife 80
 set czene growth hp 20
@@ -231,12 +231,12 @@ set czene growth strength 10
 set czene base knife +20
 
 set aegina item 1 Blizzard 15 
-set aegina item 2 Blizzard 15 
+set aegina item 2 Bag 0
 set aegina item 3 Windstorm 60
-set aegina item 4 Windstorm 60
+set aegina item 4 Treasure 101
 set aegina item 5 Fire 20
 set aegina item 6 Hellfire 14
-set aegina item 7 Earthblaze 18
+set aegina item 7 Bag 0
 set aegina growth wind 90
 set aegina growth fire 60
 set aegina base fire +20
@@ -247,7 +247,7 @@ set daoud growth sshield 100
 set daoud growth mshield 100
 set Daoud item 0 Broadaxe 101
 set Daoud item 1 RoundShield 101
-set Daoud item 2 Kiteshield 101
+set Daoud item 2 ImpSoldierMShd+ 101
 set Daoud item 3 Treasure 101 
 set Daoud item 4 Treasure 101 
 set Daoud item 5 Treasure 101 
@@ -261,10 +261,10 @@ set enid base sword +20
 set enid base fire +40
 set enid base thunder +30
 set Enid item 1 Hellfire 20
-set Enid item 2 Hellfire 20 
+set Enid item 2 Thunder 20
 set Enid item 3 Earthblaze 18
-set Enid item 4 Earthblaze 18
-set Enid item 5 DireThunder 30
+set Enid item 4 Bag 0
+set Enid item 5 Bag 0
 set Enid item 6 Lightning 15
 set Enid item 7 Fire 20
 set Enid growth fire 100
@@ -281,9 +281,9 @@ set Fencer cap sword 40
 
 set marcel growth sword 60
 set marcel growth Lshield 90
-set Marcel item 2 Bag 0
-set Marcel item 3 Bag 0
-set Marcel item 4 Bag 0
+set Marcel item 2 Scimitar+ 101
+set Marcel item 3 Broadsword 101
+set Marcel item 4 WideShield 101
 set Marcel item 5 WideShield 101
 set Marcel item 6 Bag 0
 set Marcel item 7 Bag 0
@@ -292,7 +292,7 @@ set Marcel base lshield +20
 
 set alvina item 4 LadyMShd 101
 set alvina item 5 Treasure 101
-set alvina item 6 LadyMShd 101
+set alvina item 6 Bag 0
 set alvina item 7 Bag 0
 set alvina growth sword 80
 set alvina growth spear 80
@@ -303,9 +303,9 @@ set alvina base spear +20
 set alvina base sshield +20
 set alvina base mshield +20
 
-set ruby item 1 Bag 0
+set ruby item 1 Pike 101
 set ruby item 2 LadyShield 101
-set ruby item 3 Pike 101
+set ruby item 3 LadyMShd 101
 set ruby item 4 LadySword 101
 set ruby item 5 Pilum 6
 set ruby item 6 IronSpear 101
@@ -330,10 +330,10 @@ set Chevalire_R cap Sword 50
 
 set arthur item 0 Longsword 101
 set arthur item 1 Kiteshield 101
-set arthur item 2 Buckler 101
-set arthur item 3 Shortsword 101
+set arthur item 2 Saber 101
+set arthur item 3 Broadsword 101
 set arthur item 4 Rapier 101
-set arthur item 5 Bag 0
+set arthur item 5 WindEdge 101
 set arthur item 6 Bag 0
 set arthur item 7 Bag 0
 set arthur growth sword 70
@@ -344,8 +344,8 @@ set arthur base mshield +20
 set arthur base spear +40
 
 set kramer item 0 Longsword 101
-set kramer item 1 Shortsword 101
-set kramer item 2 Bag 0
+set kramer item 1 WindEdge 101
+set kramer item 2 Broadsword 101
 set kramer item 3 Bag 0
 set kramer item 4 FeatherBrace 0
 set kramer item 5 MuscleBrace 0
@@ -354,9 +354,9 @@ set kramer item 7 Bag 0
 set kramer base sword +20
 set kramer growth sword 90
 
-set dean item 2 HandAxe 6
+set dean item 2 Tomahawk 101
 set dean item 3 BattleAxe 101
-set dean item 4 Bag 0
+set dean item 4 Tabarzin 101
 set dean item 5 Bag 0
 set dean item 6 Bag 0
 set dean item 7 GamblersBrace 0
@@ -364,9 +364,9 @@ set dean base axe +20
 set dean growth axe 100
 
 set faye item 2 GiantsBrace 0
-set faye item 3 VerianSword 101
+set faye item 3 Bag 0
 set faye item 4 LadySword 101
-set faye item 5 Bag 0
+set faye item 5 WindEdge 101
 set faye item 6 Bag 0
 set faye item 7 Bag 0
 set faye growth sword 100
@@ -375,9 +375,9 @@ set faye base sword +25
 set sylvis item 0 CompositeBow 101
 set sylvis item 1 SteelArrow+ 20
 set sylvis item 2 Gastraphetes 101
-set sylvis item 3 Treasure 101
+set sylvis item 3 RaijinArrow 20
 set sylvis item 4 IronArrow+ 20
-set sylvis item 5 BodkinArrow 20
+set sylvis item 5 Apollyon 101
 set sylvis item 6 Bag 0
 set sylvis item 7 TripleFireBow 101
 set sylvis growth bow 80
@@ -386,9 +386,9 @@ set sylvis base bow +20
 set sylvis base crossbow +20
 
 set perceval item 1 Thunder 20
-set perceval item 2 DireThunder 30
+set perceval item 2 Treasure 101
 set perceval item 3 Lightning 15
-set perceval item 4 Lightning 15
+set perceval item 4 Bag 0
 set perceval item 5 Blizzard 15
 set perceval item 6 TigerBrace 0
 set perceval item 7 Windstorm 60
@@ -398,11 +398,11 @@ set perceval base thunder +20
 set perceval base wind +20
 
 set thaddy item 2 FeatherBrace 0
-set thaddy item 3 Dart 6
-set thaddy item 4 Swordbreaker 101
+set thaddy item 3 MainGauche 101
+set thaddy item 4 Carnwenhau 101
 set thaddy item 5 ThrowingKnife 101
 set thaddy item 6 stunknife 101
-set thaddy item 7 Bag 0
+set thaddy item 7 Crotalus 101
 set thaddy growth knife 80
 set thaddy growth hp 25
 set thaddy growth strength 15
@@ -412,9 +412,9 @@ set esteban growth knife 50
 set esteban growth bow 100
 set esteban item 0 IronBow 101
 set esteban item 1 IronArrow+ 20
-set esteban item 2 Dagger 101
-set esteban item 3 Bag 0
-set esteban item 4 Bag 0
+set esteban item 2 SteelArrow+ 20
+set esteban item 3 RaijinArrow 20
+set esteban item 4 Swordbreaker 101
 set esteban item 5 Bag 0
 set esteban item 6 Bag 0
 set esteban item 7 BloodKnife 101
@@ -429,11 +429,11 @@ set HighHunter cap Knife 50
 set HighHunter cap Sword 40
 
 //set faramir item 0 Cutlass+ 101
-set faramir item 1 Bag 0
+set faramir item 1 KillerBow 101
 set faramir item 2 SteelArrow+ 20
-set faramir item 3 Bag 0
+set faramir item 3 Apollyon 101
 set faramir item 4 CompositeBow 101
-set faramir item 5 Bag 0
+set faramir item 5 IronArrow+ 20
 set faramir item 6 Bag 0
 set faramir item 7 Bag 0
 set faramir growth sword 100
@@ -442,9 +442,9 @@ set faramir base sword +20
 set faramir base bow +20
 
 set volo item 1 Treasure 101
-set volo item 2 Bag 0
-set volo item 3 Bag 0
-set volo item 4 Bag 0
+set volo item 2 LevinSword 101
+set volo item 3 MithrilSword 101
+set volo item 4 Harperia 101
 set volo item 5 BastardSword 101
 set volo item 6 PhoenixBrace 0
 set volo item 7 MiracleCharm 0
@@ -455,18 +455,18 @@ set volo base sword +20
 set Sherpa item 1 BastardSword 101
 set Sherpa item 2 Shortsword 101
 set Sherpa item 3 Treasure 101
-set Sherpa item 4 Bag 0
+set Sherpa item 4 FlameSword 101
 set Sherpa item 5 Treasure 101
 set Sherpa item 6 Albatross 101
 set Sherpa item 7 Bag 0
 set Sherpa growth sword 50
 set Sherpa base sword +20
 
-set clifford item 3 Bag 0
+set clifford item 3 Saber 101
 set clifford item 4 GreatLance 101
-set clifford item 5 Bag 0
-set clifford item 6 Bag 0
-set clifford item 7 Bag 0
+set clifford item 5 Euthyphro 101
+set clifford item 6 MithrilSpear 101
+set clifford item 7 WyrmskinShield 101
 set clifford growth sword 70
 set clifford growth spear 50
 set clifford growth sshield 60
@@ -477,7 +477,7 @@ set clifford base sshield +20
 set clifford base mshield +20
 
 set axel item 0 IronAxe 101
-set axel item 1 Bag 0
+set axel item 1 Gullveig 101
 set axel item 2 Bag 0
 set axel item 3 BattleAxe 101
 set axel item 4 Bag 0
@@ -488,7 +488,7 @@ set axel base axe +20
 set axel growth axe 50
 
 set larentia item 2 LadySword 101
-set larentia item 3 Pilum 6
+set larentia item 3 Angon 101
 set larentia item 4 Treasure 101
 set larentia item 5 Treasure 101
 set larentia item 6 SteelSpear 101
@@ -543,8 +543,8 @@ set Derrick item 0 ImperialAxe 101
 set Derrick item 2 Bag 0
 set Derrick item 3 Bag 0
 set Derrick item 4 IronShield 101
-set Derrick item 5 Bag 0
-set Derrick item 6 Hatchet 6
+set Derrick item 5 Mjollnir 101
+set Derrick item 6 Tomahawk 101
 set Derrick item 7 Bag 0
 set Derrick base axe +20
 set Derrick base lshield +20
@@ -573,7 +573,7 @@ set paramythis item 2 PeerlessBrace 0
 set paramythis item 3 holy 20
 set paramythis item 4 Treasure 101
 set paramythis item 5 HolySword 101
-set paramythis item 6 WyrmskinShield 101
+set paramythis item 6 Hestia 101
 set paramythis item 6 GeneralShield 101
 set paramythis growth sword 100
 set paramythis growth holy 60
@@ -1622,10 +1622,11 @@ set AirKnife stat weight 2
 set BloodKnife stat weight 2
 
 set dart stat level 1
-set Seax stat level 8
-set Vespa stat level 4
-//set TempestKnife stat level 1
-//set Swordbreaker stat level 1
+set Seax stat level 5
+set BloodKnife stat level 5
+set Vespa stat level 1
+set TempestKnife stat level 1
+set Swordbreaker stat level 1
 set AssassinsKnife stat level 30
 set Airknife stat level 1
 set ThrowingKnife stat level 1
@@ -1688,7 +1689,7 @@ set AltiumSword effect cripple-x2
 
 set WindEdge effect wind-damage 7
 set LevinSword effect thunder-damage 11
-//set HolySword effect holy-damage 7
+set HolySword effect holy-damage 9
 set FlameSword effect fire-damage 9
 set InfernalEdge effect fire-damage 12
 
@@ -1723,13 +1724,13 @@ set LadySword stat cost 4000
 set Nothung stat cost 10000
 
 set Scimitar+ stat level 5
-//set FlameSword stat level 1
-//set HolySword stat level 1
-//set WindEdge stat level 1
-//set InfernalEdge stat level 1
-//set Grimhild stat level 1
+set FlameSword stat level 1
+set HolySword stat level 1
+set WindEdge stat level 1
+set InfernalEdge stat level 1
+set Grimhild stat level 1
 set AltiumSword stat level 7
-//set LevinSword stat level 7
+set LevinSword stat level 1
 
 set BronzeSword stat Weight 4
 set Shortsword stat Weight 3
