@@ -1580,6 +1580,8 @@ set AssassinsKnife stat might 0
 set LetterOpener stat might 1
 set MainGauche stat might 3
 
+set Kris stat mind 10
+
 //set dagger stat rounds 1
 //set Seax stat rounds 1
 //set Dart stat rounds 1
@@ -1907,6 +1909,8 @@ set OldImperialSpear stat Weight 7
 set Fauchard stat hex 1
 set Harpoon stat hex 1
 set Brionac stat hex 2
+
+set Brionac stat mind 5
 
 Set Harpoon effect injure-rate 33
 
