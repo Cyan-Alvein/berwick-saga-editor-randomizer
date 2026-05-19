@@ -1573,7 +1573,7 @@ set Carnwenhau stat might 4
 set StunKnife stat might 3
 set KillerKnife stat might 4
 set BloodKnife stat might 3
-set TempestKnife stat might 2
+set TempestKnife stat might 0
 set Shieldknife stat might 2
 set Crotalus stat might 4
 set Kris stat might 2
