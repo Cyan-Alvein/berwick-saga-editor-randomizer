@@ -1612,11 +1612,11 @@ set AssassinsKnife effect cripple-x2
 //set BoltKnife effect steal-rate-plus 20 //I can't, it will remove thunder damage
 //set BoltKnife effect thunder-damage 3
 set TempestKnife effect wind-damage 10
-set ThiefsKnife effect steal-rate-plus 33
+set ThiefsKnife effect steal-rate-plus 67
 set ThiefsCharm effect steal-rate-plus 33
 set AirKnife effect wind-damage 7
 //set BloodKnife effect dark-damage 7
-set Swordbreaker effect sword-break 50
+set Swordbreaker effect sword-break 100
 
 set AirKnife stat weight 2
 set Dart stat weight 2
@@ -1663,15 +1663,17 @@ set Swordbreaker stat durability C
 
 set ThiefsKnife stat accuracy 50
 set Seax stat accuracy 50
-set stunknife stat accuracy 50
+set stunknife stat accuracy 40
+set Swordbreaker stat accuracy 40
+set ThiefsKnife stat accuracy 40
 set KillerKnife stat accuracy 70
 set AssassinsKnife stat accuracy 80
-set Shieldknife stat accuracy 50
+set Shieldknife stat accuracy 40
 set Crotalus stat accuracy 60
 set kris stat accuracy 60
 set maingauche stat accuracy 50
 
-set stunknife effect disarm-rate 50
+set stunknife effect disarm-rate 100
 
 //swords
 
@@ -2263,6 +2265,7 @@ set SwiftBow stat might 0
 set TripleFireBow stat might 0
 set Apollyon stat might 6
 
+set Rossweisse stat mind 10
 
 //Crossbow
 
