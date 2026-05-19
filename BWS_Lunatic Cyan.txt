@@ -1169,6 +1169,7 @@ set faye skill battlecry
 set faye skill vantage
 set faye skill arrowbane
 set faye skill counter
+set faye skill evasion
 
 set faramir skill aim
 set faramir skill canto
@@ -1197,6 +1198,7 @@ set faramir skill battlecry
 set faramir skill adept
 set faramir skill vantage
 set faramir skill counter
+set faramir skill evasion
 
 set volo skill adept
 set volo skill blade
@@ -1228,6 +1230,7 @@ set volo skill battlecry
 set volo skill vantage
 set volo skill arrowbane
 set volo skill counter
+set volo skill evasion
 
 set clifford skill canto
 set clifford skill flourish
