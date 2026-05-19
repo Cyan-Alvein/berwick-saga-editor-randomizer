@@ -2871,11 +2871,13 @@ set SpearRider_R cap sshield 50
 set SpearRider cap spear 60
 set SpearRider cap sshield 50
 
+set DukeKnight cap sword 50
+set DukeKnight_R cap sword 50
+set Duke cap sword 50
+
 set AxeSoldier cap axe 60
 set AxeSoldier cap sshield 50
 set AxeSoldier cap mshield 50
-
-
 
 set Mercenary cap Sword 60
 
