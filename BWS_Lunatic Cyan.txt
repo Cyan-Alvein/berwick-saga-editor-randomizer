@@ -1567,7 +1567,7 @@ set dagger stat might 2
 set Seax stat might 6
 set Dart stat might 4
 set Vespa stat might 4
-set Airknife stat might 2
+set Airknife stat might 0
 set ThiefsKnife stat might 2
 set Carnwenhau stat might 4
 set StunKnife stat might 3
@@ -1616,7 +1616,7 @@ set BoltKnife effect injure-rate 50
 set TempestKnife effect wind-damage 10
 set ThiefsKnife effect steal-rate-plus 67
 set ThiefsCharm effect steal-rate-plus 33
-set AirKnife effect wind-damage 7
+set AirKnife effect wind-damage 5
 //set BloodKnife effect dark-damage 7
 set Swordbreaker effect sword-break 100
 
@@ -1624,7 +1624,6 @@ set AirKnife stat weight 2
 set Dart stat weight 2
 set BoltKnife stat weight 2
 set TempestKnife stat weight 2
-set AirKnife stat weight 2
 set BloodKnife stat weight 2
 
 set dart stat level 1
