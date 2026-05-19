@@ -1529,16 +1529,16 @@ set Nosferatu+ stat max-range 2
 set Starlight stat level 20
 set Rehabilitate stat level 10
 
-set AirBlade effect injure-rate 4
-set Windstorm effect injure-rate 4
-set PallasRiana effect injure-rate 4
-set Blizzard effect injure-rate 50
-set Fire effect cripple-rate 8
+set AirBlade effect injure-rate 8
+set Windstorm effect injure-rate 8
+set PallasRiana effect injure-rate 8
+set Blizzard effect injure-rate 100
+set Fire effect cripple-rate 16
 set Hellfire effect cripple-x2
 set Earthblaze effect cripple-x2
 set PallasLeia effect cripple-x2
-set Thunder effect cripple-rate 8
-set DireThunder effect cripple-rate 8
+set Thunder effect cripple-rate 16
+set DireThunder effect cripple-rate 16
 set PallasSerenia effect cripple-x2
 
 set Heal stat max-range 3
