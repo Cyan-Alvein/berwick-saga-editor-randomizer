@@ -1532,8 +1532,8 @@ set Rehabilitate stat level 10
 set AirBlade effect injure-rate 4
 set Windstorm effect injure-rate 4
 set PallasRiana effect injure-rate 4
-set Blizzard effect injure-rate 66
-set Fire effect cripple-rate 4
+set Blizzard effect injure-rate 50
+set Fire effect cripple-rate 8
 set Hellfire effect cripple-x2
 set Earthblaze effect cripple-x2
 set PallasLeia effect cripple-x2
@@ -1612,8 +1612,7 @@ set Kris stat mind 10
 //set MainGauche stat rounds 1
 
 set AssassinsKnife effect cripple-x2
-//set BoltKnife effect steal-rate-plus 20 //I can't, it will remove thunder damage
-//set BoltKnife effect thunder-damage 3
+set BoltKnife effect injure-rate 50
 set TempestKnife effect wind-damage 10
 set ThiefsKnife effect steal-rate-plus 67
 set ThiefsCharm effect steal-rate-plus 33
@@ -1649,7 +1648,7 @@ set KillerKnife stat cost 3000
 
 //set vespa stat level 3
 
-set BoltKnife stat durability C
+set BoltKnife stat durability E
 set LetterOpener stat durability D
 set Bloodknife stat durability C
 set kris stat durability C
@@ -1922,7 +1921,7 @@ set Brionac stat hex 2
 
 set Brionac stat mind 5
 
-Set Harpoon effect injure-rate 33
+Set Harpoon effect injure-rate 50
 
 //Set Harpoon stat rounds 1
 
@@ -1946,7 +1945,7 @@ set OldImperialSpear stat durability E
 
 //set WindSpear effect wind-damage 8
 //set Euthyphro effect wind-damage 7
-set Partisan effect cripple-rate 8
+set Partisan effect cripple-x2
 
 set Doru stat level 1
 set Pike stat level 1
@@ -1964,9 +1963,9 @@ set OldImperialSpear stat cost 500
 // MilitaryFork similar stat than LongSpear + cripple effect
 // Firebrand similar stat than WindSpear + Fire Damage Effect
 
-set MilitaryFork effect cripple-rate 8
-set Pitchfork effect cripple-rate 8
-//set GoreFork effect cripple-rate 8
+set MilitaryFork effect cripple-x2
+set Pitchfork effect cripple-x2
+//set GoreFork effect cripple-x2
 set Firebrand effect cripple-x2
 set Firebrand effect fire-damage 7
 
@@ -1975,7 +1974,7 @@ set Pitchfork stat hex 1
 set GoreFork stat hex 1
 set Firebrand stat hex 1
 
-set MilitaryFork stat accuracy 60
+set MilitaryFork stat accuracy 50
 set Pitchfork stat accuracy 60
 set GoreFork stat accuracy 50
 set Firebrand stat accuracy 60
@@ -2098,7 +2097,7 @@ set BanditAxe stat Weight 4
 
 
 set BarbaricAxe stat accuracy 20
-set BanditAxe stat accuracy 50
+set BanditAxe stat accuracy 30
 set ImperialAxe stat accuracy 50
 set LogSplitter stat accuracy 50
 set Pickaxe stat accuracy 50
@@ -2123,16 +2122,8 @@ set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 30
 set VerianAxe stat accuracy 50
 
-set BanditAxe effect steal-rate-plus 33
-//set BattleAxe effect cripple-x2
-//set Greataxe effect steal-rate-plus 15
-//set MithrilAxe effect steal-rate-plus 15
-//set Gullveig effect steal-rate-plus 15
-//set BarbaricAxe effect steal-rate-plus 15
-//set IronAxe effect steal-rate-plus 15
-//set Tomahawk effect steal-rate-plus 15
-//set VerianAxe effect steal-rate-plus 15
-//set ImperialAxe effect steal-rate-plus 15
+set BanditAxe effect steal-rate-plus 67
+set BattleAxe effect cripple-x2
 
 set Battleaxe stat level 5
 set Broadaxe stat level 5
@@ -2400,11 +2391,11 @@ set PrototypeSpringald stat weight 20
 set PrototypeScorpio stat weight 15
 set Scorpio stat weight 15
 
-set BronzeBallista effect cripple-rate 8
-set IronBallista effect cripple-rate 8
-set PrototypeSpringald effect cripple-rate 8
-set PrototypeScorpio effect cripple-rate 8
-set Scorpio effect cripple-rate 8
+set BronzeBallista effect cripple-x2
+set IronBallista effect cripple-x2
+set PrototypeSpringald effect cripple-x2
+set PrototypeScorpio effect cripple-x2
+set Scorpio effect cripple-x2
 
 set Scorpio stat Durability B
 
