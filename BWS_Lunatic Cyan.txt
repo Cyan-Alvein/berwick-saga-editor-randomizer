@@ -238,7 +238,7 @@ set aegina item 5 Fire 20
 set aegina item 6 Hellfire 14
 set aegina item 7 Bag 0
 set aegina growth wind 90
-set aegina growth fire 60
+set aegina growth fire 70
 set aegina base fire +20
 set aegina base wind +20
 
@@ -267,8 +267,8 @@ set Enid item 4 Bag 0
 set Enid item 5 Bag 0
 set Enid item 6 Lightning 15
 set Enid item 7 Fire 20
-set Enid growth fire 100
-set Enid growth thunder 100
+set Enid growth fire 90
+set Enid growth thunder 70
 set enid cap fire 60
 set enid cap thunder 50
 set enid cap sword 40
