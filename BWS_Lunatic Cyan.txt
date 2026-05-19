@@ -1619,6 +1619,7 @@ set AirKnife effect wind-damage 7
 set Swordbreaker effect sword-break 50
 
 set AirKnife stat weight 2
+set Dart stat weight 2
 set BoltKnife stat weight 2
 set TempestKnife stat weight 2
 set AirKnife stat weight 2
@@ -4163,7 +4164,6 @@ set AxeSoldier skill vengeful
 set ArmorKnight skill throw
 set ArmorKnight skill canto
 set ArmorKnight skill shieldfaire
-set ArmorKnight skill vengeful
 set ArmorKnight skill hide
 set ArmorKnight skill armsthrift
 set ArmorKnight skill adept
@@ -5481,4 +5481,3 @@ set Wyvern Pearl effect restore-uses
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
-
