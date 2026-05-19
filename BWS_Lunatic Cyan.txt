@@ -1168,6 +1168,7 @@ set faye skill pursuit
 set faye skill battlecry
 set faye skill vantage
 set faye skill arrowbane
+set faye skill counter
 
 set faramir skill aim
 set faramir skill canto
@@ -1226,6 +1227,7 @@ set volo skill pursuit
 set volo skill battlecry
 set volo skill vantage
 set volo skill arrowbane
+set volo skill counter
 
 set clifford skill canto
 set clifford skill flourish
@@ -1357,6 +1359,7 @@ set derrick skill adept
 set derrick skill Windsweep
 set derrick skill sunder
 set derrick skill provoke
+set derrick skill counter
 
 set saphira skill blessing
 set saphira skill canto
@@ -4508,6 +4511,7 @@ set WyvernLord_R skill adept
 set ArmorKnight skill counter
 set Axefighter skill counter
 set Bandit skill counter
+set SnowBandit skill counter
 set Chief skill counter
 set Corsair skill counter
 set DarkMaster skill counter
@@ -4532,6 +4536,9 @@ set Warrior skill counter
 set Barbarian skill counter
 set RazeWarMonk skill counter
 set RazeWarMonk2 skill counter
+set Myrmidon skill counter
+set Swordfighter_M skill counter
+set Swordmaster skill counter
 
 //Pursuit to everyone
 set Acolyte skill pursuit
@@ -5474,3 +5481,4 @@ set Wyvern Pearl effect restore-uses
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
+
