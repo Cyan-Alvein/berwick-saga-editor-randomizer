@@ -452,7 +452,7 @@ set volo growth sword 80
 set volo base sword +20
 
 //set sherpa growth sword 90
-set Sherpa item 1 BastardSword 101
+set Sherpa item 1 Zanbato 101
 set Sherpa item 2 Shortsword 101
 set Sherpa item 3 Treasure 101
 set Sherpa item 4 FlameSword 101
