@@ -749,6 +749,7 @@ set izerna skill adept
 set izerna skill charisma
 set izerna skill Windsweep
 set izerna skill sunder
+set izerna skill silence
 
 set czene skill adept
 set czene skill critical
@@ -2383,6 +2384,9 @@ set ShiningShield effect negate-dark 100
 //set ThunderShield effect thunder-damage 6
 //set FireShield effect fire-damage 6
 
+set DarkShield effect reflect-damage 100
+set Vollenden effect reflect-damage 100
+
 set LeatherSShd stat might 2
 set Buckler stat might 4
 set PrototypeSShd stat might 4
@@ -2613,6 +2617,9 @@ Set ImpKnightMShd stat might 12
 //set GaleShield effect wind-damage 12
 //Set Hestia effect fire-damage 16
 
+Set BlackShield effect reflect-damage 100
+Set Hestia effect reflect-damage 100
+
 set ImpSoldierMShd+ stat accuracy 50
 set LadyMShd stat accuracy 50
 set WyrmskinShield stat accuracy 50
@@ -2722,6 +2729,9 @@ set GeneralShield stat accuracy 50
 //set RaijinShield effect thunder-damage 18
 //set AmaterasuShield effect dark-damage 24
 //set GeneralShield effect holy-damage 24
+
+set AmaterasuShield effect reflect-damage 100
+set GeneralShield effect reflect-damage 100
 
 set ImpKnightLShd stat might 19
 set ImpOfficerLShd stat might 16
@@ -5441,6 +5451,7 @@ set Amber effect restore-uses
 //strenght = speed
 //Increasing ennemy class Weapon Skill is bugged, doesn't work, to fix.
 //Learned function is bugged
+//I want to add damage on block on elemental shields, like volleden and hestia do.
 //restore-uses doesn't work when the item is in the storage room in Reese's house.
 //Adding 2 effect on an iteam doesn't work, only the last effect will apply. So you shouldn't touch Bolt's Knife otherwise you will remove his injure + thunder damage effect.
 //Adept doesn't work with desperate, but works with deathmatch. so giving Dean Deathmatch is a Huge buff.
