@@ -89,7 +89,7 @@ set ward item 2 SquareShield 101
 set ward item 3 Longspear 101
 set ward item 4 Harpoon 101
 set ward item 5 Treasure 101
-set ward item 6 Bag 0
+set ward item 6 RadiantShield 101 
 set ward item 7 Bag 0
 set ward growth sword 50
 set ward growth spear 60
@@ -172,7 +172,7 @@ set christine base crossbow +20
 set christine base sword +40
 
 set adel item 0 IronSpear 101
-set adel item 1 LeatherSShd 101
+set adel item 1 FireShield 101
 set adel item 2 Pike 101
 set adel item 3 Firebrand 101
 set adel item 4 GoreFork 101
@@ -185,7 +185,7 @@ set adel growth spear 50
 set adel growth shield 100
 
 set leon item 0 IronSpear 101
-set leon item 1 LeatherSShd 101
+set leon item 1 ThunderShield 101
 set leon item 2 Firebrand 101
 set leon item 3 IronLance 101
 set leon item 4 Pike 101
@@ -247,7 +247,7 @@ set daoud growth sshield 100
 set daoud growth mshield 100
 set Daoud item 0 Broadaxe 101
 set Daoud item 1 RoundShield 101
-set Daoud item 2 ImpSoldierMShd+ 101
+set Daoud item 2 ShadowShield 101
 set Daoud item 3 Treasure 101 
 set Daoud item 4 Treasure 101 
 set Daoud item 5 Treasure 101 
@@ -284,8 +284,8 @@ set marcel growth Lshield 90
 set Marcel item 2 Scimitar+ 101
 set Marcel item 3 Broadsword 101
 set Marcel item 4 WideShield 101
-set Marcel item 5 WideShield 101
-set Marcel item 6 Bag 0
+set Marcel item 5 KojinShield 101
+set Marcel item 6 FujinShield 101
 set Marcel item 7 Bag 0
 set Marcel base sword +20
 set Marcel base lshield +20
@@ -329,12 +329,12 @@ set Chevalire_R cap Spear 50
 set Chevalire_R cap Sword 50
 
 set arthur item 0 Longsword 101
-set arthur item 1 Kiteshield 101
-set arthur item 2 Saber 101
+set arthur item 1 LightShield 101
+set arthur item 2 BlazingShield 101
 set arthur item 3 Broadsword 101
 set arthur item 4 Rapier 101
 set arthur item 5 WindEdge 101
-set arthur item 6 Bag 0
+set arthur item 6 Saber 101
 set arthur item 7 Bag 0
 set arthur growth sword 70
 set arthur growth spear 90
@@ -462,9 +462,9 @@ set Sherpa item 7 Bag 0
 set Sherpa growth sword 50
 set Sherpa base sword +20
 
-set clifford item 3 Saber 101
+set clifford item 3 LightningShield 101
 set clifford item 4 GreatLance 101
-set clifford item 5 Euthyphro 101
+set clifford item 5 GaleShield 101
 set clifford item 6 MithrilSpear 101
 set clifford item 7 WyrmskinShield 101
 set clifford growth sword 70
@@ -542,8 +542,8 @@ set derrick growth defense 12
 set Derrick item 0 ImperialAxe 101
 set Derrick item 2 Bag 0
 set Derrick item 3 Bag 0
-set Derrick item 4 IronShield 101
-set Derrick item 5 Mjollnir 101
+set Derrick item 4 RaijinShield 101
+set Derrick item 5 AmaterasuShield 101
 set Derrick item 6 Tomahawk 101
 set Derrick item 7 Bag 0
 set Derrick base axe +20
@@ -573,8 +573,8 @@ set paramythis item 2 PeerlessBrace 0
 set paramythis item 3 holy 20
 set paramythis item 4 Treasure 101
 set paramythis item 5 HolySword 101
-set paramythis item 6 Hestia 101
-set paramythis item 6 GeneralShield 101
+set paramythis item 6 Bag 0
+set paramythis item 7 GeneralShield 101
 set paramythis growth sword 100
 set paramythis growth holy 60
 set paramythis base sword +20
@@ -2222,6 +2222,7 @@ set Greatbow stat accuracy 40
 set SwiftBow stat accuracy 50
 set VerianBow stat accuracy 50
 set OldImperialBow stat accuracy 40
+set Apeiron stat accuracy 70
 
 set IronBow stat durability C
 set Shortbow stat durability C
@@ -2257,6 +2258,7 @@ set VerianBow stat might 3
 set SwiftBow stat might 0
 set TripleFireBow stat might 0
 set Apollyon stat might 6
+set Apeiron stat might 10
 
 set Rossweisse stat mind 10
 
@@ -2401,7 +2403,13 @@ set Scorpio stat Durability B
 // sshield
 
 set ShiningShield effect negate-dark 100
-set DarkShield stat dark_res 15
+
+set Vollenden effect holy-damage 8
+set DarkShield effect dark-damage 8
+set Windshield effect wind-damage 6
+set LightShield effect holy-damage 6
+set ThunderShield effect thunder-damage 6
+set FireShield effect fire-damage 6
 
 set LeatherSShd stat might 2
 set Buckler stat might 4
@@ -2412,7 +2420,7 @@ set Windshield stat might 6
 set FireShield stat might 6
 set ThunderShield stat might 6
 set LightShield stat might 6
-set DarkShield stat might 6
+set DarkShield stat might 8
 set MetalShield stat might 7
 set MithrilShield stat might 7
 set Vollenden stat might 8
@@ -2432,17 +2440,18 @@ set Buckler stat mind 2
 set PrototypeSShd stat mind 2
 set Aspis stat mind 3
 set RoundShield stat mind 3
-set Windshield stat mind 3
-set FireShield stat mind 3
-set ThunderShield stat mind 3
-set LightShield stat mind 3
-set DarkShield stat mind 3
+set Windshield stat mind 7
+set FireShield stat mind 7
+set ThunderShield stat mind 7
+set LightShield stat mind 7
+set DarkShield stat mind 7
 set MetalShield stat mind 3
 set MithrilShield stat mind 6
 set Vollenden stat mind 7
 set ShiningShield stat mind 6
 set LadyShield stat mind 5
 set Perseid stat mind 5
+set Aiantos stat mind 5
 
 Set VerianSShd Stat mind 2
 set OldImpSShd stat mind 3
@@ -2460,13 +2469,14 @@ set Windshield stat Weight 3
 set FireShield stat Weight 3
 set ThunderShield stat Weight 3
 set LightShield stat Weight 3
-set DarkShield stat Weight 3
+set DarkShield stat Weight 4
 set MetalShield stat weight 3
 set MithrilShield stat weight 2
 set Perseid stat weight 2
 set LadyShield stat weight 2
 set Vollenden stat weight 4
 set ShiningShield stat Weight 3
+set Aiantos stat Weight 2
 
 Set VerianSShd Stat Weight 2
 set OldImpSShd stat Weight 4
@@ -2480,17 +2490,18 @@ set Buckler stat cost 866
 set PrototypeSShd stat cost 866
 set Aspis stat cost 1600
 set RoundShield stat cost 2000
-set Windshield stat cost 2000
-set FireShield stat cost 2000
-set ThunderShield stat cost 2000
-set LightShield stat cost 2000
-set DarkShield stat cost 2000
-set MetalShield stat cost 3000
+set Windshield stat cost 4000
+set FireShield stat cost 4000
+set ThunderShield stat cost 4000
+set LightShield stat cost 4000
+set DarkShield stat cost 5000
+set MetalShield stat cost 2500
 set MithrilShield stat cost 4000
 set Perseid stat cost 4000
 set LadyShield stat cost 3000
-set Vollenden stat cost 3000
+set Vollenden stat cost 5000
 set ShiningShield stat cost 4000
+set Aiantos stat cost 4000
 
 Set VerianSShd Stat cost 866
 set OldImpSShd stat cost 866
@@ -2499,7 +2510,7 @@ set ImpSoldierSShd++ stat cost 866
 set ImpOfficerSShd stat cost 1300
 set ImpKnightSShd stat cost 1300
 
-set Vollenden stat accuracy 80
+set Vollenden stat accuracy 50
 set OldImpSShd stat accuracy 30
 set VerianSShd stat accuracy 40
 set ImpSoldierSShd stat accuracy 40
@@ -2556,11 +2567,17 @@ Set Kiteshield stat Weight 4
 Set SquareShield stat Weight 5
 Set KnightShield stat Weight 6
 Set LimitShield stat Weight 5
-Set Hestia stat Weight 6
+Set Hestia stat Weight 8
 Set WyrmskinShield stat Weight 4
 Set LadyMShd stat Weight 4
 Set PaladinShield stat Weight 6
 Set BlackShield stat Weight 6
+
+set LightningShield stat Weight 6
+set RadiantShield stat Weight 6
+set ShadowShield stat Weight 6
+set BlazingShield stat Weight 6
+set GaleShield stat Weight 6
 
 Set VerianMShd stat Weight 4
 Set ImpSoldierMShd stat Weight 4
@@ -2573,11 +2590,18 @@ Set Kiteshield stat mind 4
 Set SquareShield stat mind 5
 Set KnightShield stat mind 6
 Set LimitShield stat mind 5
-Set Hestia stat mind 9
+Set Hestia stat mind 11
 Set WyrmskinShield stat mind 7
 Set LadyMShd stat mind 7
 Set PaladinShield stat mind 12
 Set BlackShield stat mind 6
+
+set LightningShield stat mind 9
+set RadiantShield stat mind 9
+set ShadowShield stat mind 9
+set BlazingShield stat mind 9
+set GaleShield stat mind 9
+Set Hestia stat mind 11
 
 Set VerianMShd stat mind 4
 Set ImpSoldierMShd stat mind 4
@@ -2592,11 +2616,17 @@ Set Kiteshield stat might 8
 Set SquareShield stat might 10
 Set KnightShield stat might 12
 Set LimitShield stat might 11
-Set Hestia stat might 12
+Set Hestia stat might 16
 Set WyrmskinShield stat might 14
 Set LadyMShd stat might 12
 Set PaladinShield stat might 14
 Set BlackShield stat might 14
+
+set LightningShield stat might 12
+set RadiantShield stat might 12
+set ShadowShield stat might 12
+set BlazingShield stat might 12
+set GaleShield stat might 12
 
 Set VerianMShd stat might 8
 Set ImpSoldierMShd stat might 8
@@ -2604,9 +2634,21 @@ Set ImpSoldierMShd+ stat might 8
 Set ImpOfficerMShd stat might 10
 Set ImpKnightMShd stat might 12
 
+set LightningShield effect thunder-damage 12
+set RadiantShield effect holy-damage 12
+set ShadowShield effect dark-damage 12
+set BlazingShield effect fire-damage 12
+set GaleShield effect wind-damage 12
+Set Hestia effect fire-damage 16
+
 set ImpSoldierMShd+ stat accuracy 50
 set LadyMShd stat accuracy 50
 set WyrmskinShield stat accuracy 50
+set LightningShield stat accuracy 50
+set RadiantShield stat accuracy 50
+set ShadowShield stat accuracy 50
+set BlazingShield stat accuracy 50
+set GaleShield stat accuracy 50
 
 set LightningShield stat Durability A
 set RadiantShield stat Durability A
@@ -2635,28 +2677,22 @@ set Kiteshield stat cost 1760
 set SquareShield stat cost 2200
 set KnightShield stat cost 2640
 set LimitShield stat cost 3000
-set Hestia stat cost 4000
+set Hestia stat cost 10000
 set WyrmskinShield stat cost 4000
 set PaladinShield stat cost 3000
 set BlackShield stat cost 4000
+
+set LightningShield stat cost 8000
+set RadiantShield stat cost 8000
+set ShadowShield stat cost 8000
+set BlazingShield stat cost 8000
+set GaleShield stat cost 8000
 
 set VerianMShd stat cost 1320
 set ImpSoldierMShd cost 1760
 set ImpSoldierMShd+ cost 1760
 set ImpOfficerMShd cost 2200
 set ImpKnightMShd cost 2640
-
-set LightningShield stat accuracy 50
-set RadiantShield stat accuracy 50
-set ShadowShield stat accuracy 50
-set BlazingShield stat accuracy 50
-set GaleShield stat accuracy 50
-
-set LightningShield stat might 10
-set RadiantShield stat might 10
-set ShadowShield stat might 10
-set BlazingShield stat might 10
-set GaleShield stat might 10
 
 set LightningShield stat level 1
 set RadiantShield stat level 1
@@ -2667,12 +2703,6 @@ set Kiteshield stat level 2
 set Hestia stat level 5
 set BlackShield stat level 15
 set PaladinShield stat level 15
-
-set LightningShield stat Weight 4
-set RadiantShield stat Weight 4
-set ShadowShield stat Weight 4
-set BlazingShield stat Weight 4
-set GaleShield stat Weight 4
 
 // lshield stuff
 
@@ -2715,6 +2745,12 @@ set RaijinShield stat accuracy 50
 set AmaterasuShield stat accuracy 50
 set GeneralShield stat accuracy 50
 
+set KojinShield effect fire-damage 18
+set FujinShield effect wind-damage 18
+set RaijinShield effect thunder-damage 18
+set AmaterasuShield effect dark-damage 24
+set GeneralShield effect holy-damage 24
+
 set ImpKnightLShd stat might 19
 set ImpOfficerLShd stat might 16
 set ImpSoldierLShd stat might 14
@@ -2725,17 +2761,20 @@ set LeatherLShd stat might 12
 set WideShield stat might 14
 set IronShield stat might 16
 set Greatshield stat might 21
-set KojinShield stat might 15
-set FujinShield stat might 15
-set RaijinShield stat might 15
-set AmaterasuShield stat might 17
-set GeneralShield stat might 21
+set KojinShield stat might 18
+set FujinShield stat might 18
+set RaijinShield stat might 18
+set AmaterasuShield stat might 24
+set GeneralShield stat might 24
 
 set LeatherLShd stat cost 1800
 set WideShield stat cost 2100
 set IronShield stat cost 2400
-set GeneralShield stat cost 2850
-set AmaterasuShield stat cost 4000
+set KojinShield stat cost 12000
+set FujinShield stat cost 12000
+set RaijinShield stat cost 12000
+set GeneralShield stat cost 15000
+set AmaterasuShield stat cost 15000
 
 set ImpSoldierLShd stat cost 2100
 set ImpSoldierLShd+ stat cost 2100
@@ -2747,11 +2786,11 @@ Set LeatherLShd Stat Weight 6
 Set WideShield Stat Weight 7
 Set IronShield Stat Weight 8
 Set Greatshield Stat Weight 9
-Set GeneralShield Stat Weight 9
-Set KojinShield Stat Weight 7
-Set FujinShield Stat Weight 7
-Set RaijinShield Stat Weight 7
-Set AmaterasuShield Stat Weight 7
+Set GeneralShield Stat Weight 12
+Set KojinShield Stat Weight 9
+Set FujinShield Stat Weight 9
+Set RaijinShield Stat Weight 9
+Set AmaterasuShield Stat Weight 12
 
 Set VerianLShd Stat Weight 6
 Set ImpSoldierLShd Stat Weight 7
@@ -2762,12 +2801,12 @@ Set ImpKnightLShd Stat Weight 9
 Set LeatherLShd Stat mind 6
 Set WideShield Stat mind 7
 Set IronShield Stat mind 8
-Set Greatshield Stat mind 15
+Set Greatshield Stat mind 18
 Set GeneralShield Stat mind 15
-Set KojinShield Stat mind 7
-Set FujinShield Stat mind 7
-Set RaijinShield Stat mind 7
-Set AmaterasuShield Stat mind 7
+Set KojinShield Stat mind 12
+Set FujinShield Stat mind 12
+Set RaijinShield Stat mind 12
+Set AmaterasuShield Stat mind 15
 
 Set VerianLShd Stat mind 6
 Set ImpSoldierLShd Stat mind 7
