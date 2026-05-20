@@ -33,7 +33,8 @@
 // All unpromoted player class weapon cap are set as promoted class weapon cap. So Sherlock can reach bow rank 60 without getting promoted
 
 // If you want Leon & Adel or even ruby to use lance, just type this code Set Ruby Skill Lance, I tested it and it worked. But don't use
- the skill desperation while attacking with lance, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
+
+// the skill desperation while attacking with lance, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
 
 // Accessories item got huge buff, SpiritBrace = magic +2, BlessedBrace = Magic +3 Speed -2, DivineBrace (Aegina own it)= Magic +4 Defense -2 Speed -2
 
@@ -75,7 +76,6 @@ set reese growth sword 80
 set reese growth sshield 100
 set reese growth mshield 100
 set reese base mshield +40
-set Reese cap mshield 40
 set Lord_R cap sshield 60
 set Lord_R cap mshield 40
 set Lord_R cap sword 60
@@ -97,8 +97,6 @@ set ward growth mshield 50
 set ward base mshield +20
 set ward base sword +20
 set ward base spear +20
-set ward cap spear 50
-set ward cap sword 50
 set VeteranKnight cap spear 50
 set VeteranKnight cap sword 50
 set VeteranKnight_R cap spear 50
@@ -121,18 +119,6 @@ set elbert base sword +20
 set elbert base spear +20
 set elbert base mshield +40
 
-set Paladin_R base mshield +40
-set Paladin_R base spear +40
-set Paladin base mshield +40
-set Paladin base spear +40
-set Paladin_F_R base mshield +40
-set Paladin_F_R base spear +40
-set Paladin_F base mshield +40
-set Paladin_F base spear +40
-set Paladin_M_R base mshield +40
-set Paladin_M_R base spear +40
-set Paladin_M base mshield +40
-set Paladin_M base spear +40
 set Paladin_R cap mshield 50
 set Paladin_R cap spear 50
 set Paladin cap mshield 50
@@ -154,9 +140,6 @@ set LadyKnight cap crossbow 60
 set LadyKnight cap sword 40
 set ArrowKnight cap sword 40
 set ArrowKnight_R cap sword 40
-set Christine cap bow 50
-set Christine cap crossbow 60
-set Christine cap sword 40
 set christine item 0 IronCrossbow 101
 set christine item 1 IronArrow+ 20
 //set christine item 2 Don't Touch Bag 4 Vulnaries
@@ -269,9 +252,6 @@ set Enid item 6 Lightning 15
 set Enid item 7 Fire 20
 set Enid growth fire 90
 set Enid growth thunder 70
-set enid cap fire 60
-set enid cap thunder 50
-set enid cap sword 40
 set FlameFencer cap fire 60
 set FlameFencer cap thunder 50
 set FlameFencer cap sword 40
@@ -318,7 +298,6 @@ set ruby base sword +20
 set ruby base spear +20
 set ruby base sshield +20
 set ruby base mshield +40
-set ruby cap mshield 50
 set Chevalire cap mshield 50
 set Chevalire_R cap mshield 50
 set Chevalire cap sshield 50
@@ -424,7 +403,6 @@ set esteban base sword +40
 set Hunter cap Bow 60
 set Hunter cap Knife 50
 set Hunter cap sword 40
-set esteban cap sword 40
 set HighHunter cap Knife 50
 set HighHunter cap Sword 40
 
@@ -499,7 +477,6 @@ set larentia growth sshield 40
 set larentia base sword +20
 set larentia base spear +20
 set larentia base sshield +20
-set larentia cap spear 50
 set WyvernKnightLarentia_R cap Spear 50
 set WyvernKnightLarentia cap Spear 50
 set WyvernKnight cap Spear 50
@@ -518,12 +495,7 @@ set Owen base wind +20
 set Owen base thunder +20
 set Owen base holy +20
 set Owen base dark +50
-set RazeMonkOwen base dark +50
 set RazeMonkOwen growth dark 60
-set RazeMonkOwen base fire +30
-set RazeMonkOwen base wind +30
-set RazeMonkOwen base thunder +30
-set Bishop base dark +50
 
 //set burroughs item 0 Bag 0
 //set burroughs item 1 BodkinArrow 20
@@ -2861,9 +2833,6 @@ set ThunderSage cap Thunder 60
 // cette commande n'a pas marché, peut être Owen n'est pas de la classe RazeMonkOwen
 set RazeMonkOwen cap Dark 60
 
-set Owen cap Dark 60
-set Owen cap Holy 60
-
 set Bishop cap fire 30
 set Bishop cap wind 30
 set Bishop cap thunder 30
@@ -2936,13 +2905,11 @@ set Cavalier_R cap sword 50
 set Cavalier_R cap spear 50
 set Cavalier_R cap sshield 50
 set Cavalier_R cap mshield 50
-set Cavalier_R base mshield +40
 
 set Cavalier cap sword 50
 set Cavalier cap spear 50
 set Cavalier cap sshield 50
 set Cavalier cap mshield 50
-set Cavalier base mshield +40
 
 set Treasure stat price 20000
 
@@ -3133,19 +3100,6 @@ set ImperialKnight_R skill armsthrift
 set ImperialKnight_R skill throw
 set ImperialKnight_R skill camouflage
 set ImperialKnight_R skill hide
-set ImperialKnight_R base sword +20
-set ImperialKnight_R base spear +20
-set ImperialKnight_R base axe +20
-set ImperialKnight_R base sshield +20
-set ImperialKnight_R base mshield +20
-set ImperialKnight_R base lshield +20
-set ImperialKnight_R base bow +20
-set ImperialKnight_R base crossbow +20
-set ImperialKnight_R base light +20
-set ImperialKnight_R base dark +20
-set ImperialKnight_R base fire +20
-set ImperialKnight_R base wind +20
-set ImperialKnight_R base thunder +20
 
 set ImperialKnight base strength +5
 set ImperialKnight base defense +2
@@ -3158,20 +3112,6 @@ set ImperialKnight skill armsthrift
 set ImperialKnight skill throw
 set ImperialKnight skill camouflage
 set ImperialKnight skill hide
-set ImperialKnight base sword +20
-set ImperialKnight base spear +20
-set ImperialKnight base axe +20
-set ImperialKnight base sshield +20
-set ImperialKnight base mshield +20
-set ImperialKnight base lshield +20
-set ImperialKnight base bow +20
-set ImperialKnight base crossbow +20
-set ImperialKnight base light +20
-set ImperialKnight base dark +20
-set ImperialKnight base fire +20
-set ImperialKnight base wind +20
-set ImperialKnight base thunder +20
-
 
 set ImperialPaladin_R base strength +5
 set ImperialPaladin_R base defense +2
@@ -5378,7 +5318,6 @@ set LadyShield effect restore-uses
 set RoundShield effect restore-uses
 set ShiningShield effect restore-uses
 set Perseid effect restore-uses
-set OldImpSShd, effect restore-uses
 set FireShield effect restore-uses
 set Windshield effect restore-uses
 set ThunderShield effect restore-uses
@@ -5485,19 +5424,14 @@ set BoarPelt effect restore-uses
 set LapisLazuli effect restore-uses
 set Lightstone effect restore-uses
 set Soma effect restore-uses
-set Pajuta Grass effect restore-uses
 set YewWood effect restore-uses
 set AriadneThread effect restore-uses
 set Winch effect restore-uses
-set Steel Wire effect restore-uses
 set AncientAmulet effect restore-uses
 set SurabFluid effect restore-uses
 set Platinum effect restore-uses
 set Opal effect restore-uses
-set Ruby effect restore-uses
-set Gold Dust effect restore-uses
 set Amber effect restore-uses
-set Wyvern Pearl effect restore-uses
 
 //When changing Ennemy class stat, there is a bug easily fixed, this is how:
 //HP = Strenght
