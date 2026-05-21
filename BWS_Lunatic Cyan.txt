@@ -54,6 +54,10 @@
 
 //Perseid, Gram, BoltKnife & Hestia will repair after each chapter. The game is ultra hard now so you will need those all the time.
 
+// Brionac, BarbaricAxe & Strongbow got Nosferatu effect
+
+// CrookedAxe & Albatross got Pascanion Back fire effect
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -1635,7 +1639,6 @@ set Carnwenhau stat durability B
 set ThrowingKnife stat durability C
 set Swordbreaker stat durability C
 
-set ThiefsKnife stat accuracy 50
 set Seax stat accuracy 50
 set stunknife stat accuracy 40
 set Swordbreaker stat accuracy 40
@@ -1664,8 +1667,10 @@ set InfernalEdge stat might 4
 set KillingEdge stat might 10
 set Broadsword stat might 11
 set AltiumSword stat might 13
+set Albatross stat might 16
 
 set AltiumSword effect cripple-x2
+set Albatross effect pascanion-backfire
 
 set WindEdge effect wind-damage 7
 set LevinSword effect thunder-damage 11
@@ -1677,7 +1682,7 @@ set BronzeSword stat accuracy 60
 set ImperialSword stat accuracy 60
 set AltiumSword stat accuracy 50
 set LevinSword stat accuracy 40
-set Albatross stat accuracy 50
+set Albatross stat accuracy 80
 set Scimitar+ stat accuracy 50
 set KnightSword stat accuracy 60
 set FlameSword stat accuracy 50
@@ -1724,7 +1729,7 @@ set Saber stat weight 3
 set AltiumSword stat Weight 7
 set LevinSword stat weight 5
 set Rapier stat Weight 3
-set Albatross stat weight 6
+set Albatross stat weight 5
 set HolySword stat weight 6
 set MithrilSword stat weight 4
 set KnightSword stat weight 5
@@ -1853,6 +1858,7 @@ set VerianSpear stat might 8
 set OldImperialSpear stat might 6
 
 set Euthyphro effect thunder-damage 7
+set Brionac effect nosferatu
 
 //set Verutum stat level 1
 //set SteelSpear stat level 1
@@ -1889,7 +1895,7 @@ set OldImperialSpear stat Weight 7
 
 set Fauchard stat hex 1
 set Harpoon stat hex 1
-set Brionac stat hex 2
+//set Brionac stat hex 2
 
 set Brionac stat mind 5
 
@@ -2036,7 +2042,7 @@ set Pickaxe stat Weight 4
 set BattleSaw stat Weight 7
 set HandAxe stat Weight 5
 set BarbaricAxe stat Weight 13
-set CrookedAxe stat Weight 15
+set CrookedAxe stat Weight 12
 //set IronAxe stat Weight 6
 set Francisca stat Weight 6
 set Battleaxe stat Weight 8
@@ -2068,7 +2074,7 @@ set ImperialAxe stat Weight 6
 set BanditAxe stat Weight 4
 
 
-set BarbaricAxe stat accuracy 20
+set BarbaricAxe stat accuracy 30
 set BanditAxe stat accuracy 30
 set ImperialAxe stat accuracy 50
 set LogSplitter stat accuracy 50
@@ -2079,7 +2085,7 @@ set Tomahawk stat accuracy 50
 set Battleaxe stat accuracy 40
 set Poleax stat accuracy 30
 set BreakerAxe stat accuracy 30
-set CrookedAxe stat accuracy 10
+set CrookedAxe stat accuracy 40
 set NimbusAxe stat accuracy 40
 set VolcanoAxe stat accuracy 40
 set GlacierAxe stat accuracy 40
@@ -2096,6 +2102,8 @@ set VerianAxe stat accuracy 50
 
 set BanditAxe effect steal-rate-plus 67
 set BattleAxe effect cripple-x2
+set BarbaricAxe effect nosferatu
+set CrookedAxe effect pascanion-backfire
 
 set Battleaxe stat level 5
 set Broadaxe stat level 5
@@ -2163,6 +2171,7 @@ set Apeiron stat max-range 3
 set Apeiron stat accuracy 60
 
 set CompositeBow effect cripple-x2
+set Strongbow effect nosferatu
 
 set IronBow stat Weight 5
 set ShortBow stat Weight 6
