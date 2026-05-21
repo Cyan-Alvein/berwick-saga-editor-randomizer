@@ -60,6 +60,8 @@
 
 // CrookedAxe & Albatross got Pascanion Back fire effect
 
+// DarkShield Vollenden Hestia GeneralShield AmaterasuShield got Reflect damage effect
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -639,7 +641,6 @@ set christine skill maim
 set christine skill huntsman
 set christine skill hide
 set christine skill onetwo
-set christine skill doubleshot
 set christine skill robbery
 set christine skill fortune
 set christine skill pursuit
@@ -648,6 +649,7 @@ set christine skill adept
 set christine skill counter
 set christine skill Windsweep
 set christine skill sunder
+set christine skill deathmatch
 
 set adel skill canto
 set adel skill pursuit 
@@ -728,10 +730,9 @@ set sherlock skill guard
 set sherlock skill windsweep
 set sherlock skill fortune
 set sherlock skill pursuit
-set sherlock skill deathmatch
 set sherlock skill adept
 set sherlock skill sunder
-set sherlock skill counter
+set sherlock skill deathmatch
 
 set izerna skill blessing
 set izerna skill canto
@@ -1057,7 +1058,7 @@ set sylvis skill adept
 set sylvis skill doubleshot
 set sylvis skill vantage
 set sylvis skill sunder
-set sylvis skill counter
+set sylvis skill deathmatch
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -1118,7 +1119,6 @@ set esteban skill doubleshot
 set esteban skill throw
 set esteban skill vantage
 set esteban skill sunder
-set esteban skill counter
 	
 set faye skill adept
 set faye skill deathmatch
@@ -2396,7 +2396,6 @@ set ShiningShield effect negate-dark 100
 //set FireShield effect fire-damage 6
 
 set DarkShield effect reflect-damage 100
-set Vollenden effect reflect-damage 100
 
 set LeatherSShd stat might 2
 set Buckler stat might 4
@@ -2407,7 +2406,7 @@ set Windshield stat might 6
 set FireShield stat might 6
 set ThunderShield stat might 6
 set LightShield stat might 6
-set DarkShield stat might 8
+set DarkShield stat might 7
 set MetalShield stat might 7
 set MithrilShield stat might 7
 set Vollenden stat might 8
@@ -2456,7 +2455,7 @@ set Windshield stat Weight 3
 set FireShield stat Weight 3
 set ThunderShield stat Weight 3
 set LightShield stat Weight 3
-set DarkShield stat Weight 4
+set DarkShield stat Weight 3
 set MetalShield stat weight 3
 set MithrilShield stat weight 2
 set Perseid stat weight 2
@@ -2554,7 +2553,7 @@ Set Kiteshield stat Weight 4
 Set SquareShield stat Weight 5
 Set KnightShield stat Weight 6
 Set LimitShield stat Weight 5
-Set Hestia stat Weight 8
+Set Hestia stat Weight 7
 Set WyrmskinShield stat Weight 4
 Set LadyMShd stat Weight 4
 Set PaladinShield stat Weight 6
@@ -2577,7 +2576,6 @@ Set Kiteshield stat mind 4
 Set SquareShield stat mind 5
 Set KnightShield stat mind 6
 Set LimitShield stat mind 5
-Set Hestia stat mind 11
 Set WyrmskinShield stat mind 7
 Set LadyMShd stat mind 7
 Set PaladinShield stat mind 12
@@ -2588,7 +2586,7 @@ set RadiantShield stat mind 9
 set ShadowShield stat mind 9
 set BlazingShield stat mind 9
 set GaleShield stat mind 9
-Set Hestia stat mind 11
+Set Hestia stat mind 10
 
 Set VerianMShd stat mind 4
 Set ImpSoldierMShd stat mind 4
@@ -2603,7 +2601,7 @@ Set Kiteshield stat might 8
 Set SquareShield stat might 10
 Set KnightShield stat might 12
 Set LimitShield stat might 11
-Set Hestia stat might 16
+Set Hestia stat might 14
 Set WyrmskinShield stat might 14
 Set LadyMShd stat might 12
 Set PaladinShield stat might 14
@@ -2626,10 +2624,9 @@ Set ImpKnightMShd stat might 12
 //set ShadowShield effect dark-damage 12
 //set BlazingShield effect fire-damage 12
 //set GaleShield effect wind-damage 12
-//Set Hestia effect fire-damage 16
+//Set Hestia effect fire-damage 14
 
 Set BlackShield effect reflect-damage 100
-Set Hestia effect reflect-damage 100
 
 set ImpSoldierMShd+ stat accuracy 50
 set LadyMShd stat accuracy 50
@@ -2667,10 +2664,10 @@ set Kiteshield stat cost 1760
 set SquareShield stat cost 2200
 set KnightShield stat cost 2640
 set LimitShield stat cost 3000
-set Hestia stat cost 10000
-set WyrmskinShield stat cost 4000
-set PaladinShield stat cost 3000
-set BlackShield stat cost 4000
+set Hestia stat cost 5000
+set WyrmskinShield stat cost 5000
+set PaladinShield stat cost 4000
+set BlackShield stat cost 5000
 
 set LightningShield stat cost 8000
 set RadiantShield stat cost 8000
@@ -2733,7 +2730,7 @@ set KojinShield stat accuracy 50
 set FujinShield stat accuracy 50
 set RaijinShield stat accuracy 50
 set AmaterasuShield stat accuracy 50
-set GeneralShield stat accuracy 50
+set GeneralShield stat accuracy 40
 
 //set KojinShield effect fire-damage 18
 //set FujinShield effect wind-damage 18
@@ -2742,7 +2739,6 @@ set GeneralShield stat accuracy 50
 //set GeneralShield effect holy-damage 24
 
 set AmaterasuShield effect reflect-damage 100
-set GeneralShield effect reflect-damage 100
 
 set ImpKnightLShd stat might 19
 set ImpOfficerLShd stat might 16
@@ -2757,17 +2753,18 @@ set Greatshield stat might 21
 set KojinShield stat might 18
 set FujinShield stat might 18
 set RaijinShield stat might 18
-set AmaterasuShield stat might 24
-set GeneralShield stat might 24
+set AmaterasuShield stat might 21
+set GeneralShield stat might 21
 
 set LeatherLShd stat cost 1800
 set WideShield stat cost 2100
 set IronShield stat cost 2400
-set KojinShield stat cost 12000
-set FujinShield stat cost 12000
-set RaijinShield stat cost 12000
-set GeneralShield stat cost 15000
-set AmaterasuShield stat cost 15000
+set Greatshield stat cost 2700
+set KojinShield stat cost 2700
+set FujinShield stat cost 2700
+set RaijinShield stat cost 2700
+set GeneralShield stat cost 2700
+set AmaterasuShield stat cost 5000
 
 set ImpSoldierLShd stat cost 2100
 set ImpSoldierLShd+ stat cost 2100
@@ -2779,11 +2776,11 @@ Set LeatherLShd Stat Weight 6
 Set WideShield Stat Weight 7
 Set IronShield Stat Weight 8
 Set Greatshield Stat Weight 9
-Set GeneralShield Stat Weight 12
+Set GeneralShield Stat Weight 9
 Set KojinShield Stat Weight 9
 Set FujinShield Stat Weight 9
 Set RaijinShield Stat Weight 9
-Set AmaterasuShield Stat Weight 12
+Set AmaterasuShield Stat Weight 9
 
 Set VerianLShd Stat Weight 6
 Set ImpSoldierLShd Stat Weight 7
@@ -2795,11 +2792,11 @@ Set LeatherLShd Stat mind 6
 Set WideShield Stat mind 7
 Set IronShield Stat mind 8
 Set Greatshield Stat mind 18
-Set GeneralShield Stat mind 15
+Set GeneralShield Stat mind 18
 Set KojinShield Stat mind 12
 Set FujinShield Stat mind 12
 Set RaijinShield Stat mind 12
-Set AmaterasuShield Stat mind 15
+Set AmaterasuShield Stat mind 9
 
 Set VerianLShd Stat mind 6
 Set ImpSoldierLShd Stat mind 7
@@ -4212,7 +4209,6 @@ set LadyKnight_R skill canto
 set LadyKnight_R skill prepared
 set LadyKnight_R skill hide
 set LadyKnight_R skill watchful
-set LadyKnight_R skill doubleshot
 
 set LadyKnight skill aim
 set LadyKnight skill armsthrift
@@ -4220,7 +4216,6 @@ set LadyKnight skill canto
 set LadyKnight skill prepared
 set LadyKnight skill hide
 set LadyKnight skill watchful
-set LadyKnight skill doubleshot
 
 set ArrowKnight_R skill aim
 set ArrowKnight_R skill armsthrift
@@ -4228,7 +4223,6 @@ set ArrowKnight_R skill canto
 set ArrowKnight_R skill prepared
 set ArrowKnight_R skill hide
 set ArrowKnight_R skill watchful
-set ArrowKnight_R skill doubleshot
 
 set ArrowKnight skill aim
 set ArrowKnight skill armsthrift
@@ -4236,7 +4230,6 @@ set ArrowKnight skill canto
 set ArrowKnight skill prepared
 set ArrowKnight skill hide
 set ArrowKnight skill watchful
-set ArrowKnight skill doubleshot
 
 set SpearKnight skill adept
 set SpearKnight_R skill adept
