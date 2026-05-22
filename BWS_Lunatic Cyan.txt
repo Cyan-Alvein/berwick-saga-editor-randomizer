@@ -2715,7 +2715,7 @@ set GeneralShield stat accuracy 50
 set KojinShield effect block-fire-damage 8
 set FujinShield effect block-thunder-damage 8
 set RaijinShield effect block-thunder-damage 8
-set AmaterasuShield effect block-dark-damage 12
+set AmaterasuShield effect block-fire-damage 12
 set GeneralShield effect block-holy-damage 12
 
 set ImpKnightLShd stat might 19
