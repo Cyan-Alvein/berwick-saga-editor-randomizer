@@ -2974,10 +2974,10 @@ set Thaddy bracket no
 //////////////////////////Difficulty Level - Ennemy buff///////////////////
 
 set Spearman base strength +5
-set Spearman base defense +2
+set Spearman base defense +5
 set Spearman base magic +20
-set Spearman base speed +2
-set Spearman base hp +2
+set Spearman base speed +5
+set Spearman base hp +5
 set Spearman skill canto
 set Spearman skill shieldfaire
 set Spearman skill armsthrift
@@ -2987,10 +2987,10 @@ set Spearman skill adept
 set Spearman skill hide
 
 set SpearRider_R base strength +5
-set SpearRider_R base defense +2
+set SpearRider_R base defense +5
 set SpearRider_R base magic +20
-set SpearRider_R base speed +2
-set SpearRider_R base hp +2
+set SpearRider_R base speed +5
+set SpearRider_R base hp +5
 set SpearRider_R skill canto
 set SpearRider_R skill shieldfaire
 set SpearRider_R skill armsthrift
@@ -3000,10 +3000,10 @@ set SpearRider_R skill adept
 set SpearRider_R skill hide
 
 set SpearRider base strength +5
-set SpearRider base defense +2
+set SpearRider base defense +5
 set SpearRider base magic +20
-set SpearRider base speed +2
-set SpearRider base hp +2
+set SpearRider base speed +5
+set SpearRider base hp +5
 set SpearRider skill canto
 set SpearRider skill shieldfaire
 set SpearRider skill armsthrift
@@ -3013,10 +3013,10 @@ set SpearRider skill adept
 set SpearRider skill hide
 
 set ImperialSpearman base strength +5
-set ImperialSpearman base defense +2
+set ImperialSpearman base defense +5
 set ImperialSpearman base magic +20
-set ImperialSpearman base speed +2
-set ImperialSpearman base hp +2
+set ImperialSpearman base speed +5
+set ImperialSpearman base hp +5
 set ImperialSpearman skill canto
 set ImperialSpearman skill shieldfaire
 set ImperialSpearman skill armsthrift
@@ -3026,10 +3026,10 @@ set ImperialSpearman skill adept
 set ImperialSpearman skill hide
 
 set ImperialSpearRider_R base strength +5
-set ImperialSpearRider_R base defense +2
+set ImperialSpearRider_R base defense +5
 set ImperialSpearRider_R base magic +20
-set ImperialSpearRider_R base speed +2
-set ImperialSpearRider_R base hp +2
+set ImperialSpearRider_R base speed +5
+set ImperialSpearRider_R base hp +5
 set ImperialSpearRider_R skill canto
 set ImperialSpearRider_R skill shieldfaire
 set ImperialSpearRider_R skill armsthrift
@@ -3039,10 +3039,10 @@ set ImperialSpearRider_R skill adept
 set ImperialSpearRider_R skill hide
 
 set ImperialSpearRider base strength +5
-set ImperialSpearRider base defense +2
+set ImperialSpearRider base defense +5
 set ImperialSpearRider base magic +20
-set ImperialSpearRider base speed +2
-set ImperialSpearRider base hp +2
+set ImperialSpearRider base speed +5
+set ImperialSpearRider base hp +5
 set ImperialSpearRider skill canto
 set ImperialSpearRider skill shieldfaire
 set ImperialSpearRider skill armsthrift
@@ -3052,10 +3052,10 @@ set ImperialSpearRider skill adept
 set ImperialSpearRider skill hide
 
 set Farmer base strength +5
-set Farmer base defense +2
+set Farmer base defense +5
 set Farmer base magic +20
-set Farmer base speed +2
-set Farmer base hp +2
+set Farmer base speed +5
+set Farmer base hp +5
 set Farmer skill canto
 set Farmer skill shieldfaire
 set Farmer skill armsthrift
@@ -3065,10 +3065,10 @@ set Farmer skill adept
 set Farmer skill hide
 
 set VerianKnight_R base strength +5
-set VerianKnight_R base defense +2
+set VerianKnight_R base defense +5
 set VerianKnight_R base magic +20
-set VerianKnight_R base speed +2
-set VerianKnight_R base hp +2
+set VerianKnight_R base speed +5
+set VerianKnight_R base hp +5
 set VerianKnight_R skill canto
 set VerianKnight_R skill shieldfaire
 set VerianKnight_R skill armsthrift
@@ -3077,9 +3077,9 @@ set VerianKnight_R skill camouflage
 set VerianKnight_R skill hide
 
 set VerianKnight base strength +5
-set VerianKnight base defense +2
+set VerianKnight base defense +5
 set VerianKnight base magic +20
-set VerianKnight base hp +2
+set VerianKnight base hp +5
 set VerianKnight skill canto
 set VerianKnight skill shieldfaire
 set VerianKnight skill armsthrift
@@ -3088,10 +3088,10 @@ set VerianKnight skill camouflage
 set VerianKnight skill hide
 
 set VerianKnight2_R base strength +5
-set VerianKnight2_R base defense +2
+set VerianKnight2_R base defense +5
 set VerianKnight2_R base magic +20
-set VerianKnight2_R base speed +2
-set VerianKnight2_R base hp +2
+set VerianKnight2_R base speed +5
+set VerianKnight2_R base hp +5
 set VerianKnight2_R skill canto
 set VerianKnight2_R skill shieldfaire
 set VerianKnight2_R skill armsthrift
@@ -3100,10 +3100,10 @@ set VerianKnight2_R skill camouflage
 set VerianKnight2_R skill hide
 
 set VerianKnight2 base strength +5
-set VerianKnight2 base defense +2
+set VerianKnight2 base defense +5
 set VerianKnight2 base magic +20
-set VerianKnight2 base speed +2
-set VerianKnight2 base hp +2
+set VerianKnight2 base speed +5
+set VerianKnight2 base hp +5
 set VerianKnight2 skill canto
 set VerianKnight2 skill shieldfaire
 set VerianKnight2 skill armsthrift
@@ -3112,10 +3112,10 @@ set VerianKnight2 skill camouflage
 set VerianKnight2 skill hide
 
 set ImperialKnight_R base strength +5
-set ImperialKnight_R base defense +2
+set ImperialKnight_R base defense +5
 set ImperialKnight_R base magic +20
-set ImperialKnight_R base speed +2
-set ImperialKnight_R base hp +2
+set ImperialKnight_R base speed +5
+set ImperialKnight_R base hp +5
 set ImperialKnight_R skill canto
 set ImperialKnight_R skill shieldfaire
 set ImperialKnight_R skill armsthrift
@@ -3124,10 +3124,10 @@ set ImperialKnight_R skill camouflage
 set ImperialKnight_R skill hide
 
 set ImperialKnight base strength +5
-set ImperialKnight base defense +2
+set ImperialKnight base defense +5
 set ImperialKnight base magic +20
-set ImperialKnight base speed +2
-set ImperialKnight base hp +2
+set ImperialKnight base speed +5
+set ImperialKnight base hp +5
 set ImperialKnight skill canto
 set ImperialKnight skill shieldfaire
 set ImperialKnight skill armsthrift
@@ -3136,10 +3136,10 @@ set ImperialKnight skill camouflage
 set ImperialKnight skill hide
 
 set ImperialPaladin_R base strength +5
-set ImperialPaladin_R base defense +2
+set ImperialPaladin_R base defense +5
 set ImperialPaladin_R base magic +20
-set ImperialPaladin_R base speed +2
-set ImperialPaladin_R base hp +2
+set ImperialPaladin_R base speed +5
+set ImperialPaladin_R base hp +5
 set ImperialPaladin_R skill canto
 set ImperialPaladin_R skill shieldfaire
 set ImperialPaladin_R skill armsthrift
@@ -3149,10 +3149,10 @@ set ImperialPaladin_R skill camouflage
 set ImperialPaladin_R skill hide
 
 set ImperialPaladin base strength +5
-set ImperialPaladin base defense +2
+set ImperialPaladin base defense +5
 set ImperialPaladin base magic +20
-set ImperialPaladin base speed +2
-set ImperialPaladin base hp +2
+set ImperialPaladin base speed +5
+set ImperialPaladin base hp +5
 set ImperialPaladin skill canto
 set ImperialPaladin skill shieldfaire
 set ImperialPaladin skill armsthrift
@@ -3161,10 +3161,10 @@ set ImperialPaladin skill camouflage
 set ImperialPaladin skill hide
 
 set HighKnight_R base strength +5
-set HighKnight_R base defense +2
+set HighKnight_R base defense +5
 set HighKnight_R base magic +20
-set HighKnight_R base speed +2
-set HighKnight_R base hp +2
+set HighKnight_R base speed +5
+set HighKnight_R base hp +5
 set HighKnight_R skill canto
 set HighKnight_R skill shieldfaire
 set HighKnight_R skill armsthrift
@@ -3173,10 +3173,10 @@ set HighKnight_R skill camouflage
 set HighKnight_R skill hide
 
 set HighKnight base strength +5
-set HighKnight base defense +2
+set HighKnight base defense +5
 set HighKnight base magic +20
-set HighKnight base speed +2
-set HighKnight base hp +2
+set HighKnight base speed +5
+set HighKnight base hp +5
 set HighKnight skill canto
 set HighKnight skill shieldfaire
 set HighKnight skill armsthrift
@@ -3185,10 +3185,10 @@ set HighKnight skill camouflage
 set HighKnight skill hide
 
 set HighKnight2_R base strength +5
-set HighKnight2_R base defense +2
+set HighKnight2_R base defense +5
 set HighKnight2_R base magic +20
-set HighKnight2_R base speed +2
-set HighKnight2_R base hp +2
+set HighKnight2_R base speed +5
+set HighKnight2_R base hp +5
 set HighKnight2_R skill canto
 set HighKnight2_R skill shieldfaire
 set HighKnight2_R skill armsthrift
@@ -3197,10 +3197,10 @@ set HighKnight2_R skill camouflage
 set HighKnight2_R skill hide
 
 set HighKnight2 base strength +5
-set HighKnight2 base defense +2
+set HighKnight2 base defense +5
 set HighKnight2 base magic +20
-set HighKnight2 base speed +2
-set HighKnight2 base hp +2
+set HighKnight2 base speed +5
+set HighKnight2 base hp +5
 set HighKnight2 skill canto
 set HighKnight2 skill shieldfaire
 set HighKnight2 skill armsthrift
@@ -3209,10 +3209,10 @@ set HighKnight2 skill camouflage
 set HighKnight2 skill hide
 
 set General base strength +5
-set General base defense +2
+set General base defense +5
 set General base magic +20
-set General base speed +2
-set General base hp +2
+set General base speed +5
+set General base hp +5
 set General skill canto
 set General skill shieldfaire
 set General skill armsthrift
@@ -3237,10 +3237,10 @@ set WyvernKnight skill parry
 set WyvernKnight skill counter
 
 set WyvernLord_R base strength +5
-set WyvernLord_R base defense +2
+set WyvernLord_R base defense +5
 set WyvernLord_R base magic +20
-set WyvernLord_R base speed +2
-set WyvernLord_R base hp +2
+set WyvernLord_R base speed +5
+set WyvernLord_R base hp +5
 set WyvernLord_R skill canto
 set WyvernLord_R skill shieldfaire
 set WyvernLord_R skill armsthrift
@@ -3250,10 +3250,10 @@ set WyvernLord_R skill camouflage
 set WyvernLord_R skill hide
 
 set WyvernLord base strength +5
-set WyvernLord base defense +2
+set WyvernLord base defense +5
 set WyvernLord base magic +20
-set WyvernLord base speed +2
-set WyvernLord base hp +2
+set WyvernLord base speed +5
+set WyvernLord base hp +5
 set WyvernLord skill canto
 set WyvernLord skill shieldfaire
 set WyvernLord skill armsthrift
@@ -3263,10 +3263,10 @@ set WyvernLord skill camouflage
 set WyvernLord skill hide
 
 set Axeman base strength +5
-set Axeman base defense +2
+set Axeman base defense +5
 set Axeman base magic +20
-set Axeman base speed +2
-set Axeman base hp +2
+set Axeman base speed +5
+set Axeman base hp +5
 set Axeman skill throw
 set Axeman skill armsthrift
 set Axeman skill canto
@@ -3275,10 +3275,10 @@ set Axeman skill camouflage
 set Axeman skill hide
 
 set ImperialAxeman base strength +5
-set ImperialAxeman base defense +2
+set ImperialAxeman base defense +5
 set ImperialAxeman base magic +20
-set ImperialAxeman base speed +2
-set ImperialAxeman base hp +2
+set ImperialAxeman base speed +5
+set ImperialAxeman base hp +5
 set ImperialAxeman skill throw
 set ImperialAxeman skill armsthrift
 set ImperialAxeman skill canto
@@ -3287,10 +3287,10 @@ set ImperialAxeman skill camouflage
 set ImperialAxeman skill hide
 
 set AxeGuard base strength +5
-set AxeGuard base defense +2
+set AxeGuard base defense +5
 set AxeGuard base magic +20
-set AxeGuard base speed +2
-set AxeGuard base hp +2
+set AxeGuard base speed +5
+set AxeGuard base hp +5
 set AxeGuard skill throw
 set AxeGuard skill armsthrift
 set AxeGuard skill canto
@@ -3299,10 +3299,10 @@ set AxeGuard skill camouflage
 set AxeGuard skill hide
 
 set Bowman base strength +5
-set Bowman base defense +2
+set Bowman base defense +5
 set Bowman base magic +20
-set Bowman base speed +2
-set Bowman base hp +2
+set Bowman base speed +5
+set Bowman base hp +5
 set Bowman skill canto
 set Bowman skill armsthrift
 set Bowman skill aim
@@ -3312,10 +3312,10 @@ set Bowman skill watchful
 set Bowman skill doubleshot
 	
 set BowRider base strength +5
-set BowRider base defense +2
+set BowRider base defense +5
 set BowRider base magic +20
-set BowRider base speed +2
-set BowRider base hp +2
+set BowRider base speed +5
+set BowRider base hp +5
 set BowRider skill canto
 set BowRider skill armsthrift
 set BowRider skill aim
@@ -3325,10 +3325,10 @@ set BowRider skill watchful
 set BowRider skill doubleshot
 
 set BowRider_R base strength +5
-set BowRider_R base defense +2
+set BowRider_R base defense +5
 set BowRider_R base magic +20
-set BowRider_R base speed +2
-set BowRider_R base hp +2
+set BowRider_R base speed +5
+set BowRider_R base hp +5
 set BowRider_R skill canto
 set BowRider_R skill armsthrift
 set BowRider_R skill aim
@@ -3338,10 +3338,10 @@ set BowRider_R skill watchful
 set BowRider_R skill doubleshot
 
 set Gunner base strength +5
-set Gunner base defense +2
+set Gunner base defense +5
 set Gunner base magic +20
-set Gunner base speed +2
-set Gunner base hp +2
+set Gunner base speed +5
+set Gunner base hp +5
 set Gunner skill canto
 set Gunner skill armsthrift
 set Gunner skill aim
@@ -3350,10 +3350,10 @@ set Gunner skill hide
 set Gunner skill watchful
 
 set HeavyGunner base strength +5
-set HeavyGunner base defense +2
+set HeavyGunner base defense +5
 set HeavyGunner base magic +20
-set HeavyGunner base speed +2
-set HeavyGunner base hp +2
+set HeavyGunner base speed +5
+set HeavyGunner base hp +5
 set HeavyGunner skill canto
 set HeavyGunner skill armsthrift
 set HeavyGunner skill aim
@@ -3362,10 +3362,10 @@ set HeavyGunner skill hide
 set HeavyGunner skill watchful
 
 set ImperialBowman base strength +5
-set ImperialBowman base defense +2
+set ImperialBowman base defense +5
 set ImperialBowman base magic +20
-set ImperialBowman base speed +2
-set ImperialBowman base hp +2
+set ImperialBowman base speed +5
+set ImperialBowman base hp +5
 set ImperialBowman skill canto
 set ImperialBowman skill armsthrift
 set ImperialBowman skill aim
@@ -3375,10 +3375,10 @@ set ImperialBowman skill watchful
 set ImperialBowman skill doubleshot
 
 set ImperialBowRider_R base strength +5
-set ImperialBowRider_R base defense +2
+set ImperialBowRider_R base defense +5
 set ImperialBowRider_R base magic +20
-set ImperialBowRider_R base speed +2
-set ImperialBowRider_R base hp +2
+set ImperialBowRider_R base speed +5
+set ImperialBowRider_R base hp +5
 set ImperialBowRider_R skill canto
 set ImperialBowRider_R skill armsthrift
 set ImperialBowRider_R skill aim
@@ -3388,10 +3388,10 @@ set ImperialBowRider_R skill watchful
 set ImperialBowRider_R skill doubleshot
 
 set ImperialBowRider base strength +5
-set ImperialBowRider base defense +2
+set ImperialBowRider base defense +5
 set ImperialBowRider base magic +20
-set ImperialBowRider base speed +2
-set ImperialBowRider base hp +2
+set ImperialBowRider base speed +5
+set ImperialBowRider base hp +5
 set ImperialBowRider skill canto
 set ImperialBowRider skill armsthrift
 set ImperialBowRider skill aim
@@ -3401,10 +3401,10 @@ set ImperialBowRider skill watchful
 set ImperialBowRider skill doubleshot
 
 set ImperialGunner base strength +5
-set ImperialGunner base defense +2
+set ImperialGunner base defense +5
 set ImperialGunner base magic +20
-set ImperialGunner base speed +2
-set ImperialGunner base hp +2
+set ImperialGunner base speed +5
+set ImperialGunner base hp +5
 set ImperialGunner skill canto
 set ImperialGunner skill armsthrift
 set ImperialGunner skill aim
@@ -3413,10 +3413,10 @@ set ImperialGunner skill hide
 set ImperialGunner skill watchful
 
 set ImperialHeavyGunner base strength +5
-set ImperialHeavyGunner base defense +2
+set ImperialHeavyGunner base defense +5
 set ImperialHeavyGunner base magic +20
-set ImperialHeavyGunner base speed +2
-set ImperialHeavyGunner base hp +2
+set ImperialHeavyGunner base speed +5
+set ImperialHeavyGunner base hp +5
 set ImperialHeavyGunner skill canto
 set ImperialHeavyGunner skill armsthrift
 set ImperialHeavyGunner skill aim
@@ -3425,10 +3425,10 @@ set ImperialHeavyGunner skill hide
 set ImperialHeavyGunner skill watchful
 
 set Marksman base strength +5
-set Marksman base defense +2
+set Marksman base defense +5
 set Marksman base magic +20
-set Marksman base speed +2
-set Marksman base hp +2
+set Marksman base speed +5
+set Marksman base hp +5
 set Marksman skill canto
 set Marksman skill armsthrift
 set Marksman skill aim
@@ -3438,10 +3438,10 @@ set Marksman skill watchful
 set Marksman skill doubleshot
 
 set ImperialMarksman base strength +5
-set ImperialMarksman base defense +2
+set ImperialMarksman base defense +5
 set ImperialMarksman base magic +20
-set ImperialMarksman base speed +2
-set ImperialMarksman base hp +2
+set ImperialMarksman base speed +5
+set ImperialMarksman base hp +5
 set ImperialMarksman skill canto
 set ImperialMarksman skill armsthrift
 set ImperialMarksman skill throw
@@ -3452,10 +3452,10 @@ set ImperialMarksman skill watchful
 set ImperialMarksman skill doubleshot
 
 set Warrior base strength +5
-set Warrior base defense +2
+set Warrior base defense +5
 set Warrior base magic +20
-set Warrior base speed +2
-set Warrior base hp +2
+set Warrior base speed +5
+set Warrior base hp +5
 set Warrior skill canto
 set Warrior skill shieldfaire
 set Warrior skill armsthrift
@@ -3465,10 +3465,10 @@ set Warrior skill camouflage
 set Warrior skill hide
 
 set Bandit base strength +5
-set Bandit base defense +2
+set Bandit base defense +5
 set Bandit base magic +20
-set Bandit base speed +2
-set Bandit base hp +2
+set Bandit base speed +5
+set Bandit base hp +5
 set Bandit skill canto
 set Bandit skill shieldfaire
 set Bandit skill armsthrift
@@ -3477,10 +3477,10 @@ set Bandit skill camouflage
 set Bandit skill hide
 
 set Corsair base strength +5
-set Corsair base defense +2
+set Corsair base defense +5
 set Corsair base magic +20
-set Corsair base speed +2
-set Corsair base hp +2
+set Corsair base speed +5
+set Corsair base hp +5
 set Corsair skill canto
 set Corsair skill armsthrift
 set Corsair skill throw
@@ -3489,10 +3489,10 @@ set Corsair skill hide
 
 // Rufffian is cav archer & knife, sherlock
 set Ruffian_R base strength +5
-set Ruffian_R base defense +2
+set Ruffian_R base defense +5
 set Ruffian_R base magic +20
-set Ruffian_R base speed +2
-set Ruffian_R base hp +2
+set Ruffian_R base speed +5
+set Ruffian_R base hp +5
 set Ruffian_R skill canto
 set Ruffian_R skill shieldfaire
 set Ruffian_R skill armsthrift
@@ -3505,10 +3505,10 @@ set Ruffian_R skill vantage
 set Ruffian_R skill doubleshot
 
 set Ruffian base strength +5
-set Ruffian base defense +2
+set Ruffian base defense +5
 set Ruffian base magic +20
-set Ruffian base speed +2
-set Ruffian base hp +2
+set Ruffian base speed +5
+set Ruffian base hp +5
 set Ruffian skill canto
 set Ruffian skill armsthrift
 set Ruffian skill throw
@@ -3521,10 +3521,10 @@ set Ruffian skill vantage
 set Ruffian skill doubleshot
 
 set Pickpocket base strength +5
-set Pickpocket base defense +2
+set Pickpocket base defense +5
 set Pickpocket base magic +20
-set Pickpocket base speed +2
-set Pickpocket base hp +2
+set Pickpocket base speed +5
+set Pickpocket base hp +5
 set Pickpocket skill canto
 set Pickpocket skill throw
 set Pickpocket skill armsthrift
@@ -3537,10 +3537,10 @@ set Pickpocket skill vantage
 
 //Thief ennemy with bow, didn't see any dagger yet
 set Outlaw base strength +5
-set Outlaw base defense +2
+set Outlaw base defense +5
 set Outlaw base magic +20
-set Outlaw base speed +2
-set Outlaw base hp +2
+set Outlaw base speed +5
+set Outlaw base hp +5
 set Outlaw skill canto
 set Outlaw skill throw
 set Outlaw skill armsthrift
@@ -3552,10 +3552,10 @@ set Outlaw skill watchful
 
 // same stats as thaddy
 set Assassin base strength +5
-set Assassin base defense +2
+set Assassin base defense +5
 set Assassin base magic +20
-set Assassin base speed +2
-set Assassin base hp +2
+set Assassin base speed +5
+set Assassin base hp +5
 set Assassin skill canto
 set Assassin skill camouflage
 set Assassin skill critical
@@ -3571,10 +3571,10 @@ set Assassin skill armsthrift
 
 //farmer with ring
 set Rogue base strength +5
-set Rogue base defense +2
+set Rogue base defense +5
 set Rogue base magic +20
-set Rogue base speed +2
-set Rogue base hp +2
+set Rogue base speed +5
+set Rogue base hp +5
 set Rogue skill armsthrift
 set Rogue skill shieldfaire
 set Rogue skill throw
@@ -3583,10 +3583,10 @@ set Rogue skill camouflage
 set Rogue skill hide
 
 set RazeMonk base strength +5
-set RazeMonk base defense +2
+set RazeMonk base defense +5
 set RazeMonk base magic +20
-set RazeMonk base speed +2
-set RazeMonk base hp +2
+set RazeMonk base speed +5
+set RazeMonk base hp +5
 set RazeMonk skill blessing
 set RazeMonk skill focuschant
 set RazeMonk skill canto
@@ -3599,10 +3599,10 @@ set RazeMonk skill hide
 set RazeMonk skill watchful
 
 set RazePriest base strength +5
-set RazePriest base defense +2
+set RazePriest base defense +5
 set RazePriest base magic +20
-set RazePriest base speed +2
-set RazePriest base hp +2
+set RazePriest base speed +5
+set RazePriest base hp +5
 set RazePriest skill focuschant
 set RazePriest skill blessing
 set RazePriest skill canto
@@ -3616,10 +3616,10 @@ set RazePriest skill hide
 set RazePriest skill watchful
 
 set RazeBishop base strength +5
-set RazeBishop base defense +2
+set RazeBishop base defense +5
 set RazeBishop base magic +20
-set RazeBishop base speed +2
-set RazeBishop base hp +2
+set RazeBishop base speed +5
+set RazeBishop base hp +5
 set RazeBishop skill focuschant
 set RazeBishop skill blessing
 set RazeBishop skill canto
@@ -3634,10 +3634,10 @@ set RazeBishop skill hide
 set RazeBishop skill watchful
 
 set DarkMaster base strength +5
-set DarkMaster base defense +2
+set DarkMaster base defense +5
 set DarkMaster base magic +15
-set DarkMaster base speed +2
-set DarkMaster base hp +2
+set DarkMaster base speed +5
+set DarkMaster base hp +5
 set DarkMaster skill canto
 set DarkMaster skill commander
 set DarkMaster skill imbue
@@ -3647,10 +3647,10 @@ set DarkMaster skill armsthrift
 
 // same as kramer
 set RazeWarMonk base strength +5
-set RazeWarMonk base defense +2
+set RazeWarMonk base defense +5
 set RazeWarMonk base magic +20
-set RazeWarMonk base speed +2
-set RazeWarMonk base hp +2
+set RazeWarMonk base speed +5
+set RazeWarMonk base hp +5
 set RazeWarMonk skill focuschant
 set RazeWarMonk skill canto
 set RazeWarMonk skill blessing
@@ -3663,10 +3663,10 @@ set RazeWarMonk skill armsthrift
 
 // same as kramer 
 set RogueGuard base strength +5
-set RogueGuard base defense +2
+set RogueGuard base defense +5
 set RogueGuard base magic +20
-set RogueGuard base speed +2
-set RogueGuard base hp +2
+set RogueGuard base speed +5
+set RogueGuard base hp +5
 set RogueGuard skill canto
 set RogueGuard skill armsthrift
 set RogueGuard skill shieldfaire
@@ -3674,10 +3674,10 @@ set RogueGuard skill camouflage
 set RogueGuard skill hide
 
 set RogueArcher base strength +5
-set RogueArcher base defense +2
+set RogueArcher base defense +5
 set RogueArcher base magic +20
-set RogueArcher base speed +2
-set RogueArcher base hp +2
+set RogueArcher base speed +5
+set RogueArcher base hp +5
 set RogueArcher skill aim
 set RogueArcher skill canto
 set RogueArcher skill armsthrift
@@ -3687,10 +3687,10 @@ set RogueArcher skill watchful
 set RogueArcher skill doubleshot
 
 set RogueGunner base strength +5
-set RogueGunner base defense +2
+set RogueGunner base defense +5
 set RogueGunner base magic +20
-set RogueGunner base speed +2
-set RogueGunner base hp +2
+set RogueGunner base speed +5
+set RogueGunner base hp +5
 set RogueGunner skill aim
 set RogueGunner skill canto
 set RogueGunner skill armsthrift
@@ -3699,10 +3699,10 @@ set RogueGunner skill hide
 set RogueGunner skill watchful
 
 set RogueWarrior base strength +5
-set RogueWarrior base defense +2
+set RogueWarrior base defense +5
 set RogueWarrior base magic +20
-set RogueWarrior base speed +2
-set RogueWarrior base hp +2
+set RogueWarrior base speed +5
+set RogueWarrior base hp +5
 set RogueWarrior skill shieldfaire
 set RogueWarrior skill canto
 set RogueWarrior skill throw
@@ -3711,30 +3711,30 @@ set RogueWarrior skill camouflage
 set RogueWarrior skill hide
 
 set SnowBandit base strength +5
-set SnowBandit base defense +2
+set SnowBandit base defense +5
 set SnowBandit base magic +20
-set SnowBandit base speed +2
-set SnowBandit base hp +2
+set SnowBandit base speed +5
+set SnowBandit base hp +5
 set SnowBandit skill canto
 set SnowBandit skill throw
 set SnowBandit skill camouflage
 set SnowBandit skill hide
 
 set Barbarian base strength +5
-set Barbarian base defense +2
+set Barbarian base defense +5
 set Barbarian base magic +20
-set Barbarian base speed +2
-set Barbarian base hp +2
+set Barbarian base speed +5
+set Barbarian base hp +5
 set Barbarian skill canto
 set Barbarian skill throw
 set Barbarian skill camouflage
 set Barbarian skill hide
 
 set Duke base strength +5
-set Duke base defense +2
+set Duke base defense +5
 set Duke base magic +20
-set Duke base speed +2
-set Duke base hp +2
+set Duke base speed +5
+set Duke base hp +5
 set Duke skill canto
 set Duke skill shieldfaire
 set Duke skill throw
@@ -3744,10 +3744,10 @@ set Duke skill camouflage
 set Duke skill hide
 
 set Scoundrel base strength +5
-set Scoundrel base defense +2
+set Scoundrel base defense +5
 set Scoundrel base magic +20
-set Scoundrel base speed +2
-set Scoundrel base hp +2
+set Scoundrel base speed +5
+set Scoundrel base hp +5
 set Scoundrel skill canto
 set Scoundrel skill iaido
 set Scoundrel skill camouflage
@@ -3757,10 +3757,10 @@ set Scoundrel skill hide
 set Scoundrel skill charisma
 
 set RazeWarMonk2 base strength +5
-set RazeWarMonk2 base defense +2
+set RazeWarMonk2 base defense +5
 set RazeWarMonk2 base magic +20
-set RazeWarMonk2 base speed +2
-set RazeWarMonk2 base hp +2
+set RazeWarMonk2 base speed +5
+set RazeWarMonk2 base hp +5
 set RazeWarMonk2 skill focuschant
 set RazeWarMonk2 skill canto
 set RazeWarMonk2 skill iaido
@@ -3772,10 +3772,10 @@ set RazeWarMonk2 skill hide
 set RazeWarMonk2 skill charisma
 
 set FailedPoet base strength +5
-set FailedPoet base defense +2
+set FailedPoet base defense +5
 set FailedPoet base magic +20
-set FailedPoet base speed +2
-set FailedPoet base hp +2
+set FailedPoet base speed +5
+set FailedPoet base hp +5
 set FailedPoet skill throw
 set FailedPoet skill commander
 set FailedPoet skill armsthrift
@@ -3787,10 +3787,10 @@ set FailedPoet skill critical
 set FailedPoet skill adept
 
 set RazeBishop2 base strength +5
-set RazeBishop2 base defense +2
+set RazeBishop2 base defense +5
 set RazeBishop2 base magic +20
-set RazeBishop2 base speed +2
-set RazeBishop2 base hp +2
+set RazeBishop2 base speed +5
+set RazeBishop2 base hp +5
 set RazeBishop2 skill focuschant
 set RazeBishop2 skill canto
 set RazeBishop2 skill blessing
@@ -3805,10 +3805,10 @@ set RazeBishop2 skill watchful
 set RazeBishop2 skill charisma
 
 set King base strength +5
-set King base defense +2
+set King base defense +5
 set King base magic +20
-set King base speed +2
-set King base hp +2
+set King base speed +5
+set King base hp +5
 set King skill shieldfaire
 set King skill armsthrift
 set King skill canto
@@ -3817,10 +3817,10 @@ set King skill camouflage
 set King skill hide
 
 set Captain base strength +5
-set Captain base defense +2
+set Captain base defense +5
 set Captain base magic +20
-set Captain base speed +2
-set Captain base hp +2
+set Captain base speed +5
+set Captain base hp +5
 set Captain skill armsthrift
 set Captain skill canto
 set Captain skill iaido
@@ -3836,10 +3836,10 @@ set Huntress skill hide
 set Huntress skill watchful
 
 set DragonKnight_R base strength +5
-set DragonKnight_R base defense +2
+set DragonKnight_R base defense +5
 set DragonKnight_R base magic +20
-set DragonKnight_R base speed +2
-set DragonKnight_R base hp +2
+set DragonKnight_R base speed +5
+set DragonKnight_R base hp +5
 set DragonKnight_R skill armsthrift
 set DragonKnight_R skill canto
 set DragonKnight_R skill shieldfaire
@@ -3849,10 +3849,10 @@ set DragonKnight_R skill hide
 set DragonKnight_R skill charisma
 
 set DragonKnight base strength +5
-set DragonKnight base defense +2
+set DragonKnight base defense +5
 set DragonKnight base magic +20
-set DragonKnight base speed +2
-set DragonKnight base hp +2
+set DragonKnight base speed +5
+set DragonKnight base hp +5
 set DragonKnight skill armsthrift
 set DragonKnight skill shieldfaire
 set DragonKnight skill throw
@@ -3862,10 +3862,10 @@ set DragonKnight skill canto
 set DragonKnight skill charisma
 
 set WarMonk base strength +5
-set WarMonk base defense +2
+set WarMonk base defense +5
 set WarMonk base magic +20
-set WarMonk base speed +2
-set WarMonk base hp +2
+set WarMonk base speed +5
+set WarMonk base hp +5
 set WarMonk skill armsthrift
 set WarMonk skill canto
 set WarMonk skill camouflage
@@ -3874,19 +3874,19 @@ set WarMonk skill hide
 set WarMonk skill watchful
 
 set Flamewyrm base strength +5
-set Flamewyrm base defense +2
+set Flamewyrm base defense +5
 set Flamewyrm base magic +20
-set Flamewyrm base speed +2
-set Flamewyrm base hp +2
+set Flamewyrm base speed +5
+set Flamewyrm base hp +5
 set Flamewyrm skill camouflage
 set Flamewyrm skill focuschant
 set Flamewyrm skill hide
 
 set BlackRider_R base strength +5
-set BlackRider_R base defense +2
+set BlackRider_R base defense +5
 set BlackRider_R base magic +20
-set BlackRider_R base speed +2
-set BlackRider_R base hp +2
+set BlackRider_R base speed +5
+set BlackRider_R base hp +5
 set BlackRider_R skill armsthrift
 set BlackRider_R skill camouflage
 set BlackRider_R skill shieldfaire
@@ -3894,10 +3894,10 @@ set BlackRider_R skill throw
 set BlackRider_R skill hide
 
 set BlackRider base strength +5
-set BlackRider base defense +2
+set BlackRider base defense +5
 set BlackRider base magic +20
-set BlackRider base speed +2
-set BlackRider base hp +2
+set BlackRider base speed +5
+set BlackRider base hp +5
 set BlackRider skill armsthrift
 set BlackRider skill camouflage
 set BlackRider skill shieldfaire
@@ -3905,29 +3905,29 @@ set BlackRider skill throw
 set BlackRider skill charisma
 
 set GigasKnight base strength +5
-set GigasKnight base defense +2
+set GigasKnight base defense +5
 set GigasKnight base magic +20
-set GigasKnight base speed +2
-set GigasKnight base hp +2
+set GigasKnight base speed +5
+set GigasKnight base hp +5
 set GigasKnight skill armsthrift
 set GigasKnight skill camouflage
 set GigasKnight skill canto
 set GigasKnight skill hide
 
 set Transporter base strength +5
-set Transporter base defense +2
+set Transporter base defense +5
 set Transporter base magic +20
-set Transporter base speed +2
-set Transporter base hp +2
+set Transporter base speed +5
+set Transporter base hp +5
 set Transporter skill camouflage
 set Transporter skill hide
 
 //same as scoundrel, he is a bandit boss
 set Chief base strength +5
-set Chief base defense +2
+set Chief base defense +5
 set Chief base magic +20
-set Chief base speed +2
-set Chief base hp +2
+set Chief base speed +5
+set Chief base hp +5
 set Chief skill armsthrift
 set Chief skill camouflage
 set Chief skill canto
@@ -3938,40 +3938,40 @@ set Chief skill hide
 set Chief skill charisma
 
 set Icewyrm base strength +5
-set Icewyrm base defense +2
+set Icewyrm base defense +5
 set Icewyrm base magic +20
-set Icewyrm base speed +2
-set Icewyrm base hp +2
+set Icewyrm base speed +5
+set Icewyrm base hp +5
 set Icewyrm skill armsthrift
 set Icewyrm skill camouflage
 set Icewyrm skill focuschant
 set Icewyrm skill hide
 
 set Levinwyrm base strength +5
-set Levinwyrm base defense +2
+set Levinwyrm base defense +5
 set Levinwyrm base magic +20
-set Levinwyrm base speed +2
-set Levinwyrm base hp +2
+set Levinwyrm base speed +5
+set Levinwyrm base hp +5
 set Levinwyrm skill armsthrift
 set Levinwyrm skill camouflage
 set Levinwyrm skill focuschant
 set Levinwyrm skill hide
 
 set Wyvern base strength +5
-set Wyvern base defense +2
+set Wyvern base defense +5
 set Wyvern base magic +20
-set Wyvern base speed +2
-set Wyvern base hp +2
+set Wyvern base speed +5
+set Wyvern base hp +5
 set Wyvern skill armsthrift
 set Wyvern skill camouflage
 set Wyvern skill focuschant
 set Wyvern skill hide
 
 set Aristocrat base strength +5
-set Aristocrat base defense +2
+set Aristocrat base defense +5
 set Aristocrat base magic +20
-set Aristocrat base speed +2
-set Aristocrat base hp +2
+set Aristocrat base speed +5
+set Aristocrat base hp +5
 set Aristocrat skill armsthrift
 set Aristocrat skill camouflage 
 set Aristocrat skill canto
@@ -5022,3 +5022,401 @@ set Arrow++ stat might 8
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
+
+set sniper skill doubleshot
+set sniper skill onetwo
+set hunter skill doubleshot
+set hunter skill throw
+set HighHunter skill doubleshot
+set HighHunter skill throw
+set Horseman skill doubleshot
+set Horseman_R skill doubleshot
+set BowKnight skill doubleshot
+set BowKnight_R skill doubleshot
+set LadyKnight skill onetwo
+set LadyKnight skill deathmatch
+set LadyKnight_R skill onetwo
+set LadyKnight_R skill deathmatch
+set ArrowKnight skill onetwo
+set ArrowKnight skill deathmatch
+set ArrowKnight_R skill onetwo
+set ArrowKnight_R skill deathmatch
+set Pirate skill mug2
+set Hunter skill mug2
+set HighHunter skill mug2
+set DukeKnight skill counter
+set DukeKnight_R skill counter
+set Duke skill counter
+set LanceKnight skill counter
+set LanceKnight skill provoke
+set LanceKnight_R skill counter
+set LanceKnight_R skill provoke
+set LanceKnight2 skill counter
+set LanceKnight2 skill provoke
+set LanceKnight2_R skill counter
+set LanceKnight2_R skill provoke
+set Paladin_F skill shieldfaire
+set Paladin_F_R skill shieldfaire
+set WyvernKnightLarentia skill counter
+set WyvernKnightLarentia_R skill counter
+set ShiningKnightParamythis skill parry
+set ShiningKnightParamythis_R skill parry
+set Guardian skill provoke
+set ArmorKnight skill provoke
+set Ranger skill counter
+set AxeSoldier skill provoke
+set AxeSergeant skill provoke
+set Myrmidon skill evasion
+set Swordfighter_M skill evasion
+set Swordmaster skill evasion
+set Ranger skill evasion
+
+//windsweep to everyone
+set Acolyte skill windsweep
+set Apostle skill windsweep
+set Aristocrat skill windsweep
+set ArmorKnight skill windsweep
+set ArrowKnight skill windsweep
+set ArrowKnight_R skill windsweep
+set Assassin skill windsweep
+set Axefighter skill windsweep
+set AxeGuard skill windsweep
+set Axeman skill windsweep
+set AxeSergeant skill windsweep
+set AxeSoldier skill windsweep
+set Ballistician skill windsweep
+set Bandit skill windsweep
+set Barbarian skill windsweep
+set Berserker skill windsweep
+set Bishop skill windsweep
+set BlackRider skill windsweep
+set BlackRider_R skill windsweep
+set BowKnight skill windsweep
+set BowKnight_R skill windsweep
+set Bowman skill windsweep
+set BowRider skill windsweep
+set BowRider_R skill windsweep
+set Burglar skill windsweep
+set Captain skill windsweep
+set Cavalier skill windsweep
+set Cavalier_R skill windsweep
+set Chevalire skill windsweep
+set Chevalire_R skill windsweep
+set Chief skill windsweep
+set ChosenOne skill windsweep
+set Cleric skill windsweep
+set Corsair skill windsweep
+set CourtPriest skill windsweep
+set DarkMaster skill windsweep
+set DragonKnight skill windsweep
+set DragonKnight_R skill windsweep
+set Duke skill windsweep
+set DukeKnight skill windsweep
+set DukeKnight_R skill windsweep
+set Engineer skill windsweep
+set FailedPoet skill windsweep
+set Farmer skill windsweep
+set Fencer skill windsweep
+set FlameFencer skill windsweep
+set Flamewyrm skill windsweep
+set Friar skill windsweep
+set General skill windsweep
+set GigasKnight skill windsweep
+set Grassrunner skill windsweep
+set Grassrunner_R skill windsweep
+set Guardian skill windsweep
+set Gunner skill windsweep
+set HeavyGunner skill windsweep
+set Hero skill windsweep
+set HighHunter skill windsweep
+set HighKnight skill windsweep
+set HighKnight2 skill windsweep
+set HighKnight2_R skill windsweep
+set HighKnight_R skill windsweep
+set Highlander skill windsweep
+set Horseman skill windsweep
+set Horseman_R skill windsweep
+set Hunter skill windsweep
+set Huntress skill windsweep
+set Icewyrm skill windsweep
+set ImperialAxeman skill windsweep
+set ImperialBowman skill windsweep
+set ImperialBowRider skill windsweep
+set ImperialBowRider_R skill windsweep
+set ImperialGunner skill windsweep
+set ImperialHeavyGunner skill windsweep
+set ImperialKnight skill windsweep
+set ImperialKnight_R skill windsweep
+set ImperialMarksman skill windsweep
+set ImperialPaladin skill windsweep
+set ImperialPaladin_R skill windsweep
+set ImperialSpearman skill windsweep
+set ImperialSpearRider skill windsweep
+set ImperialSpearRider_R skill windsweep
+set King skill windsweep
+set KnightLord skill windsweep
+set KnightLord_R skill windsweep
+set LadyKnight skill windsweep
+set LadyKnight_R skill windsweep
+set LanceKnight skill windsweep
+set LanceKnight2 skill windsweep
+set LanceKnight2_R skill windsweep
+set LanceKnight_R skill windsweep
+set Levinwyrm skill windsweep
+set Lord skill windsweep
+set Lord_R skill windsweep
+set Marksman skill windsweep
+set Mercenary skill windsweep
+set Myrmidon skill windsweep
+set Outlaw skill windsweep
+set Paladin skill windsweep
+set Paladin_F skill windsweep
+set Paladin_F_R skill windsweep
+set Paladin_M skill windsweep
+set Paladin_M_R skill windsweep
+set Paladin_R skill windsweep
+set Pickpocket skill windsweep
+set Pirate skill windsweep
+set Priest skill windsweep
+set Priestess skill windsweep
+set Princess skill windsweep
+set Ranger skill windsweep
+set RazeBishop skill windsweep
+set RazeBishop2 skill windsweep
+set RazeMonk skill windsweep
+set RazeMonkOwen skill windsweep
+set RazePriest skill windsweep
+set RazeWarMonk skill windsweep
+set RazeWarMonk2 skill windsweep
+set Rogue skill windsweep
+set RogueArcher skill windsweep
+set RogueGuard skill windsweep
+set RogueGunner skill windsweep
+set RogueWarrior skill windsweep
+set Ruffian skill windsweep
+set Ruffian_R skill windsweep
+set Scoundrel skill windsweep
+set ShiningKnight skill windsweep
+set ShiningKnight_R skill windsweep
+set ShiningKnightParamythis skill windsweep
+set ShiningKnightParamythis_R skill windsweep
+set Sniper skill windsweep
+set SnowBandit skill windsweep
+set SpearKnight skill windsweep
+set SpearKnight_R skill windsweep
+set Spearman skill windsweep
+set SpearRider skill windsweep
+set SpearRider_R skill windsweep
+set Swordfighter_M skill windsweep
+set SwordKnight skill windsweep
+set SwordKnight_R skill windsweep
+set Swordmaster skill windsweep
+set Thief_F skill windsweep
+set Thief_M skill windsweep
+set ThunderMage skill windsweep
+set ThunderSage skill windsweep
+set Transporter skill windsweep
+set VerianKnight skill windsweep
+set VerianKnight2 skill windsweep
+set VerianKnight2_R skill windsweep
+set VerianKnight_R skill windsweep
+set VeteranKnight skill windsweep
+set VeteranKnight_R skill windsweep
+set WarMonk skill windsweep
+set Warrior skill windsweep
+set WindMage skill windsweep
+set WindSage skill windsweep
+set Wyvern skill windsweep
+set WyvernKnight skill windsweep
+set WyvernKnight_R skill windsweep
+set WyvernKnightLarentia skill windsweep
+set WyvernKnightLarentia_R skill windsweep
+set WyvernLord skill windsweep
+set WyvernLord_R skill windsweep
+
+//sunder to everyone
+set Acolyte skill sunder
+set Apostle skill sunder
+set Aristocrat skill sunder
+set ArmorKnight skill sunder
+set ArrowKnight skill sunder
+set ArrowKnight_R skill sunder
+set Assassin skill sunder
+set Axefighter skill sunder
+set AxeGuard skill sunder
+set Axeman skill sunder
+set AxeSergeant skill sunder
+set AxeSoldier skill sunder
+set Ballistician skill sunder
+set Bandit skill sunder
+set Barbarian skill sunder
+set Berserker skill sunder
+set Bishop skill sunder
+set BlackRider skill sunder
+set BlackRider_R skill sunder
+set BowKnight skill sunder
+set BowKnight_R skill sunder
+set Bowman skill sunder
+set BowRider skill sunder
+set BowRider_R skill sunder
+set Burglar skill sunder
+set Captain skill sunder
+set Cavalier skill sunder
+set Cavalier_R skill sunder
+set Chevalire skill sunder
+set Chevalire_R skill sunder
+set Chief skill sunder
+set ChosenOne skill sunder
+set Cleric skill sunder
+set Corsair skill sunder
+set CourtPriest skill sunder
+set DarkMaster skill sunder
+set DragonKnight skill sunder
+set DragonKnight_R skill sunder
+set Duke skill sunder
+set DukeKnight skill sunder
+set DukeKnight_R skill sunder
+set Engineer skill sunder
+set FailedPoet skill sunder
+set Farmer skill sunder
+set Fencer skill sunder
+set FlameFencer skill sunder
+set Flamewyrm skill sunder
+set Friar skill sunder
+set General skill sunder
+set GigasKnight skill sunder
+set Grassrunner skill sunder
+set Grassrunner_R skill sunder
+set Guardian skill sunder
+set Gunner skill sunder
+set HeavyGunner skill sunder
+set Hero skill sunder
+set HighHunter skill sunder
+set HighKnight skill sunder
+set HighKnight2 skill sunder
+set HighKnight2_R skill sunder
+set HighKnight_R skill sunder
+set Highlander skill sunder
+set Horseman skill sunder
+set Horseman_R skill sunder
+set Hunter skill sunder
+set Huntress skill sunder
+set Icewyrm skill sunder
+set ImperialAxeman skill sunder
+set ImperialBowman skill sunder
+set ImperialBowRider skill sunder
+set ImperialBowRider_R skill sunder
+set ImperialGunner skill sunder
+set ImperialHeavyGunner skill sunder
+set ImperialKnight skill sunder
+set ImperialKnight_R skill sunder
+set ImperialMarksman skill sunder
+set ImperialPaladin skill sunder
+set ImperialPaladin_R skill sunder
+set ImperialSpearman skill sunder
+set ImperialSpearRider skill sunder
+set ImperialSpearRider_R skill sunder
+set King skill sunder
+set KnightLord skill sunder
+set KnightLord_R skill sunder
+set LadyKnight skill sunder
+set LadyKnight_R skill sunder
+set LanceKnight skill sunder
+set LanceKnight2 skill sunder
+set LanceKnight2_R skill sunder
+set LanceKnight_R skill sunder
+set Levinwyrm skill sunder
+set Lord skill sunder
+set Lord_R skill sunder
+set Marksman skill sunder
+set Mercenary skill sunder
+set Myrmidon skill sunder
+set Outlaw skill sunder
+set Paladin skill sunder
+set Paladin_F skill sunder
+set Paladin_F_R skill sunder
+set Paladin_M skill sunder
+set Paladin_M_R skill sunder
+set Paladin_R skill sunder
+set Pickpocket skill sunder
+set Pirate skill sunder
+set Priest skill sunder
+set Priestess skill sunder
+set Princess skill sunder
+set Ranger skill sunder
+set RazeBishop skill sunder
+set RazeBishop2 skill sunder
+set RazeMonk skill sunder
+set RazeMonkOwen skill sunder
+set RazePriest skill sunder
+set RazeWarMonk skill sunder
+set RazeWarMonk2 skill sunder
+set Rogue skill sunder
+set RogueArcher skill sunder
+set RogueGuard skill sunder
+set RogueGunner skill sunder
+set RogueWarrior skill sunder
+set Ruffian skill sunder
+set Ruffian_R skill sunder
+set Scoundrel skill sunder
+set ShiningKnight skill sunder
+set ShiningKnight_R skill sunder
+set ShiningKnightParamythis skill sunder
+set ShiningKnightParamythis_R skill sunder
+set Sniper skill sunder
+set SnowBandit skill sunder
+set SpearKnight skill sunder
+set SpearKnight_R skill sunder
+set Spearman skill sunder
+set SpearRider skill sunder
+set SpearRider_R skill sunder
+set Swordfighter_M skill sunder
+set SwordKnight skill sunder
+set SwordKnight_R skill sunder
+set Swordmaster skill sunder
+set Thief_F skill sunder
+set Thief_M skill sunder
+set ThunderMage skill sunder
+set ThunderSage skill sunder
+set Transporter skill sunder
+set VerianKnight skill sunder
+set VerianKnight2 skill sunder
+set VerianKnight2_R skill sunder
+set VerianKnight_R skill sunder
+set VeteranKnight skill sunder
+set VeteranKnight_R skill sunder
+set WarMonk skill sunder
+set Warrior skill sunder
+set WindMage skill sunder
+set WindSage skill sunder
+set Wyvern skill sunder
+set WyvernKnight skill sunder
+set WyvernKnight_R skill sunder
+set WyvernKnightLarentia skill sunder
+set WyvernKnightLarentia_R skill sunder
+set WyvernLord skill sunder
+set WyvernLord_R skill sunder
+
+set Lord skill sunder
+set Lord_R skill sunder
+set KnightLord skill sunder
+set KnightLord_R skill sunder
+set VeteranKnight skill sunder
+set VeteranKnight_R skill sunder
+set VeteranKnight_R skill sunder
+set Paladin skill sunder
+set Paladin_R skill sunder
+set Paladin_M skill sunder
+set Paladin_M_R skill sunder
+set Paladin_F skill sunder
+set Paladin_F_R skill sunder
+set LadyKnight skill sunder
+set LadyKnight_R skill sunder
+set ArrowKnight skill sunder
+set ArrowKnight_R skill sunder
+set LanceKnight skill sunder
+set LanceKnight_R skill sunder
+set LanceKnight2 skill sunder
+set LanceKnight2_R skill sunder
+set Horseman skill sunder
+set Horseman_R skill sunder
