@@ -2374,6 +2374,7 @@ set Windshield effect block-thunder-damage 6
 set LightShield effect block-holy-damage 6
 set ThunderShield effect thunder-damage 6
 set FireShield effect block-fire-damage 6
+set Perseid effect block-holy-damage 6
 
 set LeatherSShd stat might 2
 set Buckler stat might 4
@@ -2461,7 +2462,7 @@ set LightShield stat cost 4000
 set DarkShield stat cost 5000
 set MetalShield stat cost 2500
 set MithrilShield stat cost 4000
-set Perseid stat cost 4000
+set Perseid stat cost 5000
 set LadyShield stat cost 3000
 set Vollenden stat cost 5000
 set ShiningShield stat cost 4000
