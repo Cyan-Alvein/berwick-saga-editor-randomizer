@@ -56,7 +56,7 @@
 
 // All weapon self repair next chapter as Nothung & PallasLeia.
 
-// Brionac, BarbaricAxe & Strongbow got Nosferatu effect
+// Brionac, Shieldaxe & Strongbow got Nosferatu effect
 
 // CrookedAxe & Albatross got Pascanion Back fire effect
 
@@ -1622,7 +1622,7 @@ set Swordbreaker stat durability C
 set Seax stat accuracy 50
 set stunknife stat accuracy 40
 set Swordbreaker stat accuracy 40
-set ThiefsKnife stat accuracy 40
+set ThiefsKnife stat accuracy 50
 set KillerKnife stat accuracy 70
 set AssassinsKnife stat accuracy 80
 set Shieldknife stat accuracy 40
@@ -1651,6 +1651,8 @@ set Albatross stat might 16
 
 set AltiumSword effect cripple-x2
 set Albatross effect pascanion-backfire
+set Albatross stat defense 6
+set Albatross stat avoid 18
 
 set WindEdge effect wind-damage 7
 set LevinSword effect thunder-damage 11
@@ -1672,7 +1674,7 @@ set KillingEdge stat accuracy 60
 set Harperia stat accuracy 60
 set Gram stat accuracy 60
 set LadySword stat accuracy 70
-set Estoc stat accuracy 70
+set Estoc stat accuracy 80
 set Grimhild stat accuracy 70
 
 Set ImperialSword stat cost 1200
@@ -2004,6 +2006,10 @@ set DarkAxe stat might 4
 set Mjollnir stat might 9
 set BoltAxe stat might 7
 set MithrilAxe stat might 15
+set BarbaricAxe stat might 20
+set CrookedAxe stat might 30
+
+set Shieldaxe stat defense 10
 
 set VolcanoAxe effect fire-damage 7
 set GlacierAxe effect wind-damage 7
@@ -2016,7 +2022,7 @@ set LogSplitter stat Weight 4
 set Pickaxe stat Weight 4
 set BattleSaw stat Weight 7
 set HandAxe stat Weight 5
-set BarbaricAxe stat Weight 13
+set BarbaricAxe stat Weight 11
 set CrookedAxe stat Weight 12
 //set IronAxe stat Weight 6
 set Francisca stat Weight 6
@@ -2039,7 +2045,7 @@ set Greataxe stat Weight 11
 set MithrilAxe stat Weight 5
 set Gullveig stat Weight 6
 set Mjollnir stat Weight 5
-set Shieldaxe stat Weight 9
+set Shieldaxe stat Weight 4
 set MaozaWolf stat Weight 13
 set Bhuj stat Weight 9
 //set GigasAxe stat Weight 15
@@ -2050,17 +2056,16 @@ set BanditAxe stat Weight 4
 
 
 set BarbaricAxe stat accuracy 30
-set BanditAxe stat accuracy 30
+set BanditAxe stat accuracy 40
 set ImperialAxe stat accuracy 50
 set LogSplitter stat accuracy 50
 set Pickaxe stat accuracy 50
 set OldImperialAxe stat accuracy 40
-set Shieldaxe stat accuracy 40
 set Tomahawk stat accuracy 50
 set Battleaxe stat accuracy 40
 set Poleax stat accuracy 30
 set BreakerAxe stat accuracy 30
-set CrookedAxe stat accuracy 80
+set CrookedAxe stat accuracy 40
 set NimbusAxe stat accuracy 40
 set VolcanoAxe stat accuracy 40
 set GlacierAxe stat accuracy 40
@@ -2077,7 +2082,7 @@ set VerianAxe stat accuracy 50
 
 set BanditAxe effect steal-rate-plus 67
 set BattleAxe effect cripple-x2
-set BarbaricAxe effect nosferatu
+set Shieldaxe effect nosferatu
 set CrookedAxe effect pascanion-backfire
 
 set Battleaxe stat level 5
@@ -2160,8 +2165,8 @@ set Greatbow stat Weight 10
 set Killerbow stat Weight 6
 set Apeiron stat Weight 6
 set Rossweisse stat Weight 6
-set Pascanion stat Weight 8
-set Pascanion2 stat Weight 8
+set Pascanion stat Weight 7
+set Pascanion2 stat Weight 7
 set SereniaBow stat Weight 6
 
 set BronzeBow stat Weight 6
@@ -2180,6 +2185,8 @@ set SwiftBow stat accuracy 50
 set VerianBow stat accuracy 50
 set OldImperialBow stat accuracy 40
 set Apeiron stat accuracy 70
+set Pascanion stat accuracy 70
+set Pascanion2 stat accuracy 70
 
 set IronBow stat durability C
 set Shortbow stat durability C
@@ -2361,10 +2368,10 @@ set Scorpio stat Durability B
 
 set ShiningShield effect negate-dark 100
 
-set Vollenden effect block-holy-damage 8
-set DarkShield effect block-fire-damage 8
+set Vollenden effect block-holy-damage 12
+set DarkShield effect block-fire-damage 12
 set Windshield effect block-thunder-damage 6
-set LightShield effect block-holy-damage 8
+set LightShield effect block-holy-damage 6
 set ThunderShield effect thunder-damage 6
 set FireShield effect block-fire-damage 6
 
@@ -2377,10 +2384,10 @@ set Windshield stat might 6
 set FireShield stat might 6
 set ThunderShield stat might 6
 set LightShield stat might 6
-set DarkShield stat might 8
+set DarkShield stat might 7
 set MetalShield stat might 7
 set MithrilShield stat might 7
-set Vollenden stat might 8
+set Vollenden stat might 7
 set ShiningShield stat might 7
 set LadyShield stat might 6
 set Perseid stat might 7
@@ -2397,14 +2404,14 @@ set Buckler stat mind 2
 set PrototypeSShd stat mind 2
 set Aspis stat mind 3
 set RoundShield stat mind 3
-set Windshield stat mind 7
-set FireShield stat mind 7
-set ThunderShield stat mind 7
-set LightShield stat mind 7
-set DarkShield stat mind 7
+set Windshield stat mind 6
+set FireShield stat mind 6
+set ThunderShield stat mind 6
+set LightShield stat mind 6
+set DarkShield stat mind 6
 set MetalShield stat mind 3
 set MithrilShield stat mind 6
-set Vollenden stat mind 7
+set Vollenden stat mind 6
 set ShiningShield stat mind 6
 set LadyShield stat mind 5
 set Perseid stat mind 5
@@ -2426,12 +2433,12 @@ set Windshield stat Weight 3
 set FireShield stat Weight 3
 set ThunderShield stat Weight 3
 set LightShield stat Weight 3
-set DarkShield stat Weight 4
+set DarkShield stat Weight 3
 set MetalShield stat weight 3
 set MithrilShield stat weight 2
 set Perseid stat weight 2
 set LadyShield stat weight 2
-set Vollenden stat weight 4
+set Vollenden stat weight 3
 set ShiningShield stat Weight 3
 set Aiantos stat Weight 2
 
@@ -2525,7 +2532,7 @@ Set Kiteshield stat Weight 4
 Set SquareShield stat Weight 5
 Set KnightShield stat Weight 6
 Set LimitShield stat Weight 5
-Set Hestia stat Weight 7
+Set Hestia stat Weight 6
 Set WyrmskinShield stat Weight 4
 Set LadyMShd stat Weight 4
 Set PaladinShield stat Weight 6
@@ -2558,7 +2565,7 @@ set RadiantShield stat mind 9
 set ShadowShield stat mind 9
 set BlazingShield stat mind 9
 set GaleShield stat mind 9
-Set Hestia stat mind 10
+Set Hestia stat mind 9
 
 Set VerianMShd stat mind 4
 Set ImpSoldierMShd stat mind 4
@@ -2591,12 +2598,12 @@ Set ImpSoldierMShd+ stat might 8
 Set ImpOfficerMShd stat might 10
 Set ImpKnightMShd stat might 12
 
-set LightningShield effect block-thunder-damage 12
-set RadiantShield effect block-holy-damage 12
-set ShadowShield effect block-fire-damage 12
-set BlazingShield effect block-fire-damage 12
-set GaleShield effect block-thunder-damage 12
-Set Hestia effect block-fire-damage 14
+set LightningShield effect block-thunder-damage 7
+set RadiantShield effect block-holy-damage 7
+set ShadowShield effect block-fire-damage 7
+set BlazingShield effect block-fire-damage 7
+set GaleShield effect block-thunder-damage 7
+Set Hestia effect block-fire-damage 12
 
 Set BlackShield effect reflect-damage 100
 
@@ -2636,16 +2643,16 @@ set Kiteshield stat cost 1760
 set SquareShield stat cost 2200
 set KnightShield stat cost 2640
 set LimitShield stat cost 3000
-set Hestia stat cost 8000
+set Hestia stat cost 5000
 set WyrmskinShield stat cost 5000
 set PaladinShield stat cost 4000
 set BlackShield stat cost 5000
 
-set LightningShield stat cost 7000
-set RadiantShield stat cost 7000
-set ShadowShield stat cost 7000
-set BlazingShield stat cost 7000
-set GaleShield stat cost 7000
+set LightningShield stat cost 4000
+set RadiantShield stat cost 4000
+set ShadowShield stat cost 4000
+set BlazingShield stat cost 4000
+set GaleShield stat cost 4000
 
 set VerianMShd stat cost 1320
 set ImpSoldierMShd cost 1760
@@ -2704,11 +2711,11 @@ set RaijinShield stat accuracy 50
 set AmaterasuShield stat accuracy 50
 set GeneralShield stat accuracy 50
 
-set KojinShield effect block-fire-damage 18
-set FujinShield effect block-thunder-damage 18
-set RaijinShield effect block-thunder-damage 18
-set AmaterasuShield effect block-dark-damage 24
-set GeneralShield effect block-holy-damage 24
+set KojinShield effect block-fire-damage 8
+set FujinShield effect block-thunder-damage 8
+set RaijinShield effect block-thunder-damage 8
+set AmaterasuShield effect block-dark-damage 12
+set GeneralShield effect block-holy-damage 12
 
 set ImpKnightLShd stat might 19
 set ImpOfficerLShd stat might 16
@@ -2730,11 +2737,11 @@ set LeatherLShd stat cost 1800
 set WideShield stat cost 2100
 set IronShield stat cost 2400
 set Greatshield stat cost 2700
-set KojinShield stat cost 10000
-set FujinShield stat cost 10000
-set RaijinShield stat cost 10000
-set GeneralShield stat cost 11000
-set AmaterasuShield stat cost 11000
+set KojinShield stat cost 4000
+set FujinShield stat cost 4000
+set RaijinShield stat cost 4000
+set GeneralShield stat cost 5000
+set AmaterasuShield stat cost 5000
 
 set ImpSoldierLShd stat cost 2100
 set ImpSoldierLShd+ stat cost 2100
@@ -2746,11 +2753,11 @@ Set LeatherLShd Stat Weight 6
 Set WideShield Stat Weight 7
 Set IronShield Stat Weight 8
 Set Greatshield Stat Weight 9
-Set GeneralShield Stat Weight 10
+Set GeneralShield Stat Weight 9
 Set KojinShield Stat Weight 9
 Set FujinShield Stat Weight 9
 Set RaijinShield Stat Weight 9
-Set AmaterasuShield Stat Weight 10
+Set AmaterasuShield Stat Weight 9
 
 Set VerianLShd Stat Weight 6
 Set ImpSoldierLShd Stat Weight 7
@@ -2766,7 +2773,7 @@ Set GeneralShield Stat mind 18
 Set KojinShield Stat mind 12
 Set FujinShield Stat mind 12
 Set RaijinShield Stat mind 12
-Set AmaterasuShield Stat mind 18
+Set AmaterasuShield Stat mind 12
 
 Set VerianLShd Stat mind 6
 Set ImpSoldierLShd Stat mind 7
