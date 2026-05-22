@@ -60,7 +60,7 @@
 
 // CrookedAxe & Albatross got Pascanion Back fire effect
 
-// DarkShield Vollenden Hestia GeneralShield AmaterasuShield got Reflect damage effect
+// All elemental shields does block damage
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -732,7 +732,6 @@ set sherlock skill fortune
 set sherlock skill pursuit
 set sherlock skill adept
 set sherlock skill sunder
-set sherlock skill deathmatch
 
 set izerna skill blessing
 set izerna skill canto
@@ -828,6 +827,7 @@ set enid skill adept
 set enid skill fortune
 set enid skill Windsweep
 set enid skill sunder
+set enid skill desperation
 
 set aegina skill canto
 set aegina skill focuschant
@@ -849,6 +849,7 @@ set aegina skill fortune
 set aegina skill adept
 set aegina skill Windsweep
 set aegina skill sunder
+set aegina skill desperation
 
 set perceval skill arrowbane
 set perceval skill adept
@@ -869,6 +870,7 @@ set perceval skill fortune
 set perceval skill focuschant
 set perceval skill Windsweep
 set perceval skill sunder
+set perceval skill desperation
 
 set marcel skill canto
 set marcel skill counter
@@ -1056,9 +1058,8 @@ set sylvis skill armsthrift
 set sylvis skill celerity
 set sylvis skill adept
 set sylvis skill doubleshot
-set sylvis skill vantage
 set sylvis skill sunder
-set sylvis skill deathmatch
+set sylvis skill onetwo
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -1390,6 +1391,7 @@ set lynette skill fortune
 set lynette skill adept
 set lynette skill Windsweep
 set lynette skill sunder
+set lynette skill desperation
 
 set paramythis skill blessing
 set paramythis skill camouflage
@@ -1421,7 +1423,6 @@ set paramythis skill parry
 // prfs
 set Pascanion2 stat level 20
 set Pascanion stat level 20
-set Hawkeye stat max-range 2
 
 set Bhuj stat level 20
 set Brymranger stat level 20
@@ -1437,7 +1438,7 @@ set Balmung3 stat level 20
 set Vajra stat level 20
 set Vritra stat level 20
 set Hawkeye stat level 20
-//set Harperia stat level 7
+set Harperia stat level 1
 set BoltKnife stat level 1
 set SereniaBow stat level 20
 set Gram stat level 20
@@ -1566,29 +1567,6 @@ set LetterOpener stat might 1
 set MainGauche stat might 3
 
 set Kris stat mind 10
-
-//set dagger stat rounds 1
-//set Seax stat rounds 1
-//set Dart stat rounds 1
-//set Vespa stat rounds 1
-//set Airknife stat rounds 1
-//set ThiefsKnife stat rounds 1
-//set Carnwenhau stat rounds 2
-//set StunKnife stat rounds 1
-//set KillerKnife stat rounds 1
-//set BloodKnife stat rounds 1
-//set TempestKnife stat rounds 1
-//set Shieldknife stat rounds 1
-//set Crotalus stat rounds 1
-//set Kris stat rounds 1
-//set ThrowingKnife stat rounds 1
-//set Swordbreaker stat rounds 1
-//set PoisonKnife stat rounds 1
-//set SleepKnife stat rounds 1
-//set BoltKnife stat rounds 1
-//set AssassinsKnife stat rounds 1
-//set LetterOpener stat rounds 1
-//set MainGauche stat rounds 1
 
 set AssassinsKnife effect cripple-x2
 set BoltKnife effect injure-rate 50
@@ -1861,6 +1839,7 @@ set OldImperialSpear stat might 6
 
 set Euthyphro effect thunder-damage 7
 set Brionac effect nosferatu
+set Partisan effect cripple-x2
 
 //set Verutum stat level 1
 //set SteelSpear stat level 1
@@ -1899,8 +1878,6 @@ set Fauchard stat hex 1
 set Harpoon stat hex 1
 //set Brionac stat hex 2
 
-set Brionac stat mind 5
-
 Set Harpoon effect injure-rate 50
 
 //Set Harpoon stat rounds 1
@@ -1922,10 +1899,6 @@ set Harpoon stat cost 1000
 set VerianSpear stat durability D
 set ImperialSpear stat durability D
 set OldImperialSpear stat durability E
-
-//set WindSpear effect wind-damage 8
-//set Euthyphro effect wind-damage 7
-set Partisan effect cripple-x2
 
 set Doru stat level 1
 set Pike stat level 1
@@ -2087,7 +2060,7 @@ set Tomahawk stat accuracy 50
 set Battleaxe stat accuracy 40
 set Poleax stat accuracy 30
 set BreakerAxe stat accuracy 30
-set CrookedAxe stat accuracy 40
+set CrookedAxe stat accuracy 80
 set NimbusAxe stat accuracy 40
 set VolcanoAxe stat accuracy 40
 set GlacierAxe stat accuracy 40
@@ -2388,14 +2361,12 @@ set Scorpio stat Durability B
 
 set ShiningShield effect negate-dark 100
 
-//set Vollenden effect holy-damage 8
-//set DarkShield effect dark-damage 8
-//set Windshield effect wind-damage 6
-//set LightShield effect holy-damage 6
-//set ThunderShield effect thunder-damage 6
-//set FireShield effect fire-damage 6
-
-set DarkShield effect reflect-damage 100
+set Vollenden effect block-holy-damage 8
+set DarkShield effect block-fire-damage 8
+set Windshield effect block-thunder-damage 6
+set LightShield effect block-holy-damage 8
+set ThunderShield effect thunder-damage 6
+set FireShield effect block-fire-damage 6
 
 set LeatherSShd stat might 2
 set Buckler stat might 4
@@ -2406,7 +2377,7 @@ set Windshield stat might 6
 set FireShield stat might 6
 set ThunderShield stat might 6
 set LightShield stat might 6
-set DarkShield stat might 7
+set DarkShield stat might 8
 set MetalShield stat might 7
 set MithrilShield stat might 7
 set Vollenden stat might 8
@@ -2455,7 +2426,7 @@ set Windshield stat Weight 3
 set FireShield stat Weight 3
 set ThunderShield stat Weight 3
 set LightShield stat Weight 3
-set DarkShield stat Weight 3
+set DarkShield stat Weight 4
 set MetalShield stat weight 3
 set MithrilShield stat weight 2
 set Perseid stat weight 2
@@ -2513,11 +2484,11 @@ set Buckler stat durability C
 set PrototypeSShd stat durability C
 set Aspis stat durability B
 set RoundShield stat durability B
-set Windshield stat durability B
-set FireShield stat durability B
-set ThunderShield stat durability B
-set LightShield stat durability B
-set DarkShield stat durability B
+set Windshield stat durability A
+set FireShield stat durability A
+set ThunderShield stat durability A
+set LightShield stat durability A
+set DarkShield stat durability S
 set MetalShield stat durability A
 set MithrilShield stat durability S
 set Aiantos stat durability A
@@ -2538,6 +2509,7 @@ set ThunderShield stat level 1
 set LightShield stat level 1
 set DarkShield stat level 1
 set Windshield stat level 1
+set Vollenden stat level 1
 set ShiningShield stat level 10
 
 set Windshield stat accuracy 50
@@ -2619,12 +2591,12 @@ Set ImpSoldierMShd+ stat might 8
 Set ImpOfficerMShd stat might 10
 Set ImpKnightMShd stat might 12
 
-//set LightningShield effect thunder-damage 12
-//set RadiantShield effect holy-damage 12
-//set ShadowShield effect dark-damage 12
-//set BlazingShield effect fire-damage 12
-//set GaleShield effect wind-damage 12
-//Set Hestia effect fire-damage 14
+set LightningShield effect block-thunder-damage 12
+set RadiantShield effect block-holy-damage 12
+set ShadowShield effect block-fire-damage 12
+set BlazingShield effect block-fire-damage 12
+set GaleShield effect block-thunder-damage 12
+Set Hestia effect block-fire-damage 14
 
 Set BlackShield effect reflect-damage 100
 
@@ -2647,9 +2619,9 @@ set LeatherMShd stat durability B
 set Kiteshield stat durability B
 set SquareShield stat durability A
 set KnightShield stat durability A
-set LimitShield stat durability B
-set Hestia stat durability A
-set WyrmskinShield stat durability S
+set LimitShield stat durability A
+set WyrmskinShield Stat durability S
+set Hestia stahield stat durability S
 set PaladinShield stat durability A
 set BlackShield stat durability A
 
@@ -2664,16 +2636,16 @@ set Kiteshield stat cost 1760
 set SquareShield stat cost 2200
 set KnightShield stat cost 2640
 set LimitShield stat cost 3000
-set Hestia stat cost 5000
+set Hestia stat cost 8000
 set WyrmskinShield stat cost 5000
 set PaladinShield stat cost 4000
 set BlackShield stat cost 5000
 
-set LightningShield stat cost 8000
-set RadiantShield stat cost 8000
-set ShadowShield stat cost 8000
-set BlazingShield stat cost 8000
-set GaleShield stat cost 8000
+set LightningShield stat cost 7000
+set RadiantShield stat cost 7000
+set ShadowShield stat cost 7000
+set BlazingShield stat cost 7000
+set GaleShield stat cost 7000
 
 set VerianMShd stat cost 1320
 set ImpSoldierMShd cost 1760
@@ -2709,9 +2681,9 @@ set LeatherLShd stat Durability A
 set WideShield stat Durability A
 set IronShield stat Durability A
 set Greatshield stat Durability S
-set KojinShield stat Durability S
-set FujinShield stat Durability S
-set RaijinShield stat Durability S
+set KojinShield stat Durability A
+set FujinShield stat Durability A
+set RaijinShield stat Durability A
 set AmaterasuShield stat Durability S
 set GeneralShield stat Durability S
 set TsukuyomiShield stat Durability S
@@ -2730,15 +2702,13 @@ set KojinShield stat accuracy 50
 set FujinShield stat accuracy 50
 set RaijinShield stat accuracy 50
 set AmaterasuShield stat accuracy 50
-set GeneralShield stat accuracy 40
+set GeneralShield stat accuracy 50
 
-//set KojinShield effect fire-damage 18
-//set FujinShield effect wind-damage 18
-//set RaijinShield effect thunder-damage 18
-//set AmaterasuShield effect dark-damage 24
-//set GeneralShield effect holy-damage 24
-
-set AmaterasuShield effect reflect-damage 100
+set KojinShield effect block-fire-damage 18
+set FujinShield effect block-thunder-damage 18
+set RaijinShield effect block-thunder-damage 18
+set AmaterasuShield effect block-dark-damage 24
+set GeneralShield effect block-holy-damage 24
 
 set ImpKnightLShd stat might 19
 set ImpOfficerLShd stat might 16
@@ -2760,11 +2730,11 @@ set LeatherLShd stat cost 1800
 set WideShield stat cost 2100
 set IronShield stat cost 2400
 set Greatshield stat cost 2700
-set KojinShield stat cost 2700
-set FujinShield stat cost 2700
-set RaijinShield stat cost 2700
-set GeneralShield stat cost 2700
-set AmaterasuShield stat cost 5000
+set KojinShield stat cost 10000
+set FujinShield stat cost 10000
+set RaijinShield stat cost 10000
+set GeneralShield stat cost 11000
+set AmaterasuShield stat cost 11000
 
 set ImpSoldierLShd stat cost 2100
 set ImpSoldierLShd+ stat cost 2100
@@ -2776,11 +2746,11 @@ Set LeatherLShd Stat Weight 6
 Set WideShield Stat Weight 7
 Set IronShield Stat Weight 8
 Set Greatshield Stat Weight 9
-Set GeneralShield Stat Weight 9
+Set GeneralShield Stat Weight 10
 Set KojinShield Stat Weight 9
 Set FujinShield Stat Weight 9
 Set RaijinShield Stat Weight 9
-Set AmaterasuShield Stat Weight 9
+Set AmaterasuShield Stat Weight 10
 
 Set VerianLShd Stat Weight 6
 Set ImpSoldierLShd Stat Weight 7
@@ -2796,7 +2766,7 @@ Set GeneralShield Stat mind 18
 Set KojinShield Stat mind 12
 Set FujinShield Stat mind 12
 Set RaijinShield Stat mind 12
-Set AmaterasuShield Stat mind 9
+Set AmaterasuShield Stat mind 18
 
 Set VerianLShd Stat mind 6
 Set ImpSoldierLShd Stat mind 7
@@ -4793,8 +4763,8 @@ set HighKnight2 skill vantage
 set HighKnight2_R skill vantage
 set HighKnight_R skill vantage
 set Highlander skill vantage
-set Horseman skill vantage
-set Horseman_R skill vantage
+//set Horseman skill vantage
+//set Horseman_R skill vantage
 set Hunter skill vantage
 set Huntress skill vantage
 set Icewyrm skill vantage
@@ -4859,7 +4829,7 @@ set ShiningKnight skill vantage
 set ShiningKnight_R skill vantage
 set ShiningKnightParamythis skill vantage
 set ShiningKnightParamythis_R skill vantage
-set Sniper skill vantage
+//set Sniper skill vantage
 set SnowBandit skill vantage
 set SpearKnight skill vantage
 set SpearKnight_R skill vantage
@@ -5382,70 +5352,7 @@ set ImpSoldierLShd+ effect restore-uses
 set ImpOfficerLShd effect restore-uses
 set ImpKnightLShd effect restore-uses
 set BrokenShield effect restore-uses
-set FireScale effect restore-uses
-set IceScale effect restore-uses
-set ThunderScale effect restore-uses
-set WyvernScale effect restore-uses
-set ThorsScale effect restore-uses
-set Vulnerary effect restore-uses
-set Concoction effect restore-uses
-set Elixir effect restore-uses
-set Treasure effect restore-uses
-set DoorKey effect restore-uses
-set SmellingSalts effect restore-uses
-set BerylRing effect restore-uses
-set BarkersPoetry effect restore-uses
-set KnitCap effect restore-uses
-set RaijinArrowheads effect restore-uses
-set DecorativeBox effect restore-uses
-set WomansPortrait effect restore-uses
-set BridgePlans effect restore-uses
-set LeaderManual effect restore-uses
-set QualityHerbs effect restore-uses
-set BrokenLyre effect restore-uses
-set BagII effect restore-uses
-set DUMMYHorse effect restore-uses
-set DeadHorse effect restore-uses
-set SunShard effect restore-uses
-set ZerikaSteel effect restore-uses
-set FlameDust effect restore-uses
-set MithrilSheet effect restore-uses
-set DUMMYMaterial effect restore-uses
-set EyeOfBalor effect restore-uses
-set WolfPelt effect restore-uses
-set Argentum effect restore-uses
-set SinonSteel effect restore-uses
-set GurrasSteel effect restore-uses
-set MeteoricIron effect restore-uses
-set AshWood effect restore-uses
-set NottosIron effect restore-uses
-set LindenWood effect restore-uses
-set Amalgam effect restore-uses
-set Obsidian effect restore-uses
-set PantazSteel effect restore-uses
-set LionPelt effect restore-uses
-set AntelopePelt effect restore-uses
-set StormShard effect restore-uses
-set JugudWood effect restore-uses
-set GaleShard effect restore-uses
-set BullPelt effect restore-uses
-set Sapphire effect restore-uses
-set MithrilDust effect restore-uses
-set TigerPelt effect restore-uses
-set Garnet effect restore-uses
-set SimurghDown effect restore-uses
-set BoarPelt effect restore-uses
-set LapisLazuli effect restore-uses
-set Lightstone effect restore-uses
-set Soma effect restore-uses
-set YewWood effect restore-uses
-set AriadneThread effect restore-uses
-set Winch effect restore-uses
-set AncientAmulet effect restore-uses
-set SurabFluid effect restore-uses
-set Platinum effect restore-uses
-set Opal effect restore-uses
-set Amber effect restore-uses
+
 
 //When changing Ennemy class stat, there is a bug easily fixed, this is how:
 //HP = Strenght
@@ -5455,7 +5362,6 @@ set Amber effect restore-uses
 //strenght = speed
 //Increasing ennemy class Weapon Skill is bugged, doesn't work, to fix.
 //Learned function is bugged
-//I want to add damage on block on elemental shields, like volleden and hestia do.
 //restore-uses doesn't work when the item is in the storage room in Reese's house.
 //Adding 2 effect on an iteam doesn't work, only the last effect will apply. So you shouldn't touch Bolt's Knife otherwise you will remove his injure + thunder damage effect.
 //Adept doesn't work with desperate, but works with deathmatch. so giving Dean Deathmatch is a Huge buff.
