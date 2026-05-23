@@ -1205,6 +1205,8 @@ set faramir skill adept
 set faramir skill vantage
 set faramir skill counter
 set faramir skill evasion
+set faramir skill astra
+set faramir skill doubleshot
 
 set volo skill adept
 set volo skill blade
