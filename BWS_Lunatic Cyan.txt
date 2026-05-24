@@ -1530,7 +1530,7 @@ set Physic stat max-range 5
 set Holy stat might 10
 set Holy stat uses 20
 set holy effect cripple-x2
-set Starlight effect holy-vantage
+set Starlight effect cripple-x2
 set Starlight stat max-range 2
 set Starlight stat might 32
 set Starlight stat accuracy 80
