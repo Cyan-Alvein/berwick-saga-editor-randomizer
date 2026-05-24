@@ -76,6 +76,10 @@ set Blizzard effect restore-uses
 set Fire effect restore-uses
 set Hellfire effect restore-uses
 set Earthblaze effect restore-uses
+set Heal effect restore-uses
+set Mend effect restore-uses
+set Soothe effect restore-uses
+set Physic effect restore-uses
 set Fortify effect restore-uses
 set Holy effect restore-uses
 set Escape effect restore-uses
@@ -918,6 +922,7 @@ set marcel skill adept
 set marcel skill Windsweep
 set marcel skill sunder
 set marcel skill provoke
+set marcel skill deathmatch
 
 set alvina skill adept
 set alvina skill canto
