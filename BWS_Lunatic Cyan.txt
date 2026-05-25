@@ -258,8 +258,8 @@ set aegina item 4 Treasure 101
 set aegina item 5 Fire 20
 set aegina item 6 Hellfire 14
 set aegina item 7 Bag 0
-set aegina growth wind 90
-set aegina growth fire 70
+set aegina growth wind 100
+set aegina growth fire 80
 set aegina base fire +20
 set aegina base wind +20
 
@@ -288,8 +288,9 @@ set Enid item 4 Bag 0
 set Enid item 5 Bag 0
 set Enid item 6 Lightning 15
 set Enid item 7 Fire 20
-set Enid growth fire 90
-set Enid growth thunder 70
+set Enid growth sword 100
+set Enid growth fire 100
+set Enid growth thunder 80
 set FlameFencer cap fire 60
 set FlameFencer cap thunder 50
 set FlameFencer cap sword 40
@@ -409,8 +410,8 @@ set perceval item 4 LiquidMagic 1
 set perceval item 5 Blizzard 15
 set perceval item 6 TigerBrace 0
 set perceval item 7 Windstorm 60
-set perceval growth wind 70
-set perceval growth thunder 90
+set perceval growth wind 80
+set perceval growth thunder 100
 set perceval base thunder +20
 set perceval base wind +20
 
@@ -425,7 +426,7 @@ set thaddy growth hp 25
 set thaddy growth strength 15
 set thaddy base knife +20
 
-set esteban growth knife 50
+set esteban growth knife 60
 set esteban growth bow 100
 set esteban item 0 IronBow 101
 set esteban item 1 IronArrow+ 20
@@ -577,6 +578,9 @@ set lynette item 7 LadySword 101
 set lynette base thunder +25
 set lynette base sword +25
 set lynette base bow +25
+set lynette growth bow 100
+set lynette growth thunder 100
+set lynette growth sword 100
 
 set paramythis item 0 HolyMace 101
 set paramythis item 2 PeerlessBrace 0
