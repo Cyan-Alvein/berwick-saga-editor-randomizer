@@ -497,7 +497,7 @@ set axel item 1 Gullveig 101
 set axel item 2 Repairstone 10
 set axel item 3 BattleAxe 101
 set axel item 4 Bag 0
-set axel item 5 Tomahawk 101
+set axel item 5 ThiefsCharm 0
 set axel item 6 PegasusBrace 0
 set axel item 7 Treasure 101
 set axel base axe +20
@@ -5029,3 +5029,4 @@ set Arrow++ stat might 8
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
+// Holy-vantage effect doesn't work
