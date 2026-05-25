@@ -2366,14 +2366,14 @@ set VerianCrossbow stat cost 1000
 
 set OldBallista stat durability D
 
-set OldBallista stat might 9
-set BronzeBallista stat might 13
-set IronBallista stat might 17
-set SteelBallista stat might 21
-set PrototypeSpringald stat might 13
-set Springald stat might 25
-set PrototypeScorpio stat might 14
-set Scorpio stat might 14
+set OldBallista stat might 13
+set BronzeBallista stat might 15
+set IronBallista stat might 21
+set SteelBallista stat might 27
+set PrototypeSpringald stat might 33
+set Springald stat might 33
+set PrototypeScorpio stat might 15
+set Scorpio stat might 15
 
 set OldBallista stat accuracy 50
 set SteelBallista stat accuracy 60
