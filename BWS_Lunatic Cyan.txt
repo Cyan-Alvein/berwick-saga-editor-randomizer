@@ -2187,16 +2187,31 @@ set ImperialArrow stat might 8
 set ImperialArrow+ stat might 8
 set WoodenArrow stat might 1
 set StoneArrow stat might 3
-set RaijinArrow stat might 2
+set RaijinArrow stat might 3
 
 set EmberArrow effect fire-damage 7
 set FreezeArrow effect wind-damage 7
-set RaijinArrow effect thunder-damage 10
+set RaijinArrow effect thunder-damage 11
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect nosferatu
+set WoodenArrow effect injure-rate 100
+
 set BroadheadArrow stat accuracy 10
 set BreakerArrow stat accuracy 10
-set WoodenArrow effect injure-rate 100
+set StoneArrow stat accuracy 10
+set WoodenArrow stat accuracy 10
+set BronzeArrow stat accuracy 10
+set IronArrow stat accuracy 10
+set ImperialArrow stat accuracy 10
+set SteelArrow stat accuracy 10
+set EmberArrow stat accuracy 10
+set FreezeArrow stat accuracy 10
+set RaijinArrow stat accuracy 10
+set KillerArrow stat accuracy 10
+set BodkinArrow stat accuracy 10
+set PoisonArrow stat accuracy 10
+set SleepArrow stat accuracy 10
+set MithrilArrow stat accuracy 10
 
 set Apeiron stat level 1
 //set Greatbow stat level 15
@@ -2261,7 +2276,15 @@ set Apeiron stat cost 4000
 set SereniaBow stat cost 6000
 set Pascanion2 stat cost 8000
 set Pascanion stat cost 8000
-//set WoodenArrow stat cost 100
+set WoodenArrow stat cost 150
+set StoneArrow stat cost 300
+set BronzeArrow stat cost 450
+set IronArrow stat cost 750
+set SteelArrow stat cost 1500
+set ImperialArrow stat cost 750
+set EmberArrow stat cost 750
+set FreezeArrow stat cost 750
+set RaijinArrow stat cost 1600
 
 set BronzeBow stat cost 900
 set VerianBow stat cost 900
@@ -5053,3 +5076,4 @@ set Arrow++ stat might 8
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work
+454
