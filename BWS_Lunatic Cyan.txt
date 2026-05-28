@@ -54,9 +54,9 @@
 
 // Crossbow, Lance and all Shields got huge buffs. More accuracy, damage, shield now protect from magic ...
 
-// Repairstone got restore-uses effect so you can repair a little each chapter
+// Repairstone got restore-uses effect so you can repair a little each chapter ( 2 repairstone uses recovered each chapter by repairstone)
 
-// All orbs got restores-uses except holy magic, Holy orbs got restores-uses
+// All orbs got restores-uses
 
 // Brionac & Strongbow got Nosferatu effect
 
@@ -2178,9 +2178,9 @@ set ImperialAxe stat cost 600
 //set KillerArrow stat might 8
 set PoisonArrow stat might 1
 set SleepArrow stat might 1
-set BroadheadArrow stat might 1
+set BroadheadArrow stat might 8
 set BodkinArrow stat might 1
-set BreakerArrow stat might 1
+set BreakerArrow stat might 8
 set EmberArrow stat might 0
 set FreezeArrow stat might 0
 set ImperialArrow stat might 8
@@ -2194,6 +2194,8 @@ set FreezeArrow effect wind-damage 7
 set RaijinArrow effect thunder-damage 10
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect nosferatu
+set BroadheadArrow stat accuracy 10
+set BreakerArrow stat accuracy 10
 set WoodenArrow effect injure-rate 100
 
 set Apeiron stat level 1
@@ -2204,6 +2206,7 @@ set Apeiron stat max-range 3
 set Apeiron stat accuracy 60
 
 set CompositeBow effect cripple-x2
+set Strongbow effect nosferatu
 
 set IronBow stat Weight 5
 set ShortBow stat Weight 6
