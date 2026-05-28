@@ -64,6 +64,12 @@
 
 // All elemental shields does block damage
 
+// BreakerArrow & BreakerAxe effect disarm rate 100%
+
+// BroadheadArrow effect Nosferatu, WoodenArrow effect injure-rate 100%
+
+// Poleax effect parry
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set Repairstone effect restore-uses
@@ -1606,7 +1612,7 @@ set MainGauche stat might 3
 set Kris stat mind 10
 
 set AssassinsKnife effect cripple-x2
-set BoltKnife effect injure-rate 50
+set BoltKnife effect injure-rate 100
 set TempestKnife effect wind-damage 10
 set ThiefsKnife effect steal-rate-plus 67
 set ThiefsCharm effect steal-rate-plus 33
@@ -1658,6 +1664,7 @@ set Swordbreaker stat durability C
 
 set Seax stat accuracy 50
 set stunknife stat accuracy 40
+set BoltKnife stat accuracy 40
 set Swordbreaker stat accuracy 40
 set ThiefsKnife stat accuracy 50
 set KillerKnife stat accuracy 70
@@ -1856,7 +1863,7 @@ set Pike stat accuracy 60
 set MithrilSpear stat accuracy 60
 set SteelSpear stat accuracy 60
 set Brionac stat accuracy 60
-set Harpoon stat accuracy 50
+set Harpoon stat accuracy 40
 set PrototypeSpear stat accuracy 60
 set KillerSpear stat accuracy 60
 //set WindSpear stat accuracy 50
@@ -1867,7 +1874,7 @@ set ImperialSpear stat accuracy 60
 set SlimSpear stat might 6
 set Verutum stat might 12
 set Euthyphro stat might 5
-set Harpoon stat might 10
+//set Harpoon stat might 10
 set Fauchard stat might 8
 set Brionac stat might 8
 set KillerSpear stat might 7
@@ -1892,7 +1899,7 @@ set SlimSpear stat Weight 5
 set IronSpear stat Weight 6
 set Pilum stat Weight 7
 set SteelSpear stat Weight 7
-set Harpoon stat Weight 10
+//set Harpoon stat Weight 10
 set PrototypeSpear stat Weight 8
 set KillerSpear stat Weight 6
 set Pike stat Weight 6
@@ -1914,10 +1921,10 @@ set VerianSpear stat Weight 6
 set OldImperialSpear stat Weight 7
 
 set Fauchard stat hex 1
-set Harpoon stat hex 1
+//set Harpoon stat hex 1
 //set Brionac stat hex 2
 
-Set Harpoon effect injure-rate 50
+Set Harpoon effect injure-rate 100
 
 //Set Harpoon stat rounds 1
 
@@ -2045,6 +2052,8 @@ set BoltAxe stat might 7
 set MithrilAxe stat might 15
 set BarbaricAxe stat might 20
 set CrookedAxe stat might 30
+set BreakerAxe stat might 14
+set Poleax stat might 14
 
 set Shieldaxe stat defense 10
 
@@ -2071,8 +2080,8 @@ set NimbusAxe stat Weight 6
 set DarkAxe stat Weight 6
 //set WarPick stat Weight 7
 set Hatchet stat Weight 6
-set BreakerAxe stat Weight 10
-set Poleax stat Weight 10
+set BreakerAxe stat Weight 8
+set Poleax stat Weight 8
 set Tomahawk stat Weight 6
 //set BoltAxe stat Weight 7
 //set KillerAxe stat Weight 6
@@ -2100,7 +2109,7 @@ set Pickaxe stat accuracy 50
 set OldImperialAxe stat accuracy 40
 set Tomahawk stat accuracy 50
 set Battleaxe stat accuracy 40
-set Poleax stat accuracy 30
+set Poleax stat accuracy 40
 set BreakerAxe stat accuracy 30
 set CrookedAxe stat accuracy 40
 set NimbusAxe stat accuracy 40
@@ -2121,6 +2130,8 @@ set BanditAxe effect steal-rate-plus 67
 set BattleAxe effect cripple-x2
 set Shieldaxe effect nosferatu
 set CrookedAxe effect pascanion-backfire
+set BreakerAxe effect disarm-rate 100
+set Poleax effect parry
 
 set Battleaxe stat level 5
 set Broadaxe stat level 5
@@ -2179,6 +2190,9 @@ set RaijinArrow stat might 2
 set EmberArrow effect fire-damage 7
 set FreezeArrow effect wind-damage 7
 set RaijinArrow effect thunder-damage 10
+set BreakerArrow effect disarm-rate 100
+set BroadheadArrow effect nosferatu
+set WoodenArrow effect injure-rate 100
 
 set Apeiron stat level 1
 //set Greatbow stat level 15
@@ -2569,7 +2583,7 @@ Set LeatherMShd stat Weight 3
 Set Kiteshield stat Weight 4
 Set SquareShield stat Weight 5
 Set KnightShield stat Weight 6
-Set LimitShield stat Weight 5
+Set LimitShield stat Weight 6
 Set Hestia stat Weight 6
 Set WyrmskinShield stat Weight 4
 Set LadyMShd stat Weight 4
@@ -2592,7 +2606,7 @@ Set LeatherMShd stat mind 3
 Set Kiteshield stat mind 4
 Set SquareShield stat mind 5
 Set KnightShield stat mind 6
-Set LimitShield stat mind 5
+Set LimitShield stat mind 6
 Set WyrmskinShield stat mind 7
 Set LadyMShd stat mind 7
 Set PaladinShield stat mind 12
@@ -2617,7 +2631,7 @@ Set LeatherMShd stat might 6
 Set Kiteshield stat might 8
 Set SquareShield stat might 10
 Set KnightShield stat might 12
-Set LimitShield stat might 11
+Set LimitShield stat might 12
 Set Hestia stat might 14
 Set WyrmskinShield stat might 14
 Set LadyMShd stat might 12
@@ -2707,6 +2721,7 @@ set Kiteshield stat level 2
 set Hestia stat level 5
 set BlackShield stat level 15
 set PaladinShield stat level 15
+set LimitShield stat level 10
 
 // lshield stuff
 
