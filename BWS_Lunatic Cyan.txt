@@ -12,9 +12,9 @@
 
 // pitchfork & MilitaryFork got cripple-x2 effect
 
-// Pike, Longspear, Altium, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Holy , Hellfire, Earthblaze & all lance weapons got cripple-x2
+// Pike, Longspear, Altium, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Holy , Hellfire, Earthblaze & all lance/fork weapons got cripple-x2
 
-// Hawkeye, Ollerus & Arbalest got 3 range. Apeiron, Rossweisse & Greatbow got 3 range. Crossbow minimum range is 1
+// Hawkeye, Ollerus & Arbalest got 3 range. Apeiron, Rossweisse, Apollyon & Greatbow got 3 range. Crossbow minimum range is 1
 
 // Everyone got Mercy, Canto, Flourish, Maim, Horse_lover, Guard, Adept, Pursuit, Windsweep, Sunder, Vantage ...
 
@@ -24,7 +24,7 @@
 
 // All ennemy got supporter & hide skill.
 
-// Archer, priest, swordmaster ennemy got watchful
+// Archer, priest, thief, swordmaster ennemy got watchful
 
 // The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
 
@@ -64,15 +64,15 @@
 
 // All elemental shields does block damage
 
-// BreakerArrow & BreakerAxe effect disarm rate 100%
+// BreakerArrow & BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect. It break the game, no fun, you can't IronMan with it.
 
-// BroadheadArrow effect Nosferatu, WoodenArrow effect injure-rate 100%
-
-// Poleax effect nosferatu
+// BroadheadArrow, Poleax, Zanbato effect Nosferatu, no more horse kill effect. It break the game, no fun, you can't IronMan with it.
 
 // Shieldaxe effect parry
 
-// Zanbato effect Nosferatu
+// Bowgun, BoltKnife, Harpoon effect injure-rate 100% but accuracy 40%
+
+// Blizzard effect injure-rate 100%
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -1903,7 +1903,7 @@ set SlimSpear stat Weight 5
 set IronSpear stat Weight 6
 set Pilum stat Weight 7
 set SteelSpear stat Weight 7
-//set Harpoon stat Weight 10
+set Harpoon stat Weight 6
 set PrototypeSpear stat Weight 8
 set KillerSpear stat Weight 6
 set Pike stat Weight 6
@@ -2196,12 +2196,11 @@ set FreezeArrow effect wind-damage 7
 set RaijinArrow effect thunder-damage 11
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect nosferatu
-set WoodenArrow effect injure-rate 100
 
 set BroadheadArrow stat accuracy 10
 set BreakerArrow stat accuracy 10
 set StoneArrow stat accuracy 10
-//set WoodenArrow stat accuracy 10
+set WoodenArrow stat accuracy 10
 set BronzeArrow stat accuracy 10
 set IronArrow stat accuracy 10
 set ImperialArrow stat accuracy 10
@@ -2219,6 +2218,7 @@ set Apeiron stat level 1
 //set Greatbow stat level 15
 set Greatbow stat max-range 3
 set Rossweisse stat max-range 3
+set Apollyon stat max-range 3
 set Apeiron stat max-range 3
 set Apeiron stat accuracy 60
 
@@ -2234,7 +2234,7 @@ set CompositeBow stat Weight 8
 set Apollyon stat Weight 5
 set Strongbow stat Weight 9
 set Greatbow stat Weight 10
-set Killerbow stat Weight 6
+set KillerBow stat Weight 7
 set Apeiron stat Weight 6
 set Rossweisse stat Weight 6
 set Pascanion stat Weight 7
@@ -2253,6 +2253,7 @@ set ShortBow stat accuracy 50
 set TripleFireBow stat accuracy 40
 set Strongbow stat accuracy 40
 set Greatbow stat accuracy 40
+set KillerBow stat accuracy 50
 set SwiftBow stat accuracy 50
 set VerianBow stat accuracy 50
 set OldImperialBow stat accuracy 40
@@ -2302,9 +2303,11 @@ set VerianBow stat might 3
 set SwiftBow stat might 0
 set TripleFireBow stat might 0
 set Apollyon stat might 6
+set KillerBow stat might 6
 set Apeiron stat might 10
 
 set Rossweisse stat mind 10
+set KillerBow stat Crit 18
 
 //Crossbow
 
@@ -2313,21 +2316,21 @@ set Gastraphetes effect cripple-x2
 
 //set Arbalest stat level 15
 
-set Bowgun stat weight 9
-set IronCrossbow stat weight 10
-set Gastraphetes stat weight 11
-set HeavyCrossbow stat weight 12
-set BraveCrossbow stat weight 12
-set Chu-ko-nu stat weight 13
-set Arbalest stat weight 13
-set KillerCrossbow stat weight 10
-set Ollerus stat weight 11
-set RapidCrossbow stat weight 13
-set Hawkeye stat weight 11
+set Bowgun stat weight 11
+set IronCrossbow stat weight 12
+set Gastraphetes stat weight 13
+set HeavyCrossbow stat weight 14
+set BraveCrossbow stat weight 14
+set Chu-ko-nu stat weight 15
+set Arbalest stat weight 15
+set KillerCrossbow stat weight 12
+set Ollerus stat weight 13
+set RapidCrossbow stat weight 15
+set Hawkeye stat weight 13
 
-set ImperialCrossbow stat weight 10
-set OldImperialCrossbow stat weight 11
-set VerianCrossbow stat weight 10
+set ImperialCrossbow stat weight 12
+set OldImperialCrossbow stat weight 13
+set VerianCrossbow stat weight 12
 
 set Bowgun stat min-range 1
 set IronCrossbow stat min-range 1
@@ -2353,7 +2356,7 @@ set HeavyCrossbow stat might 27
 set BraveCrossbow stat might 18
 set Chu-ko-nu stat might 12
 set Arbalest stat might 33
-set KillerCrossbow stat might 25
+set KillerCrossbow stat might 17
 set Ollerus stat might 19
 set RapidCrossbow stat might 18
 set Hawkeye stat might 30
@@ -2362,21 +2365,24 @@ set ImperialCrossbow stat might 15
 set OldImperialCrossbow stat might 9
 set VerianCrossbow stat might 15
 
-set Bowgun stat accuracy 60
-set IronCrossbow stat accuracy 60
-set Gastraphetes stat accuracy 60
-set HeavyCrossbow stat accuracy 50
-set BraveCrossbow stat accuracy 50
-set Chu-ko-nu stat accuracy 50
-set Arbalest stat accuracy 50
+set Bowgun stat accuracy 50
+set IronCrossbow stat accuracy 70
+set Gastraphetes stat accuracy 70
+set HeavyCrossbow stat accuracy 60
+set BraveCrossbow stat accuracy 60
+set Chu-ko-nu stat accuracy 60
+set Arbalest stat accuracy 60
 set KillerCrossbow stat accuracy 70
-set Ollerus stat accuracy 50
-set RapidCrossbow stat accuracy 60
-set Hawkeye stat accuracy 60
+set Ollerus stat accuracy 60
+set RapidCrossbow stat accuracy 70
+set Hawkeye stat accuracy 70
 
-set ImperialCrossbow stat accuracy 60
-set OldImperialCrossbow stat accuracy 50
-set VerianCrossbow stat accuracy 60
+set ImperialCrossbow stat accuracy 70
+set OldImperialCrossbow stat accuracy 60
+set VerianCrossbow stat accuracy 70
+
+set KillerCrossbow stat Crit 36
+set Bowgun effect injure-rate 100
 
 set Bowgun stat max-range 2
 set IronCrossbow stat max-range 2
@@ -5078,3 +5084,4 @@ set Arrow++ stat might 8
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work
+
