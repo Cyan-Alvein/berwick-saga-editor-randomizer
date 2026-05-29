@@ -72,6 +72,8 @@
 
 // Shieldaxe effect parry
 
+// Zanbato effect Nosferatu
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set Repairstone effect restore-uses
@@ -1844,7 +1846,7 @@ set Balmung3 stat weight 8
 set Brymranger stat weight 9
 
 
-set Zanbato effect kill-horse 100
+set Zanbato effect Nosferatu
 set BastardSword effect cripple-x2
 
 
@@ -5076,4 +5078,3 @@ set Arrow++ stat might 8
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work
-454
