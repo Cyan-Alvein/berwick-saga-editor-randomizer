@@ -1877,7 +1877,7 @@ set ImperialSpear stat accuracy 60
 
 set SlimSpear stat might 6
 set Verutum stat might 12
-set Euthyphro stat might 5
+set Euthyphro stat might 5	
 //set Harpoon stat might 10
 set Fauchard stat might 8
 set Brionac stat might 8
@@ -2201,7 +2201,7 @@ set WoodenArrow effect injure-rate 100
 set BroadheadArrow stat accuracy 10
 set BreakerArrow stat accuracy 10
 set StoneArrow stat accuracy 10
-set WoodenArrow stat accuracy 10
+//set WoodenArrow stat accuracy 10
 set BronzeArrow stat accuracy 10
 set IronArrow stat accuracy 10
 set ImperialArrow stat accuracy 10
