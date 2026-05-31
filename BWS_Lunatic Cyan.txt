@@ -1881,7 +1881,7 @@ set Euthyphro stat might 5
 //set Harpoon stat might 10
 set Fauchard stat might 8
 set Brionac stat might 8
-set KillerSpear stat might 7
+set KillerSpear stat might 9
 
 set ImperialSpear stat might 8
 set VerianSpear stat might 8
@@ -5084,4 +5084,3 @@ set Arrow++ stat might 8
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work
-
