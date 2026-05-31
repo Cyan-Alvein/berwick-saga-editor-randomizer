@@ -1687,10 +1687,10 @@ set Shortsword stat might 5
 set Scimitar stat might 10
 set VerianSword stat might 9
 set OldImperialSword stat might 7
-set LevinSword stat might 3
-set FlameSword stat might 6
-//set HolySword stat might 10
-set WindEdge stat might 4
+set LevinSword stat might 2
+set FlameSword stat might 3
+set HolySword stat might 7
+set WindEdge stat might 3
 set InfernalEdge stat might 4
 set KillingEdge stat might 10
 set Broadsword stat might 11
@@ -1702,10 +1702,10 @@ set Albatross effect pascanion-backfire
 set Albatross stat defense 6
 set Albatross stat avoid 18
 
-set WindEdge effect wind-damage 7
-set LevinSword effect thunder-damage 11
-set HolySword effect holy-damage 9
-set FlameSword effect fire-damage 9
+set WindEdge effect wind-damage 8
+set LevinSword effect thunder-damage 12
+set HolySword effect holy-damage 12
+set FlameSword effect fire-damage 12
 set InfernalEdge effect fire-damage 12
 
 set BronzeSword stat accuracy 60
@@ -1970,7 +1970,7 @@ set MilitaryFork effect cripple-x2
 set Pitchfork effect cripple-x2
 //set GoreFork effect cripple-x2
 set Firebrand effect cripple-x2
-set Firebrand effect fire-damage 7
+set Firebrand effect fire-damage 12
 
 set MilitaryFork stat hex 1
 set Pitchfork stat hex 1
@@ -1986,12 +1986,12 @@ set GoreFork stat level 1
 set GoreFork stat cost 2000
 
 set Pitchfork stat weight 6
-set MilitaryFork stat weight 8
+set MilitaryFork stat weight 7
 set Firebrand stat weight 8
 set GoreFork stat weight 8
 
 set MilitaryFork stat might 12
-set Firebrand stat might 5
+set Firebrand stat might 0
 set Pitchfork stat might 8
 set GoreFork stat might 10
 
@@ -2047,12 +2047,12 @@ set ImperialAxe stat might 10
 set LogSplitter stat might 6
 set OldImperialAxe stat might 8
 
-set VolcanoAxe stat might 4
-set GlacierAxe stat might 4
-set NimbusAxe stat might 4
-set DarkAxe stat might 4
-set Mjollnir stat might 9
-set BoltAxe stat might 7
+set VolcanoAxe stat might 0
+set GlacierAxe stat might 0
+set NimbusAxe stat might 0
+set DarkAxe stat might 1
+set Mjollnir stat might 8
+set BoltAxe stat might 6
 set MithrilAxe stat might 15
 set BarbaricAxe stat might 20
 set CrookedAxe stat might 30
@@ -2061,12 +2061,12 @@ set Poleax stat might 14
 
 set Shieldaxe stat defense 10
 
-set VolcanoAxe effect fire-damage 7
-set GlacierAxe effect wind-damage 7
-set NimbusAxe effect thunder-damage 7
-set DarkAxe effect dark-damage 9
-set Mjollnir effect thunder-damage 11
-set BoltAxe effect thunder-damage 11
+set VolcanoAxe effect fire-damage 12
+set GlacierAxe effect wind-damage 12
+set NimbusAxe effect thunder-damage 12
+set DarkAxe effect dark-damage 12
+set Mjollnir effect thunder-damage 12
+set BoltAxe effect thunder-damage 12
 
 set LogSplitter stat Weight 4
 set Pickaxe stat Weight 4
@@ -2189,11 +2189,11 @@ set ImperialArrow stat might 8
 set ImperialArrow+ stat might 8
 set WoodenArrow stat might 1
 set StoneArrow stat might 3
-set RaijinArrow stat might 3
+set RaijinArrow stat might 2
 
-set EmberArrow effect fire-damage 7
-set FreezeArrow effect wind-damage 7
-set RaijinArrow effect thunder-damage 11
+set EmberArrow effect fire-damage 8
+set FreezeArrow effect wind-damage 8
+set RaijinArrow effect thunder-damage 12
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect nosferatu
 
