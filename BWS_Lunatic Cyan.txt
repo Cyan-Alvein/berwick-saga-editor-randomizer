@@ -1810,12 +1810,12 @@ set HolyMace stat Accuracy 60
 set DarkMace stat Accuracy 60
 set PoisonMace stat Accuracy 60
 
-set HolyMace stat might 1
-set DarkMace stat might 1
-set PoisonMace stat might 9
+set HolyMace stat might 0
+set DarkMace stat might 0
+set PoisonMace stat might 12
 
-set HolyMace effect holy-damage 9
-set DarkMace effect dark-damage 9
+set HolyMace effect holy-damage 12
+set DarkMace effect dark-damage 12
 
 set DarkMace stat cost 1000
 
