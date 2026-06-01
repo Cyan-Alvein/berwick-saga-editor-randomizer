@@ -1478,7 +1478,7 @@ set Perseid stat level 20
 set RazeEtoile stat level 10
 set Vritra stat level 20
 set Cutlass+ stat level 20
-set Cutlass stat level 15
+set Cutlass stat level 10
 set Balmung stat level 20
 set Balmung2 stat level 20
 set Balmung3 stat level 20
