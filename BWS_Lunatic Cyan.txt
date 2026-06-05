@@ -2428,10 +2428,14 @@ set Springald stat might 33
 set PrototypeScorpio stat might 15
 set Scorpio stat might 15
 
-set OldBallista stat accuracy 50
-set SteelBallista stat accuracy 60
-set PrototypeSpringald stat accuracy 60
-set Springald stat accuracy 60
+set OldBallista stat accuracy 60
+set SteelBallista stat accuracy 70
+set PrototypeSpringald stat accuracy 70
+set Springald stat accuracy 70
+set PrototypeScorpio stat accuracy 100
+set Scorpio stat accuracy 100
+set BronzeBallista stat accuracy 70
+set IronBallista stat accuracy 70
 
 set SteelBallista stat level 10
 set Springald stat level 15
@@ -2449,6 +2453,10 @@ set PrototypeScorpio effect cripple-x2
 set Scorpio effect cripple-x2
 
 set Scorpio stat Durability B
+
+set StandardBolt stat accuracy 10
+set OldBolt stat accuracy 10
+set New-TypeBolt stat accuracy 10
 
 // sshield
 
