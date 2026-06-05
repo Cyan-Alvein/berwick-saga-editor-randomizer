@@ -2432,7 +2432,7 @@ set OldBallista stat accuracy 60
 set SteelBallista stat accuracy 70
 set PrototypeSpringald stat accuracy 70
 set Springald stat accuracy 70
-set PrototypeScorpio stat accuracy 100
+set PrototypeScorpio stat accuracy 80
 set Scorpio stat accuracy 100
 set BronzeBallista stat accuracy 70
 set IronBallista stat accuracy 70
