@@ -475,8 +475,8 @@ set volo item 4 Harperia 101
 set volo item 5 BastardSword 101
 set volo item 6 PhoenixBrace 0
 set volo item 7 MiracleCharm 0
-set volo growth sword 80
-set volo base sword +20
+set volo growth sword 100
+set volo base sword +25
 
 //set sherpa growth sword 90
 set Sherpa item 1 Zanbato 101
@@ -1474,7 +1474,7 @@ set Pascanion stat level 20
 set Bhuj stat level 20
 set Brymranger stat level 20
 set Fauchard stat level 20
-set Perseid stat level 20
+set Perseid stat level 15
 set RazeEtoile stat level 10
 set Vritra stat level 20
 set Cutlass+ stat level 20
@@ -2506,7 +2506,7 @@ set ThunderShield stat mind 6
 set LightShield stat mind 6
 set DarkShield stat mind 6
 set MetalShield stat mind 3
-set MithrilShield stat mind 6
+set MithrilShield stat mind 5
 set Vollenden stat mind 6
 set ShiningShield stat mind 6
 set LadyShield stat mind 5
@@ -2580,7 +2580,7 @@ set ThunderShield stat accuracy 50
 set LightShield stat accuracy 50
 set DarkShield stat accuracy 50
 set Windshield stat accuracy 50
-set MithrilShield stat accuracy 50
+set MithrilShield stat accuracy 40
 
 set LeatherSShd stat durability C
 set Buckler stat durability C
@@ -2705,7 +2705,7 @@ Set BlackShield effect reflect-damage 100
 
 set ImpSoldierMShd+ stat accuracy 50
 set LadyMShd stat accuracy 50
-set WyrmskinShield stat accuracy 50
+set WyrmskinShield stat accuracy 40
 set LightningShield stat accuracy 50
 set RadiantShield stat accuracy 50
 set ShadowShield stat accuracy 50
