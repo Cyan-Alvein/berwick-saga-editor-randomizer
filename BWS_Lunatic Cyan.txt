@@ -1695,12 +1695,12 @@ set InfernalEdge stat might 4
 set KillingEdge stat might 10
 set Broadsword stat might 11
 set AltiumSword stat might 13
-set Albatross stat might 16
+//set Albatross stat might 14
 
 set AltiumSword effect cripple-x2
 set Albatross effect pascanion-backfire
-set Albatross stat defense 6
-set Albatross stat avoid 18
+//set Albatross stat defense 6
+//set Albatross stat avoid 18
 
 set WindEdge effect wind-damage 8
 set LevinSword effect thunder-damage 12
@@ -1712,7 +1712,7 @@ set BronzeSword stat accuracy 60
 set ImperialSword stat accuracy 60
 set AltiumSword stat accuracy 50
 set LevinSword stat accuracy 40
-set Albatross stat accuracy 80
+//set Albatross stat accuracy 40
 set Scimitar+ stat accuracy 50
 set KnightSword stat accuracy 60
 set FlameSword stat accuracy 50
@@ -1759,7 +1759,7 @@ set Saber stat weight 3
 set AltiumSword stat Weight 7
 set LevinSword stat weight 5
 set Rapier stat Weight 3
-set Albatross stat weight 5
+set Albatross stat weight 7
 set HolySword stat weight 6
 set MithrilSword stat weight 4
 set KnightSword stat weight 5
@@ -2053,7 +2053,7 @@ set NimbusAxe stat might 0
 set DarkAxe stat might 1
 set Mjollnir stat might 8
 set BoltAxe stat might 6
-set MithrilAxe stat might 15
+set MithrilAxe stat might 14
 set BarbaricAxe stat might 20
 set CrookedAxe stat might 30
 set BreakerAxe stat might 14
@@ -2115,7 +2115,7 @@ set Tomahawk stat accuracy 50
 set Battleaxe stat accuracy 40
 set Poleax stat accuracy 40
 set BreakerAxe stat accuracy 30
-set CrookedAxe stat accuracy 40
+set CrookedAxe stat accuracy 20
 set NimbusAxe stat accuracy 40
 set VolcanoAxe stat accuracy 40
 set GlacierAxe stat accuracy 40
