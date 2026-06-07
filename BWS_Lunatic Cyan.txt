@@ -550,7 +550,7 @@ set RazeMonkOwen growth dark 60
 //set burroughs item 1 BodkinArrow 20
 set burroughs item 2 MithrilArrow 20
 set burroughs item 3 KisharsWrath 8
-set burroughs item 4 Killerbow 101
+set burroughs item 4 New-TypeBolt 20
 set burroughs item 5 Tumahann 16
 set burroughs item 6 MithrilShield 101
 set burroughs item 7 Wormwood 8
@@ -2189,7 +2189,7 @@ set ImperialArrow stat might 8
 set ImperialArrow+ stat might 8
 set WoodenArrow stat might 1
 set StoneArrow stat might 3
-set RaijinArrow stat might 2
+set RaijinArrow stat might 0
 
 set EmberArrow effect fire-damage 8
 set FreezeArrow effect wind-damage 8
@@ -2287,7 +2287,8 @@ set SteelArrow stat cost 1500
 set ImperialArrow stat cost 750
 set EmberArrow stat cost 750
 set FreezeArrow stat cost 750
-set RaijinArrow stat cost 1600
+set RaijinArrow stat cost 1500
+set MithrilArrow stat cost 2400
 
 set BronzeBow stat cost 900
 set VerianBow stat cost 900
