@@ -2105,7 +2105,7 @@ set ImperialAxe stat Weight 6
 set BanditAxe stat Weight 4
 
 
-set BarbaricAxe stat accuracy 30
+set BarbaricAxe stat accuracy 40
 set BanditAxe stat accuracy 40
 set ImperialAxe stat accuracy 50
 set LogSplitter stat accuracy 50
@@ -2115,7 +2115,7 @@ set Tomahawk stat accuracy 50
 set Battleaxe stat accuracy 40
 set Poleax stat accuracy 40
 set BreakerAxe stat accuracy 30
-set CrookedAxe stat accuracy 20
+set CrookedAxe stat accuracy 30
 set NimbusAxe stat accuracy 40
 set VolcanoAxe stat accuracy 40
 set GlacierAxe stat accuracy 40
@@ -2124,7 +2124,7 @@ set Pickaxe stat accuracy 40
 set HandAxe stat accuracy 40
 set Francisca stat accuracy 40
 set Hammer stat accuracy 40
-set Greataxe stat accuracy 40
+set Greataxe stat accuracy 50
 set Shieldaxe stat accuracy 40
 set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 30
