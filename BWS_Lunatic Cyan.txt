@@ -64,13 +64,13 @@
 
 // All elemental shields does block damage
 
-// BreakerArrow & BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect. It break the game, no fun, you can't IronMan with it.
+// BreakerArrow & BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect. It breaks the game, no fun, you can't IronMan with it.
 
-// BroadheadArrow, Poleax, Zanbato effect Nosferatu, no more horse kill effect. It break the game, no fun, you can't IronMan with it.
+// BroadheadArrow, Poleax, Zanbato effect Nosferatu, no more horse kill effect. It breaks the game, no fun, you can't IronMan with it.
 
 // Shieldaxe effect parry
 
-// Bowgun, BoltKnife, Harpoon effect injure-rate 100% but accuracy 40%
+// Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter, WoodenArrow effect injure-rate 100% but accuracy -20%
 
 // Blizzard effect injure-rate 100%
 
@@ -125,10 +125,12 @@ set reese growth sshield 100
 set reese growth mshield 100
 set reese base mshield 40
 set Lord_R cap sshield 60
-set Lord_R cap mshield 40
+set Lord_R cap mshield 50
 set Lord_R cap sword 60
 set Lord cap sshield 60
-set Lord cap mshield 40
+set Lord cap mshield 50
+set KnightLord cap mshield 50
+set KnightLord_R cap mshield 50
 set Lord cap sword 60
 
 set ward item 0 KnightSword 101
@@ -1618,8 +1620,8 @@ set Kris stat mind 10
 set AssassinsKnife effect cripple-x2
 set BoltKnife effect injure-rate 100
 set TempestKnife effect wind-damage 10
-set ThiefsKnife effect steal-rate-plus 67
-set ThiefsCharm effect steal-rate-plus 33
+set ThiefsKnife effect steal-rate-plus 100
+set ThiefsCharm effect steal-rate-plus 100
 set AirKnife effect wind-damage 5
 //set BloodKnife effect dark-damage 7
 set Swordbreaker effect sword-break 100
@@ -1682,7 +1684,7 @@ set stunknife effect disarm-rate 100
 
 //swords
 
-set BronzeSword stat might 7
+set BronzeSword stat might 10
 set Shortsword stat might 5
 set Scimitar stat might 10
 set VerianSword stat might 9
@@ -1701,6 +1703,7 @@ set AltiumSword effect cripple-x2
 set Albatross effect pascanion-backfire
 //set Albatross stat defense 6
 //set Albatross stat avoid 18
+set BronzeSword effect injure-rate 100
 
 set WindEdge effect wind-damage 8
 set LevinSword effect thunder-damage 12
@@ -1708,7 +1711,7 @@ set HolySword effect holy-damage 12
 set FlameSword effect fire-damage 12
 set InfernalEdge effect fire-damage 12
 
-set BronzeSword stat accuracy 60
+set BronzeSword stat accuracy 40
 set ImperialSword stat accuracy 60
 set AltiumSword stat accuracy 50
 set LevinSword stat accuracy 40
@@ -1747,7 +1750,7 @@ set Grimhild stat level 1
 set AltiumSword stat level 7
 set LevinSword stat level 1
 
-set BronzeSword stat Weight 4
+set BronzeSword stat Weight 5
 set Shortsword stat Weight 3
 set Scimitar stat weight 4
 set Longsword stat weight 5
@@ -1785,7 +1788,7 @@ Set Vritra stat Weight 5
 
 set Scimitar+ stat Durability D
 set LevinSword stat Durability C
-set BronzeSword stat Durability C
+set BronzeSword stat Durability F
 set MithrilSword stat Durability A
 set RazeEtoile stat Durability C
 set LadySword stat Durability C
@@ -1795,6 +1798,7 @@ set OldImperialSword stat Durability D
 set ImperialSword stat Durability C
 
 set VerianSword stat cost 1200
+set BronzeSword stat cost 1000
 set OldImperialSword cost 600
 set ImperialSword cost 1200
 
@@ -2044,7 +2048,7 @@ set Drakelance Stat Accuracy 80
 set BanditAxe stat might 6
 set Pickaxe stat might 6
 set ImperialAxe stat might 10
-set LogSplitter stat might 6
+set LogSplitter stat might 10
 set OldImperialAxe stat might 8
 
 set VolcanoAxe stat might 0
@@ -2067,8 +2071,9 @@ set NimbusAxe effect thunder-damage 12
 set DarkAxe effect dark-damage 12
 set Mjollnir effect thunder-damage 12
 set BoltAxe effect thunder-damage 12
+set LogSplitter effect injure 100
 
-set LogSplitter stat Weight 4
+set LogSplitter stat Weight 6
 set Pickaxe stat Weight 4
 set BattleSaw stat Weight 7
 set HandAxe stat Weight 5
@@ -2108,7 +2113,7 @@ set BanditAxe stat Weight 4
 set BarbaricAxe stat accuracy 40
 set BanditAxe stat accuracy 40
 set ImperialAxe stat accuracy 50
-set LogSplitter stat accuracy 50
+set LogSplitter stat accuracy 30
 set Pickaxe stat accuracy 50
 set OldImperialAxe stat accuracy 40
 set Tomahawk stat accuracy 50
@@ -2130,7 +2135,7 @@ set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 30
 set VerianAxe stat accuracy 50
 
-set BanditAxe effect steal-rate-plus 67
+set BanditAxe effect steal-rate-plus 100
 set BattleAxe effect cripple-x2
 set Shieldaxe effect parry
 set CrookedAxe effect pascanion-backfire
@@ -2163,6 +2168,7 @@ set Mjollnir stat durability B
 set LogSplitter stat durability D
 //set Battleaxe stat durability C
 //set MithrilAxe stat durability A
+set LogSplitter effect durability F
 
 set VerianAxe stat durability D
 set ImperialAxe stat durability D
@@ -2173,6 +2179,7 @@ set Battleaxe stat cost 1500
 set VerianAxe stat cost 600
 set OldImperialAxe stat cost 300
 set ImperialAxe stat cost 600
+set LogSplitter stat cost 1000
 
 
 // bows
@@ -2187,7 +2194,7 @@ set EmberArrow stat might 0
 set FreezeArrow stat might 0
 set ImperialArrow stat might 8
 set ImperialArrow+ stat might 8
-set WoodenArrow stat might 1
+set WoodenArrow stat might 0
 set StoneArrow stat might 3
 set RaijinArrow stat might 0
 
@@ -2196,11 +2203,12 @@ set FreezeArrow effect wind-damage 8
 set RaijinArrow effect thunder-damage 12
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect nosferatu
+set WoodenArrow effect injure-rate 100
 
 set BroadheadArrow stat accuracy 10
 set BreakerArrow stat accuracy 10
 set StoneArrow stat accuracy 10
-set WoodenArrow stat accuracy 10
+//set WoodenArrow stat accuracy 10
 set BronzeArrow stat accuracy 10
 set IronArrow stat accuracy 10
 set ImperialArrow stat accuracy 10
@@ -2279,7 +2287,7 @@ set Apeiron stat cost 4000
 set SereniaBow stat cost 6000
 set Pascanion2 stat cost 8000
 set Pascanion stat cost 8000
-set WoodenArrow stat cost 150
+set WoodenArrow stat cost 500
 set StoneArrow stat cost 300
 set BronzeArrow stat cost 450
 set IronArrow stat cost 750
@@ -2866,7 +2874,7 @@ Set LeatherLShd Stat mind 6
 Set WideShield Stat mind 7
 Set IronShield Stat mind 8
 Set Greatshield Stat mind 18
-Set GeneralShield Stat mind 18
+Set GeneralShield Stat magic 18
 Set KojinShield Stat mind 12
 Set FujinShield Stat mind 12
 Set RaijinShield Stat mind 12
@@ -5092,4 +5100,5 @@ set Arrow++ stat might 8
 //For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
-// Holy-vantage effect doesn't work
+// Holy-vantage effect doesn't work on starlight item.
+// steal-rate-plus effect bug on ThiefsKnife & ThiefsCharm
