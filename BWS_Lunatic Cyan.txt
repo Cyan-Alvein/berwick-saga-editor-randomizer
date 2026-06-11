@@ -4,7 +4,7 @@
 // If you wanna tip me:
 //My monero address is: 473xfHS4yyyRsyv2bhSMBHUSm1VHtXDkM677oV8iMtruBjuRrN3YuXQAqEADq3THEwWoYoSZjz2D57826daXMSdXSyrCzh7
 // If you wanna contact me:
-// Simplex Address: https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2F1OwYGt-yqOfe2IyVHhxz3ohqo3aCCMjtB-8wn4X_aoY%3D%40smp11.simplex.im%2FauRyJGGaqyJEL7307oHmXU10-O0_gpey%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEA95PSnSRri1RaSKqN5ho0tsz2E3nUvpO_2mwsKTVVbGc%253D%26srv%3D6ioorbm6i3yxmuoezrhjk6f6qgkc4syabh7m3so74xunb5nzr4pwgfqd.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22lGqfQI9kcrPOApQah_5XpQ%3D%3D%22%7D
+// Simplex Address: https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2F6iIcWT_dF2zN_w5xzZEY7HI2Prbh3ldP07YTyDexPjE%3D%40smp10.simplex.im%2FyghX1hN2_dLlgtSX8320mcruqZbvSIV4%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEA6DGhVZxNGIZPcGLnMBXSDFtQpHxoVZeMR03JQTnEIEU%253D%26srv%3Drb2pbttocvnbrngnwziclp2f4ckjq65kebafws6g4hy22cdaiv5dwjqd.onion
 // My Nosttr Account: https://nostter.app/nprofile1qqs8486svgm5dgret9gr3xamkgkj9mudy6cpzzha9ug9g6l205tklvgpuuyn3
 
 
@@ -2071,7 +2071,7 @@ set NimbusAxe effect thunder-damage 12
 set DarkAxe effect dark-damage 12
 set Mjollnir effect thunder-damage 12
 set BoltAxe effect thunder-damage 12
-set LogSplitter effect injure 100
+set LogSplitter effect injure-rate 100
 
 set LogSplitter stat Weight 6
 set Pickaxe stat Weight 4
