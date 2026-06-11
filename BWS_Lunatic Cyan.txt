@@ -2165,10 +2165,9 @@ set NimbusAxe stat durability D
 set DarkAxe stat durability D
 set BoltAxe stat durability C
 set Mjollnir stat durability B
-set LogSplitter stat durability D
+set LogSplitter stat durability F
 //set Battleaxe stat durability C
 //set MithrilAxe stat durability A
-set LogSplitter effect durability F
 
 set VerianAxe stat durability D
 set ImperialAxe stat durability D
@@ -5102,3 +5101,4 @@ set Arrow++ stat might 8
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work on starlight item.
 // steal-rate-plus effect bug on ThiefsKnife & ThiefsCharm
+
