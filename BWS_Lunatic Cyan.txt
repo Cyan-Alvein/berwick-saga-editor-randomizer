@@ -1698,6 +1698,9 @@ set KillingEdge stat might 10
 set Broadsword stat might 11
 set AltiumSword stat might 13
 //set Albatross stat might 14
+set Cutlass+ stat might 13
+set Cutlass stat might 9
+set Cutlass stat crit 18
 
 set AltiumSword effect cripple-x2
 set Albatross effect pascanion-backfire
@@ -5101,4 +5104,3 @@ set Arrow++ stat might 8
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work on starlight item.
 // steal-rate-plus effect bug on ThiefsKnife & ThiefsCharm
-
