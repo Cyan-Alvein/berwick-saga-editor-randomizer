@@ -1620,8 +1620,10 @@ set Kris stat mind 10
 set AssassinsKnife effect cripple-x2
 set BoltKnife effect injure-rate 100
 set TempestKnife effect wind-damage 10
+unset ThiefsKnife effect steal-rate-plus 15
 set ThiefsKnife effect steal-rate-plus 100
-set ThiefsCharm effect steal-rate-plus 100
+unset ThiefsCharm effect steal-rate-plus 33
+set ThiefsCharm effect steal-rate-plus 50
 set AirKnife effect wind-damage 5
 //set BloodKnife effect dark-damage 7
 set Swordbreaker effect sword-break 100
@@ -2142,7 +2144,9 @@ set BanditAxe effect steal-rate-plus 100
 set BattleAxe effect cripple-x2
 set Shieldaxe effect parry
 set CrookedAxe effect pascanion-backfire
+unset BreakerAxe effect break-shield 100
 set BreakerAxe effect disarm-rate 100
+unset Poleax effect kill-horse 100
 set Poleax effect nosferatu
 
 set Battleaxe stat level 5
@@ -2187,7 +2191,7 @@ set LogSplitter stat cost 1000
 // bows
 
 //set KillerArrow stat might 8
-set PoisonArrow stat might 1
+set PoisonArrow stat might 8
 set SleepArrow stat might 1
 set BroadheadArrow stat might 8
 set BodkinArrow stat might 1
@@ -2204,8 +2208,10 @@ set EmberArrow effect fire-damage 8
 set FreezeArrow effect wind-damage 8
 set RaijinArrow effect thunder-damage 12
 set BreakerArrow effect disarm-rate 100
+unset BreakerArrow effect break-shield 100
 set BroadheadArrow effect nosferatu
 set WoodenArrow effect injure-rate 100
+unset BroadheadArrow effect kill-horse 100
 
 set BroadheadArrow stat accuracy 10
 set BreakerArrow stat accuracy 10
@@ -5104,3 +5110,4 @@ set Arrow++ stat might 8
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work on starlight item.
 // steal-rate-plus effect bug on ThiefsKnife & ThiefsCharm
+
