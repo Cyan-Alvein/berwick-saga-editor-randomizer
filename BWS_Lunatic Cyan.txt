@@ -1618,7 +1618,7 @@ set Swordbreaker stat might 4
 set PoisonKnife stat might 2
 set SleepKnife stat might 2
 set BoltKnife stat might 2
-set AssassinsKnife stat might 0
+set AssassinsKnife stat might 1
 set LetterOpener stat might 1
 set MainGauche stat might 3
 
@@ -2204,7 +2204,7 @@ set EmberArrow stat might 0
 set FreezeArrow stat might 0
 set ImperialArrow stat might 8
 set ImperialArrow+ stat might 8
-set WoodenArrow stat might 0
+set WoodenArrow stat might 1
 set StoneArrow stat might 3
 set RaijinArrow stat might 0
 
