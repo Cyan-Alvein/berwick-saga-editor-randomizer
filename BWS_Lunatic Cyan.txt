@@ -2459,14 +2459,14 @@ set IronBallista stat accuracy 70
 set SteelBallista stat level 10
 set Springald stat level 15
 
-set OldBallista stat weight 3
-set BronzeBallista stat weight 2
-set IronBallista stat weight 3
-set SteelBallista stat weight 4
-set PrototypeSpringald stat weight 5
-set Springald stat weight 5
-set PrototypeScorpio stat weight 2
-set Scorpio stat weight 2
+set OldBallista stat weight 8
+set BronzeBallista stat weight 7
+set IronBallista stat weight 8
+set SteelBallista stat weight 9
+set PrototypeSpringald stat weight 10
+set Springald stat weight 10
+set PrototypeScorpio stat weight 7
+set Scorpio stat weight 7
 
 set OldBallista stat speed 5
 set BronzeBallista stat speed 5
