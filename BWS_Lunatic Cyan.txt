@@ -2213,7 +2213,7 @@ set FreezeArrow effect wind-damage 8
 set RaijinArrow effect thunder-damage 12
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect nosferatu
-set WoodenArrow effect injure-rate 50
+set WoodenArrow effect injure-rate 100
 
 set BroadheadArrow stat accuracy 10
 set BreakerArrow stat accuracy 10
