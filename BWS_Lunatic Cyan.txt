@@ -1635,7 +1635,7 @@ set Swordbreaker effect sword-break 100
 
 set AirKnife stat weight 2
 set Dart stat weight 2
-set BoltKnife stat weight 2
+set BoltKnife stat weight 4
 set TempestKnife stat weight 2
 set BloodKnife stat weight 2
 
@@ -1760,7 +1760,7 @@ set Grimhild stat level 1
 set AltiumSword stat level 7
 set LevinSword stat level 1
 
-set BronzeSword stat Weight 5
+set BronzeSword stat Weight 8
 set Shortsword stat Weight 3
 set Scimitar stat weight 4
 set Longsword stat weight 5
@@ -1893,7 +1893,7 @@ set SlimSpear stat might 6
 set Verutum stat might 12
 set Euthyphro stat might 0
 set WindSpear stat might 6
-//set Harpoon stat might 10
+set Harpoon stat might 10
 set Fauchard stat might 8
 set Brionac stat might 8
 set KillerSpear stat might 9
@@ -1919,7 +1919,7 @@ set SlimSpear stat Weight 5
 set IronSpear stat Weight 6
 set Pilum stat Weight 7
 set SteelSpear stat Weight 7
-set Harpoon stat Weight 6
+set Harpoon stat Weight 8
 set PrototypeSpear stat Weight 8
 set KillerSpear stat Weight 6
 set Pike stat Weight 6
@@ -1941,8 +1941,7 @@ set VerianSpear stat Weight 6
 set OldImperialSpear stat Weight 7
 
 set Fauchard stat hex 1
-//set Harpoon stat hex 1
-//set Brionac stat hex 2
+set Brionac stat hex 2
 
 Set Harpoon effect injure-rate 100
 
@@ -2085,7 +2084,7 @@ set Mjollnir effect thunder-damage 12
 set BoltAxe effect thunder-damage 12
 set LogSplitter effect injure-rate 100
 
-set LogSplitter stat Weight 6
+set LogSplitter stat Weight 8
 set Pickaxe stat Weight 4
 set BattleSaw stat Weight 7
 set HandAxe stat Weight 5
@@ -2125,7 +2124,7 @@ set BanditAxe stat Weight 4
 set BarbaricAxe stat accuracy 40
 set BanditAxe stat accuracy 40
 set ImperialAxe stat accuracy 50
-set LogSplitter stat accuracy 30
+set LogSplitter stat accuracy 40
 set Pickaxe stat accuracy 50
 set OldImperialAxe stat accuracy 40
 set Tomahawk stat accuracy 50
@@ -2214,7 +2213,7 @@ set FreezeArrow effect wind-damage 8
 set RaijinArrow effect thunder-damage 12
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect nosferatu
-set WoodenArrow effect injure-rate 100
+set WoodenArrow effect injure-rate 50
 
 set BroadheadArrow stat accuracy 10
 set BreakerArrow stat accuracy 10
