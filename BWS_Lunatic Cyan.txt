@@ -134,7 +134,7 @@ set KnightLord_R cap mshield 50
 set Lord cap sword 60
 
 set ward item 0 KnightSword 101
-set ward item 1 FlameSword 101
+set ward item 1 Bag 0
 set ward item 2 SquareShield 101
 set ward item 3 Longspear 101
 set ward item 4 Harpoon 101
@@ -147,6 +147,7 @@ set ward growth mshield 50
 set ward base mshield +20
 set ward base sword +20
 set ward base spear +20
+set ward base speed +2
 set VeteranKnight cap spear 50
 set VeteranKnight cap sword 50
 set VeteranKnight_R cap spear 50
@@ -249,6 +250,7 @@ set izerna item 6 Bag 0
 set izerna item 7 Rehabilitate 10
 set izerna growth holy 70
 set izerna base holy +20
+set izerna base mind +1
 
 set czene item 0 Vespa 101
 set czene item 1 BoltKnife 101
@@ -264,7 +266,7 @@ set czene growth strength 10
 set czene base knife +20
 
 set aegina item 1 Blizzard 15 
-set aegina item 2 LiquidMagic 1
+set aegina item 2 Bag 0
 set aegina item 3 Windstorm 60
 set aegina item 4 Treasure 101
 set aegina item 5 Fire 20
@@ -274,6 +276,7 @@ set aegina growth wind 100
 set aegina growth fire 80
 set aegina base fire +20
 set aegina base wind +20
+set aegina base mind +1
 
 set daoud growth axe 80
 set daoud growth sshield 100
@@ -293,6 +296,7 @@ set Daoud base mshield +20
 set enid base sword +20
 set enid base fire +40
 set enid base thunder +30
+set enid base mind +1
 set Enid item 1 Hellfire 20
 set Enid item 2 Thunder 20
 set Enid item 3 Earthblaze 18
@@ -418,7 +422,7 @@ set sylvis base crossbow +20
 set perceval item 1 Thunder 20
 set perceval item 2 Treasure 101
 set perceval item 3 Lightning 15
-set perceval item 4 LiquidMagic 1
+set perceval item 4 Bag 0
 set perceval item 5 Blizzard 15
 set perceval item 6 TigerBrace 0
 set perceval item 7 Windstorm 60
@@ -426,6 +430,7 @@ set perceval growth wind 80
 set perceval growth thunder 100
 set perceval base thunder +20
 set perceval base wind +20
+set perceval base mind +1
 
 set thaddy item 2 FeatherBrace 0
 set thaddy item 3 MainGauche 101
@@ -484,7 +489,7 @@ set volo base sword +25
 set Sherpa item 1 Zanbato 101
 set Sherpa item 2 Shortsword 101
 set Sherpa item 3 Treasure 101
-set Sherpa item 4 FlameSword 101
+set Sherpa item 4 Bag 0
 set Sherpa item 5 Treasure 101
 set Sherpa item 6 Albatross 101
 set Sherpa item 7 Bag 0
@@ -546,6 +551,7 @@ set Owen base wind +20
 set Owen base thunder +20
 set Owen base holy +20
 set Owen base dark +50
+set Owen base mind +1
 set RazeMonkOwen growth dark 60
 
 //set burroughs item 0 Bag 0
@@ -581,6 +587,7 @@ set saphira item 6 Mend 20
 set saphira item 7 Bag 0
 set saphira growth holy 100
 set saphira base holy +20
+set saphira base mind +1
 
 set lynette item 3 SniperArrow 10
 set lynette item 4 DireThunder 20
@@ -1620,11 +1627,9 @@ set Kris stat mind 10
 set AssassinsKnife effect cripple-x2
 set BoltKnife effect injure-rate 100
 set TempestKnife effect wind-damage 10
-unset ThiefsKnife effect steal-rate-plus 15
 set ThiefsKnife effect steal-rate-plus 100
-unset ThiefsCharm effect steal-rate-plus 33
-set ThiefsCharm effect steal-rate-plus 50
-set AirKnife effect wind-damage 5
+set ThiefsCharm effect steal-rate-plus 100
+set AirKnife effect wind-damage 2
 //set BloodKnife effect dark-damage 7
 set Swordbreaker effect sword-break 100
 
@@ -1693,8 +1698,8 @@ set VerianSword stat might 9
 set OldImperialSword stat might 7
 set LevinSword stat might 2
 set FlameSword stat might 3
-set HolySword stat might 7
-set WindEdge stat might 3
+set HolySword stat might 5
+set WindEdge stat might 0
 set InfernalEdge stat might 4
 set KillingEdge stat might 10
 set Broadsword stat might 11
@@ -1710,7 +1715,7 @@ set Albatross effect pascanion-backfire
 //set Albatross stat avoid 18
 set BronzeSword effect injure-rate 100
 
-set WindEdge effect wind-damage 8
+set WindEdge effect wind-damage 12
 set LevinSword effect thunder-damage 12
 set HolySword effect holy-damage 12
 set FlameSword effect fire-damage 12
@@ -1986,7 +1991,7 @@ set Pitchfork stat hex 1
 set GoreFork stat hex 1
 set Firebrand stat hex 1
 
-set MilitaryFork stat accuracy 50
+set MilitaryFork stat accuracy 60
 set Pitchfork stat accuracy 60
 set GoreFork stat accuracy 50
 set Firebrand stat accuracy 60
@@ -2144,9 +2149,7 @@ set BanditAxe effect steal-rate-plus 100
 set BattleAxe effect cripple-x2
 set Shieldaxe effect parry
 set CrookedAxe effect pascanion-backfire
-unset BreakerAxe effect break-shield 100
 set BreakerAxe effect disarm-rate 100
-unset Poleax effect kill-horse 100
 set Poleax effect nosferatu
 
 set Battleaxe stat level 5
@@ -2193,7 +2196,7 @@ set LogSplitter stat cost 1000
 //set KillerArrow stat might 8
 set PoisonArrow stat might 8
 set SleepArrow stat might 1
-set BroadheadArrow stat might 8
+set BroadheadArrow stat might 1
 set BodkinArrow stat might 1
 set BreakerArrow stat might 8
 set EmberArrow stat might 0
@@ -2208,10 +2211,8 @@ set EmberArrow effect fire-damage 8
 set FreezeArrow effect wind-damage 8
 set RaijinArrow effect thunder-damage 12
 set BreakerArrow effect disarm-rate 100
-unset BreakerArrow effect break-shield 100
 set BroadheadArrow effect nosferatu
 set WoodenArrow effect injure-rate 100
-unset BroadheadArrow effect kill-horse 100
 
 set BroadheadArrow stat accuracy 10
 set BreakerArrow stat accuracy 10
