@@ -1891,7 +1891,8 @@ set ImperialSpear stat accuracy 60
 
 set SlimSpear stat might 6
 set Verutum stat might 12
-set Euthyphro stat might 5	
+set Euthyphro stat might 0
+set WindSpear stat might 6
 //set Harpoon stat might 10
 set Fauchard stat might 8
 set Brionac stat might 8
@@ -1901,7 +1902,8 @@ set ImperialSpear stat might 8
 set VerianSpear stat might 8
 set OldImperialSpear stat might 6
 
-set Euthyphro effect thunder-damage 7
+set Euthyphro effect thunder-damage 12
+set WindSpear effect wind-damage 12
 set Brionac effect nosferatu
 set Partisan effect cripple-x2
 
@@ -5111,4 +5113,3 @@ set Arrow++ stat might 8
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work on starlight item.
 // steal-rate-plus effect bug on ThiefsKnife & ThiefsCharm
-
