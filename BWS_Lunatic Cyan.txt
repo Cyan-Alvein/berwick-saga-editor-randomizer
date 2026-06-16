@@ -1553,6 +1553,7 @@ set Physic stat max-range 5
 set Holy stat might 10
 set Holy stat uses 20
 set holy effect cripple-x2
+set Starlight effect holy-vantage
 set Starlight effect cripple-x2
 set Starlight stat max-range 2
 set Starlight stat might 32
@@ -1625,6 +1626,7 @@ set MainGauche stat might 3
 set Kris stat mind 10
 
 set AssassinsKnife effect cripple-x2
+set BoltKnife effect thunder-damage 10
 set BoltKnife effect injure-rate 100
 set TempestKnife effect wind-damage 20
 set ThiefsKnife effect steal-rate-plus 100
@@ -1984,7 +1986,7 @@ set OldImperialSpear stat cost 500
 
 set MilitaryFork effect cripple-x2
 set Pitchfork effect cripple-x2
-//set GoreFork effect cripple-x2
+set GoreFork effect cripple-x2
 set Firebrand effect cripple-x2
 set Firebrand effect fire-damage 20
 
@@ -2017,6 +2019,11 @@ set Firebrand stat durability D
 
 //set Drakelance stat level 15
 
+set Drakelance effect parry
+set Xyston effect parry
+set IronLance effect parry
+set Oxtongue effect parry
+set GreatLance effect parry
 
 set Drakelance effect cripple-x2
 set Xyston effect cripple-x2
@@ -5145,7 +5152,6 @@ set Arrow++ stat might 8
 //Increasing ennemy class Weapon Skill is bugged, doesn't work, to fix.
 //Learned function is bugged
 //restore-uses doesn't work when the item is in the storage room in Reese's house.
-//Adding 2 effect on an iteam doesn't work, only the last effect will apply. So you shouldn't touch Bolt's Knife otherwise you will remove his injure + thunder damage effect.
 //Adept doesn't work with desperate, but works with deathmatch. so giving Dean Deathmatch is a Huge buff.
 //Bug, Robbery and steal are linked, when robbery proc, it will decrease steal activation counter. So you can only robbery & steal 3 times by map.
 //Shieldaxe shouldn't be a stand-still skill
@@ -5156,5 +5162,4 @@ set Arrow++ stat might 8
 //Allow the option to separate arrow
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work on starlight item.
-// steal-rate-plus effect bug on ThiefsKnife & ThiefsCharm
 // I need to make magic weapon like windedge to have increased damage depending on strenght, not fixed magic damage. So Reese with 10 strenght and WindEdge with 12 might should do 22 wind-damage.
