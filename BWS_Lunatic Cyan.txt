@@ -1626,11 +1626,12 @@ set Kris stat mind 10
 
 set AssassinsKnife effect cripple-x2
 set BoltKnife effect injure-rate 100
-set TempestKnife effect wind-damage 10
+set TempestKnife effect wind-damage 20
 set ThiefsKnife effect steal-rate-plus 100
 set ThiefsCharm effect steal-rate-plus 100
-set AirKnife effect wind-damage 2
-//set BloodKnife effect dark-damage 7
+set AirKnife effect wind-damage 10
+set BloodKnife effect dark-damage 10
+set BloodKnife effect nosferatu
 set Swordbreaker effect sword-break 100
 
 set AirKnife stat weight 2
@@ -1715,11 +1716,11 @@ set Albatross effect pascanion-backfire
 //set Albatross stat avoid 18
 set BronzeSword effect injure-rate 100
 
-set WindEdge effect wind-damage 12
-set LevinSword effect thunder-damage 12
-set HolySword effect holy-damage 12
-set FlameSword effect fire-damage 12
-set InfernalEdge effect fire-damage 12
+set WindEdge effect wind-damage 20
+set LevinSword effect thunder-damage 20
+set HolySword effect holy-damage 20
+set FlameSword effect fire-damage 20
+set InfernalEdge effect fire-damage 20
 
 set BronzeSword stat accuracy 40
 set ImperialSword stat accuracy 60
@@ -1828,8 +1829,8 @@ set HolyMace stat might 0
 set DarkMace stat might 0
 set PoisonMace stat might 12
 
-set HolyMace effect holy-damage 12
-set DarkMace effect dark-damage 12
+set HolyMace effect holy-damage 20
+set DarkMace effect dark-damage 20
 
 set DarkMace stat cost 1000
 
@@ -1902,8 +1903,8 @@ set ImperialSpear stat might 8
 set VerianSpear stat might 8
 set OldImperialSpear stat might 6
 
-set Euthyphro effect thunder-damage 12
-set WindSpear effect wind-damage 12
+set Euthyphro effect thunder-damage 20
+set WindSpear effect wind-damage 20
 set Brionac effect nosferatu
 set Partisan effect cripple-x2
 
@@ -1985,7 +1986,7 @@ set MilitaryFork effect cripple-x2
 set Pitchfork effect cripple-x2
 //set GoreFork effect cripple-x2
 set Firebrand effect cripple-x2
-set Firebrand effect fire-damage 12
+set Firebrand effect fire-damage 20
 
 set MilitaryFork stat hex 1
 set Pitchfork stat hex 1
@@ -2076,12 +2077,12 @@ set Poleax stat might 14
 
 set Shieldaxe stat defense 10
 
-set VolcanoAxe effect fire-damage 12
-set GlacierAxe effect wind-damage 12
-set NimbusAxe effect thunder-damage 12
-set DarkAxe effect dark-damage 12
-set Mjollnir effect thunder-damage 12
-set BoltAxe effect thunder-damage 12
+set VolcanoAxe effect fire-damage 20
+set GlacierAxe effect wind-damage 20
+set NimbusAxe effect thunder-damage 20
+set DarkAxe effect dark-damage 20
+set Mjollnir effect thunder-damage 20
+set BoltAxe effect thunder-damage 20
 set LogSplitter effect injure-rate 100
 
 set LogSplitter stat Weight 8
@@ -2208,9 +2209,9 @@ set WoodenArrow stat might 1
 set StoneArrow stat might 3
 set RaijinArrow stat might 0
 
-set EmberArrow effect fire-damage 8
-set FreezeArrow effect wind-damage 8
-set RaijinArrow effect thunder-damage 12
+set EmberArrow effect fire-damage 14
+set FreezeArrow effect wind-damage 14
+set RaijinArrow effect thunder-damage 20
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect nosferatu
 
@@ -2237,6 +2238,9 @@ set Greatbow stat max-range 3
 set Rossweisse stat max-range 3
 set Apollyon stat max-range 3
 set Apeiron stat max-range 3
+set Pascanion stat max-range 3
+set Pascanion2 stat max-range 3
+set Apeiron stat accuracy 60
 set Apeiron stat accuracy 60
 
 set Shortbow effect injure-rate 100
@@ -2511,13 +2515,13 @@ set New-TypeBolt stat accuracy 10
 
 set ShiningShield effect negate-dark 100
 
-set Vollenden effect block-holy-damage 12
-set DarkShield effect block-fire-damage 12
-set Windshield effect block-thunder-damage 6
-set LightShield effect block-holy-damage 6
-set ThunderShield effect thunder-damage 6
-set FireShield effect block-fire-damage 6
-set Perseid effect block-holy-damage 6
+set Vollenden effect block-holy-damage 20
+set DarkShield effect block-fire-damage 20
+set Windshield effect block-thunder-damage 12
+set LightShield effect block-holy-damage 12
+set ThunderShield effect thunder-damage 12
+set FireShield effect block-fire-damage 12
+set Perseid effect block-holy-damage 12
 
 set LeatherSShd stat might 2
 set Buckler stat might 4
@@ -2543,30 +2547,30 @@ set ImpSoldierSShd++ stat might 4
 set ImpOfficerSShd stat might 6
 set ImpKnightSShd stat might 7
 
-set LeatherSShd stat mind 1
-set Buckler stat mind 2
-set PrototypeSShd stat mind 2
-set Aspis stat mind 3
-set RoundShield stat mind 3
+set LeatherSShd stat mind 2
+set Buckler stat mind 4
+set PrototypeSShd stat mind 4
+set Aspis stat mind 6
+set RoundShield stat mind 6
 set Windshield stat mind 6
 set FireShield stat mind 6
 set ThunderShield stat mind 6
 set LightShield stat mind 6
 set DarkShield stat mind 6
-set MetalShield stat mind 3
-set MithrilShield stat mind 5
-set Vollenden stat mind 6
-set ShiningShield stat mind 6
-set LadyShield stat mind 5
-set Perseid stat mind 5
-set Aiantos stat mind 5
+set MetalShield stat mind 7
+set MithrilShield stat mind 7
+set Vollenden stat mind 7
+set ShiningShield stat mind 7
+set LadyShield stat mind 6
+set Perseid stat mind 7
+set Aiantos stat mind 7
 
-Set VerianSShd Stat mind 2
+Set VerianSShd Stat mind 4
 set OldImpSShd stat mind 3
-set ImpSoldierSShd stat mind 2
-set ImpSoldierSShd++ stat mind 2
-set ImpOfficerSShd stat mind 3
-set ImpKnightSShd stat mind 3
+set ImpSoldierSShd stat mind 4
+set ImpSoldierSShd++ stat mind 4
+set ImpOfficerSShd stat mind 6
+set ImpKnightSShd stat mind 7
 
 set LeatherSShd stat Weight 1
 set Buckler stat Weight 2
@@ -2598,13 +2602,13 @@ set Buckler stat cost 866
 set PrototypeSShd stat cost 866
 set Aspis stat cost 1600
 set RoundShield stat cost 2000
-set Windshield stat cost 4000
-set FireShield stat cost 4000
-set ThunderShield stat cost 4000
-set LightShield stat cost 4000
+set Windshield stat cost 3000
+set FireShield stat cost 3000
+set ThunderShield stat cost 3000
+set LightShield stat cost 3000
 set DarkShield stat cost 5000
 set MetalShield stat cost 2500
-set MithrilShield stat cost 4000
+set MithrilShield stat cost 3000
 set Perseid stat cost 5000
 set LadyShield stat cost 3000
 set Vollenden stat cost 5000
@@ -2680,7 +2684,7 @@ Set Hestia stat Weight 6
 Set WyrmskinShield stat Weight 4
 Set LadyMShd stat Weight 4
 Set PaladinShield stat Weight 6
-Set BlackShield stat Weight 6
+Set BlackShield stat Weight 9
 
 set LightningShield stat Weight 6
 set RadiantShield stat Weight 6
@@ -2694,28 +2698,28 @@ Set ImpSoldierMShd+ stat Weight 4
 Set ImpOfficerMShd stat Weight 5
 Set ImpKnightMShd stat Weight 6
 
-Set LeatherMShd stat mind 3
-Set Kiteshield stat mind 4
-Set SquareShield stat mind 5
-Set KnightShield stat mind 6
-Set LimitShield stat mind 6
-Set WyrmskinShield stat mind 7
-Set LadyMShd stat mind 7
-Set PaladinShield stat mind 12
-Set BlackShield stat mind 6
+Set LeatherMShd stat mind 6
+Set Kiteshield stat mind 8
+Set SquareShield stat mind 10
+Set KnightShield stat mind 12
+Set LimitShield stat mind 12
+Set WyrmskinShield stat mind 14
+Set LadyMShd stat mind 12
+Set PaladinShield stat mind 14
+Set BlackShield stat mind 14
 
-set LightningShield stat mind 9
-set RadiantShield stat mind 9
-set ShadowShield stat mind 9
-set BlazingShield stat mind 9
-set GaleShield stat mind 9
-Set Hestia stat mind 9
+set LightningShield stat mind 12
+set RadiantShield stat mind 12
+set ShadowShield stat mind 12
+set BlazingShield stat mind 12
+set GaleShield stat mind 12
+Set Hestia stat mind 14
 
-Set VerianMShd stat mind 4
-Set ImpSoldierMShd stat mind 4
-Set ImpSoldierMShd+ stat mind 4
-Set ImpOfficerMShd stat mind 5
-Set ImpKnightMShd stat mind 6
+Set VerianMShd stat mind 8
+Set ImpSoldierMShd stat mind 8
+Set ImpSoldierMShd+ stat mind 8
+Set ImpOfficerMShd stat mind 10
+Set ImpKnightMShd stat mind 12
 
 Set LadyMShd stat accuracy 50
 
@@ -2742,12 +2746,12 @@ Set ImpSoldierMShd+ stat might 8
 Set ImpOfficerMShd stat might 10
 Set ImpKnightMShd stat might 12
 
-set LightningShield effect block-thunder-damage 7
-set RadiantShield effect block-holy-damage 7
-set ShadowShield effect block-fire-damage 7
-set BlazingShield effect block-fire-damage 7
-set GaleShield effect block-thunder-damage 7
-Set Hestia effect block-fire-damage 12
+set LightningShield effect block-thunder-damage 16
+set RadiantShield effect block-holy-damage 16
+set ShadowShield effect block-fire-damage 16
+set BlazingShield effect block-fire-damage 16
+set GaleShield effect block-thunder-damage 16
+Set Hestia effect block-fire-damage 20
 
 Set BlackShield effect reflect-damage 100
 
@@ -2856,11 +2860,11 @@ set RaijinShield stat accuracy 50
 set AmaterasuShield stat accuracy 50
 set GeneralShield stat accuracy 50
 
-set KojinShield effect block-fire-damage 8
-set FujinShield effect block-thunder-damage 8
-set RaijinShield effect block-thunder-damage 8
-set AmaterasuShield effect block-fire-damage 12
-set GeneralShield effect block-holy-damage 12
+set KojinShield effect block-fire-damage 20
+set FujinShield effect block-thunder-damage 20
+set RaijinShield effect block-thunder-damage 20
+set AmaterasuShield effect block-fire-damage 20
+set GeneralShield effect block-holy-damage 20
 
 set ImpKnightLShd stat might 19
 set ImpOfficerLShd stat might 16
@@ -2872,10 +2876,10 @@ set LeatherLShd stat might 12
 set WideShield stat might 14
 set IronShield stat might 16
 set Greatshield stat might 21
-set KojinShield stat might 18
-set FujinShield stat might 18
-set RaijinShield stat might 18
-set AmaterasuShield stat might 21
+set KojinShield stat might 15
+set FujinShield stat might 15
+set RaijinShield stat might 15
+set AmaterasuShield stat might 15
 set GeneralShield stat might 21
 
 set LeatherLShd stat cost 1800
@@ -2910,21 +2914,31 @@ Set ImpSoldierLShd+ Stat Weight 7
 Set ImpOfficerLShd Stat Weight 8
 Set ImpKnightLShd Stat Weight 9
 
-Set LeatherLShd Stat mind 6
-Set WideShield Stat mind 7
-Set IronShield Stat mind 8
+Set LeatherLShd Stat mind 12
+Set WideShield Stat mind 14
+Set IronShield Stat mind 16
 Set Greatshield Stat mind 18
-Set GeneralShield Stat magic 18
-Set KojinShield Stat mind 12
-Set FujinShield Stat mind 12
-Set RaijinShield Stat mind 12
-Set AmaterasuShield Stat mind 12
+Set GeneralShield Stat magic 3
+Set GeneralShield Stat fire_res 15
+Set GeneralShield Stat thunder_res 15
+Set GeneralShield Stat wind_res 15
+Set GeneralShield Stat holy_res 15
+Set GeneralShield Stat dark_res 15
+Set KojinShield Stat mind 15
+Set FujinShield Stat mind 15
+Set RaijinShield Stat mind 15
+Set AmaterasuShield Stat mind 36
+Set AmaterasuShield Stat fire_res 0
+Set AmaterasuShield Stat thunder_res 0
+Set AmaterasuShield Stat wind_res 0
+Set AmaterasuShield Stat holy_res 0
+Set AmaterasuShield Stat dark_res 0
 
-Set VerianLShd Stat mind 6
-Set ImpSoldierLShd Stat mind 7
-Set ImpSoldierLShd+ Stat mind 7
-Set ImpOfficerLShd Stat mind 8
-Set ImpKnightLShd Stat mind 9
+Set VerianLShd Stat mind 12
+Set ImpSoldierLShd Stat mind 14
+Set ImpSoldierLShd+ Stat mind 14
+Set ImpOfficerLShd Stat mind 16
+Set ImpKnightLShd Stat mind 18
 
 
 //Accessories Buff
@@ -5143,3 +5157,4 @@ set Arrow++ stat might 8
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work on starlight item.
 // steal-rate-plus effect bug on ThiefsKnife & ThiefsCharm
+// I need to make magic weapon like windedge to have increased damage depending on strenght, not fixed magic damage. So Reese with 10 strenght and WindEdge with 12 might should do 22 wind-damage.
