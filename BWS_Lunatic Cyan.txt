@@ -4392,6 +4392,14 @@ set Berserker skill hide
 set Berserker skill vengeful
 set Berserker skill adept
 
+set DukeKnight skill shieldfaire
+set DukeKnight skill counter
+set DukeKnight skill hide
+
+set DukeKnight_R skill shieldfaire
+set DukeKnight_R skill counter
+set DukeKnight_R skill hide
+
 set FlameFencer skill maim
 set FlameFencer skill hide
 
