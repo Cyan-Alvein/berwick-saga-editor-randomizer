@@ -5112,6 +5112,17 @@ set izerna skill battlecry
 
 
 set Tico stat uses 12
+set ThinHorse stat speed 2
+set PlainHorse stat speed 2
+set SpryHorse stat speed 2
+set ToughHorse stat speed 2
+set StrongHorse stat speed 2
+//set IshsStallion stat speed 2
+//set SinonStallion stat speed 2
+//set LigaDestrier stat speed 2
+//set LigaCourser stat speed 2
+//set MorachHorse stat speed 2
+//set IshsCourser stat speed 2
 
 //////////////////////////////////////////////////////////////////////////////////
 
