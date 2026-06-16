@@ -108,10 +108,11 @@ set Berserk effect restore-uses
 
 unset RazeMonkOwen skill limited
 
-unset marcel skill slowstart
-unset marcel skill slowstart2
-unset Guardian skill slowstart
-unset Guardian skill slowstart2
+// If decommented, After Marcel reach level 15, he will learn slowstart instead
+//unset marcel skill slowstart
+//unset marcel skill slowstart2
+//unset Guardian skill slowstart
+//unset Guardian skill slowstart2
 
 set reese item 3 HolySword 101
 set reese item 4 RoundShield 101
