@@ -5122,16 +5122,51 @@ set izerna skill battlecry
 
 set Tico stat uses 12
 set ThinHorse stat speed 2
+set ThinHorse stat strenght 1
+set ThinHorse stat defense 1
+set ThinHorse stat magic 1
 set PlainHorse stat speed 2
+set PlainHorse stat strenght 1
+set PlainHorse stat defense 1
+set PlainHorse stat magic 1
 set SpryHorse stat speed 2
+set SpryHorse stat strenght 1
+set SpryHorse stat defense 1
+set SpryHorse stat magic 1
 set ToughHorse stat speed 2
+set ToughHorse stat strenght 1
+set ToughHorse stat defense 1
+set ToughHorse stat magic 1
 set StrongHorse stat speed 2
-//set IshsStallion stat speed 2
-//set SinonStallion stat speed 2
-//set LigaDestrier stat speed 2
-//set LigaCourser stat speed 2
-//set MorachHorse stat speed 2
-//set IshsCourser stat speed 2
+set StrongHorse stat strenght 1
+set StrongHorse stat defense 1
+set StrongHorse stat magic 1
+set SinonStallion stat speed 2
+set SinonStallion stat strenght 1
+set SinonStallion stat defense 1
+set SinonStallion stat magic 1
+set LigaDestrier stat speed 2
+set LigaDestrier stat strenght 1
+set LigaDestrier stat defense 1
+set LigaDestrier stat magic 1
+set LigaCourser stat speed 2
+set MorachHorse stat speed 2
+set IshsCourser stat speed 2
+set tico stat defense 1
+set tico stat magic 1
+
+set ThinHorse stat cost 1500
+set PlainHorse stat cost 2500
+set SpryHorse stat cost 4000
+set ToughHorse stat cost 6000
+set StrongHorse cost 9000
+set SinonStallion stat cost 6000
+set LigaCourser stat cost 7500
+set LigaDestrier stat cost 7500
+set IshsStallion stat cost 5000
+set IshsCourser stat cost 4000
+set MorachHorse stat cost 7500
+//set tico stat cost
 
 //////////////////////////////////////////////////////////////////////////////////
 
