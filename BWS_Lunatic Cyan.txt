@@ -5152,8 +5152,6 @@ set LigaDestrier stat magic 1
 set LigaCourser stat speed 2
 set MorachHorse stat speed 2
 set IshsCourser stat speed 2
-set tico stat defense 1
-set tico stat magic 1
 
 set ThinHorse stat cost 1500
 set PlainHorse stat cost 2500
