@@ -3361,6 +3361,10 @@ set General skill camouflage
 set General skill hide
 
 // This may be Larentia Stat too
+set WyvernKnight_R base strenght +2
+set WyvernKnight_R base hp +1
+set WyvernKnight_R base speed +1
+set WyvernKnight_R base defense +1
 set WyvernKnight_R skill canto
 set WyvernKnight_R skill throw
 set WyvernKnight_R skill hide
@@ -3369,6 +3373,10 @@ set WyvernKnight_R skill parry
 set WyvernKnight_R skill counter
 
 // larentia stat
+set WyvernKnight base strenght +2
+set WyvernKnight base hp +1
+set WyvernKnight base speed +1
+set WyvernKnight base defense +1
 set WyvernKnight skill canto
 set WyvernKnight skill throw
 set WyvernKnight skill hide
@@ -5216,3 +5224,4 @@ set Arrow++ stat might 8
 //Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work on starlight item.
 // I need to make magic weapon like windedge to have increased damage depending on strenght, not fixed magic damage. So Reese with 10 strenght and WindEdge with 12 might should do 22 wind-damage.
+// I need to make larentia wyvern to give stats bonuses just like regular horse
