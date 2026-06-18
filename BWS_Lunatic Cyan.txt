@@ -74,6 +74,11 @@
 
 // Blizzard effect injure-rate 100%
 
+// All shield give magic stats same as defense stats. So Perseid give 7 magic. Shield unit can now tank magic damage too.
+
+// All horses give stat bonus up to 5 points, while tico is still OP ofc. So ThinHorse give 2 speed, 1 attack, 1 defense, 1 magic.
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set Repairstone effect restore-uses
@@ -2935,12 +2940,12 @@ Set GeneralShield Stat dark_res 18
 Set KojinShield Stat mind 15
 Set FujinShield Stat mind 15
 Set RaijinShield Stat mind 15
-Set AmaterasuShield Stat mind 30
-Set AmaterasuShield Stat fire_res 0
-Set AmaterasuShield Stat thunder_res 0
-Set AmaterasuShield Stat wind_res 0
-Set AmaterasuShield Stat holy_res 0
-Set AmaterasuShield Stat dark_res 0
+Set AmaterasuShield Stat mind 15
+Set AmaterasuShield Stat fire_res 15
+Set AmaterasuShield Stat thunder_res 15
+Set AmaterasuShield Stat wind_res 15
+Set AmaterasuShield Stat holy_res 15
+Set AmaterasuShield Stat dark_res 15
 
 Set VerianLShd Stat mind 12
 Set ImpSoldierLShd Stat mind 14
