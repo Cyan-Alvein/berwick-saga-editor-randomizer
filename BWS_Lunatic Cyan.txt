@@ -2927,10 +2927,26 @@ Set ImpSoldierLShd+ Stat Weight 7
 Set ImpOfficerLShd Stat Weight 8
 Set ImpKnightLShd Stat Weight 9
 
-Set LeatherLShd Stat mind 12
-Set WideShield Stat mind 14
-Set IronShield Stat mind 16
-Set Greatshield Stat mind 21
+Set LeatherLShd Stat fire_res 12
+Set LeatherLShd Stat thunder_res 12
+Set LeatherLShd Stat wind_res 12
+Set LeatherLShd Stat holy_res 12
+Set LeatherLShd Stat dark_res 12
+Set WideShield Stat fire_res 14
+Set WideShield Stat thunder_res 14
+Set WideShield Stat wind_res 14
+Set WideShield Stat holy_res 14
+Set WideShield Stat dark_res 14
+Set IronShield Stat fire_res 16
+Set IronShield Stat thunder_res 16
+Set IronShield Stat wind_res 16
+Set IronShield Stat holy_res 16
+Set IronShield Stat dark_res 16
+Set Greatshield Stat fire_res 21
+Set Greatshield Stat thunder_res 21
+Set Greatshield Stat wind_res 21
+Set Greatshield Stat holy_res 21
+Set Greatshield Stat dark_res 21
 Set GeneralShield Stat magic 3
 Set GeneralShield Stat fire_res 18
 Set GeneralShield Stat thunder_res 18
@@ -2947,11 +2963,31 @@ Set AmaterasuShield Stat wind_res 15
 Set AmaterasuShield Stat holy_res 15
 Set AmaterasuShield Stat dark_res 15
 
-Set VerianLShd Stat mind 12
-Set ImpSoldierLShd Stat mind 14
-Set ImpSoldierLShd+ Stat mind 14
-Set ImpOfficerLShd Stat mind 16
-Set ImpKnightLShd Stat mind 18
+Set VerianLShd Stat fire_res 12
+Set VerianLShd Stat thunder_res 12
+Set VerianLShd Stat wind_res 12
+Set VerianLShd Stat holy_res 12
+Set VerianLShd Stat dark_res 12
+Set ImpSoldierLShd Stat fire_res 14
+Set ImpSoldierLShd Stat thunder_res 14
+Set ImpSoldierLShd Stat wind_res 14
+Set ImpSoldierLShd Stat holy_res 14
+Set ImpSoldierLShd Stat dark_res 14
+Set ImpSoldierLShd+ Stat fire_res 14
+Set ImpSoldierLShd+ Stat thunder_res 14
+Set ImpSoldierLShd+ Stat wind_res 14
+Set ImpSoldierLShd+ Stat holy_res 14
+Set ImpSoldierLShd+ Stat dark_res 14
+Set ImpKnightLShd Stat fire_res 16
+Set ImpKnightLShd Stat thunder_res 16
+Set ImpKnightLShd Stat wind_res 16
+Set ImpKnightLShd Stat holy_res 16
+Set ImpKnightLShd Stat dark_res 16
+Set ImpKnightLShd Stat fire_res 18
+Set ImpKnightLShd Stat thunder_res 18
+Set ImpKnightLShd Stat wind_res 18
+Set ImpKnightLShd Stat holy_res 18
+Set ImpKnightLShd Stat dark_res 18
 
 
 //Accessories Buff
