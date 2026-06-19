@@ -78,6 +78,12 @@
 
 // All horses give stat bonus up to 5 points, while tico is still OP ofc. So ThinHorse give 2 speed, 1 attack, 1 defense, 1 magic.
 
+// All physical weapon with magic does 20 magic damage (emberarrow, raijinarrow, windedge, boltaxe, Euthyphro ...)
+
+// Vollenden, DarkShield, Hestia, reflect 20 magic damage on block. All other elemental shields reflect only 10.
+
+// All elemental shields receive 20 magic resist on their attribute. So windedge get +20 wind_res, and since windedge got 6 might, it gets a total of 26 wind_res.
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -2536,7 +2542,7 @@ set New-TypeBolt stat accuracy 10
 set ShiningShield effect negate-dark 100
 
 set Vollenden effect block-holy-damage 20
-set DarkShield effect block-fire-damage 10
+set DarkShield effect block-fire-damage 20
 set Windshield effect block-thunder-damage 10
 set LightShield effect block-holy-damage 10
 set ThunderShield effect thunder-damage 10
@@ -2552,7 +2558,7 @@ set Windshield stat might 6
 set FireShield stat might 6
 set ThunderShield stat might 6
 set LightShield stat might 6
-set DarkShield stat might 6
+set DarkShield stat might 7
 set MetalShield stat might 7
 set MithrilShield stat might 7
 set Vollenden stat might 7
@@ -2621,10 +2627,10 @@ Set LightShield Stat wind_res 6
 Set LightShield Stat holy_res 26
 Set LightShield Stat dark_res 6
 
-Set DarkShield Stat fire_res 6
-Set DarkShield Stat thunder_res 6
-Set DarkShield Stat wind_res 6
-Set DarkShield Stat holy_res 6
+Set DarkShield Stat fire_res 7
+Set DarkShield Stat thunder_res 7
+Set DarkShield Stat wind_res 7
+Set DarkShield Stat holy_res 7
 Set DarkShield Stat dark_res 26
 
 Set MetalShield Stat fire_res 7
@@ -2740,7 +2746,7 @@ set Windshield stat cost 3000
 set FireShield stat cost 3000
 set ThunderShield stat cost 3000
 set LightShield stat cost 3000
-set DarkShield stat cost 3000
+set DarkShield stat cost 5000
 set MetalShield stat cost 2500
 set MithrilShield stat cost 3000
 set Perseid stat cost 5000
@@ -2777,7 +2783,7 @@ set Windshield stat durability A
 set FireShield stat durability A
 set ThunderShield stat durability A
 set LightShield stat durability A
-set DarkShield stat durability A
+set DarkShield stat durability S
 set MetalShield stat durability A
 set MithrilShield stat durability S
 set Aiantos stat durability A
@@ -2812,7 +2818,7 @@ Set Hestia stat Weight 6
 Set WyrmskinShield stat Weight 4
 Set LadyMShd stat Weight 4
 Set PaladinShield stat Weight 6
-Set BlackShield stat Weight 9
+Set BlackShield stat Weight 6
 
 set LightningShield stat Weight 6
 set RadiantShield stat Weight 6
@@ -2980,7 +2986,7 @@ set BlazingShield effect block-fire-damage 10
 set GaleShield effect block-thunder-damage 10
 Set Hestia effect block-fire-damage 20
 
-//Set BlackShield effect reflect-damage 100
+Set BlackShield effect reflect-damage 50
 
 set ImpSoldierMShd+ stat accuracy 50
 set LadyMShd stat accuracy 50
