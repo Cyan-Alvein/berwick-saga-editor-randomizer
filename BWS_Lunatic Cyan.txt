@@ -2225,10 +2225,10 @@ set ImperialArrow stat might 8
 set ImperialArrow+ stat might 8
 set WoodenArrow stat might 1
 set StoneArrow stat might 3
-set RaijinArrow stat might 0
+set RaijinArrow stat might 8
 
-set EmberArrow effect fire-damage 14
-set FreezeArrow effect wind-damage 14
+set EmberArrow effect fire-damage 20
+set FreezeArrow effect wind-damage 20
 set RaijinArrow effect thunder-damage 20
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect nosferatu
@@ -2534,12 +2534,12 @@ set New-TypeBolt stat accuracy 10
 set ShiningShield effect negate-dark 100
 
 set Vollenden effect block-holy-damage 20
-set DarkShield effect block-fire-damage 20
-set Windshield effect block-thunder-damage 12
-set LightShield effect block-holy-damage 12
-set ThunderShield effect thunder-damage 12
-set FireShield effect block-fire-damage 12
-set Perseid effect block-holy-damage 12
+set DarkShield effect block-fire-damage 10
+set Windshield effect block-thunder-damage 10
+set LightShield effect block-holy-damage 10
+set ThunderShield effect thunder-damage 10
+set FireShield effect block-fire-damage 10
+set Perseid effect block-holy-damage 10
 
 set LeatherSShd stat might 2
 set Buckler stat might 4
@@ -2550,7 +2550,7 @@ set Windshield stat might 6
 set FireShield stat might 6
 set ThunderShield stat might 6
 set LightShield stat might 6
-set DarkShield stat might 7
+set DarkShield stat might 6
 set MetalShield stat might 7
 set MithrilShield stat might 7
 set Vollenden stat might 7
@@ -2738,14 +2738,14 @@ set Windshield stat cost 3000
 set FireShield stat cost 3000
 set ThunderShield stat cost 3000
 set LightShield stat cost 3000
-set DarkShield stat cost 5000
+set DarkShield stat cost 3000
 set MetalShield stat cost 2500
 set MithrilShield stat cost 3000
 set Perseid stat cost 5000
 set LadyShield stat cost 3000
 set Vollenden stat cost 5000
 set ShiningShield stat cost 4000
-set Aiantos stat cost 4000
+set Aiantos stat cost 3000
 
 Set VerianSShd Stat cost 866
 set OldImpSShd stat cost 866
@@ -2775,7 +2775,7 @@ set Windshield stat durability A
 set FireShield stat durability A
 set ThunderShield stat durability A
 set LightShield stat durability A
-set DarkShield stat durability S
+set DarkShield stat durability A
 set MetalShield stat durability A
 set MithrilShield stat durability S
 set Aiantos stat durability A
@@ -2798,12 +2798,6 @@ set DarkShield stat level 1
 set Windshield stat level 1
 set Vollenden stat level 1
 set ShiningShield stat level 10
-
-set Windshield stat accuracy 50
-set FireShield stat accuracy 50
-set ThunderShield stat accuracy 50
-set LightShield stat accuracy 50
-set DarkShield stat accuracy 50
 
 //mshield Stuff
 
@@ -2977,14 +2971,14 @@ Set ImpSoldierMShd+ stat might 8
 Set ImpOfficerMShd stat might 10
 Set ImpKnightMShd stat might 12
 
-set LightningShield effect block-thunder-damage 16
-set RadiantShield effect block-holy-damage 16
-set ShadowShield effect block-fire-damage 16
-set BlazingShield effect block-fire-damage 16
-set GaleShield effect block-thunder-damage 16
+set LightningShield effect block-thunder-damage 10
+set RadiantShield effect block-holy-damage 10
+set ShadowShield effect block-fire-damage 10
+set BlazingShield effect block-fire-damage 10
+set GaleShield effect block-thunder-damage 10
 Set Hestia effect block-fire-damage 20
 
-Set BlackShield effect reflect-damage 100
+//Set BlackShield effect reflect-damage 100
 
 set ImpSoldierMShd+ stat accuracy 50
 set LadyMShd stat accuracy 50
@@ -3027,11 +3021,11 @@ set WyrmskinShield stat cost 5000
 set PaladinShield stat cost 4000
 set BlackShield stat cost 5000
 
-set LightningShield stat cost 4000
-set RadiantShield stat cost 4000
-set ShadowShield stat cost 4000
-set BlazingShield stat cost 4000
-set GaleShield stat cost 4000
+set LightningShield stat cost 3000
+set RadiantShield stat cost 3000
+set ShadowShield stat cost 3000
+set BlazingShield stat cost 3000
+set GaleShield stat cost 3000
 
 set VerianMShd stat cost 1320
 set ImpSoldierMShd cost 1760
@@ -3117,11 +3111,11 @@ set LeatherLShd stat cost 1800
 set WideShield stat cost 2100
 set IronShield stat cost 2400
 set Greatshield stat cost 2700
-set KojinShield stat cost 4000
-set FujinShield stat cost 4000
-set RaijinShield stat cost 4000
-set GeneralShield stat cost 5000
-set AmaterasuShield stat cost 5000
+set KojinShield stat cost 3000
+set FujinShield stat cost 3000
+set RaijinShield stat cost 3000
+set GeneralShield stat cost 3000
+set AmaterasuShield stat cost 4000
 
 set ImpSoldierLShd stat cost 2100
 set ImpSoldierLShd+ stat cost 2100
