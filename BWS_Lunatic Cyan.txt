@@ -5290,4 +5290,5 @@ set Arrow++ stat might 8
 // Holy-vantage effect doesn't work on starlight item.
 // I need to make magic weapon like windedge to have increased damage depending on strenght, not fixed magic damage. So Reese with 10 strenght and WindEdge with 12 might should do 22 wind-damage.
 // I need to make larentia wyvern to give stats bonuses just like regular horse
-// Adding Magic to shield is limited to 15, surely the magic stat is a single float value, that is why I use fire_res, wind_res on shield to bypass that limit.
+// Adding Magic to shields is limited to 15, surely the magic stat is a single float value, that is why I use fire_res, wind_res on shield to bypass that limit.
+
