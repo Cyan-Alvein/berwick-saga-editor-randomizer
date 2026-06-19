@@ -1626,7 +1626,7 @@ set TempestKnife stat might 0
 set Shieldknife stat might 2
 set Crotalus stat might 4
 set Kris stat might 2
-set ThrowingKnife stat might 4
+set ThrowingKnife stat might 6
 set Swordbreaker stat might 4
 set PoisonKnife stat might 2
 set SleepKnife stat might 2
@@ -1655,30 +1655,35 @@ set Swordbreaker effect sword-break 100
 
 set AirKnife stat weight 2
 set Dart stat weight 2
+set ThrowingKnife stat weight 3
 set BoltKnife stat weight 4
 set TempestKnife stat weight 2
-set BloodKnife stat weight 2
-
-set dart stat level 1
-set Seax stat level 5
-set BloodKnife stat level 5
-set Vespa stat level 1
-set TempestKnife stat level 1
-set Swordbreaker stat level 1
-set AssassinsKnife stat level 30
-set Airknife stat level 1
-set ThrowingKnife stat level 1
-
+set BloodKnife stat weight 5
+set StunKnife stat weight 5
+set AssassinsKnife stat weight 5
+set Shieldknife stat weight 3
 set Seax stat weight 3
 set KillerKnife stat weight 2
+
+set dart stat level 1
+set dart stat uses 20
+set Seax stat level 10
+set BloodKnife stat level 5
+set Vespa stat level 5
+set TempestKnife stat level 1
+//set Swordbreaker stat level 1
+set AssassinsKnife stat level 30
+set Airknife stat level 5
+set ThrowingKnife stat level 10
 
 set AirKnife stat cost 1000
 set ThiefsKnife stat cost 1000
 set AssassinsKnife stat cost 3000
 set BloodKnife stat cost 2500
 set KillerKnife stat cost 3000
-
-//set vespa stat level 3
+set Kris stat cost 6000
+set ThrowingKnife stat cost 2000
+set dart stat cost 1200
 
 set BoltKnife stat durability E
 set LetterOpener stat durability D
@@ -1690,7 +1695,7 @@ set ThiefsKnife stat durability C
 set AirKnife stat durability C
 set StunKnife stat durability C
 set Vespa stat durability C
-set TempestKnife stat durability D
+set TempestKnife stat durability C
 set Carnwenhau stat durability B
 set ThrowingKnife stat durability C
 set Swordbreaker stat durability C
@@ -1706,6 +1711,7 @@ set Shieldknife stat accuracy 40
 set Crotalus stat accuracy 60
 set kris stat accuracy 60
 set maingauche stat accuracy 50
+set ThrowingKnife stat accuracy 40
 
 set stunknife effect disarm-rate 100
 
@@ -1718,7 +1724,8 @@ set VerianSword stat might 9
 set OldImperialSword stat might 7
 set LevinSword stat might 2
 set FlameSword stat might 4
-set HolySword stat might 5
+set HolySword stat might 6
+set HolySword stat dark_res 10
 set WindEdge stat might 0
 set InfernalEdge stat might 6
 set KillingEdge stat might 10
@@ -1727,7 +1734,9 @@ set AltiumSword stat might 13
 //set Albatross stat might 14
 set Cutlass+ stat might 13
 set Cutlass stat might 9
+
 set Cutlass stat crit 18
+set LadySword stat crit 18
 
 set AltiumSword effect cripple-x2
 set Albatross effect pascanion-backfire
@@ -1740,6 +1749,9 @@ set LevinSword effect thunder-damage 20
 set HolySword effect holy-damage 20
 set FlameSword effect fire-damage 20
 set InfernalEdge effect fire-damage 20
+set Nothung effect restore-uses
+set Nothung stat dark_res 20
+set Nothung effect holy-damage 20
 
 set BronzeSword stat accuracy 40
 set ImperialSword stat accuracy 60
@@ -1760,16 +1772,20 @@ set Grimhild stat accuracy 70
 
 Set ImperialSword stat cost 1200
 set AltiumSword stat cost 3000
-//set LevinSword stat cost 3000
-set FlameSword stat cost 4000
-//set HolySword stat cost 4000
-//set WindEdge stat cost 1200
+set MithrilSword stat cost 4000
+set LevinSword stat cost 3000
+set FlameSword stat cost 3000
+set Rapier stat cost 3000
+set Estoc stat cost 4000
+set HolySword stat cost 6000
+set WindEdge stat cost 3000
 set InfernalEdge stat cost 6000
-set RazeEtoile stat cost 6000
-set Harperia stat cost 6000
-set Colichemarde stat cost 7000
+set RazeEtoile stat cost 5000
+set Harperia stat cost 5000
+set Colichemarde stat cost 6000
 set LadySword stat cost 4000
-set Nothung stat cost 10000
+set Nothung stat cost 7000
+set Gram stat cost 6000
 
 set Scimitar+ stat level 5
 set FlameSword stat level 1
@@ -1788,7 +1804,7 @@ set WindEdge stat weight 5
 set Broadsword stat weight 6
 set Scimitar+ stat weight 5
 set KillingEdge stat weight 5
-set Saber stat weight 3
+set Saber stat weight 4
 set AltiumSword stat Weight 7
 set LevinSword stat weight 5
 set Rapier stat Weight 3
@@ -1804,8 +1820,8 @@ set InfernalEdge stat weight 4
 set Colichemarde stat weight 4
 set Cutlass stat Weight 3
 set Cutlass+ stat Weight 4
-set RazeEtoile stat weight 3
-set LadySword stat weight 3
+set RazeEtoile stat weight 4
+set LadySword stat weight 4
 set Gram stat weight 4
 set Nothung stat weight 5
 
@@ -1814,7 +1830,6 @@ Set ImperialSword stat Weight 5
 Set OldImperialSword stat Weight 6
 Set Vajra stat Weight 10
 Set Vritra stat Weight 5
-
 
 set Scimitar+ stat Durability D
 set LevinSword stat Durability C
@@ -1887,7 +1902,11 @@ set BastardSword effect cripple-x2
 set Shamshir stat durability B
 set Zanbato stat durability B
 
-set Zanbato stat cost 2000
+set Zanbato stat cost 4000
+set Balmung stat cost 6000
+set Balmung2 stat cost 6000
+set Balmung3 stat cost 6000
+set Brymranger stat cost 6000
 
 set Zanbato stat might 18
 
@@ -1910,13 +1929,16 @@ set OldImperialSpear stat accuracy 50
 set ImperialSpear stat accuracy 60
 
 set SlimSpear stat might 6
-set Verutum stat might 12
+set Pilum stat might 12
+set Verutum stat might 14
+set Javelin stat might 17
 set Euthyphro stat might 0
 set WindSpear stat might 6
 set Harpoon stat might 10
 set Fauchard stat might 8
 set Brionac stat might 8
 set KillerSpear stat might 9
+set Angon stat might 17
 
 set ImperialSpear stat might 8
 set VerianSpear stat might 8
@@ -1949,9 +1971,9 @@ set Doru stat Weight 9
 set MithrilSpear stat Weight 5
 set WindSpear stat Weight 6
 set Euthyphro stat Weight 6
-set Javelin stat Weight 10
+set Javelin stat Weight 9
 set Partisan stat Weight 10
-set Angon stat Weight 6
+set Angon stat Weight 8
 set Brionac stat Weight 7
 set SwiftSpear stat Weight 10
 set Fauchard stat Weight 7
@@ -1963,15 +1985,26 @@ set OldImperialSpear stat Weight 7
 set Fauchard stat hex 1
 set Brionac stat hex 2
 
+set Angon stat cost 3000
+set Brionac stat cost 7000
+set SwiftSpear stat cost 7000
+set Fauchard stat cost 7000
+set Pilum stat cost 600
+set Verutum stat cost 900
+set Javelin stat cost 1200
+set SlimSpear stat cost 700
+set ImperialSpear stat cost 1200
+set Harpoon stat cost 1000
+
+set Pilum stat uses 12
+set Verutum stat uses 12
+set Javelin stat uses 12
+
 Set Harpoon effect injure-rate 100
 
 //Set Harpoon stat rounds 1
 
 Set Longspear effect cripple-x2
-
-set SlimSpear stat cost 700
-set ImperialSpear stat cost 1200
-set Harpoon stat cost 1000
 
 //set PrototypeSpear stat durability C
 //set Pike stat durability B
@@ -1980,6 +2013,7 @@ set Harpoon stat cost 1000
 //set Partisan stat durability B
 //set Brionac stat durability B
 //set Harpoon stat durability F
+set Angon stat durability B
 
 set VerianSpear stat durability D
 set ImperialSpear stat durability D
@@ -2086,7 +2120,9 @@ set Pickaxe stat might 6
 set ImperialAxe stat might 10
 set LogSplitter stat might 10
 set OldImperialAxe stat might 8
-
+set HandAxe stat might 12
+set Francisca stat might 14
+set Hatchet stat might 16
 set VolcanoAxe stat might 0
 set GlacierAxe stat might 0
 set NimbusAxe stat might 0
@@ -2098,6 +2134,8 @@ set BarbaricAxe stat might 20
 set CrookedAxe stat might 30
 set BreakerAxe stat might 14
 set Poleax stat might 14
+set Gullveig stat might 17
+set Tomahawk stat might 12
 
 set Shieldaxe stat defense 10
 
@@ -2112,11 +2150,11 @@ set LogSplitter effect injure-rate 100
 set LogSplitter stat Weight 8
 set Pickaxe stat Weight 4
 set BattleSaw stat Weight 7
-set HandAxe stat Weight 5
+set HandAxe stat Weight 7
 set BarbaricAxe stat Weight 11
 set CrookedAxe stat Weight 12
 //set IronAxe stat Weight 6
-set Francisca stat Weight 6
+set Francisca stat Weight 8
 set Battleaxe stat Weight 8
 set Broadaxe stat Weight 7
 set VolcanoAxe stat Weight 6
@@ -2124,17 +2162,17 @@ set GlacierAxe stat Weight 6
 set NimbusAxe stat Weight 6
 set DarkAxe stat Weight 6
 //set WarPick stat Weight 7
-set Hatchet stat Weight 6
+set Hatchet stat Weight 9
 set BreakerAxe stat Weight 8
 set Poleax stat Weight 8
-set Tomahawk stat Weight 6
+set Tomahawk stat Weight 7
 //set BoltAxe stat Weight 7
 //set KillerAxe stat Weight 6
 set Hammer stat Weight 12
 set Greataxe stat Weight 11
 //set Tabarzin stat Weight 8
 set MithrilAxe stat Weight 5
-set Gullveig stat Weight 6
+set Gullveig stat Weight 8
 set Mjollnir stat Weight 5
 set Shieldaxe stat Weight 4
 set MaozaWolf stat Weight 13
@@ -2145,6 +2183,9 @@ set OldImperialAxe stat Weight 8
 set ImperialAxe stat Weight 6
 set BanditAxe stat Weight 4
 
+set HandAxe stat uses 12
+set Francisca stat uses 12
+set Hatchet stat uses 12
 
 set BarbaricAxe stat accuracy 40
 set BanditAxe stat accuracy 40
@@ -2153,6 +2194,7 @@ set LogSplitter stat accuracy 40
 set Pickaxe stat accuracy 50
 set OldImperialAxe stat accuracy 40
 set Tomahawk stat accuracy 50
+set Hatchet stat accuracy 40
 set Battleaxe stat accuracy 40
 set Poleax stat accuracy 40
 set BreakerAxe stat accuracy 30
@@ -2217,6 +2259,11 @@ set VerianAxe stat cost 600
 set OldImperialAxe stat cost 300
 set ImperialAxe stat cost 600
 set LogSplitter stat cost 1000
+set HandAxe stat cost 600
+set Francisca stat cost 900
+set Hatchet stat cost 1200
+set Gullveig stat cost 3000
+set Tomahawk stat cost 1000
 
 
 // bows
@@ -2323,7 +2370,7 @@ set ImperialBow stat durability C
 set OldImperialBow stat durability D
 
 set ShortBow stat cost 1000
-set Apeiron stat cost 4000
+set Apeiron stat cost 6000
 set SereniaBow stat cost 6000
 set Pascanion2 stat cost 8000
 set Pascanion stat cost 8000
@@ -2333,9 +2380,9 @@ set BronzeArrow stat cost 450
 set IronArrow stat cost 750
 set SteelArrow stat cost 1500
 set ImperialArrow stat cost 750
-set EmberArrow stat cost 1200
-set FreezeArrow stat cost 1200
-set RaijinArrow stat cost 1600
+set EmberArrow stat cost 1600
+set FreezeArrow stat cost 1600
+set RaijinArrow stat cost 2000
 set MithrilArrow stat cost 1600
 
 set BronzeBow stat cost 900
