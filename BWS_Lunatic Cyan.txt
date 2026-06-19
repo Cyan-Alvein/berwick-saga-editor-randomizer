@@ -1936,8 +1936,8 @@ set Longspear stat Weight 8
 set Verutum stat Weight 8
 set Doru stat Weight 9
 set MithrilSpear stat Weight 5
-set WindSpear stat Weight 5
-set Euthyphro stat Weight 7
+set WindSpear stat Weight 6
+set Euthyphro stat Weight 6
 set Javelin stat Weight 10
 set Partisan stat Weight 10
 set Angon stat Weight 6
@@ -2011,7 +2011,7 @@ set GoreFork stat cost 2000
 
 set Pitchfork stat weight 6
 set MilitaryFork stat weight 7
-set Firebrand stat weight 8
+set Firebrand stat weight 7
 set GoreFork stat weight 8
 
 set MilitaryFork stat might 12
