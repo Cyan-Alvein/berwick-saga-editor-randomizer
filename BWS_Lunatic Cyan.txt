@@ -170,7 +170,7 @@ set elbert item 1 Aspis 101
 set elbert item 2 Harpoon 101
 set elbert item 3 Bag 0
 set elbert item 4 Pike 101
-set elbert item 5 Pilum 6
+set elbert item 5 Pilum 20
 set elbert item 6 Bag 0
 set elbert item 7 Bag 0
 set elbert growth sword 100
@@ -206,11 +206,11 @@ set ArrowKnight_R cap sword 40
 set christine item 0 IronCrossbow 101
 set christine item 1 IronArrow+ 20
 //set christine item 2 Don't Touch Bag 4 Vulnaries
-set christine item 3 RaijinArrow 20
+set christine item 3 FreezeArrow 20
 set christine item 4 BronzeArrow+ 20
 set christine item 5 BodkinArrow 20
 set christine item 6 Gastraphetes 101
-set christine item 7 Bag 0
+set christine item 7 IronArrow+ 20
 set christine growth bow 70
 set christine growth crossbow 90
 set christine base bow +20
@@ -223,7 +223,7 @@ set adel item 2 Pike 101
 set adel item 3 Firebrand 101
 set adel item 4 GoreFork 101
 set adel item 5 IronLance 101
-set adel item 6 Pilum 6
+set adel item 6 Pilum 20
 set adel item 7 Harpoon 101
 set adel base sshield +20
 set adel base spear +20
@@ -235,7 +235,7 @@ set leon item 1 ThunderShield 101
 set leon item 2 Firebrand 101
 set leon item 3 IronLance 101
 set leon item 4 Pike 101
-set leon item 5 Pilum 6
+set leon item 5 Pilum 20
 set leon item 6 GoreFork 101
 set leon item 7 Harpoon 101
 set leon base sshield +20
@@ -249,7 +249,7 @@ set sherlock item 3 Longbow 101
 set sherlock item 4 BreakerArrow 20
 set sherlock item 5 BroadheadArrow 20
 set sherlock item 6 Bag 0
-set sherlock item 7 Treasure 101
+set sherlock item 7 SteelArrow+ 20
 set sherlock growth bow 90
 set sherlock base bow +20
 
@@ -270,7 +270,7 @@ set czene item 2 ThiefsKnife 101
 set czene item 3 ThiefsCharm 0
 set czene item 4 ThrowingKnife 101
 set czene item 5 BloodKnife 101
-set czene item 6 TempestKnife 101
+set czene item 6 Dart 20
 set czene item 7 Bag 0
 set czene growth knife 80
 set czene growth hp 20
@@ -354,7 +354,7 @@ set ruby item 1 Pike 101
 set ruby item 2 LadyShield 101
 set ruby item 3 LadyMShd 101
 set ruby item 4 LadySword 101
-set ruby item 5 Pilum 6
+set ruby item 5 Pilum 20
 set ruby item 6 IronSpear 101
 set ruby item 7 Harpoon 101
 set ruby growth sword 100
@@ -379,7 +379,7 @@ set arthur item 1 LightShield 101
 set arthur item 2 BlazingShield 101
 set arthur item 3 Broadsword 101
 set arthur item 4 Rapier 101
-set arthur item 5 WindEdge 101
+set arthur item 5 Bag 0
 set arthur item 6 Saber 101
 set arthur item 7 Bag 0
 set arthur growth sword 70
@@ -400,9 +400,9 @@ set kramer item 7 Bag 0
 set kramer base sword +20
 set kramer growth sword 90
 
-set dean item 2 Tomahawk 101
+set dean item 2 HandAxe 20
 set dean item 3 BattleAxe 101
-set dean item 4 Tabarzin 101
+set dean item 4 LogSplitter 101
 set dean item 5 Bag 0
 set dean item 6 Bag 0
 set dean item 7 GamblersBrace 0
@@ -410,10 +410,10 @@ set dean base axe +20
 set dean growth axe 100
 
 set faye item 2 GiantsBrace 0
-set faye item 3 Bag 0
+set faye item 3 BronzeSword 101
 set faye item 4 LadySword 101
 set faye item 5 WindEdge 101
-set faye item 6 Bag 0
+set faye item 6 Shortsword 101
 set faye item 7 Bag 0
 set faye growth sword 100
 set faye base sword +25
@@ -446,10 +446,10 @@ set perceval base mind +1
 
 set thaddy item 2 FeatherBrace 0
 set thaddy item 3 MainGauche 101
-set thaddy item 4 Carnwenhau 101
+set thaddy item 4 Bag 0
 set thaddy item 5 ThrowingKnife 101
 set thaddy item 6 stunknife 101
-set thaddy item 7 Crotalus 101
+set thaddy item 7 Bag 0
 set thaddy growth knife 80
 set thaddy growth hp 25
 set thaddy growth strength 15
@@ -460,8 +460,8 @@ set esteban growth bow 100
 set esteban item 0 IronBow 101
 set esteban item 1 IronArrow+ 20
 set esteban item 2 SteelArrow+ 20
-set esteban item 3 RaijinArrow 20
-set esteban item 4 Swordbreaker 101
+set esteban item 3 Bag 0
+set esteban item 4 Bag 0
 set esteban item 5 Bag 0
 set esteban item 6 Bag 0
 set esteban item 7 BloodKnife 101
@@ -480,7 +480,7 @@ set faramir item 2 SteelArrow+ 20
 set faramir item 3 Apollyon 101
 set faramir item 4 CompositeBow 101
 set faramir item 5 IronArrow+ 20
-set faramir item 6 Bag 0
+set faramir item 6 MithrilArrow 20
 set faramir item 7 Bag 0
 set faramir growth sword 100
 set faramir growth bow 100
@@ -490,7 +490,7 @@ set faramir base bow +20
 set volo item 1 Treasure 101
 set volo item 2 LevinSword 101
 set volo item 3 MithrilSword 101
-set volo item 4 Harperia 101
+set volo item 4 Bag 0
 set volo item 5 BastardSword 101
 set volo item 6 PhoenixBrace 0
 set volo item 7 MiracleCharm 0
@@ -523,7 +523,7 @@ set clifford base sshield +20
 set clifford base mshield +20
 
 set axel item 0 IronAxe 101
-set axel item 1 Gullveig 101
+set axel item 1 Bag 0
 set axel item 2 Repairstone 10
 set axel item 3 BattleAxe 101
 set axel item 4 Bag 0
@@ -534,7 +534,7 @@ set axel base axe +20
 set axel growth axe 50
 
 set larentia item 2 LadySword 101
-set larentia item 3 Angon 101
+set larentia item 3 Pilum 20
 set larentia item 4 Treasure 101
 set larentia item 5 Treasure 101
 set larentia item 6 SteelSpear 101
@@ -550,7 +550,7 @@ set WyvernKnightLarentia cap Spear 50
 set WyvernKnight cap Spear 50
 set WyvernKnight_R cap Spear 50
 
-set Owen item 5 holy 20
+set Owen item 5 Bag 0
 set Owen item 6 Bag 0
 set Owen item 7 Bag 0
 set owen growth holy 60
@@ -585,7 +585,7 @@ set Derrick item 2 Bag 0
 set Derrick item 3 Bag 0
 set Derrick item 4 RaijinShield 101
 set Derrick item 5 AmaterasuShield 101
-set Derrick item 6 Tomahawk 101
+set Derrick item 6 Treasure 101
 set Derrick item 7 Bag 0
 set Derrick base axe +20
 set Derrick base lshield +20
@@ -1697,7 +1697,7 @@ set StunKnife stat durability C
 set Vespa stat durability C
 set TempestKnife stat durability C
 set Carnwenhau stat durability B
-set ThrowingKnife stat durability C
+set ThrowingKnife stat durability B
 set Swordbreaker stat durability C
 
 set Seax stat accuracy 50
@@ -1989,16 +1989,16 @@ set Angon stat cost 3000
 set Brionac stat cost 7000
 set SwiftSpear stat cost 7000
 set Fauchard stat cost 7000
-set Pilum stat cost 600
-set Verutum stat cost 900
-set Javelin stat cost 1200
+set Pilum stat cost 1200
+set Verutum stat cost 1800
+set Javelin stat cost 2400
 set SlimSpear stat cost 700
 set ImperialSpear stat cost 1200
 set Harpoon stat cost 1000
 
-set Pilum stat uses 12
-set Verutum stat uses 12
-set Javelin stat uses 12
+set Pilum stat uses 20
+set Verutum stat uses 20
+set Javelin stat uses 20
 
 Set Harpoon effect injure-rate 100
 
@@ -2135,7 +2135,7 @@ set CrookedAxe stat might 30
 set BreakerAxe stat might 14
 set Poleax stat might 14
 set Gullveig stat might 17
-set Tomahawk stat might 12
+set Tomahawk stat might 14
 
 set Shieldaxe stat defense 10
 
@@ -2165,7 +2165,7 @@ set DarkAxe stat Weight 6
 set Hatchet stat Weight 9
 set BreakerAxe stat Weight 8
 set Poleax stat Weight 8
-set Tomahawk stat Weight 7
+set Tomahawk stat Weight 8
 //set BoltAxe stat Weight 7
 //set KillerAxe stat Weight 6
 set Hammer stat Weight 12
@@ -2183,9 +2183,9 @@ set OldImperialAxe stat Weight 8
 set ImperialAxe stat Weight 6
 set BanditAxe stat Weight 4
 
-set HandAxe stat uses 12
-set Francisca stat uses 12
-set Hatchet stat uses 12
+set HandAxe stat uses 20
+set Francisca stat uses 20
+set Hatchet stat uses 20
 
 set BarbaricAxe stat accuracy 40
 set BanditAxe stat accuracy 40
@@ -2226,7 +2226,7 @@ set Battleaxe stat level 5
 set Broadaxe stat level 5
 set GigasAxe stat level 30
 //set Hammer stat level 15
-set Tomahawk stat level 1
+set Tomahawk stat level 10
 set MaozaWolf stat level 15
 set VolcanoAxe stat level 1
 set GlacierAxe stat level 1
@@ -2252,6 +2252,7 @@ set LogSplitter stat durability F
 set VerianAxe stat durability D
 set ImperialAxe stat durability D
 set OldImperialAxe stat durability E
+set Tomahawk stat durability B
 
 set Battleaxe stat cost 1500
 //set GigasAxe stat cost 4000
@@ -2259,11 +2260,11 @@ set VerianAxe stat cost 600
 set OldImperialAxe stat cost 300
 set ImperialAxe stat cost 600
 set LogSplitter stat cost 1000
-set HandAxe stat cost 600
-set Francisca stat cost 900
-set Hatchet stat cost 1200
+set HandAxe stat cost 1000
+set Francisca stat cost 1800
+set Hatchet stat cost 2400
 set Gullveig stat cost 3000
-set Tomahawk stat cost 1000
+set Tomahawk stat cost 2000
 
 
 // bows
