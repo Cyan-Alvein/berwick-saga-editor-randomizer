@@ -2737,7 +2737,7 @@ set BlazingShield stat fire_res 20
 set GaleShield stat mind 12
 set GaleShield stat wind_res 20
 Set Hestia stat mind 14
-Set Hestia stat mind fire_res 20
+Set Hestia stat fire_res 20
 
 Set VerianMShd stat mind 8
 Set ImpSoldierMShd stat mind 8
@@ -5280,4 +5280,3 @@ set Arrow++ stat might 8
 // Holy-vantage effect doesn't work on starlight item.
 // I need to make magic weapon like windedge to have increased damage depending on strenght, not fixed magic damage. So Reese with 10 strenght and WindEdge with 12 might should do 22 wind-damage.
 // I need to make larentia wyvern to give stats bonuses just like regular horse
-
