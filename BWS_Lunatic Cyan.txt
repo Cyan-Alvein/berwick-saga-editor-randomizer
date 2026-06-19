@@ -2577,7 +2577,12 @@ set DarkShield stat mind 6
 set DarkShield stat dark_res 20
 set MetalShield stat mind 7
 set MithrilShield stat mind 7
-set Vollenden stat mind 20
+set Vollenden stat mind 7
+Set Vollenden Stat fire_res 13
+Set Vollenden Stat thunder_res 13
+Set Vollenden Stat wind_res 13
+Set Vollenden Stat holy_res 13
+Set Vollenden Stat dark_res 13
 set ShiningShield stat mind 7
 set LadyShield stat mind 6
 set Perseid stat mind 7
@@ -2723,7 +2728,12 @@ Set KnightShield stat mind 12
 Set LimitShield stat mind 12
 Set WyrmskinShield stat mind 14
 Set LadyMShd stat mind 12
-Set PaladinShield stat mind 20
+Set PaladinShield stat mind 14
+Set PaladinShield Stat fire_res 6
+Set PaladinShield Stat thunder_res 6
+Set PaladinShield Stat wind_res 6
+Set PaladinShield Stat holy_res 6
+Set PaladinShield Stat dark_res 6
 Set BlackShield stat mind 14
 
 set LightningShield stat mind 12
@@ -5280,3 +5290,4 @@ set Arrow++ stat might 8
 // Holy-vantage effect doesn't work on starlight item.
 // I need to make magic weapon like windedge to have increased damage depending on strenght, not fixed magic damage. So Reese with 10 strenght and WindEdge with 12 might should do 22 wind-damage.
 // I need to make larentia wyvern to give stats bonuses just like regular horse
+// Adding Magic to shield is limited to 15, surely the magic stat is a single float value, that is why I use fire_res, wind_res on shield to bypass that limit.
