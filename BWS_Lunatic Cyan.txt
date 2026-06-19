@@ -1629,7 +1629,12 @@ set AssassinsKnife stat might 1
 set LetterOpener stat might 1
 set MainGauche stat might 3
 
-set Kris stat mind 20
+set Kris stat mind 10
+Set Kris Stat fire_res 10
+Set Kris Stat thunder_res 10
+Set Kris Stat wind_res 10
+Set Kris Stat holy_res 10
+Set Kris Stat dark_res 10
 
 set AssassinsKnife effect cripple-x2
 set BoltKnife effect thunder-damage 10
@@ -2560,40 +2565,144 @@ set ImpSoldierSShd++ stat might 4
 set ImpOfficerSShd stat might 6
 set ImpKnightSShd stat might 7
 
-set LeatherSShd stat mind 2
-set Buckler stat mind 4
-set PrototypeSShd stat mind 4
-set Aspis stat mind 6
-set RoundShield stat mind 6
-set Windshield stat mind 6
-set Windshield stat wind_res 20
-set FireShield stat mind 6
-set FireShield stat fire_res 20
-set ThunderShield stat mind 6
-set ThunderShield stat thunder_res 20
-set LightShield stat mind 6
-set LightShield stat holy_res 20
-set DarkShield stat mind 6
-set DarkShield stat dark_res 20
-set MetalShield stat mind 7
-set MithrilShield stat mind 7
-set Vollenden stat mind 7
-Set Vollenden Stat fire_res 13
-Set Vollenden Stat thunder_res 13
-Set Vollenden Stat wind_res 13
-Set Vollenden Stat holy_res 13
-Set Vollenden Stat dark_res 13
-set ShiningShield stat mind 7
-set LadyShield stat mind 6
-set Perseid stat mind 7
-set Aiantos stat mind 7
+Set LeatherSShd Stat fire_res 2
+Set LeatherSShd Stat thunder_res 2
+Set LeatherSShd Stat wind_res 2
+Set LeatherSShd Stat holy_res 2
+Set LeatherSShd Stat dark_res 2
 
-Set VerianSShd Stat mind 4
-set OldImpSShd stat mind 3
-set ImpSoldierSShd stat mind 4
-set ImpSoldierSShd++ stat mind 4
-set ImpOfficerSShd stat mind 6
-set ImpKnightSShd stat mind 7
+Set Buckler Stat fire_res 4
+Set Buckler Stat thunder_res 4
+Set Buckler Stat wind_res 4
+Set Buckler Stat holy_res 4
+Set Buckler Stat dark_res 4
+
+Set PrototypeSShd Stat fire_res 4
+Set PrototypeSShd Stat thunder_res 4
+Set PrototypeSShd Stat wind_res 4
+Set PrototypeSShd Stat holy_res 4
+Set PrototypeSShd Stat dark_res 4
+
+Set Aspis Stat fire_res 6
+Set Aspis Stat thunder_res 6
+Set Aspis Stat wind_res 6
+Set Aspis Stat holy_res 6
+Set Aspis Stat dark_res 6
+
+Set RoundShield Stat fire_res 6
+Set RoundShield Stat thunder_res 6
+Set RoundShield Stat wind_res 6
+Set RoundShield Stat holy_res 6
+Set RoundShield Stat dark_res 6
+
+set FireShield stat fire_res 26
+Set FireShield Stat thunder_res 6
+Set FireShield Stat wind_res 6
+Set FireShield Stat holy_res 6
+Set FireShield Stat dark_res 6
+
+Set Windshield Stat fire_res 6
+Set Windshield Stat thunder_res 6
+Set Windshield Stat wind_res 26
+Set Windshield Stat holy_res 6
+Set Windshield Stat dark_res 6
+
+Set ThunderShield Stat fire_res 6
+set ThunderShield stat thunder_res 26
+Set ThunderShield Stat wind_res 6
+Set ThunderShield Stat holy_res 6
+Set ThunderShield Stat dark_res 6
+
+set LightShield stat fire_res 6
+Set LightShield Stat thunder_res 6
+Set LightShield Stat wind_res 6
+Set LightShield Stat holy_res 26
+Set LightShield Stat dark_res 6
+
+Set DarkShield Stat fire_res 6
+Set DarkShield Stat thunder_res 6
+Set DarkShield Stat wind_res 6
+Set DarkShield Stat holy_res 6
+Set DarkShield Stat dark_res 26
+
+Set MetalShield Stat fire_res 7
+Set MetalShield Stat thunder_res 7
+Set MetalShield Stat wind_res 7
+Set MetalShield Stat holy_res 7
+Set MetalShield Stat dark_res 7
+
+Set MithrilShield Stat fire_res 7
+Set MithrilShield Stat thunder_res 7
+Set MithrilShield Stat wind_res 7
+Set MithrilShield Stat holy_res 7
+Set MithrilShield Stat dark_res 7
+
+Set Vollenden Stat mind 6
+Set Vollenden Stat fire_res 7
+Set Vollenden Stat thunder_res 7
+Set Vollenden Stat wind_res 7
+Set Vollenden Stat holy_res 7
+Set Vollenden Stat dark_res 7
+
+Set ShiningShield Stat fire_res 7
+Set ShiningShield Stat thunder_res 7
+Set ShiningShield Stat wind_res 7
+Set ShiningShield Stat holy_res 7
+Set ShiningShield Stat dark_res 7
+
+Set LadyShield Stat fire_res 7
+Set LadyShield Stat thunder_res 7
+Set LadyShield Stat wind_res 7
+Set LadyShield Stat holy_res 7
+Set LadyShield Stat dark_res 7
+
+Set Perseid Stat fire_res 7
+Set Perseid Stat thunder_res 7
+Set Perseid Stat wind_res 7
+Set Perseid Stat holy_res 7
+Set Perseid Stat dark_res 7
+
+Set Aiantos Stat fire_res 7
+Set Aiantos Stat thunder_res 7
+Set Aiantos Stat wind_res 7
+Set Aiantos Stat holy_res 7
+Set Aiantos Stat dark_res 7
+
+Set VerianSShd Stat fire_res 4
+Set VerianSShd Stat thunder_res 4
+Set VerianSShd Stat wind_res 4
+Set VerianSShd Stat holy_res 4
+Set VerianSShd Stat dark_res 4
+
+Set OldImpSShd Stat fire_res 3
+Set OldImpSShd Stat thunder_res 3
+Set OldImpSShd Stat wind_res 3
+Set OldImpSShd Stat holy_res 3
+Set OldImpSShd Stat dark_res 3
+
+Set ImpSoldierSShd Stat fire_res 4
+Set ImpSoldierSShd Stat thunder_res 4
+Set ImpSoldierSShd Stat wind_res 4
+Set ImpSoldierSShd Stat holy_res 4
+Set ImpSoldierSShd Stat dark_res 4
+
+Set ImpSoldierSShd++ Stat fire_res 4
+Set ImpSoldierSShd++ Stat thunder_res 4
+Set ImpSoldierSShd++ Stat wind_res 4
+Set ImpSoldierSShd++ Stat holy_res 4
+Set ImpSoldierSShd++ Stat dark_res 4
+
+Set ImpOfficerSShd Stat fire_res 6
+Set ImpOfficerSShd Stat thunder_res 6
+Set ImpOfficerSShd Stat wind_res 6
+Set ImpOfficerSShd Stat holy_res 6
+Set ImpOfficerSShd Stat dark_res 6
+
+Set ImpKnightMShd Stat fire_res 7
+Set ImpKnightMShd Stat thunder_res 7
+Set ImpKnightMShd Stat wind_res 7
+Set ImpKnightMShd Stat holy_res 7
+Set ImpKnightMShd Stat dark_res 7
 
 set LeatherSShd stat Weight 1
 set Buckler stat Weight 2
@@ -2721,39 +2830,127 @@ Set ImpSoldierMShd+ stat Weight 4
 Set ImpOfficerMShd stat Weight 5
 Set ImpKnightMShd stat Weight 6
 
-Set LeatherMShd stat mind 6
-Set Kiteshield stat mind 8
-Set SquareShield stat mind 10
-Set KnightShield stat mind 12
-Set LimitShield stat mind 12
-Set WyrmskinShield stat mind 14
-Set LadyMShd stat mind 12
-Set PaladinShield stat mind 14
-Set PaladinShield Stat fire_res 6
-Set PaladinShield Stat thunder_res 6
-Set PaladinShield Stat wind_res 6
-Set PaladinShield Stat holy_res 6
-Set PaladinShield Stat dark_res 6
-Set BlackShield stat mind 14
+Set LeatherMShd Stat fire_res 6
+Set LeatherMShd Stat thunder_res 6
+Set LeatherMShd Stat wind_res 6
+Set LeatherMShd Stat holy_res 6
+Set LeatherMShd Stat dark_res 6
 
-set LightningShield stat mind 12
-set LightningShield stat thunder_res 20
-set RadiantShield stat mind 12
-set RadiantShield stat holy_res 20
-set ShadowShield stat mind 12
-set ShadowShield stat dark_res 20
-set BlazingShield stat mind 12
-set BlazingShield stat fire_res 20
-set GaleShield stat mind 12
-set GaleShield stat wind_res 20
-Set Hestia stat mind 14
-Set Hestia stat fire_res 20
+Set Kiteshield Stat fire_res 8
+Set Kiteshield Stat thunder_res 8
+Set Kiteshield Stat wind_res 8
+Set Kiteshield Stat holy_res 8
+Set Kiteshield Stat dark_res 8
 
-Set VerianMShd stat mind 8
-Set ImpSoldierMShd stat mind 8
-Set ImpSoldierMShd+ stat mind 8
-Set ImpOfficerMShd stat mind 10
-Set ImpKnightMShd stat mind 12
+Set SquareShield Stat fire_res 10
+Set SquareShield Stat thunder_res 10
+Set SquareShield Stat wind_res 10
+Set SquareShield Stat holy_res 10
+Set SquareShield Stat dark_res 10
+
+Set KnightShield Stat fire_res 12
+Set KnightShield Stat thunder_res 12
+Set KnightShield Stat wind_res 12
+Set KnightShield Stat holy_res 12
+Set KnightShield Stat dark_res 12
+
+Set LimitShield Stat fire_res 12
+Set LimitShield Stat thunder_res 12
+Set LimitShield Stat wind_res 12
+Set LimitShield Stat holy_res 12
+Set LimitShield Stat dark_res 12
+
+Set WyrmskinShield Stat fire_res 14
+Set WyrmskinShield Stat thunder_res 14
+Set WyrmskinShield Stat wind_res 14
+Set WyrmskinShield Stat holy_res 14
+Set WyrmskinShield Stat dark_res 14
+
+Set LadyMShd Stat fire_res 12
+Set LadyMShd Stat thunder_res 12
+Set LadyMShd Stat wind_res 12
+Set LadyMShd Stat holy_res 12
+Set LadyMShd Stat dark_res 12
+
+Set PaladinShield Stat mind 6
+Set PaladinShield Stat fire_res 14
+Set PaladinShield Stat thunder_res 14
+Set PaladinShield Stat wind_res 14
+Set PaladinShield Stat holy_res 14
+Set PaladinShield Stat dark_res 14
+
+Set BlackShield stat fire_res 14
+Set BlackShield Stat thunder_res 14
+Set BlackShield Stat wind_res 14
+Set BlackShield Stat holy_res 14
+Set BlackShield Stat dark_res 14
+
+Set LightningShield Stat fire_res 12
+Set LightningShield Stat thunder_res 32
+Set LightningShield Stat wind_res 12
+Set LightningShield Stat holy_res 12
+Set LightningShield Stat dark_res 12
+
+Set RadiantShield Stat fire_res 12
+Set RadiantShield Stat thunder_res 12
+Set RadiantShield Stat wind_res 12
+Set RadiantShield Stat holy_res 32
+Set RadiantShield Stat dark_res 12
+
+Set ShadowShield Stat fire_res 12
+Set ShadowShield Stat thunder_res 12
+Set ShadowShield Stat wind_res 12
+Set ShadowShield Stat holy_res 12
+Set ShadowShield Stat dark_res 32
+
+Set BlazingShield Stat fire_res 32
+Set BlazingShield Stat thunder_res 12
+Set BlazingShield Stat wind_res 12
+Set BlazingShield Stat holy_res 12
+Set BlazingShield Stat dark_res 12
+
+Set GaleShield Stat fire_res 12
+Set GaleShield Stat thunder_res 12
+Set GaleShield Stat wind_res 32
+Set GaleShield Stat holy_res 12
+Set GaleShield Stat dark_res 12
+
+Set Hestia Stat fire_res 34
+Set Hestia Stat thunder_res 14
+Set Hestia Stat wind_res 14
+Set Hestia Stat holy_res 14
+Set Hestia Stat dark_res 14
+
+Set VerianMShd Stat fire_res 8
+Set VerianMShd Stat thunder_res 8
+Set VerianMShd Stat wind_res 8
+Set VerianMShd Stat holy_res 8
+Set VerianMShd Stat dark_res 8
+
+Set ImpSoldierMShd Stat fire_res 8
+Set ImpSoldierMShd Stat thunder_res 8
+Set ImpSoldierMShd Stat wind_res 8
+Set ImpSoldierMShd Stat holy_res 8
+Set ImpSoldierMShd Stat dark_res 8
+
+Set ImpSoldierMShd+ Stat fire_res 8
+Set ImpSoldierMShd+ Stat thunder_res 8
+Set ImpSoldierMShd+ Stat wind_res 8
+Set ImpSoldierMShd+ Stat holy_res 8
+Set ImpSoldierMShd+ Stat dark_res 8
+
+Set ImpOfficerMShd Stat fire_res 10
+Set ImpOfficerMShd Stat thunder_res 10
+Set ImpOfficerMShd Stat wind_res 10
+Set ImpOfficerMShd Stat holy_res 10
+Set ImpOfficerMShd Stat dark_res 10
+
+Set ImpKnightMShd Stat fire_res 12
+Set ImpKnightMShd Stat thunder_res 12
+Set ImpKnightMShd Stat wind_res 12
+Set ImpKnightMShd Stat holy_res 12
+Set ImpKnightMShd Stat dark_res 12
+
 
 Set LadyMShd stat accuracy 50
 
@@ -2953,60 +3150,80 @@ Set LeatherLShd Stat thunder_res 12
 Set LeatherLShd Stat wind_res 12
 Set LeatherLShd Stat holy_res 12
 Set LeatherLShd Stat dark_res 12
+
 Set WideShield Stat fire_res 14
 Set WideShield Stat thunder_res 14
 Set WideShield Stat wind_res 14
 Set WideShield Stat holy_res 14
 Set WideShield Stat dark_res 14
+
 Set IronShield Stat fire_res 16
 Set IronShield Stat thunder_res 16
 Set IronShield Stat wind_res 16
 Set IronShield Stat holy_res 16
 Set IronShield Stat dark_res 16
+
 Set Greatshield Stat fire_res 21
 Set Greatshield Stat thunder_res 21
 Set Greatshield Stat wind_res 21
 Set Greatshield Stat holy_res 21
 Set Greatshield Stat dark_res 21
-Set GeneralShield Stat magic 3
+
+Set GeneralShield Stat magic 6
 Set GeneralShield Stat fire_res 18
 Set GeneralShield Stat thunder_res 18
 Set GeneralShield Stat wind_res 18
 Set GeneralShield Stat holy_res 18
 Set GeneralShield Stat dark_res 18
-Set KojinShield Stat mind 15
-Set KojinShield Stat fire_res 20
-Set FujinShield Stat mind 15
-Set FujinShield Stat wind_res 20
-Set RaijinShield Stat mind 15
-Set RaijinShield Stat thunder_res 20
-Set AmaterasuShield Stat mind 15
-Set AmaterasuShield Stat fire_res 20
-Set AmaterasuShield Stat thunder_res 20
-Set AmaterasuShield Stat wind_res 20
-Set AmaterasuShield Stat holy_res 20
-Set AmaterasuShield Stat dark_res 20
+
+Set KojinShield Stat fire_res 35
+Set KojinShield Stat thunder_res 15
+Set KojinShield Stat wind_res 15
+Set KojinShield Stat holy_res 15
+Set KojinShield Stat dark_res 15
+
+Set FujinShield Stat fire_res 15
+Set FujinShield Stat thunder_res 15
+Set FujinShield Stat wind_res 35
+Set FujinShield Stat holy_res 15
+Set FujinShield Stat dark_res 15
+
+Set RaijinShield Stat fire_res 15
+Set RaijinShield Stat thunder_res 35
+Set RaijinShield Stat wind_res 15
+Set RaijinShield Stat holy_res 15
+Set RaijinShield Stat dark_res 15
+
+Set AmaterasuShield Stat fire_res 35
+Set AmaterasuShield Stat thunder_res 35
+Set AmaterasuShield Stat wind_res 35
+Set AmaterasuShield Stat holy_res 35
+Set AmaterasuShield Stat dark_res 35
 
 Set VerianLShd Stat fire_res 12
 Set VerianLShd Stat thunder_res 12
 Set VerianLShd Stat wind_res 12
 Set VerianLShd Stat holy_res 12
 Set VerianLShd Stat dark_res 12
+
 Set ImpSoldierLShd Stat fire_res 14
 Set ImpSoldierLShd Stat thunder_res 14
 Set ImpSoldierLShd Stat wind_res 14
 Set ImpSoldierLShd Stat holy_res 14
 Set ImpSoldierLShd Stat dark_res 14
+
 Set ImpSoldierLShd+ Stat fire_res 14
 Set ImpSoldierLShd+ Stat thunder_res 14
 Set ImpSoldierLShd+ Stat wind_res 14
 Set ImpSoldierLShd+ Stat holy_res 14
 Set ImpSoldierLShd+ Stat dark_res 14
+
 Set ImpKnightLShd Stat fire_res 16
 Set ImpKnightLShd Stat thunder_res 16
 Set ImpKnightLShd Stat wind_res 16
 Set ImpKnightLShd Stat holy_res 16
 Set ImpKnightLShd Stat dark_res 16
+
 Set ImpKnightLShd Stat fire_res 18
 Set ImpKnightLShd Stat thunder_res 18
 Set ImpKnightLShd Stat wind_res 18
