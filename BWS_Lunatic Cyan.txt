@@ -2225,7 +2225,7 @@ set ImperialArrow stat might 8
 set ImperialArrow+ stat might 8
 set WoodenArrow stat might 1
 set StoneArrow stat might 3
-set RaijinArrow stat might 8
+set RaijinArrow stat might 6
 
 set EmberArrow effect fire-damage 20
 set FreezeArrow effect wind-damage 20
@@ -2327,7 +2327,7 @@ set SteelArrow stat cost 1500
 set ImperialArrow stat cost 750
 set EmberArrow stat cost 750
 set FreezeArrow stat cost 750
-set RaijinArrow stat cost 1500
+set RaijinArrow stat cost 2400
 set MithrilArrow stat cost 2400
 
 set BronzeBow stat cost 900
@@ -3085,11 +3085,11 @@ set RaijinShield stat accuracy 50
 set AmaterasuShield stat accuracy 50
 set GeneralShield stat accuracy 50
 
-set KojinShield effect block-fire-damage 20
-set FujinShield effect block-thunder-damage 20
-set RaijinShield effect block-thunder-damage 20
-set AmaterasuShield effect block-fire-damage 20
-set GeneralShield effect block-holy-damage 20
+set KojinShield effect block-fire-damage 10
+set FujinShield effect block-thunder-damage 10
+set RaijinShield effect block-thunder-damage 10
+//set AmaterasuShield effect block-fire-damage 10
+//set GeneralShield effect block-holy-damage 10
 
 set ImpKnightLShd stat might 18
 set ImpOfficerLShd stat might 16
