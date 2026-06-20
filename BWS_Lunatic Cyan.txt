@@ -274,7 +274,8 @@ set czene item 6 Dart 20
 set czene item 7 Bag 0
 set czene growth knife 80
 set czene growth hp 20
-set czene growth strength 10
+set czene growth strength 15
+set czene growth defense 6
 set czene base knife +20
 
 set aegina item 1 Blizzard 15 
@@ -446,13 +447,15 @@ set perceval base mind +1
 
 set thaddy item 2 FeatherBrace 0
 set thaddy item 3 MainGauche 101
-set thaddy item 4 Bag 0
+set thaddy item 4 AirKnife 101
 set thaddy item 5 ThrowingKnife 101
 set thaddy item 6 stunknife 101
 set thaddy item 7 Bag 0
 set thaddy growth knife 80
-set thaddy growth hp 25
-set thaddy growth strength 15
+set thaddy growth hp 30
+set thaddy growth strength 25
+set thaddy growth speed 30
+set thaddy growth defense 9
 set thaddy base knife +20
 
 set esteban growth knife 60
