@@ -3064,7 +3064,7 @@ set BlazingShield effect block-fire-damage 10
 set GaleShield effect block-thunder-damage 10
 Set Hestia effect block-fire-damage 20
 
-Set BlackShield effect reflect-damage 50
+//Set BlackShield effect reflect-damage 50
 
 set ImpSoldierMShd+ stat accuracy 50
 set LadyMShd stat accuracy 50
@@ -5744,4 +5744,3 @@ set Arrow++ stat might 8
 // I need to make larentia wyvern to give stats bonuses just like regular horse
 // Adding Magic to shields is limited to 15, surely the magic stat is a single float value, that is why I use fire_res, wind_res on shield to bypass that limit.
 // Need to allow all non-shielded unit to use a ring (bow unit)
-
