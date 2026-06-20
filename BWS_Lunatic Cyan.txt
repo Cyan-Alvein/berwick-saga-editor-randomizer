@@ -2219,7 +2219,9 @@ set BanditAxe effect steal-rate-plus 100
 set BattleAxe effect cripple-x2
 set Shieldaxe effect parry
 set CrookedAxe effect pascanion-backfire
+set BreakerAxe effect break-shield 0
 set BreakerAxe effect disarm-rate 100
+set Poleax effect kill-horse 0
 set Poleax effect nosferatu
 
 set Battleaxe stat level 5
@@ -2287,6 +2289,7 @@ set EmberArrow effect fire-damage 20
 set FreezeArrow effect wind-damage 20
 set RaijinArrow effect thunder-damage 20
 set BreakerArrow effect disarm-rate 100
+set BroadheadArrow effect kill-horse 0
 set BroadheadArrow effect nosferatu
 
 set BroadheadArrow stat accuracy 10
