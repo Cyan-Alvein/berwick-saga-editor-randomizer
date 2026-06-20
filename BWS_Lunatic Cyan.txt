@@ -628,7 +628,7 @@ set paramythis item 0 HolyMace 101
 set paramythis item 2 PeerlessBrace 0
 set paramythis item 3 holy 20
 set paramythis item 4 Treasure 101
-set paramythis item 5 HolySword 101
+set paramythis item 5 Bag 0
 set paramythis item 6 Bag 0
 set paramythis item 7 GeneralShield 101
 set paramythis growth sword 100
@@ -5744,3 +5744,4 @@ set Arrow++ stat might 8
 // I need to make larentia wyvern to give stats bonuses just like regular horse
 // Adding Magic to shields is limited to 15, surely the magic stat is a single float value, that is why I use fire_res, wind_res on shield to bypass that limit.
 // Need to allow all non-shielded unit to use a ring (bow unit)
+
