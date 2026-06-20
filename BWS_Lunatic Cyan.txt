@@ -1611,9 +1611,10 @@ Set Nosferatu stat accuracy 60
 Set Nosferatu+ stat accuracy 60
 Set Scylla stat accuracy 70
 Set Swarm stat might 15
-Set Tumahann stat might 20
-Set Tumahann stat level 20
-Set Tumahann stat uses 20
+Set Tumahann stat might 32
+Set Tumahann stat level 27
+Set Tumahann stat uses 10
+Set Tumahann stat accuracy 70
 Set KisharsWrath stat might 20
 Set KisharsWrath stat accuracy 60
 Set KisharsWrath stat uses 20
@@ -1624,7 +1625,7 @@ Set Sleep stat uses 20
 Set Berserk stat max-range 3
 
 set Swarm stat cost 1600
-set Tumahann stat cost 3000
+set Tumahann stat cost 4000
 set KisharsWrath stat cost 3000
 set Wormwood stat cost 3000
 set Sleep stat cost 2000
