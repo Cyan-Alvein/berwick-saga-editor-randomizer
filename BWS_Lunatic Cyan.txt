@@ -1575,7 +1575,7 @@ set Starlight effect cripple-x2
 set Starlight stat max-range 2
 set Starlight stat might 32
 set Starlight stat accuracy 80
-set holy stat accuracy 70
+set holy stat accuracy 60
 set holy stat max-range 2
 
 set Nosferatu stat max-range 2
