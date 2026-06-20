@@ -1607,11 +1607,16 @@ set Rehabilitate stat max-range 3
 
 // Dark Magic
 
-Set Nosferatu stat accuracy 50
-Set Nosferatu+ stat accuracy 50
+Set Nosferatu stat accuracy 60
+Set Nosferatu+ stat accuracy 60
 Set Scylla stat accuracy 70
+Set Swarm stat might 15
+Set Tumahann stat might 20
+Set Tumahann stat level 20
+Set KisharsWrath stat might 20
 Set KisharsWrath stat accuracy 60
 Set Wormwood stat accuracy 40
+Set Wormwood stat uses 20
 
 //knives
 set dagger stat might 2
