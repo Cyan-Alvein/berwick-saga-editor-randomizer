@@ -1525,9 +1525,9 @@ set Windstorm stat accuracy 70
 set Windstorm stat level 1
 set Blizzard stat level 1
 set Blizzard stat might 20
-set AirBlade stat might 4
-set Windstorm stat might 4
-set PallasRiana stat might 4
+set AirBlade stat might 8
+set Windstorm stat might 8
+set PallasRiana stat might 8
 set PallasRiana stat max-range 3
 set PallasRiana stat accuracy 70
 set Sandstorm stat accuracy 80
@@ -1550,10 +1550,10 @@ set Blazetongue stat accuracy 80
 
 set Thunder stat max-range 3
 set Thunder stat accuracy 60
-set Thunder stat might 10
+set Thunder stat might 12
 set DireThunder stat max-range 3
 set DireThunder stat accuracy 60
-set DireThunder stat might 10
+set DireThunder stat might 12
 set Lightning stat max-range 2
 set Lightning stat accuracy 70
 set Lightning stat level 1
