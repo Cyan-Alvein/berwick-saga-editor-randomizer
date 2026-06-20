@@ -1521,13 +1521,14 @@ set AirBlade stat max-range 2
 set Windstorm stat max-range 2
 set PallasRiana stat level 20
 //set PallasRiana stat uses 60
-set Windstorm stat accuracy 70
+set AirBlade stat accuracy 70
+set Windstorm stat accuracy 60
 set Windstorm stat level 1
 set Blizzard stat level 1
 set Blizzard stat might 20
-set AirBlade stat might 8
-set Windstorm stat might 8
-set PallasRiana stat might 8
+set AirBlade stat might 10
+set Windstorm stat might 10
+set PallasRiana stat might 10
 set PallasRiana stat max-range 3
 set PallasRiana stat accuracy 70
 set Sandstorm stat accuracy 80
@@ -1536,6 +1537,7 @@ set Icetongue stat accuracy 80
 
 set Fire stat max-range 2
 set Fire stat accuracy 70
+set Fire stat might 15
 set Earthblaze stat max-range 3
 set Earthblaze stat level 1
 set Hellfire stat max-range 2
@@ -1549,11 +1551,11 @@ set Flametongue stat accuracy 80
 set Blazetongue stat accuracy 80
 
 set Thunder stat max-range 3
-set Thunder stat accuracy 60
-set Thunder stat might 12
+set Thunder stat accuracy 70
+set Thunder stat might 15
 set DireThunder stat max-range 3
 set DireThunder stat accuracy 60
-set DireThunder stat might 12
+set DireThunder stat might 15
 set Lightning stat max-range 2
 set Lightning stat accuracy 70
 set Lightning stat level 1
@@ -1572,7 +1574,8 @@ set Starlight effect holy-vantage
 set Starlight effect cripple-x2
 set Starlight stat max-range 2
 set Starlight stat might 32
-set Starlight stat accuracy 80
+set Starlight stat accuracy 70
+set holy stat accuracy 70
 set holy stat max-range 2
 
 set Nosferatu stat max-range 2
@@ -1601,10 +1604,6 @@ set Pacify stat max-range 3
 set Detoxify stat max-range 3
 set Escape stat max-range 3
 set Rehabilitate stat max-range 3
-
-// Holy Magic
-
-set Holy stat accuracy 70
 
 // Dark Magic
 
