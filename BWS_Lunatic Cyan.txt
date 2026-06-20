@@ -1647,7 +1647,7 @@ set BoltKnife effect thunder-damage 10
 set BoltKnife effect injure-rate 100
 set TempestKnife effect wind-damage 10
 set ThiefsKnife effect steal-rate-plus 100
-set ThiefsCharm effect steal-rate-plus 100
+set ThiefsCharm effect steal-rate-plus 50
 set AirKnife effect wind-damage 5
 set BloodKnife effect dark-damage 5
 set BloodKnife effect nosferatu
