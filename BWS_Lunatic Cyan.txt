@@ -1536,7 +1536,7 @@ set Windtongue stat accuracy 80
 set Icetongue stat accuracy 80
 
 set Fire stat max-range 2
-set Fire stat accuracy 70
+set Fire stat accuracy 80
 set Fire stat might 15
 set Earthblaze stat max-range 3
 set Earthblaze stat level 1
@@ -1574,7 +1574,7 @@ set Starlight effect holy-vantage
 set Starlight effect cripple-x2
 set Starlight stat max-range 2
 set Starlight stat might 32
-set Starlight stat accuracy 70
+set Starlight stat accuracy 80
 set holy stat accuracy 70
 set holy stat max-range 2
 
