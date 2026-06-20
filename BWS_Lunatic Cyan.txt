@@ -1646,7 +1646,7 @@ set AssassinsKnife effect cripple-x2
 set BoltKnife effect thunder-damage 10
 set BoltKnife effect injure-rate 100
 set TempestKnife effect wind-damage 10
-set ThiefsKnife effect steal-rate-plus 100
+set ThiefsKnife effect steal-rate-plus 50
 set ThiefsCharm effect steal-rate-plus 50
 set AirKnife effect wind-damage 5
 set BloodKnife effect dark-damage 5
@@ -2215,7 +2215,7 @@ set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 30
 set VerianAxe stat accuracy 50
 
-set BanditAxe effect steal-rate-plus 100
+set BanditAxe effect steal-rate-plus 50
 set BattleAxe effect cripple-x2
 set Shieldaxe effect parry
 set CrookedAxe effect pascanion-backfire
