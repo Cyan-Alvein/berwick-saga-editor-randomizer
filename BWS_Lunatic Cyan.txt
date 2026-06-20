@@ -84,8 +84,15 @@
 
 // All elemental shields receive 20 magic resist on their attribute. So windedge get +20 wind_res, and since windedge got 6 might, it gets a total of 26 wind_res.
 
+// Derrick movement type is now Knight, so he can wall on shallow water
+
+// Axel movement type is now light infantry
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+set ArmorKnight attribute movement knight
+set Pirate attribute movement lt-infantry
 
 set Repairstone effect restore-uses
 set Thunder effect restore-uses
@@ -5735,3 +5742,4 @@ set Arrow++ stat might 8
 // I need to make magic weapon like windedge to have increased damage depending on strenght, not fixed magic damage. So Reese with 10 strenght and WindEdge with 12 might should do 22 wind-damage.
 // I need to make larentia wyvern to give stats bonuses just like regular horse
 // Adding Magic to shields is limited to 15, surely the magic stat is a single float value, that is why I use fire_res, wind_res on shield to bypass that limit.
+// Need to allow all non-shielded unit to use a ring (bow unit)
