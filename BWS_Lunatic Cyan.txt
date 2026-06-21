@@ -727,6 +727,7 @@ set christine skill counter
 set christine skill Windsweep
 set christine skill sunder
 set christine skill deathmatch
+set christine skill magicbane
 
 set adel skill canto
 set adel skill pursuit 
@@ -809,6 +810,7 @@ set sherlock skill fortune
 set sherlock skill pursuit
 set sherlock skill adept
 set sherlock skill sunder
+set sherlock skill magicbane
 
 set izerna skill blessing
 set izerna skill canto
@@ -1138,6 +1140,7 @@ set sylvis skill adept
 set sylvis skill doubleshot
 set sylvis skill sunder
 set sylvis skill onetwo
+set sylvis skill magicbane
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -1198,6 +1201,7 @@ set esteban skill doubleshot
 set esteban skill throw
 set esteban skill vantage
 set esteban skill sunder
+set esteban skill magicbane
 	
 set faye skill adept
 set faye skill deathmatch
@@ -1254,6 +1258,9 @@ set faramir skill pulverize
 set faramir skill pursuit
 set faramir skill battlecry
 set faramir skill adept
+set faramir skill deathmatch
+set faramir skill magicbane
+set faramir skill arrowbane
 set faramir skill vantage
 set faramir skill counter
 set faramir skill evasion
@@ -1398,6 +1405,7 @@ set burroughs skill maim
 set burroughs skill hide
 set burroughs skill fortune
 set burroughs skill sunder
+set burroughs skill magicbane
 
 set derrick skill axeguard
 set derrick skill canto
@@ -1472,6 +1480,7 @@ set lynette skill adept
 set lynette skill Windsweep
 set lynette skill sunder
 set lynette skill desperation
+set lynette skill magicbane
 
 set paramythis skill blessing
 set paramythis skill camouflage
