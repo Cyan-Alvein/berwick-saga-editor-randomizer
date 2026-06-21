@@ -4170,7 +4170,6 @@ set Marksman skill aim
 set Marksman skill camouflage
 set Marksman skill hide
 set Marksman skill watchful
-set Marksman skill doubleshot
 
 set ImperialMarksman base strength +5
 set ImperialMarksman base defense +2
@@ -4184,7 +4183,6 @@ set ImperialMarksman skill aim
 set ImperialMarksman skill camouflage
 set ImperialMarksman skill hide
 set ImperialMarksman skill watchful
-set ImperialMarksman skill doubleshot
 
 set Warrior base strength +5
 set Warrior base defense +2
@@ -5264,6 +5262,8 @@ set Hero skill counter
 set Highlander skill counter
 set ImperialGunner skill counter
 set ImperialHeavyGunner skill counter
+set Marksman skill counter
+set ImperialMarksman skill counter
 set Mercenary skill counter
 set Pirate skill counter
 set Rogue skill counter
