@@ -3379,6 +3379,7 @@ set PhoenixBrace stat thunder_res 15
 set PhoenixBrace stat wind_res 15
 set PhoenixBrace stat holy_res 15
 set PhoenixBrace stat dark_res 15
+set PhoenixBrace stat cost 3600
 
 set PegasusBrace stat speed 3
 set PegasusBrace stat strenght 0
@@ -3388,6 +3389,7 @@ set PegasusBrace stat thunder_res 15
 set PegasusBrace stat wind_res 15
 set PegasusBrace stat holy_res 15
 set PegasusBrace stat dark_res 15
+set PegasusBrace stat cost 3600
 
 set BlessedBrace stat magic 3
 set BlessedBrace stat speed 0
@@ -3397,6 +3399,7 @@ set BlessedBrace stat thunder_res 15
 set BlessedBrace stat wind_res 15
 set BlessedBrace stat holy_res 15
 set BlessedBrace stat dark_res 15
+set BlessedBrace stat cost 3600
 
 set DivineBrace stat magic 4
 set DivineBrace stat speed 0
@@ -3407,6 +3410,7 @@ set DivineBrace stat defense 0
 //set DivineBrace stat wind_res 15
 //set DivineBrace stat holy_res 15
 //set DivineBrace stat dark_res 15
+set DivineBrace stat cost 3600
 
 set GamblersBrace stat strength 2
 set GamblersBrace stat defense 2
@@ -3417,6 +3421,7 @@ set GamblersBrace stat avoid 0
 //set GamblersBrace stat wind_res 15
 //set GamblersBrace stat holy_res 15
 //set GamblersBrace stat dark_res 15
+set GamblersBrace stat cost 3600
 
 set LightRing stat hit 6
 set LightRing stat avoid 6
@@ -3425,7 +3430,7 @@ set LightRing stat thunder_res 10
 set LightRing stat wind_res 10
 set LightRing stat holy_res 10
 set LightRing stat dark_res 30
-set LightRing stat avoid 0
+set LightRing stat cost 3600
 
 set WindRing stat hit 6
 set WindRing stat avoid 6
@@ -3434,6 +3439,7 @@ set WindRing stat thunder_res 10
 set WindRing stat wind_res 30
 set WindRing stat holy_res 10
 set WindRing stat dark_res 10
+set WindRing stat cost 3600
 
 set ThunderRing stat hit 6
 set ThunderRing stat avoid 6
@@ -3442,6 +3448,7 @@ set ThunderRing stat thunder_res 30
 set ThunderRing stat wind_res 10
 set ThunderRing stat holy_res 10
 set ThunderRing stat dark_res 10
+set ThunderRing stat cost 3600
 
 set FireRing stat hit 6
 set FireRing stat avoid 6
@@ -3450,6 +3457,7 @@ set FireRing stat thunder_res 10
 set FireRing stat wind_res 10
 set FireRing stat holy_res 10
 set FireRing stat dark_res 10
+set FireRing stat cost 3600
 
 set HealthCharm stat hit 6
 set HealthCharm stat avoid 6
@@ -3458,6 +3466,7 @@ set HealthCharm stat thunder_res 10
 set HealthCharm stat wind_res 10
 set HealthCharm stat holy_res 10
 set HealthCharm stat dark_res 10
+set HealthCharm stat cost 3600
 
 set MiracleCharm stat hit 6
 set MiracleCharm stat avoid 6
@@ -3466,6 +3475,7 @@ set MiracleCharm stat thunder_res 10
 set MiracleCharm stat wind_res 10
 set MiracleCharm stat holy_res 10
 set MiracleCharm stat dark_res 10
+set MiracleCharm stat cost 3600
 
 set PeerlessBrace stat hit 3
 set PeerlessBrace stat avoid 3
@@ -3482,6 +3492,7 @@ set PeerlessBrace stat cost 3600
 //set DarkRing stat wind_res 10
 //set DarkRing stat holy_res 10
 //set DarkRing stat dark_res 10
+//set DarkRing stat cost 7200
 
 set ThiefsCharm stat hit 6
 set ThiefsCharm stat avoid 6
@@ -3490,6 +3501,7 @@ set ThiefsCharm stat thunder_res 10
 set ThiefsCharm stat wind_res 10
 set ThiefsCharm stat holy_res 10
 set ThiefsCharm stat dark_res 10
+set ThiefsCharm stat cost 3600
 
 set DuskCharm stat hit 6
 set DuskCharm stat avoid 12
@@ -3498,6 +3510,7 @@ set DuskCharm stat avoid 12
 //set DuskCharm stat wind_res 10
 //set DuskCharm stat holy_res 10
 //set DuskCharm stat dark_res 10
+//set DuskCharm stat cost 3600
 
 // skill hide I think
 set VanishCharm stat speed 4
@@ -3506,6 +3519,7 @@ set VanishCharm stat speed 4
 //set VanishCharm stat wind_res 10
 //set VanishCharm stat holy_res 10
 //set VanishCharm stat dark_res 10
+//set VanishCharm stat cost 3600
 
 set DawnCharm stat hit 12
 set DawnCharm stat avoid 6
@@ -3514,6 +3528,7 @@ set DawnCharm stat avoid 6
 //set DawnCharm stat wind_res 10
 //set DawnCharm stat holy_res 10
 //set DawnCharm stat dark_res 10
+//set DawnCharm stat cost 3600
 
 
 
