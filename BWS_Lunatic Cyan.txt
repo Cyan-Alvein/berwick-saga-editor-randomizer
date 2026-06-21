@@ -930,6 +930,7 @@ set aegina skill adept
 set aegina skill Windsweep
 set aegina skill sunder
 set aegina skill desperation
+set aegina skill resistor
 
 set perceval skill arrowbane
 set perceval skill adept
@@ -951,6 +952,7 @@ set perceval skill focuschant
 set perceval skill Windsweep
 set perceval skill sunder
 set perceval skill desperation
+set perceval skill resistor
 
 set marcel skill canto
 set marcel skill counter
@@ -973,6 +975,7 @@ set marcel skill Windsweep
 set marcel skill sunder
 set marcel skill provoke
 set marcel skill deathmatch
+set marcel skill protector
 
 set alvina skill adept
 set alvina skill canto
@@ -1392,6 +1395,7 @@ set owen skill fortune
 set owen skill focuschant
 set owen skill Windsweep
 set owen skill sunder
+set owen skill resistor
 
 set burroughs skill armsthrift
 set burroughs skill battlecry
@@ -1432,6 +1436,8 @@ set derrick skill Windsweep
 set derrick skill sunder
 set derrick skill provoke
 set derrick skill counter
+set derrick skill slowstart2
+set derrick skill protector
 
 set saphira skill blessing
 set saphira skill canto
@@ -1482,6 +1488,7 @@ set lynette skill Windsweep
 set lynette skill sunder
 set lynette skill desperation
 set lynette skill magicbane
+set lynette skill resistor
 
 set paramythis skill blessing
 set paramythis skill camouflage
@@ -1587,7 +1594,7 @@ set Stormtongue stat accuracy 100
 
 set Physic stat max-range 5
 set Holy stat might 20
-set Holy stat uses 20
+set Holy stat uses 10
 set holy effect cripple-x2
 set Starlight effect holy-vantage
 set Starlight effect cripple-x2
@@ -1640,7 +1647,8 @@ Set KisharsWrath stat uses 20
 Set Wormwood stat accuracy 40
 Set Wormwood stat uses 10
 Set Wormwood stat might 15
-Set Sleep stat uses 20
+Set Sleep stat uses 5
+Set Berserk stat uses 5
 Set Berserk stat max-range 3
 
 set Swarm stat cost 1600
@@ -3934,6 +3942,7 @@ set General skill armsthrift
 set General skill commander
 set General skill camouflage
 set General skill hide
+set General skill protector
 
 // This may be Larentia Stat too
 set WyvernKnight_R base strenght +2
@@ -4890,6 +4899,8 @@ set ArmorKnight skill shieldfaire
 set ArmorKnight skill hide
 set ArmorKnight skill armsthrift
 set ArmorKnight skill adept
+set ArmorKnight skill slowstart2
+set ArmorKnight skill protector
 
 //Esteban stat
 set Hunter skill canto
@@ -4930,6 +4941,7 @@ set LanceKnight_R skill hide
 set Guardian skill Shieldfaire
 set Guardian skill armsthrift
 set Guardian skill hide
+set Guardian skill protector
 
 set LadyKnight_R skill aim
 set LadyKnight_R skill armsthrift
@@ -4986,6 +4998,7 @@ set DukeKnight_R skill hide
 
 set FlameFencer skill maim
 set FlameFencer skill hide
+set FlameFencer skill resistor
 
 set VeteranKnight_R skill hide
 set VeteranKnight_R skill shieldfaire
@@ -5802,3 +5815,4 @@ set Arrow++ stat might 8
 // I need to make larentia wyvern to give stats bonuses just like regular horse
 // Adding Magic to shields is limited to 15, surely the magic stat is a single float value, that is why I use fire_res, wind_res on shield to bypass that limit.
 // Need to allow all non-shielded unit to use a ring (bow unit)
+
