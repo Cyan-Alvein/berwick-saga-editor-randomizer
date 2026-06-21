@@ -1440,7 +1440,6 @@ set derrick skill Windsweep
 set derrick skill sunder
 set derrick skill provoke
 set derrick skill counter
-set derrick skill slowstart2
 set derrick skill protector
 
 set saphira skill blessing
@@ -4903,7 +4902,6 @@ set ArmorKnight skill shieldfaire
 set ArmorKnight skill hide
 set ArmorKnight skill armsthrift
 set ArmorKnight skill adept
-set ArmorKnight skill slowstart2
 set ArmorKnight skill protector
 
 //Esteban stat
@@ -5796,26 +5794,31 @@ set Arrow++ stat might 8
 //GrowthCharm 101
 //Arrow++ 101 IronArrow with +20 prec
 
-//When changing Ennemy class stat, there is a bug easily fixed, this is how:
-//HP = Strenght
-//defense = magic
-//magic = hp
-//speed = defense
-//strenght = speed
-//Increasing ennemy class Weapon Skill is bugged, doesn't work, to fix.
-//Learned function is bugged
-//restore-uses doesn't work when the item is in the storage room in Reese's house.
-//Adept doesn't work with desperate, but works with deathmatch. so giving Dean Deathmatch is a Huge buff.
-//Bug, Robbery and steal are linked, when robbery proc, it will decrease steal activation counter. So you can only robbery & steal 3 times by map.
-//Shieldaxe shouldn't be a stand-still skill
-//Vengeful should proc during deathmatch
-//set Glaive effect kill-horse
-//Adding the option to move, then trade, then attack, will be nice for next game.
-//For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
-//Allow the option to separate arrow
-//Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
+// When changing Ennemy class stat, there is a bug easily fixed, this is how:
+// HP = Strenght
+// defense = magic
+// magic = hp
+// speed = defense
+// strenght = speed
+// Increasing ennemy class Weapon Skill is bugged, doesn't work, to fix.
+// Learned function is bugged
+// restore-uses doesn't work when the item is in the storage room in Reese's house.
+// Adept doesn't work with desperate, but works with deathmatch. so giving Dean Deathmatch is a Huge buff.
+// Bug, Robbery and steal are linked, when robbery proc, it will decrease steal activation counter. So you can only robbery & steal 3 times by map.
+// Shieldaxe shouldn't be a stand-still skill
+// Vengeful should proc during deathmatch
+// set Glaive effect kill-horse
+// Adding the option to move, then trade, then attack, will be nice for next game.
+// For easily prepare team item before battle, I need to add an extra windows which perma show all item in the inventory
+// Allow the option to separate arrow
+// Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work on starlight item.
 // I need to make magic weapon like windedge to have increased damage depending on strenght, not fixed magic damage. So Reese with 10 strenght and WindEdge with 12 might should do 22 wind-damage.
 // I need to make larentia wyvern to give stats bonuses just like regular horse
 // Adding Magic to shields is limited to 15, surely the magic stat is a single float value, that is why I use fire_res, wind_res on shield to bypass that limit.
 // Need to allow all non-shielded unit to use a ring (bow unit)
+// Christine should be lt-infantry / Lt-Cavalry
+// Sherlock should be lt-infantry / Lt-Cavalry
+// Larentia should be infantry / flier
+// Adel should be infantry / Lt-Cavalry
+// Leon should be infantry / Lt-Cavalry
