@@ -98,6 +98,7 @@ set Pirate attribute movement lt-infantry
 
 //this will restore 2 points on repairstone each turn. I fixed all item price so it is no longer needed.
 //set Repairstone effect restore-uses
+
 set Thunder effect restore-uses
 set DireThunder effect restore-uses
 set Lightning effect restore-uses
