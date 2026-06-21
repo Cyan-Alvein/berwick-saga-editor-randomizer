@@ -4,7 +4,8 @@
 // If you wanna tip me:
 //My monero address is: 473xfHS4yyyRsyv2bhSMBHUSm1VHtXDkM677oV8iMtruBjuRrN3YuXQAqEADq3THEwWoYoSZjz2D57826daXMSdXSyrCzh7
 // If you wanna contact me:
-// Simplex Address: https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2F6iIcWT_dF2zN_w5xzZEY7HI2Prbh3ldP07YTyDexPjE%3D%40smp10.simplex.im%2FyghX1hN2_dLlgtSX8320mcruqZbvSIV4%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEA6DGhVZxNGIZPcGLnMBXSDFtQpHxoVZeMR03JQTnEIEU%253D%26srv%3Drb2pbttocvnbrngnwziclp2f4ckjq65kebafws6g4hy22cdaiv5dwjqd.onion
+// Simplex Address: https://smp18.simplex.im/g#a4ZmKJsJjQSn8wjLWwtb1J6PYdIQrtP10_Nc9k4XWwg
+// Telegram Address: https://t.me/cyanalvein
 // My Nosttr Account: https://nostter.app/nprofile1qqs8486svgm5dgret9gr3xamkgkj9mudy6cpzzha9ug9g6l205tklvgpuuyn3
 
 
@@ -265,7 +266,7 @@ set izerna item 1 Soothe 20
 set izerna item 2 BlessedBrace 0
 set izerna item 3 Mend 20
 set izerna item 4 Physic 15
-set izerna item 5 holy 20
+set izerna item 5 holy 10
 set izerna item 6 Bag 0
 set izerna item 7 Rehabilitate 10
 set izerna growth holy 70
