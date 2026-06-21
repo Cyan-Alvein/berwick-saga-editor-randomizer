@@ -89,7 +89,9 @@
 
 // Derrick movement type is now Knight, so he can wall on shallow water
 
-// Axel movement type is now light infantry
+// Axel movement type is now light-infantry
+
+// All player archers unit got magicbane, because they don't have a ring for magic resist.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
