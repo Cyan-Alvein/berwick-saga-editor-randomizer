@@ -57,8 +57,6 @@
 
 // Crossbow, Lance and all Shields got huge buffs. More accuracy, damage, shield now protect from magic ...
 
-// Repairstone got restore-uses effect so you can repair a little each chapter ( 2 repairstone uses recovered each chapter by repairstone)
-
 // All orbs got restores-uses
 
 // Brionac & Strongbow got Nosferatu effect
@@ -98,7 +96,8 @@
 set ArmorKnight attribute movement knight
 set Pirate attribute movement lt-infantry
 
-set Repairstone effect restore-uses
+//this will restore 2 points on repairstone each turn. I fixed all item price so it is no longer needed.
+//set Repairstone effect restore-uses
 set Thunder effect restore-uses
 set DireThunder effect restore-uses
 set Lightning effect restore-uses
