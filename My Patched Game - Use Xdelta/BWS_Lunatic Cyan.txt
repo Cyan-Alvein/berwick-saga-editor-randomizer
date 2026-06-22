@@ -2016,6 +2016,7 @@ set Fauchard stat might 8
 set Brionac stat might 8
 set KillerSpear stat might 9
 set Angon stat might 17
+set Angon stat crit 0
 
 set ImperialSpear stat might 8
 set VerianSpear stat might 8
@@ -2036,21 +2037,21 @@ set Partisan effect cripple-x2
 
 set SlimSpear stat Weight 5
 set IronSpear stat Weight 6
-set Pilum stat Weight 7
+set Pilum stat Weight 8
 set SteelSpear stat Weight 7
 set Harpoon stat Weight 8
 set PrototypeSpear stat Weight 8
 set KillerSpear stat Weight 6
 set Pike stat Weight 6
 set Longspear stat Weight 8
-set Verutum stat Weight 8
+set Verutum stat Weight 9
 set Doru stat Weight 9
 set MithrilSpear stat Weight 5
 set WindSpear stat Weight 6
 set Euthyphro stat Weight 6
-set Javelin stat Weight 9
+set Javelin stat Weight 10
 set Partisan stat Weight 10
-set Angon stat Weight 8
+set Angon stat Weight 9
 set Brionac stat Weight 7
 set SwiftSpear stat Weight 10
 set Fauchard stat Weight 7
@@ -2197,9 +2198,10 @@ set Pickaxe stat might 6
 set ImperialAxe stat might 10
 set LogSplitter stat might 10
 set OldImperialAxe stat might 8
-set HandAxe stat might 12
-set Francisca stat might 14
-set Hatchet stat might 16
+set HandAxe stat might 14
+set Francisca stat might 16
+set Hatchet stat might 19
+set Hatchet stat crit 0
 set VolcanoAxe stat might 0
 set GlacierAxe stat might 0
 set NimbusAxe stat might 0
@@ -2211,8 +2213,8 @@ set BarbaricAxe stat might 20
 set CrookedAxe stat might 30
 set BreakerAxe stat might 14
 set Poleax stat might 14
-set Gullveig stat might 17
-set Tomahawk stat might 12
+set Gullveig stat might 19
+set Tomahawk stat might 14
 set GreatAxe stat might 26
 
 set Shieldaxe stat defense 10
@@ -2228,11 +2230,11 @@ set LogSplitter effect injure-rate 100
 set LogSplitter stat Weight 8
 set Pickaxe stat Weight 4
 set BattleSaw stat Weight 7
-set HandAxe stat Weight 7
+set HandAxe stat Weight 8
 set BarbaricAxe stat Weight 11
 set CrookedAxe stat Weight 12
 //set IronAxe stat Weight 6
-set Francisca stat Weight 8
+set Francisca stat Weight 9
 set Battleaxe stat Weight 8
 set Broadaxe stat Weight 7
 set VolcanoAxe stat Weight 6
@@ -2240,17 +2242,17 @@ set GlacierAxe stat Weight 6
 set NimbusAxe stat Weight 6
 set DarkAxe stat Weight 6
 //set WarPick stat Weight 7
-set Hatchet stat Weight 9
+set Hatchet stat Weight 10
 set BreakerAxe stat Weight 8
 set Poleax stat Weight 8
-set Tomahawk stat Weight 7
+set Tomahawk stat Weight 8
 //set BoltAxe stat Weight 7
 //set KillerAxe stat Weight 6
 set Hammer stat Weight 12
 set GreatAxe stat Weight 11
 //set Tabarzin stat Weight 8
 set MithrilAxe stat Weight 8
-set Gullveig stat Weight 8
+set Gullveig stat Weight 9
 set Mjollnir stat Weight 5
 set Shieldaxe stat Weight 4
 set MaozaWolf stat Weight 13
@@ -5596,7 +5598,7 @@ set clifford skill pursuit
 set axel skill pursuit
 set larentia skill pursuit
 set owen skill pursuit
-//set burroughs skill pursuit
+set burroughs skill pursuit
 set derrick skill pursuit
 set saphira skill pursuit
 set lynette skill pursuit
