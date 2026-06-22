@@ -2216,8 +2216,7 @@ set Poleax stat might 14
 set Gullveig stat might 19
 set Tomahawk stat might 14
 set GreatAxe stat might 26
-
-set Shieldaxe stat defense 10
+set Shieldaxe stat might 20
 
 set VolcanoAxe effect fire-damage 20
 set GlacierAxe effect wind-damage 20
@@ -2254,7 +2253,7 @@ set GreatAxe stat Weight 11
 set MithrilAxe stat Weight 8
 set Gullveig stat Weight 9
 set Mjollnir stat Weight 5
-set Shieldaxe stat Weight 4
+set Shieldaxe stat Weight 15
 set MaozaWolf stat Weight 13
 set Bhuj stat Weight 9
 //set GigasAxe stat Weight 15
@@ -2290,7 +2289,7 @@ set HandAxe stat accuracy 40
 set Francisca stat accuracy 40
 set Hammer stat accuracy 40
 set GreatAxe stat accuracy 40
-set Shieldaxe stat accuracy 40
+set Shieldaxe stat accuracy 30
 set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 30
 set VerianAxe stat accuracy 50
