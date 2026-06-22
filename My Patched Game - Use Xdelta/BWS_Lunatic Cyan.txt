@@ -39,7 +39,7 @@
 
 // Accessories item got huge buff, SpiritBrace = magic +2, BlessedBrace = Magic +3 Speed -2, DivineBrace (Aegina own it)= Magic +4 Defense -2 Speed -2
 
-// All rings give +15 magic resistance for each element. Ring like windring give +30 wind resist.
+// All rings give +15 magic resistance and + 20 block magic damage for each element. Ring like windring give +30 wind resist.
 
 // TigerBrace = Hit +9 Avoid 0, EagleBrace = Hit +6 Avoid +6, GuardBrace = defense +2, FeatherBrace = Speed +2, all accessory without stat bonus get EagleBrace bonus, so MiracleCharm = Hit +6 Avoid +6. You get the idea
 
@@ -2206,7 +2206,7 @@ set CrookedAxe stat might 30
 set BreakerAxe stat might 14
 set Poleax stat might 14
 set Gullveig stat might 17
-set Tomahawk stat might 14
+set Tomahawk stat might 12
 set GreatAxe stat might 26
 
 set Shieldaxe stat defense 10
@@ -2237,7 +2237,7 @@ set DarkAxe stat Weight 6
 set Hatchet stat Weight 9
 set BreakerAxe stat Weight 8
 set Poleax stat Weight 8
-set Tomahawk stat Weight 8
+set Tomahawk stat Weight 7
 //set BoltAxe stat Weight 7
 //set KillerAxe stat Weight 6
 set Hammer stat Weight 12
@@ -2271,12 +2271,12 @@ set Battleaxe stat accuracy 40
 set Poleax stat accuracy 40
 set BreakerAxe stat accuracy 30
 set CrookedAxe stat accuracy 30
-set NimbusAxe stat accuracy 40
-set VolcanoAxe stat accuracy 40
-set GlacierAxe stat accuracy 40
+set NimbusAxe stat accuracy 30
+set VolcanoAxe stat accuracy 30
+set GlacierAxe stat accuracy 30
 set BoltAxe stat accuracy 40
 set Mjollnir stat accuracy 50
-set DarkAxe stat accuracy 40
+set DarkAxe stat accuracy 30
 set Pickaxe stat accuracy 40
 set HandAxe stat accuracy 40
 set Francisca stat accuracy 40
@@ -3600,7 +3600,7 @@ set FireScale stat thunder_res 10
 set FireScale stat wind_res 10
 set FireScale stat holy_res 10
 set FireScale stat dark_res 10
-set FireScale stat cost 3600
+set FireScale stat cost 5000
 
 set IceScale stat hit 6
 set IceScale stat avoid 6
@@ -3611,7 +3611,7 @@ set IceScale stat thunder_res 10
 set IceScale stat wind_res 30
 set IceScale stat holy_res 10
 set IceScale stat dark_res 10
-set IceScale stat cost 3600
+set IceScale stat cost 5000
 
 set ThunderScale stat hit 6
 set ThunderScale stat avoid 6
@@ -3622,7 +3622,7 @@ set ThunderScale stat thunder_res 30
 set ThunderScale stat wind_res 10
 set ThunderScale stat holy_res 10
 set ThunderScale stat dark_res 10
-set ThunderScale stat cost 3600
+set ThunderScale stat cost 5000
 
 set WyvernScale stat hit 6
 set WyvernScale stat avoid 6
@@ -3633,7 +3633,7 @@ set WyvernScale stat thunder_res 30
 set WyvernScale stat wind_res 10
 set WyvernScale stat holy_res 10
 set WyvernScale stat dark_res 10
-set WyvernScale stat cost 3600
+set WyvernScale stat cost 5000
 
 set ThorsScale stat hit 9
 set ThorsScale stat avoid 9
@@ -3644,7 +3644,7 @@ set ThorsScale stat thunder_res 45
 set ThorsScale stat wind_res 15
 set ThorsScale stat holy_res 15
 set ThorsScale stat dark_res 15
-set ThorsScale stat cost 3600
+set ThorsScale stat cost 7500
 
 ///////////////////////////Unit Weapon cap/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
