@@ -91,6 +91,10 @@
 
 // All player archers unit got magicbane, because they don't have a ring for magic resist.
 
+// Search skill to all player unit
+
+// Swimmer skill to Thaddy Czene Dean Volo Kramer Faye Sherpa. Please don't make Czene swimming while mounted.
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set ArmorKnight attribute movement knight
@@ -485,7 +489,7 @@ set thaddy growth speed 30
 set thaddy growth defense 9
 set thaddy base knife +20
 
-set esteban growth knife 60
+set esteban growth knife 70
 set esteban growth bow 100
 set esteban item 0 IronBow 101
 set esteban item 1 IronArrow+ 20
@@ -1687,21 +1691,21 @@ set Dart stat might 4
 set Vespa stat might 4
 set Airknife stat might 0
 set ThiefsKnife stat might 0
-set Carnwenhau stat might 4
-set StunKnife stat might 0
+set Carnwenhau stat might 6
+set StunKnife stat might 1
 set KillerKnife stat might 4
 set BloodKnife stat might 4
 set TempestKnife stat might 6
 set Shieldknife stat might 2
-set Crotalus stat might 4
+set Crotalus stat might 2
 set Kris stat might 2
 set ThrowingKnife stat might 6
-set Swordbreaker stat might 0
+set Swordbreaker stat might 1
 set PoisonKnife stat might 2
 set SleepKnife stat might 2
 set BoltKnife stat might 2
 set AssassinsKnife stat might 0
-set LetterOpener stat might 0
+set LetterOpener stat might 1
 set MainGauche stat might 2
 
 set Kris stat mind 10
@@ -1753,6 +1757,7 @@ set Kris stat cost 6000
 set ThrowingKnife stat cost 2000
 set dart stat cost 1200
 set AirKnife stat cost 3000
+set Carnwenhau stat cost 3000
 
 set BoltKnife stat durability E
 set LetterOpener stat durability D
@@ -1770,6 +1775,7 @@ set ThrowingKnife stat durability B
 set Swordbreaker stat durability C
 
 set Seax stat accuracy 50
+set Carnwenhau stat accuracy 60
 set stunknife stat accuracy 40
 set BoltKnife stat accuracy 40
 set Swordbreaker stat accuracy 40
@@ -2426,7 +2432,7 @@ set BronzeBow stat accuracy 50
 set ImperialBow stat accuracy 50
 set OldImperialBow stat accuracy 40
 set ShortBow stat accuracy 30
-set TripleFireBow stat accuracy 40
+set TripleFireBow stat accuracy 30
 set Strongbow stat accuracy 40
 set Greatbow stat accuracy 40
 set KillerBow stat accuracy 50
@@ -2444,6 +2450,7 @@ set Longbow stat durability C
 set Apollyon stat durability B
 set Apeiron stat durability B
 set TripleFireBow stat durability D
+set SwiftBow stat durability D
 
 set BronzeBow stat durability C
 set VerianBow stat durability C
@@ -2465,6 +2472,7 @@ set EmberArrow stat cost 1000
 set FreezeArrow stat cost 1000
 set RaijinArrow stat cost 2000
 set MithrilArrow stat cost 1600
+set SwiftBow stat cost 2000
 
 set BronzeBow stat cost 900
 set VerianBow stat cost 900
@@ -2477,8 +2485,8 @@ set IronBow stat might 1
 set OldImperialBow stat might 1
 set ShortBow stat might 3
 set VerianBow stat might 3
-set SwiftBow stat might 0
-set TripleFireBow stat might 0
+set SwiftBow stat might 4
+set TripleFireBow stat might 1
 set Apollyon stat might 6
 set KillerBow stat might 6
 set Apeiron stat might 10
@@ -5175,6 +5183,29 @@ set Wyvern skill supporter
 set WyvernLord skill supporter
 set WyvernLord_R skill supporter
 
+// Swimmer skill on player unit
+set Thaddy skill swimmer
+set Czene skill swimmer
+set Dean skill swimmer
+set Volo skill swimmer
+set Kramer skill swimmer
+set Faye skill swimmer
+set Sherpa skill swimmer
+
+// Swimmer skill to ennemy
+//set Burglar skill swimmer
+//set Thief_F skill swimmer
+//set Thief_M skill swimmer
+//set Axefighter skill swimmer
+//set Berserker skill swimmer
+//set Swordfighter_M skill swimmer
+//set Swordmaster skill swimmer
+//set Myrmidon skill swimmer
+//set Mercenary skill swimmer
+//set Hero skill swimmer
+//set Highlander skill swimmer
+//set Assassin skill swimmer
+
 //adept to everyone
 set ArrowKnight skill adept
 set ArrowKnight_R skill adept
@@ -5571,6 +5602,43 @@ set saphira skill pursuit
 set lynette skill pursuit
 set paramythis skill pursuit
 set izerna skill pursuit
+
+// Search to all player unit
+set reese skill search
+set ward skill search
+set elbert skill search
+set christine skill search
+set adel skill search
+set leon skill search
+set sherlock skill search
+set czene skill search
+set daoud skill search
+set marcel skill search
+set enid skill search
+set aegina skill search
+set perceval skill search
+set alvina skill search
+set ruby skill search
+set arthur skill search
+set kramer skill search
+set sherpa skill search
+set dean skill search
+set sylvis skill search
+set thaddy skill search
+set esteban skill search
+set faye skill search
+set faramir skill search
+set volo skill search
+set clifford skill search
+set axel skill search
+set larentia skill search
+set owen skill search
+//set burroughs skill search
+set derrick skill search
+set saphira skill search
+set lynette skill search
+set paramythis skill search
+set izerna skill search
 
 //vantage to everyone
 set Acolyte skill vantage
