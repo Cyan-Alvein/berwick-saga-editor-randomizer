@@ -2,7 +2,7 @@
 //It took me more than a year to make this, fixing all bugs, testing all possibilities by replaying the patched games many times (Yeah I love this game too much), managing character balance so someone (Faye Dean Ruby Derrick...) aren't too OP
 
 // If you wanna tip me:
-//My monero address is: 473xfHS4yyyRsyv2bhSMBHUSm1VHtXDkM677oV8iMtruBjuRrN3YuXQAqEADq3THEwWoYoSZjz2D57826daXMSdXSyrCzh7
+// My monero address is: 473xfHS4yyyRsyv2bhSMBHUSm1VHtXDkM677oV8iMtruBjuRrN3YuXQAqEADq3THEwWoYoSZjz2D57826daXMSdXSyrCzh7
 // If you wanna contact me:
 // Simplex Address: https://smp18.simplex.im/g#a4ZmKJsJjQSn8wjLWwtb1J6PYdIQrtP10_Nc9k4XWwg
 // Telegram Address: https://t.me/cyanalvein
@@ -11,7 +11,7 @@
 
 /////////////////////////////////////////////README - Most Important Changes//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// pitchfork & MilitaryFork got cripple-x2 effect
+// pitchfork, GoreFork & MilitaryFork got cripple-x2 effect
 
 // Pike, Longspear, Altium, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Holy , Hellfire, Earthblaze & all lance/fork weapons got cripple-x2
 
@@ -65,9 +65,9 @@
 
 // All elemental shields does block damage
 
-// BreakerArrow & BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect. It breaks the game, no fun, you can't IronMan with it.
+// BreakerArrow, BroadheadArrow, BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect.
 
-// BroadheadArrow, Poleax, Zanbato effect Nosferatu, no more horse kill effect. It breaks the game, no fun, you can't IronMan with it.
+// Poleax, Zanbato, Brionac, Strongbow effect Nosferatu, no more horse kill effect.
 
 // Shieldaxe effect parry
 
@@ -83,9 +83,9 @@
 
 // Vollenden, DarkShield, Hestia, reflect 20 magic damage on block. All other elemental shields reflect only 10.
 
-// All elemental shields receive 20 magic resist on their attribute. So windedge get +20 wind_res, and since windedge got 6 might, it gets a total of 26 wind_res.
+// All elemental shields receive 20 magic resist on their attribute. So Windshield get +20 wind_res, and since windedge got 6 might, it gets a total of 26 wind_res.
 
-// Derrick movement type is now Knight, so he can wall on shallow water
+// Derrick movement type is now Knight, so he can walk on shallow water
 
 // Axel movement type is now light-infantry
 
@@ -275,16 +275,18 @@ set izerna item 5 holy 10
 set izerna item 6 Bag 0
 set izerna item 7 Rehabilitate 10
 set izerna growth holy 70
+set izerna growth mind 20
 set izerna base holy +20
 set izerna base mind +1
+set izerna base speed +5
 
 set czene item 0 Vespa 101
 set czene item 1 BoltKnife 101
 set czene item 2 ThiefsKnife 101
 set czene item 3 ThiefsCharm 0
-set czene item 4 ThrowingKnife 101
+set czene item 4 Dart 20
 set czene item 5 BloodKnife 101
-set czene item 6 Dart 20
+set czene item 6 ThunderScale 0
 set czene item 7 DuskCharm 0
 set czene growth knife 80
 set czene growth hp 20
@@ -301,6 +303,8 @@ set aegina item 6 Hellfire 14
 set aegina item 7 DivineBrace 0
 set aegina growth wind 100
 set aegina growth fire 80
+set aegina growth mind 20
+set aegina base speed +5
 set aegina base fire +20
 set aegina base wind +20
 set aegina base mind +1
@@ -334,6 +338,10 @@ set Enid item 7 Fire 20
 set Enid growth sword 100
 set Enid growth fire 100
 set Enid growth thunder 80
+set Enid growth hp 20
+set Enid growth speed 25
+set Enid growth strength 0
+set Enid growth defense 0
 set FlameFencer cap fire 60
 set FlameFencer cap thunder 50
 set FlameFencer cap sword 40
@@ -360,6 +368,7 @@ set alvina growth sword 80
 set alvina growth spear 80
 set alvina growth sshield 90
 set alvina growth mshield 90
+set alvina growth mind 0
 set alvina base sword +20
 set alvina base spear +20
 set alvina base sshield +20
@@ -376,6 +385,7 @@ set ruby growth sword 100
 set ruby growth spear 100
 set ruby growth sshield 90
 set ruby growth mshield 90
+set ruby growth mind 0
 set ruby base sword +20
 set ruby base spear +20
 set ruby base sshield +20
@@ -405,7 +415,7 @@ set arthur base mshield +20
 set arthur base spear +40
 
 set kramer item 0 Longsword 101
-set kramer item 1 WindEdge 101
+set kramer item 1 Vulnaries 1
 set kramer item 2 Broadsword 101
 set kramer item 3 Bag 0
 set kramer item 4 FeatherBrace 0
@@ -427,10 +437,11 @@ set dean growth axe 100
 set faye item 2 GiantsBrace 0
 set faye item 3 BronzeSword 101
 set faye item 4 LadySword 101
-set faye item 5 WindEdge 101
+set faye item 5 Vulnaries 1
 set faye item 6 Shortsword 101
 set faye item 7 Bag 0
 set faye growth sword 100
+set faye growth mind 0
 set faye base sword +25
 
 set sylvis item 0 CompositeBow 101
@@ -455,7 +466,9 @@ set perceval item 6 TigerBrace 0
 set perceval item 7 Windstorm 60
 set perceval growth wind 80
 set perceval growth thunder 100
+set perceval growth mind 20
 set perceval base thunder +20
+set perceval base speed +5
 set perceval base wind +20
 set perceval base mind +1
 
@@ -581,6 +594,7 @@ set Owen base thunder +20
 set Owen base holy +20
 set Owen base dark +50
 set Owen base mind +1
+set Owen base speed +5
 set RazeMonkOwen growth dark 60
 
 //set burroughs item 0 Bag 0
@@ -592,6 +606,10 @@ set burroughs item 5 Tumahann 16
 set burroughs item 6 MithrilShield 101
 set burroughs item 7 Wormwood 8
 set burroughs growth crossbow 100
+set burroughs growth hp 20
+set burroughs growth strength 20
+set burroughs growth defense 9
+set burroughs growth speed 40
 set burroughs base crossbow +20
 
 set derrick growth axe 50
@@ -617,6 +635,7 @@ set saphira item 7 Bag 0
 set saphira growth holy 100
 set saphira base holy +20
 set saphira base mind +1
+set saphira base speed +5
 
 set lynette item 3 SniperArrow 10
 set lynette item 4 DireThunder 20
@@ -626,6 +645,7 @@ set lynette item 7 LadySword 101
 set lynette base thunder +25
 set lynette base sword +25
 set lynette base bow +25
+set lynette base speed +5
 set lynette growth bow 100
 set lynette growth thunder 100
 set lynette growth sword 100
@@ -1670,8 +1690,8 @@ set ThiefsKnife stat might 0
 set Carnwenhau stat might 4
 set StunKnife stat might 0
 set KillerKnife stat might 4
-set BloodKnife stat might 0
-set TempestKnife stat might 0
+set BloodKnife stat might 4
+set TempestKnife stat might 6
 set Shieldknife stat might 2
 set Crotalus stat might 4
 set Kris stat might 2
@@ -1694,11 +1714,11 @@ Set Kris Stat dark_res 10
 set AssassinsKnife effect cripple-x2
 set BoltKnife effect thunder-damage 10
 set BoltKnife effect injure-rate 100
-set TempestKnife effect wind-damage 10
+set TempestKnife effect wind-damage 20
 set ThiefsKnife effect steal-rate-plus 50
 set ThiefsCharm effect steal-rate-plus 50
-set AirKnife effect wind-damage 5
-set BloodKnife effect dark-damage 5
+set AirKnife effect wind-damage 20
+set BloodKnife effect dark-damage 0
 set BloodKnife effect nosferatu
 set Swordbreaker effect sword-break 100
 
@@ -1725,14 +1745,14 @@ set AssassinsKnife stat level 30
 set Airknife stat level 5
 set ThrowingKnife stat level 10
 
-set AirKnife stat cost 1000
 set ThiefsKnife stat cost 1000
 set AssassinsKnife stat cost 3000
-set BloodKnife stat cost 2500
+set BloodKnife stat cost 3000
 set KillerKnife stat cost 3000
 set Kris stat cost 6000
 set ThrowingKnife stat cost 2000
 set dart stat cost 1200
+set AirKnife stat cost 3000
 
 set BoltKnife stat durability E
 set LetterOpener stat durability D
@@ -1761,6 +1781,7 @@ set Crotalus stat accuracy 60
 set kris stat accuracy 60
 set maingauche stat accuracy 50
 set ThrowingKnife stat accuracy 40
+set AirKnife stat accuracy 40
 
 set stunknife effect disarm-rate 100
 
@@ -1811,7 +1832,7 @@ set Scimitar+ stat accuracy 50
 set KnightSword stat accuracy 60
 set FlameSword stat accuracy 50
 set HolySword stat accuracy 60
-set WindEdge stat accuracy 50
+set WindEdge stat accuracy 40
 set KillingEdge stat accuracy 60
 set Harperia stat accuracy 60
 set Gram stat accuracy 60
@@ -1822,18 +1843,18 @@ set Grimhild stat accuracy 70
 Set ImperialSword stat cost 1200
 set AltiumSword stat cost 3000
 set MithrilSword stat cost 4000
-set LevinSword stat cost 3000
-set FlameSword stat cost 3000
+set LevinSword stat cost 4000
+set FlameSword stat cost 4000
 set Rapier stat cost 3000
 set Estoc stat cost 4000
-set HolySword stat cost 6000
+set HolySword stat cost 5000
 set WindEdge stat cost 3000
-set InfernalEdge stat cost 6000
+set InfernalEdge stat cost 5000
 set RazeEtoile stat cost 5000
 set Harperia stat cost 5000
 set Colichemarde stat cost 6000
 set LadySword stat cost 4000
-set Nothung stat cost 7000
+set Nothung stat cost 6000
 set Gram stat cost 6000
 
 set Scimitar+ stat level 5
@@ -1915,7 +1936,8 @@ set PoisonMace stat might 12
 set HolyMace effect holy-damage 20
 set DarkMace effect dark-damage 20
 
-set DarkMace stat cost 1000
+set DarkMace stat cost 3500
+set HolyMace stat cost 3500
 
 set DarkMace stat durability C
 set PoisonMace stat durability C
@@ -2042,8 +2064,12 @@ set Pilum stat cost 1200
 set Verutum stat cost 1800
 set Javelin stat cost 2400
 set SlimSpear stat cost 700
-set ImperialSpear stat cost 1200
 set Harpoon stat cost 1000
+set VerianSpear stat cost 1000
+set ImperialSpear stat cost 1000
+set OldImperialSpear stat cost 500
+set WindSpear stat cost 5000
+set Euthyphro stat cost 5000
 
 set Pilum stat uses 20
 set Verutum stat uses 20
@@ -2074,10 +2100,6 @@ set Harpoon stat level 1
 
 set Pike effect cripple-x2
 
-set VerianSpear stat cost 1000
-set ImperialSpear stat cost 1000
-set OldImperialSpear stat cost 500
-
 // fork
 
 // Pitchfork similar stat than IronSpear + cripple effect
@@ -2101,7 +2123,10 @@ set GoreFork stat accuracy 50
 set Firebrand stat accuracy 60
 
 set GoreFork stat level 1
-set GoreFork stat cost 2000
+set Pitchfork stat cost 1500
+set MilitaryFork stat cost 2000
+set GoreFork stat cost 3000
+set Firebrand stat cost 4000
 
 set Pitchfork stat weight 6
 set MilitaryFork stat weight 7
@@ -2118,12 +2143,6 @@ set Firebrand stat durability D
 //lance // lance
 
 //set Drakelance stat level 15
-
-set Drakelance effect parry
-set Xyston effect parry
-set IronLance effect parry
-set Oxtongue effect parry
-set GreatLance effect parry
 
 set Drakelance effect cripple-x2
 set Xyston effect cripple-x2
@@ -2159,8 +2178,11 @@ set Drakelance Stat Accuracy 80
 //set Oxtongue stat Durability D
 //set IronLance stat Durability D
 
-//set IronLance stat cost 4000
-//set Oxtongue stat cost 4500
+set IronLance stat cost 4000
+set Oxtongue stat cost 4000
+set Xyston stat cost 5000
+set GreatLance stat cost 6000
+set Drakelance stat cost 7000
 
 //axe // axe
 
@@ -2317,16 +2339,21 @@ set Francisca stat cost 1800
 set Hatchet stat cost 2400
 set Gullveig stat cost 3000
 set Tomahawk stat cost 2000
+set VolcanoAxe stat cost 3000
+set GlacierAxe stat cost 3000
+set NimbusAxe stat cost 3000
+set BoltAxe stat cost 4000
+set Mjollnir stat cost 5000
 
 
 // bows
 
-//set KillerArrow stat might 8
+set KillerArrow stat might 1
 set PoisonArrow stat might 8
 set SleepArrow stat might 1
 set BroadheadArrow stat might 1
-set BodkinArrow stat might 1
-set BreakerArrow stat might 8
+set BodkinArrow stat might 5
+set BreakerArrow stat might 1
 set EmberArrow stat might 0
 set FreezeArrow stat might 0
 set ImperialArrow stat might 8
@@ -2340,10 +2367,10 @@ set FreezeArrow effect wind-damage 20
 set RaijinArrow effect thunder-damage 20
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect kill-horse 0
-set BroadheadArrow effect nosferatu
+set BroadheadArrow effect disarm-rate 100
 
-set BroadheadArrow stat accuracy 10
-set BreakerArrow stat accuracy 10
+//set BroadheadArrow stat accuracy 10
+//set BreakerArrow stat accuracy 10
 set StoneArrow stat accuracy 10
 set WoodenArrow stat accuracy 10
 set BronzeArrow stat accuracy 10
@@ -2352,7 +2379,7 @@ set ImperialArrow stat accuracy 10
 set SteelArrow stat accuracy 10
 //set EmberArrow stat accuracy 10
 //set FreezeArrow stat accuracy 10
-//set RaijinArrow stat accuracy 10
+set RaijinArrow stat accuracy 10
 set KillerArrow stat accuracy 10
 set BodkinArrow stat accuracy 10
 set PoisonArrow stat accuracy 10
@@ -2425,17 +2452,17 @@ set OldImperialBow stat durability D
 
 set ShortBow stat cost 1000
 set Apeiron stat cost 6000
-set SereniaBow stat cost 6000
-set Pascanion2 stat cost 8000
-set Pascanion stat cost 8000
+set SereniaBow stat cost 5000
+set Pascanion2 stat cost 7000
+set Pascanion stat cost 7000
 set WoodenArrow stat cost 150
 set StoneArrow stat cost 300
 set BronzeArrow stat cost 450
 set IronArrow stat cost 750
 set SteelArrow stat cost 1500
 set ImperialArrow stat cost 750
-set EmberArrow stat cost 1600
-set FreezeArrow stat cost 1600
+set EmberArrow stat cost 1000
+set FreezeArrow stat cost 1000
 set RaijinArrow stat cost 2000
 set MithrilArrow stat cost 1600
 
@@ -2560,9 +2587,16 @@ set OldImperialCrossbow stat durability D
 set VerianCrossbow stat durability C
 
 set Bowgun stat cost 1000
-set ImperialCrossbow stat cost 1000
+set ImperialCrossbow stat cost 2000
 set OldImperialCrossbow stat cost 500
-set VerianCrossbow stat cost 1000
+set VerianCrossbow stat cost 2000
+set IronCrossbow stat cost 2000
+set Gastraphetes stat cost 3000
+set HeavyCrossbow stat cost 4000
+set BraveCrossbow stat cost 4000
+set Chu-ko-nu stat cost 5000
+set Arbalest stat cost 6000
+set RapidCrossbow stat cost 7000
 
 
 // Balistae
@@ -2637,6 +2671,15 @@ set Scorpio stat Durability B
 set StandardBolt stat accuracy 10
 set OldBolt stat accuracy 10
 set New-TypeBolt stat accuracy 10
+
+set OldBallista stat cost 2000
+set BronzeBallista stat cost 3000
+set IronBallista stat cost 4000
+set SteelBallista stat cost 5000
+set PrototypeSpringald stat cost 6000
+set Springald stat cost 7000
+set PrototypeScorpio stat cost 5000
+set Scorpio stat cost 6000
 
 // sshield
 
@@ -3082,7 +3125,7 @@ Set ImpKnightMShd stat might 12
 
 set LightningShield effect block-thunder-damage 10
 set RadiantShield effect block-holy-damage 10
-set ShadowShield effect block-fire-damage 10
+set ShadowShield effect block-holy-damage 10
 set BlazingShield effect block-fire-damage 10
 set GaleShield effect block-thunder-damage 10
 Set Hestia effect block-fire-damage 20
@@ -3195,7 +3238,7 @@ set AmaterasuShield stat accuracy 50
 set GeneralShield stat accuracy 50
 
 set KojinShield effect block-fire-damage 10
-set FujinShield effect block-thunder-damage 10
+set FujinShield effect block-holy-damage 10
 set RaijinShield effect block-thunder-damage 10
 //set AmaterasuShield effect block-fire-damage 10
 //set GeneralShield effect block-holy-damage 10
@@ -3394,7 +3437,7 @@ set GiantsBrace stat holy_res 15
 set GiantsBrace stat dark_res 15
 
 set PhoenixBrace stat defense 3
-set PhoenixBrace stat strenght 0
+set PhoenixBrace stat strength 0
 set PhoenixBrace stat avoid 0
 set PhoenixBrace stat fire_res 15
 set PhoenixBrace stat thunder_res 15
@@ -3404,7 +3447,7 @@ set PhoenixBrace stat dark_res 15
 set PhoenixBrace stat cost 3600
 
 set PegasusBrace stat speed 3
-set PegasusBrace stat strenght 0
+set PegasusBrace stat strength 0
 set PegasusBrace stat avoid 0
 set PegasusBrace stat fire_res 15
 set PegasusBrace stat thunder_res 15
@@ -3425,7 +3468,7 @@ set BlessedBrace stat cost 3600
 
 set DivineBrace stat magic 4
 set DivineBrace stat speed 0
-set DivineBrace stat strenght 0
+set DivineBrace stat strength 0
 set DivineBrace stat defense 0
 //set DivineBrace stat fire_res 15
 //set DivineBrace stat thunder_res 15
@@ -3454,8 +3497,7 @@ set LightRing stat holy_res 10
 set LightRing stat dark_res 30
 set LightRing stat cost 3600
 
-set WindRing stat hit 6
-set WindRing stat avoid 6
+set WindRing effect block-holy-damage 20
 set WindRing stat fire_res 10
 set WindRing stat thunder_res 10
 set WindRing stat wind_res 30
@@ -3463,8 +3505,7 @@ set WindRing stat holy_res 10
 set WindRing stat dark_res 10
 set WindRing stat cost 3600
 
-set ThunderRing stat hit 6
-set ThunderRing stat avoid 6
+set ThunderRing effect block-thunder-damage 20
 set ThunderRing stat fire_res 10
 set ThunderRing stat thunder_res 30
 set ThunderRing stat wind_res 10
@@ -3472,8 +3513,7 @@ set ThunderRing stat holy_res 10
 set ThunderRing stat dark_res 10
 set ThunderRing stat cost 3600
 
-set FireRing stat hit 6
-set FireRing stat avoid 6
+set FireRing effect block-fire-damage 20
 set FireRing stat fire_res 30
 set FireRing stat thunder_res 10
 set FireRing stat wind_res 10
@@ -3509,12 +3549,11 @@ set PeerlessBrace stat avoid 3
 //set PeerlessBrace stat dark_res 10
 set PeerlessBrace stat cost 3600
 
-//set DarkRing stat fire_res 10
-//set DarkRing stat thunder_res 10
-//set DarkRing stat wind_res 10
-//set DarkRing stat holy_res 10
-//set DarkRing stat dark_res 10
-//set DarkRing stat cost 7200
+set DarkRing stat defense 14
+set DarkRing stat cost 3600
+
+set DjinnRing stat magic 14
+set DjinnRing stat cost 3600
 
 set ThiefsCharm stat hit 6
 set ThiefsCharm stat avoid 6
@@ -3552,9 +3591,60 @@ set DawnCharm stat avoid 6
 //set DawnCharm stat dark_res 10
 //set DawnCharm stat cost 3600
 
+set FireScale stat hit 6
+set FireScale stat avoid 6
+set FireScale effect block-fire-damage 20
+set FireScale stat crit_avoid_penalty 0
+set FireScale stat fire_res 30
+set FireScale stat thunder_res 10
+set FireScale stat wind_res 10
+set FireScale stat holy_res 10
+set FireScale stat dark_res 10
+set FireScale stat cost 3600
 
+set IceScale stat hit 6
+set IceScale stat avoid 6
+set IceScale effect block-holy-damage 20
+set IceScale stat crit_avoid_penalty 0
+set IceScale stat fire_res 10
+set IceScale stat thunder_res 10
+set IceScale stat wind_res 30
+set IceScale stat holy_res 10
+set IceScale stat dark_res 10
+set IceScale stat cost 3600
 
-//set ThorsScale stat crit_avoid_penalty 18
+set ThunderScale stat hit 6
+set ThunderScale stat avoid 6
+set ThunderScale effect block-thunder-damage 20
+set ThunderScale stat crit_avoid_penalty 0
+set ThunderScale stat fire_res 10
+set ThunderScale stat thunder_res 30
+set ThunderScale stat wind_res 10
+set ThunderScale stat holy_res 10
+set ThunderScale stat dark_res 10
+set ThunderScale stat cost 3600
+
+set WyvernScale stat hit 6
+set WyvernScale stat avoid 6
+set WyvernScale effect block-thunder-damage 20
+set WyvernScale stat crit_avoid_penalty 0
+set WyvernScale stat fire_res 10
+set WyvernScale stat thunder_res 30
+set WyvernScale stat wind_res 10
+set WyvernScale stat holy_res 10
+set WyvernScale stat dark_res 10
+set WyvernScale stat cost 3600
+
+set ThorsScale stat hit 9
+set ThorsScale stat avoid 9
+set ThorsScale effect block-thunder-damage 30
+set ThorsScale stat crit_avoid_penalty 0
+set ThorsScale stat fire_res 15
+set ThorsScale stat thunder_res 45
+set ThorsScale stat wind_res 15
+set ThorsScale stat holy_res 15
+set ThorsScale stat dark_res 15
+set ThorsScale stat cost 3600
 
 ///////////////////////////Unit Weapon cap/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -3662,41 +3752,41 @@ set Cavalier cap mshield 50
 
 set Treasure stat price 20000
 
-//set Reese bracket no
-//set Ward bracket no
-//set Leon bracket no
-//set Adel bracket no
-//set Sherlock bracket no
-//set Elbert bracket no
-//set Christine bracket no
-//set Dean bracket no
-//set Izerna bracket no
-//set Volo bracket no
-//set Axel bracket no
-//set Sylvis bracket no
-//set Ruby bracket no
-//set Arthur bracket no
-set Czene bracket no
-//set Kramer bracket no
-//set Faye bracket no
-set Derrick bracket no
-//set Clifford bracket no
-//set Faramir bracket no
-//set Esteban bracket no
-//set Aegina bracket no
-//set Sherpa bracket no
-//set Saphira bracket no
-//set Owen bracket no
-//set Daoud bracket no
-//set Larentia bracket no
-set Thaddy bracket no
-//set Marcel bracket no
-//set Enid bracket no
-//set Perceval bracket no
-//set Burroughs bracket no
-//set Alvina bracket no
-//set Paramythis bracket no
-//set Lynette bracket no
+set Reese bracket tight
+set Ward bracket tight
+set Leon bracket tight
+set Adel bracket tight
+set Sherlock bracket tight
+set Elbert bracket tight
+set Christine bracket tight
+set Dean bracket tight
+set Izerna bracket tight
+set Volo bracket tight
+set Axel bracket tight
+set Sylvis bracket tight
+set Ruby bracket tight
+set Arthur bracket tight
+set Czene bracket tight
+set Kramer bracket tight
+set Faye bracket tight
+set Derrick bracket tight
+set Clifford bracket tight
+set Faramir bracket tight
+set Esteban bracket tight
+set Aegina bracket tight
+set Sherpa bracket tight
+set Saphira bracket tight
+set Owen bracket tight
+set Daoud bracket tight
+set Larentia bracket tight
+set Thaddy bracket tight
+set Marcel bracket tight
+set Enid bracket tight
+set Perceval bracket tight
+set Burroughs bracket tight
+set Alvina bracket tight
+set Paramythis bracket tight
+set Lynette bracket tight
 
 //////////////////////////Difficulty Level - Ennemy buff///////////////////
 
@@ -3949,7 +4039,7 @@ set General skill hide
 set General skill protector
 
 // This may be Larentia Stat too
-set WyvernKnight_R base strenght +2
+set WyvernKnight_R base strength +2
 set WyvernKnight_R base hp +1
 set WyvernKnight_R base speed +1
 set WyvernKnight_R base defense +1
@@ -3961,7 +4051,7 @@ set WyvernKnight_R skill parry
 set WyvernKnight_R skill counter
 
 // larentia stat
-set WyvernKnight base strenght +2
+set WyvernKnight base strength +2
 set WyvernKnight base hp +1
 set WyvernKnight base speed +1
 set WyvernKnight base defense +1
@@ -5721,31 +5811,31 @@ set izerna skill battlecry
 
 set Tico stat uses 12
 set ThinHorse stat speed 2
-set ThinHorse stat strenght 1
+set ThinHorse stat strength 1
 set ThinHorse stat defense 1
 set ThinHorse stat magic 1
 set PlainHorse stat speed 2
-set PlainHorse stat strenght 1
+set PlainHorse stat strength 1
 set PlainHorse stat defense 1
 set PlainHorse stat magic 1
 set SpryHorse stat speed 2
-set SpryHorse stat strenght 1
+set SpryHorse stat strength 1
 set SpryHorse stat defense 1
 set SpryHorse stat magic 1
 set ToughHorse stat speed 2
-set ToughHorse stat strenght 1
+set ToughHorse stat strength 1
 set ToughHorse stat defense 1
 set ToughHorse stat magic 1
 set StrongHorse stat speed 2
-set StrongHorse stat strenght 1
+set StrongHorse stat strength 1
 set StrongHorse stat defense 1
 set StrongHorse stat magic 1
 set SinonStallion stat speed 2
-set SinonStallion stat strenght 1
+set SinonStallion stat strength 1
 set SinonStallion stat defense 1
 set SinonStallion stat magic 1
 set LigaDestrier stat speed 2
-set LigaDestrier stat strenght 1
+set LigaDestrier stat strength 1
 set LigaDestrier stat defense 1
 set LigaDestrier stat magic 1
 set LigaCourser stat speed 2
@@ -5796,11 +5886,11 @@ set Arrow++ stat might 8
 //Arrow++ 101 IronArrow with +20 prec
 
 // When changing Ennemy class stat, there is a bug easily fixed, this is how:
-// HP = Strenght
+// HP = strength
 // defense = magic
 // magic = hp
 // speed = defense
-// strenght = speed
+// strength = speed
 // Increasing ennemy class Weapon Skill is bugged, doesn't work, to fix.
 // Learned function is bugged
 // restore-uses doesn't work when the item is in the storage room in Reese's house.
@@ -5814,7 +5904,7 @@ set Arrow++ stat might 8
 // Allow the option to separate arrow
 // Allow to remove General Ward from the KingFisher Pavillon / Choose who get in.
 // Holy-vantage effect doesn't work on starlight item.
-// I need to make magic weapon like windedge to have increased damage depending on strenght, not fixed magic damage. So Reese with 10 strenght and WindEdge with 12 might should do 22 wind-damage.
+// I need to make magic weapon like windedge to have increased damage depending on strength, not fixed magic damage. So Reese with 10 strength and WindEdge with 12 might should do 22 wind-damage.
 // I need to make larentia wyvern to give stats bonuses just like regular horse
 // Adding Magic to shields is limited to 15, surely the magic stat is a single float value, that is why I use fire_res, wind_res on shield to bypass that limit.
 // Need to allow all non-shielded unit to use a ring (bow unit)
@@ -5823,4 +5913,3 @@ set Arrow++ stat might 8
 // Larentia should be infantry / flier
 // Adel should be infantry / Lt-Cavalry
 // Leon should be infantry / Lt-Cavalry
-
