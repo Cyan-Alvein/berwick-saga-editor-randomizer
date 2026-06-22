@@ -1853,7 +1853,7 @@ set WindEdge stat weight 5
 set Broadsword stat weight 6
 set Scimitar+ stat weight 5
 set KillingEdge stat weight 5
-set Saber stat weight 4
+set Saber stat weight 3
 set AltiumSword stat Weight 7
 set LevinSword stat weight 5
 set Rapier stat Weight 3
