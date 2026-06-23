@@ -290,7 +290,7 @@ set czene item 2 ThiefsKnife 101
 set czene item 3 ThiefsCharm 0
 set czene item 4 Dart 20
 set czene item 5 BloodKnife 101
-set czene item 6 ThunderScale 0
+set czene item 6 Bag 0
 set czene item 7 DuskCharm 0
 set czene growth knife 80
 set czene growth hp 20
