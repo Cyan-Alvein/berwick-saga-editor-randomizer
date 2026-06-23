@@ -1745,7 +1745,7 @@ set Vespa stat level 5
 set TempestKnife stat level 10
 set Swordbreaker stat level 12
 set AssassinsKnife stat level 30
-set Airknife stat level 10
+set Airknife stat level 3
 set ThrowingKnife stat level 15
 set StunKnife stat level 12
 set KillerKnife stat level 6
@@ -1870,7 +1870,7 @@ set Gram stat cost 6000
 set Scimitar+ stat level 7
 set FlameSword stat level 15
 set HolySword stat level 20
-set WindEdge stat level 1
+set WindEdge stat level 3
 set InfernalEdge stat level 10
 set Grimhild stat level 1
 set AltiumSword stat level 10
@@ -2041,6 +2041,7 @@ set MithrilSpear stat level 15
 set Brionac stat level 10
 set Pike stat level 4
 set Doru stat level 1
+set WindSpear stat level 15
 
 //set Partisan stat level 15
 //set SwiftSpear stat level 15
@@ -2320,10 +2321,10 @@ set GigasAxe stat level 30
 set Hammer stat level 15
 set Tomahawk stat level 15
 set MaozaWolf stat level 15
-set VolcanoAxe stat level 10
-set GlacierAxe stat level 10
-set NimbusAxe stat level 10
-set DarkAxe stat level 10
+set VolcanoAxe stat level 3
+set GlacierAxe stat level 3
+set NimbusAxe stat level 3
+set DarkAxe stat level 3
 set BoltAxe stat level 15
 set Mjollnir stat level 10
 set Tabarzin stat level 10
@@ -2733,7 +2734,7 @@ set Windshield stat might 6
 set FireShield stat might 6
 set ThunderShield stat might 6
 set LightShield stat might 6
-set DarkShield stat might 7
+set DarkShield stat might 8
 set MetalShield stat might 8
 set MithrilShield stat might 7
 set Vollenden stat might 8
@@ -2802,10 +2803,10 @@ Set LightShield Stat wind_res 6
 Set LightShield Stat holy_res 26
 Set LightShield Stat dark_res 6
 
-Set DarkShield Stat fire_res 7
-Set DarkShield Stat thunder_res 7
-Set DarkShield Stat wind_res 7
-Set DarkShield Stat holy_res 7
+Set DarkShield Stat fire_res 8
+Set DarkShield Stat thunder_res 8
+Set DarkShield Stat wind_res 8
+Set DarkShield Stat holy_res 8
 Set DarkShield Stat dark_res 26
 
 Set MetalShield Stat fire_res 8
@@ -2896,7 +2897,7 @@ set Windshield stat Weight 3
 set FireShield stat Weight 3
 set ThunderShield stat Weight 3
 set LightShield stat Weight 3
-set DarkShield stat Weight 3
+set DarkShield stat Weight 4
 set MetalShield stat weight 4
 set MithrilShield stat weight 2
 set Perseid stat weight 2
@@ -2993,12 +2994,12 @@ set ShiningShield stat level 10
 set Vollenden stat level 10
 set LadyShield stat level 1
 
-Set VerianSShd Stat level 1
-set OldImpSShd stat level 1
-set ImpSoldierSShd stat level 1
-set ImpSoldierSShd++ stat level 1
-set ImpOfficerSShd stat level 4
-set ImpKnightSShd stat level 10
+//Set VerianSShd Stat level 1
+//set OldImpSShd stat level 1
+//set ImpSoldierSShd stat level 1
+//set ImpSoldierSShd++ stat level 1
+//set ImpOfficerSShd stat level 4
+//set ImpKnightSShd stat level 10
 
 
 //mshield Stuff
@@ -3249,11 +3250,11 @@ set Hestia stat level 1
 set BlackShield stat level 16
 set WyrmskinShield stat level 10
 
-Set VerianMShd stat level 8
-Set ImpSoldierMShd stat level 8
-Set ImpSoldierMShd+ stat level 8
-Set ImpOfficerMShd stat level 12
-Set ImpKnightMShd stat level 16
+//Set VerianMShd stat level 8
+//Set ImpSoldierMShd stat level 8
+//Set ImpSoldierMShd+ stat level 8
+//Set ImpOfficerMShd stat level 12
+//Set ImpKnightMShd stat level 16
 
 // lshield stuff
 
@@ -3274,10 +3275,10 @@ set WideShield stat level 8
 set IronShield stat level 12
 set Greatshield stat level 16
 
-set ImpKnightLShd stat level 16
-set ImpOfficerLShd stat level 12
-set ImpSoldierLShd stat level 8
-set ImpSoldierLShd+ stat level 8
+//set ImpKnightLShd stat level 16
+//set ImpOfficerLShd stat level 12
+//set ImpSoldierLShd stat level 8
+//set ImpSoldierLShd+ stat level 8
 
 set VerianLShd stat Durability A
 set LeatherLShd stat Durability A
@@ -3323,10 +3324,10 @@ set LeatherLShd stat might 14
 set WideShield stat might 17
 set IronShield stat might 20
 set Greatshield stat might 23
-set KojinShield stat might 15
-set FujinShield stat might 15
-set RaijinShield stat might 15
-set AmaterasuShield stat might 15
+set KojinShield stat might 20
+set FujinShield stat might 20
+set RaijinShield stat might 20
+set AmaterasuShield stat might 20
 set GeneralShield stat might 21
 
 set LeatherLShd stat cost 1800
@@ -3353,7 +3354,7 @@ Set GeneralShield Stat Weight 10
 Set KojinShield Stat Weight 9
 Set FujinShield Stat Weight 9
 Set RaijinShield Stat Weight 9
-Set AmaterasuShield Stat Weight 9
+Set AmaterasuShield Stat Weight 10
 
 Set VerianLShd Stat Weight 8
 Set ImpSoldierLShd Stat Weight 8
@@ -3392,29 +3393,29 @@ Set GeneralShield Stat wind_res 23
 Set GeneralShield Stat holy_res 23
 Set GeneralShield Stat dark_res 23
 
-Set KojinShield Stat fire_res 35
-Set KojinShield Stat thunder_res 15
-Set KojinShield Stat wind_res 15
-Set KojinShield Stat holy_res 15
-Set KojinShield Stat dark_res 15
+Set KojinShield Stat fire_res 40
+Set KojinShield Stat thunder_res 20
+Set KojinShield Stat wind_res 20
+Set KojinShield Stat holy_res 20
+Set KojinShield Stat dark_res 20
 
-Set FujinShield Stat fire_res 15
-Set FujinShield Stat thunder_res 15
-Set FujinShield Stat wind_res 35
-Set FujinShield Stat holy_res 15
-Set FujinShield Stat dark_res 15
+Set FujinShield Stat fire_res 20
+Set FujinShield Stat thunder_res 20
+Set FujinShield Stat wind_res 40
+Set FujinShield Stat holy_res 20
+Set FujinShield Stat dark_res 20
 
-Set RaijinShield Stat fire_res 15
-Set RaijinShield Stat thunder_res 35
-Set RaijinShield Stat wind_res 15
-Set RaijinShield Stat holy_res 15
-Set RaijinShield Stat dark_res 15
+Set RaijinShield Stat fire_res 20
+Set RaijinShield Stat thunder_res 40
+Set RaijinShield Stat wind_res 20
+Set RaijinShield Stat holy_res 20
+Set RaijinShield Stat dark_res 20
 
-Set AmaterasuShield Stat fire_res 35
-Set AmaterasuShield Stat thunder_res 35
-Set AmaterasuShield Stat wind_res 35
-Set AmaterasuShield Stat holy_res 35
-Set AmaterasuShield Stat dark_res 35
+Set AmaterasuShield Stat fire_res 40
+Set AmaterasuShield Stat thunder_res 40
+Set AmaterasuShield Stat wind_res 40
+Set AmaterasuShield Stat holy_res 40
+Set AmaterasuShield Stat dark_res 40
 
 Set VerianLShd Stat fire_res 17
 Set VerianLShd Stat thunder_res 17
