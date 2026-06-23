@@ -533,9 +533,9 @@ set volo base sword +25
 
 //set sherpa growth sword 90
 set Sherpa item 1 Zanbato 101
-set Sherpa item 2 Shortsword 101
+set Sherpa item 2 Shamshir 101
 set Sherpa item 3 Treasure 101
-set Sherpa item 4 Bag 0
+set Sherpa item 4 Shamshir 101
 set Sherpa item 5 Treasure 101
 set Sherpa item 6 Albatross 101
 set Sherpa item 7 Bag 0
@@ -1986,8 +1986,10 @@ set Brymranger stat weight 9
 set Zanbato effect Nosferatu
 set BastardSword effect cripple-x2
 
-set BastardSword stat level 14
-set Zanbato stat level 16
+set Shamshir stat level 6
+set BastardSword stat level 10
+set Zanbato stat level 14
+set GreatSword stat level 18
 set Adrastia stat level 10
 
 set Shamshir stat durability B
@@ -2206,11 +2208,11 @@ set GreatLance stat might 5
 
 set IronLance stat level 1
 
-set IronLance Stat Weight 14
-set Oxtongue Stat Weight 15
-set Xyston Stat Weight 14
-set GreatLance Stat Weight 16
-set Drakelance Stat Weight 15
+set IronLance Stat Weight 16
+set Oxtongue Stat Weight 17
+set Xyston Stat Weight 16
+set GreatLance Stat Weight 18
+set Drakelance Stat Weight 17
 
 set IronLance Stat Accuracy 60
 set Oxtongue Stat Accuracy 60
