@@ -1962,7 +1962,7 @@ set PoisonMace stat durability C
 
 //blades // blades
 
-set BastardSword stat accuracy 50
+set BastardSword stat accuracy 60
 set Shamshir stat accuracy 60
 set GreatSword stat accuracy 50
 set Zanbato stat accuracy 50
@@ -1986,11 +1986,15 @@ set Brymranger stat weight 9
 set Zanbato effect Nosferatu
 set BastardSword effect cripple-x2
 
-set Shamshir stat level 6
-set BastardSword stat level 10
+set BastardSword stat level 6
+set Shamshir stat level 10
 set Zanbato stat level 14
 set GreatSword stat level 18
 set Adrastia stat level 10
+
+set BastardSword stat might 14
+set Shamshir stat might 16
+set Zanbato stat might 18
 
 set Shamshir stat durability B
 set Zanbato stat durability B
@@ -2002,8 +2006,6 @@ set Balmung stat cost 5000
 set Balmung2 stat cost 5000
 set Balmung3 stat cost 5000
 set Brymranger stat cost 5000
-
-set Zanbato stat might 18
 
 //spears // spears
 
