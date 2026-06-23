@@ -13,7 +13,7 @@
 
 // pitchfork, GoreFork & MilitaryFork got cripple-x2 effect
 
-// Pike, Longspear, Altium, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Holy , Hellfire, Earthblaze & all lance/fork weapons got cripple-x2
+// Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Holy , Hellfire, Earthblaze & all lance/fork weapons got cripple-x2
 
 // Hawkeye, Ollerus & Arbalest got 3 range. Apeiron, Rossweisse, Apollyon & Greatbow got 3 range. Crossbow minimum range is 1
 
@@ -1849,9 +1849,10 @@ set Gram stat accuracy 60
 set LadySword stat accuracy 70
 set Estoc stat accuracy 80
 set Grimhild stat accuracy 70
+set RazeEtoile stat accuracy 60
 
 Set ImperialSword stat cost 1200
-set AltiumSword stat cost 3000
+set AltiumSword stat cost 2000
 set MithrilSword stat cost 4000
 set LevinSword stat cost 4000
 set FlameSword stat cost 4000
@@ -1914,6 +1915,7 @@ Set Vajra stat Weight 10
 Set Vritra stat Weight 5
 
 set Scimitar+ stat Durability D
+set AltiumSword stat Durability B
 set LevinSword stat Durability C
 set InfernalEdge stat Durability C
 set WindEdge stat Durability E
@@ -1923,14 +1925,14 @@ set MithrilSword stat Durability A
 set RazeEtoile stat Durability C
 set LadySword stat Durability C
 
-set VerianSword stat Durability C
+set VerianSword stat Durability D
 set OldImperialSword stat Durability D
-set ImperialSword stat Durability C
+set ImperialSword stat Durability D
 
-set VerianSword stat cost 1200
+set VerianSword stat cost 1000
 set BronzeSword stat cost 1000
 set OldImperialSword cost 600
-set ImperialSword cost 1200
+set ImperialSword cost 1000
 
 //mace
 
@@ -2095,9 +2097,9 @@ set Verutum stat cost 1800
 set Javelin stat cost 2400
 set SlimSpear stat cost 700
 set Harpoon stat cost 1000
-set VerianSpear stat cost 1000
-set ImperialSpear stat cost 1000
-set OldImperialSpear stat cost 500
+set VerianSpear stat cost 800
+set ImperialSpear stat cost 800
+set OldImperialSpear stat cost 400
 set WindSpear stat cost 5000
 set Euthyphro stat cost 5000
 set Doru stat cost 3000
@@ -2121,9 +2123,9 @@ Set Longspear effect cripple-x2
 //set Harpoon stat durability F
 set Angon stat durability B
 
-set VerianSpear stat durability D
-set ImperialSpear stat durability D
-set OldImperialSpear stat durability E
+set VerianSpear stat durability E
+set ImperialSpear stat durability E
+set OldImperialSpear stat durability F
 
 set Harpoon stat level 1
 
@@ -2367,16 +2369,16 @@ set LogSplitter stat durability F
 //set Battleaxe stat durability C
 //set MithrilAxe stat durability A
 
-set VerianAxe stat durability D
-set ImperialAxe stat durability D
-set OldImperialAxe stat durability E
+set VerianAxe stat durability E
+set ImperialAxe stat durability E
+set OldImperialAxe stat durability F
 set Tomahawk stat durability B
 
 set Battleaxe stat cost 1500
 //set GigasAxe stat cost 4000
-set VerianAxe stat cost 600
-set OldImperialAxe stat cost 300
-set ImperialAxe stat cost 600
+set VerianAxe stat cost 400
+set OldImperialAxe stat cost 200
+set ImperialAxe stat cost 400
 set LogSplitter stat cost 1000
 set HandAxe stat cost 1000
 set Francisca stat cost 1800
@@ -2489,15 +2491,17 @@ set IronBow stat durability C
 set Shortbow stat durability F
 set SwiftBow stat durability C
 set Longbow stat durability C
-set Apollyon stat durability B
+set Apollyon stat durability A
 set Apeiron stat durability B
 set TripleFireBow stat durability D
 set SwiftBow stat durability D
+set SereniaBow stat durability B
 
-set BronzeBow stat durability C
-set VerianBow stat durability C
-set ImperialBow stat durability C
-set OldImperialBow stat durability D
+set IronBow stat durability C
+set BronzeBow stat durability D
+set VerianBow stat durability D
+set ImperialBow stat durability D
+set OldImperialBow stat durability E
 
 set ShortBow stat cost 1000
 set Apeiron stat cost 6000
@@ -2514,12 +2518,14 @@ set EmberArrow stat cost 1500
 set FreezeArrow stat cost 1500
 set RaijinArrow stat cost 3000
 set MithrilArrow stat cost 1600
-set SwiftBow stat cost 2000
+set SwiftBow stat cost 3000
+set Apollyon stat cost 4000
 
-set BronzeBow stat cost 900
-set VerianBow stat cost 900
-set ImperialBow stat cost 900
-set OldImperialBow stat cost 450
+set IronBow stat cost 240
+set BronzeBow stat cost 600
+set VerianBow stat cost 600
+set ImperialBow stat cost 600
+set OldImperialBow stat cost 300
 
 set BronzeBow stat might 3
 set ImperialBow stat might 3
@@ -2556,7 +2562,7 @@ set BraveCrossbow stat weight 14
 set Chu-ko-nu stat weight 15
 set Arbalest stat weight 15
 set KillerCrossbow stat weight 12
-set Ollerus stat weight 13
+set Ollerus stat weight 11
 set RapidCrossbow stat weight 15
 set Hawkeye stat weight 13
 
@@ -2589,7 +2595,7 @@ set BraveCrossbow stat might 18
 set Chu-ko-nu stat might 12
 set Arbalest stat might 33
 set KillerCrossbow stat might 17
-set Ollerus stat might 19
+set Ollerus stat might 27
 set RapidCrossbow stat might 18
 set Hawkeye stat might 30
 
@@ -2605,7 +2611,7 @@ set BraveCrossbow stat accuracy 60
 set Chu-ko-nu stat accuracy 60
 set Arbalest stat accuracy 60
 set KillerCrossbow stat accuracy 70
-set Ollerus stat accuracy 60
+set Ollerus stat accuracy 70
 set RapidCrossbow stat accuracy 70
 set Hawkeye stat accuracy 70
 
@@ -2635,23 +2641,28 @@ set VerianCrossbow stat max-range 2
 set Bowgun stat durability F
 set HeavyCrossbow stat durability B
 set KillerCrossbow stat durability C
-set Hawkeye stat durability C
+set RapidCrossbow stat durability B
+set Hawkeye stat durability B
+set Arbalest stat durability B
+set Ollerus stat durability A
 
-set ImperialCrossbow stat durability C
-set OldImperialCrossbow stat durability D
-set VerianCrossbow stat durability C
+set ImperialCrossbow stat durability D
+set OldImperialCrossbow stat durability E
+set VerianCrossbow stat durability D
 
 set Bowgun stat cost 1000
-set ImperialCrossbow stat cost 2000
-set OldImperialCrossbow stat cost 500
-set VerianCrossbow stat cost 2000
-set IronCrossbow stat cost 2000
-set Gastraphetes stat cost 3000
-set HeavyCrossbow stat cost 4000
-set BraveCrossbow stat cost 4000
-set Chu-ko-nu stat cost 5000
-set Arbalest stat cost 6000
-set RapidCrossbow stat cost 7000
+set ImperialCrossbow stat cost 800
+set OldImperialCrossbow stat cost 400
+set VerianCrossbow stat cost 800
+set IronCrossbow stat cost 1000
+set Gastraphetes stat cost 2000
+set HeavyCrossbow stat cost 2600
+set BraveCrossbow stat cost 2800
+set Chu-ko-nu stat cost 3000
+set Arbalest stat cost 4000
+set RapidCrossbow stat cost 5000
+set Hawkeye stat cost 4000
+set Ollerus stat cost 4000
 
 
 // Balistae
@@ -2954,12 +2965,12 @@ set Vollenden stat cost 6000
 set ShiningShield stat cost 4000
 set Aiantos stat cost 3000
 
-Set VerianSShd Stat cost 866
-set OldImpSShd stat cost 866
-set ImpSoldierSShd stat cost 866
-set ImpSoldierSShd++ stat cost 866
-set ImpOfficerSShd stat cost 1300
-set ImpKnightSShd stat cost 1734
+Set VerianSShd Stat cost 600
+set OldImpSShd stat cost 300
+set ImpSoldierSShd stat cost 600
+set ImpSoldierSShd++ stat cost 600
+set ImpOfficerSShd stat cost 1000
+set ImpKnightSShd stat cost 1400
 
 set Vollenden stat accuracy 50
 set OldImpSShd stat accuracy 30
@@ -2991,12 +3002,12 @@ set Vollenden stat durability S
 set LadyShield stat durability A
 set Perseid stat durability S
 
-set VerianSShd stat durability C
-set OldImpSShd stat durability D
-set ImpSoldierSShd stat durability C
-set ImpSoldierSShd++ stat durability C
-set ImpOfficerSShd stat durability C
-set ImpKnightSShd stat durability C
+set VerianSShd stat durability D
+set OldImpSShd stat durability E
+set ImpSoldierSShd stat durability D
+set ImpSoldierSShd++ stat durability D
+set ImpOfficerSShd stat durability D
+set ImpKnightSShd stat durability D
 
 set FireShield stat level 1
 set ThunderShield stat level 1
@@ -3231,11 +3242,11 @@ set Hestia stahield stat durability S
 set PaladinShield stat durability A
 set BlackShield stat durability A
 
-set VerianMShd stat durability B
-set ImpSoldierMShd stat durability B
-set ImpSoldierMShd+ stat durability B
-set ImpOfficerMShd stat durability B
-set ImpKnightMShd stat durability B
+set VerianMShd stat durability C
+set ImpSoldierMShd stat durability C
+set ImpSoldierMShd+ stat durability C
+set ImpOfficerMShd stat durability C
+set ImpKnightMShd stat durability C
 
 set LeatherMShd stat cost 1320
 set Kiteshield stat cost 1760
@@ -3253,11 +3264,11 @@ set ShadowShield stat cost 4400
 set BlazingShield stat cost 4400
 set GaleShield stat cost 4400
 
-set VerianMShd stat cost 2200
-set ImpSoldierMShd cost 2200
-set ImpSoldierMShd+ cost 2200
-set ImpOfficerMShd cost 2640
-set ImpKnightMShd cost 3000
+set VerianMShd stat cost 1800
+set ImpSoldierMShd cost 1800
+set ImpSoldierMShd+ cost 1800
+set ImpOfficerMShd cost 2200
+set ImpKnightMShd cost 2600
 
 set LightningShield stat level 1
 set RadiantShield stat level 1
@@ -3287,10 +3298,10 @@ set KojinShield stat level 1
 set FujinShield stat level 1
 set RaijinShield stat level 1
 
-set ImpKnightLShd stat durability A
-set ImpOfficerLShd stat durability A
-set ImpSoldierLShd stat durability A
-set ImpSoldierLShd+ stat durability A
+set ImpKnightLShd stat durability B
+set ImpOfficerLShd stat durability B
+set ImpSoldierLShd stat durability B
+set ImpSoldierLShd+ stat durability B
 
 set VerianLShd stat level 1
 set LeatherLShd stat level 1
@@ -3363,11 +3374,11 @@ set RaijinShield stat cost 3000
 set GeneralShield stat cost 6000
 set AmaterasuShield stat cost 6000
 
-set ImpSoldierLShd stat cost 2100
-set ImpSoldierLShd+ stat cost 2100
-set VerianLShd stat cost 2100
-set ImpOfficerLShd stat cost 2400
-set ImpKnightLShd stat cost 2700
+set ImpSoldierLShd stat cost 1700
+set ImpSoldierLShd+ stat cost 1700
+set VerianLShd stat cost 1700
+set ImpOfficerLShd stat cost 2000
+set ImpKnightLShd stat cost 2300
 
 Set LeatherLShd Stat Weight 7
 Set WideShield Stat Weight 8
@@ -6067,3 +6078,5 @@ set Arrow++ stat might 8
 // Larentia should be infantry / flier
 // Adel should be infantry / Lt-Cavalry
 // Leon should be infantry / Lt-Cavalry
+
+
