@@ -1067,7 +1067,7 @@ set arthur skill adept
 set arthur skill Windsweep
 set arthur skill sunder
 
-//set kramer skill blade 
+set kramer skill blade 
 set kramer skill canto
 set kramer skill climber
 set kramer skill counter 
@@ -1238,7 +1238,7 @@ set esteban skill magicbane
 set faye skill adept
 set faye skill deathmatch
 set faye skill desperation
-//set faye skill blade 
+set faye skill blade 
 set faye skill canto
 set faye skill flourish
 set faye skill hurry
