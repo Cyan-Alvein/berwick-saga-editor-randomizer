@@ -1760,7 +1760,7 @@ set KillerKnife stat cost 3000
 set Kris stat cost 6000
 set ThrowingKnife stat cost 2000
 set dart stat cost 1200
-set AirKnife stat cost 3000
+set AirKnife stat cost 1500
 set Carnwenhau stat cost 3000
 
 set BoltKnife stat durability E
@@ -1770,7 +1770,7 @@ set kris stat durability C
 set SleepKnife stat durability C
 set AssassinsKnife stat durability D
 set ThiefsKnife stat durability C
-set AirKnife stat durability C
+set AirKnife stat durability E
 set StunKnife stat durability C
 set Vespa stat durability C
 set TempestKnife stat durability C
@@ -1858,7 +1858,7 @@ set FlameSword stat cost 4000
 set Rapier stat cost 3000
 set Estoc stat cost 4000
 set HolySword stat cost 5000
-set WindEdge stat cost 3000
+set WindEdge stat cost 1500
 set InfernalEdge stat cost 5000
 set RazeEtoile stat cost 5000
 set Harperia stat cost 5000
@@ -1915,6 +1915,9 @@ Set Vritra stat Weight 5
 
 set Scimitar+ stat Durability D
 set LevinSword stat Durability C
+set InfernalEdge stat Durability C
+set WindEdge stat Durability E
+set HolySword stat Durability C
 set BronzeSword stat Durability F
 set MithrilSword stat Durability A
 set RazeEtoile stat Durability C
@@ -2004,7 +2007,7 @@ set MithrilSpear stat accuracy 60
 set SteelSpear stat accuracy 60
 set Brionac stat accuracy 60
 set Harpoon stat accuracy 40
-set PrototypeSpear stat accuracy 60
+set PrototypeSpear stat accuracy 50
 set KillerSpear stat accuracy 60
 //set WindSpear stat accuracy 50
 set VerianSpear stat accuracy 60
@@ -2018,6 +2021,7 @@ set Javelin stat might 17
 set Euthyphro stat might 0
 set WindSpear stat might 6
 set Harpoon stat might 10
+set PrototypeSpear stat might 13
 set Fauchard stat might 8
 set Brionac stat might 8
 set KillerSpear stat might 9
@@ -2037,10 +2041,11 @@ set Verutum stat level 10
 set Angon stat level 10
 set SteelSpear stat level 5
 set LongSpear stat level 10
+set PrototypeSpear stat level 7
 set MithrilSpear stat level 15
 set Brionac stat level 10
 set Pike stat level 4
-set Doru stat level 1
+set Doru stat level 12
 set WindSpear stat level 15
 
 //set Partisan stat level 15
@@ -2051,7 +2056,7 @@ set IronSpear stat Weight 6
 set Pilum stat Weight 8
 set SteelSpear stat Weight 7
 set Harpoon stat Weight 8
-set PrototypeSpear stat Weight 8
+set PrototypeSpear stat Weight 6
 set KillerSpear stat Weight 6
 set Pike stat Weight 6
 set Longspear stat Weight 8
@@ -2074,6 +2079,13 @@ set OldImperialSpear stat Weight 7
 set Fauchard stat hex 1
 set Brionac stat hex 2
 
+set Doru stat defense 5
+set Doru stat fire_res 5
+set Doru stat thunder_res 5
+set Doru stat wind_res 5
+set Doru stat holy_res 5
+set Doru stat dark_res 5
+
 set Angon stat cost 3000
 set Brionac stat cost 7000
 set SwiftSpear stat cost 7000
@@ -2088,6 +2100,7 @@ set ImperialSpear stat cost 1000
 set OldImperialSpear stat cost 500
 set WindSpear stat cost 5000
 set Euthyphro stat cost 5000
+set Doru stat cost 3000
 
 set Pilum stat uses 20
 set Verutum stat uses 20
@@ -2099,7 +2112,7 @@ Set Harpoon effect injure-rate 100
 
 Set Longspear effect cripple-x2
 
-//set PrototypeSpear stat durability C
+//set PrototypeSpear stat durability D
 //set Pike stat durability B
 //set Doru stat durability B
 //set MithrilSpear stat durability A
@@ -2133,28 +2146,31 @@ set Pitchfork stat hex 1
 set GoreFork stat hex 1
 set Firebrand stat hex 1
 
-set MilitaryFork stat accuracy 60
+set MilitaryFork stat accuracy 50
 set Pitchfork stat accuracy 60
 set GoreFork stat accuracy 50
-set Firebrand stat accuracy 60
+set Firebrand stat accuracy 50
 
 set GoreFork stat level 8
-set Pitchfork stat cost 1500
-set MilitaryFork stat cost 2000
+set Pitchfork stat cost 500
+set MilitaryFork stat cost 750
 set GoreFork stat cost 3000
-set Firebrand stat cost 4000
+set Firebrand stat cost 1500
 
 set Pitchfork stat weight 6
-set MilitaryFork stat weight 7
+set MilitaryFork stat weight 8
 set Firebrand stat weight 6
-set GoreFork stat weight 8
+set GoreFork stat weight 9
 
 set MilitaryFork stat might 12
 set Firebrand stat might 0
 set Pitchfork stat might 8
-set GoreFork stat might 10
+set GoreFork stat might 8
 
-set Firebrand stat durability D
+set Fireband stat durability E
+set Pitchfork stat durability E
+set MilitaryFork stat durability E
+set GoreFork stat durability C
 
 //lance // lance
 
@@ -2226,7 +2242,7 @@ set Poleax stat might 14
 set Gullveig stat might 19
 set Tomahawk stat might 14
 set GreatAxe stat might 26
-set Shieldaxe stat might 20
+set Shieldaxe stat might 15
 
 set VolcanoAxe effect fire-damage 20
 set GlacierAxe effect wind-damage 20
@@ -2263,7 +2279,7 @@ set GreatAxe stat Weight 11
 set MithrilAxe stat Weight 8
 set Gullveig stat Weight 9
 set Mjollnir stat Weight 5
-set Shieldaxe stat Weight 15
+set Shieldaxe stat Weight 9
 set MaozaWolf stat Weight 13
 set Bhuj stat Weight 9
 //set GigasAxe stat Weight 15
@@ -2307,6 +2323,12 @@ set VerianAxe stat accuracy 50
 set BanditAxe effect steal-rate-plus 50
 set BattleAxe effect cripple-x2
 set Shieldaxe effect parry
+set Shieldaxe stat defense 5
+set Shieldaxe stat fire_res 5
+set Shieldaxe stat thunder_res 5
+set Shieldaxe stat wind_res 5
+set Shieldaxe stat holy_res 5
+set Shieldaxe stat dark_res 5
 set CrookedAxe effect pascanion-backfire
 set BreakerAxe effect break-shield 0
 set BreakerAxe effect disarm-rate 100
@@ -2332,15 +2354,15 @@ set MithrilAxe stat level 15
 set Gullveig stat level 10
 //set GreatAxe stat level 15
 set MaozaWolf stat level 20
-//set Shieldaxe stat level 15
+set Shieldaxe stat level 15
 
 set BanditAxe stat durability D
-set VolcanoAxe stat durability D
-set GlacierAxe stat durability D
-set NimbusAxe stat durability D
-set DarkAxe stat durability D
+set VolcanoAxe stat durability E
+set GlacierAxe stat durability E
+set NimbusAxe stat durability E
+set DarkAxe stat durability E
 set BoltAxe stat durability C
-set Mjollnir stat durability B
+set Mjollnir stat durability C
 set LogSplitter stat durability F
 //set Battleaxe stat durability C
 //set MithrilAxe stat durability A
@@ -2361,11 +2383,12 @@ set Francisca stat cost 1800
 set Hatchet stat cost 2400
 set Gullveig stat cost 3000
 set Tomahawk stat cost 2000
-set VolcanoAxe stat cost 3000
-set GlacierAxe stat cost 3000
-set NimbusAxe stat cost 3000
+set VolcanoAxe stat cost 1500
+set GlacierAxe stat cost 1500
+set NimbusAxe stat cost 1500
 set BoltAxe stat cost 4000
 set Mjollnir stat cost 5000
+set ShieldAxe stat cost 3000
 
 
 // bows
@@ -2487,9 +2510,9 @@ set BronzeArrow stat cost 450
 set IronArrow stat cost 750
 set SteelArrow stat cost 1500
 set ImperialArrow stat cost 750
-set EmberArrow stat cost 1000
-set FreezeArrow stat cost 1000
-set RaijinArrow stat cost 2000
+set EmberArrow stat cost 1500
+set FreezeArrow stat cost 1500
+set RaijinArrow stat cost 3000
 set MithrilArrow stat cost 1600
 set SwiftBow stat cost 2000
 
