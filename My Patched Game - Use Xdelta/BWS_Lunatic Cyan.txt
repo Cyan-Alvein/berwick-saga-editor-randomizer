@@ -2018,7 +2018,9 @@ set VerianSpear stat accuracy 60
 set OldImperialSpear stat accuracy 50
 set ImperialSpear stat accuracy 60
 
-set SlimSpear stat might 6
+set SlimSpear stat might 7
+set Pike stat might 13
+set MithrilSpear stat might 17
 set Pilum stat might 12
 set Verutum stat might 14
 set Javelin stat might 17
@@ -2048,14 +2050,14 @@ set LongSpear stat level 10
 set PrototypeSpear stat level 7
 set MithrilSpear stat level 15
 set Brionac stat level 10
-set Pike stat level 4
+set Pike stat level 7
 set Doru stat level 12
 set WindSpear stat level 15
 
 //set Partisan stat level 15
 //set SwiftSpear stat level 15
 
-set SlimSpear stat Weight 5
+set SlimSpear stat Weight 4
 set IronSpear stat Weight 6
 set Pilum stat Weight 8
 set SteelSpear stat Weight 7
@@ -2066,7 +2068,7 @@ set Pike stat Weight 6
 set Longspear stat Weight 8
 set Verutum stat Weight 9
 set Doru stat Weight 9
-set MithrilSpear stat Weight 5
+set MithrilSpear stat Weight 6
 set WindSpear stat Weight 6
 set Euthyphro stat Weight 6
 set Javelin stat Weight 10
@@ -2082,6 +2084,9 @@ set OldImperialSpear stat Weight 7
 
 set Fauchard stat hex 1
 set Brionac stat hex 2
+set SlimSpear stat hex 0
+set Pike stat hex 0
+set MithrilSpear stat hex 0
 
 set Doru stat defense 5
 set Doru stat fire_res 5
@@ -2238,14 +2243,14 @@ set NimbusAxe stat might 0
 set DarkAxe stat might 2
 set Mjollnir stat might 6
 set BoltAxe stat might 4
-set MithrilAxe stat might 20
+set MithrilAxe stat might 21
 set BarbaricAxe stat might 20
 set CrookedAxe stat might 30
 set BreakerAxe stat might 14
 set Poleax stat might 14
 set Gullveig stat might 19
 set Tomahawk stat might 14
-set GreatAxe stat might 26
+set GreatAxe stat might 25
 set Shieldaxe stat might 15
 
 set VolcanoAxe effect fire-damage 20
