@@ -275,7 +275,7 @@ set izerna item 1 Soothe 20
 set izerna item 2 BlessedBrace 0
 set izerna item 3 Mend 20
 set izerna item 4 Physic 15
-set izerna item 5 holy 10
+set izerna item 5 holy 20
 set izerna item 6 Bag 0
 set izerna item 7 Rehabilitate 10
 set izerna growth holy 70
@@ -1620,7 +1620,7 @@ set Stormtongue stat accuracy 100
 
 set Physic stat max-range 5
 set Holy stat might 20
-set Holy stat uses 10
+set Holy stat uses 20
 set holy effect cripple-x2
 set Starlight effect holy-vantage
 set Starlight effect cripple-x2
