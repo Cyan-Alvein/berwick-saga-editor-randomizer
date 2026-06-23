@@ -2759,7 +2759,7 @@ set Vollenden effect block-holy-damage 20
 set DarkShield effect block-fire-damage 20
 set Windshield effect block-thunder-damage 10
 set LightShield effect block-holy-damage 10
-set ThunderShield effect thunder-damage 10
+set ThunderShield effect block-thunder-damage 10
 set FireShield effect block-fire-damage 10
 set Perseid effect block-holy-damage 10
 
