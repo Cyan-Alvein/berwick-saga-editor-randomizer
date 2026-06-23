@@ -143,7 +143,7 @@ unset RazeMonkOwen skill limited
 //unset marcel skill slowstart2
 //unset Guardian skill slowstart2
 
-set reese item 3 HolySword 101
+set reese item 3 Bag 0
 set reese item 4 RoundShield 101
 set reese item 5 AltiumSword 101
 set reese item 6 Bag 0
@@ -164,7 +164,7 @@ set KnightLord_R cap mshield 50
 set Lord cap sword 60
 
 set ward item 0 KnightSword 101
-set ward item 1 Bag 0
+set ward item 1 HolySword 101
 set ward item 2 SquareShield 101
 set ward item 3 Longspear 101
 set ward item 4 Harpoon 101
@@ -263,7 +263,7 @@ set leon growth sshield 60
 
 set sherlock item 0 IronBow 101
 set sherlock item 1 IronArrow+ 20
-set sherlock item 3 Longbow 101
+set sherlock item 3 Bag 0
 set sherlock item 4 BreakerArrow 20
 set sherlock item 5 BroadheadArrow 20
 set sherlock item 6 Bag 0
@@ -1067,7 +1067,7 @@ set arthur skill adept
 set arthur skill Windsweep
 set arthur skill sunder
 
-set kramer skill blade 
+//set kramer skill blade 
 set kramer skill canto
 set kramer skill climber
 set kramer skill counter 
@@ -1238,7 +1238,7 @@ set esteban skill magicbane
 set faye skill adept
 set faye skill deathmatch
 set faye skill desperation
-set faye skill blade 
+//set faye skill blade 
 set faye skill canto
 set faye skill flourish
 set faye skill hurry
@@ -1986,6 +1986,9 @@ set Brymranger stat weight 9
 set Zanbato effect Nosferatu
 set BastardSword effect cripple-x2
 
+set BastardSword stat level 14
+set Zanbato stat level 16
+set Adrastia stat level 10
 
 set Shamshir stat durability B
 set Zanbato stat durability B
