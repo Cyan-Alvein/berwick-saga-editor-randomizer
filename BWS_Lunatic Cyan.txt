@@ -1691,7 +1691,7 @@ set Vespa stat might 4
 set Airknife stat might 0
 set ThiefsKnife stat might 0
 set Carnwenhau stat might 6
-set StunKnife stat might 1
+set StunKnife stat might 6
 set KillerKnife stat might 4
 set BloodKnife stat might 4
 set TempestKnife stat might 6
@@ -1725,13 +1725,13 @@ set BloodKnife effect dark-damage 0
 set BloodKnife effect nosferatu
 set Swordbreaker effect sword-break 100
 
-set AirKnife stat weight 2
+set AirKnife stat weight 1
 set Dart stat weight 2
 set ThrowingKnife stat weight 3
 set BoltKnife stat weight 4
-set TempestKnife stat weight 2
+set TempestKnife stat weight 1
 set BloodKnife stat weight 5
-set StunKnife stat weight 5
+set StunKnife stat weight 3
 set AssassinsKnife stat weight 5
 set Shieldknife stat weight 3
 set Seax stat weight 3
@@ -1972,7 +1972,7 @@ set Balmung3 stat accuracy 70
 set Brymranger stat accuracy 50
 
 set BastardSword stat weight 8
-set Zanbato stat weight 8
+set Zanbato stat weight 9
 set Shamshir stat weight 7
 set GreatSword stat weight 10
 set Adrastia stat weight 9
@@ -1991,10 +1991,12 @@ set Shamshir stat durability B
 set Zanbato stat durability B
 
 set Zanbato stat cost 4000
-set Balmung stat cost 6000
-set Balmung2 stat cost 6000
-set Balmung3 stat cost 6000
-set Brymranger stat cost 6000
+set Adrastia stat cost 5000
+set Zweihander stat cost 5000
+set Balmung stat cost 5000
+set Balmung2 stat cost 5000
+set Balmung3 stat cost 5000
+set Brymranger stat cost 5000
 
 set Zanbato stat might 18
 
@@ -2357,6 +2359,8 @@ set Gullveig stat level 10
 //set GreatAxe stat level 15
 set MaozaWolf stat level 20
 set Shieldaxe stat level 15
+set BreakerAxe stat level 12
+set Poleax stat level 12
 
 set BanditAxe stat durability D
 set VolcanoAxe stat durability E
