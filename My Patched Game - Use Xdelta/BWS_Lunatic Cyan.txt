@@ -13,7 +13,7 @@
 
 // pitchfork, GoreFork & MilitaryFork got cripple-x2 effect
 
-// Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Holy , Hellfire, Earthblaze & all lance/fork weapons got cripple-x2
+// Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Swordbreaker, Holy , Hellfire, Earthblaze & all lance/fork weapons got cripple-x2
 
 // Hawkeye, Ollerus & Arbalest got 3 range. Apeiron, Rossweisse, Apollyon & Greatbow got 3 range. Crossbow minimum range is 1
 
@@ -1701,11 +1701,11 @@ set Shieldknife stat might 2
 set Crotalus stat might 2
 set Kris stat might 2
 set ThrowingKnife stat might 6
-set Swordbreaker stat might 1
+set Swordbreaker stat might 6
 set PoisonKnife stat might 2
 set SleepKnife stat might 2
 set BoltKnife stat might 2
-set AssassinsKnife stat might 0
+set AssassinsKnife stat might 4
 set LetterOpener stat might 1
 set MainGauche stat might 2
 
@@ -1726,18 +1726,20 @@ set AirKnife effect wind-damage 20
 set BloodKnife effect dark-damage 0
 set BloodKnife effect nosferatu
 set Swordbreaker effect sword-break 100
+set Swordbreaker effect cripple-x2
+set stunknife effect disarm-rate 100
 
 set AirKnife stat weight 1
 set Dart stat weight 2
 set ThrowingKnife stat weight 3
 set BoltKnife stat weight 4
 set TempestKnife stat weight 1
-set BloodKnife stat weight 5
+set BloodKnife stat weight 1
 set StunKnife stat weight 3
-set AssassinsKnife stat weight 5
 set Shieldknife stat weight 3
 set Seax stat weight 3
 set KillerKnife stat weight 2
+set AssassinsKnife stat weight 2
 
 set dart stat level 1
 set dart stat uses 20
@@ -1745,8 +1747,8 @@ set Seax stat level 10
 set BloodKnife stat level 10
 set Vespa stat level 5
 set TempestKnife stat level 10
-set Swordbreaker stat level 12
-set AssassinsKnife stat level 30
+set Swordbreaker stat level 10
+set AssassinsKnife stat level 20
 set Airknife stat level 3
 set ThrowingKnife stat level 15
 set StunKnife stat level 12
@@ -1756,21 +1758,23 @@ set Kris stat level 10
 set BoltKnife stat level 1
 
 set ThiefsKnife stat cost 1000
-set AssassinsKnife stat cost 3000
+set AssassinsKnife stat cost 6000
 set BloodKnife stat cost 3000
 set KillerKnife stat cost 3000
 set Kris stat cost 6000
 set ThrowingKnife stat cost 2000
+set Swordbreaker stat cost 2000
 set dart stat cost 1200
-set AirKnife stat cost 1500
+set AirKnife stat cost 3000
 set Carnwenhau stat cost 3000
+set TempestKnife stat cost 6000
 
 set BoltKnife stat durability E
 set LetterOpener stat durability D
 set Bloodknife stat durability C
 set kris stat durability C
 set SleepKnife stat durability C
-set AssassinsKnife stat durability D
+set AssassinsKnife stat durability F
 set ThiefsKnife stat durability C
 set AirKnife stat durability E
 set StunKnife stat durability C
@@ -1784,18 +1788,16 @@ set Seax stat accuracy 50
 set Carnwenhau stat accuracy 60
 set stunknife stat accuracy 40
 set BoltKnife stat accuracy 40
-set Swordbreaker stat accuracy 40
+set Swordbreaker stat accuracy 60
 set ThiefsKnife stat accuracy 50
 set KillerKnife stat accuracy 70
-set AssassinsKnife stat accuracy 80
+set AssassinsKnife stat accuracy 70
 set Shieldknife stat accuracy 40
 set Crotalus stat accuracy 60
 set kris stat accuracy 60
 set maingauche stat accuracy 50
 set ThrowingKnife stat accuracy 40
 set AirKnife stat accuracy 40
-
-set stunknife effect disarm-rate 100
 
 //swords
 
@@ -1860,9 +1862,9 @@ set LevinSword stat cost 4000
 set FlameSword stat cost 4000
 set Rapier stat cost 3000
 set Estoc stat cost 4000
-set HolySword stat cost 5000
-set WindEdge stat cost 1500
-set InfernalEdge stat cost 5000
+set HolySword stat cost 6000
+set WindEdge stat cost 2000
+set InfernalEdge stat cost 6000
 set RazeEtoile stat cost 5000
 set Harperia stat cost 5000
 set Colichemarde stat cost 6000
@@ -2022,7 +2024,8 @@ set Brionac stat accuracy 60
 set Harpoon stat accuracy 40
 set PrototypeSpear stat accuracy 50
 set KillerSpear stat accuracy 60
-//set WindSpear stat accuracy 50
+set WindSpear stat accuracy 60
+set Euthyphro stat accuracy 60
 set VerianSpear stat accuracy 60
 set OldImperialSpear stat accuracy 50
 set ImperialSpear stat accuracy 60
@@ -2033,13 +2036,14 @@ set MithrilSpear stat might 17
 set Pilum stat might 12
 set Verutum stat might 14
 set Javelin stat might 17
-set Euthyphro stat might 0
-set WindSpear stat might 6
+set Euthyphro stat might 5
+set WindSpear stat might 5
 set Harpoon stat might 10
 set PrototypeSpear stat might 13
 set Fauchard stat might 8
 set Brionac stat might 8
 set KillerSpear stat might 9
+set Partisan stat might 21
 set Angon stat might 17
 set Angon stat crit 0
 
@@ -2078,8 +2082,8 @@ set Longspear stat Weight 8
 set Verutum stat Weight 9
 set Doru stat Weight 9
 set MithrilSpear stat Weight 6
-set WindSpear stat Weight 6
-set Euthyphro stat Weight 6
+set WindSpear stat Weight 7
+set Euthyphro stat Weight 7
 set Javelin stat Weight 10
 set Partisan stat Weight 10
 set Angon stat Weight 9
@@ -2116,8 +2120,8 @@ set Harpoon stat cost 1000
 set VerianSpear stat cost 800
 set ImperialSpear stat cost 800
 set OldImperialSpear stat cost 400
-set WindSpear stat cost 5000
-set Euthyphro stat cost 5000
+set WindSpear stat cost 6000
+set Euthyphro stat cost 6000
 set Doru stat cost 3000
 
 set Pilum stat uses 20
@@ -2131,10 +2135,10 @@ Set Harpoon effect injure-rate 100
 Set Longspear effect cripple-x2
 
 //set PrototypeSpear stat durability D
-//set Pike stat durability B
-//set Doru stat durability B
-//set MithrilSpear stat durability A
-//set Partisan stat durability B
+set Pike stat durability B
+set Doru stat durability B
+set MithrilSpear stat durability A
+set Partisan stat durability B
 //set Brionac stat durability B
 //set Harpoon stat durability F
 set Angon stat durability B
@@ -2173,7 +2177,7 @@ set GoreFork stat level 8
 set Pitchfork stat cost 500
 set MilitaryFork stat cost 750
 set GoreFork stat cost 3000
-set Firebrand stat cost 1500
+set Firebrand stat cost 2000
 
 set Pitchfork stat weight 6
 set MilitaryFork stat weight 8
@@ -2181,7 +2185,7 @@ set Firebrand stat weight 6
 set GoreFork stat weight 9
 
 set MilitaryFork stat might 12
-set Firebrand stat might 0
+set Firebrand stat might 4
 set Pitchfork stat might 8
 set GoreFork stat might 8
 
@@ -2239,6 +2243,7 @@ set Drakelance stat cost 7000
 
 set BanditAxe stat might 6
 set Pickaxe stat might 6
+set BattleSaw stat might 6
 set ImperialAxe stat might 10
 set LogSplitter stat might 10
 set OldImperialAxe stat might 8
@@ -2246,21 +2251,22 @@ set HandAxe stat might 14
 set Francisca stat might 16
 set Hatchet stat might 19
 set Hatchet stat crit 0
-set VolcanoAxe stat might 0
-set GlacierAxe stat might 0
-set NimbusAxe stat might 0
-set DarkAxe stat might 2
-set Mjollnir stat might 6
-set BoltAxe stat might 4
-set MithrilAxe stat might 21
+set VolcanoAxe stat might 1
+set GlacierAxe stat might 1
+set NimbusAxe stat might 1
+set DarkAxe stat might 1
+set Mjollnir stat might 7
+set BoltAxe stat might 5
+set MithrilAxe stat might 22
 set BarbaricAxe stat might 20
 set CrookedAxe stat might 30
 set BreakerAxe stat might 14
 set Poleax stat might 14
 set Gullveig stat might 19
 set Tomahawk stat might 14
-set GreatAxe stat might 25
-set Shieldaxe stat might 15
+set GreatAxe stat might 30
+set Shieldaxe stat might 10
+set GigasAxe stat might 10
 
 set VolcanoAxe effect fire-damage 20
 set GlacierAxe effect wind-damage 20
@@ -2275,7 +2281,7 @@ set Pickaxe stat Weight 4
 set BattleSaw stat Weight 7
 set HandAxe stat Weight 8
 set BarbaricAxe stat Weight 11
-set CrookedAxe stat Weight 12
+set CrookedAxe stat Weight 15
 //set IronAxe stat Weight 6
 set Francisca stat Weight 9
 set Battleaxe stat Weight 8
@@ -2292,15 +2298,15 @@ set Tomahawk stat Weight 8
 //set BoltAxe stat Weight 7
 //set KillerAxe stat Weight 6
 set Hammer stat Weight 12
-set GreatAxe stat Weight 11
+set GreatAxe stat Weight 15
 //set Tabarzin stat Weight 8
 set MithrilAxe stat Weight 8
 set Gullveig stat Weight 9
 set Mjollnir stat Weight 5
-set Shieldaxe stat Weight 9
+set Shieldaxe stat Weight 15
 set MaozaWolf stat Weight 13
 set Bhuj stat Weight 9
-//set GigasAxe stat Weight 15
+set GigasAxe stat Weight 15
 set VerianAxe stat Weight 6
 set OldImperialAxe stat Weight 8
 set ImperialAxe stat Weight 6
@@ -2341,12 +2347,7 @@ set VerianAxe stat accuracy 50
 set BanditAxe effect steal-rate-plus 50
 set BattleAxe effect cripple-x2
 set Shieldaxe effect parry
-set Shieldaxe stat defense 5
-set Shieldaxe stat fire_res 5
-set Shieldaxe stat thunder_res 5
-set Shieldaxe stat wind_res 5
-set Shieldaxe stat holy_res 5
-set Shieldaxe stat dark_res 5
+set Shieldaxe stat defense 10
 set CrookedAxe effect pascanion-backfire
 set BreakerAxe effect break-shield 0
 set BreakerAxe effect disarm-rate 100
@@ -2357,7 +2358,7 @@ set Battleaxe stat level 10
 set Francisca stat level 10
 set Hatchet stat level 15
 set Broadaxe stat level 5
-set GigasAxe stat level 30
+set GigasAxe stat level 16
 set Hammer stat level 15
 set Tomahawk stat level 15
 set MaozaWolf stat level 15
@@ -2371,42 +2372,56 @@ set Tabarzin stat level 10
 set MithrilAxe stat level 15
 set Gullveig stat level 10
 //set GreatAxe stat level 15
-set MaozaWolf stat level 20
-set Shieldaxe stat level 15
+set MaozaWolf stat level 16
+set Shieldaxe stat level 16
 set BreakerAxe stat level 12
 set Poleax stat level 12
 
 set BanditAxe stat durability D
-set VolcanoAxe stat durability E
-set GlacierAxe stat durability E
-set NimbusAxe stat durability E
-set DarkAxe stat durability E
-set BoltAxe stat durability C
-set Mjollnir stat durability C
+set Broadaxe stat durability D
+set VolcanoAxe stat durability F
+set GlacierAxe stat durability F
+set NimbusAxe stat durability F
+set DarkAxe stat durability F
+set BoltAxe stat durability D
+set Mjollnir stat durability D
+set KillerAxe stat durability D
+set Hammer stat durability E
+set Gullveig stat durability C
+set ShieldAxe stat durability D
 set LogSplitter stat durability F
-//set Battleaxe stat durability C
-//set MithrilAxe stat durability A
+set Tomahawk stat durability D
+set Battleaxe stat durability C
+set MithrilAxe stat durability B
+set Bhuj stat durability C
 
 set VerianAxe stat durability E
 set ImperialAxe stat durability E
 set OldImperialAxe stat durability F
-set Tomahawk stat durability B
 
-set Battleaxe stat cost 1500
-//set GigasAxe stat cost 4000
-set VerianAxe stat cost 400
+set IronAxe stat cost 1000
+set BroadAxe stat cost 1000
+set Gullveig stat cost 2000
+set Tomahawk stat cost 1000
+set GreatAxe stat cost 3000
+set MithrilAxe stat cost 3000
+set BattleSaw stat cost 1000
+set Battleaxe stat cost 1400
+set GigasAxe stat cost 3000
+set VerianAxe stat cost 800
 set OldImperialAxe stat cost 200
-set ImperialAxe stat cost 400
+set ImperialAxe stat cost 800
 set LogSplitter stat cost 1000
 set HandAxe stat cost 1000
 set Francisca stat cost 1800
 set Hatchet stat cost 2400
 set Gullveig stat cost 3000
 set Tomahawk stat cost 2000
-set VolcanoAxe stat cost 1500
-set GlacierAxe stat cost 1500
-set NimbusAxe stat cost 1500
-set BoltAxe stat cost 4000
+set VolcanoAxe stat cost 2000
+set GlacierAxe stat cost 2000
+set NimbusAxe stat cost 2000
+set DarkAxe stat cost 2000
+set BoltAxe stat cost 3000
 set Mjollnir stat cost 5000
 set ShieldAxe stat cost 3000
 
@@ -2523,18 +2538,18 @@ set OldImperialBow stat durability E
 
 set ShortBow stat cost 1000
 set Apeiron stat cost 6000
-set SereniaBow stat cost 5000
-set Pascanion2 stat cost 7000
-set Pascanion stat cost 7000
+set SereniaBow stat cost 6000
+set Pascanion2 stat cost 9000
+set Pascanion stat cost 9000
 set WoodenArrow stat cost 150
 set StoneArrow stat cost 300
 set BronzeArrow stat cost 450
 set IronArrow stat cost 750
 set SteelArrow stat cost 1500
 set ImperialArrow stat cost 750
-set EmberArrow stat cost 1500
-set FreezeArrow stat cost 1500
-set RaijinArrow stat cost 3000
+set EmberArrow stat cost 2300
+set FreezeArrow stat cost 2300
+set RaijinArrow stat cost 4000
 set MithrilArrow stat cost 1600
 set SwiftBow stat cost 3000
 set Apollyon stat cost 4000
@@ -6098,4 +6113,3 @@ set Arrow++ stat might 8
 // Leon should be infantry / Lt-Cavalry
 // Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
 // Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
-
