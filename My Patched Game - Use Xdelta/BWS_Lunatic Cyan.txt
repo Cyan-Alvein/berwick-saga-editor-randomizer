@@ -337,7 +337,7 @@ set Enid item 2 Thunder 20
 set Enid item 3 Earthblaze 18
 set Enid item 4 FireRing 0
 set Enid item 5 Bag 0
-set Enid item 6 Lightning 15
+set Enid item 6 Bag 0
 set Enid item 7 Fire 20
 set Enid growth sword 100
 set Enid growth fire 100
@@ -465,7 +465,7 @@ set perceval item 1 Thunder 20
 set perceval item 2 Treasure 101
 set perceval item 3 Lightning 15
 set perceval item 4 Bag 0
-set perceval item 5 Blizzard 15
+set perceval item 5 Bag 0
 set perceval item 6 TigerBrace 0
 set perceval item 7 Windstorm 60
 set perceval growth wind 80
@@ -1173,6 +1173,7 @@ set sylvis skill doubleshot
 set sylvis skill sunder
 set sylvis skill onetwo
 set sylvis skill magicbane
+set sylvis skill deathmatch
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -1234,6 +1235,7 @@ set esteban skill throw
 set esteban skill vantage
 set esteban skill sunder
 set esteban skill magicbane
+set esteban skill deathmatch
 	
 set faye skill adept
 set faye skill deathmatch
@@ -6094,5 +6096,6 @@ set Arrow++ stat might 8
 // Larentia should be infantry / flier
 // Adel should be infantry / Lt-Cavalry
 // Leon should be infantry / Lt-Cavalry
-
+// Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
+// Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
 
