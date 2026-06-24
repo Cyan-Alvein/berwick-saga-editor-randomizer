@@ -3543,11 +3543,13 @@ set GuardBrace stat dark_res 15
 
 set SpiritBrace stat magic 2
 set SpiritBrace stat avoid 6
-set SpiritBrace stat fire_res 15
-set SpiritBrace stat thunder_res 15
-set SpiritBrace stat wind_res 15
-set SpiritBrace stat holy_res 15
-set SpiritBrace stat dark_res 15
+set SpiritBrace stat hit 6
+set SpiritBrace stat avoid 6
+//set SpiritBrace stat fire_res 15
+//set SpiritBrace stat thunder_res 15
+//set SpiritBrace stat wind_res 15
+//set SpiritBrace stat holy_res 15
+//set SpiritBrace stat dark_res 15
 
 set EagleBrace stat hit 6
 set EagleBrace stat avoid 6
@@ -3595,13 +3597,15 @@ set PegasusBrace stat dark_res 15
 set PegasusBrace stat cost 3600
 
 set BlessedBrace stat magic 3
+set BlessedBrace stat hit 6
+set BlessedBrace stat avoid 6
 set BlessedBrace stat speed 0
 set BlessedBrace stat avoid 0
-set BlessedBrace stat fire_res 15
-set BlessedBrace stat thunder_res 15
-set BlessedBrace stat wind_res 15
-set BlessedBrace stat holy_res 15
-set BlessedBrace stat dark_res 15
+//set BlessedBrace stat fire_res 15
+//set BlessedBrace stat thunder_res 15
+//set BlessedBrace stat wind_res 15
+//set BlessedBrace stat holy_res 15
+//set BlessedBrace stat dark_res 15
 set BlessedBrace stat cost 3600
 
 set DivineBrace stat magic 4
@@ -3626,8 +3630,7 @@ set GamblersBrace stat avoid 0
 //set GamblersBrace stat dark_res 15
 set GamblersBrace stat cost 3600
 
-set LightRing stat hit 6
-set LightRing stat avoid 6
+set LightRing effect block-holy-damage 20
 set LightRing stat fire_res 10
 set LightRing stat thunder_res 10
 set LightRing stat wind_res 10
@@ -3711,7 +3714,7 @@ set DuskCharm stat avoid 12
 //set DuskCharm stat dark_res 10
 //set DuskCharm stat cost 3600
 
-// skill hide I think
+// skill hide
 set VanishCharm stat speed 4
 //set VanishCharm stat fire_res 10
 //set VanishCharm stat thunder_res 10
@@ -6113,3 +6116,7 @@ set Arrow++ stat might 8
 // Leon should be infantry / Lt-Cavalry
 // Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
 // Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
+
+set Hunter skill deathmatch
+set HighHunter skill deathmatch
+set Sniper skill deathmatch
