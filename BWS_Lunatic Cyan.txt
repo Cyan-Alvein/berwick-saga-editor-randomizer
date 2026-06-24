@@ -37,11 +37,9 @@
 
 // the skill desperation while attacking with a lance bug, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
 
-// Accessories item got huge buff, SpiritBrace = magic +2, BlessedBrace = Magic +3 Speed -2, DivineBrace (Aegina own it)= Magic +4 Defense -2 Speed -2
-
 // All rings give +15 magic resistance and + 20 block magic damage for each element. Ring like windring give +30 wind resist.
 
-// TigerBrace = Hit +9 Avoid 0, EagleBrace = Hit +6 Avoid +6, GuardBrace = defense +2, FeatherBrace = Speed +2, all accessory without stat bonus get EagleBrace bonus, so MiracleCharm = Hit +6 Avoid +6. You get the idea
+// SpiritBrace = magic +2 hit +6 avoid +6, BlessedBrace = Magic +3 hit +3 avoid +3, DivineBrace (Aegina own it)= Magic +4, EagleBrace = hit +9 avoid +3 ...
 
 // All player magic weapon (Exept Dark) got +1 range, so AirBlade = 2 range, DireThunder = 3 range
 
@@ -2464,7 +2462,7 @@ set KillerArrow stat accuracy 10
 set BodkinArrow stat accuracy 10
 set PoisonArrow stat accuracy 10
 set SleepArrow stat accuracy 10
-//set MithrilArrow stat accuracy 10
+set MithrilArrow stat accuracy 10
 
 set Apeiron stat level 1
 set Longbow stat level 5
@@ -2550,7 +2548,7 @@ set ImperialArrow stat cost 750
 set EmberArrow stat cost 2300
 set FreezeArrow stat cost 2300
 set RaijinArrow stat cost 4000
-set MithrilArrow stat cost 1600
+set MithrilArrow stat cost 2400
 set SwiftBow stat cost 3000
 set Apollyon stat cost 4000
 
