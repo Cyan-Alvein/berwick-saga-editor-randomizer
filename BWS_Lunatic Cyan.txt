@@ -3518,7 +3518,8 @@ Set ImpKnightLShd Stat dark_res 23
 //Accessories Buff
 
 set FeatherBrace stat speed 2
-set FeatherBrace stat avoid 6
+set FeatherBrace stat hit 3
+set FeatherBrace stat avoid 3
 set FeatherBrace stat fire_res 15
 set FeatherBrace stat thunder_res 15
 set FeatherBrace stat wind_res 15
@@ -3526,7 +3527,8 @@ set FeatherBrace stat holy_res 15
 set FeatherBrace stat dark_res 15
 
 set MuscleBrace stat strength 2
-set MuscleBrace stat avoid 6
+set MuscleBrace stat hit 3
+set MuscleBrace stat avoid 3
 set MuscleBrace stat fire_res 15
 set MuscleBrace stat thunder_res 15
 set MuscleBrace stat wind_res 15
@@ -3534,7 +3536,8 @@ set MuscleBrace stat holy_res 15
 set MuscleBrace stat dark_res 15
 
 set GuardBrace stat defense 2
-set GuardBrace stat avoid 6
+set GuardBrace stat hit 3
+set GuardBrace stat avoid 3
 set GuardBrace stat fire_res 15
 set GuardBrace stat thunder_res 15
 set GuardBrace stat wind_res 15
@@ -3542,24 +3545,23 @@ set GuardBrace stat holy_res 15
 set GuardBrace stat dark_res 15
 
 set SpiritBrace stat magic 2
+set SpiritBrace stat hit 6
 set SpiritBrace stat avoid 6
-set SpiritBrace stat hit 9
-set SpiritBrace stat avoid 9
 //set SpiritBrace stat fire_res 15
 //set SpiritBrace stat thunder_res 15
 //set SpiritBrace stat wind_res 15
 //set SpiritBrace stat holy_res 15
 //set SpiritBrace stat dark_res 15
 
-set EagleBrace stat hit 6
-set EagleBrace stat avoid 6
+set EagleBrace stat hit 9
+set EagleBrace stat avoid 3
 set EagleBrace stat fire_res 15
 set EagleBrace stat thunder_res 15
 set EagleBrace stat wind_res 15
 set EagleBrace stat holy_res 15
 set EagleBrace stat dark_res 15
 
-set TigerBrace stat hit 9
+set TigerBrace stat hit 12
 set TigerBrace stat avoid 0
 set TigerBrace stat fire_res 15
 set TigerBrace stat thunder_res 15
@@ -3597,10 +3599,9 @@ set PegasusBrace stat dark_res 15
 set PegasusBrace stat cost 3600
 
 set BlessedBrace stat magic 3
-set BlessedBrace stat hit 6
-set BlessedBrace stat avoid 6
+set BlessedBrace stat hit 3
+set BlessedBrace stat avoid 3
 set BlessedBrace stat speed 0
-set BlessedBrace stat avoid 0
 //set BlessedBrace stat fire_res 15
 //set BlessedBrace stat thunder_res 15
 //set BlessedBrace stat wind_res 15
@@ -3631,35 +3632,35 @@ set GamblersBrace stat avoid 0
 set GamblersBrace stat cost 3600
 
 set LightRing effect block-holy-damage 20
-set LightRing stat fire_res 10
-set LightRing stat thunder_res 10
-set LightRing stat wind_res 10
-set LightRing stat holy_res 10
-set LightRing stat dark_res 30
+//set LightRing stat fire_res 10
+//set LightRing stat thunder_res 10
+//set LightRing stat wind_res 10
+set LightRing stat holy_res 20
+set LightRing stat dark_res 20
 set LightRing stat cost 3600
 
 set WindRing effect block-holy-damage 20
-set WindRing stat fire_res 10
-set WindRing stat thunder_res 10
-set WindRing stat wind_res 30
-set WindRing stat holy_res 10
-set WindRing stat dark_res 10
+//set WindRing stat fire_res 10
+//set WindRing stat thunder_res 10
+set WindRing stat wind_res 20
+//set WindRing stat holy_res 10
+//set WindRing stat dark_res 10
 set WindRing stat cost 3600
 
 set ThunderRing effect block-thunder-damage 20
-set ThunderRing stat fire_res 10
-set ThunderRing stat thunder_res 30
-set ThunderRing stat wind_res 10
-set ThunderRing stat holy_res 10
-set ThunderRing stat dark_res 10
+//set ThunderRing stat fire_res 10
+set ThunderRing stat thunder_res 20
+//set ThunderRing stat wind_res 10
+//set ThunderRing stat holy_res 10
+//set ThunderRing stat dark_res 10
 set ThunderRing stat cost 3600
 
 set FireRing effect block-fire-damage 20
-set FireRing stat fire_res 30
-set FireRing stat thunder_res 10
-set FireRing stat wind_res 10
-set FireRing stat holy_res 10
-set FireRing stat dark_res 10
+set FireRing stat fire_res 20
+//set FireRing stat thunder_res 10
+//set FireRing stat wind_res 10
+//set FireRing stat holy_res 10
+//set FireRing stat dark_res 10
 set FireRing stat cost 3600
 
 set HealthCharm stat hit 6
@@ -3705,8 +3706,7 @@ set ThiefsCharm stat holy_res 10
 set ThiefsCharm stat dark_res 10
 set ThiefsCharm stat cost 3600
 
-set DuskCharm stat hit 6
-set DuskCharm stat avoid 12
+set DuskCharm stat avoid 15
 //set DuskCharm stat fire_res 10
 //set DuskCharm stat thunder_res 10
 //set DuskCharm stat wind_res 10
@@ -3723,8 +3723,7 @@ set VanishCharm stat speed 4
 //set VanishCharm stat dark_res 10
 //set VanishCharm stat cost 3600
 
-set DawnCharm stat hit 12
-set DawnCharm stat avoid 6
+set DawnCharm stat hit 15
 //set DawnCharm stat fire_res 10
 //set DawnCharm stat thunder_res 10
 //set DawnCharm stat wind_res 10
@@ -6116,3 +6115,7 @@ set Arrow++ stat might 8
 // Leon should be infantry / Lt-Cavalry
 // Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
 // Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
+
+set Hunter skill deathmatch
+set HighHunter skill deathmatch
+set Sniper skill deathmatch
