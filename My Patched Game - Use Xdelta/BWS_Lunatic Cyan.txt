@@ -3632,6 +3632,7 @@ set GamblersBrace stat avoid 0
 set GamblersBrace stat cost 3600
 
 set LightRing effect block-holy-damage 20
+set LightRing stat avoid 0
 //set LightRing stat fire_res 10
 //set LightRing stat thunder_res 10
 //set LightRing stat wind_res 10
@@ -6115,7 +6116,3 @@ set Arrow++ stat might 8
 // Leon should be infantry / Lt-Cavalry
 // Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
 // Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
-
-set Hunter skill deathmatch
-set HighHunter skill deathmatch
-set Sniper skill deathmatch
