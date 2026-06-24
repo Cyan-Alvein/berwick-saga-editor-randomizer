@@ -245,7 +245,7 @@ set adel item 6 Pilum 20
 set adel item 7 Harpoon 101
 set adel base sshield +20
 set adel base spear +20
-set adel growth spear 50
+set adel growth spear 70
 set adel growth shield 100
 
 set leon item 0 IronSpear 101
@@ -309,8 +309,8 @@ set aegina growth wind 100
 set aegina growth fire 80
 set aegina growth mind 20
 set aegina base speed +5
-set aegina base fire +20
-set aegina base wind +20
+set aegina base fire +40
+set aegina base wind +40
 set aegina base mind +1
 
 set daoud growth axe 80
@@ -328,9 +328,9 @@ set Daoud base axe +20
 set Daoud base sshield +20
 set Daoud base mshield +20
 
-set enid base sword +20
+set enid base sword +40
 set enid base fire +40
-set enid base thunder +30
+set enid base thunder +40
 set enid base mind +1
 set Enid item 1 Hellfire 20
 set Enid item 2 Thunder 20
@@ -373,10 +373,10 @@ set alvina growth spear 80
 set alvina growth sshield 90
 set alvina growth mshield 90
 set alvina growth mind 0
-set alvina base sword +20
-set alvina base spear +20
-set alvina base sshield +20
-set alvina base mshield +20
+set alvina base sword +25
+set alvina base spear +25
+set alvina base sshield +25
+set alvina base mshield +25
 
 set ruby item 1 Pike 101
 set ruby item 2 LadyShield 101
@@ -471,9 +471,9 @@ set perceval item 7 Windstorm 60
 set perceval growth wind 80
 set perceval growth thunder 100
 set perceval growth mind 20
-set perceval base thunder +20
+set perceval base thunder +40
+set perceval base wind +40
 set perceval base speed +5
-set perceval base wind +20
 set perceval base mind +1
 
 set thaddy item 2 FeatherBrace 0
@@ -529,7 +529,7 @@ set volo item 5 BastardSword 101
 set volo item 6 PhoenixBrace 0
 set volo item 7 MiracleCharm 0
 set volo growth sword 100
-set volo base sword +25
+set volo base sword +30
 
 //set sherpa growth sword 90
 set Sherpa item 1 Zanbato 101
@@ -551,8 +551,8 @@ set clifford growth sword 70
 set clifford growth spear 50
 set clifford growth sshield 60
 set clifford growth mshield 60
-set clifford base sword +20
-set clifford base spear +20
+set clifford base sword +25
+set clifford base spear +25
 set clifford base sshield +20
 set clifford base mshield +20
 
@@ -565,7 +565,7 @@ set axel item 5 ThiefsCharm 0
 set axel item 6 PegasusBrace 0
 set axel item 7 Treasure 101
 set axel base axe +20
-set axel growth axe 50
+set axel growth axe 70
 
 set larentia item 2 LadySword 101
 set larentia item 3 Pilum 20
@@ -573,12 +573,12 @@ set larentia item 4 Treasure 101
 set larentia item 5 Treasure 101
 set larentia item 6 SteelSpear 101
 set larentia item 7 Longspear 101
-set larentia growth sword 50
-set larentia growth spear 70
-set larentia growth sshield 40
-set larentia base sword +20
-set larentia base spear +20
-set larentia base sshield +20
+set larentia growth sword 80
+set larentia growth spear 100
+set larentia growth sshield 70
+set larentia base sword +25
+set larentia base spear +25
+set larentia base sshield +25
 set WyvernKnightLarentia_R cap Spear 50
 set WyvernKnightLarentia cap Spear 50
 set WyvernKnight cap Spear 50
@@ -646,9 +646,9 @@ set lynette item 4 DireThunder 20
 set lynette item 5 SteelArrow+ 20
 set lynette item 6 MithrilArrow 20
 set lynette item 7 LadySword 101
-set lynette base thunder +25
-set lynette base sword +25
-set lynette base bow +25
+set lynette base thunder +40
+set lynette base sword +40
+set lynette base bow +40
 set lynette base speed +5
 set lynette growth bow 100
 set lynette growth thunder 100
@@ -6113,3 +6113,4 @@ set Arrow++ stat might 8
 // Leon should be infantry / Lt-Cavalry
 // Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
 // Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
+
