@@ -3543,8 +3543,8 @@ set GuardBrace stat dark_res 15
 
 set SpiritBrace stat magic 2
 set SpiritBrace stat avoid 6
-set SpiritBrace stat hit 6
-set SpiritBrace stat avoid 6
+set SpiritBrace stat hit 9
+set SpiritBrace stat avoid 9
 //set SpiritBrace stat fire_res 15
 //set SpiritBrace stat thunder_res 15
 //set SpiritBrace stat wind_res 15
@@ -6116,7 +6116,3 @@ set Arrow++ stat might 8
 // Leon should be infantry / Lt-Cavalry
 // Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
 // Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
-
-set Hunter skill deathmatch
-set HighHunter skill deathmatch
-set Sniper skill deathmatch
