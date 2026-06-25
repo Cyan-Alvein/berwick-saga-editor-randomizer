@@ -566,6 +566,7 @@ set axel item 7 Treasure 101
 set axel base axe +20
 set axel growth axe 70
 
+// Since I can't increase larentia stat on wyvern, I gave her basic horse bonus stat.
 set larentia item 2 LadySword 101
 set larentia item 3 Pilum 20
 set larentia item 4 Treasure 101
@@ -578,6 +579,10 @@ set larentia growth sshield 70
 set larentia base sword +25
 set larentia base spear +25
 set larentia base sshield +25
+set larentia base speed +2
+set larentia base strength +1
+set larentia base defense +1
+set larentia base magic +1
 set WyvernKnightLarentia_R cap Spear 50
 set WyvernKnightLarentia cap Spear 50
 set WyvernKnight cap Spear 50
@@ -1584,9 +1589,12 @@ set Windstorm stat might 10
 set PallasRiana stat might 10
 set PallasRiana stat max-range 3
 set PallasRiana stat accuracy 70
-set Sandstorm stat accuracy 80
-set Windtongue stat accuracy 80
-set Icetongue stat accuracy 80
+set Sandstorm stat accuracy 100
+set Windtongue stat accuracy 100
+set Icetongue stat accuracy 100
+set Sandstorm stat might 20
+set Windtongue stat might 30
+set Icetongue stat might 42
 
 set Fire stat max-range 2
 set Fire stat accuracy 80
@@ -1600,8 +1608,10 @@ set Earthblaze stat accuracy 60
 set PallasLeia stat level 20
 set PallasLeia stat max-range 2
 set PallasLeia stat accuracy 80
-set Flametongue stat accuracy 80
-set Blazetongue stat accuracy 80
+set Flametongue stat accuracy 100
+set Blazetongue stat accuracy 100
+set Flametongue stat might 30
+set Blazetongue stat might 42
 
 set Thunder stat max-range 3
 set Thunder stat accuracy 70
@@ -1617,7 +1627,8 @@ set PallasSerenia stat level 20
 set PallasSerenia stat might 32
 set PallasSerenia max-range 3
 set PallasSerenia stat accuracy 70
-set Stormtongue stat accuracy 100
+set Stormtongue stat accuracy 120
+set Stormtongue stat might 42
 
 set Physic stat max-range 5
 set Holy stat might 20
@@ -4242,10 +4253,11 @@ set General skill hide
 set General skill protector
 
 // This may be Larentia Stat too
-set WyvernKnight_R base strength +2
-set WyvernKnight_R base hp +1
-set WyvernKnight_R base speed +1
-set WyvernKnight_R base defense +1
+set WyvernKnight_R base strength +5
+set WyvernKnight_R base hp +2
+set WyvernKnight_R base speed +2
+set WyvernKnight_R base defense +2
+set WyvernKnight_R base magic +20
 set WyvernKnight_R skill canto
 set WyvernKnight_R skill throw
 set WyvernKnight_R skill hide
@@ -4254,10 +4266,11 @@ set WyvernKnight_R skill parry
 set WyvernKnight_R skill counter
 
 // larentia stat
-set WyvernKnight base strength +2
-set WyvernKnight base hp +1
-set WyvernKnight base speed +1
-set WyvernKnight base defense +1
+set WyvernKnight base strength +5
+set WyvernKnight base hp +2
+set WyvernKnight base speed +2
+set WyvernKnight base defense +2
+set WyvernKnight base magic +20
 set WyvernKnight skill canto
 set WyvernKnight skill throw
 set WyvernKnight skill hide
@@ -6178,4 +6191,3 @@ set Arrow++ stat might 8
 // Leon should be infantry / Lt-Cavalry
 // Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
 // Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
-

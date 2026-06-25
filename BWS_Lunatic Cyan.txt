@@ -566,6 +566,7 @@ set axel item 7 Treasure 101
 set axel base axe +20
 set axel growth axe 70
 
+// Since I can't increase larentia stat on wyvern, I gave her basic horse bonus stat.
 set larentia item 2 LadySword 101
 set larentia item 3 Pilum 20
 set larentia item 4 Treasure 101
@@ -578,6 +579,10 @@ set larentia growth sshield 70
 set larentia base sword +25
 set larentia base spear +25
 set larentia base sshield +25
+set larentia base speed +2
+set larentia base strength +1
+set larentia base defense +1
+set larentia base magic +1
 set WyvernKnightLarentia_R cap Spear 50
 set WyvernKnightLarentia cap Spear 50
 set WyvernKnight cap Spear 50
@@ -4248,10 +4253,11 @@ set General skill hide
 set General skill protector
 
 // This may be Larentia Stat too
-set WyvernKnight_R base strength +2
-set WyvernKnight_R base hp +1
-set WyvernKnight_R base speed +1
-set WyvernKnight_R base defense +1
+set WyvernKnight_R base strength +5
+set WyvernKnight_R base hp +2
+set WyvernKnight_R base speed +2
+set WyvernKnight_R base defense +2
+set WyvernKnight_R base magic +20
 set WyvernKnight_R skill canto
 set WyvernKnight_R skill throw
 set WyvernKnight_R skill hide
@@ -4260,10 +4266,11 @@ set WyvernKnight_R skill parry
 set WyvernKnight_R skill counter
 
 // larentia stat
-set WyvernKnight base strength +2
-set WyvernKnight base hp +1
-set WyvernKnight base speed +1
-set WyvernKnight base defense +1
+set WyvernKnight base strength +5
+set WyvernKnight base hp +2
+set WyvernKnight base speed +2
+set WyvernKnight base defense +2
+set WyvernKnight base magic +20
 set WyvernKnight skill canto
 set WyvernKnight skill throw
 set WyvernKnight skill hide
