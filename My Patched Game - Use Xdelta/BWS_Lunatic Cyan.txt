@@ -1,4 +1,5 @@
-//Hi, this script was made by Cyan Alvein, Most changes are written in these comments.
+//Hi, Check out my script/patch of Berwick Saga
+//https://github.com/Cyan-Alvein/berwick-saga-editor-randomizer/blob/main/BWS_Lunatic%20Cyan.txt
 //It took me more than a year to make this, fixing all bugs, testing all possibilities by replaying the patched games many times (Yeah I love this game too much), managing character balance so someone (Faye Dean Ruby Derrick...) aren't too OP
 
 // If you wanna tip me:
@@ -37,17 +38,15 @@
 
 // the skill desperation while attacking with a lance bug, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
 
-// Accessories item got huge buff, SpiritBrace = magic +2, BlessedBrace = Magic +3 Speed -2, DivineBrace (Aegina own it)= Magic +4 Defense -2 Speed -2
-
 // All rings give +15 magic resistance and + 20 block magic damage for each element. Ring like windring give +30 wind resist.
 
-// TigerBrace = Hit +9 Avoid 0, EagleBrace = Hit +6 Avoid +6, GuardBrace = defense +2, FeatherBrace = Speed +2, all accessory without stat bonus get EagleBrace bonus, so MiracleCharm = Hit +6 Avoid +6. You get the idea
+// SpiritBrace = magic +2 hit +6 avoid +6, BlessedBrace = Magic +3 hit +3 avoid +3, DivineBrace (Aegina own it)= Magic +4, EagleBrace = hit +9 avoid +3 ...
 
 // All player magic weapon (Exept Dark) got +1 range, so AirBlade = 2 range, DireThunder = 3 range
 
-// All healing orbs got +2 range, so heal = 3 range, Physic = 5 range (same as Darkmend, It pissed me off a dark healing magic was > than a holy healing magic. WTF Shogo Kaga)
+// All healing orbs got +2 range, so heal = 3 range, Physic = 5 range (same as Darkmend, It pissed me off a dark healing magic was better than a holy healing magic. WTF Shogo Kaga)
 
-// All prefered weapon rank are now <= 20. So Thaddy can use AssassinsKnife at level 20, Ruby can use Perseid at level 20, Volo can use Brymranger at level 20
+// All prefered & locked weapon rank are now level 20 at best. So Thaddy can use AssassinsKnife at level 20, Ruby can use Perseid at level 20, Volo can use Brymranger at level 20
 
 // All priest class got resistor skill, yes even Izerna & ennemy priest
 
@@ -1690,26 +1689,39 @@ set dagger stat might 2
 set Seax stat might 6
 set Dart stat might 4
 set Vespa stat might 4
+set Vespa stat crit 6
+set Seax stat might 6
+set Seax stat crit 9
 set Airknife stat might 0
 set ThiefsKnife stat might 0
 set Carnwenhau stat might 6
+set Carnwenhau stat crit 9
+set Carnwenhau stat defense 0
 set StunKnife stat might 6
 set KillerKnife stat might 4
 set BloodKnife stat might 4
 set TempestKnife stat might 6
 set Shieldknife stat might 2
 set Crotalus stat might 2
+set Crotalus stat crit 3
 set Kris stat might 2
 set ThrowingKnife stat might 6
+set ThrowingKnife stat crit 9
 set Swordbreaker stat might 6
+set Swordbreaker stat crit 9
 set PoisonKnife stat might 2
+set PoisonKnife stat crit 3
 set SleepKnife stat might 2
+set SleepKnife stat crit 3
 set BoltKnife stat might 2
+set BoltKnife stat crit 3
 set AssassinsKnife stat might 4
 set LetterOpener stat might 1
 set MainGauche stat might 2
+set MainGauche stat crit 3
 
 set Kris stat mind 10
+set Kris stat defense 10
 Set Kris Stat fire_res 10
 Set Kris Stat thunder_res 10
 Set Kris Stat wind_res 10
@@ -1855,7 +1867,6 @@ set Estoc stat accuracy 80
 set Grimhild stat accuracy 70
 set RazeEtoile stat accuracy 60
 
-Set ImperialSword stat cost 1200
 set AltiumSword stat cost 2000
 set MithrilSword stat cost 4000
 set LevinSword stat cost 4000
@@ -1871,6 +1882,13 @@ set Colichemarde stat cost 6000
 set LadySword stat cost 4000
 set Nothung stat cost 6000
 set Gram stat cost 6000
+set Cutlass+ stat cost 6000
+set Cutlass stat cost 5000
+
+set VerianSword stat cost 1000
+set BronzeSword stat cost 1000
+set OldImperialSword cost 600
+set ImperialSword cost 1000
 
 set Scimitar+ stat level 7
 set FlameSword stat level 15
@@ -1933,11 +1951,6 @@ set VerianSword stat Durability D
 set OldImperialSword stat Durability D
 set ImperialSword stat Durability D
 
-set VerianSword stat cost 1000
-set BronzeSword stat cost 1000
-set OldImperialSword cost 600
-set ImperialSword cost 1000
-
 //mace
 
 set IronClub stat weight 2
@@ -1975,20 +1988,20 @@ set Balmung2 stat accuracy 70
 set Balmung3 stat accuracy 70
 set Brymranger stat accuracy 50
 
-set BastardSword stat weight 8
+set BastardSword stat weight 7
 set Zanbato stat weight 9
-set Shamshir stat weight 7
-set GreatSword stat weight 10
-set Adrastia stat weight 9
-set Zweihander stat weight 9
+set Shamshir stat weight 8
+set GreatSword stat weight 11
+set Adrastia stat weight 11
+set Zweihander stat weight 11
 set Balmung stat weight 8
 set Balmung2 stat weight 8
 set Balmung3 stat weight 8
-set Brymranger stat weight 9
-
+set Brymranger stat weight 8
 
 set Zanbato effect Nosferatu
 set BastardSword effect cripple-x2
+set GreatSword effect cripple-x2
 
 set BastardSword stat level 6
 set Shamshir stat level 10
@@ -1999,6 +2012,21 @@ set Adrastia stat level 10
 set BastardSword stat might 14
 set Shamshir stat might 16
 set Zanbato stat might 18
+set GreatSword stat might 20
+set GreatSword stat defense 2
+set GreatSword stat fire_res 2
+set GreatSword stat thunder_res 2
+set GreatSword stat wind_res 2
+set GreatSword stat holy_res 2
+set GreatSword stat dark_res 2
+set Adrastia stat might 20
+set Adrastia stat defense 2
+set Adrastia stat fire_res 2
+set Adrastia stat thunder_res 2
+set Adrastia stat wind_res 2
+set Adrastia stat holy_res 2
+set Adrastia stat dark_res 2
+set Zweihander stat might 17
 
 set Shamshir stat durability B
 set Zanbato stat durability B
@@ -2043,18 +2071,20 @@ set PrototypeSpear stat might 13
 set Fauchard stat might 8
 set Brionac stat might 8
 set KillerSpear stat might 9
-set Partisan stat might 21
+set Partisan stat might 22
+set Partisan stat defense 4
+set Partisan stat fire_res 4
+set Partisan stat thunder_res 4
+set Partisan stat wind_res 4
+set Partisan stat holy_res 4
+set Partisan stat dark_res 4
 set Angon stat might 17
 set Angon stat crit 0
+set SteelSpear stat crit 6
 
 set ImperialSpear stat might 8
 set VerianSpear stat might 8
 set OldImperialSpear stat might 6
-
-set Euthyphro effect thunder-damage 20
-set WindSpear effect wind-damage 20
-set Brionac effect nosferatu
-set Partisan effect cripple-x2
 
 set Verutum stat level 10
 set Angon stat level 10
@@ -2085,7 +2115,7 @@ set MithrilSpear stat Weight 6
 set WindSpear stat Weight 7
 set Euthyphro stat Weight 7
 set Javelin stat Weight 10
-set Partisan stat Weight 10
+set Partisan stat Weight 13
 set Angon stat Weight 9
 set Brionac stat Weight 7
 set SwiftSpear stat Weight 10
@@ -2110,7 +2140,7 @@ set Doru stat dark_res 5
 
 set Angon stat cost 3000
 set Brionac stat cost 7000
-set SwiftSpear stat cost 7000
+set SwiftSpear stat cost 8000
 set Fauchard stat cost 7000
 set Pilum stat cost 1200
 set Verutum stat cost 1800
@@ -2128,11 +2158,15 @@ set Pilum stat uses 20
 set Verutum stat uses 20
 set Javelin stat uses 20
 
+set Euthyphro effect thunder-damage 20
+set WindSpear effect wind-damage 20
+set Brionac effect nosferatu
 Set Harpoon effect injure-rate 100
+Set Partisan effect cripple-x2
+set Pike effect cripple-x2
+Set Longspear effect cripple-x2
 
 //Set Harpoon stat rounds 1
-
-Set Longspear effect cripple-x2
 
 //set PrototypeSpear stat durability D
 set Pike stat durability B
@@ -2148,8 +2182,6 @@ set ImperialSpear stat durability E
 set OldImperialSpear stat durability F
 
 set Harpoon stat level 1
-
-set Pike effect cripple-x2
 
 // fork
 
@@ -2267,6 +2299,8 @@ set Tomahawk stat might 14
 set GreatAxe stat might 30
 set Shieldaxe stat might 10
 set GigasAxe stat might 10
+set Bhuj stat might 14
+set Bhuj stat crit 18
 
 set VolcanoAxe effect fire-damage 20
 set GlacierAxe effect wind-damage 20
@@ -2305,12 +2339,12 @@ set Gullveig stat Weight 9
 set Mjollnir stat Weight 5
 set Shieldaxe stat Weight 15
 set MaozaWolf stat Weight 13
-set Bhuj stat Weight 9
 set GigasAxe stat Weight 15
 set VerianAxe stat Weight 6
 set OldImperialAxe stat Weight 8
 set ImperialAxe stat Weight 6
 set BanditAxe stat Weight 4
+set Bhuj stat Weight 5
 
 set HandAxe stat uses 20
 set Francisca stat uses 20
@@ -2348,11 +2382,23 @@ set BanditAxe effect steal-rate-plus 50
 set BattleAxe effect cripple-x2
 set Shieldaxe effect parry
 set Shieldaxe stat defense 10
+set Shieldaxe stat fire_res 10
+set Shieldaxe stat thunder_res 10
+set Shieldaxe stat wind_res 10
+set Shieldaxe stat holy_res 10
+set Shieldaxe stat dark_res 10
+set GigasAxe stat defense 20
+set GigasAxe stat fire_res 20
+set GigasAxe stat thunder_res 20
+set GigasAxe stat wind_res 20
+set GigasAxe stat holy-vantage 20
+set GigasAxe stat dark_res 20
 set CrookedAxe effect pascanion-backfire
 set BreakerAxe effect break-shield 0
 set BreakerAxe effect disarm-rate 100
 set Poleax effect kill-horse 0
 set Poleax effect nosferatu
+set GreatAxe effect cripple-x2
 
 set Battleaxe stat level 10
 set Francisca stat level 10
@@ -2424,6 +2470,7 @@ set DarkAxe stat cost 2000
 set BoltAxe stat cost 3000
 set Mjollnir stat cost 5000
 set ShieldAxe stat cost 3000
+set Bhuj stat cost 5000
 
 
 // bows
@@ -2441,6 +2488,15 @@ set ImperialArrow+ stat might 8
 set WoodenArrow stat might 1
 set StoneArrow stat might 3
 set RaijinArrow stat might 6
+set SereniaBow stat might 10
+set SereniaBow stat crit 18
+
+set Pascanion stat defense 0
+set Pascanion stat avoid 0
+set Pascanion effect fire-damage 20
+set Pascanion2 stat defense 0
+set Pascanion2 stat avoid 0
+set Pascanion2 effect fire-damage 20
 
 set EmberArrow effect fire-damage 20
 set FreezeArrow effect wind-damage 20
@@ -2464,7 +2520,7 @@ set KillerArrow stat accuracy 10
 set BodkinArrow stat accuracy 10
 set PoisonArrow stat accuracy 10
 set SleepArrow stat accuracy 10
-//set MithrilArrow stat accuracy 10
+set MithrilArrow stat accuracy 10
 
 set Apeiron stat level 1
 set Longbow stat level 5
@@ -2538,7 +2594,8 @@ set OldImperialBow stat durability E
 
 set ShortBow stat cost 1000
 set Apeiron stat cost 6000
-set SereniaBow stat cost 6000
+set Rossweisse stat cost 7000
+set SereniaBow stat cost 7000
 set Pascanion2 stat cost 9000
 set Pascanion stat cost 9000
 set WoodenArrow stat cost 150
@@ -2550,7 +2607,7 @@ set ImperialArrow stat cost 750
 set EmberArrow stat cost 2300
 set FreezeArrow stat cost 2300
 set RaijinArrow stat cost 4000
-set MithrilArrow stat cost 1600
+set MithrilArrow stat cost 2400
 set SwiftBow stat cost 3000
 set Apollyon stat cost 4000
 
@@ -2572,8 +2629,13 @@ set Apollyon stat might 6
 set KillerBow stat might 6
 set Apeiron stat might 10
 
-set Rossweisse stat mind 10
-set KillerBow stat Crit 18
+set Rossweisse stat fire_res 10
+set Rossweisse stat thunder_res 10
+set Rossweisse stat wind_res 10
+set Rossweisse stat holy_res 10
+set Rossweisse stat dark_res 10
+set Rossweisse stat defense 10
+set KillerBow stat Crit 18	
 
 //Crossbow
 
@@ -6116,3 +6178,4 @@ set Arrow++ stat might 8
 // Leon should be infantry / Lt-Cavalry
 // Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
 // Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
+
