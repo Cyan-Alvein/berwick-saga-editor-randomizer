@@ -2625,7 +2625,6 @@ set Pascanion2 stat accuracy 70
 
 set IronBow stat durability C
 set Shortbow stat durability F
-set SwiftBow stat durability C
 set Longbow stat durability C
 set Apollyon stat durability A
 set Apeiron stat durability B
@@ -6227,7 +6226,3 @@ set Arrow++ stat might 8
 // Leon should be infantry / Lt-Cavalry
 // Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
 // Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
-
-set Hunter skill deathmatch
-set HighHunter skill deathmatch
-set Sniper skill deathmatch

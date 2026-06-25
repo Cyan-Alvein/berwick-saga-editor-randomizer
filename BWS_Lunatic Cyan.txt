@@ -2625,7 +2625,6 @@ set Pascanion2 stat accuracy 70
 
 set IronBow stat durability C
 set Shortbow stat durability F
-set SwiftBow stat durability C
 set Longbow stat durability C
 set Apollyon stat durability A
 set Apeiron stat durability B
