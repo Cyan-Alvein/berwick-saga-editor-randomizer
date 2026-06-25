@@ -94,6 +94,8 @@
 
 // Swimmer skill to Thaddy Czene Dean Volo Kramer Faye Sherpa. Please don't make Czene swimming while mounted.
 
+// All magic minimum range is 1
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set ArmorKnight attribute movement knight
@@ -1574,6 +1576,10 @@ set Gram stat level 20
 set Nothung stat level 20
 
 // magic
+set Blizzard stat min-range 1
+set AirBlade stat min-range 1
+set Windstorm stat min-range 1
+set PallasRiana stat min-range 1
 set Blizzard stat max-range 2
 set AirBlade stat max-range 2
 set Windstorm stat max-range 2
@@ -1596,6 +1602,10 @@ set Sandstorm stat might 20
 set Windtongue stat might 30
 set Icetongue stat might 42
 
+set Fire stat min-range 1
+set Hellfire stat min-range 1
+set Earthblaze stat min-range 1
+set PallasLeia stat min-range 1
 set Fire stat max-range 2
 set Fire stat accuracy 80
 set Fire stat might 15
@@ -1613,6 +1623,10 @@ set Blazetongue stat accuracy 100
 set Flametongue stat might 30
 set Blazetongue stat might 42
 
+set Thunder stat min-range 1
+set DireThunder stat min-range 1
+set Lightning stat min-range 1
+set PallasSerenia stat min-range 1
 set Thunder stat max-range 3
 set Thunder stat accuracy 70
 set Thunder stat might 15
@@ -1637,10 +1651,12 @@ set holy effect cripple-x2
 set Starlight effect holy-vantage
 set Starlight effect cripple-x2
 set Starlight stat max-range 2
+set Starlight stat min-range 1
 set Starlight stat might 32
 set Starlight stat accuracy 80
 set holy stat accuracy 60
 set holy stat max-range 2
+set holy stat min-range 1
 
 set Nosferatu stat max-range 2
 set Nosferatu+ stat max-range 2
@@ -1671,6 +1687,13 @@ set Rehabilitate stat max-range 3
 
 // Dark Magic
 
+set Nosferatu stat min-range 1
+set Nosferatu+ stat min-range 1
+set Scylla stat min-range 1
+set Swarm stat min-range 1
+set Tumahann stat min-range 1
+set KisharsWrath stat min-range 1
+//set Wormwood stat min-range 1
 Set Nosferatu stat accuracy 60
 Set Nosferatu+ stat accuracy 60
 Set Scylla stat accuracy 70
