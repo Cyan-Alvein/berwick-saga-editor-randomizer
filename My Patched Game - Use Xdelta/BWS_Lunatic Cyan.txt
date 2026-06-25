@@ -1738,17 +1738,17 @@ set Vespa stat crit 6
 set Seax stat might 6
 set Seax stat crit 9
 set Airknife stat might 0
-set ThiefsKnife stat might 0
+set ThiefsKnife stat might 1
 set Carnwenhau stat might 6
 set Carnwenhau stat crit 9
 set Carnwenhau stat defense 0
 set StunKnife stat might 6
 set KillerKnife stat might 4
-set BloodKnife stat might 4
-set TempestKnife stat might 6
+set BloodKnife stat might 0
+set TempestKnife stat might 1
 set Shieldknife stat might 2
-set Crotalus stat might 2
-set Crotalus stat crit 3
+set Crotalus stat might 6
+set Crotalus stat crit 9
 set Kris stat might 2
 set ThrowingKnife stat might 6
 set ThrowingKnife stat crit 9
@@ -1780,7 +1780,7 @@ set TempestKnife effect wind-damage 20
 set ThiefsKnife effect steal-rate-plus 50
 set ThiefsCharm effect steal-rate-plus 50
 set AirKnife effect wind-damage 20
-set BloodKnife effect dark-damage 0
+set BloodKnife effect dark-damage 20
 set BloodKnife effect nosferatu
 set Swordbreaker effect sword-break 100
 set Swordbreaker effect cripple-x2
@@ -1791,10 +1791,11 @@ set Dart stat weight 2
 set ThrowingKnife stat weight 3
 set BoltKnife stat weight 4
 set TempestKnife stat weight 1
-set BloodKnife stat weight 1
+set BloodKnife stat weight 2
 set StunKnife stat weight 3
 set Shieldknife stat weight 3
 set Seax stat weight 3
+set Crotalus stat weight 3
 set KillerKnife stat weight 2
 set AssassinsKnife stat weight 2
 
@@ -1815,16 +1816,19 @@ set Kris stat level 10
 set BoltKnife stat level 1
 
 set ThiefsKnife stat cost 1000
+set Vespa stat cost 1300
+set Seax stat cost 2000
 set AssassinsKnife stat cost 6000
-set BloodKnife stat cost 3000
+set BloodKnife stat cost 4000
 set KillerKnife stat cost 3000
 set Kris stat cost 6000
 set ThrowingKnife stat cost 2000
 set Swordbreaker stat cost 2000
 set dart stat cost 1200
 set AirKnife stat cost 3000
-set Carnwenhau stat cost 3000
+set Carnwenhau stat cost 4000
 set TempestKnife stat cost 6000
+set Crotalus stat cost 6000
 
 set BoltKnife stat durability E
 set LetterOpener stat durability D
@@ -1845,12 +1849,13 @@ set Seax stat accuracy 50
 set Carnwenhau stat accuracy 60
 set stunknife stat accuracy 40
 set BoltKnife stat accuracy 40
+set BloodKnife stat accuracy 50
 set Swordbreaker stat accuracy 60
 set ThiefsKnife stat accuracy 50
 set KillerKnife stat accuracy 70
 set AssassinsKnife stat accuracy 70
 set Shieldknife stat accuracy 40
-set Crotalus stat accuracy 60
+set Crotalus stat accuracy 50
 set kris stat accuracy 60
 set maingauche stat accuracy 50
 set ThrowingKnife stat accuracy 40
@@ -1875,6 +1880,7 @@ set AltiumSword stat might 13
 //set Albatross stat might 14
 set Cutlass+ stat might 13
 set Cutlass stat might 9
+set Scimitar+ stat might 6
 
 set Cutlass stat crit 18
 set LadySword stat crit 18
@@ -1900,7 +1906,7 @@ set ImperialSword stat accuracy 60
 set AltiumSword stat accuracy 50
 set LevinSword stat accuracy 50
 //set Albatross stat accuracy 40
-set Scimitar+ stat accuracy 50
+set Scimitar+ stat accuracy 60
 set KnightSword stat accuracy 60
 set FlameSword stat accuracy 50
 set HolySword stat accuracy 60
@@ -1922,7 +1928,7 @@ set Estoc stat cost 4000
 set HolySword stat cost 6000
 set WindEdge stat cost 2000
 set InfernalEdge stat cost 6000
-set RazeEtoile stat cost 5000
+set RazeEtoile stat cost 4000
 set Harperia stat cost 5000
 set Colichemarde stat cost 6000
 set LadySword stat cost 4000
@@ -1930,6 +1936,8 @@ set Nothung stat cost 6000
 set Gram stat cost 6000
 set Cutlass+ stat cost 6000
 set Cutlass stat cost 5000
+set Scimitar+ stat cost 1000
+set KnightSword stat cost 3000
 
 set VerianSword stat cost 1000
 set BronzeSword stat cost 1000
@@ -1953,7 +1961,7 @@ set Scimitar stat weight 4
 set Longsword stat weight 5
 set WindEdge stat weight 5
 set Broadsword stat weight 6
-set Scimitar+ stat weight 5
+set Scimitar+ stat weight 4
 set KillingEdge stat weight 5
 set Saber stat weight 3
 set AltiumSword stat Weight 7
@@ -1982,14 +1990,14 @@ Set OldImperialSword stat Weight 6
 Set Vajra stat Weight 10
 Set Vritra stat Weight 5
 
-set Scimitar+ stat Durability D
+set Scimitar+ stat Durability F
 set AltiumSword stat Durability B
 set LevinSword stat Durability C
 set InfernalEdge stat Durability C
 set WindEdge stat Durability E
 set HolySword stat Durability C
 set BronzeSword stat Durability F
-set MithrilSword stat Durability A
+set MithrilSword stat Durability B
 set RazeEtoile stat Durability C
 set LadySword stat Durability C
 
@@ -2077,8 +2085,11 @@ set Zweihander stat might 17
 set Shamshir stat durability B
 set Zanbato stat durability B
 
-set Zanbato stat cost 4000
-set Adrastia stat cost 5000
+set Shamshir stat cost 2500
+set BastardSword stat cost 2250
+set Zanbato stat cost 2800
+set GreatSword stat cost 3000
+set Adrastia stat cost 4000
 set Zweihander stat cost 5000
 set Balmung stat cost 5000
 set Balmung2 stat cost 5000
@@ -2114,7 +2125,7 @@ set Euthyphro stat might 5
 set WindSpear stat might 5
 set Harpoon stat might 10
 set PrototypeSpear stat might 13
-set Fauchard stat might 8
+set Fauchard stat might 12
 set Brionac stat might 8
 set KillerSpear stat might 9
 set Partisan stat might 22
@@ -2164,8 +2175,8 @@ set Javelin stat Weight 10
 set Partisan stat Weight 13
 set Angon stat Weight 9
 set Brionac stat Weight 7
-set SwiftSpear stat Weight 10
-set Fauchard stat Weight 7
+set SwiftSpear stat Weight 8
+set Fauchard stat Weight 8
 
 set ImperialSpear stat Weight 6
 set VerianSpear stat Weight 6
@@ -2185,11 +2196,14 @@ set Doru stat holy_res 5
 set Doru stat dark_res 5
 
 set Angon stat cost 3000
-set Brionac stat cost 7000
-set SwiftSpear stat cost 8000
-set Fauchard stat cost 7000
+set Brionac stat cost 4000
+set SwiftSpear stat cost 5000
+set Fauchard stat cost 5000
+set Partisan stat cost 3000
+set MithrilSpear stat cost 3000
 set Pilum stat cost 1200
 set Verutum stat cost 1800
+set Pike stat cost 2000
 set Javelin stat cost 2400
 set SlimSpear stat cost 700
 set Harpoon stat cost 1000
@@ -2219,7 +2233,7 @@ set Pike stat durability B
 set Doru stat durability B
 set MithrilSpear stat durability A
 set Partisan stat durability B
-//set Brionac stat durability B
+set Brionac stat durability B
 //set Harpoon stat durability F
 set Angon stat durability B
 
@@ -2254,7 +2268,7 @@ set Firebrand stat accuracy 50
 set GoreFork stat level 8
 set Pitchfork stat cost 500
 set MilitaryFork stat cost 750
-set GoreFork stat cost 3000
+set GoreFork stat cost 2000
 set Firebrand stat cost 2000
 
 set Pitchfork stat weight 6
@@ -2265,7 +2279,7 @@ set GoreFork stat weight 9
 set MilitaryFork stat might 12
 set Firebrand stat might 4
 set Pitchfork stat might 8
-set GoreFork stat might 8
+set GoreFork stat might 10
 
 set Fireband stat durability E
 set Pitchfork stat durability E
@@ -2311,11 +2325,11 @@ set Drakelance Stat Accuracy 80
 //set Oxtongue stat Durability D
 //set IronLance stat Durability D
 
-set IronLance stat cost 4000
-set Oxtongue stat cost 4000
-set Xyston stat cost 5000
-set GreatLance stat cost 6000
-set Drakelance stat cost 7000
+set IronLance stat cost 3000
+set Oxtongue stat cost 3000
+set Xyston stat cost 4000
+set GreatLance stat cost 5000
+set Drakelance stat cost 6000
 
 //axe // axe
 
@@ -2493,7 +2507,7 @@ set ImperialAxe stat durability E
 set OldImperialAxe stat durability F
 
 set IronAxe stat cost 1000
-set BroadAxe stat cost 1000
+set BroadAxe stat cost 1200
 set Gullveig stat cost 2000
 set Tomahawk stat cost 1000
 set GreatAxe stat cost 3000
@@ -2517,7 +2531,7 @@ set DarkAxe stat cost 2000
 set BoltAxe stat cost 3000
 set Mjollnir stat cost 5000
 set ShieldAxe stat cost 3000
-set Bhuj stat cost 5000
+set Bhuj stat cost 6000
 
 
 // bows
@@ -2655,6 +2669,7 @@ set FreezeArrow stat cost 2300
 set RaijinArrow stat cost 4000
 set MithrilArrow stat cost 2400
 set SwiftBow stat cost 3000
+set TripleFireBow stat cost 1000
 set Apollyon stat cost 4000
 
 set IronBow stat cost 240
@@ -2798,11 +2813,11 @@ set VerianCrossbow stat cost 800
 set IronCrossbow stat cost 1000
 set Gastraphetes stat cost 2000
 set HeavyCrossbow stat cost 2600
-set BraveCrossbow stat cost 2800
-set Chu-ko-nu stat cost 3000
+set BraveCrossbow stat cost 3500
+set Chu-ko-nu stat cost 4500
 set Arbalest stat cost 4000
-set RapidCrossbow stat cost 5000
-set Hawkeye stat cost 4000
+set RapidCrossbow stat cost 8000
+set Hawkeye stat cost 5000
 set Ollerus stat cost 4000
 
 
