@@ -1870,6 +1870,7 @@ set LadySword stat crit 18
 
 set AltiumSword effect cripple-x2
 set Albatross effect pascanion-backfire
+set Albatross effect devil-reversal 0
 //set Albatross stat defense 6
 //set Albatross stat avoid 18
 set BronzeSword effect injure-rate 100
@@ -2428,6 +2429,7 @@ set GigasAxe stat wind_res 20
 set GigasAxe stat holy-vantage 20
 set GigasAxe stat dark_res 20
 set CrookedAxe effect pascanion-backfire
+set CrookedAxe effect devil-reversal 0
 set BreakerAxe effect break-shield 0
 set BreakerAxe effect disarm-rate 100
 set Poleax effect kill-horse 0
