@@ -968,6 +968,7 @@ set aegina skill Windsweep
 set aegina skill sunder
 set aegina skill desperation
 set aegina skill resistor
+set aegina skill onetwo
 
 set perceval skill arrowbane
 set perceval skill adept
@@ -991,6 +992,7 @@ set perceval skill Windsweep
 set perceval skill sunder
 set perceval skill desperation
 set perceval skill resistor
+set perceval skill onetwo
 
 set marcel skill canto
 set marcel skill counter
@@ -6241,3 +6243,4 @@ set Arrow++ stat might 8
 // Leon should be infantry / Lt-Cavalry
 // Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
 // Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
+// KillerKnife is a little bugged, Esteban won't use his prepared skill to switch for the killerknife in fight
