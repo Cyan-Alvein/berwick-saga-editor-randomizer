@@ -94,7 +94,7 @@
 
 // Swimmer skill to Thaddy Czene Dean Volo Kramer Faye Sherpa. Please don't make Czene swimming while mounted.
 
-// All magic minimum range is 1
+// All magic orbs minimum range is 1
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -3625,11 +3625,11 @@ Set ImpSoldierLShd+ Stat wind_res 17
 Set ImpSoldierLShd+ Stat holy_res 17
 Set ImpSoldierLShd+ Stat dark_res 17
 
-Set ImpKnightLShd Stat fire_res 20
-Set ImpKnightLShd Stat thunder_res 20
-Set ImpKnightLShd Stat wind_res 20
-Set ImpKnightLShd Stat holy_res 20
-Set ImpKnightLShd Stat dark_res 20
+Set ImpOfficerLShd Stat fire_res 20
+Set ImpOfficerLShd Stat thunder_res 20
+Set ImpOfficerLShd Stat wind_res 20
+Set ImpOfficerLShd Stat holy_res 20
+Set ImpOfficerLShd Stat dark_res 20
 
 Set ImpKnightLShd Stat fire_res 23
 Set ImpKnightLShd Stat thunder_res 23
