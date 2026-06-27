@@ -104,6 +104,7 @@ set Corsair attribute movement lt-infantry
 set Scoundrel attribute movement lt-infantry
 set SnowBandit attribute movement lt-infantry
 set Barbarian attribute movement lt-infantry
+set Bandit attribute movement lt-infantry
 
 //this will restore 2 points on repairstone each turn. I fixed all item price so it is no longer needed.
 //set Repairstone effect restore-uses
@@ -3181,7 +3182,7 @@ set PrototypeSShd stat level 4
 set Aspis stat level 4
 set RoundShield stat level 7
 set MetalShield stat level 10
-set MithrilShield stat level 10
+set MithrilShield stat level 15
 set Aiantos stat level 10
 set ShiningShield stat level 10
 set Vollenden stat level 10
