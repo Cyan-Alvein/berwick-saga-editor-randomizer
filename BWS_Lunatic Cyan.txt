@@ -586,10 +586,10 @@ set larentia base speed +2
 set larentia base strength +1
 set larentia base defense +1
 set larentia base magic +1
-set WyvernKnightLarentia_R cap Spear 50
-set WyvernKnightLarentia cap Spear 50
-set WyvernKnight cap Spear 50
-set WyvernKnight_R cap Spear 50
+set WyvernKnightLarentia_R cap Spear 60
+set WyvernKnightLarentia cap Spear 60
+set WyvernKnight cap Spear 60
+set WyvernKnight_R cap Spear 60
 
 set Owen item 5 Bag 0
 set Owen item 6 Bag 0
@@ -661,6 +661,9 @@ set lynette base speed +5
 set lynette growth bow 100
 set lynette growth thunder 100
 set lynette growth sword 100
+set ChosenOne cap thunder 60
+set ChosenOne cap bow 50
+set ChosenOne cap sword 40
 
 set paramythis item 0 HolyMace 101
 set paramythis item 2 PeerlessBrace 0
@@ -3987,9 +3990,9 @@ set SpearRider_R cap sshield 50
 set SpearRider cap spear 60
 set SpearRider cap sshield 50
 
-set DukeKnight cap sword 50
-set DukeKnight_R cap sword 50
-set Duke cap sword 50
+set DukeKnight cap sword 40
+set DukeKnight_R cap sword 40
+set Duke cap sword 40
 
 set AxeSoldier cap axe 60
 set AxeSoldier cap sshield 50
