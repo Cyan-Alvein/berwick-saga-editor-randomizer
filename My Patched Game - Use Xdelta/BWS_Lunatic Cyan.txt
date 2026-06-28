@@ -14,7 +14,9 @@
 
 // pitchfork, GoreFork & MilitaryFork got cripple-x2 effect
 
-// Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Swordbreaker, Holy , Hellfire, Earthblaze & all lance/fork weapons got cripple-x2
+// Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Swordbreaker, Holy , Hellfire, Earthblaze, GreatAxe, GreatSword, Partisan & all lance/fork weapons got cripple-x2
+
+// All Magic weapons, shields and ring also got cripple-x2 effect. So when Maim is activated, you can easily cripple ennemy while using TempestKnife, Hestia, FireRing, EmberArrow, WindEdge ...
 
 // Hawkeye, Ollerus & Arbalest got 3 range. Apeiron, Rossweisse, Apollyon & Greatbow got 3 range. Crossbow minimum range is 1
 
@@ -22,7 +24,7 @@
 
 // NB: Faye, Volo use Astra. Faye, Faramir, Volo, Sherpa & Kramer can use Pulverize when they have a Blade Equiped. Now you understand why the Blade skill is OP, since Pulverize is the best offensive skill in the game.
 
-//Reese, Ruby, Alvina, Larentia, Kramer, Sherpa, Faye, Faramir, Dean got Deathmatch Skill
+/ /Reese, Ruby, Alvina, Larentia, Kramer, Sherpa, Faye, Faramir, Dean got Deathmatch Skill
 
 // All ennemy got supporter & hide skill.
 
@@ -34,13 +36,11 @@
 
 // All unpromoted player class weapon cap are set as promoted class weapon cap. So Sherlock can reach bow rank 60 without getting promoted
 
-// If you want Leon & Adel or even ruby to use lance, just type this code Set Ruby Skill Lance, I tested it and it worked. But don't use
-
 // the skill desperation while attacking with a lance bug, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
 
-// All rings give +15 magic resistance and + 20 block magic damage for each element. Ring like windring give +30 wind resist.
+// All rings give +10 magic resistance. All magic rings (WindRing, FireRing...) + 20 block magic damage on block. Rings like windring give +30 wind resist and +10 other element magic resist.
 
-// SpiritBrace = magic +2 hit +6 avoid +6, BlessedBrace = Magic +3 hit +3 avoid +3, DivineBrace (Aegina own it)= Magic +4, EagleBrace = hit +9 avoid +3 ...
+// SpiritBrace = magic +2 hit +12, BlessedBrace = Magic +3 hit +6, DivineBrace (Aegina own it)= Magic +4, EagleBrace = hit +12,  All Magic_Resist +10, MuscleBrace = Strenght +2, hit +6, All Magic_Resist +10 ...
 
 // All player magic weapon (Exept Dark) got +1 range, so AirBlade = 2 range, DireThunder = 3 range
 
@@ -52,31 +52,25 @@
 
 // Izerna Got Silence Skill
 
-// The function "learned" bug too much, instead of learning overwatch, someone can learn the skill "silence" instead. So I never used "learned" 
-
 // Crossbow, Lance and all Shields got huge buffs. More accuracy, damage, shield now protect from magic ...
 
-// All orbs got restores-uses
-
-// Brionac & Strongbow got Nosferatu effect
+// All orbs got restores-uses. So you can spam your holy, Dire Thunder, Blizzard, Lightning ... orbs at will. You will need it to win this lunatic mode.
 
 // CrookedAxe & Albatross got Pascanion Back fire effect
 
-// All elemental shields does block damage
+// All elemental shields does 20 block damage and give +6 accuracy. WindRing does 20 Holy Damage on block. I can't do wind damage on block, it isn't important anyway.
 
 // BreakerArrow, BroadheadArrow, BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect.
 
-// Poleax, Zanbato, Brionac, Strongbow effect Nosferatu, no more horse kill effect.
+// Poleax, Zanbato, Brionac, Strongbow, Holy effect Nosferatu, no more horse kill effect.
 
-// Shieldaxe effect parry
+// Shieldaxe is now very similar to GigasAxe stat. ShieldAxe give 10 might, 10 def & magic resist, skill parry. GigasAxe give 10 might, 20 def & magic resist, no skill parry. 
 
-// ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter effect injure-rate 100% but accuracy -20%
+// Blizzard, ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter effect injure-rate 100% but accuracy -20%. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
 
-// Blizzard effect injure-rate 100%
+// All shields give magic stats same as defense stats. So Perseid give 7 magic resist. Shield unit can now tank magic damage too.
 
-// All shield give magic stats same as defense stats. So Perseid give 7 magic. Shield unit can now tank magic damage too.
-
-// All horses give stat bonus up to 5 points, while tico is still OP ofc. So ThinHorse give 2 speed, 1 attack, 1 defense, 1 magic.
+// All horses give stat bonus up to 5 points, while tico is still OP ofc (7 points, I didn't touch his stat no joke, Czene was cheating the whole time with that monster). So ThinHorse give 2 speed, 1 attack, 1 defense, 1 magic.
 
 // All physical weapon with magic does 20 magic damage (emberarrow, raijinarrow, windedge, boltaxe, Euthyphro ...)
 
@@ -94,7 +88,7 @@
 
 // Swimmer skill to Thaddy Czene Dean Volo Kramer Faye Sherpa. Please don't make Czene swimming while mounted.
 
-// All magic orbs minimum range is 1
+// All magic orbs minimum range is 1. So mages like Aegina can't defend at close range, while Enid can with her sword and prepared skill. That is why Aegina and Perceval now get OneTwo Skill while Enid doesn't for fair. Same logic for Sylvis & Esteban
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -1663,8 +1657,9 @@ set Stormtongue stat accuracy 120
 set Stormtongue stat might 42
 
 set Physic stat max-range 5
-set Holy stat might 20
+set Holy stat might 15
 set Holy stat uses 20
+set holy effect nosferatu
 set holy effect cripple-x2
 set Starlight effect holy-vantage
 set Starlight effect cripple-x2
@@ -1783,9 +1778,11 @@ Set Kris Stat dark_res 10
 set AssassinsKnife effect cripple-x2
 set BoltKnife effect thunder-damage 10
 set BoltKnife effect injure-rate 100
+set TempestKnife effect cripple-x2
 set TempestKnife effect wind-damage 20
 set ThiefsKnife effect steal-rate-plus 50
 set ThiefsCharm effect steal-rate-plus 50
+set AirKnife effect cripple-x2
 set AirKnife effect wind-damage 20
 set BloodKnife effect dark-damage 20
 set BloodKnife effect nosferatu
@@ -1899,14 +1896,22 @@ set Albatross effect devil-reversal 0
 //set Albatross stat avoid 18
 set BronzeSword effect injure-rate 100
 
+set WindEdge effect cripple-x2
+set LevinSword effect cripple-x2
+set HolySword effect cripple-x2
+set FlameSword effect cripple-x2
+set InfernalEdge effect cripple-x2
+set Nothung effect cripple-x2
+
 set WindEdge effect wind-damage 20
 set LevinSword effect thunder-damage 20
 set HolySword effect holy-damage 20
 set FlameSword effect fire-damage 20
 set InfernalEdge effect fire-damage 20
+set Nothung effect holy-damage 20
+
 set Nothung effect restore-uses
 set Nothung stat dark_res 20
-set Nothung effect holy-damage 20
 
 set BronzeSword stat accuracy 40
 set ImperialSword stat accuracy 60
@@ -2027,6 +2032,9 @@ set PoisonMace stat Accuracy 60
 set HolyMace stat might 0
 set DarkMace stat might 0
 set PoisonMace stat might 12
+
+set HolyMace effect cripple-x2
+set DarkMace effect cripple-x2
 
 set HolyMace effect holy-damage 20
 set DarkMace effect dark-damage 20
@@ -2225,13 +2233,16 @@ set Pilum stat uses 20
 set Verutum stat uses 20
 set Javelin stat uses 20
 
+Set Partisan effect cripple-x2
+set Pike effect cripple-x2
+Set Longspear effect cripple-x2
+set Euthyphro effect cripple-x2
+set WindSpear effect cripple-x2
+
 set Euthyphro effect thunder-damage 20
 set WindSpear effect wind-damage 20
 set Brionac effect nosferatu
 Set Harpoon effect injure-rate 100
-Set Partisan effect cripple-x2
-set Pike effect cripple-x2
-Set Longspear effect cripple-x2
 
 //Set Harpoon stat rounds 1
 
@@ -2260,6 +2271,7 @@ set MilitaryFork effect cripple-x2
 set Pitchfork effect cripple-x2
 set GoreFork effect cripple-x2
 set Firebrand effect cripple-x2
+
 set Firebrand effect fire-damage 20
 
 set MilitaryFork stat hex 1
@@ -2369,12 +2381,20 @@ set GigasAxe stat might 10
 set Bhuj stat might 14
 set Bhuj stat crit 18
 
+set VolcanoAxe effect cripple-x2
+set GlacierAxe effect cripple-x2
+set NimbusAxe effect cripple-x2
+set DarkAxe effect cripple-x2
+set Mjollnir effect cripple-x2
+set BoltAxe effect cripple-x2
+
 set VolcanoAxe effect fire-damage 20
 set GlacierAxe effect wind-damage 20
 set NimbusAxe effect thunder-damage 20
 set DarkAxe effect dark-damage 20
 set Mjollnir effect thunder-damage 20
 set BoltAxe effect thunder-damage 20
+
 set LogSplitter effect injure-rate 100
 
 set LogSplitter stat Weight 8
@@ -2559,12 +2579,19 @@ set RaijinArrow stat might 6
 set SereniaBow stat might 10
 set SereniaBow stat crit 18
 
+set Pascanion2 effect cripple-x2
+set Pascanion effect cripple-x2
+
 set Pascanion stat defense 0
 set Pascanion stat avoid 0
 set Pascanion effect fire-damage 20
 set Pascanion2 stat defense 0
 set Pascanion2 stat avoid 0
 set Pascanion2 effect fire-damage 20
+
+set EmberArrow effect cripple-x2
+set FreezeArrow effect cripple-x2
+set RaijinArrow effect cripple-x2
 
 set EmberArrow effect fire-damage 20
 set FreezeArrow effect wind-damage 20
@@ -2913,6 +2940,14 @@ set Scorpio stat cost 6000
 // sshield
 
 set ShiningShield effect negate-dark 100
+
+set Vollenden effect cripple-x2
+set DarkShield effect cripple-x2
+set Windshield effect cripple-x2
+set LightShield effect cripple-x2
+set ThunderShield effect cripple-x2
+set FireShield effect cripple-x2
+set Perseid effect cripple-x2
 
 set Vollenden effect block-holy-damage 20
 set DarkShield effect block-fire-damage 20
@@ -3371,6 +3406,13 @@ Set ImpSoldierMShd+ stat might 10
 Set ImpOfficerMShd stat might 12
 Set ImpKnightMShd stat might 14
 
+set LightningShield effect cripple-x2
+set RadiantShield effect cripple-x2
+set ShadowShield effect cripple-x2
+set BlazingShield effect cripple-x2
+set GaleShield effect cripple-x2
+Set Hestia effect cripple-x2
+
 set LightningShield effect block-thunder-damage 10
 set RadiantShield effect block-holy-damage 10
 set ShadowShield effect block-holy-damage 10
@@ -3504,6 +3546,10 @@ set FujinShield stat accuracy 100
 set RaijinShield stat accuracy 100
 set AmaterasuShield stat accuracy 100
 set GeneralShield stat accuracy 100
+
+set KojinShield effect cripple-x2
+set FujinShield effect cripple-x2
+set RaijinShield effect cripple-x2
 
 set KojinShield effect block-fire-damage 10
 set FujinShield effect block-holy-damage 10
@@ -3763,6 +3809,7 @@ set GamblersBrace stat holy_res 10
 set GamblersBrace stat dark_res 10
 set GamblersBrace stat cost 3600
 
+set LightRing effect cripple-x2
 set LightRing effect block-holy-damage 20
 set LightRing stat hit 6
 set LightRing stat avoid 0
@@ -3773,6 +3820,7 @@ set LightRing stat holy_res 30
 set LightRing stat dark_res 30
 set LightRing stat cost 3600
 
+set WindRing effect cripple-x2
 set WindRing effect block-holy-damage 20
 set WindRing stat hit 6
 set WindRing stat fire_res 10
@@ -3782,6 +3830,7 @@ set WindRing stat holy_res 10
 set WindRing stat dark_res 10
 set WindRing stat cost 3600
 
+set ThunderRing effect cripple-x2
 set ThunderRing effect block-thunder-damage 20
 set ThunderRing stat hit 6
 set ThunderRing stat fire_res 10
@@ -3791,6 +3840,7 @@ set ThunderRing stat holy_res 10
 set ThunderRing stat dark_res 10
 set ThunderRing stat cost 3600
 
+set FireRing effect cripple-x2
 set FireRing effect block-fire-damage 20
 set FireRing stat hit 6
 set FireRing stat fire_res 30
@@ -3869,6 +3919,7 @@ set DawnCharm stat hit 15
 
 set FireScale stat hit 0
 set FireScale stat avoid 12
+set FireScale effect cripple-x2
 set FireScale effect block-fire-damage 20
 set FireScale stat crit_avoid_penalty 0
 set FireScale stat fire_res 30
@@ -3880,6 +3931,7 @@ set FireScale stat cost 5000
 
 set IceScale stat hit 0
 set IceScale stat avoid 12
+set IceScale effect cripple-x2
 set IceScale effect block-holy-damage 20
 set IceScale stat crit_avoid_penalty 0
 set IceScale stat fire_res 10
@@ -3891,6 +3943,7 @@ set IceScale stat cost 5000
 
 set ThunderScale stat hit 0
 set ThunderScale stat avoid 12
+set ThunderScale effect cripple-x2
 set ThunderScale effect block-thunder-damage 20
 set ThunderScale stat crit_avoid_penalty 0
 set ThunderScale stat fire_res 10
@@ -3902,6 +3955,7 @@ set ThunderScale stat cost 5000
 
 set WyvernScale stat hit 0
 set WyvernScale stat avoid 12
+set WyvernScale effect cripple-x2
 set WyvernScale effect block-thunder-damage 20
 set WyvernScale stat crit_avoid_penalty 0
 set WyvernScale stat fire_res 10
@@ -3913,6 +3967,7 @@ set WyvernScale stat cost 5000
 
 set ThorsScale stat hit 0
 set ThorsScale stat avoid 18
+set ThorsScale effect cripple-x2
 set ThorsScale effect block-thunder-damage 30
 set ThorsScale stat crit_avoid_penalty 0
 set ThorsScale stat fire_res 15
@@ -6254,3 +6309,5 @@ set Arrow++ stat might 8
 // Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
 // Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
 // KillerKnife is a little bugged, Esteban won't use his prepared skill to switch for the killerknife in fight
+// If you want Leon & Adel or even ruby to use lance, just type this code Set Ruby Skill Lance, I tested it and it worked. But don't use
+// The function "learned" bug too much, instead of learning overwatch, someone can learn the skill "silence" instead. So I never used "learned" 
