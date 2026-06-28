@@ -931,8 +931,6 @@ set enid skill guard
 set enid skill vantage
 set enid skill miracle
 set enid skill battlecry
-set enid skill robust2
-set enid skill robust
 set enid skill maim
 set enid skill robbery
 set enid skill hide
@@ -955,8 +953,6 @@ set aegina skill guard
 set aegina skill battlecry
 set aegina skill charisma
 set aegina skill vantage
-set aegina skill robust2
-set aegina skill robust
 set aegina skill maim
 set aegina skill robbery
 set aegina skill hide
@@ -980,8 +976,6 @@ set perceval skill guard
 set perceval skill battlecry
 set perceval skill vantage
 set perceval skill maim
-set perceval skill robust2
-set perceval skill robust
 set perceval skill robbery
 set perceval skill hide
 set perceval skill watchful
@@ -1266,8 +1260,6 @@ set faye skill guard
 set faye skill fortune
 set faye skill prepared
 set faye skill windsweep
-set faye skill robust2
-set faye skill robust
 set faye skill maim
 set faye skill robbery
 set faye skill hide
@@ -1331,8 +1323,6 @@ set volo skill guard
 set volo skill sunder
 set volo skill windsweep
 set volo skill fortune
-set volo skill robust2
-set volo skill robust
 set volo skill maim
 set volo skill parry
 set volo skill robbery
@@ -1597,8 +1587,9 @@ set AirBlade stat max-range 2
 set Windstorm stat max-range 2
 set PallasRiana stat level 20
 //set PallasRiana stat uses 60
-set AirBlade stat accuracy 70
-set Windstorm stat accuracy 60
+set AirBlade stat accuracy 60
+set Windstorm stat accuracy 50
+set Blizzard stat accuracy 60
 set Windstorm stat level 1
 set Blizzard stat level 1
 set Blizzard stat might 20
@@ -1606,7 +1597,7 @@ set AirBlade stat might 10
 set Windstorm stat might 10
 set PallasRiana stat might 10
 set PallasRiana stat max-range 3
-set PallasRiana stat accuracy 70
+set PallasRiana stat accuracy 50
 set Sandstorm stat accuracy 100
 set Windtongue stat accuracy 100
 set Icetongue stat accuracy 100
@@ -1619,40 +1610,42 @@ set Hellfire stat min-range 1
 set Earthblaze stat min-range 1
 set PallasLeia stat min-range 1
 set Fire stat max-range 2
-set Fire stat accuracy 80
+set Fire stat accuracy 70
 set Fire stat might 15
 set Earthblaze stat max-range 3
 set Earthblaze stat level 1
 set Hellfire stat max-range 2
-set Hellfire stat accuracy 70
+set Hellfire stat accuracy 60
 set Hellfire stat level 1
-set Earthblaze stat accuracy 60
+set Earthblaze stat accuracy 50
 set PallasLeia stat level 20
 set PallasLeia stat max-range 2
-set PallasLeia stat accuracy 80
+set PallasLeia stat accuracy 70
 set Flametongue stat accuracy 100
 set Blazetongue stat accuracy 100
 set Flametongue stat might 30
 set Blazetongue stat might 42
 
+set Thunder stat crit 0
+set DireThunder stat crit 0
 set Thunder stat min-range 1
 set DireThunder stat min-range 1
 set Lightning stat min-range 1
 set PallasSerenia stat min-range 1
 set Thunder stat max-range 3
-set Thunder stat accuracy 70
+set Thunder stat accuracy 60
 set Thunder stat might 15
 set DireThunder stat max-range 3
-set DireThunder stat accuracy 60
+set DireThunder stat accuracy 50
 set DireThunder stat might 15
 set Lightning stat max-range 2
-set Lightning stat accuracy 70
+set Lightning stat accuracy 60
 set Lightning stat level 1
 set Lightning stat might 20
 set PallasSerenia stat level 20
 set PallasSerenia stat might 32
 set PallasSerenia max-range 3
-set PallasSerenia stat accuracy 70
+set PallasSerenia stat accuracy 60
 set Stormtongue stat accuracy 120
 set Stormtongue stat might 42
 
@@ -1666,7 +1659,7 @@ set Starlight effect cripple-x2
 set Starlight stat max-range 2
 set Starlight stat min-range 1
 set Starlight stat might 32
-set Starlight stat accuracy 80
+set Starlight stat accuracy 70
 set holy stat accuracy 60
 set holy stat max-range 2
 set holy stat min-range 1
@@ -1709,14 +1702,16 @@ set KisharsWrath stat min-range 1
 //set Wormwood stat min-range 1
 Set Nosferatu stat accuracy 60
 Set Nosferatu+ stat accuracy 60
-Set Scylla stat accuracy 70
+Set Nosferatu stat might 15
+Set Nosferatu+ stat might 15
+Set Scylla stat accuracy 60
 Set Swarm stat might 15
 Set Tumahann stat might 32
 Set Tumahann stat level 27
 Set Tumahann stat uses 10
 Set Tumahann stat accuracy 70
 Set KisharsWrath stat might 20
-Set KisharsWrath stat accuracy 60
+Set KisharsWrath stat accuracy 50
 Set KisharsWrath stat uses 20
 Set Wormwood stat accuracy 40
 Set Wormwood stat uses 10
