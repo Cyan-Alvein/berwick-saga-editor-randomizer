@@ -90,6 +90,8 @@
 
 // All magic orbs minimum range is 1. So mages like Aegina can't defend at close range, while Enid can with her sword and prepared skill. That is why Aegina and Perceval now get OneTwo Skill while Enid doesn't for fair. Same logic for Sylvis & Esteban
 
+// All shields are 100% accuracy, except Aiantos which is 0% accuracy, 14 defense & 14 magic, and of course 100% accuracy vs bow
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set ArmorKnight attribute movement knight
@@ -813,7 +815,6 @@ set leon skill maim
 set leon skill robbery
 set leon skill hide
 set leon skill adept
-set leon skill parry
 set leon skill pursuit
 set leon skill windsweep
 set leon skill fortune
@@ -1412,7 +1413,6 @@ set larentia skill windsweep
 set larentia skill fortune
 set larentia skill vantage
 set larentia skill sunder
-set larentia skill counter
 
 set owen skill adept
 set owen skill blessing
@@ -2954,9 +2954,9 @@ set Perseid effect block-holy-damage 10
 
 set LeatherSShd stat might 2
 set Buckler stat might 4
-set PrototypeSShd stat might 4
+set PrototypeSShd stat might 7
 set Aspis stat might 6
-set RoundShield stat might 6
+set RoundShield stat might 8
 set Windshield stat might 6
 set FireShield stat might 6
 set ThunderShield stat might 6
@@ -2968,6 +2968,8 @@ set Vollenden stat might 8
 set ShiningShield stat might 8
 set LadyShield stat might 6
 set Perseid stat might 7
+set Aiantos stat might 14
+set Aiantos stat magic 14
 
 Set VerianSShd Stat might 4
 set OldImpSShd stat might 3
@@ -2988,11 +2990,11 @@ Set Buckler Stat wind_res 4
 Set Buckler Stat holy_res 4
 Set Buckler Stat dark_res 4
 
-Set PrototypeSShd Stat fire_res 4
-Set PrototypeSShd Stat thunder_res 4
-Set PrototypeSShd Stat wind_res 4
-Set PrototypeSShd Stat holy_res 4
-Set PrototypeSShd Stat dark_res 4
+Set PrototypeSShd Stat fire_res 7
+Set PrototypeSShd Stat thunder_res 7
+Set PrototypeSShd Stat wind_res 7
+Set PrototypeSShd Stat holy_res 7
+Set PrototypeSShd Stat dark_res 7
 
 Set Aspis Stat fire_res 6
 Set Aspis Stat thunder_res 6
@@ -3000,11 +3002,11 @@ Set Aspis Stat wind_res 6
 Set Aspis Stat holy_res 6
 Set Aspis Stat dark_res 6
 
-Set RoundShield Stat fire_res 6
-Set RoundShield Stat thunder_res 6
-Set RoundShield Stat wind_res 6
-Set RoundShield Stat holy_res 6
-Set RoundShield Stat dark_res 6
+Set RoundShield Stat fire_res 8
+Set RoundShield Stat thunder_res 8
+Set RoundShield Stat wind_res 8
+Set RoundShield Stat holy_res 8
+Set RoundShield Stat dark_res 8
 
 set FireShield stat fire_res 26
 Set FireShield Stat thunder_res 6
@@ -3073,12 +3075,6 @@ Set Perseid Stat wind_res 7
 Set Perseid Stat holy_res 7
 Set Perseid Stat dark_res 7
 
-Set Aiantos Stat fire_res 7
-Set Aiantos Stat thunder_res 7
-Set Aiantos Stat wind_res 7
-Set Aiantos Stat holy_res 7
-Set Aiantos Stat dark_res 7
-
 Set VerianSShd Stat fire_res 4
 Set VerianSShd Stat thunder_res 4
 Set VerianSShd Stat wind_res 4
@@ -3119,7 +3115,7 @@ set LeatherSShd stat Weight 1
 set Buckler stat Weight 2
 set PrototypeSShd stat Weight 2
 set Aspis stat Weight 3
-set RoundShield stat Weight 3
+set RoundShield stat Weight 4
 set Windshield stat Weight 3
 set FireShield stat Weight 3
 set ThunderShield stat Weight 3
@@ -3142,9 +3138,9 @@ set ImpKnightSShd stat weight 4
 
 set LeatherSShd stat cost 433
 set Buckler stat cost 866
-set PrototypeSShd stat cost 866
+set PrototypeSShd stat cost 1500
 set Aspis stat cost 1600
-set RoundShield stat cost 2000
+set RoundShield stat cost 1300
 set Windshield stat cost 3000
 set FireShield stat cost 3000
 set ThunderShield stat cost 3000
@@ -3165,23 +3161,36 @@ set ImpSoldierSShd++ stat cost 600
 set ImpOfficerSShd stat cost 1000
 set ImpKnightSShd stat cost 1400
 
-set Vollenden stat accuracy 50
-set OldImpSShd stat accuracy 30
-set VerianSShd stat accuracy 40
-set ImpSoldierSShd stat accuracy 40
-set ImpSoldierSShd++ stat accuracy 50
-set FireShield stat accuracy 50
-set ThunderShield stat accuracy 50
-set LightShield stat accuracy 50
-set DarkShield stat accuracy 50
-set Windshield stat accuracy 50
-set MithrilShield stat accuracy 40
+set LeatherSShd stat accuracy 100
+set Buckler stat accuracy 100
+set PrototypeSShd stat accuracy 100
+set Aspis stat accuracy 100
+set RoundShield stat accuracy 100
+set Windshield stat accuracy 100
+set FireShield stat accuracy 100
+set ThunderShield stat accuracy 100
+set LightShield stat accuracy 100
+set DarkShield stat accuracy 100
+set MetalShield stat accuracy 100
+set MithrilShield stat accuracy 100
+set ShiningShield stat accuracy 100
+set Vollenden stat accuracy 100
+set LadyShield stat accuracy 100
+set Perseid stat accuracy 100
+set Aiantos stat accuracy 0
+
+set VerianSShd stat accuracy 100
+set OldImpSShd stat accuracy 100
+set ImpSoldierSShd stat accuracy 100
+set ImpSoldierSShd++ stat accuracy 100
+set ImpOfficerSShd stat accuracy 100
+set ImpKnightSShd stat accuracy 100
 
 set LeatherSShd stat durability C
 set Buckler stat durability C
 set PrototypeSShd stat durability C
 set Aspis stat durability B
-set RoundShield stat durability B
+set RoundShield stat durability D
 set Windshield stat durability A
 set FireShield stat durability A
 set ThunderShield stat durability A
@@ -3235,7 +3244,7 @@ Set LeatherMShd stat Weight 3
 Set Kiteshield stat Weight 4
 Set SquareShield stat Weight 5
 Set KnightShield stat Weight 6
-Set LimitShield stat Weight 6
+Set LimitShield stat Weight 4
 Set Hestia stat Weight 7
 Set WyrmskinShield stat Weight 4
 Set LadyMShd stat Weight 4
@@ -3278,11 +3287,11 @@ Set KnightShield Stat wind_res 12
 Set KnightShield Stat holy_res 12
 Set KnightShield Stat dark_res 12
 
-Set LimitShield Stat fire_res 12
-Set LimitShield Stat thunder_res 12
-Set LimitShield Stat wind_res 12
-Set LimitShield Stat holy_res 12
-Set LimitShield Stat dark_res 12
+Set LimitShield Stat fire_res 14
+Set LimitShield Stat thunder_res 14
+Set LimitShield Stat wind_res 14
+Set LimitShield Stat holy_res 14
+Set LimitShield Stat dark_res 14
 
 Set WyrmskinShield Stat fire_res 14
 Set WyrmskinShield Stat thunder_res 14
@@ -3376,13 +3385,11 @@ Set ImpKnightMShd Stat holy_res 14
 Set ImpKnightMShd Stat dark_res 14
 
 
-Set LadyMShd stat accuracy 50
-
 Set LeatherMShd stat might 6
 Set Kiteshield stat might 8
 Set SquareShield stat might 10
 Set KnightShield stat might 12
-Set LimitShield stat might 12
+Set LimitShield stat might 14
 Set Hestia stat might 14
 Set WyrmskinShield stat might 14
 Set LadyMShd stat might 12
@@ -3417,14 +3424,27 @@ Set Hestia effect block-fire-damage 20
 
 //Set BlackShield effect reflect-damage 50
 
-set ImpSoldierMShd+ stat accuracy 50
-set LadyMShd stat accuracy 50
-set WyrmskinShield stat accuracy 40
-set LightningShield stat accuracy 50
-set RadiantShield stat accuracy 50
-set ShadowShield stat accuracy 50
-set BlazingShield stat accuracy 50
-set GaleShield stat accuracy 50
+set LightningShield stat accuracy 100
+set RadiantShield stat accuracy 100
+set ShadowShield stat accuracy 100
+set BlazingShield stat accuracy 100
+set GaleShield stat accuracy 100
+
+set LeatherMShd stat accuracy 100
+set Kiteshield stat accuracy 100
+set SquareShield stat accuracy 100
+set KnightShield stat accuracy 100
+set LimitShield stat accuracy 100
+set WyrmskinShield Stat accuracy 100
+set Hestia stahield stat accuracy 100
+set PaladinShield stat accuracy 100
+set BlackShield stat accuracy 100
+
+set VerianMShd stat accuracy 100
+set ImpSoldierMShd stat accuracy 100
+set ImpSoldierMShd+ stat accuracy 100
+set ImpOfficerMShd stat accuracy 100
+set ImpKnightMShd stat accuracy 100
 
 set LightningShield stat Durability A
 set RadiantShield stat Durability A
@@ -3436,7 +3456,7 @@ set LeatherMShd stat durability B
 set Kiteshield stat durability B
 set SquareShield stat durability A
 set KnightShield stat durability A
-set LimitShield stat durability A
+set LimitShield stat durability D
 set WyrmskinShield Stat durability S
 set Hestia stahield stat durability S
 set PaladinShield stat durability A
@@ -3452,7 +3472,7 @@ set LeatherMShd stat cost 1600
 set Kiteshield stat cost 2000
 set SquareShield stat cost 4000
 set KnightShield stat cost 5000
-set LimitShield stat cost 5000
+set LimitShield stat cost 2000
 set Hestia stat cost 10000
 set WyrmskinShield stat cost 11000
 set PaladinShield stat cost 6000
