@@ -2117,7 +2117,7 @@ set MithrilSpear stat accuracy 60
 set SteelSpear stat accuracy 60
 set Brionac stat accuracy 60
 set Harpoon stat accuracy 40
-set PrototypeSpear stat accuracy 50
+set PrototypeSpear stat accuracy 60
 set KillerSpear stat accuracy 60
 set WindSpear stat accuracy 60
 set Euthyphro stat accuracy 60
