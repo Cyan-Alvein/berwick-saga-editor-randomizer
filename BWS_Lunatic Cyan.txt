@@ -1511,7 +1511,8 @@ set lynette skill hurry
 set lynette skill imbue
 set lynette skill mercy
 set lynette skill overwatch
-set lynette skill protector
+unset lynette skill protector
+unset ChosenOne skill protector
 set lynette skill prepared
 set lynette skill guard
 set lynette skill vantage
@@ -6326,3 +6327,4 @@ set Arrow++ stat might 8
 // KillerKnife is a little bugged, Esteban won't use his prepared skill to switch for the killerknife in fight
 // If you want Leon & Adel or even ruby to use lance, just type this code Set Ruby Skill Lance, I tested it and it worked. But don't use
 // The function "learned" bug too much, instead of learning overwatch, someone can learn the skill "silence" instead. So I never used "learned" 
+// Mug, Mug2, Steal are limited on uses, it shouldn't be and we should be able to choose which item we mug. Steal shouldn't be a stand-still command
