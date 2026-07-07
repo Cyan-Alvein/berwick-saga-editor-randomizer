@@ -24,7 +24,7 @@
 
 // NB: Faye, Volo use Astra. Faye, Faramir, Volo, Sherpa & Kramer can use Pulverize when they have a Blade Equiped. Now you understand why the Blade skill is OP, since Pulverize is the best offensive skill in the game.
 
-/ /Reese, Ruby, Alvina, Larentia, Kramer, Sherpa, Faye, Faramir, Dean got Deathmatch Skill
+//Reese, Ruby, Alvina, Larentia, Kramer, Sherpa, Faye, Faramir, Dean got Deathmatch Skill
 
 // All ennemy got supporter & hide skill.
 
@@ -2297,7 +2297,7 @@ set Firebrand stat might 1
 set Pitchfork stat might 8
 set GoreFork stat might 10
 
-set Fireband stat durability E
+set Firebrand stat durability E
 set Pitchfork stat durability E
 set MilitaryFork stat durability E
 set GoreFork stat durability C
@@ -2475,7 +2475,7 @@ set GigasAxe stat defense 20
 set GigasAxe stat fire_res 20
 set GigasAxe stat thunder_res 20
 set GigasAxe stat wind_res 20
-set GigasAxe stat holy-vantage 20
+set GigasAxe stat holy_res 20
 set GigasAxe stat dark_res 20
 set CrookedAxe effect pascanion-backfire
 set CrookedAxe effect devil-reversal 0
