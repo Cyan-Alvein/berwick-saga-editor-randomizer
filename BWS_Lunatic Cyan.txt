@@ -3438,7 +3438,7 @@ set SquareShield stat accuracy 100
 set KnightShield stat accuracy 100
 set LimitShield stat accuracy 100
 set WyrmskinShield Stat accuracy 100
-set Hestia stahield stat accuracy 100
+set Hestia stat accuracy 100
 set PaladinShield stat accuracy 100
 set BlackShield stat accuracy 100
 
