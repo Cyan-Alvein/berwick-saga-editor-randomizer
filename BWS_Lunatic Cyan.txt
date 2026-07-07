@@ -3460,7 +3460,7 @@ set SquareShield stat durability A
 set KnightShield stat durability A
 set LimitShield stat durability D
 set WyrmskinShield Stat durability S
-set Hestia stahield stat durability S
+set Hestia stat durability S
 set PaladinShield stat durability A
 set BlackShield stat durability A
 
