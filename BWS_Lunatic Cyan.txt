@@ -847,6 +847,7 @@ set sherlock skill pursuit
 set sherlock skill adept
 set sherlock skill sunder
 set sherlock skill magicbane
+set sherlock skill celerity
 
 set izerna skill blessing
 set izerna skill canto
@@ -1272,7 +1273,6 @@ set faye skill pursuit
 set faye skill battlecry
 set faye skill vantage
 set faye skill arrowbane
-set faye skill counter
 set faye skill evasion
 
 set faramir skill aim
@@ -1304,7 +1304,6 @@ set faramir skill deathmatch
 set faramir skill magicbane
 set faramir skill arrowbane
 set faramir skill vantage
-set faramir skill counter
 set faramir skill evasion
 set faramir skill astra
 set faramir skill doubleshot
@@ -1337,7 +1336,6 @@ set volo skill pursuit
 set volo skill battlecry
 set volo skill vantage
 set volo skill arrowbane
-set volo skill counter
 set volo skill evasion
 
 set clifford skill canto
@@ -4397,7 +4395,6 @@ set WyvernKnight_R skill throw
 set WyvernKnight_R skill hide
 set WyvernKnight_R skill adept
 set WyvernKnight_R skill parry
-set WyvernKnight_R skill counter
 
 // larentia stat
 set WyvernKnight base strength +5
@@ -4410,7 +4407,6 @@ set WyvernKnight skill throw
 set WyvernKnight skill hide
 set WyvernKnight skill adept
 set WyvernKnight skill parry
-set WyvernKnight skill counter
 
 set WyvernLord_R base strength +5
 set WyvernLord_R base defense +2
@@ -5296,10 +5292,8 @@ set Horseman_R skill watchful
 set Horseman_R skill doubleshot
 
 set SpearKnight skill hide
-set SpearKnight skill counter
 
 set SpearKnight_R skill hide
-set SpearKnight_R skill counter
 
 set Ballistician skill aim
 set Ballistician skill armsthrift
@@ -5331,7 +5325,6 @@ set Myrmidon skill vantage
 //Daoud Stat
 set AxeSoldier skill throw
 set AxeSoldier skill hide
-set AxeSoldier skill counter
 set AxeSoldier skill vengeful
 
 //Derrick Stat
@@ -5430,11 +5423,9 @@ set Berserker skill vengeful
 set Berserker skill adept
 
 set DukeKnight skill shieldfaire
-set DukeKnight skill counter
 set DukeKnight skill hide
 
 set DukeKnight_R skill shieldfaire
-set DukeKnight_R skill counter
 set DukeKnight_R skill hide
 
 set FlameFencer skill maim
@@ -5742,9 +5733,16 @@ set Warrior skill counter
 set Barbarian skill counter
 set RazeWarMonk skill counter
 set RazeWarMonk2 skill counter
-set Myrmidon skill counter
-set Swordfighter_M skill counter
-set Swordmaster skill counter
+set SpearKnight skill counter
+set SpearKnight_R skill counter
+set WyvernKnight skill counter
+set WyvernKnight_R skill counter
+set AxeSoldier skill counter
+set DukeKnight skill counter
+set DukeKnight_R skill counter
+//set Myrmidon skill counter
+//set Swordfighter_M skill counter
+//set Swordmaster skill counter
 
 //Pursuit to everyone
 set Acolyte skill pursuit
