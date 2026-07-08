@@ -62,11 +62,11 @@
 
 // CrookedAxe & Albatross got Pascanion Back fire effect
 
-// BreakerArrow, BroadheadArrow, BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect.
+// BreakerArrow, BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect.
 
-// Poleax, Zanbato, Brionac, Strongbow, Holy effect Nosferatu, no more horse kill effect.
+// Poleax, BroadheadArrow, Zanbato, Brionac, Strongbow, Holy effect Nosferatu, no more horse kill effect.
 
-// Shieldaxe is now very similar to GigasAxe stat. ShieldAxe give 10 might, 10 def & magic resist, skill parry. GigasAxe give 10 might, 20 def & magic resist, no skill parry. 
+// Shieldaxe is now very similar to GigasAxe stat. ShieldAxe give 10 might, 10 def & 10 mind, skill parry. GigasAxe give 10 might, 20 def & 20 mind, no skill parry. 
 
 // All shields give magic stats same as defense stats. So Perseid give 7 magic resist. Shield unit can now tank magic damage too.
 
@@ -89,6 +89,10 @@
 // All magic orbs minimum range is 1. So mages like Aegina can't defend at close range, while Enid can with her sword and prepared skill. That is why Aegina and Perceval now get OneTwo Skill while Enid doesn't for fair. Same logic for Sylvis & Esteban
 
 // All shields are 100% accuracy, except Aiantos which is 0% accuracy, 14 defense & 14 magic, and of course 100% accuracy vs bow
+
+// MainGauche gives 12 defense, Kris gives 12 magic.
+
+// All knives give parry skill
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -288,9 +292,10 @@ set czene item 5 BloodKnife 101
 set czene item 6 Bag 0
 set czene item 7 DuskCharm 0
 set czene growth knife 100
-set czene growth hp 20
-set czene growth strength 15
+set czene growth hp 30
+set czene growth strength 25
 set czene growth defense 6
+set czene growth speed 25
 set czene base knife +20
 
 set aegina item 1 Blizzard 15 
@@ -483,6 +488,10 @@ set thaddy growth strength 25
 set thaddy growth speed 30
 set thaddy growth defense 9
 set thaddy base knife +20
+set thaddy base speed +2
+set thaddy base strength +1
+set thaddy base defense +1
+set thaddy base mind +1
 
 set esteban growth knife 80
 set esteban growth bow 100
@@ -896,6 +905,8 @@ set czene skill fortune
 set czene skill deathmatch
 set czene skill vantage
 set czene skill battlecry
+set czene skill celerity
+set czene skill parry
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -1210,6 +1221,7 @@ set thaddy skill pursuit
 set thaddy skill vantage
 set thaddy skill adept
 set thaddy skill battlecry
+set thaddy skill parry
 
 set esteban skill aim 
 set esteban skill camouflage
@@ -1742,7 +1754,9 @@ set TempestKnife stat might 1
 set Shieldknife stat might 2
 set Crotalus stat might 6
 set Crotalus stat crit 9
-set Kris stat might 2
+set Kris stat might 0
+set Kris stat mind 12
+set Kris stat crit 3
 set ThrowingKnife stat might 6
 set ThrowingKnife stat crit 9
 set Swordbreaker stat might 6
@@ -1755,16 +1769,33 @@ set BoltKnife stat might 2
 set BoltKnife stat crit 3
 set AssassinsKnife stat might 4
 set LetterOpener stat might 1
-set MainGauche stat might 2
+set MainGauche stat might 0
+set MainGauche stat defense 12
 set MainGauche stat crit 3
 
-set Kris stat mind 10
-set Kris stat defense 10
-Set Kris Stat fire_res 10
-Set Kris Stat thunder_res 10
-Set Kris Stat wind_res 10
-Set Kris Stat holy_res 10
-Set Kris Stat dark_res 10
+set dagger effect parry
+set LetterOpener effect parry
+set BoltKnife effect parry
+set Dart effect parry
+set AirKnife effect parry
+set ThiefsKnife effect parry
+set Seax effect parry
+set Carnwenhau effect parry
+set StunKnife effect parry
+set KillerKnife effect parry
+set BloodKnife effect parry
+set Vespa effect parry
+set TempestKnife effect parry
+set Shieldknife effect parry
+set Crotalus effect parry
+set Crotalus effect x2
+set Kris effect parry
+set MainGauche effect parry
+set ThrowingKnife effect parry
+set SwordBreaker effect parry
+set PoisonKnife effect parry
+set SleepKnife effect parry
+set AssassinsKnife effect parry
 
 set AssassinsKnife effect cripple-x2
 set BoltKnife effect thunder-damage 0
@@ -1790,6 +1821,8 @@ set BloodKnife stat weight 3
 set StunKnife stat weight 3
 set Shieldknife stat weight 3
 set Seax stat weight 3
+set MainGauche stat weight 3
+set Kris stat weight 3
 set Crotalus stat weight 3
 set KillerKnife stat weight 2
 set AssassinsKnife stat weight 2
@@ -1842,7 +1875,7 @@ set Swordbreaker stat durability C
 
 set Seax stat accuracy 50
 set Carnwenhau stat accuracy 60
-set stunknife stat accuracy 40
+set stunknife stat accuracy 50
 set BoltKnife stat accuracy 40
 set BloodKnife stat accuracy 50
 set Swordbreaker stat accuracy 60
@@ -1851,7 +1884,7 @@ set KillerKnife stat accuracy 70
 set AssassinsKnife stat accuracy 70
 set Shieldknife stat accuracy 40
 set Crotalus stat accuracy 50
-set kris stat accuracy 60
+set kris stat accuracy 50
 set maingauche stat accuracy 50
 set ThrowingKnife stat accuracy 40
 set AirKnife stat accuracy 60
@@ -2075,18 +2108,10 @@ set Shamshir stat might 16
 set Zanbato stat might 18
 set GreatSword stat might 20
 set GreatSword stat defense 2
-set GreatSword stat fire_res 2
-set GreatSword stat thunder_res 2
-set GreatSword stat wind_res 2
-set GreatSword stat holy_res 2
-set GreatSword stat dark_res 2
+set GreatSword stat mind 2
 set Adrastia stat might 20
 set Adrastia stat defense 2
-set Adrastia stat fire_res 2
-set Adrastia stat thunder_res 2
-set Adrastia stat wind_res 2
-set Adrastia stat holy_res 2
-set Adrastia stat dark_res 2
+set Adrastia stat mind 2
 set Zweihander stat might 17
 
 set Shamshir stat durability B
@@ -2137,11 +2162,7 @@ set Brionac stat might 8
 set KillerSpear stat might 9
 set Partisan stat might 22
 set Partisan stat defense 4
-set Partisan stat fire_res 4
-set Partisan stat thunder_res 4
-set Partisan stat wind_res 4
-set Partisan stat holy_res 4
-set Partisan stat dark_res 4
+set Partisan stat mind 4
 set Angon stat might 17
 set Angon stat crit 0
 set SteelSpear stat crit 6
@@ -2196,11 +2217,7 @@ set Pike stat hex 0
 set MithrilSpear stat hex 0
 
 set Doru stat defense 5
-set Doru stat fire_res 5
-set Doru stat thunder_res 5
-set Doru stat wind_res 5
-set Doru stat holy_res 5
-set Doru stat dark_res 5
+set Doru stat mind 5
 
 set Angon stat cost 3000
 set Brionac stat cost 4000
@@ -2439,7 +2456,7 @@ set Tomahawk stat accuracy 50
 set Hatchet stat accuracy 40
 set Battleaxe stat accuracy 40
 set Poleax stat accuracy 40
-set BreakerAxe stat accuracy 30
+set BreakerAxe stat accuracy 40
 set CrookedAxe stat accuracy 30
 set NimbusAxe stat accuracy 50
 set VolcanoAxe stat accuracy 50
@@ -2461,17 +2478,9 @@ set BanditAxe effect steal-rate-plus 50
 set BattleAxe effect cripple-x2
 set Shieldaxe effect parry
 set Shieldaxe stat defense 10
-set Shieldaxe stat fire_res 10
-set Shieldaxe stat thunder_res 10
-set Shieldaxe stat wind_res 10
-set Shieldaxe stat holy_res 10
-set Shieldaxe stat dark_res 10
+set Shieldaxe stat mind 10
 set GigasAxe stat defense 20
-set GigasAxe stat fire_res 20
-set GigasAxe stat thunder_res 20
-set GigasAxe stat wind_res 20
-set GigasAxe stat holy_res 20
-set GigasAxe stat dark_res 20
+set GigasAxe stat mind 20
 set CrookedAxe effect pascanion-backfire
 set CrookedAxe effect devil-reversal 0
 set BreakerAxe effect break-shield 0
@@ -2558,9 +2567,9 @@ set Bhuj stat cost 6000
 set KillerArrow stat might 1
 set PoisonArrow stat might 8
 set SleepArrow stat might 1
-set BroadheadArrow stat might 1
+set BroadheadArrow stat might 11
 set BodkinArrow stat might 5
-set BreakerArrow stat might 1
+set BreakerArrow stat might 11
 set EmberArrow stat might 1
 set FreezeArrow stat might 1
 set ImperialArrow stat might 8
@@ -2590,10 +2599,10 @@ set FreezeArrow effect wind-damage 8
 set RaijinArrow effect thunder-damage 13
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect kill-horse 0
-set BroadheadArrow effect disarm-rate 100
+set BroadheadArrow effect nosferatu
 
-//set BroadheadArrow stat accuracy 10
-//set BreakerArrow stat accuracy 10
+set BroadheadArrow stat accuracy 10
+set BreakerArrow stat accuracy 10
 set StoneArrow stat accuracy 10
 set WoodenArrow stat accuracy 10
 set BronzeArrow stat accuracy 10
@@ -2718,12 +2727,8 @@ set Apollyon stat might 6
 set KillerBow stat might 6
 set Apeiron stat might 10
 
-set Rossweisse stat fire_res 10
-set Rossweisse stat thunder_res 10
-set Rossweisse stat wind_res 10
-set Rossweisse stat holy_res 10
-set Rossweisse stat dark_res 10
-set Rossweisse stat defense 10
+set Rossweisse stat defense 6
+set Rossweisse stat magic 6
 set KillerBow stat Crit 18	
 
 //Crossbow
@@ -6102,6 +6107,171 @@ set WyvernKnightLarentia skill Prepared
 set WyvernKnightLarentia_R skill Prepared
 set WyvernLord skill Prepared
 set WyvernLord_R skill Prepared
+
+//Pulverize to units
+set ArmorKnight skill Pulverize
+set Axefighter skill Pulverize
+set AxeGuard skill Pulverize
+set Axeman skill Pulverize
+set AxeSergeant skill Pulverize
+set AxeSoldier skill Pulverize
+set Bandit skill Pulverize
+set Barbarian skill Pulverize
+set Berserker skill Pulverize
+set Chief skill Pulverize
+set Corsair skill Pulverize
+set General skill Pulverize
+set GigasKnight skill Pulverize
+set Guardian skill Pulverize
+set Hero skill Pulverize
+set Highlander skill Pulverize
+set ImperialAxeman skill Pulverize
+set King skill Pulverize
+set Mercenary skill Pulverize
+set Myrmidon skill Pulverize
+set Pirate skill Pulverize
+set Ranger skill Pulverize
+set RogueGuard skill Pulverize
+set RogueWarrior skill Pulverize
+set Ruffian skill Pulverize
+set Ruffian_R skill Pulverize
+set Scoundrel skill Pulverize
+set SnowBandit skill Pulverize
+set Swordfighter_M skill Pulverize
+set Swordmaster skill Pulverize
+set WarMonk skill Pulverize
+set Warrior skill Pulverize
+
+//Sunder to everyone
+set Acolyte skill Sunder
+set Apostle skill Sunder
+set Aristocrat skill Sunder
+set ArrowKnight skill Sunder
+set ArrowKnight_R skill Sunder
+set Assassin skill Sunder
+set Ballistician skill Sunder
+set Bishop skill Sunder
+set BlackRider skill Sunder
+set BlackRider_R skill Sunder
+set BowKnight skill Sunder
+set BowKnight_R skill Sunder
+set Bowman skill Sunder
+set BowRider skill Sunder
+set BowRider_R skill Sunder
+set Burglar skill Sunder
+set Captain skill Sunder
+set Cavalier skill Sunder
+set Cavalier_R skill Sunder
+set Chevalire skill Sunder
+set Chevalire_R skill Sunder
+set ChosenOne skill Sunder
+set Cleric skill Sunder
+set CourtPriest skill Sunder
+set DarkMaster skill Sunder
+set DragonKnight skill Sunder
+set DragonKnight_R skill Sunder
+set Duke skill Sunder
+set DukeKnight skill Sunder
+set DukeKnight_R skill Sunder
+set Engineer skill Sunder
+set FailedPoet skill Sunder
+set Farmer skill Sunder
+set Fencer skill Sunder
+set FlameFencer skill Sunder
+set Flamewyrm skill Sunder
+set Friar skill Sunder
+set Grassrunner skill Sunder
+set Grassrunner_R skill Sunder
+set Gunner skill Sunder
+set HeavyGunner skill Sunder
+set HighHunter skill Sunder
+set HighKnight skill Sunder
+set HighKnight2 skill Sunder
+set HighKnight2_R skill Sunder
+set HighKnight_R skill Sunder
+set Horseman skill Sunder
+set Horseman_R skill Sunder
+set Hunter skill Sunder
+set Huntress skill Sunder
+set Icewyrm skill Sunder
+set ImperialBowman skill Sunder
+set ImperialBowRider skill Sunder
+set ImperialBowRider_R skill Sunder
+set ImperialGunner skill Sunder
+set ImperialHeavyGunner skill Sunder
+set ImperialKnight skill Sunder
+set ImperialKnight_R skill Sunder
+set ImperialMarksman skill Sunder
+set ImperialPaladin skill Sunder
+set ImperialPaladin_R skill Sunder
+set ImperialSpearman skill Sunder
+set ImperialSpearRider skill Sunder
+set ImperialSpearRider_R skill Sunder
+set KnightLord skill Sunder
+set KnightLord_R skill Sunder
+set LadyKnight skill Sunder
+set LadyKnight_R skill Sunder
+set LanceKnight skill Sunder
+set LanceKnight2 skill Sunder
+set LanceKnight2_R skill Sunder
+set LanceKnight_R skill Sunder
+set Levinwyrm skill Sunder
+set Lord skill Sunder
+set Lord_R skill Sunder
+set Marksman skill Sunder
+set Outlaw skill Sunder
+set Paladin skill Sunder
+set Paladin_F skill Sunder
+set Paladin_F_R skill Sunder
+set Paladin_M skill Sunder
+set Paladin_M_R skill Sunder
+set Paladin_R skill Sunder
+set Pickpocket skill Sunder
+set Priest skill Sunder
+set Priestess skill Sunder
+set Princess skill Sunder
+set RazeBishop skill Sunder
+set RazeBishop2 skill Sunder
+set RazeMonk skill Sunder
+set RazeMonkOwen skill Sunder
+set RazePriest skill Sunder
+set RazeWarMonk skill Sunder
+set RazeWarMonk2 skill Sunder
+set Rogue skill Sunder
+set RogueArcher skill Sunder
+set RogueGunner skill Sunder
+set ShiningKnight skill Sunder
+set ShiningKnight_R skill Sunder
+set ShiningKnightParamythis skill Sunder
+set ShiningKnightParamythis_R skill Sunder
+set Sniper skill Sunder
+set SpearKnight skill Sunder
+set SpearKnight_R skill Sunder
+set Spearman skill Sunder
+set SpearRider skill Sunder
+set SpearRider_R skill Sunder
+set SwordKnight skill Sunder
+set SwordKnight_R skill Sunder
+set Thief_F skill Sunder
+set Thief_M skill Sunder
+set ThunderMage skill Sunder
+set ThunderSage skill Sunder
+set Transporter skill Sunder
+set VerianKnight skill Sunder
+set VerianKnight2 skill Sunder
+set VerianKnight2_R skill Sunder
+set VerianKnight_R skill Sunder
+set VeteranKnight skill Sunder
+set VeteranKnight_R skill Sunder
+set WindMage skill Sunder
+set WindSage skill Sunder
+set Wyvern skill Sunder
+set WyvernKnight skill Sunder
+set WyvernKnight_R skill Sunder
+set WyvernKnightLarentia skill Sunder
+set WyvernKnightLarentia_R skill Sunder
+set WyvernLord skill Sunder
+set WyvernLord_R skill Sunder
 
 // Search to all player unit
 set reese skill search
