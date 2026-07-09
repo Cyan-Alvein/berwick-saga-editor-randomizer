@@ -2506,7 +2506,7 @@ set Mjollnir stat level 20
 set Tabarzin stat level 15
 set MithrilAxe stat level 15
 set Gullveig stat level 15
-//set GreatAxe stat level 15
+set GreatAxe stat level 20
 set MaozaWolf stat level 16
 set Shieldaxe stat level 16
 set BreakerAxe stat level 12
@@ -2622,7 +2622,7 @@ set Apeiron stat level 1
 set Longbow stat level 5
 set CompositeBow stat level 8
 set Strongbow stat level 12
-//set Greatbow stat level 17
+set Greatbow stat level 16
 set Greatbow stat max-range 3
 set Rossweisse stat max-range 3
 set Apollyon stat max-range 3
@@ -2735,7 +2735,7 @@ set KillerBow stat Crit 18
 
 set Gastraphetes stat level 8
 set HeavyCrossbow stat level 12
-set Arbalest stat level 17
+set Arbalest stat level 16
 set BraveCrossbow stat level 8
 set Chu-ko-nu stat level 12
 set KillerCrossbow stat level 15
@@ -2978,7 +2978,7 @@ set Aiantos stat magic 14
 Set VerianSShd Stat might 4
 set OldImpSShd stat might 3
 set ImpSoldierSShd stat might 4
-set ImpSoldierSShd++ stat might 4
+set ImpSoldierSShd++ stat might 6
 set ImpOfficerSShd stat might 6
 set ImpKnightSShd stat might 8
 
@@ -3097,11 +3097,11 @@ Set ImpSoldierSShd Stat wind_res 4
 Set ImpSoldierSShd Stat holy_res 4
 Set ImpSoldierSShd Stat dark_res 4
 
-Set ImpSoldierSShd++ Stat fire_res 4
-Set ImpSoldierSShd++ Stat thunder_res 4
-Set ImpSoldierSShd++ Stat wind_res 4
-Set ImpSoldierSShd++ Stat holy_res 4
-Set ImpSoldierSShd++ Stat dark_res 4
+Set ImpSoldierSShd++ Stat fire_res 6
+Set ImpSoldierSShd++ Stat thunder_res 6
+Set ImpSoldierSShd++ Stat wind_res 6
+Set ImpSoldierSShd++ Stat holy_res 6
+Set ImpSoldierSShd++ Stat dark_res 6
 
 Set ImpOfficerSShd Stat fire_res 6
 Set ImpOfficerSShd Stat thunder_res 6
@@ -3109,11 +3109,11 @@ Set ImpOfficerSShd Stat wind_res 6
 Set ImpOfficerSShd Stat holy_res 6
 Set ImpOfficerSShd Stat dark_res 6
 
-Set ImpKnightMShd Stat fire_res 8
-Set ImpKnightMShd Stat thunder_res 8
-Set ImpKnightMShd Stat wind_res 8
-Set ImpKnightMShd Stat holy_res 8
-Set ImpKnightMShd Stat dark_res 8
+Set ImpKnightSShd Stat fire_res 8
+Set ImpKnightSShd Stat thunder_res 8
+Set ImpKnightSShd Stat wind_res 8
+Set ImpKnightSShd Stat holy_res 8
+Set ImpKnightSShd Stat dark_res 8
 
 set LeatherSShd stat Weight 1
 set Buckler stat Weight 2
@@ -3136,7 +3136,7 @@ set Aiantos stat Weight 2
 Set VerianSShd Stat Weight 2
 set OldImpSShd stat Weight 4
 set ImpSoldierSShd stat Weight 2
-set ImpSoldierSShd++ stat Weight 2
+set ImpSoldierSShd++ stat Weight 3
 set ImpOfficerSShd stat weight 3
 set ImpKnightSShd stat weight 4
 
@@ -3161,7 +3161,7 @@ set Aiantos stat cost 3000
 Set VerianSShd Stat cost 600
 set OldImpSShd stat cost 300
 set ImpSoldierSShd stat cost 600
-set ImpSoldierSShd++ stat cost 600
+set ImpSoldierSShd++ stat cost 1000
 set ImpOfficerSShd stat cost 1000
 set ImpKnightSShd stat cost 1400
 
@@ -3261,7 +3261,7 @@ set GaleShield stat Weight 6
 
 Set VerianMShd stat Weight 5
 Set ImpSoldierMShd stat Weight 5
-Set ImpSoldierMShd+ stat Weight 5
+Set ImpSoldierMShd+ stat Weight 6
 Set ImpOfficerMShd stat Weight 6
 Set ImpKnightMShd stat Weight 7
 
@@ -3368,11 +3368,11 @@ Set ImpSoldierMShd Stat wind_res 10
 Set ImpSoldierMShd Stat holy_res 10
 Set ImpSoldierMShd Stat dark_res 10
 
-Set ImpSoldierMShd+ Stat fire_res 10
-Set ImpSoldierMShd+ Stat thunder_res 10
-Set ImpSoldierMShd+ Stat wind_res 10
-Set ImpSoldierMShd+ Stat holy_res 10
-Set ImpSoldierMShd+ Stat dark_res 10
+Set ImpSoldierMShd+ Stat fire_res 12
+Set ImpSoldierMShd+ Stat thunder_res 12
+Set ImpSoldierMShd+ Stat wind_res 12
+Set ImpSoldierMShd+ Stat holy_res 12
+Set ImpSoldierMShd+ Stat dark_res 12
 
 Set ImpOfficerMShd Stat fire_res 12
 Set ImpOfficerMShd Stat thunder_res 12
@@ -3406,7 +3406,7 @@ set GaleShield stat might 12
 
 Set VerianMShd stat might 10
 Set ImpSoldierMShd stat might 10
-Set ImpSoldierMShd+ stat might 10
+Set ImpSoldierMShd+ stat might 12
 Set ImpOfficerMShd stat might 12
 Set ImpKnightMShd stat might 14
 
@@ -3488,7 +3488,7 @@ set GaleShield stat cost 6000
 
 set VerianMShd stat cost 1600
 set ImpSoldierMShd cost 1600
-set ImpSoldierMShd+ cost 1600
+set ImpSoldierMShd+ cost 2000
 set ImpOfficerMShd cost 2000
 set ImpKnightMShd cost 2400
 
@@ -3577,7 +3577,7 @@ set RaijinShield effect block-thunder-damage 5
 set ImpKnightLShd stat might 25
 set ImpOfficerLShd stat might 20
 set ImpSoldierLShd stat might 15
-set ImpSoldierLShd+ stat might 15
+set ImpSoldierLShd+ stat might 20
 set VerianLShd stat might 15
 
 set LeatherLShd stat might 10
@@ -3601,7 +3601,7 @@ set GeneralShield stat cost 20000
 set AmaterasuShield stat cost 16000
 
 set ImpSoldierLShd stat cost 4500
-set ImpSoldierLShd+ stat cost 4500
+set ImpSoldierLShd+ stat cost 5300
 set VerianLShd stat cost 4500
 set ImpOfficerLShd stat cost 5300
 set ImpKnightLShd stat cost 6000
@@ -3618,7 +3618,7 @@ Set AmaterasuShield Stat Weight 11
 
 Set VerianLShd Stat Weight 8
 Set ImpSoldierLShd Stat Weight 8
-Set ImpSoldierLShd+ Stat Weight 8
+Set ImpSoldierLShd+ Stat Weight 9
 Set ImpOfficerLShd Stat Weight 9
 Set ImpKnightLShd Stat Weight 10
 
@@ -3689,11 +3689,11 @@ Set ImpSoldierLShd Stat wind_res 15
 Set ImpSoldierLShd Stat holy_res 15
 Set ImpSoldierLShd Stat dark_res 15
 
-Set ImpSoldierLShd+ Stat fire_res 15
-Set ImpSoldierLShd+ Stat thunder_res 15
-Set ImpSoldierLShd+ Stat wind_res 15
-Set ImpSoldierLShd+ Stat holy_res 15
-Set ImpSoldierLShd+ Stat dark_res 15
+Set ImpSoldierLShd+ Stat fire_res 20
+Set ImpSoldierLShd+ Stat thunder_res 20
+Set ImpSoldierLShd+ Stat wind_res 20
+Set ImpSoldierLShd+ Stat holy_res 20
+Set ImpSoldierLShd+ Stat dark_res 20
 
 Set ImpOfficerLShd Stat fire_res 20
 Set ImpOfficerLShd Stat thunder_res 20
