@@ -90,9 +90,13 @@
 
 // All shields are 100% accuracy, except Aiantos which is 0% accuracy, 14 defense & 14 magic, and of course 100% accuracy vs bow
 
-// MainGauche gives 12 defense, Kris gives 12 magic.
+// MainGauche & Balmung gives 12 defense, Kris gives 12 magic.
 
-// All knives give parry skill
+// Parry to all no-shield unit (Faye, Faramir, Volo, Kramer, Sherpa, Lynette, Paramythis, Sherlock, Christine, Sylvis, Esteban, Enid)
+
+// Arthur Elbert Sword cap 60, Ruby Alvine Spear Cap 60, Marcel Sword Cap 60, Derrick Axe Cap 60
+
+// KnockAway to all no-shield sword unit (Faye, Faramir, Volo, Kramer, Sherpa, Paramythis, Enid)
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -177,9 +181,9 @@ set ward base mshield +20
 set ward base sword +20
 set ward base spear +20
 set ward base speed +2
-set VeteranKnight cap spear 50
+set VeteranKnight cap spear 60
 set VeteranKnight cap sword 50
-set VeteranKnight_R cap spear 50
+set VeteranKnight_R cap spear 60
 set VeteranKnight_R cap sword 50
 
 set elbert item 0 Longsword 101
@@ -204,13 +208,15 @@ set Paladin_R cap spear 50
 set Paladin cap mshield 50
 set Paladin cap spear 50
 set Paladin_F_R cap mshield 50
-set Paladin_F_R cap spear 50
+set Paladin_F_R cap spear 60
 set Paladin_F cap mshield 50
-set Paladin_F cap spear 50
+set Paladin_F cap spear 60
 set Paladin_M_R cap mshield 50
 set Paladin_M_R cap spear 50
+set Paladin_M_R cap sword 60
 set Paladin_M cap mshield 50
 set Paladin_M cap spear 50
+set Paladin_M cap sword 60
 
 set LadyKnight_R cap bow 50
 set LadyKnight_R cap crossbow 60
@@ -353,8 +359,8 @@ set Fencer cap fire 60
 set Fencer cap thunder 50
 set Fencer cap sword 40
 
-set marcel growth sword 90
-set marcel growth Lshield 90
+set marcel growth sword 100
+set marcel growth Lshield 100
 set Marcel item 2 Scimitar+ 101
 set Marcel item 3 Broadsword 101
 set Marcel item 4 WideShield 101
@@ -397,10 +403,10 @@ set ruby base mshield +40
 set Chevalire cap mshield 50
 set Chevalire_R cap mshield 50
 set Chevalire cap sshield 50
-set Chevalire cap Spear 50
+set Chevalire cap Spear 60
 set Chevalire cap Sword 50
 set Chevalire_R cap sshield 50
-set Chevalire_R cap Spear 50
+set Chevalire_R cap Spear 60
 set Chevalire_R cap Sword 50
 
 set arthur item 0 Longsword 101
@@ -411,8 +417,8 @@ set arthur item 4 Rapier 101
 set arthur item 5 Bag 0
 set arthur item 6 Saber 101
 set arthur item 7 Bag 0
-set arthur growth sword 80
-set arthur growth spear 100
+set arthur growth sword 100
+set arthur growth spear 80
 set arthur base sword +20
 set arthur base sshield +20
 set arthur base mshield +20
@@ -569,7 +575,7 @@ set axel item 5 ThiefsCharm 0
 set axel item 6 PegasusBrace 0
 set axel item 7 Treasure 101
 set axel base axe +20
-set axel growth axe 80
+set axel growth axe 100
 
 // Since I can't increase larentia stat on wyvern, I gave her basic horse bonus stat.
 set larentia item 2 LadySword 101
@@ -625,7 +631,7 @@ set burroughs growth defense 9
 set burroughs growth speed 40
 set burroughs base crossbow +20
 
-set derrick growth axe 80
+set derrick growth axe 100
 set derrick growth lshield 100
 set derrick growth defense 12
 set derrick growth speed 30
@@ -770,6 +776,7 @@ set christine skill Windsweep
 set christine skill sunder
 set christine skill deathmatch
 set christine skill magicbane
+set christine skill parry
 
 set adel skill canto
 set adel skill pursuit 
@@ -795,7 +802,7 @@ set adel skill robust
 set adel skill robbery
 set adel skill hide
 set adel skill windsweep
-set adel skill fortune
+//set adel skill fortune
 set adel skill armsthrift
 set adel skill counter
 set adel skill sunder
@@ -823,7 +830,7 @@ set leon skill hide
 set leon skill adept
 set leon skill pursuit
 set leon skill windsweep
-set leon skill fortune
+//set leon skill fortune
 set leon skill counter
 set leon skill sunder
 
@@ -854,6 +861,7 @@ set sherlock skill adept
 set sherlock skill sunder
 set sherlock skill magicbane
 set sherlock skill celerity
+set sherlock skill parry
 
 set izerna skill blessing
 set izerna skill canto
@@ -951,6 +959,8 @@ set enid skill fortune
 set enid skill Windsweep
 set enid skill sunder
 set enid skill desperation
+set enid skill parry
+set enid skill knockaway
 
 set aegina skill canto
 set aegina skill focuschant
@@ -1109,6 +1119,7 @@ set kramer skill pursuit
 set kramer skill deathmatch
 set kramer skill adept
 set kramer skill sunder
+set kramer skill parry
 
 set sherpa skill canto
 set sherpa skill climber
@@ -1136,6 +1147,7 @@ set sherpa skill pursuit
 set sherpa skill deathmatch
 set sherpa skill adept
 set sherpa skill sunder
+set sherpa skill parry
 
 set dean skill adept
 set dean skill axeguard
@@ -1163,6 +1175,7 @@ set dean skill windsweep
 set dean skill pursuit
 set dean skill counter
 set dean skill sunder
+set dean skill parry
 
 set sylvis skill aim
 set sylvis skill canto
@@ -1192,6 +1205,7 @@ set sylvis skill sunder
 set sylvis skill onetwo
 set sylvis skill magicbane
 set sylvis skill deathmatch
+set sylvis skill parry
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -1255,6 +1269,7 @@ set esteban skill vantage
 set esteban skill sunder
 set esteban skill magicbane
 set esteban skill deathmatch
+set esteban skill parry
 	
 set faye skill adept
 set faye skill deathmatch
@@ -1283,6 +1298,7 @@ set faye skill battlecry
 set faye skill vantage
 set faye skill arrowbane
 set faye skill evasion
+set faye skill knockaway
 
 set faramir skill aim
 set faramir skill canto
@@ -1316,6 +1332,7 @@ set faramir skill vantage
 set faramir skill evasion
 set faramir skill astra
 set faramir skill doubleshot
+set faramir skill knockaway
 
 set volo skill adept
 set volo skill blade
@@ -1346,6 +1363,7 @@ set volo skill battlecry
 set volo skill vantage
 set volo skill arrowbane
 set volo skill evasion
+set volo skill knockaway
 
 set clifford skill canto
 set clifford skill flourish
@@ -1398,6 +1416,7 @@ set axel skill fortune
 set axel skill adept
 set axel skill counter
 set axel skill sunder
+set axel skill parry
 
 set larentia skill adept
 set larentia skill parry
@@ -1417,7 +1436,7 @@ set larentia skill robbery
 set larentia skill hide
 set larentia skill pursuit
 set larentia skill windsweep
-set larentia skill fortune
+//set larentia skill fortune
 set larentia skill vantage
 set larentia skill sunder
 
@@ -1534,6 +1553,7 @@ set lynette skill sunder
 set lynette skill desperation
 set lynette skill magicbane
 set lynette skill resistor
+set lynette skill parry
 
 set paramythis skill blessing
 set paramythis skill camouflage
@@ -1561,6 +1581,7 @@ set paramythis skill adept
 set paramythis skill Windsweep
 set paramythis skill sunder
 set paramythis skill parry
+set paramythis skill knockaway
 
 // prfs
 set Pascanion2 stat level 20
@@ -1773,29 +1794,29 @@ set MainGauche stat might 0
 set MainGauche stat defense 12
 set MainGauche stat crit 3
 
-set dagger effect parry
-set LetterOpener effect parry
-set BoltKnife effect parry
-set Dart effect parry
-set AirKnife effect parry
-set ThiefsKnife effect parry
-set Seax effect parry
-set Carnwenhau effect parry
-set StunKnife effect parry
-set KillerKnife effect parry
-set BloodKnife effect parry
-set Vespa effect parry
-set TempestKnife effect parry
-set Shieldknife effect parry
-set Crotalus effect parry
-set Crotalus effect x2
-set Kris effect parry
-set MainGauche effect parry
-set ThrowingKnife effect parry
-set SwordBreaker effect parry
-set PoisonKnife effect parry
-set SleepKnife effect parry
-set AssassinsKnife effect parry
+//set dagger effect parry
+//set LetterOpener effect parry
+//set BoltKnife effect parry
+//set Dart effect parry
+//set AirKnife effect parry
+//set ThiefsKnife effect parry
+//set Seax effect parry
+//set Carnwenhau effect parry
+//set StunKnife effect parry
+//set KillerKnife effect parry
+//set BloodKnife effect parry
+//set Vespa effect parry
+//set TempestKnife effect parry
+//set Shieldknife effect parry
+//set Crotalus effect parry
+//set Crotalus effect x2
+//set Kris effect parry
+//set MainGauche effect parry
+//set ThrowingKnife effect parry
+//set SwordBreaker effect parry
+//set PoisonKnife effect parry
+//set SleepKnife effect parry
+//set AssassinsKnife effect parry
 
 set AssassinsKnife effect cripple-x2
 set BoltKnife effect thunder-damage 0
@@ -2088,9 +2109,9 @@ set Shamshir stat weight 8
 set GreatSword stat weight 11
 set Adrastia stat weight 11
 set Zweihander stat weight 11
-set Balmung stat weight 8
-set Balmung2 stat weight 8
-set Balmung3 stat weight 8
+set Balmung stat weight 11
+set Balmung2 stat weight 11
+set Balmung3 stat weight 11
 set Brymranger stat weight 8
 
 set Zanbato effect Nosferatu
@@ -2113,6 +2134,9 @@ set Adrastia stat might 20
 set Adrastia stat defense 2
 set Adrastia stat mind 2
 set Zweihander stat might 17
+set Balmung stat defense 12
+set Balmung2 stat defense 12
+set Balmung3 stat defense 12
 
 set Shamshir stat durability B
 set Zanbato stat durability B
@@ -4033,10 +4057,10 @@ set LanceKnight2 cap sshield 50
 set LanceKnight2_R cap spear 60
 set LanceKnight2_R cap sshield 50
 
-set Guardian cap Sword 50
+set Guardian cap Sword 60
 set Guardian cap lshield 50
 
-set ArmorKnight cap lshield 50
+set ArmorKnight cap lshield 60
 set ArmorKnight cap Axe 50
 
 set pirate cap Axe 60
@@ -4062,9 +4086,9 @@ set SpearRider_R cap sshield 50
 set SpearRider cap spear 60
 set SpearRider cap sshield 50
 
-set DukeKnight cap sword 40
-set DukeKnight_R cap sword 40
-set Duke cap sword 40
+set DukeKnight cap sword 50
+set DukeKnight_R cap sword 50
+set Duke cap sword 50
 
 set AxeSoldier cap axe 60
 set AxeSoldier cap sshield 50
@@ -4080,20 +4104,20 @@ set Grassrunner_R cap Knife 60
 
 set SwordKnight cap sshield 50
 set SwordKnight cap mshield 50
-set SwordKnight cap sword 50
+set SwordKnight cap sword 60
 set SwordKnight cap spear 50
 
 set SwordKnight_R cap sshield 50
 set SwordKnight_R cap mshield 50
-set SwordKnight_R cap sword 50
+set SwordKnight_R cap sword 60
 set SwordKnight_R cap spear 50
 
-set Cavalier_R cap sword 50
+set Cavalier_R cap sword 60
 set Cavalier_R cap spear 50
 set Cavalier_R cap sshield 50
 set Cavalier_R cap mshield 50
 
-set Cavalier cap sword 50
+set Cavalier cap sword 60
 set Cavalier cap spear 50
 set Cavalier cap sshield 50
 set Cavalier cap mshield 50
@@ -4396,7 +4420,6 @@ set WyvernKnight_R skill canto
 set WyvernKnight_R skill throw
 set WyvernKnight_R skill hide
 set WyvernKnight_R skill adept
-set WyvernKnight_R skill parry
 
 // larentia stat
 set WyvernKnight base strength +5
@@ -4408,7 +4431,6 @@ set WyvernKnight skill canto
 set WyvernKnight skill throw
 set WyvernKnight skill hide
 set WyvernKnight skill adept
-set WyvernKnight skill parry
 
 set WyvernLord_R base strength +5
 set WyvernLord_R base defense +2
@@ -5242,7 +5264,6 @@ set Swordfighter_M skill adept
 set Swordfighter_M skill canto
 set Swordfighter_M skill iaido
 set Swordfighter_M skill fortune
-set Swordfighter_M skill parry
 set Swordfighter_M skill hide
 set Swordfighter_M skill watchful
 set Swordfighter_M skill celerity
@@ -5251,7 +5272,6 @@ set Swordfighter_M skill vantage
 set Swordmaster skill adept
 set Swordmaster skill canto
 set Swordmaster skill iaido
-set Swordmaster skill parry
 set Swordmaster skill astra
 set Swordmaster skill fortune
 set Swordmaster skill maim
@@ -5317,7 +5337,6 @@ set Burglar skill vantage
 set Myrmidon skill adept
 set Myrmidon skill canto
 set Myrmidon skill iaido
-set Myrmidon skill parry
 set Myrmidon skill hide
 set Myrmidon skill watchful
 set Myrmidon skill celerity
@@ -5356,11 +5375,6 @@ set LanceKnight skill adept
 set LanceKnight2 skill adept
 set LanceKnight2_R skill adept
 set LanceKnight_R skill adept
-
-set LanceKnight skill parry
-set LanceKnight2 skill parry
-set LanceKnight2_R skill parry
-set LanceKnight_R skill parry
 
 set LanceKnight2_R skill throw
 set LanceKnight2_R skill hide
@@ -5409,8 +5423,6 @@ set ArrowKnight skill watchful
 
 set SpearKnight skill adept
 set SpearKnight_R skill adept
-set SpearKnight skill parry
-set SpearKnight_R skill parry
 
 set BowKnight skill adept
 set BowKnight skill doubleshot
@@ -6107,6 +6119,103 @@ set WyvernKnightLarentia skill Prepared
 set WyvernKnightLarentia_R skill Prepared
 set WyvernLord skill Prepared
 set WyvernLord_R skill Prepared
+
+// Parry to every units without shield
+set ArrowKnight skill Parry
+set ArrowKnight_R skill Parry
+set Assassin skill Parry
+set Axefighter skill Parry
+set Bandit skill Parry
+set Barbarian skill Parry
+set Berserker skill Parry
+set BowKnight skill Parry
+set BowKnight_R skill Parry
+set Bowman skill Parry
+set BowRider skill Parry
+set BowRider_R skill Parry
+set Burglar skill Parry
+set Captain skill Parry
+set Chief skill Parry
+set ChosenOne skill Parry
+set Corsair skill Parry
+set FailedPoet skill Parry
+set Farmer skill Parry
+set Fencer skill Parry
+set FlameFencer skill Parry
+set Grassrunner skill Parry
+set Grassrunner_R skill Parry
+set Gunner skill Parry
+set HeavyGunner skill Parry
+set Hero skill Parry
+set HighHunter skill Parry
+set Highlander skill Parry
+set Horseman skill Parry
+set Horseman_R skill Parry
+set Hunter skill Parry
+set Huntress skill Parry
+set ImperialBowman skill Parry
+set ImperialBowRider skill Parry
+set ImperialBowRider_R skill Parry
+set ImperialGunner skill Parry
+set ImperialHeavyGunner skill Parry
+set ImperialMarksman skill Parry
+set LadyKnight skill Parry
+set LadyKnight_R skill Parry
+set Marksman skill Parry
+set Mercenary skill Parry
+set Myrmidon skill Parry
+set Outlaw skill Parry
+set Pickpocket skill Parry
+set Pirate skill Parry
+set Ranger skill Parry
+set RazeWarMonk skill Parry
+set RazeWarMonk2 skill Parry
+set Rogue skill Parry
+set RogueArcher skill Parry
+set RogueGuard skill Parry
+set RogueGunner skill Parry
+set RogueWarrior skill Parry
+set Ruffian skill Parry
+set Ruffian_R skill Parry
+set Scoundrel skill Parry
+set ShiningKnight skill Parry
+set ShiningKnight_R skill Parry
+set ShiningKnightParamythis skill Parry
+set ShiningKnightParamythis_R skill Parry
+set Sniper skill Parry
+set SnowBandit skill Parry
+set Swordfighter_M skill Parry
+set Swordmaster skill Parry
+set Thief_F skill Parry
+set Thief_M skill Parry
+set WarMonk skill Parry
+set Warrior skill Parry
+set GigasKnight skill parry
+
+
+// knockaway to Unit
+set Captain skill knockaway
+set Chief skill knockaway
+set Hero skill knockaway
+set Highlander skill knockaway
+set Mercenary skill knockaway
+set Myrmidon skill knockaway
+set Ranger skill knockaway
+set RazeWarMonk skill knockaway
+set RazeWarMonk2 skill knockaway
+set RogueGuard skill knockaway
+set RogueWarrior skill knockaway
+set Scoundrel skill knockaway
+set ShiningKnight skill knockaway
+set ShiningKnight_R skill knockaway
+set ShiningKnightParamythis skill knockaway
+set ShiningKnightParamythis_R skill knockaway
+set Swordfighter_M skill knockaway
+set Swordmaster skill knockaway
+set WarMonk skill knockaway
+set Warrior skill knockaway
+set Fencer skill knockaway
+set FlameFencer skill knockaway
 
 //Pulverize to units
 set ArmorKnight skill Pulverize
