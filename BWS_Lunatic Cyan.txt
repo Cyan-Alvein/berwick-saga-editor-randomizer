@@ -3970,11 +3970,11 @@ set FireScale stat avoid 12
 set FireScale effect cripple-rate 16
 set FireScale effect block-fire-damage 10
 set FireScale stat crit_avoid_penalty 0
-set FireScale stat fire_res 20
-set FireScale stat thunder_res 0
-set FireScale stat wind_res 0
-set FireScale stat holy_res 0
-set FireScale stat dark_res 0
+set FireScale stat fire_res 30
+set FireScale stat thunder_res 10
+set FireScale stat wind_res 10
+set FireScale stat holy_res 10
+set FireScale stat dark_res 10
 set FireScale stat cost 5000
 
 set IceScale stat hit 12
@@ -3982,11 +3982,11 @@ set IceScale stat avoid 12
 set IceScale effect cripple-rate 16
 set IceScale effect block-holy-damage 10
 set IceScale stat crit_avoid_penalty 0
-set IceScale stat fire_res 0
-set IceScale stat thunder_res 0
-set IceScale stat wind_res 20
-set IceScale stat holy_res 0
-set IceScale stat dark_res 0
+set IceScale stat fire_res 10
+set IceScale stat thunder_res 10
+set IceScale stat wind_res 30
+set IceScale stat holy_res 10
+set IceScale stat dark_res 10
 set IceScale stat cost 5000
 
 set ThunderScale stat hit 12
@@ -3994,11 +3994,11 @@ set ThunderScale stat avoid 12
 set ThunderScale effect cripple-rate 16
 set ThunderScale effect block-thunder-damage 10
 set ThunderScale stat crit_avoid_penalty 0
-set ThunderScale stat fire_res 0
-set ThunderScale stat thunder_res 20
-set ThunderScale stat wind_res 0
-set ThunderScale stat holy_res 0
-set ThunderScale stat dark_res 0
+set ThunderScale stat fire_res 10
+set ThunderScale stat thunder_res 30
+set ThunderScale stat wind_res 10
+set ThunderScale stat holy_res 10
+set ThunderScale stat dark_res 10
 set ThunderScale stat cost 5000
 
 set WyvernScale stat hit 12
@@ -4006,11 +4006,11 @@ set WyvernScale stat avoid 12
 set WyvernScale effect cripple-rate 16
 set WyvernScale effect block-thunder-damage 10
 set WyvernScale stat crit_avoid_penalty 0
-set WyvernScale stat fire_res 0
-set WyvernScale stat thunder_res 20
-set WyvernScale stat wind_res 0
-set WyvernScale stat holy_res 0
-set WyvernScale stat dark_res 0
+set WyvernScale stat fire_res 10
+set WyvernScale stat thunder_res 30
+set WyvernScale stat wind_res 10
+set WyvernScale stat holy_res 10
+set WyvernScale stat dark_res 10
 set WyvernScale stat cost 5000
 
 set ThorsScale stat hit 24
@@ -4019,7 +4019,7 @@ set ThorsScale effect cripple-rate 32
 set ThorsScale effect block-thunder-damage 20
 set ThorsScale stat crit_avoid_penalty 0
 set ThorsScale stat fire_res 20
-set ThorsScale stat thunder_res 40
+set ThorsScale stat thunder_res 60
 set ThorsScale stat wind_res 20
 set ThorsScale stat holy_res 20
 set ThorsScale stat dark_res 20
