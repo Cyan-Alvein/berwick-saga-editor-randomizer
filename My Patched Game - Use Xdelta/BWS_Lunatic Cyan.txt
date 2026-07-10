@@ -6704,7 +6704,7 @@ Set Concoction stat uses 3
 Set Concoction stat cost 3000
 Set Vulnerary stat uses 6
 Set Vulnerary stat cost 3000
-Set Elixir stat use 3
+Set Elixir stat uses 3
 Set Elixir stat cost 5000
 Set Vanishstone stat uses 3
 Set Vanishstone stat cost 6000
