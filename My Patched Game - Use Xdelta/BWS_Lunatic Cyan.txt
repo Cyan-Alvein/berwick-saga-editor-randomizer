@@ -4122,8 +4122,6 @@ set Cavalier cap spear 50
 set Cavalier cap sshield 50
 set Cavalier cap mshield 50
 
-set Treasure stat price 20000
-
 set Reese bracket tight
 set Ward bracket tight
 set Leon bracket tight
@@ -6702,6 +6700,30 @@ set IshsCourser stat cost 4000
 set MorachHorse stat cost 7500
 //set tico stat cost
 
+Set Concoction stat uses 3
+Set Concoction stat cost 3000
+Set Vulnerary stat uses 6
+Set Vulnerary stat cost 3000
+Set Elixir stat use 3
+Set Elixir stat cost 5000
+Set Vanishstone stat uses 3
+Set Vanishstone stat cost 6000
+Set Escapestone stat uses 3
+Set Escapestone stat cost 3000
+Set Panacea stat uses 3
+Set Panacea stat cost 4000
+Set Antitoxin stat uses 5
+Set Antitoxin stat cost 500
+Set SmellingSalts stat uses 5
+Set SmellingSalts stat cost 500
+Set Sedative stat uses 5
+Set Sedative stat cost 500
+
+set Treasure stat price 20000
+Set Goldcoin stat price 4000
+Set Silvercoin stat price 1000
+
+
 //////////////////////////////////////////////////////////////////////////////////
 
 set Glaive stat durability C
@@ -6765,3 +6787,4 @@ set Arrow++ stat might 8
 // If you want Leon & Adel or even ruby to use lance, just type this code Set Ruby Skill Lance, I tested it and it worked. But don't use
 // The function "learned" bug too much, instead of learning overwatch, someone can learn the skill "silence" instead. So I never used "learned" 
 // Mug, Mug2, Steal are limited on uses, it shouldn't be and we should be able to choose which item we mug. Steal shouldn't be a stand-still command
+
