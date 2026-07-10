@@ -1630,12 +1630,18 @@ set Windstorm stat might 10
 set PallasRiana stat might 10
 set PallasRiana stat max-range 3
 set PallasRiana stat accuracy 50
-set Sandstorm stat accuracy 100
-set Windtongue stat accuracy 100
-set Icetongue stat accuracy 100
-set Sandstorm stat might 20
+set Sandstorm stat accuracy 80
+set Windtongue stat accuracy 80
+set Icetongue stat accuracy 80
+set Sandstorm stat might 15
+set Sandstorm stat crit 0
 set Windtongue stat might 30
-set Icetongue stat might 42
+set Windtongue stat crit 0
+set Icetongue stat might 30
+set Icetongue effect sleep 0
+set Sandstorm stat max-range 0
+set Windtongue stat max-range 0
+set Icetongue stat max-range 0
 
 set Fire stat min-range 1
 set Hellfire stat min-range 1
@@ -1653,10 +1659,12 @@ set Earthblaze stat accuracy 50
 set PallasLeia stat level 20
 set PallasLeia stat max-range 2
 set PallasLeia stat accuracy 70
-set Flametongue stat accuracy 100
-set Blazetongue stat accuracy 100
-set Flametongue stat might 30
-set Blazetongue stat might 42
+set Flametongue stat accuracy 80
+set Blazetongue stat accuracy 80
+set Flametongue stat might 22
+set Blazetongue stat might 30
+set Flametongue stat max-range 0
+set Blazetongue stat max-range 0
 
 set Thunder stat crit 0
 set DireThunder stat crit 0
@@ -1678,8 +1686,9 @@ set PallasSerenia stat level 20
 set PallasSerenia stat might 32
 set PallasSerenia max-range 3
 set PallasSerenia stat accuracy 60
-set Stormtongue stat accuracy 120
-set Stormtongue stat might 42
+set Stormtongue stat accuracy 80
+set Stormtongue stat might 30
+set Stormtongue stat max-range 0
 
 set Physic stat max-range 5
 set Holy stat might 15
@@ -3859,7 +3868,7 @@ set GamblersBrace stat cost 3600
 
 set LightRing effect cripple-rate 16
 set LightRing effect block-holy-damage 10
-set LightRing stat hit 6
+set LightRing stat speed 2
 set LightRing stat avoid 0
 set LightRing stat fire_res 10
 set LightRing stat thunder_res 10
@@ -3870,7 +3879,7 @@ set LightRing stat cost 3600
 
 set WindRing effect cripple-rate 16
 set WindRing effect block-holy-damage 10
-set WindRing stat hit 6
+set WindRing stat speed 2
 set WindRing stat fire_res 10
 set WindRing stat thunder_res 10
 set WindRing stat wind_res 30
@@ -3880,7 +3889,7 @@ set WindRing stat cost 3600
 
 set ThunderRing effect cripple-rate 16
 set ThunderRing effect block-thunder-damage 10
-set ThunderRing stat hit 6
+set ThunderRing stat speed 2
 set ThunderRing stat fire_res 10
 set ThunderRing stat thunder_res 30
 set ThunderRing stat wind_res 10
@@ -3890,7 +3899,7 @@ set ThunderRing stat cost 3600
 
 set FireRing effect cripple-rate 16
 set FireRing effect block-fire-damage 10
-set FireRing stat hit 6
+set FireRing stat speed 2
 set FireRing stat fire_res 30
 set FireRing stat thunder_res 10
 set FireRing stat wind_res 10
@@ -3898,7 +3907,7 @@ set FireRing stat holy_res 10
 set FireRing stat dark_res 10
 set FireRing stat cost 3600
 
-set HealthCharm stat hit 6
+set HealthCharm stat speed 2
 //set HealthCharm stat avoid 3
 set HealthCharm stat fire_res 10
 set HealthCharm stat thunder_res 10
@@ -3907,7 +3916,7 @@ set HealthCharm stat holy_res 10
 set HealthCharm stat dark_res 10
 set HealthCharm stat cost 3600
 
-set MiracleCharm stat hit 6
+set MiracleCharm stat speed 2
 //set MiracleCharm stat avoid 3
 set MiracleCharm stat fire_res 10
 set MiracleCharm stat thunder_res 10
@@ -3965,8 +3974,7 @@ set DawnCharm stat hit 15
 //set DawnCharm stat dark_res 10
 //set DawnCharm stat cost 3600
 
-set FireScale stat hit 12
-set FireScale stat avoid 12
+set FireScale stat speed 2
 set FireScale effect cripple-rate 16
 set FireScale effect block-fire-damage 10
 set FireScale stat crit_avoid_penalty 0
@@ -3977,8 +3985,7 @@ set FireScale stat holy_res 10
 set FireScale stat dark_res 10
 set FireScale stat cost 5000
 
-set IceScale stat hit 12
-set IceScale stat avoid 12
+set IceScale stat speed 2
 set IceScale effect cripple-rate 16
 set IceScale effect block-holy-damage 10
 set IceScale stat crit_avoid_penalty 0
@@ -3989,8 +3996,7 @@ set IceScale stat holy_res 10
 set IceScale stat dark_res 10
 set IceScale stat cost 5000
 
-set ThunderScale stat hit 12
-set ThunderScale stat avoid 12
+set ThunderScale stat speed 2
 set ThunderScale effect cripple-rate 16
 set ThunderScale effect block-thunder-damage 10
 set ThunderScale stat crit_avoid_penalty 0
@@ -4001,8 +4007,7 @@ set ThunderScale stat holy_res 10
 set ThunderScale stat dark_res 10
 set ThunderScale stat cost 5000
 
-set WyvernScale stat hit 12
-set WyvernScale stat avoid 12
+set WyvernScale stat speed 2
 set WyvernScale effect cripple-rate 16
 set WyvernScale effect block-thunder-damage 10
 set WyvernScale stat crit_avoid_penalty 0
@@ -4013,8 +4018,7 @@ set WyvernScale stat holy_res 10
 set WyvernScale stat dark_res 10
 set WyvernScale stat cost 5000
 
-set ThorsScale stat hit 24
-set ThorsScale stat avoid 24
+set ThorsScale stat speed 4
 set ThorsScale effect cripple-rate 32
 set ThorsScale effect block-thunder-damage 20
 set ThorsScale stat crit_avoid_penalty 0
