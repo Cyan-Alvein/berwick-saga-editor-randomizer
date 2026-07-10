@@ -18,9 +18,7 @@
 
 // Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Swordbreaker, Holy , Hellfire, Earthblaze, GreatAxe, GreatSword, Partisan & all lance/fork weapons got cripple-x2
 
-// All Magic weapons got cripple-x2 effect. So when Maim is activated, you can easily cripple ennemy while using TempestKnife, EmberArrow, WindEdge ...
-
-// All Magic shields and rings got Nosferatu effect and 10 magic damage on block.
+// All Magic shields (WindShield) & magic rings (WindRing) effect cripple-rate 8 & 16 and 5 magic damage on block.
 
 // Hawkeye, Ollerus & Arbalest got 3 range. Apeiron, Rossweisse, Apollyon & Greatbow got 3 range. Crossbow minimum range is 1
 
@@ -62,9 +60,9 @@
 
 // CrookedAxe & Albatross got Pascanion Back fire effect
 
-// BreakerArrow, BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect.
+// BreakerArrow, BroadheadArrow, BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect.
 
-// Poleax, BroadheadArrow, Zanbato, Brionac, Strongbow, Holy effect Nosferatu, no more horse kill effect.
+// Poleax, Zanbato, Brionac, Strongbow, Holy effect Nosferatu, no more horse kill effect.
 
 // Shieldaxe is now very similar to GigasAxe stat. ShieldAxe give 10 might, 10 def & 10 mind, skill parry. GigasAxe give 10 might, 20 def & 20 mind, no skill parry. 
 
@@ -142,6 +140,7 @@ set Berserk effect restore-uses
 
 unset RazeMonkOwen skill limited
 unset Guardian skill slowstart2
+unset Marcel skill slowstart2
 
 // After Marcel reach level 15, he will learn slowstart2 if it was wasn't learned already
 // In that case, you can remove that slowstart2 by reloading your game from the memory, as long as you keep this line "unset Guardian skill slowstart2" in the script, that will remove slowstart2 on Marcel
@@ -168,10 +167,10 @@ set Lord cap sword 60
 
 set ward item 0 KnightSword 101
 set ward item 1 HolySword 101
-set ward item 2 SquareShield 101
+set ward item 2 BlackShield 101
 set ward item 3 Longspear 101
-set ward item 4 Harpoon 101
-set ward item 5 Treasure 101
+set ward item 4 Javelin 101
+set ward item 5 Partisan 101
 set ward item 6 RadiantShield 101 
 set ward item 7 Bag 0
 set ward growth sword 100
@@ -189,8 +188,8 @@ set VeteranKnight_R cap sword 50
 set elbert item 0 Longsword 101
 set elbert item 1 Aspis 101
 set elbert item 2 Harpoon 101
-set elbert item 3 Bag 0
-set elbert item 4 Pike 101
+set elbert item 3 WindEdge 101
+set elbert item 4 PrototypeSShd 101
 set elbert item 5 Pilum 20
 set elbert item 6 Bag 0
 set elbert item 7 Bag 0
@@ -242,7 +241,7 @@ set christine base sword +40
 
 set adel item 0 IronSpear 101
 set adel item 1 FireShield 101
-set adel item 2 Pike 101
+set adel item 2 Bag 0
 set adel item 3 Firebrand 101
 set adel item 4 GoreFork 101
 set adel item 5 IronLance 101
@@ -257,7 +256,7 @@ set leon item 0 IronSpear 101
 set leon item 1 ThunderShield 101
 set leon item 2 Firebrand 101
 set leon item 3 IronLance 101
-set leon item 4 Pike 101
+set leon item 4 Bag 0
 set leon item 5 Pilum 20
 set leon item 6 GoreFork 101
 set leon item 7 Harpoon 101
@@ -372,8 +371,8 @@ set Marcel base lshield +20
 
 set alvina item 4 LadyMShd 101
 set alvina item 5 Treasure 101
-set alvina item 6 Bag 0
-set alvina item 7 Bag 0
+set alvina item 6 LightningShield 101
+set alvina item 7 GaleShield 101
 set alvina growth sword 100
 set alvina growth spear 100
 set alvina growth sshield 90
@@ -425,12 +424,12 @@ set arthur base mshield +20
 set arthur base spear +40
 
 set kramer item 0 Longsword 101
-set kramer item 1 Vulnerary 1
+set kramer item 1 Vulnerary 6
 set kramer item 2 Shortsword 101
 set kramer item 3 Bag 0
 set kramer item 4 FeatherBrace 0
 set kramer item 5 MuscleBrace 0
-set kramer item 6 Vulnerary 1
+set kramer item 6 Vulnerary 6
 set kramer item 7 VanishCharm 0
 set kramer base sword +20
 set kramer growth sword 100
@@ -447,7 +446,7 @@ set dean growth axe 100
 set faye item 2 GiantsBrace 0
 set faye item 3 BronzeSword 101
 set faye item 4 LadySword 101
-set faye item 5 Vulnerary 1
+set faye item 5 Vulnerary 6
 set faye item 6 Shortsword 101
 set faye item 7 Bag 0
 set faye growth sword 100
@@ -545,16 +544,16 @@ set volo base sword +30
 set Sherpa item 1 Zanbato 101
 set Sherpa item 2 Shamshir 101
 set Sherpa item 3 Treasure 101
-set Sherpa item 4 Shamshir 101
-set Sherpa item 5 Treasure 101
+set Sherpa item 4 Bag 0
+set Sherpa item 5 FlameSword 101
 set Sherpa item 6 Albatross 101
 set Sherpa item 7 Bag 0
 set Sherpa growth sword 100
 set Sherpa base sword +20
 
-set clifford item 3 LightningShield 101
+set clifford item 3 Javelin 101
 set clifford item 4 GreatLance 101
-set clifford item 5 GaleShield 101
+set clifford item 5 Partisan 101
 set clifford item 6 MithrilSpear 101
 set clifford item 7 WyrmskinShield 101
 set clifford growth sword 100
@@ -1684,7 +1683,7 @@ set Holy stat uses 20
 set holy effect nosferatu
 set holy effect cripple-x2
 set Starlight effect holy-vantage
-set Starlight effect cripple-x2
+set Starlight effect cripple-rate 16
 set Starlight stat max-range 2
 set Starlight stat min-range 1
 set Starlight stat might 32
@@ -1703,13 +1702,13 @@ set AirBlade effect injure-rate 8
 set Windstorm effect injure-rate 8
 set PallasRiana effect injure-rate 8
 set Blizzard effect injure-rate 100
-set Fire effect cripple-rate 16
+set Fire effect cripple-rate 8
 set Hellfire effect cripple-x2
 set Earthblaze effect cripple-x2
-set PallasLeia effect cripple-x2
-set Thunder effect cripple-rate 16
-set DireThunder effect cripple-rate 16
-set PallasSerenia effect cripple-x2
+set PallasLeia effect cripple-rate 16
+set Thunder effect cripple-rate 8
+set DireThunder effect cripple-rate 8
+set PallasSerenia effect cripple-rate 16
 
 set Heal stat max-range 3
 set Soothe stat max-range 3
@@ -1821,11 +1820,11 @@ set MainGauche stat crit 3
 set AssassinsKnife effect cripple-x2
 set BoltKnife effect thunder-damage 0
 set BoltKnife effect injure-rate 100
-set TempestKnife effect cripple-x2
+set TempestKnife effect cripple-rate 16
 set TempestKnife effect wind-damage 10
 set ThiefsKnife effect steal-rate-plus 50
 set ThiefsCharm effect steal-rate-plus 50
-set AirKnife effect cripple-x2
+set AirKnife effect cripple-rate 8
 set AirKnife effect wind-damage 5
 set BloodKnife effect dark-damage 0
 set BloodKnife effect nosferatu
@@ -1853,7 +1852,7 @@ set dart stat uses 20
 set Seax stat level 10
 set BloodKnife stat level 15
 set Vespa stat level 5
-set TempestKnife stat level 20
+set TempestKnife stat level 10
 set Swordbreaker stat level 10
 set AssassinsKnife stat level 20
 set Airknife stat level 5
@@ -1941,12 +1940,12 @@ set Albatross effect devil-reversal 0
 //set Albatross stat avoid 18
 set BronzeSword effect injure-rate 100
 
-set WindEdge effect cripple-x2
-set LevinSword effect cripple-x2
-set HolySword effect cripple-x2
-set FlameSword effect cripple-x2
-set InfernalEdge effect cripple-x2
-set Nothung effect cripple-x2
+set WindEdge effect cripple-rate 8
+set LevinSword effect cripple-rate 12
+set HolySword effect cripple-rate 16
+set FlameSword effect cripple-rate 12
+set InfernalEdge effect cripple-rate 16
+set Nothung effect cripple-rate 16
 
 set WindEdge effect wind-damage 10
 set LevinSword effect thunder-damage 15
@@ -2004,7 +2003,7 @@ set ImperialSword cost 1000
 set Scimitar+ stat level 7
 set FlameSword stat level 15
 set HolySword stat level 20
-set WindEdge stat level 10
+set WindEdge stat level 5
 set InfernalEdge stat level 20
 set Grimhild stat level 1
 set AltiumSword stat level 10
@@ -2079,8 +2078,8 @@ set HolyMace stat might 1
 set DarkMace stat might 1
 set PoisonMace stat might 12
 
-set HolyMace effect cripple-x2
-set DarkMace effect cripple-x2
+set HolyMace effect cripple-rate 12
+set DarkMace effect cripple-rate 12
 
 set HolyMace effect holy-damage 15
 set DarkMace effect dark-damage 15
@@ -2116,7 +2115,7 @@ set Brymranger stat weight 8
 
 set Zanbato effect Nosferatu
 set BastardSword effect cripple-x2
-set GreatSword effect cripple-x2
+set GreatSword effect cripple-rate 16
 
 set BastardSword stat level 6
 set Shamshir stat level 10
@@ -2174,8 +2173,8 @@ set ImperialSpear stat accuracy 60
 set SlimSpear stat might 7
 set Pike stat might 13
 set MithrilSpear stat might 17
-set Pilum stat might 12
-set Verutum stat might 14
+set Pilum stat might 8
+set Verutum stat might 12
 set Javelin stat might 17
 set Euthyphro stat might 1
 set WindSpear stat might 1
@@ -2195,6 +2194,7 @@ set ImperialSpear stat might 8
 set VerianSpear stat might 8
 set OldImperialSpear stat might 6
 
+set Pilum stat level 1
 set Verutum stat level 10
 set Angon stat level 15
 set SteelSpear stat level 5
@@ -2211,14 +2211,14 @@ set SwiftSpear stat level 20
 
 set SlimSpear stat Weight 4
 set IronSpear stat Weight 6
-set Pilum stat Weight 8
+set Pilum stat Weight 6
 set SteelSpear stat Weight 7
 set Harpoon stat Weight 8
 set PrototypeSpear stat Weight 6
 set KillerSpear stat Weight 6
 set Pike stat Weight 6
 set Longspear stat Weight 8
-set Verutum stat Weight 9
+set Verutum stat Weight 8
 set Doru stat Weight 9
 set MithrilSpear stat Weight 6
 set WindSpear stat Weight 7
@@ -2252,7 +2252,7 @@ set MithrilSpear stat cost 3000
 set Pilum stat cost 1200
 set Verutum stat cost 1800
 set Pike stat cost 2000
-set Javelin stat cost 2400
+set Javelin stat cost 2600
 set SlimSpear stat cost 700
 set Harpoon stat cost 1000
 set VerianSpear stat cost 800
@@ -2266,11 +2266,11 @@ set Pilum stat uses 20
 set Verutum stat uses 20
 set Javelin stat uses 20
 
-Set Partisan effect cripple-x2
+Set Partisan effect cripple-rate 16
 set Pike effect cripple-x2
 Set Longspear effect cripple-x2
-set Euthyphro effect cripple-x2
-set WindSpear effect cripple-x2
+set Euthyphro effect cripple-rate 16
+set WindSpear effect cripple-rate 16
 
 set Euthyphro effect thunder-damage 20
 set WindSpear effect wind-damage 20
@@ -2286,7 +2286,7 @@ set MithrilSpear stat durability A
 set Partisan stat durability B
 set Brionac stat durability B
 //set Harpoon stat durability F
-set Angon stat durability B
+set Angon stat durability C
 
 set VerianSpear stat durability E
 set ImperialSpear stat durability E
@@ -2300,10 +2300,10 @@ set Harpoon stat level 1
 // MilitaryFork similar stat than LongSpear + cripple effect
 // Firebrand similar stat than WindSpear + Fire Damage Effect
 
-set MilitaryFork effect cripple-x2
-set Pitchfork effect cripple-x2
-set GoreFork effect cripple-x2
-set Firebrand effect cripple-x2
+set MilitaryFork effect cripple-rate 8
+set Pitchfork effect cripple-rate 8
+set GoreFork effect cripple-rate 8
+set Firebrand effect cripple-rate 8
 
 set Firebrand effect fire-damage 10
 
@@ -2391,8 +2391,8 @@ set BattleSaw stat might 6
 set ImperialAxe stat might 10
 set LogSplitter stat might 10
 set OldImperialAxe stat might 8
-set HandAxe stat might 14
-set Francisca stat might 16
+set HandAxe stat might 10
+set Francisca stat might 14
 set Hatchet stat might 19
 set Hatchet stat crit 0
 set VolcanoAxe stat might 1
@@ -2414,12 +2414,12 @@ set GigasAxe stat might 10
 set Bhuj stat might 14
 set Bhuj stat crit 18
 
-set VolcanoAxe effect cripple-x2
-set GlacierAxe effect cripple-x2
-set NimbusAxe effect cripple-x2
-set DarkAxe effect cripple-x2
-set Mjollnir effect cripple-x2
-set BoltAxe effect cripple-x2
+set VolcanoAxe effect cripple-rate 8
+set GlacierAxe effect cripple-rate 8
+set NimbusAxe effect cripple-rate 8
+set DarkAxe effect cripple-rate 8
+set Mjollnir effect cripple-rate 16
+set BoltAxe effect cripple-rate 12
 
 set VolcanoAxe effect fire-damage 10
 set GlacierAxe effect wind-damage 10
@@ -2433,11 +2433,11 @@ set LogSplitter effect injure-rate 100
 set LogSplitter stat Weight 8
 set Pickaxe stat Weight 4
 set BattleSaw stat Weight 7
-set HandAxe stat Weight 8
+set HandAxe stat Weight 6
 set BarbaricAxe stat Weight 11
 set CrookedAxe stat Weight 15
 //set IronAxe stat Weight 6
-set Francisca stat Weight 9
+set Francisca stat Weight 8
 set Battleaxe stat Weight 8
 set Broadaxe stat Weight 7
 set VolcanoAxe stat Weight 6
@@ -2511,7 +2511,7 @@ set BreakerAxe effect break-shield 0
 set BreakerAxe effect disarm-rate 100
 set Poleax effect kill-horse 0
 set Poleax effect nosferatu
-set GreatAxe effect cripple-x2
+set GreatAxe effect cripple-rate 16
 
 set Battleaxe stat level 10
 set Francisca stat level 10
@@ -2521,12 +2521,12 @@ set GigasAxe stat level 16
 set Hammer stat level 15
 set Tomahawk stat level 15
 set MaozaWolf stat level 15
-set VolcanoAxe stat level 10
-set GlacierAxe stat level 10
-set NimbusAxe stat level 10
-set DarkAxe stat level 10
-set BoltAxe stat level 15
-set Mjollnir stat level 20
+set VolcanoAxe stat level 5
+set GlacierAxe stat level 5
+set NimbusAxe stat level 5
+set DarkAxe stat level 5
+set BoltAxe stat level 10
+set Mjollnir stat level 15
 set Tabarzin stat level 15
 set MithrilAxe stat level 15
 set Gullveig stat level 15
@@ -2549,7 +2549,7 @@ set Hammer stat durability E
 set Gullveig stat durability C
 set ShieldAxe stat durability D
 set LogSplitter stat durability F
-set Tomahawk stat durability D
+set Tomahawk stat durability C
 set Battleaxe stat durability C
 set MithrilAxe stat durability B
 set Bhuj stat durability C
@@ -2560,8 +2560,8 @@ set OldImperialAxe stat durability F
 
 set IronAxe stat cost 1000
 set BroadAxe stat cost 1200
-set Gullveig stat cost 2000
-set Tomahawk stat cost 1000
+set Gullveig stat cost 3000
+set Tomahawk stat cost 2000
 set GreatAxe stat cost 3000
 set MithrilAxe stat cost 3000
 set BattleSaw stat cost 1000
@@ -2572,10 +2572,8 @@ set OldImperialAxe stat cost 200
 set ImperialAxe stat cost 800
 set LogSplitter stat cost 1000
 set HandAxe stat cost 1000
-set Francisca stat cost 1800
-set Hatchet stat cost 2400
-set Gullveig stat cost 3000
-set Tomahawk stat cost 2000
+set Francisca stat cost 1400
+set Hatchet stat cost 1700
 set VolcanoAxe stat cost 2000
 set GlacierAxe stat cost 2000
 set NimbusAxe stat cost 2000
@@ -2594,18 +2592,20 @@ set SleepArrow stat might 1
 set BroadheadArrow stat might 11
 set BodkinArrow stat might 5
 set BreakerArrow stat might 11
-set EmberArrow stat might 1
-set FreezeArrow stat might 1
+set EmberArrow stat might 0
+set FreezeArrow stat might 0
 set ImperialArrow stat might 8
 set ImperialArrow+ stat might 8
 set WoodenArrow stat might 1
 set StoneArrow stat might 3
-set RaijinArrow stat might 1
+set RaijinArrow stat might 0
 set SereniaBow stat might 10
 set SereniaBow stat crit 18
+set Pascanion stat might 0
+set Pascanion2 stat might 0
 
-set Pascanion2 effect cripple-x2
-set Pascanion effect cripple-x2
+set Pascanion2 effect cripple-rate 16
+set Pascanion effect cripple-rate 16
 
 set Pascanion stat defense 0
 set Pascanion stat avoid 0
@@ -2614,16 +2614,16 @@ set Pascanion2 stat defense 0
 set Pascanion2 stat avoid 0
 set Pascanion2 effect fire-damage 20
 
-set EmberArrow effect cripple-x2
-set FreezeArrow effect cripple-x2
-set RaijinArrow effect cripple-x2
+set EmberArrow effect cripple-rate 8
+set FreezeArrow effect cripple-rate 8
+set RaijinArrow effect cripple-rate 12
 
-set EmberArrow effect fire-damage 8
-set FreezeArrow effect wind-damage 8
-set RaijinArrow effect thunder-damage 13
+set EmberArrow effect fire-damage 10
+set FreezeArrow effect wind-damage 10
+set RaijinArrow effect thunder-damage 15
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect kill-horse 0
-set BroadheadArrow effect nosferatu
+set BroadheadArrow effect disarm-rate 100
 
 set BroadheadArrow stat accuracy 10
 set BreakerArrow stat accuracy 10
@@ -2656,6 +2656,8 @@ set Pascanion2 stat max-range 3
 
 set Shortbow effect injure-rate 100
 set CompositeBow effect cripple-x2
+set Rossweisse effect cripple-x2
+set SereniaBow effect cripple-x2
 set Strongbow effect nosferatu
 
 set IronBow stat Weight 5
@@ -2723,6 +2725,8 @@ set IronArrow stat cost 800
 set IronArrow+ stat cost 800
 set SteelArrow stat cost 1100
 set SteelArrow+ stat cost 1100
+set BroadheadArrow stat cost 1500
+set BreakerArrow stat cost 1500
 set ImperialArrow stat cost 800
 set ImperialArrow+ stat cost 800
 set EmberArrow stat cost 900
@@ -2964,13 +2968,13 @@ set Scorpio stat cost 6000
 
 set ShiningShield effect negate-dark 100
 
-set Vollenden effect nosferatu
-set DarkShield effect nosferatu
-set Windshield effect nosferatu
-set LightShield effect nosferatu
-set ThunderShield effect nosferatu
-set FireShield effect nosferatu
-set Perseid effect nosferatu
+set Vollenden effect cripple-rate 16
+set DarkShield effect cripple-rate 16
+set Windshield effect cripple-rate 8
+set LightShield effect cripple-rate 8
+set ThunderShield effect cripple-rate 8
+set FireShield effect cripple-rate 8
+set Perseid effect cripple-rate 8
 
 set Vollenden effect block-holy-damage 10
 set DarkShield effect block-fire-damage 10
@@ -2994,7 +2998,7 @@ set MetalShield stat might 8
 set MithrilShield stat might 7
 set Vollenden stat might 8
 set ShiningShield stat might 8
-set LadyShield stat might 6
+set LadyShield stat might 7
 set Perseid stat might 7
 set Aiantos stat might 14
 set Aiantos stat magic 14
@@ -3254,7 +3258,7 @@ set MetalShield stat level 10
 set MithrilShield stat level 15
 set Aiantos stat level 15
 set ShiningShield stat level 15
-set LadyShield stat level 1
+//set LadyShield stat level 1
 
 //Set VerianSShd Stat level 1
 //set OldImpSShd stat level 1
@@ -3325,11 +3329,11 @@ Set WyrmskinShield Stat wind_res 14
 Set WyrmskinShield Stat holy_res 14
 Set WyrmskinShield Stat dark_res 14
 
-Set LadyMShd Stat fire_res 12
-Set LadyMShd Stat thunder_res 12
-Set LadyMShd Stat wind_res 12
-Set LadyMShd Stat holy_res 12
-Set LadyMShd Stat dark_res 12
+Set LadyMShd Stat fire_res 14
+Set LadyMShd Stat thunder_res 14
+Set LadyMShd Stat wind_res 14
+Set LadyMShd Stat holy_res 14
+Set LadyMShd Stat dark_res 14
 
 Set PaladinShield Stat mind 6
 Set PaladinShield Stat fire_res 14
@@ -3418,7 +3422,7 @@ Set KnightShield stat might 12
 Set LimitShield stat might 14
 Set Hestia stat might 14
 Set WyrmskinShield stat might 14
-Set LadyMShd stat might 12
+Set LadyMShd stat might 14
 Set PaladinShield stat might 14
 Set BlackShield stat might 14
 
@@ -3434,12 +3438,12 @@ Set ImpSoldierMShd+ stat might 12
 Set ImpOfficerMShd stat might 12
 Set ImpKnightMShd stat might 14
 
-set LightningShield effect nosferatu
-set RadiantShield effect nosferatu
-set ShadowShield effect nosferatu
-set BlazingShield effect nosferatu
-set GaleShield effect nosferatu
-Set Hestia effect nosferatu
+set LightningShield effect cripple-rate 8
+set RadiantShield effect cripple-rate 8
+set ShadowShield effect cripple-rate 8
+set BlazingShield effect cripple-rate 8
+set GaleShield effect cripple-rate 8
+Set Hestia effect cripple-rate 16
 
 set LightningShield effect block-thunder-damage 5
 set RadiantShield effect block-holy-damage 5
@@ -3448,7 +3452,7 @@ set BlazingShield effect block-fire-damage 5
 set GaleShield effect block-thunder-damage 5
 Set Hestia effect block-fire-damage 10
 
-//Set BlackShield effect reflect-damage 50
+Set BlackShield effect reflect-damage 50
 
 set LightningShield stat accuracy 100
 set RadiantShield stat accuracy 100
@@ -3461,6 +3465,7 @@ set Kiteshield stat accuracy 100
 set SquareShield stat accuracy 100
 set KnightShield stat accuracy 100
 set LimitShield stat accuracy 100
+set LadyMShd stat accuracy 100
 set WyrmskinShield Stat accuracy 100
 set Hestia stat accuracy 100
 set PaladinShield stat accuracy 100
@@ -3483,6 +3488,7 @@ set Kiteshield stat durability B
 set SquareShield stat durability A
 set KnightShield stat durability A
 set LimitShield stat durability D
+set LadyMShd stat durability A
 set WyrmskinShield Stat durability S
 set Hestia stat durability S
 set PaladinShield stat durability A
@@ -3499,6 +3505,7 @@ set Kiteshield stat cost 2000
 set SquareShield stat cost 4000
 set KnightShield stat cost 5000
 set LimitShield stat cost 2000
+set LadyMShd stat cost 6000
 set Hestia stat cost 10000
 set WyrmskinShield stat cost 11000
 set PaladinShield stat cost 6000
@@ -3588,9 +3595,9 @@ set RaijinShield stat accuracy 100
 set AmaterasuShield stat accuracy 100
 set GeneralShield stat accuracy 100
 
-set KojinShield effect nosferatu
-set FujinShield effect nosferatu
-set RaijinShield effect nosferatu
+set KojinShield effect cripple-rate 8
+set FujinShield effect cripple-rate 8
+set RaijinShield effect cripple-rate 8
 
 set KojinShield effect block-fire-damage 5
 set FujinShield effect block-holy-damage 5
@@ -3850,7 +3857,7 @@ set GamblersBrace stat holy_res 10
 set GamblersBrace stat dark_res 10
 set GamblersBrace stat cost 3600
 
-set LightRing effect nosferatu
+set LightRing effect cripple-rate 16
 set LightRing effect block-holy-damage 10
 set LightRing stat hit 6
 set LightRing stat avoid 0
@@ -3861,7 +3868,7 @@ set LightRing stat holy_res 30
 set LightRing stat dark_res 30
 set LightRing stat cost 3600
 
-set WindRing effect nosferatu
+set WindRing effect cripple-rate 16
 set WindRing effect block-holy-damage 10
 set WindRing stat hit 6
 set WindRing stat fire_res 10
@@ -3871,7 +3878,7 @@ set WindRing stat holy_res 10
 set WindRing stat dark_res 10
 set WindRing stat cost 3600
 
-set ThunderRing effect nosferatu
+set ThunderRing effect cripple-rate 16
 set ThunderRing effect block-thunder-damage 10
 set ThunderRing stat hit 6
 set ThunderRing stat fire_res 10
@@ -3881,7 +3888,7 @@ set ThunderRing stat holy_res 10
 set ThunderRing stat dark_res 10
 set ThunderRing stat cost 3600
 
-set FireRing effect nosferatu
+set FireRing effect cripple-rate 16
 set FireRing effect block-fire-damage 10
 set FireRing stat hit 6
 set FireRing stat fire_res 30
@@ -3960,7 +3967,7 @@ set DawnCharm stat hit 15
 
 set FireScale stat hit 12
 set FireScale stat avoid 12
-set FireScale effect nosferatu
+set FireScale effect cripple-rate 16
 set FireScale effect block-fire-damage 10
 set FireScale stat crit_avoid_penalty 0
 set FireScale stat fire_res 20
@@ -3972,7 +3979,7 @@ set FireScale stat cost 5000
 
 set IceScale stat hit 12
 set IceScale stat avoid 12
-set IceScale effect nosferatu
+set IceScale effect cripple-rate 16
 set IceScale effect block-holy-damage 10
 set IceScale stat crit_avoid_penalty 0
 set IceScale stat fire_res 0
@@ -3984,7 +3991,7 @@ set IceScale stat cost 5000
 
 set ThunderScale stat hit 12
 set ThunderScale stat avoid 12
-set ThunderScale effect nosferatu
+set ThunderScale effect cripple-rate 16
 set ThunderScale effect block-thunder-damage 10
 set ThunderScale stat crit_avoid_penalty 0
 set ThunderScale stat fire_res 0
@@ -3996,7 +4003,7 @@ set ThunderScale stat cost 5000
 
 set WyvernScale stat hit 12
 set WyvernScale stat avoid 12
-set WyvernScale effect nosferatu
+set WyvernScale effect cripple-rate 16
 set WyvernScale effect block-thunder-damage 10
 set WyvernScale stat crit_avoid_penalty 0
 set WyvernScale stat fire_res 0
@@ -4008,7 +4015,7 @@ set WyvernScale stat cost 5000
 
 set ThorsScale stat hit 24
 set ThorsScale stat avoid 24
-set ThorsScale effect nosferatu
+set ThorsScale effect cripple-rate 32
 set ThorsScale effect block-thunder-damage 20
 set ThorsScale stat crit_avoid_penalty 0
 set ThorsScale stat fire_res 20
@@ -6787,4 +6794,6 @@ set Arrow++ stat might 8
 // If you want Leon & Adel or even ruby to use lance, just type this code Set Ruby Skill Lance, I tested it and it worked. But don't use
 // The function "learned" bug too much, instead of learning overwatch, someone can learn the skill "silence" instead. So I never used "learned" 
 // Mug, Mug2, Steal are limited on uses, it shouldn't be and we should be able to choose which item we mug. Steal shouldn't be a stand-still command
+// For BroadheadArrow, when I do Kill-horse 0 & Nosferatu, Nosferu wont proc, only kill-horse 0 do.
+// It seems only ItemRateEffect list works on secondary item. cripple, nosferatu didn't work but  injure-rate do
 
