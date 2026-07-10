@@ -104,7 +104,7 @@ set ArmorKnight attribute movement knight
 set Pirate attribute movement lt-infantry
 set Corsair attribute movement lt-infantry
 set Scoundrel attribute movement lt-infantry
-set SnowBandit attribute movement lt-infantry
+//set SnowBandit attribute movement lt-infantry
 set Barbarian attribute movement lt-infantry
 set Bandit attribute movement lt-infantry
 
@@ -4752,6 +4752,7 @@ set Outlaw skill aim
 set Outlaw skill shieldfaire
 set Outlaw skill hide
 set Outlaw skill watchful
+set Outlaw skill doubleshot
 
 // same stats as thaddy
 set Assassin base strength +5
