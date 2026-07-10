@@ -64,8 +64,6 @@
 
 // Poleax, Zanbato, Brionac, Strongbow, Holy effect Nosferatu, no more horse kill effect.
 
-// Shieldaxe is now very similar to GigasAxe stat. ShieldAxe give 10 might, 10 def & 10 mind, skill parry. GigasAxe give 10 might, 20 def & 20 mind, no skill parry. 
-
 // All shields give magic stats same as defense stats. So Perseid give 7 magic resist. Shield unit can now tank magic damage too.
 
 // All horses give stat bonus up to 5 points, while tico is still OP ofc (7 points, I didn't touch his stat no joke, Czene was cheating the whole time with that monster). So ThinHorse give 2 speed, 1 attack, 1 defense, 1 magic.
@@ -95,6 +93,10 @@
 // Arthur Elbert Sword cap 60, Ruby Alvine Spear Cap 60, Marcel Sword Cap 60, Derrick Axe Cap 60
 
 // KnockAway to all no-shield sword unit (Faye, Faramir, Volo, Kramer, Sherpa, Paramythis, Enid)
+
+// Doru 10 Defense, GreatSword Adrastia 4 Defense, Partisan 8 Defense, MainGauche 12 Defense, Balmung 12 Defense, Rossweisse 3 Defense 3 Magic, 
+
+// ShieldAxe give 16 might 20 def skill parry. GigasAxe give 20 might 20 def no skill parry. 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -141,6 +143,8 @@ set Berserk effect restore-uses
 unset RazeMonkOwen skill limited
 unset Guardian skill slowstart2
 unset Marcel skill slowstart2
+unset Guardian skill slowstart
+unset Marcel skill slowstart
 
 // After Marcel reach level 15, he will learn slowstart2 if it was wasn't learned already
 // In that case, you can remove that slowstart2 by reloading your game from the memory, as long as you keep this line "unset Guardian skill slowstart2" in the script, that will remove slowstart2 on Marcel
@@ -2127,11 +2131,9 @@ set BastardSword stat might 14
 set Shamshir stat might 16
 set Zanbato stat might 18
 set GreatSword stat might 20
-set GreatSword stat defense 2
-set GreatSword stat mind 2
+set GreatSword stat defense 4
 set Adrastia stat might 20
-set Adrastia stat defense 2
-set Adrastia stat mind 2
+set Adrastia stat defense 4
 set Zweihander stat might 17
 set Balmung stat defense 12
 set Balmung2 stat defense 12
@@ -2184,8 +2186,7 @@ set Fauchard stat might 12
 set Brionac stat might 8
 set KillerSpear stat might 9
 set Partisan stat might 22
-set Partisan stat defense 4
-set Partisan stat mind 4
+set Partisan stat defense 8
 set Angon stat might 17
 set Angon stat crit 0
 set SteelSpear stat crit 6
@@ -2240,8 +2241,7 @@ set SlimSpear stat hex 0
 set Pike stat hex 0
 set MithrilSpear stat hex 0
 
-set Doru stat defense 5
-set Doru stat mind 5
+set Doru stat defense 10
 
 set Angon stat cost 3000
 set Brionac stat cost 4000
@@ -2409,8 +2409,8 @@ set Poleax stat might 14
 set Gullveig stat might 19
 set Tomahawk stat might 14
 set GreatAxe stat might 30
-set Shieldaxe stat might 10
-set GigasAxe stat might 10
+set Shieldaxe stat might 16
+set GigasAxe stat might 20
 set Bhuj stat might 14
 set Bhuj stat crit 18
 
@@ -2501,10 +2501,8 @@ set VerianAxe stat accuracy 50
 set BanditAxe effect steal-rate-plus 50
 set BattleAxe effect cripple-x2
 set Shieldaxe effect parry
-set Shieldaxe stat defense 10
-set Shieldaxe stat mind 10
+set Shieldaxe stat defense 20
 set GigasAxe stat defense 20
-set GigasAxe stat mind 20
 set CrookedAxe effect pascanion-backfire
 set CrookedAxe effect devil-reversal 0
 set BreakerAxe effect break-shield 0
@@ -2547,7 +2545,8 @@ set Mjollnir stat durability D
 set KillerAxe stat durability D
 set Hammer stat durability E
 set Gullveig stat durability C
-set ShieldAxe stat durability D
+set ShieldAxe stat durability C
+set GigasAxe stat durability C
 set LogSplitter stat durability F
 set Tomahawk stat durability C
 set Battleaxe stat durability C
@@ -2755,8 +2754,8 @@ set Apollyon stat might 6
 set KillerBow stat might 6
 set Apeiron stat might 10
 
-set Rossweisse stat defense 6
-set Rossweisse stat magic 6
+set Rossweisse stat defense 3
+set Rossweisse stat magic 3
 set KillerBow stat Crit 18	
 
 //Crossbow
@@ -3243,12 +3242,12 @@ set ImpSoldierSShd++ stat durability D
 set ImpOfficerSShd stat durability D
 set ImpKnightSShd stat durability D
 
-set FireShield stat level 10
-set ThunderShield stat level 10
-set LightShield stat level 10
-set Windshield stat level 10
-set DarkShield stat level 20
-set Vollenden stat level 20
+set FireShield stat level 4
+set ThunderShield stat level 4
+set LightShield stat level 4
+set Windshield stat level 4
+set DarkShield stat level 7
+set Vollenden stat level 7
 
 set Buckler stat level 1
 set PrototypeSShd stat level 4
@@ -3523,17 +3522,17 @@ set ImpSoldierMShd+ cost 2000
 set ImpOfficerMShd cost 2000
 set ImpKnightMShd cost 2400
 
-set LightningShield stat level 14
-set RadiantShield stat level 14
-set ShadowShield stat level 14
-set BlazingShield stat level 14
-set GaleShield stat level 14
+set LightningShield stat level 12
+set RadiantShield stat level 12
+set ShadowShield stat level 12
+set BlazingShield stat level 12
+set GaleShield stat level 12
 set Kiteshield stat level 4
 set SquareShield stat level 8
 set KnightShield stat level 12
 set LimitShield stat level 12
 set PaladinShield stat level 16
-set Hestia stat level 20
+set Hestia stat level 16
 set BlackShield stat level 16
 set WyrmskinShield stat level 16
 
@@ -3547,9 +3546,9 @@ set WyrmskinShield stat level 16
 
 set AmaterasuShield stat level 16
 set GeneralShield stat level 16
-set KojinShield stat level 15
-set FujinShield stat level 15
-set RaijinShield stat level 15
+set KojinShield stat level 12
+set FujinShield stat level 12
+set RaijinShield stat level 12
 
 set ImpKnightLShd stat durability B
 set ImpOfficerLShd stat durability B
@@ -3742,6 +3741,7 @@ Set ImpKnightLShd Stat dark_res 25
 //Accessories Buff
 
 // All basic ring got 6 hit
+
 set FeatherBrace stat speed 2
 set FeatherBrace stat hit 6
 //set FeatherBrace stat avoid 3
