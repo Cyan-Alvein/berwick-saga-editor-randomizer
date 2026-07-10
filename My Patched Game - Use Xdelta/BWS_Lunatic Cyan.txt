@@ -1630,9 +1630,9 @@ set Windstorm stat might 10
 set PallasRiana stat might 10
 set PallasRiana stat max-range 3
 set PallasRiana stat accuracy 50
-set Sandstorm stat accuracy 80
-set Windtongue stat accuracy 80
-set Icetongue stat accuracy 80
+set Sandstorm stat accuracy 110
+set Windtongue stat accuracy 110
+set Icetongue stat accuracy 110
 set Sandstorm stat might 15
 set Sandstorm stat crit 0
 set Windtongue stat might 30
@@ -1659,8 +1659,8 @@ set Earthblaze stat accuracy 50
 set PallasLeia stat level 20
 set PallasLeia stat max-range 2
 set PallasLeia stat accuracy 70
-set Flametongue stat accuracy 80
-set Blazetongue stat accuracy 80
+set Flametongue stat accuracy 110
+set Blazetongue stat accuracy 110
 set Flametongue stat might 22
 set Blazetongue stat might 30
 set Flametongue stat max-range 0
@@ -1686,7 +1686,7 @@ set PallasSerenia stat level 20
 set PallasSerenia stat might 32
 set PallasSerenia max-range 3
 set PallasSerenia stat accuracy 60
-set Stormtongue stat accuracy 80
+set Stormtongue stat accuracy 130
 set Stormtongue stat might 30
 set Stormtongue stat max-range 0
 
