@@ -12,11 +12,11 @@
 
 /////////////////////////////////////////////README - Most Important Changes//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// pitchfork, GoreFork & MilitaryFork got cripple-x2 effect
+// pitchfork, GoreFork & MilitaryFork got cripple-rate 8. GreatSword Partisan GreatAxe cripple-rate 16. Magic Weapon (WindEdge, EmberArrow ...) 8 or 12 or 16 Cripple-rate depending of damage.
 
-// Blizzard, ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter effect injure-rate 100% but accuracy -20%. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
+// Blizzard 44% injure-rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter 100% injure-rate but -20% accuracy. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
 
-// Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Swordbreaker, Holy , Hellfire, Earthblaze, GreatAxe, GreatSword, Partisan & all lance/fork weapons got cripple-x2
+// Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons got cripple-x2
 
 // All Magic shields (WindShield) & magic rings (WindRing) effect cripple-rate 8 & 16 and 5 magic damage on block.
 
@@ -32,13 +32,9 @@
 
 // Archer, priest, thief, swordmaster ennemy got watchful
 
-// The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
-
 // All player characters got at least +20 base weapon skill and +20% weapon growth.
 
 // All unpromoted player class weapon cap are set as promoted class weapon cap. So Sherlock can reach bow rank 60 without getting promoted
-
-// the skill desperation while attacking with a lance bug, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
 
 // All rings give +10 magic resistance. All magic rings (WindRing, FireRing...) + 10 block magic damage on block. Rings like windring give +30 wind resist and +10 other element magic resist.
 
@@ -94,13 +90,15 @@
 
 // KnockAway to all no-shield sword unit (Faye, Faramir, Volo, Kramer, Sherpa, Paramythis, Enid)
 
-// Doru 10 Defense, GreatSword Adrastia 4 Defense, Partisan 8 Defense, MainGauche 12 Defense, Balmung 12 Defense, Rossweisse 3 Defense 3 Magic, 
+// GreatSword Adrastia 2 Defense, Partisan Doru 4 Defense, MainGauche Balmung 6 Defense, Rossweisse 3 Defense 
 
-// ShieldAxe give 16 might 20 def skill parry. GigasAxe give 20 might 20 def no skill parry. 
+// ShieldAxe give 16 might 10 def skill parry. GigasAxe give 20 might 10 def no skill parry. 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set ArmorKnight attribute movement knight
+set GigasKnight attribute movement knight
+set General attribute movement knight
 set Pirate attribute movement lt-infantry
 set Corsair attribute movement lt-infantry
 set Scoundrel attribute movement lt-infantry
@@ -1714,7 +1712,7 @@ set Rehabilitate stat level 10
 set AirBlade effect injure-rate 8
 set Windstorm effect injure-rate 8
 set PallasRiana effect injure-rate 8
-set Blizzard effect injure-rate 100
+set Blizzard effect injure-rate 47
 set Fire effect cripple-rate 8
 set Hellfire effect cripple-x2
 set Earthblaze effect cripple-x2
@@ -1788,7 +1786,7 @@ set Shieldknife stat might 2
 set Crotalus stat might 6
 set Crotalus stat crit 9
 set Kris stat might 0
-set Kris stat mind 12
+set Kris stat mind 6
 set Kris stat crit 3
 set ThrowingKnife stat might 6
 set ThrowingKnife stat crit 9
@@ -1803,7 +1801,7 @@ set BoltKnife stat crit 3
 set AssassinsKnife stat might 4
 set LetterOpener stat might 1
 set MainGauche stat might 0
-set MainGauche stat defense 12
+set MainGauche stat defense 6
 set MainGauche stat crit 3
 
 //set dagger effect parry
@@ -2140,13 +2138,13 @@ set BastardSword stat might 14
 set Shamshir stat might 16
 set Zanbato stat might 18
 set GreatSword stat might 20
-set GreatSword stat defense 4
+set GreatSword stat defense 2
 set Adrastia stat might 20
-set Adrastia stat defense 4
+set Adrastia stat defense 2
 set Zweihander stat might 17
-set Balmung stat defense 12
-set Balmung2 stat defense 12
-set Balmung3 stat defense 12
+set Balmung stat defense 6
+set Balmung2 stat defense 6
+set Balmung3 stat defense 6
 
 set Shamshir stat durability B
 set Zanbato stat durability B
@@ -2194,8 +2192,9 @@ set PrototypeSpear stat might 13
 set Fauchard stat might 12
 set Brionac stat might 8
 set KillerSpear stat might 9
+set Doru stat might 12
 set Partisan stat might 22
-set Partisan stat defense 8
+set Partisan stat defense 4
 set Angon stat might 17
 set Angon stat crit 0
 set SteelSpear stat crit 6
@@ -2250,7 +2249,7 @@ set SlimSpear stat hex 0
 set Pike stat hex 0
 set MithrilSpear stat hex 0
 
-set Doru stat defense 10
+set Doru stat defense 4
 
 set Angon stat cost 3000
 set Brionac stat cost 4000
@@ -2510,8 +2509,9 @@ set VerianAxe stat accuracy 50
 set BanditAxe effect steal-rate-plus 50
 set BattleAxe effect cripple-x2
 set Shieldaxe effect parry
-set Shieldaxe stat defense 20
-set GigasAxe stat defense 20
+set Shieldaxe stat defense 10
+set GigasAxe stat defense 10
+set GigasAxe effect chance-def-up
 set CrookedAxe effect pascanion-backfire
 set CrookedAxe effect devil-reversal 0
 set BreakerAxe effect break-shield 0
@@ -2764,7 +2764,6 @@ set KillerBow stat might 6
 set Apeiron stat might 10
 
 set Rossweisse stat defense 3
-set Rossweisse stat magic 3
 set KillerBow stat Crit 18	
 
 //Crossbow
@@ -5117,6 +5116,7 @@ set GigasKnight skill armsthrift
 set GigasKnight skill camouflage
 set GigasKnight skill canto
 set GigasKnight skill hide
+set GigasKnight skill protector
 
 set Transporter base strength +5
 set Transporter base defense +2
@@ -6801,4 +6801,5 @@ set Arrow++ stat might 8
 // Mug, Mug2, Steal are limited on uses, it shouldn't be and we should be able to choose which item we mug. Steal shouldn't be a stand-still command
 // For BroadheadArrow, when I do Kill-horse 0 & Nosferatu, Nosferu wont proc, only kill-horse 0 do.
 // It seems only ItemRateEffect list works on secondary item. cripple, nosferatu didn't work but  injure-rate do
-
+// the skill desperation while attacking with a lance bug, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
+// The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
