@@ -6732,8 +6732,8 @@ Set Sedative stat uses 5
 Set Sedative stat cost 500
 
 set Treasure stat price 20000
-Set Goldcoin stat price 4000
-Set Silvercoin stat price 1000
+Set Goldcoin stat price 2000
+Set Silvercoin stat price 500
 
 
 //////////////////////////////////////////////////////////////////////////////////
