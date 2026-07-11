@@ -2325,11 +2325,11 @@ set Pitchfork stat accuracy 60
 set GoreFork stat accuracy 50
 set Firebrand stat accuracy 60
 
-set GoreFork stat level 15
-set Pitchfork stat cost 500
-set MilitaryFork stat cost 750
-set GoreFork stat cost 2000
-set Firebrand stat cost 700
+set GoreFork stat level 13
+set Pitchfork stat cost 850
+set MilitaryFork stat cost 1000
+set GoreFork stat cost 1700
+set Firebrand stat cost 1000
 
 set Pitchfork stat weight 6
 set MilitaryFork stat weight 8
@@ -2339,7 +2339,7 @@ set GoreFork stat weight 9
 set MilitaryFork stat might 12
 set Firebrand stat might 1
 set Pitchfork stat might 8
-set GoreFork stat might 10
+set GoreFork stat might 8
 
 set Firebrand stat durability E
 set Pitchfork stat durability E
