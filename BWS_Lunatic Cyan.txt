@@ -1863,7 +1863,7 @@ set AssassinsKnife stat weight 2
 set dart stat level 1
 set dart stat uses 20
 set Seax stat level 10
-set BloodKnife stat level 15
+set BloodKnife stat level 10
 set Vespa stat level 5
 set TempestKnife stat level 10
 set Swordbreaker stat level 10
