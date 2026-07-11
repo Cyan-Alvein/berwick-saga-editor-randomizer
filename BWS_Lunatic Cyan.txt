@@ -139,13 +139,13 @@ set Sleep effect restore-uses
 set Berserk effect restore-uses
 
 unset RazeMonkOwen skill limited
-unset Guardian skill slowstart2
-unset Marcel skill slowstart2
-unset Guardian skill slowstart
-unset Marcel skill slowstart
 
 // After Marcel reach level 15, he will learn slowstart2 if it was wasn't learned already
 // In that case, you can remove that slowstart2 by reloading your game from the memory, as long as you keep this line "unset Guardian skill slowstart2" in the script, that will remove slowstart2 on Marcel
+//unset Guardian skill slowstart2
+//unset Marcel skill slowstart2
+//unset Guardian skill slowstart
+//unset Marcel skill slowstart
 
 set reese item 3 Bag 0
 set reese item 4 RoundShield 101
