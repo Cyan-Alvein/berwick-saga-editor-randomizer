@@ -2188,7 +2188,7 @@ set Javelin stat might 17
 set Euthyphro stat might 1
 set WindSpear stat might 1
 set Harpoon stat might 10
-set PrototypeSpear stat might 13
+set PrototypeSpear stat might 17
 set Fauchard stat might 12
 set Brionac stat might 8
 set KillerSpear stat might 9
