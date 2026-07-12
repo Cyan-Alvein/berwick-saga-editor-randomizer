@@ -94,6 +94,10 @@
 
 // ShieldAxe give 16 might 10 def skill parry. GigasAxe give 20 might 10 def no skill parry. 
 
+// 33% crit rate on all killer weapon (KillingEdge KillerSpear KillerAxe KillerKnife LadySword ...)
+
+// 60% crit rate on KillerCrossbow.
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set ArmorKnight attribute movement knight
@@ -1608,6 +1612,15 @@ set Gram stat level 20
 set Nothung stat level 20
 
 // magic
+
+set AirBlade stat crit 3
+set Windstorm stat crit 3
+set Blizzard stat crit 4
+set PallasRiana stat crit 3
+set Sandstorm stat crit 3
+set Windtongue stat crit 6
+set Icetongue stat crit 6
+
 set Blizzard stat min-range 1
 set AirBlade stat min-range 1
 set Windstorm stat min-range 1
@@ -1632,14 +1645,19 @@ set Sandstorm stat accuracy 110
 set Windtongue stat accuracy 110
 set Icetongue stat accuracy 110
 set Sandstorm stat might 15
-set Sandstorm stat crit 0
 set Windtongue stat might 30
-set Windtongue stat crit 0
 set Icetongue stat might 30
 set Icetongue effect sleep 0
 set Sandstorm stat max-range 0
 set Windtongue stat max-range 0
 set Icetongue stat max-range 0
+
+set Fire stat crit 3
+set Hellfire stat crit 4
+set Earthblaze stat crit 4
+set PallasLeia stat crit 6
+set Flametongue stat crit 5
+set Blazetongue stat crit 6
 
 set Fire stat min-range 1
 set Hellfire stat min-range 1
@@ -1664,8 +1682,12 @@ set Blazetongue stat might 30
 set Flametongue stat max-range 0
 set Blazetongue stat max-range 0
 
-set Thunder stat crit 0
-set DireThunder stat crit 0
+set Thunder stat crit 3
+set DireThunder stat crit 3
+set Lightning stat crit 4
+set PallasSerenia stat crit 6
+set Stormtongue stat crit 6
+
 set Thunder stat min-range 1
 set DireThunder stat min-range 1
 set Lightning stat min-range 1
@@ -1698,6 +1720,7 @@ set Starlight effect cripple-rate 16
 set Starlight stat max-range 2
 set Starlight stat min-range 1
 set Starlight stat might 32
+set Starlight stat crit 6
 set Starlight stat accuracy 70
 set holy stat accuracy 60
 set holy stat max-range 2
@@ -1765,44 +1788,65 @@ set KisharsWrath stat cost 3000
 set Wormwood stat cost 3000
 set Sleep stat cost 2000
 
+set Swarm stat crit 3
+set Nosferatu stat crit 3
+set Nosferatu+ stat crit 3
+set Scylla stat crit 4
+set Tumahann stat crit 6
+set KisharsWrath stat crit 4
+set Wormwood stat crit 3
+
 //knives
 set dagger stat might 2
 set Seax stat might 6
 set Dart stat might 4
 set Vespa stat might 4
-set Vespa stat crit 6
 set Seax stat might 6
-set Seax stat crit 9
 set Airknife stat might 1
 set ThiefsKnife stat might 1
 set Carnwenhau stat might 6
-set Carnwenhau stat crit 9
-set Carnwenhau stat defense 0
 set StunKnife stat might 6
-set KillerKnife stat might 4
+set KillerKnife stat might 0
 set BloodKnife stat might 6
 set TempestKnife stat might 1
 set Shieldknife stat might 2
 set Crotalus stat might 6
-set Crotalus stat crit 9
 set Kris stat might 0
-set Kris stat mind 6
-set Kris stat crit 3
 set ThrowingKnife stat might 6
-set ThrowingKnife stat crit 9
 set Swordbreaker stat might 6
-set Swordbreaker stat crit 9
 set PoisonKnife stat might 2
-set PoisonKnife stat crit 3
 set SleepKnife stat might 2
-set SleepKnife stat crit 3
 set BoltKnife stat might 2
-set BoltKnife stat crit 3
-set AssassinsKnife stat might 4
+set AssassinsKnife stat might 0
 set LetterOpener stat might 1
 set MainGauche stat might 0
+
+set Carnwenhau stat defense 0
 set MainGauche stat defense 6
-set MainGauche stat crit 3
+set Kris stat mind 6
+
+set dagger stat crit 3
+set LetterOpener stat crit 1
+set BoltKnife stat crit 0
+set Dart stat crit 3
+set AirKnife stat crit 6
+set ThiefsKnife stat crit 3
+set Seax stat crit 9
+set Carnwenhau stat crit 9
+set StunKnife stat crit 9
+set KillerKnife stat crit 33
+set BloodKnife stat crit 9
+set Vespa stat crit 6
+set TempestKnife stat crit 12
+set Shieldknife stat crit 3
+set Crotalus stat crit 9
+set Kris stat crit 0
+set MainGauche stat crit 0
+set ThrowingKnife stat crit 9
+set SwordBreaker stat crit 9
+set PoisonKnife stat crit 3
+set SleepKnife stat crit 3
+//set AssassinsKnife stat crit 80
 
 //set dagger effect parry
 //set LetterOpener effect parry
@@ -1911,7 +1955,7 @@ set BoltKnife stat accuracy 40
 set BloodKnife stat accuracy 50
 set Swordbreaker stat accuracy 60
 set ThiefsKnife stat accuracy 50
-set KillerKnife stat accuracy 70
+set KillerKnife stat accuracy 60
 set AssassinsKnife stat accuracy 70
 set Shieldknife stat accuracy 40
 set Crotalus stat accuracy 50
@@ -1933,16 +1977,15 @@ set HolySword stat might 1
 set HolySword stat dark_res 10
 set WindEdge stat might 1
 set InfernalEdge stat might 1
-set KillingEdge stat might 10
+set KillingEdge stat might 0
 set Broadsword stat might 11
 set AltiumSword stat might 13
 //set Albatross stat might 14
 set Cutlass+ stat might 13
 set Cutlass stat might 9
 set Scimitar+ stat might 6
-
-set Cutlass stat crit 18
-set LadySword stat crit 18
+set LadySword stat might 0
+//set RazeEtoile stat might 13
 
 set AltiumSword effect cripple-x2
 set Albatross effect pascanion-backfire
@@ -2016,11 +2059,47 @@ set FlameSword stat level 15
 set HolySword stat level 20
 set WindEdge stat level 5
 set InfernalEdge stat level 20
-set Grimhild stat level 1
+set Grimhild stat level 15
 set AltiumSword stat level 10
 set MithrilSword stat level 15
 set LevinSword stat level 15
 set Colichemarde stat level 15
+
+set BronzeSword stat crit 0
+set Shortsword stat crit 0
+set Scimitar stat crit 2
+set Longsword stat crit 2
+set WindEdge stat crit 3
+set Broadsword stat crit 3
+set Scimitar+ stat crit 1
+set KillingEdge stat crit 33
+//set Saber stat crit 2
+set AltiumSword stat crit 4
+set LevinSword stat crit 5
+//set Rapier stat crit 12
+//set Albatross stat crit 33
+set HolySword stat crit 7
+set MithrilSword stat crit 4
+set KnightSword stat crit 2
+//set Estoc stat crit 0
+set Grimhild stat crit 33
+set Harperia stat crit 18
+set FlameSword stat crit 5
+set InfernalEdge stat crit 7
+//set Colichemarde stat crit 12
+set Cutlass stat crit 18
+set Cutlass+ stat crit 18
+set RazeEtoile stat crit 4
+set LadySword stat crit 33
+set Gram stat crit 18
+set Nothung stat crit 5
+
+set VerianSword stat crit 2
+Set ImperialSword stat crit 2
+Set OldImperialSword stat crit 1
+//Set Vajra stat crit 3
+//Set Vritra stat crit 18
+
 
 set BronzeSword stat Weight 8
 set Shortsword stat Weight 3
@@ -2047,7 +2126,7 @@ set Colichemarde stat weight 4
 set Cutlass stat Weight 3
 set Cutlass+ stat Weight 4
 set RazeEtoile stat weight 4
-set LadySword stat weight 4
+set LadySword stat weight 3
 set Gram stat weight 4
 set Nothung stat weight 5
 
@@ -2089,6 +2168,10 @@ set HolyMace stat might 1
 set DarkMace stat might 1
 set PoisonMace stat might 12
 
+set HolyMace stat crit 5
+set DarkMace stat crit 5
+set PoisonMace stat crit 3
+
 set HolyMace effect cripple-rate 12
 set DarkMace effect cripple-rate 12
 
@@ -2123,6 +2206,17 @@ set Balmung stat weight 11
 set Balmung2 stat weight 11
 set Balmung3 stat weight 11
 set Brymranger stat weight 8
+
+set BastardSword stat crit 4
+set Zanbato stat crit 6
+set Shamshir stat crit 5
+set GreatSword stat crit 7
+set Adrastia stat crit 7
+set Zweihander stat crit 5
+set Balmung stat crit 5
+set Balmung2 stat crit 5
+set Balmung3 stat crit 5
+set Brymranger stat crit 5
 
 set Zanbato effect Nosferatu
 set BastardSword effect cripple-x2
@@ -2190,14 +2284,12 @@ set WindSpear stat might 1
 set Harpoon stat might 10
 set PrototypeSpear stat might 17
 set Fauchard stat might 12
-set Brionac stat might 8
-set KillerSpear stat might 9
+set Brionac stat might 12
+set KillerSpear stat might 0
 set Doru stat might 12
 set Partisan stat might 22
 set Partisan stat defense 4
 set Angon stat might 17
-set Angon stat crit 0
-set SteelSpear stat crit 6
 
 set ImperialSpear stat might 8
 set VerianSpear stat might 8
@@ -2217,6 +2309,31 @@ set WindSpear stat level 20
 
 set Partisan stat level 18
 set SwiftSpear stat level 20
+
+set SlimSpear stat crit 1
+set IronSpear stat crit 2
+set Pilum stat crit 2
+set SteelSpear stat crit 3
+set Harpoon stat crit 0
+set PrototypeSpear stat crit 6
+set KillerSpear stat crit 33
+set Pike stat crit 4
+set Longspear stat crit 4
+set Verutum stat crit 4
+set Doru stat crit 4
+set MithrilSpear stat crit 6
+set WindSpear stat crit 8
+set Euthyphro stat crit 8
+set Javelin stat crit 6
+set Partisan stat crit 9
+set Angon stat crit 6
+set Brionac stat crit 4
+set SwiftSpear stat crit 4
+set Fauchard stat crit 4
+
+set ImperialSpear stat crit 2
+set VerianSpear stat crit 2
+set OldImperialSpear stat crit 1
 
 set SlimSpear stat Weight 4
 set IronSpear stat Weight 6
@@ -2342,6 +2459,11 @@ set Firebrand stat might 1
 set Pitchfork stat might 8
 set GoreFork stat might 8
 
+set MilitaryFork stat crit 4
+set Firebrand stat crit 3
+set Pitchfork stat crit 2
+set GoreFork stat crit 2
+
 set Firebrand stat durability E
 set Pitchfork stat durability E
 set MilitaryFork stat durability E
@@ -2392,7 +2514,7 @@ set Xyston stat cost 4000
 set GreatLance stat cost 5000
 set Drakelance stat cost 6000
 
-//axe // axe
+// axe
 
 set BanditAxe stat might 6
 set Pickaxe stat might 6
@@ -2403,7 +2525,6 @@ set OldImperialAxe stat might 8
 set HandAxe stat might 10
 set Francisca stat might 14
 set Hatchet stat might 19
-set Hatchet stat crit 0
 set VolcanoAxe stat might 1
 set GlacierAxe stat might 1
 set NimbusAxe stat might 1
@@ -2421,7 +2542,41 @@ set GreatAxe stat might 30
 set Shieldaxe stat might 16
 set GigasAxe stat might 20
 set Bhuj stat might 14
-set Bhuj stat crit 18
+set KillerAxe stat might 0
+
+set BanditAxe stat crit 1
+set BarbaricAxe stat crit 7
+set BattleAxe stat crit 4
+set BattleSaw stat crit 1
+set Bhuj stat crit 4
+set BoltAxe stat crit 5
+set BreakerAxe stat crit 4
+set Broadaxe stat crit 3
+set CrookedAxe stat crit 12
+set DarkAxe stat crit 3
+set Francisca stat crit 4
+set GigasAxe stat crit 7
+set GlacierAxe stat crit 3
+set GreatAxe stat crit 12
+set Gullveig stat crit 6
+set Hammer stat crit 4
+set HandAxe stat crit 2
+set Hatchet stat crit 6
+set ImperialAxe stat crit 2
+set IronAxe stat crit 2
+set KillerAxe stat crit 33
+set LogSplitter stat crit 0
+set MithrilAxe stat crit 8
+set Mjollnir stat crit 7
+set NimbusAxe stat crit 3
+set OldImperialAxe stat crit 1
+set Pickaxe stat crit 0
+set Poleax stat crit 4
+set Pulverizer stat crit 17
+set Shieldaxe stat crit 7
+set Tabarzin stat crit 3
+set Tomahawk stat crit 4
+set VolcanoAxe stat crit 3
 
 set VolcanoAxe effect cripple-rate 8
 set GlacierAxe effect cripple-rate 8
@@ -2506,6 +2661,7 @@ set Shieldaxe stat accuracy 30
 set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 30
 set VerianAxe stat accuracy 50
+set KillerAxe stat accuracy 50
 
 set BanditAxe effect steal-rate-plus 50
 set BattleAxe effect cripple-x2
@@ -2595,7 +2751,7 @@ set Bhuj stat cost 6000
 
 // bows
 
-set KillerArrow stat might 1
+set KillerArrow stat might 0
 set PoisonArrow stat might 8
 set SleepArrow stat might 1
 set BroadheadArrow stat might 11
@@ -2608,10 +2764,22 @@ set ImperialArrow+ stat might 8
 set WoodenArrow stat might 1
 set StoneArrow stat might 3
 set RaijinArrow stat might 0
+
+set BronzeBow stat might 3
+set ImperialBow stat might 5
+set IronBow stat might 1
+set OldImperialBow stat might 1
+set ShortBow stat might 3
+set VerianBow stat might 5
+set SwiftBow stat might 4
+set TripleFireBow stat might 1
+set Apollyon stat might 6
+set KillerBow stat might 0
+set Apeiron stat might 10
 set SereniaBow stat might 10
-set SereniaBow stat crit 18
-set Pascanion stat might 0
-set Pascanion2 stat might 0
+
+set Rossweisse stat defense 0
+set Rossweisse stat magic 0
 
 set Pascanion2 effect cripple-rate 16
 set Pascanion effect cripple-rate 16
@@ -2669,6 +2837,27 @@ set Rossweisse effect cripple-x2
 set SereniaBow effect cripple-x2
 set Strongbow effect nosferatu
 
+set IronBow stat crit 1
+set ShortBow stat crit 0
+set SwiftBow stat crit 1
+set Longbow stat crit 2
+set TripleFireBow stat crit 0
+set CompositeBow stat crit 3
+set Apollyon stat crit 2
+set Strongbow stat crit 4
+set Greatbow stat crit 5
+set KillerBow stat crit 30
+set Apeiron stat crit 14
+set Rossweisse stat crit 14
+set Pascanion stat crit 4
+set Pascanion2 stat crit 4
+set SereniaBow stat crit 14
+
+set BronzeBow stat crit 1
+set VerianBow stat crit 2
+set OldImperialBow stat crit 1
+set ImperialBow stat crit 2
+
 set IronBow stat Weight 5
 set ShortBow stat Weight 8
 set SwiftBow stat Weight 7
@@ -2678,7 +2867,7 @@ set CompositeBow stat Weight 8
 set Apollyon stat Weight 5
 set Strongbow stat Weight 9
 set Greatbow stat Weight 10
-set KillerBow stat Weight 7
+set KillerBow stat Weight 6
 set Apeiron stat Weight 6
 set Rossweisse stat Weight 6
 set Pascanion stat Weight 7
@@ -2686,9 +2875,9 @@ set Pascanion2 stat Weight 7
 set SereniaBow stat Weight 6
 
 set BronzeBow stat Weight 6
-set VerianBow stat Weight 6
-set OldImperialBow stat Weight 7
-set ImperialBow stat Weight 6
+set VerianBow stat Weight 7
+set OldImperialBow stat Weight 8
+set ImperialBow stat Weight 7
 
 set BronzeBow stat accuracy 50
 set ImperialBow stat accuracy 50
@@ -2746,26 +2935,12 @@ set SwiftBow stat cost 3000
 set TripleFireBow stat cost 1000
 set Apollyon stat cost 4000
 
-set IronBow stat cost 240
-set BronzeBow stat cost 600
-set VerianBow stat cost 600
-set ImperialBow stat cost 600
+set IronBow stat cost 600
+set BronzeBow stat cost 800
+set VerianBow stat cost 1000
+set ImperialBow stat cost 1000
 set OldImperialBow stat cost 300
 
-set BronzeBow stat might 3
-set ImperialBow stat might 3
-set IronBow stat might 1
-set OldImperialBow stat might 1
-set ShortBow stat might 3
-set VerianBow stat might 3
-set SwiftBow stat might 4
-set TripleFireBow stat might 1
-set Apollyon stat might 6
-set KillerBow stat might 6
-set Apeiron stat might 10
-
-set Rossweisse stat defense 3
-set KillerBow stat Crit 18	
 
 //Crossbow
 
@@ -2819,7 +2994,7 @@ set HeavyCrossbow stat might 27
 set BraveCrossbow stat might 18
 set Chu-ko-nu stat might 12
 set Arbalest stat might 33
-set KillerCrossbow stat might 17
+set KillerCrossbow stat might 0
 set Ollerus stat might 27
 set RapidCrossbow stat might 18
 set Hawkeye stat might 30
@@ -2827,6 +3002,21 @@ set Hawkeye stat might 30
 set ImperialCrossbow stat might 15
 set OldImperialCrossbow stat might 9
 set VerianCrossbow stat might 15
+
+set IronCrossbow stat crit 4
+set Gastraphetes stat crit 8
+set HeavyCrossbow stat crit 12
+set BraveCrossbow stat crit 6
+set Chu-ko-nu stat crit 2
+set Arbalest stat crit 16
+set KillerCrossbow stat crit 60
+set Ollerus stat crit 12
+set RapidCrossbow stat crit 6
+set Hawkeye stat crit 25
+
+set ImperialCrossbow stat crit 4
+set OldImperialCrossbow stat crit 2
+set VerianCrossbow stat crit 4
 
 set Bowgun stat accuracy 50
 set IronCrossbow stat accuracy 70
@@ -2844,7 +3034,6 @@ set ImperialCrossbow stat accuracy 70
 set OldImperialCrossbow stat accuracy 60
 set VerianCrossbow stat accuracy 70
 
-set KillerCrossbow stat Crit 36
 set Bowgun effect injure-rate 100
 
 set Bowgun stat max-range 2
@@ -2902,6 +3091,15 @@ set PrototypeSpringald stat might 33
 set Springald stat might 33
 set PrototypeScorpio stat might 15
 set Scorpio stat might 15
+
+set OldBallista stat crit 2
+set BronzeBallista stat crit 4
+set IronBallista stat crit 8
+set SteelBallista stat crit 12
+set PrototypeSpringald stat crit 16
+set Springald stat crit 16
+set PrototypeScorpio stat crit 4
+set Scorpio stat crit 4
 
 set OldBallista stat accuracy 60
 set SteelBallista stat accuracy 70
@@ -6804,3 +7002,5 @@ set Arrow++ stat might 8
 // It seems only ItemRateEffect list works on secondary item. cripple, nosferatu didn't work but  injure-rate do
 // the skill desperation while attacking with a lance bug, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
 // The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
+// crit_avoid_penalty seems not working on shield. it worked on ring. It increases ennemy crit rate.
+
