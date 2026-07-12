@@ -2248,6 +2248,7 @@ set Brionac stat hex 2
 set SlimSpear stat hex 0
 set Pike stat hex 0
 set MithrilSpear stat hex 0
+set PrototypeSpear stat hex 0
 
 set Doru stat defense 4
 
