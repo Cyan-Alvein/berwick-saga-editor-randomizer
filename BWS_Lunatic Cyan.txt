@@ -98,6 +98,8 @@
 
 // 60% crit rate on KillerCrossbow.
 
+// All bow and crossbow give +10 magic resist
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set ArmorKnight attribute movement knight
@@ -320,7 +322,7 @@ set izerna item 7 Rehabilitate 10
 set izerna growth holy 100
 set izerna growth mind 20
 set izerna base holy +20
-set izerna base mind +3
+set izerna base mind +2
 set izerna base speed +5
 
 set czene item 0 Dagger 101
@@ -356,7 +358,7 @@ set aegina growth mind 40
 set aegina base speed +5
 set aegina base fire +40
 set aegina base wind +40
-set aegina base mind +2
+set aegina base mind +4
 
 set daoud growth hp 40
 set daoud growth strength 30
@@ -380,7 +382,7 @@ set Daoud base mshield +30
 set enid base sword +40
 set enid base fire +40
 set enid base thunder +40
-set enid base mind +2
+set enid base mind +5
 set Enid item 1 Hellfire 20
 set Enid item 2 Thunder 20
 set Enid item 3 Earthblaze 18
@@ -568,10 +570,11 @@ set perceval growth hp 30
 set perceval growth strength 0
 set perceval growth defense 0
 set perceval growth speed 20
-set perceval growth mind 40
+set perceval growth mind 42
 set perceval base thunder +40
 set perceval base wind +40
 set perceval base speed +5
+set perceval base mind +2
 
 set thaddy item 2 FeatherBrace 0
 set thaddy item 3 MainGauche 101
@@ -745,6 +748,7 @@ set Owen base thunder +20
 set Owen base holy +20
 set Owen base dark +50
 set Owen base speed +5
+set Owen base mind +4
 set RazeMonkOwen growth dark 60
 
 //set burroughs item 0 Bag 0
@@ -806,6 +810,7 @@ set lynette base thunder +40
 set lynette base sword +40
 set lynette base bow +40
 set lynette base speed +5
+set lynette base mind +6
 set lynette growth bow 100
 set lynette growth thunder 100
 set lynette growth sword 100
@@ -834,6 +839,7 @@ set paramythis growth speed 35
 set paramythis growth mind 15
 set paramythis base sword +20
 set paramythis base holy +20
+set paramythis base mind +5
 
 set reese skill adept
 set reese skill canto
@@ -925,7 +931,7 @@ set christine skill counter
 set christine skill Windsweep
 set christine skill sunder
 set christine skill deathmatch
-set christine skill magicbane
+//set christine skill magicbane
 set christine skill parry
 
 set adel skill canto
@@ -1009,7 +1015,7 @@ set sherlock skill fortune
 set sherlock skill pursuit
 set sherlock skill adept
 set sherlock skill sunder
-set sherlock skill magicbane
+//set sherlock skill magicbane
 set sherlock skill celerity
 set sherlock skill parry
 set sherlock skill deathmatch
@@ -1353,7 +1359,7 @@ set sylvis skill adept
 set sylvis skill doubleshot
 set sylvis skill sunder
 set sylvis skill onetwo
-set sylvis skill magicbane
+//set sylvis skill magicbane
 set sylvis skill deathmatch
 set sylvis skill parry
 
@@ -1417,7 +1423,7 @@ set esteban skill doubleshot
 set esteban skill throw
 set esteban skill vantage
 set esteban skill sunder
-set esteban skill magicbane
+//set esteban skill magicbane
 set esteban skill deathmatch
 set esteban skill parry
 	
@@ -1476,7 +1482,7 @@ set faramir skill pursuit
 set faramir skill battlecry
 set faramir skill adept
 set faramir skill deathmatch
-set faramir skill magicbane
+//set faramir skill magicbane
 set faramir skill arrowbane
 set faramir skill vantage
 set faramir skill evasion
@@ -2021,11 +2027,11 @@ set AssassinsKnife effect cripple-x2
 set BoltKnife effect thunder-damage 0
 set BoltKnife effect injure-rate 100
 set TempestKnife effect cripple-rate 16
-set TempestKnife effect wind-damage 10
+set TempestKnife effect wind-damage 15
 set ThiefsKnife effect steal-rate-plus 50
 set ThiefsCharm effect steal-rate-plus 50
 set AirKnife effect cripple-rate 8
-set AirKnife effect wind-damage 5
+set AirKnife effect wind-damage 10
 set BloodKnife effect dark-damage 0
 set BloodKnife effect nosferatu
 set Swordbreaker effect sword-break 100
@@ -2146,12 +2152,12 @@ set FlameSword effect cripple-rate 12
 set InfernalEdge effect cripple-rate 16
 set Nothung effect cripple-rate 16
 
-set WindEdge effect wind-damage 10
-set LevinSword effect thunder-damage 15
-set HolySword effect holy-damage 20
-set FlameSword effect fire-damage 15
-set InfernalEdge effect fire-damage 20
-set Nothung effect holy-damage 20
+set WindEdge effect wind-damage 15
+set LevinSword effect thunder-damage 20
+set HolySword effect holy-damage 25
+set FlameSword effect fire-damage 20
+set InfernalEdge effect fire-damage 25
+set Nothung effect holy-damage 25
 
 set Nothung effect restore-uses
 set Nothung stat dark_res 20
@@ -2320,8 +2326,8 @@ set PoisonMace stat crit 3
 set HolyMace effect cripple-rate 12
 set DarkMace effect cripple-rate 12
 
-set HolyMace effect holy-damage 15
-set DarkMace effect dark-damage 15
+set HolyMace effect holy-damage 20
+set DarkMace effect dark-damage 20
 
 set DarkMace stat cost 2500
 set HolyMace stat cost 2500
@@ -2543,8 +2549,8 @@ Set Longspear effect cripple-x2
 set Euthyphro effect cripple-rate 16
 set WindSpear effect cripple-rate 16
 
-set Euthyphro effect thunder-damage 20
-set WindSpear effect wind-damage 20
+set Euthyphro effect thunder-damage 25
+set WindSpear effect wind-damage 25
 set Brionac effect nosferatu
 Set Harpoon effect injure-rate 100
 
@@ -2576,7 +2582,7 @@ set Pitchfork effect cripple-rate 8
 set GoreFork effect cripple-rate 8
 set Firebrand effect cripple-rate 8
 
-set Firebrand effect fire-damage 10
+set Firebrand effect fire-damage 15
 
 set MilitaryFork stat hex 1
 set Pitchfork stat hex 1
@@ -2730,12 +2736,12 @@ set DarkAxe effect cripple-rate 8
 set Mjollnir effect cripple-rate 16
 set BoltAxe effect cripple-rate 12
 
-set VolcanoAxe effect fire-damage 10
-set GlacierAxe effect wind-damage 10
-set NimbusAxe effect thunder-damage 10
-set DarkAxe effect dark-damage 10
-set Mjollnir effect thunder-damage 20
-set BoltAxe effect thunder-damage 15
+set VolcanoAxe effect fire-damage 15
+set GlacierAxe effect wind-damage 15
+set NimbusAxe effect thunder-damage 15
+set DarkAxe effect dark-damage 15
+set Mjollnir effect thunder-damage 25
+set BoltAxe effect thunder-damage 20
 
 set LogSplitter effect injure-rate 100
 
@@ -2913,7 +2919,7 @@ set RaijinArrow stat might 0
 set BronzeBow stat might 3
 set ImperialBow stat might 5
 set IronBow stat might 1
-set OldImperialBow stat might 1
+set OldImperialBow stat might 4
 set ShortBow stat might 3
 set VerianBow stat might 5
 set SwiftBow stat might 4
@@ -2931,18 +2937,18 @@ set Pascanion effect cripple-rate 16
 
 set Pascanion stat defense 0
 set Pascanion stat avoid 0
-set Pascanion effect fire-damage 20
+set Pascanion effect fire-damage 25
 set Pascanion2 stat defense 0
 set Pascanion2 stat avoid 0
-set Pascanion2 effect fire-damage 20
+set Pascanion2 effect fire-damage 25
 
 set EmberArrow effect cripple-rate 8
 set FreezeArrow effect cripple-rate 8
 set RaijinArrow effect cripple-rate 12
 
-set EmberArrow effect fire-damage 10
-set FreezeArrow effect wind-damage 10
-set RaijinArrow effect thunder-damage 15
+set EmberArrow effect fire-damage 15
+set FreezeArrow effect wind-damage 15
+set RaijinArrow effect thunder-damage 20
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect kill-horse 0
 set BroadheadArrow effect disarm-rate 100
@@ -3002,6 +3008,120 @@ set BronzeBow stat crit 1
 set VerianBow stat crit 2
 set OldImperialBow stat crit 1
 set ImperialBow stat crit 2
+
+set IronBow stat fire_res 10
+set IronBow stat thunder_res 10
+set IronBow stat wind_res 10
+set IronBow stat holy_res 10
+set IronBow stat dark_res 10
+
+set ShortBow stat fire_res 10
+set ShortBow stat thunder_res 10
+set ShortBow stat wind_res 10
+set ShortBow stat holy_res 10
+set ShortBow stat dark_res 10
+
+set SwiftBow stat fire_res 10
+set SwiftBow stat thunder_res 10
+set SwiftBow stat wind_res 10
+set SwiftBow stat holy_res 10
+set SwiftBow stat dark_res 10
+
+set Longbow stat fire_res 10
+set Longbow stat thunder_res 10
+set Longbow stat wind_res 10
+set Longbow stat holy_res 10
+set Longbow stat dark_res 10
+
+set TripleFireBow stat fire_res 10
+set TripleFireBow stat thunder_res 10
+set TripleFireBow stat wind_res 10
+set TripleFireBow stat holy_res 10
+set TripleFireBow stat dark_res 10
+
+set CompositeBow stat fire_res 10
+set CompositeBow stat thunder_res 10
+set CompositeBow stat wind_res 10
+set CompositeBow stat holy_res 10
+set CompositeBow stat dark_res 10
+
+set Apollyon stat fire_res 10
+set Apollyon stat thunder_res 10
+set Apollyon stat wind_res 10
+set Apollyon stat holy_res 10
+set Apollyon stat dark_res 10
+
+set Strongbow stat fire_res 10
+set Strongbow stat thunder_res 10
+set Strongbow stat wind_res 10
+set Strongbow stat holy_res 10
+set Strongbow stat dark_res 10
+
+set Greatbow stat fire_res 10
+set Greatbow stat thunder_res 10
+set Greatbow stat wind_res 10
+set Greatbow stat holy_res 10
+set Greatbow stat dark_res 10
+
+set KillerBow stat fire_res 10
+set KillerBow stat thunder_res 10
+set KillerBow stat wind_res 10
+set KillerBow stat holy_res 10
+set KillerBow stat dark_res 10
+
+set Apeiron stat fire_res 10
+set Apeiron stat thunder_res 10
+set Apeiron stat wind_res 10
+set Apeiron stat holy_res 10
+set Apeiron stat dark_res 10
+
+set Rossweisse stat fire_res 10
+set Rossweisse stat thunder_res 10
+set Rossweisse stat wind_res 10
+set Rossweisse stat holy_res 10
+set Rossweisse stat dark_res 10
+
+set Pascanion stat fire_res 10
+set Pascanion stat thunder_res 10
+set Pascanion stat wind_res 10
+set Pascanion stat holy_res 10
+set Pascanion stat dark_res 10
+
+set Pascanion2 stat fire_res 10
+set Pascanion2 stat thunder_res 10
+set Pascanion2 stat wind_res 10
+set Pascanion2 stat holy_res 10
+set Pascanion2 stat dark_res 10
+
+set SereniaBow stat fire_res 10
+set SereniaBow stat thunder_res 10
+set SereniaBow stat wind_res 10
+set SereniaBow stat holy_res 10
+set SereniaBow stat dark_res 10
+
+set BronzeBow stat fire_res 10
+set BronzeBow stat thunder_res 10
+set BronzeBow stat wind_res 10
+set BronzeBow stat holy_res 10
+set BronzeBow stat dark_res 10
+
+set VerianBow stat fire_res 10
+set VerianBow stat thunder_res 10
+set VerianBow stat wind_res 10
+set VerianBow stat holy_res 10
+set VerianBow stat dark_res 10
+
+set OldImperialBow stat fire_res 10
+set OldImperialBow stat thunder_res 10
+set OldImperialBow stat wind_res 10
+set OldImperialBow stat holy_res 10
+set OldImperialBow stat dark_res 10
+
+set ImperialBow stat fire_res 10
+set ImperialBow stat thunder_res 10
+set ImperialBow stat wind_res 10
+set ImperialBow stat holy_res 10
+set ImperialBow stat dark_res 10
 
 set IronBow stat Weight 5
 set ShortBow stat Weight 8
@@ -3130,6 +3250,90 @@ set Hawkeye stat min-range 1
 set ImperialCrossbow stat min-range 1
 set OldImperialCrossbow stat min-range 1
 set VerianCrossbow stat min-range 1
+
+set Bowgun stat fire_res 10
+set Bowgun stat thunder_res 10
+set Bowgun stat wind_res 10
+set Bowgun stat holy_res 10
+set Bowgun stat dark_res 10
+
+set IronCrossbow stat fire_res 10
+set IronCrossbow stat thunder_res 10
+set IronCrossbow stat wind_res 10
+set IronCrossbow stat holy_res 10
+set IronCrossbow stat dark_res 10
+
+set Gastraphetes stat fire_res 10
+set Gastraphetes stat thunder_res 10
+set Gastraphetes stat wind_res 10
+set Gastraphetes stat holy_res 10
+set Gastraphetes stat dark_res 10
+
+set HeavyCrossbow stat fire_res 10
+set HeavyCrossbow stat thunder_res 10
+set HeavyCrossbow stat wind_res 10
+set HeavyCrossbow stat holy_res 10
+set HeavyCrossbow stat dark_res 10
+
+set BraveCrossbow stat fire_res 10
+set BraveCrossbow stat thunder_res 10
+set BraveCrossbow stat wind_res 10
+set BraveCrossbow stat holy_res 10
+set BraveCrossbow stat dark_res 10
+
+set Chu-ko-nu stat fire_res 10
+set Chu-ko-nu stat thunder_res 10
+set Chu-ko-nu stat wind_res 10
+set Chu-ko-nu stat holy_res 10
+set Chu-ko-nu stat dark_res 10
+
+set Arbalest stat fire_res 10
+set Arbalest stat thunder_res 10
+set Arbalest stat wind_res 10
+set Arbalest stat holy_res 10
+set Arbalest stat dark_res 10
+
+set KillerCrossbow stat fire_res 10
+set KillerCrossbow stat thunder_res 10
+set KillerCrossbow stat wind_res 10
+set KillerCrossbow stat holy_res 10
+set KillerCrossbow stat dark_res 10
+
+set Ollerus stat fire_res 10
+set Ollerus stat thunder_res 10
+set Ollerus stat wind_res 10
+set Ollerus stat holy_res 10
+set Ollerus stat dark_res 10
+
+set RapidCrossbow stat fire_res 10
+set RapidCrossbow stat thunder_res 10
+set RapidCrossbow stat wind_res 10
+set RapidCrossbow stat holy_res 10
+set RapidCrossbow stat dark_res 10
+
+set Hawkeye stat fire_res 10
+set Hawkeye stat thunder_res 10
+set Hawkeye stat wind_res 10
+set Hawkeye stat holy_res 10
+set Hawkeye stat dark_res 10
+
+set ImperialCrossbow stat fire_res 10
+set ImperialCrossbow stat thunder_res 10
+set ImperialCrossbow stat wind_res 10
+set ImperialCrossbow stat holy_res 10
+set ImperialCrossbow stat dark_res 10
+
+set OldImperialCrossbow stat fire_res 10
+set OldImperialCrossbow stat thunder_res 10
+set OldImperialCrossbow stat wind_res 10
+set OldImperialCrossbow stat holy_res 10
+set OldImperialCrossbow stat dark_res 10
+
+set VerianCrossbow stat fire_res 10
+set VerianCrossbow stat thunder_res 10
+set VerianCrossbow stat wind_res 10
+set VerianCrossbow stat holy_res 10
+set VerianCrossbow stat dark_res 10
 
 
 set Bowgun stat might 10
@@ -3327,13 +3531,13 @@ set ThunderShield effect cripple-rate 8
 set FireShield effect cripple-rate 8
 set Perseid effect cripple-rate 8
 
-set Vollenden effect block-holy-damage 10
-set DarkShield effect block-fire-damage 10
-set Windshield effect block-thunder-damage 5
-set LightShield effect block-holy-damage 5
-set ThunderShield effect block-thunder-damage 5
-set FireShield effect block-fire-damage 5
-set Perseid effect block-holy-damage 5
+set Vollenden effect block-holy-damage 20
+set DarkShield effect block-fire-damage 20
+set Windshield effect block-thunder-damage 10
+set LightShield effect block-holy-damage 10
+set ThunderShield effect block-thunder-damage 10
+set FireShield effect block-fire-damage 10
+set Perseid effect block-holy-damage 10
 
 set LeatherSShd stat might 2
 set Buckler stat might 4
@@ -3796,12 +4000,12 @@ set BlazingShield effect cripple-rate 8
 set GaleShield effect cripple-rate 8
 Set Hestia effect cripple-rate 16
 
-set LightningShield effect block-thunder-damage 5
-set RadiantShield effect block-holy-damage 5
-set ShadowShield effect block-holy-damage 5
-set BlazingShield effect block-fire-damage 5
-set GaleShield effect block-thunder-damage 5
-Set Hestia effect block-fire-damage 10
+set LightningShield effect block-thunder-damage 10
+set RadiantShield effect block-holy-damage 10
+set ShadowShield effect block-holy-damage 10
+set BlazingShield effect block-fire-damage 10
+set GaleShield effect block-thunder-damage 10
+Set Hestia effect block-fire-damage 20
 
 Set BlackShield effect reflect-damage 50
 
@@ -3950,11 +4154,11 @@ set KojinShield effect cripple-rate 8
 set FujinShield effect cripple-rate 8
 set RaijinShield effect cripple-rate 8
 
-set KojinShield effect block-fire-damage 5
-set FujinShield effect block-holy-damage 5
-set RaijinShield effect block-thunder-damage 5
-//set AmaterasuShield effect block-fire-damage 10
-//set GeneralShield effect block-holy-damage 10
+set KojinShield effect block-fire-damage 10
+set FujinShield effect block-holy-damage 10
+set RaijinShield effect block-thunder-damage 10
+//set AmaterasuShield effect block-fire-damage 15
+//set GeneralShield effect block-holy-damage 15
 
 set ImpKnightLShd stat might 25
 set ImpOfficerLShd stat might 20
