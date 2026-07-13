@@ -867,6 +867,7 @@ set sherlock skill sunder
 set sherlock skill magicbane
 set sherlock skill celerity
 set sherlock skill parry
+set sherlock skill deathmatch
 
 set izerna skill blessing
 set izerna skill canto
