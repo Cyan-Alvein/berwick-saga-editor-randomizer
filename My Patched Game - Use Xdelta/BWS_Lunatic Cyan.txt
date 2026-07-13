@@ -333,7 +333,7 @@ set Daoud item 2 ShadowShield 101
 set Daoud item 3 Treasure 101 
 set Daoud item 4 Treasure 101 
 set Daoud item 5 Treasure 101 
-set Daoud item 6 Concoction 1
+set Daoud item 6 Concoction 3
 set Daoud item 7 Bag 0
 set Daoud base axe +30
 set Daoud base sshield +30
@@ -2082,7 +2082,7 @@ set HolySword stat crit 7
 set MithrilSword stat crit 4
 set KnightSword stat crit 2
 //set Estoc stat crit 0
-set Grimhild stat crit 33
+//set Grimhild stat crit 24
 set Harperia stat crit 18
 set FlameSword stat crit 5
 set InfernalEdge stat crit 7
