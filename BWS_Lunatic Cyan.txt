@@ -320,7 +320,7 @@ set izerna item 7 Rehabilitate 10
 set izerna growth holy 100
 set izerna growth mind 20
 set izerna base holy +20
-set izerna base mind +4
+set izerna base mind +3
 set izerna base speed +5
 
 set czene item 0 Dagger 101
@@ -356,7 +356,7 @@ set aegina growth mind 40
 set aegina base speed +5
 set aegina base fire +40
 set aegina base wind +40
-set aegina base mind +1
+set aegina base mind +2
 
 set daoud growth hp 40
 set daoud growth strength 30
@@ -380,7 +380,7 @@ set Daoud base mshield +30
 set enid base sword +40
 set enid base fire +40
 set enid base thunder +40
-set enid base mind +1
+set enid base mind +2
 set Enid item 1 Hellfire 20
 set Enid item 2 Thunder 20
 set Enid item 3 Earthblaze 18
@@ -572,7 +572,6 @@ set perceval growth mind 40
 set perceval base thunder +40
 set perceval base wind +40
 set perceval base speed +5
-set perceval base mind +1
 
 set thaddy item 2 FeatherBrace 0
 set thaddy item 3 MainGauche 101
@@ -745,7 +744,6 @@ set Owen base wind +20
 set Owen base thunder +20
 set Owen base holy +20
 set Owen base dark +50
-set Owen base mind +1
 set Owen base speed +5
 set RazeMonkOwen growth dark 60
 
@@ -797,7 +795,6 @@ set saphira growth defense 0
 set saphira growth speed 30
 set saphira growth mind 40
 set saphira base holy +20
-set saphira base mind +1
 set saphira base speed +5
 
 set lynette item 3 SniperArrow 10
@@ -1114,7 +1111,6 @@ set enid skill Windsweep
 set enid skill sunder
 set enid skill desperation
 set enid skill parry
-set enid skill knockaway
 
 set aegina skill canto
 set aegina skill focuschant
