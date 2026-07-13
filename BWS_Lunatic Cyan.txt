@@ -1590,8 +1590,8 @@ set paramythis skill parry
 set paramythis skill knockaway
 
 // prfs
-set Pascanion2 stat level 20
-set Pascanion stat level 20
+set Pascanion2 stat level 17
+set Pascanion stat level 17
 
 set Bhuj stat level 20
 set Brymranger stat level 20
