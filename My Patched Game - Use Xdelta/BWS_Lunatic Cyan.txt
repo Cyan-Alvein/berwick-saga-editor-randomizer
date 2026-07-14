@@ -16,7 +16,9 @@
 
 // Blizzard 44% injure-rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter 100% injure-rate but -20% accuracy. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
 
-// Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, BastardSword, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons got cripple-x2
+// Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons got cripple-x2
+
+// BastardSword same as Warpick now. Ignore Shield and 14 might. You can Pulverize with them for shreking tank. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
 
 // All Magic shields (WindShield) & magic rings (WindRing) effect cripple-rate 8 & 16 and 5 magic damage on block.
 
@@ -159,11 +161,12 @@ set reese item 4 RoundShield 101
 set reese item 5 AltiumSword 101
 set reese item 6 Bag 0
 set reese item 7 Bag 0
+set reese base speed +2
 set reese base sword +20
 set reese base sshield +20
-set reese growth hp 40
-set reese growth strength 30
-set reese growth defense 10
+set reese growth hp 30
+set reese growth strength 20
+set reese growth defense 30
 set reese growth speed 30
 set reese growth sword 100
 set reese growth sshield 100
@@ -256,13 +259,14 @@ set christine item 4 BronzeArrow+ 20
 set christine item 5 BodkinArrow 20
 set christine item 6 Gastraphetes 101
 set christine item 7 IronArrow+ 20
-set christine growth hp 20
-set christine growth strength 15
-set christine growth defense 15
+set christine growth hp 30
+set christine growth strength 10
+set christine growth defense 30
 set christine growth speed 40
 set christine growth bow 80
 set christine growth crossbow 100
-set christine base hp +3
+set christine base hp +2
+set christine base strength +1
 set christine base speed +3
 set christine base bow +20
 set christine base crossbow +20
@@ -278,10 +282,9 @@ set adel item 6 Pilum 20
 set adel item 7 Harpoon 101
 set adel base sshield +20
 set adel base spear +20
-set adel base hp +5
-set adel base strength +2
-set adel base defense +2
-set adel base speed +1
+set adel base strength +4
+set adel base defense +4
+set adel base speed +2
 set adel growth hp 20
 set adel growth strength 30
 set adel growth defense 20
@@ -299,10 +302,6 @@ set leon item 6 GoreFork 101
 set leon item 7 Harpoon 101
 set leon base sshield +20
 set leon base spear +20
-set leon base hp +5
-set leon base strength +2
-set leon base defense +1
-set leon base speed +1
 set leon growth hp 20
 set leon growth strength 40
 set leon growth defense 20
@@ -319,7 +318,7 @@ set sherlock item 6 Bag 0
 set sherlock item 7 SteelArrow+ 20
 set sherlock growth bow 100
 set sherlock growth hp 30
-set sherlock growth strength 25
+set sherlock growth strength 35
 set sherlock growth defense 5
 set sherlock growth speed 30
 set sherlock base bow +20
@@ -332,14 +331,14 @@ set izerna item 5 holy 20
 set izerna item 6 Bag 0
 set izerna item 7 Rehabilitate 10
 set izerna growth holy 100
-set izerna growth hp 20
+set izerna growth hp 10
 set izerna growth strength 0
 set izerna growth defense 0
 set izerna growth speed 30
-set izerna growth mind 40
+set izerna growth mind 60
 set izerna base holy +20
 set izerna base mind +2
-set izerna base speed +7
+set izerna base speed +3
 
 set czene item 0 Dagger 101
 set czene item 1 BoltKnife 101
@@ -366,20 +365,19 @@ set aegina item 6 Hellfire 14
 set aegina item 7 DivineBrace 0
 set aegina growth wind 100
 set aegina growth fire 80
-set aegina growth hp 20
+set aegina growth hp 10
 set aegina growth strength 0
 set aegina growth defense 0
 set aegina growth speed 30
-set aegina growth mind 40
-set aegina base speed +5
+set aegina growth mind 60
+set aegina base speed +3
 set aegina base fire +40
 set aegina base wind +40
-set aegina base mind +4
 
-set daoud growth hp 40
-set daoud growth strength 30
-set daoud growth defense 20
-set daoud growth speed 20
+set daoud growth hp 10
+set daoud growth strength 40
+set daoud growth defense 30
+set daoud growth speed 30
 set daoud growth axe 100
 set daoud growth sshield 100
 set daoud growth mshield 100
@@ -398,7 +396,6 @@ set Daoud base mshield +30
 set enid base sword +40
 set enid base fire +40
 set enid base thunder +40
-set enid base mind +5
 set Enid item 1 Hellfire 20
 set Enid item 2 Thunder 20
 set Enid item 3 Earthblaze 18
@@ -409,11 +406,11 @@ set Enid item 7 Fire 20
 set Enid growth sword 100
 set Enid growth fire 100
 set Enid growth thunder 80
-set Enid growth hp 20
-set Enid growth strength 10
-set Enid growth defense 0
+set Enid growth hp 10
+set Enid growth strength 15
+set Enid growth defense 5
 set Enid growth speed 30
-set Enid growth mind 40
+set Enid growth mind 60
 set FlameFencer cap fire 60
 set FlameFencer cap thunder 50
 set FlameFencer cap sword 40
@@ -449,11 +446,12 @@ set alvina growth sword 100
 set alvina growth spear 100
 set alvina growth sshield 90
 set alvina growth mshield 90
-set alvina growth hp 20
-set alvina growth strength 30
-set alvina growth defense 20
-set alvina growth speed 40
+set alvina growth hp 25
+set alvina growth strength 25
+set alvina growth defense 25
+set alvina growth speed 35
 set alvina growth magic 0
+set alvina base speed +3
 set alvina base sword +25
 set alvina base spear +25
 set alvina base sshield +25
@@ -470,14 +468,12 @@ set ruby growth sword 100
 set ruby growth spear 100
 set ruby growth sshield 90
 set ruby growth mshield 90
-set ruby growth hp 20
-set ruby growth strength 30
+set ruby growth hp 25
+set ruby growth strength 25
 set ruby growth defense 20
 set ruby growth speed 40
 set ruby growth magic 0
-set ruby base strength +3
-set ruby base defense +3
-set ruby base speed +2
+set ruby base speed +4
 set ruby base magic +2
 set ruby base sword +20
 set ruby base spear +20
@@ -523,10 +519,10 @@ set kramer item 6 Vulnerary 6
 set kramer item 7 VanishCharm 0
 set kramer base sword +20
 set kramer growth sword 100
-set kramer growth hp 40
-set kramer growth strength 40
-set kramer growth defense 10
-set kramer growth speed 30
+set kramer growth hp 30
+set kramer growth strength 30
+set kramer growth defense 20
+set kramer growth speed 20
 
 set dean item 2 HandAxe 20
 set dean item 3 BattleAxe 101
@@ -537,9 +533,9 @@ set dean item 7 GamblersBrace 0
 set dean base axe +20
 set dean growth axe 100
 set dean growth hp 40
-set dean growth strength 40
-set dean growth defense 0
-set dean growth speed 40
+set dean growth strength 30
+set dean growth defense 5
+set dean growth speed 25
 set dean growth magic 0
 
 set faye item 2 GiantsBrace 0
@@ -550,13 +546,13 @@ set faye item 6 Shortsword 101
 set faye item 7 Bag 0
 set faye growth sword 100
 set faye growth mind 0
-set faye growth hp 25
-set faye growth strength 25
-set faye growth defense 0
+set faye growth hp 15
+set faye growth strength 40
+set faye growth defense 5
 set faye growth speed 40
 set faye growth magic 0
 set faye base sword +25
-set faye base defense +1
+set faye base strength +1
 
 set sylvis item 0 CompositeBow 101
 set sylvis item 1 SteelArrow+ 20
@@ -569,12 +565,13 @@ set sylvis item 7 TripleFireBow 101
 set sylvis growth bow 100
 set sylvis growth crossbow 80
 set sylvis growth hp 20
-set sylvis growth strength 30
-set sylvis growth defense 0
+set sylvis growth strength 35
+set sylvis growth defense 5
 set sylvis growth speed 40
 set sylvis growth magic 0
+set sylvis base strength +1
 set sylvis base defense +1
-set sylvis base speed +1
+set sylvis base speed +2
 set sylvis base bow +20
 set sylvis base crossbow +20
 
@@ -587,15 +584,14 @@ set perceval item 6 TigerBrace 0
 set perceval item 7 Windstorm 60
 set perceval growth wind 80
 set perceval growth thunder 100
-set perceval growth hp 35
+set perceval growth hp 10
 set perceval growth strength 0
 set perceval growth defense 0
-set perceval growth speed 20
-set perceval growth mind 40
+set perceval growth speed 30
+set perceval growth mind 60
 set perceval base thunder +40
 set perceval base wind +40
-set perceval base speed +5
-set perceval base mind +2
+set perceval base speed +2
 
 set thaddy item 2 FeatherBrace 0
 set thaddy item 3 MainGauche 101
@@ -604,10 +600,10 @@ set thaddy item 5 ThrowingKnife 101
 set thaddy item 6 stunknife 101
 set thaddy item 7 Bag 0
 set thaddy growth knife 100
-set thaddy growth hp 30
+set thaddy growth hp 25
 set thaddy growth strength 30
-set thaddy growth defense 0
-set thaddy growth speed 30
+set thaddy growth defense 5
+set thaddy growth speed 40
 set thaddy growth magic 0
 set thaddy base knife +20
 set thaddy base speed +1
@@ -618,8 +614,8 @@ set esteban growth knife 80
 set esteban growth bow 100
 set esteban growth hp 25
 set esteban growth strength 35
-set esteban growth defense 0
-set esteban growth speed 30
+set esteban growth defense 5
+set esteban growth speed 35
 set esteban item 0 IronBow 101
 set esteban item 1 IronArrow+ 20
 set esteban item 2 SteelArrow+ 20
@@ -631,6 +627,8 @@ set esteban item 7 BloodKnife 101
 set esteban base knife +25
 set esteban base bow +20
 set esteban base sword +40
+set esteban base strength +1
+set esteban base speed +1
 set Hunter cap Bow 60
 set Hunter cap Knife 80
 set Hunter cap sword 40
@@ -647,10 +645,11 @@ set faramir item 6 MithrilArrow 20
 set faramir item 7 Bag 0
 set faramir growth sword 100
 set faramir growth bow 100
-set faramir growth hp 25
-set faramir growth strength 35
+set faramir growth hp 20
+set faramir growth strength 40
 set faramir growth defense 5
-set faramir growth speed 25
+set faramir growth speed 35
+set faramir base strength +1
 set faramir base sword +20
 set faramir base bow +20
 
@@ -663,12 +662,13 @@ set volo item 6 PhoenixBrace 0
 set volo item 7 MiracleCharm 0
 set volo growth sword 100
 set volo growth hp 25
-set volo growth strength 35
+set volo growth strength 40
 set volo growth defense 5
-set volo growth speed 25
+set volo growth speed 30
 set volo growth magic 0
 set volo base sword +31
-set volo base strength +1
+set volo base hp +1
+set volo base strength +2
 
 //set sherpa growth sword 90
 set Sherpa item 1 Zanbato 101
@@ -679,12 +679,12 @@ set Sherpa item 5 FlameSword 101
 set Sherpa item 6 Treasure 101
 set Sherpa item 7 Bag 0
 set Sherpa growth sword 100
-set Sherpa growth hp 40
+set Sherpa growth hp 30
 set Sherpa growth strength 40
-set Sherpa growth defense 10
-set Sherpa growth speed 30
+set Sherpa growth defense 5
+set Sherpa growth speed 25
 set Sherpa base sword +20
-set Sherpa base speed +3
+set Sherpa base speed +1
 
 set clifford item 3 Javelin 20
 set clifford item 4 GreatLance 101
@@ -718,9 +718,9 @@ set axel base strength +2
 set axel base speed +5
 set axel growth axe 100
 set axel growth hp 40
-set axel growth strength 40
-set axel growth defense 0
-set axel growth speed 40
+set axel growth strength 30
+set axel growth defense 5
+set axel growth speed 25
 set axel growth magic 0
 
 // Since I can't increase larentia stat on wyvern, I gave her basic horse bonus stat.
@@ -733,18 +733,18 @@ set larentia item 7 Longspear 101
 set larentia growth sword 80
 set larentia growth spear 100
 set larentia growth sshield 100
-set larentia growth hp 20
-set larentia growth strength 30
-set larentia growth defense 20
+set larentia growth hp 10
+set larentia growth strength 40
+set larentia growth defense 10
 set larentia growth speed 40
 set larentia growth magic 0
 set larentia base sword +25
 set larentia base spear +25
 set larentia base sshield +25
-set larentia base hp +3
-set larentia base speed +3
-set larentia base strength +2
+set larentia base hp +5
+set larentia base strength +1
 set larentia base defense +4
+set larentia base speed +5
 set larentia base magic +3
 set WyvernKnightLarentia_R cap Spear 60
 set WyvernKnightLarentia cap Spear 60
@@ -759,18 +759,18 @@ set owen growth fire 80
 set owen growth thunder 80
 set owen growth wind 80
 set Owen growth dark 100
-set Owen growth hp 30
+set Owen growth hp 10
 set Owen growth strength 0
 set Owen growth defense 0
-set Owen growth speed 20
-set Owen growth mind 40
+set Owen growth speed 30
+set Owen growth mind 60
 set Owen base fire +20
 set Owen base wind +20
 set Owen base thunder +20
 set Owen base holy +20
 set Owen base dark +50
-set Owen base speed +8
-set Owen base mind +4
+set Owen base speed +3
+set Owen base mind +7
 set RazeMonkOwen growth dark 60
 
 //set burroughs item 0 Bag 0
@@ -791,10 +791,10 @@ set burroughs base crossbow +20
 
 set derrick growth axe 100
 set derrick growth lshield 100
-set derrick growth hp 30
-set derrick growth strength 20
-set derrick growth defense 20
-set derrick growth speed 40
+set derrick growth hp 40
+set derrick growth strength 30
+set derrick growth defense 10
+set derrick growth speed 30
 set Derrick item 0 ImperialAxe 101
 set Derrick item 2 Bag 0
 set Derrick item 3 Bag 0
@@ -803,7 +803,8 @@ set Derrick item 5 AmaterasuShield 101
 set Derrick item 6 Treasure 101
 set Derrick item 7 Bag 0
 set Derrick base hp +8
-set Derrick base strength +7
+set Derrick base strength +5
+set Derrick base speed +3
 set Derrick base axe +20
 set Derrick base lshield +20
 
@@ -815,13 +816,14 @@ set saphira item 5 Awaken 10
 set saphira item 6 Mend 20
 set saphira item 7 Bag 0
 set saphira growth holy 100
-set saphira growth hp 20
+set saphira growth hp 10
 set saphira growth strength 0
 set saphira growth defense 0
 set saphira growth speed 30
-set saphira growth mind 40
+set saphira growth mind 60
 set saphira base holy +20
-set saphira base speed +5
+set saphira base hp +1
+set saphira base speed +2
 
 set lynette item 3 SniperArrow 10
 set lynette item 4 DireThunder 20
@@ -831,16 +833,17 @@ set lynette item 7 LadySword 101
 set lynette base thunder +40
 set lynette base sword +40
 set lynette base bow +40
-set lynette base speed +5
+set lynette base strength +1
+set lynette base speed +4
 set lynette base mind +6
 set lynette growth bow 100
 set lynette growth thunder 100
 set lynette growth sword 100
-set lynette growth hp 20
-set lynette growth strength 10
-set lynette growth defense 0
+set lynette growth hp 10
+set lynette growth strength 15
+set lynette growth defense 5
 set lynette growth speed 30
-set lynette growth mind 40
+set lynette growth mind 60
 set ChosenOne cap thunder 60
 set ChosenOne cap bow 50
 set ChosenOne cap sword 40
@@ -854,11 +857,11 @@ set paramythis item 6 Bag 0
 set paramythis item 7 GeneralShield 101
 set paramythis growth sword 100
 set paramythis growth holy 80
-set paramythis growth hp 25
-set paramythis growth strength 20
-set paramythis growth defense 15
-set paramythis growth speed 20
-set paramythis growth mind 10
+set paramythis growth hp 20
+set paramythis growth strength 30
+set paramythis growth defense 10
+set paramythis growth speed 30
+set paramythis growth mind 30
 set paramythis base sword +20
 set paramythis base holy +20
 set paramythis base mind +5
@@ -1009,7 +1012,7 @@ set leon skill adept
 set leon skill pursuit
 set leon skill windsweep
 //set leon skill fortune
-set leon skill counter
+set leon skill parry
 set leon skill sunder
 
 set sherlock skill aim 
@@ -1113,7 +1116,6 @@ set daoud skill robbery
 set daoud skill hide
 set daoud skill counter
 set daoud skill adept
-set daoud skill vengeful
 set daoud skill Windsweep
 set daoud skill sunder
 set daoud skill provoke
@@ -1206,7 +1208,6 @@ set marcel skill adept
 set marcel skill Windsweep
 set marcel skill sunder
 set marcel skill provoke
-set marcel skill deathmatch
 set marcel skill protector
 
 set alvina skill adept
@@ -1294,7 +1295,6 @@ set kramer skill provoke
 set kramer skill battlecry
 set kramer skill windsweep
 set kramer skill pursuit
-set kramer skill deathmatch
 set kramer skill adept
 set kramer skill sunder
 set kramer skill parry
@@ -1322,7 +1322,6 @@ set sherpa skill fortune
 set sherpa skill provoke
 set sherpa skill battlecry
 set sherpa skill pursuit
-set sherpa skill deathmatch
 set sherpa skill adept
 set sherpa skill sunder
 set sherpa skill parry
@@ -1332,7 +1331,6 @@ set dean skill axeguard
 set dean skill canto
 set dean skill climber 
 set dean skill desperation
-set dean skill deathmatch
 set dean skill flourish
 set dean skill fortune
 set dean skill guard
@@ -1354,6 +1352,8 @@ set dean skill pursuit
 set dean skill counter
 set dean skill sunder
 set dean skill parry
+set dean skill mug
+set dean skill mug2
 
 set sylvis skill aim
 set sylvis skill canto
@@ -1666,7 +1666,6 @@ set derrick skill paragon
 set derrick skill robust2
 set derrick skill robust
 set derrick skill maim
-set derrick skill vengeful
 //set derrick skill shieldfaire
 set derrick skill robbery
 set derrick skill pulverize
@@ -2159,6 +2158,9 @@ set Cutlass stat might 9
 set Scimitar+ stat might 6
 set LadySword stat might 0
 //set RazeEtoile stat might 13
+set Rapier stat might 3
+set Colichemarde stat might 3
+set Estoc stat might 0
 
 set AltiumSword effect cripple-x2
 set Albatross effect pascanion-backfire
@@ -2166,6 +2168,10 @@ set Albatross effect devil-reversal 0
 //set Albatross stat defense 6
 //set Albatross stat avoid 18
 set BronzeSword effect injure-rate 100
+set Rapier effect ignore-defense
+unset Rapier effect ignore-shields
+set Estoc effect ignore-defense
+unset Estoc effect ignore-shields
 
 set WindEdge effect cripple-rate 8
 set LevinSword effect cripple-rate 12
@@ -2360,7 +2366,7 @@ set PoisonMace stat durability C
 
 //blades // blades
 
-set BastardSword stat accuracy 60
+set BastardSword stat accuracy 50
 set Shamshir stat accuracy 60
 set GreatSword stat accuracy 50
 set Zanbato stat accuracy 50
@@ -2392,7 +2398,7 @@ set Balmung3 stat crit 5
 set Brymranger stat crit 5
 
 set Zanbato effect Nosferatu
-set BastardSword effect cripple-x2
+set BastardSword effect ignore-shields
 set GreatSword effect cripple-rate 16
 
 set BastardSword stat level 6
@@ -2697,6 +2703,7 @@ set LogSplitter stat might 10
 set OldImperialAxe stat might 8
 set HandAxe stat might 10
 set Francisca stat might 14
+set WarPick stat might 14
 set Hatchet stat might 19
 set VolcanoAxe stat might 1
 set GlacierAxe stat might 1
@@ -2728,6 +2735,7 @@ set Broadaxe stat crit 3
 set CrookedAxe stat crit 12
 set DarkAxe stat crit 3
 set Francisca stat crit 4
+set WarPick stat crit 4
 set GigasAxe stat crit 7
 set GlacierAxe stat crit 3
 set GreatAxe stat crit 12
@@ -2781,7 +2789,7 @@ set VolcanoAxe stat Weight 6
 set GlacierAxe stat Weight 6
 set NimbusAxe stat Weight 6
 set DarkAxe stat Weight 6
-//set WarPick stat Weight 7
+set WarPick stat Weight 8
 set Hatchet stat Weight 10
 set BreakerAxe stat Weight 8
 set Poleax stat Weight 8
@@ -2816,6 +2824,7 @@ set OldImperialAxe stat accuracy 40
 set Tomahawk stat accuracy 50
 set Hatchet stat accuracy 40
 set Battleaxe stat accuracy 40
+set WarPick stat accuracy 40
 set Poleax stat accuracy 40
 set BreakerAxe stat accuracy 40
 set CrookedAxe stat accuracy 30
@@ -5411,6 +5420,9 @@ set RazeWarMonk skill resistor
 set RazeWarMonk skill hide
 set RazeWarMonk skill watchful
 set RazeWarMonk skill armsthrift
+set RazeWarMonk skill knockaway
+set RazeWarMonk skill fortune
+set RazeWarMonk skill climber
 
 // same as kramer 
 set RogueGuard base strength +5
@@ -5422,6 +5434,9 @@ set RogueGuard skill canto
 set RogueGuard skill armsthrift
 set RogueGuard skill camouflage
 set RogueGuard skill hide
+set RogueGuard skill knockaway
+set RogueGuard skill fortune
+set RogueGuard skill climber
 
 set RogueArcher base strength +5
 set RogueArcher base defense +5
@@ -5458,6 +5473,9 @@ set RogueWarrior skill throw
 set RogueWarrior skill iaido
 set RogueWarrior skill camouflage
 set RogueWarrior skill hide
+set RogueWarrior skill knockaway
+set RogueWarrior skill fortune
+set RogueWarrior skill climber
 
 set SnowBandit base strength +5
 set SnowBandit base defense +5
@@ -5504,6 +5522,9 @@ set Scoundrel skill protector
 set Scoundrel skill sunder
 //set Scoundrel skill hide
 set Scoundrel skill charisma
+set Scoundrel skill knockaway
+set Scoundrel skill fortune
+set Scoundrel skill climber
 
 set RazeWarMonk2 base strength +5
 set RazeWarMonk2 base defense +5
@@ -5685,6 +5706,9 @@ set Chief skill commander
 set Chief skill hide
 set Chief skill charisma
 set Chief skill protector
+set Chief skill knockaway
+set Chief skill fortune
+set Chief skill climber
 
 set Icewyrm base strength +5
 set Icewyrm base defense +5
@@ -5753,7 +5777,6 @@ set AxeSergeant skill armsthrift
 set AxeSergeant skill canto
 set AxeSergeant skill throw
 set AxeSergeant skill hide
-set AxeSergeant skill vengeful
 set AxeSergeant skill protector
 
 //Will fuck Czene Stat on rankup
@@ -5902,7 +5925,6 @@ set Myrmidon skill vantage
 //Daoud Stat
 set AxeSoldier skill throw
 set AxeSoldier skill hide
-set AxeSoldier skill vengeful
 set AxeSoldier skill protector
 
 //Derrick Stat
@@ -5926,6 +5948,9 @@ set Hunter skill doubleshot
 set Mercenary skill canto
 set Mercenary skill hide
 set Mercenary skill adept
+set Mercenary skill knockaway
+set Mercenary skill fortune
+set Mercenary skill climber
 
 set LanceKnight skill adept
 set LanceKnight2 skill adept
