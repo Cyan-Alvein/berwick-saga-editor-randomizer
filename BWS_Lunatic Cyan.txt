@@ -278,7 +278,10 @@ set adel item 6 Pilum 20
 set adel item 7 Harpoon 101
 set adel base sshield +20
 set adel base spear +20
+set adel base hp +5
 set adel base strength +2
+set adel base defense +2
+set adel base speed +1
 set adel growth hp 20
 set adel growth strength 30
 set adel growth defense 20
@@ -296,7 +299,10 @@ set leon item 6 GoreFork 101
 set leon item 7 Harpoon 101
 set leon base sshield +20
 set leon base spear +20
-set leon base hp +1
+set leon base hp +5
+set leon base strength +2
+set leon base defense +1
+set leon base speed +1
 set leon growth hp 20
 set leon growth strength 40
 set leon growth defense 20
@@ -428,9 +434,10 @@ set Marcel item 4 WideShield 101
 set Marcel item 5 KojinShield 101
 set Marcel item 6 FujinShield 101
 set Marcel item 7 Bag 0
-set Marcel base hp +4
-set Marcel base strength +4
-set Marcel base speed +4
+set Marcel base hp +8
+set Marcel base strength +7
+set Marcel base defense +1
+set Marcel base speed +1
 set Marcel base sword +20
 set Marcel base lshield +20
 
@@ -500,6 +507,7 @@ set arthur growth strength 40
 set arthur growth defense 20
 set arthur growth speed 20
 set arthur growth magic 0
+set arthur base hp +2
 set arthur base sword +20
 set arthur base sshield +20
 set arthur base mshield +20
@@ -794,10 +802,8 @@ set Derrick item 4 RaijinShield 101
 set Derrick item 5 AmaterasuShield 101
 set Derrick item 6 Treasure 101
 set Derrick item 7 Bag 0
-set Derrick base hp +4
-set Derrick base strength +5
-set Derrick base defense +0
-set Derrick base speed +6
+set Derrick base hp +8
+set Derrick base strength +7
 set Derrick base axe +20
 set Derrick base lshield +20
 
