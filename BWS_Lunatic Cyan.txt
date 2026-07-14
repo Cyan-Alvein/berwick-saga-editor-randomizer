@@ -262,7 +262,7 @@ set christine growth defense 15
 set christine growth speed 40
 set christine growth bow 80
 set christine growth crossbow 100
-set christine base hp +2
+set christine base hp +3
 set christine base speed +3
 set christine base bow +20
 set christine base crossbow +20
@@ -565,11 +565,8 @@ set sylvis growth strength 30
 set sylvis growth defense 0
 set sylvis growth speed 40
 set sylvis growth magic 0
-set sylvis base hp +0
-set sylvis base strength +1
-set sylvis base defense +2
-set sylvis base speed +3
-set sylvis base magic +1
+set sylvis base defense +1
+set sylvis base speed +1
 set sylvis base bow +20
 set sylvis base crossbow +20
 
@@ -605,10 +602,9 @@ set thaddy growth defense 0
 set thaddy growth speed 30
 set thaddy growth magic 0
 set thaddy base knife +20
-set thaddy base speed +2
+set thaddy base speed +1
 set thaddy base strength +1
 set thaddy base defense +1
-set thaddy base mind +1
 
 set esteban growth knife 80
 set esteban growth bow 100
@@ -627,10 +623,6 @@ set esteban item 7 BloodKnife 101
 set esteban base knife +25
 set esteban base bow +20
 set esteban base sword +40
-set esteban base strength +1
-set esteban base defense +1
-set esteban base speed +2
-set esteban base magic +1
 set Hunter cap Bow 60
 set Hunter cap Knife 80
 set Hunter cap sword 40
