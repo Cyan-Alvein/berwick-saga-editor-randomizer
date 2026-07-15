@@ -18,7 +18,11 @@
 
 // Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons got cripple-x2
 
-// BastardSword same as Warpick now. Ignore Shield and 14 might. You can Pulverize with them for shreking tank. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
+// BastardSword same as Warpick now. Ignore Shield and 10 might. You can Pulverize with them for shreking Knight. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
+
+// Zanbato same as Hammer now. Ignore Armor Defense and 15 might. You can Pulverize with them for shreking Armor. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
+
+// Rapier, Estoc, Colichemarde, Poleax, now ignore defense the same as knives.
 
 // All Magic shields (WindShield) & magic rings (WindRing) effect cripple-rate 8 & 16 and 5 magic damage on block.
 
@@ -60,7 +64,7 @@
 
 // BreakerArrow, BroadheadArrow, BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect.
 
-// Poleax, Zanbato, Brionac, Strongbow, Holy effect Nosferatu, no more horse kill effect.
+// Brionac effect Nosferatu
 
 // All shields give magic stats same as defense stats. So Perseid give 7 magic resist. Shield unit can now tank magic damage too.
 
@@ -161,13 +165,12 @@ set reese item 4 RoundShield 101
 set reese item 5 AltiumSword 101
 set reese item 6 Bag 0
 set reese item 7 Bag 0
-set reese base speed +2
 set reese base sword +20
 set reese base sshield +20
 set reese growth hp 30
-set reese growth strength 20
+set reese growth strength 30
 set reese growth defense 30
-set reese growth speed 30
+set reese growth speed 20
 set reese growth sword 100
 set reese growth sshield 100
 set reese growth mshield 100
@@ -180,32 +183,39 @@ set Lord cap mshield 50
 set KnightLord cap mshield 50
 set KnightLord_R cap mshield 50
 set Lord cap sword 60
+set reese base hp +0
+set reese base strength +0
+set reese base defense +0
+set reese base speed +2
+set reese base magic +3
 
 set ward item 0 KnightSword 101
-set ward item 1 HolySword 101
+set ward item 1 SquareShield 101
 set ward item 2 BlackShield 101
 set ward item 3 Longspear 101
 set ward item 4 Javelin 20
 set ward item 5 Partisan 101
 set ward item 6 RadiantShield 101 
-set ward item 7 Bag 0
+set ward item 7 HolySword 101
 set ward growth sword 100
 set ward growth spear 100
 set ward growth mshield 50
 set ward growth Hp 40
 set ward growth strength 30
-set ward growth defense 10
-set ward growth speed 30
+set ward growth defense 20
+set ward growth speed 20
 set ward base mshield +20
 set ward base sword +20
 set ward base spear +20
-set ward base strength +2
-set ward base speed +3
-set ward base defense +1
 set VeteranKnight cap spear 60
 set VeteranKnight cap sword 50
 set VeteranKnight_R cap spear 60
 set VeteranKnight_R cap sword 50
+set ward base hp +2
+set ward base strength +5
+set ward base defense +2
+set ward base speed +5
+set ward base magic +3
 
 set elbert item 0 Longsword 101
 set elbert item 1 Aspis 101
@@ -217,8 +227,8 @@ set elbert item 6 Bag 0
 set elbert item 7 Bag 0
 set elbert growth hp 30
 set elbert growth strength 40
-set elbert growth defense 20
-set elbert growth speed 20
+set elbert growth defense 30
+set elbert growth speed 10
 set elbert growth sword 100
 set elbert growth spear 80
 set elbert growth sshield 70
@@ -227,6 +237,7 @@ set elbert base sshield +25
 set elbert base sword +25
 set elbert base spear +25
 set elbert base mshield +40
+set elbert base magic +3
 
 set Paladin_R cap mshield 50
 set Paladin_R cap spear 50
@@ -255,46 +266,51 @@ set christine item 0 IronCrossbow 101
 set christine item 1 IronArrow+ 20
 //set christine item 2 Don't Touch Bag 4 Vulnerary
 set christine item 3 FreezeArrow 20
-set christine item 4 BronzeArrow+ 20
+set christine item 4 IronArrow+ 40
 set christine item 5 BodkinArrow 20
 set christine item 6 Gastraphetes 101
-set christine item 7 IronArrow+ 20
-set christine growth hp 30
-set christine growth strength 10
-set christine growth defense 30
+set christine item 7 Bag 0
+set christine growth hp 25
+set christine growth strength 15
+set christine growth defense 20
 set christine growth speed 40
 set christine growth bow 80
 set christine growth crossbow 100
 set christine base hp +2
-set christine base strength +1
-set christine base speed +3
+set christine base strength +0
+set christine base defense +1
+set christine base speed +7
+set christine base magic +3
 set christine base bow +20
 set christine base crossbow +20
 set christine base sword +40
 
 set adel item 0 IronSpear 101
-set adel item 1 FireShield 101
-set adel item 2 Bag 0
-set adel item 3 Firebrand 101
+set adel item 1 Buckler 101
+set adel item 2 FireShield 101
+set adel item 3 Bag 0
 set adel item 4 GoreFork 101
 set adel item 5 IronLance 101
 set adel item 6 Pilum 20
 set adel item 7 Harpoon 101
 set adel base sshield +20
 set adel base spear +20
-set adel base strength +4
-set adel base defense +4
-set adel base speed +2
-set adel growth hp 20
-set adel growth strength 30
-set adel growth defense 20
-set adel growth speed 40
+set adel growth hp 10
+set adel growth strength 40
+set adel growth defense 40
+set adel growth speed 20
 set adel growth spear 100
 set adel growth shield 100
+set adel base hp +0
+set adel base strength +3
+set adel base defense +0
+set adel base speed +0
+set adel base magic +3
+
 
 set leon item 0 IronSpear 101
-set leon item 1 ThunderShield 101
-set leon item 2 Firebrand 101
+set leon item 1 Buckler 101
+set leon item 2 ThunderShield 101
 set leon item 3 IronLance 101
 set leon item 4 Bag 0
 set leon item 5 Pilum 20
@@ -304,23 +320,28 @@ set leon base sshield +20
 set leon base spear +20
 set leon growth hp 20
 set leon growth strength 40
-set leon growth defense 20
-set leon growth speed 30
+set leon growth defense 10
+set leon growth speed 40
 set leon growth spear 100
 set leon growth sshield 100
+set leon stat hp +0
+set leon stat strength +1
+set leon stat defense +0
+set leon stat speed +1
+set leon stat magic +3
 
 set sherlock item 0 IronBow 101
-set sherlock item 1 IronArrow+ 20
+set sherlock item 1 IronArrow+ 40
 set sherlock item 3 Bag 0
 set sherlock item 4 BreakerArrow 20
-set sherlock item 5 BroadheadArrow 20
+set sherlock item 5 FreezeArrow 20
 set sherlock item 6 Bag 0
 set sherlock item 7 SteelArrow+ 20
 set sherlock growth bow 100
-set sherlock growth hp 30
-set sherlock growth strength 35
+set sherlock growth hp 15
+set sherlock growth strength 40
 set sherlock growth defense 5
-set sherlock growth speed 30
+set sherlock growth speed 40
 set sherlock base bow +20
 
 set izerna item 1 Soothe 20
@@ -350,11 +371,16 @@ set czene item 6 Bag 0
 set czene item 7 DuskCharm 0
 set czene growth knife 100
 set czene growth hp 25
-set czene growth strength 25
-set czene growth defense 0
+set czene growth strength 30
+set czene growth defense 5
 set czene growth speed 40
 set czene growth magic 0
 set czene base knife +20
+set czene base hp +2
+set czene base strength +4
+set czene base defense +1
+set czene base speed +2
+set czene base magic +0
 
 set aegina item 1 Blizzard 15 
 set aegina item 2 Bag 0
@@ -375,8 +401,8 @@ set aegina base fire +40
 set aegina base wind +40
 
 set daoud growth hp 10
-set daoud growth strength 40
-set daoud growth defense 30
+set daoud growth strength 20
+set daoud growth defense 20
 set daoud growth speed 30
 set daoud growth axe 100
 set daoud growth sshield 100
@@ -392,6 +418,7 @@ set Daoud item 7 Bag 0
 set Daoud base axe +30
 set Daoud base sshield +30
 set Daoud base mshield +30
+set Daoud base magic +3
 
 set enid base sword +40
 set enid base fire +40
@@ -420,10 +447,10 @@ set Fencer cap sword 40
 
 set marcel growth sword 100
 set marcel growth Lshield 100
-set marcel growth hp 30
-set marcel growth strength 20
+set marcel growth hp 20
+set marcel growth strength 30
 set marcel growth defense 20
-set marcel growth speed 40
+set marcel growth speed 10
 set marcel growth magic 0
 set Marcel item 2 Scimitar+ 101
 set Marcel item 3 Broadsword 101
@@ -431,12 +458,13 @@ set Marcel item 4 WideShield 101
 set Marcel item 5 KojinShield 101
 set Marcel item 6 FujinShield 101
 set Marcel item 7 Bag 0
-set Marcel base hp +8
-set Marcel base strength +7
-set Marcel base defense +1
-set Marcel base speed +1
 set Marcel base sword +20
 set Marcel base lshield +20
+set Marcel base hp +9
+set Marcel base strength +5
+set Marcel base defense +3
+set Marcel base speed +1
+set Marcel base magic +3
 
 set alvina item 4 LadyMShd 101
 set alvina item 5 Treasure 101
@@ -451,13 +479,17 @@ set alvina growth strength 25
 set alvina growth defense 25
 set alvina growth speed 35
 set alvina growth magic 0
-set alvina base speed +3
 set alvina base sword +25
 set alvina base spear +25
 set alvina base sshield +25
 set alvina base mshield +25
+set alvina base hp +0
+set alvina base strength +0
+set alvina base defense +0
+set alvina base speed +3
+set alvina base magic +0
 
-set ruby item 1 Pike 101
+set ruby item 1 Buckler 101
 set ruby item 2 LadyShield 101
 set ruby item 3 LadyMShd 101
 set ruby item 4 LadySword 101
@@ -473,8 +505,6 @@ set ruby growth strength 25
 set ruby growth defense 20
 set ruby growth speed 40
 set ruby growth magic 0
-set ruby base speed +4
-set ruby base magic +2
 set ruby base sword +20
 set ruby base spear +20
 set ruby base sshield +20
@@ -487,13 +517,18 @@ set Chevalire cap Sword 50
 set Chevalire_R cap sshield 50
 set Chevalire_R cap Spear 60
 set Chevalire_R cap Sword 50
+set ruby base hp +0
+set ruby base strength +0
+set ruby base defense +0
+set ruby base speed +4
+set ruby base magic +2
 
 set arthur item 0 Longsword 101
-set arthur item 1 LightShield 101
+set arthur item 1 LeatherMShd 101
 set arthur item 2 BlazingShield 101
 set arthur item 3 Broadsword 101
 set arthur item 4 Rapier 101
-set arthur item 5 Bag 0
+set arthur item 5 LightShield 101
 set arthur item 6 Saber 101
 set arthur item 7 Bag 0
 set arthur growth sword 100
@@ -503,11 +538,15 @@ set arthur growth strength 40
 set arthur growth defense 20
 set arthur growth speed 20
 set arthur growth magic 0
-set arthur base hp +2
 set arthur base sword +20
 set arthur base sshield +20
 set arthur base mshield +20
 set arthur base spear +40
+set arthur base hp +2
+set arthur base strength +0
+set arthur base defense +0
+set arthur base speed +0
+set arthur base magic +3
 
 set kramer item 0 Longsword 101
 set kramer item 1 Vulnerary 6
@@ -546,13 +585,17 @@ set faye item 6 Shortsword 101
 set faye item 7 Bag 0
 set faye growth sword 100
 set faye growth mind 0
-set faye growth hp 15
+set faye growth hp 25
 set faye growth strength 40
 set faye growth defense 5
-set faye growth speed 40
+set faye growth speed 30
 set faye growth magic 0
 set faye base sword +25
-set faye base strength +1
+set faye base hp +1
+set faye base strength +0
+set faye base defense +0
+set faye base speed +0
+set faye base magic +0
 
 set sylvis item 0 CompositeBow 101
 set sylvis item 1 SteelArrow+ 20
@@ -564,14 +607,16 @@ set sylvis item 6 Bag 0
 set sylvis item 7 TripleFireBow 101
 set sylvis growth bow 100
 set sylvis growth crossbow 80
-set sylvis growth hp 20
-set sylvis growth strength 35
+set sylvis growth hp 15
+set sylvis growth strength 40
 set sylvis growth defense 5
 set sylvis growth speed 40
 set sylvis growth magic 0
+set sylvis base hp +0
 set sylvis base strength +1
 set sylvis base defense +1
 set sylvis base speed +2
+set sylvis base magic +0
 set sylvis base bow +20
 set sylvis base crossbow +20
 
@@ -601,21 +646,23 @@ set thaddy item 6 stunknife 101
 set thaddy item 7 Bag 0
 set thaddy growth knife 100
 set thaddy growth hp 25
-set thaddy growth strength 30
+set thaddy growth strength 40
 set thaddy growth defense 5
-set thaddy growth speed 40
+set thaddy growth speed 30
 set thaddy growth magic 0
 set thaddy base knife +20
-set thaddy base speed +1
-set thaddy base strength +1
-set thaddy base defense +1
+set thaddy base hp +3
+set thaddy base strength +5
+set thaddy base defense +3
+set thaddy base speed +2
+set thaddy base magic +0
 
 set esteban growth knife 80
 set esteban growth bow 100
-set esteban growth hp 25
-set esteban growth strength 35
+set esteban growth hp 15
+set esteban growth strength 40
 set esteban growth defense 5
-set esteban growth speed 35
+set esteban growth speed 40
 set esteban item 0 IronBow 101
 set esteban item 1 IronArrow+ 20
 set esteban item 2 SteelArrow+ 20
@@ -623,12 +670,15 @@ set esteban item 3 Bag 0
 set esteban item 4 Bag 0
 set esteban item 5 Bag 0
 set esteban item 6 Bag 0
-set esteban item 7 BloodKnife 101
+set esteban item 7 Bag 0
 set esteban base knife +25
 set esteban base bow +20
 set esteban base sword +40
+set esteban base hp +0
 set esteban base strength +1
-set esteban base speed +1
+set esteban base defense +0
+set esteban base speed +0
+set esteban base magic +0
 set Hunter cap Bow 60
 set Hunter cap Knife 80
 set Hunter cap sword 40
@@ -645,13 +695,17 @@ set faramir item 6 MithrilArrow 20
 set faramir item 7 Bag 0
 set faramir growth sword 100
 set faramir growth bow 100
-set faramir growth hp 20
+set faramir growth hp 0
 set faramir growth strength 40
-set faramir growth defense 5
-set faramir growth speed 35
-set faramir base strength +1
+set faramir growth defense 20
+set faramir growth speed 40
 set faramir base sword +20
 set faramir base bow +20
+set faramir base hp +0
+set faramir base strength +1
+set faramir base defense +0
+set faramir base speed +0
+set faramir base magic +0
 
 set volo item 1 Albatross 101
 set volo item 2 LevinSword 101
@@ -661,14 +715,17 @@ set volo item 5 BastardSword 101
 set volo item 6 PhoenixBrace 0
 set volo item 7 MiracleCharm 0
 set volo growth sword 100
-set volo growth hp 25
+set volo growth hp 0
 set volo growth strength 40
-set volo growth defense 5
-set volo growth speed 30
+set volo growth defense 20
+set volo growth speed 40
 set volo growth magic 0
 set volo base sword +31
 set volo base hp +1
 set volo base strength +2
+set volo base defense +0
+set volo base speed +0
+set volo base magic +0
 
 //set sherpa growth sword 90
 set Sherpa item 1 Zanbato 101
@@ -684,7 +741,11 @@ set Sherpa growth strength 40
 set Sherpa growth defense 5
 set Sherpa growth speed 25
 set Sherpa base sword +20
+set Sherpa base hp +0
+set Sherpa base strength +0
+set Sherpa base defense +0
 set Sherpa base speed +1
+set Sherpa base magic +0
 
 set clifford item 3 Javelin 20
 set clifford item 4 GreatLance 101
@@ -695,14 +756,19 @@ set clifford growth sword 100
 set clifford growth spear 100
 set clifford growth sshield 100
 set clifford growth mshield 100
-set clifford growth hp 40
-set clifford growth strength 30
-set clifford growth defense 10
-set clifford growth speed 30
+set clifford growth hp 30
+set clifford growth strength 40
+set clifford growth defense 20
+set clifford growth speed 20
 set clifford base sword +25
 set clifford base spear +25
 set clifford base sshield +20
 set clifford base mshield +20
+set clifford base hp +4
+set clifford base strength +2
+set clifford base defense +0
+set clifford base speed +2
+set clifford base magic +3
 
 set axel item 0 IronAxe 101
 set axel item 1 Bag 0
@@ -713,27 +779,30 @@ set axel item 5 ThiefsCharm 0
 set axel item 6 PegasusBrace 0
 set axel item 7 Treasure 101
 set axel base axe +20
-set axel base hp +2
-set axel base strength +2
-set axel base speed +5
 set axel growth axe 100
 set axel growth hp 40
 set axel growth strength 30
 set axel growth defense 5
 set axel growth speed 25
 set axel growth magic 0
+set axel base hp +2
+set axel base strength +2
+set axel base defense +0
+set axel base speed +5
+set axel base magic +0
+
 
 // Since I can't increase larentia stat on wyvern, I gave her basic horse bonus stat.
 set larentia item 2 LadySword 101
 set larentia item 3 Pilum 20
 set larentia item 4 Treasure 101
-set larentia item 5 Treasure 101
+set larentia item 5 Bag 0
 set larentia item 6 SteelSpear 101
 set larentia item 7 Longspear 101
 set larentia growth sword 80
 set larentia growth spear 100
 set larentia growth sshield 100
-set larentia growth hp 10
+set larentia growth hp 20
 set larentia growth strength 40
 set larentia growth defense 10
 set larentia growth speed 40
@@ -741,8 +810,8 @@ set larentia growth magic 0
 set larentia base sword +25
 set larentia base spear +25
 set larentia base sshield +25
-set larentia base hp +5
-set larentia base strength +1
+set larentia base hp +3
+set larentia base strength +3
 set larentia base defense +4
 set larentia base speed +5
 set larentia base magic +3
@@ -753,7 +822,7 @@ set WyvernKnight_R cap Spear 60
 
 set Owen item 5 Bag 0
 set Owen item 6 Bag 0
-set Owen item 7 Bag 0
+set Owen item 7 Treasure 101
 set owen growth holy 100
 set owen growth fire 80
 set owen growth thunder 80
@@ -769,9 +838,9 @@ set Owen base wind +20
 set Owen base thunder +20
 set Owen base holy +20
 set Owen base dark +50
+set RazeMonkOwen growth dark 60
 set Owen base speed +3
 set Owen base mind +7
-set RazeMonkOwen growth dark 60
 
 //set burroughs item 0 Bag 0
 //set burroughs item 1 BodkinArrow 20
@@ -791,10 +860,10 @@ set burroughs base crossbow +20
 
 set derrick growth axe 100
 set derrick growth lshield 100
-set derrick growth hp 40
+set derrick growth hp 20
 set derrick growth strength 30
-set derrick growth defense 10
-set derrick growth speed 30
+set derrick growth defense 20
+set derrick growth speed 10
 set Derrick item 0 ImperialAxe 101
 set Derrick item 2 Bag 0
 set Derrick item 3 Bag 0
@@ -802,11 +871,13 @@ set Derrick item 4 RaijinShield 101
 set Derrick item 5 AmaterasuShield 101
 set Derrick item 6 Treasure 101
 set Derrick item 7 Bag 0
-set Derrick base hp +8
-set Derrick base strength +5
-set Derrick base speed +3
 set Derrick base axe +20
 set Derrick base lshield +20
+set Derrick base hp +10
+set Derrick base strength +5
+set Derrick base defense +0
+set Derrick base speed +3
+set Derrick base magic +3
 
 set saphira item 1 Holy 20
 set saphira item 2 Bag 0
@@ -827,15 +898,12 @@ set saphira base speed +2
 
 set lynette item 3 SniperArrow 10
 set lynette item 4 DireThunder 20
-set lynette item 5 SteelArrow+ 20
+set lynette item 5 LadySword 101
 set lynette item 6 MithrilArrow 20
-set lynette item 7 LadySword 101
+set lynette item 7 Bag 0
 set lynette base thunder +40
 set lynette base sword +40
 set lynette base bow +40
-set lynette base strength +1
-set lynette base speed +4
-set lynette base mind +6
 set lynette growth bow 100
 set lynette growth thunder 100
 set lynette growth sword 100
@@ -847,6 +915,9 @@ set lynette growth mind 60
 set ChosenOne cap thunder 60
 set ChosenOne cap bow 50
 set ChosenOne cap sword 40
+set lynette base strength +1
+set lynette base speed +4
+set lynette base mind +6
 
 set paramythis item 0 HolyMace 101
 set paramythis item 2 PeerlessBrace 0
@@ -857,14 +928,13 @@ set paramythis item 6 Bag 0
 set paramythis item 7 GeneralShield 101
 set paramythis growth sword 100
 set paramythis growth holy 80
-set paramythis growth hp 20
-set paramythis growth strength 30
-set paramythis growth defense 10
-set paramythis growth speed 30
+set paramythis growth hp 10
+set paramythis growth strength 40
+set paramythis growth defense 30
+set paramythis growth speed 10
 set paramythis growth mind 30
 set paramythis base sword +20
 set paramythis base holy +20
-set paramythis base mind +5
 
 set reese skill adept
 set reese skill canto
@@ -1885,7 +1955,6 @@ set Stormtongue stat max-range 0
 set Physic stat max-range 5
 set Holy stat might 15
 set Holy stat uses 20
-set holy effect nosferatu
 set holy effect cripple-x2
 set Starlight effect holy-vantage
 set Starlight effect cripple-rate 16
@@ -2375,8 +2444,8 @@ set Balmung2 stat accuracy 70
 set Balmung3 stat accuracy 70
 set Brymranger stat accuracy 50
 
-set BastardSword stat weight 7
-set Zanbato stat weight 9
+set BastardSword stat weight 6
+set Zanbato stat weight 11
 set Shamshir stat weight 8
 set GreatSword stat weight 11
 set Adrastia stat weight 11
@@ -2386,8 +2455,8 @@ set Balmung2 stat weight 11
 set Balmung3 stat weight 11
 set Brymranger stat weight 8
 
-set BastardSword stat crit 4
-set Zanbato stat crit 6
+set BastardSword stat crit 3
+set Zanbato stat crit 4
 set Shamshir stat crit 5
 set GreatSword stat crit 7
 set Adrastia stat crit 7
@@ -2397,19 +2466,19 @@ set Balmung2 stat crit 5
 set Balmung3 stat crit 5
 set Brymranger stat crit 5
 
-set Zanbato effect Nosferatu
+set Zanbato effect ignore-armor-defense
 set BastardSword effect ignore-shields
 set GreatSword effect cripple-rate 16
 
-set BastardSword stat level 6
-set Shamshir stat level 10
-set Zanbato stat level 14
+set BastardSword stat level 7
+set Shamshir stat level 12
+set Zanbato stat level 15
 set GreatSword stat level 18
 set Adrastia stat level 18
 
-set BastardSword stat might 14
+set BastardSword stat might 10
 set Shamshir stat might 16
-set Zanbato stat might 18
+set Zanbato stat might 14
 set GreatSword stat might 20
 set GreatSword stat defense 2
 set Adrastia stat might 20
@@ -2703,7 +2772,7 @@ set LogSplitter stat might 10
 set OldImperialAxe stat might 8
 set HandAxe stat might 10
 set Francisca stat might 14
-set WarPick stat might 14
+set WarPick stat might 11
 set Hatchet stat might 19
 set VolcanoAxe stat might 1
 set GlacierAxe stat might 1
@@ -2715,7 +2784,7 @@ set MithrilAxe stat might 22
 set BarbaricAxe stat might 20
 set CrookedAxe stat might 30
 set BreakerAxe stat might 14
-set Poleax stat might 14
+set Poleax stat might 4
 set Gullveig stat might 19
 set Tomahawk stat might 14
 set GreatAxe stat might 30
@@ -2735,12 +2804,12 @@ set Broadaxe stat crit 3
 set CrookedAxe stat crit 12
 set DarkAxe stat crit 3
 set Francisca stat crit 4
-set WarPick stat crit 4
+set WarPick stat crit 3
 set GigasAxe stat crit 7
 set GlacierAxe stat crit 3
 set GreatAxe stat crit 12
 set Gullveig stat crit 6
-set Hammer stat crit 4
+set Hammer stat crit 5
 set HandAxe stat crit 2
 set Hatchet stat crit 6
 set ImperialAxe stat crit 2
@@ -2752,7 +2821,7 @@ set Mjollnir stat crit 7
 set NimbusAxe stat crit 3
 set OldImperialAxe stat crit 1
 set Pickaxe stat crit 0
-set Poleax stat crit 4
+set Poleax stat crit 0
 set Pulverizer stat crit 17
 set Shieldaxe stat crit 7
 set Tabarzin stat crit 3
@@ -2789,10 +2858,10 @@ set VolcanoAxe stat Weight 6
 set GlacierAxe stat Weight 6
 set NimbusAxe stat Weight 6
 set DarkAxe stat Weight 6
-set WarPick stat Weight 8
+set WarPick stat Weight 7
 set Hatchet stat Weight 10
 set BreakerAxe stat Weight 8
-set Poleax stat Weight 8
+set Poleax stat Weight 4
 set Tomahawk stat Weight 8
 //set BoltAxe stat Weight 7
 //set KillerAxe stat Weight 6
@@ -2825,7 +2894,7 @@ set Tomahawk stat accuracy 50
 set Hatchet stat accuracy 40
 set Battleaxe stat accuracy 40
 set WarPick stat accuracy 40
-set Poleax stat accuracy 40
+set Poleax stat accuracy 60
 set BreakerAxe stat accuracy 40
 set CrookedAxe stat accuracy 30
 set NimbusAxe stat accuracy 50
@@ -2839,9 +2908,9 @@ set HandAxe stat accuracy 40
 set Francisca stat accuracy 40
 set Hammer stat accuracy 40
 set GreatAxe stat accuracy 40
-set Shieldaxe stat accuracy 30
+set Shieldaxe stat accuracy 40
 set MaozaWolf stat accuracy 40
-set GigasAxe stat accuracy 30
+set GigasAxe stat accuracy 40
 set VerianAxe stat accuracy 50
 set KillerAxe stat accuracy 50
 
@@ -2856,10 +2925,11 @@ set CrookedAxe effect devil-reversal 0
 set BreakerAxe effect break-shield 0
 set BreakerAxe effect disarm-rate 100
 set Poleax effect kill-horse 0
-set Poleax effect nosferatu
+set Poleax effect ignore-defense
 set GreatAxe effect cripple-rate 16
 
 set Battleaxe stat level 10
+set Warpick stat level 7
 set Francisca stat level 10
 set Hatchet stat level 15
 set Broadaxe stat level 5
@@ -2880,7 +2950,7 @@ set GreatAxe stat level 20
 set MaozaWolf stat level 16
 set Shieldaxe stat level 16
 set BreakerAxe stat level 12
-set Poleax stat level 12
+set Poleax stat level 7
 
 set BanditAxe stat durability D
 set Broadaxe stat durability D
@@ -2891,7 +2961,7 @@ set DarkAxe stat durability D
 set BoltAxe stat durability D
 set Mjollnir stat durability D
 set KillerAxe stat durability D
-set Hammer stat durability E
+set Hammer stat durability D
 set Gullveig stat durability C
 set ShieldAxe stat durability C
 set GigasAxe stat durability C
@@ -2900,6 +2970,8 @@ set Tomahawk stat durability C
 set Battleaxe stat durability C
 set MithrilAxe stat durability B
 set Bhuj stat durability C
+set Poleax stat durability D
+set BreakerAxe stat durability D
 
 set VerianAxe stat durability E
 set ImperialAxe stat durability E
@@ -3017,7 +3089,6 @@ set Shortbow effect injure-rate 100
 set CompositeBow effect cripple-x2
 set Rossweisse effect cripple-x2
 set SereniaBow effect cripple-x2
-set Strongbow effect nosferatu
 
 set IronBow stat crit 1
 set ShortBow stat crit 0
