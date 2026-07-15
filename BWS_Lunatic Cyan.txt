@@ -16,7 +16,7 @@
 
 // Blizzard 44% injure-rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter 100% injure-rate but -20% accuracy. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
 
-// Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons got cripple-x2
+// Apeiron, Rossweisse, SereniaBow, Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons got cripple-x2
 
 // BastardSword same as Warpick now. Ignore Shield and 10 might. You can Pulverize with them for shreking Knight. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
 
@@ -5464,7 +5464,7 @@ set RazeBishop skill watchful
 
 set DarkMaster base strength +5
 set DarkMaster base defense +5
-set DarkMaster base magic +15
+set DarkMaster base magic +20
 set DarkMaster base speed +5
 set DarkMaster base hp +5
 set DarkMaster skill canto
@@ -6394,8 +6394,6 @@ set Warrior skill counter
 set Barbarian skill counter
 set RazeWarMonk skill counter
 set RazeWarMonk2 skill counter
-set SpearKnight skill counter
-set SpearKnight_R skill counter
 set WyvernKnight skill counter
 set WyvernKnight_R skill counter
 set AxeSoldier skill counter
@@ -6861,8 +6859,6 @@ set Swordfighter_M skill knockaway
 set Swordmaster skill knockaway
 set WarMonk skill knockaway
 set Warrior skill knockaway
-set Fencer skill knockaway
-set FlameFencer skill knockaway
 
 //Pulverize to units
 set ArmorKnight skill Pulverize
