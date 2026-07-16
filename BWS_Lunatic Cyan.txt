@@ -22,7 +22,7 @@
 
 // Zanbato same as Hammer now. Ignore Armor Defense and 15 might. You can Pulverize with them for shreking Armor. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
 
-// Rapier, Estoc, Colichemarde, Poleax, now ignore defense the same as knives.
+// Rapier, Estoc, Colichemarde, Poleax, now ignore defense the same as knives. Rapier Colichemarde Poleax might 0, accuracy 60, crit 0. Estoc = Rapier -20 accuracy
 
 // All Magic shields (WindShield) & magic rings (WindRing) effect cripple-rate 8 & 16 and 5 magic damage on block.
 
@@ -163,7 +163,7 @@ unset RazeMonkOwen skill limited
 set reese item 3 Bag 0
 set reese item 4 RoundShield 101
 set reese item 5 AltiumSword 101
-set reese item 6 Bag 0
+set reese item 6 Estoc 101 
 set reese item 7 Bag 0
 set reese base sword +20
 set reese base sshield +20
@@ -189,7 +189,7 @@ set reese base defense +0
 set reese base speed +2
 set reese base magic +3
 
-set ward item 0 KnightSword 101
+set ward item 0 Estoc 101
 set ward item 1 SquareShield 101
 set ward item 2 BlackShield 101
 set ward item 3 Longspear 101
@@ -2227,8 +2227,8 @@ set Cutlass stat might 9
 set Scimitar+ stat might 6
 set LadySword stat might 0
 //set RazeEtoile stat might 13
-set Rapier stat might 3
-set Colichemarde stat might 3
+set Rapier stat might 0
+set Colichemarde stat might 0
 set Estoc stat might 0
 
 set AltiumSword effect cripple-x2
@@ -2241,6 +2241,8 @@ set Rapier effect ignore-defense
 unset Rapier effect ignore-shields
 set Estoc effect ignore-defense
 unset Estoc effect ignore-shields
+set Colichemarde effect ignore-defense
+unset Colichemarde effect ignore-shields
 
 set WindEdge effect cripple-rate 8
 set LevinSword effect cripple-rate 12
@@ -2276,6 +2278,9 @@ set LadySword stat accuracy 70
 set Estoc stat accuracy 80
 set Grimhild stat accuracy 70
 set RazeEtoile stat accuracy 60
+set Rapier stat accuracy 60
+set Colichemarde stat accuracy 60
+set Estoc stat accuracy 40
 
 set AltiumSword stat cost 2000
 set MithrilSword stat cost 4000
@@ -2324,17 +2329,17 @@ set KillingEdge stat crit 33
 //set Saber stat crit 2
 set AltiumSword stat crit 4
 set LevinSword stat crit 5
-//set Rapier stat crit 12
+set Rapier stat crit 0
 //set Albatross stat crit 33
 set HolySword stat crit 7
 set MithrilSword stat crit 4
 set KnightSword stat crit 2
-//set Estoc stat crit 0
+set Estoc stat crit 0
 //set Grimhild stat crit 24
 set Harperia stat crit 18
 set FlameSword stat crit 5
 set InfernalEdge stat crit 7
-//set Colichemarde stat crit 12
+set Colichemarde stat crit 0
 set Cutlass stat crit 18
 set Cutlass+ stat crit 18
 set RazeEtoile stat crit 4
@@ -2786,7 +2791,7 @@ set MithrilAxe stat might 22
 set BarbaricAxe stat might 20
 set CrookedAxe stat might 30
 set BreakerAxe stat might 14
-set Poleax stat might 4
+set Poleax stat might 0
 set Gullveig stat might 19
 set Tomahawk stat might 14
 set GreatAxe stat might 30
@@ -2863,7 +2868,7 @@ set DarkAxe stat Weight 6
 set WarPick stat Weight 7
 set Hatchet stat Weight 10
 set BreakerAxe stat Weight 8
-set Poleax stat Weight 4
+set Poleax stat Weight 3
 set Tomahawk stat Weight 8
 //set BoltAxe stat Weight 7
 //set KillerAxe stat Weight 6
@@ -2972,7 +2977,7 @@ set Tomahawk stat durability C
 set Battleaxe stat durability C
 set MithrilAxe stat durability B
 set Bhuj stat durability C
-set Poleax stat durability D
+set Poleax stat durability C
 set BreakerAxe stat durability D
 
 set VerianAxe stat durability E
@@ -3003,6 +3008,7 @@ set BoltAxe stat cost 2500
 set Mjollnir stat cost 3000
 set ShieldAxe stat cost 3000
 set Bhuj stat cost 6000
+set Poleax stat cost 3000
 
 
 // bows
@@ -4575,6 +4581,15 @@ set MiracleCharm stat wind_res 10
 set MiracleCharm stat holy_res 10
 set MiracleCharm stat dark_res 10
 set MiracleCharm stat cost 3600
+
+//set FortuneCharm stat speed 2
+//set FortuneCharm stat avoid 3
+//set FortuneCharm stat fire_res 10
+//set FortuneCharm stat thunder_res 10
+//set FortuneCharm stat wind_res 10
+//set FortuneCharm stat holy_res 10
+//set FortuneCharm stat dark_res 10
+//set FortuneCharm stat cost 3600
 
 set PeerlessBrace stat hit 3
 set PeerlessBrace stat avoid 3
@@ -6838,6 +6853,7 @@ set Thief_M skill Parry
 set WarMonk skill Parry
 set Warrior skill Parry
 set GigasKnight skill parry
+set DarkMaster skill parry
 
 
 // knockaway to Unit
