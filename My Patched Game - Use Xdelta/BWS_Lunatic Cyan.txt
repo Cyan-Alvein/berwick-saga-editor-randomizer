@@ -2589,7 +2589,7 @@ set Pilum stat Weight 6
 set SteelSpear stat Weight 7
 set Harpoon stat Weight 8
 set PrototypeSpear stat Weight 6
-set KillerSpear stat Weight 6
+set KillerSpear stat Weight 5
 set Pike stat Weight 6
 set Longspear stat Weight 8
 set Verutum stat Weight 8
@@ -2614,6 +2614,7 @@ set SlimSpear stat hex 0
 set Pike stat hex 0
 set MithrilSpear stat hex 0
 set PrototypeSpear stat hex 0
+set KillerSpear stat hex 0
 
 set Doru stat defense 4
 
@@ -2655,6 +2656,7 @@ Set Harpoon effect injure-rate 100
 
 //set PrototypeSpear stat durability D
 set Pike stat durability B
+//set KillerSpear stat durability D
 set Doru stat durability B
 set MithrilSpear stat durability A
 set Partisan stat durability B
@@ -2912,7 +2914,7 @@ set Shieldaxe stat accuracy 40
 set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 40
 set VerianAxe stat accuracy 50
-set KillerAxe stat accuracy 50
+set KillerAxe stat accuracy 60
 
 set BanditAxe effect steal-rate-plus 50
 set BattleAxe effect cripple-x2
@@ -2960,7 +2962,7 @@ set NimbusAxe stat durability D
 set DarkAxe stat durability D
 set BoltAxe stat durability D
 set Mjollnir stat durability D
-set KillerAxe stat durability D
+//set KillerAxe stat durability C
 set Hammer stat durability D
 set Gullveig stat durability C
 set ShieldAxe stat durability C
