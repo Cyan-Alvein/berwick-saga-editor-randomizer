@@ -978,7 +978,7 @@ set ward skill throw
 set ward skill counter
 set ward skill Windsweep
 set ward skill sunder
-	
+
 set elbert skill arrowbane
 set elbert skill canto
 set elbert skill flourish
@@ -1518,7 +1518,7 @@ set esteban skill sunder
 //set esteban skill magicbane
 set esteban skill deathmatch
 set esteban skill parry
-	
+
 set faye skill adept
 set faye skill deathmatch
 set faye skill desperation
@@ -3074,7 +3074,7 @@ set SleepArrow stat accuracy 10
 set MithrilArrow stat accuracy 10
 
 set Apeiron stat level 1
-set Longbow stat level 5
+set Longbow stat level 4
 set CompositeBow stat level 8
 set Strongbow stat level 12
 set Greatbow stat level 16
@@ -5145,7 +5145,7 @@ set Bowman skill camouflage
 set Bowman skill hide
 set Bowman skill watchful
 set Bowman skill doubleshot
-	
+
 set BowRider base strength +5
 set BowRider base defense +5
 set BowRider base magic +20
