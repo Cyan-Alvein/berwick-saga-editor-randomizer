@@ -263,7 +263,7 @@ set LadyKnight cap sword 40
 set ArrowKnight cap sword 40
 set ArrowKnight_R cap sword 40
 set christine item 0 IronCrossbow 101
-set christine item 1 IronArrow+ 20
+set christine item 1 Treasure 101
 //set christine item 2 Don't Touch Bag 4 Vulnerary
 set christine item 3 FreezeArrow 20
 set christine item 4 IronArrow+ 40
@@ -601,7 +601,7 @@ set sylvis item 0 CompositeBow 101
 set sylvis item 1 SteelArrow+ 20
 set sylvis item 2 Gastraphetes 101
 set sylvis item 3 RaijinArrow 20
-set sylvis item 4 IronArrow+ 20
+set sylvis item 4 IronArrow+ 40
 set sylvis item 5 Apollyon 101
 set sylvis item 6 Bag 0
 set sylvis item 7 TripleFireBow 101
@@ -664,7 +664,7 @@ set esteban growth strength 40
 set esteban growth defense 5
 set esteban growth speed 40
 set esteban item 0 IronBow 101
-set esteban item 1 IronArrow+ 20
+set esteban item 1 IronArrow+ 40
 set esteban item 2 SteelArrow+ 20
 set esteban item 3 Bag 0
 set esteban item 4 Bag 0
@@ -690,7 +690,7 @@ set faramir item 1 KillerBow 101
 set faramir item 2 SteelArrow+ 20
 set faramir item 3 Apollyon 101
 set faramir item 4 CompositeBow 101
-set faramir item 5 IronArrow+ 20
+set faramir item 5 AltiumSword 101
 set faramir item 6 MithrilArrow 20
 set faramir item 7 Bag 0
 set faramir growth sword 100
@@ -728,12 +728,12 @@ set volo base speed +0
 set volo base magic +0
 
 //set sherpa growth sword 90
-set Sherpa item 1 Zanbato 101
+set Sherpa item 1 Longsword 101
 set Sherpa item 2 Shamshir 101
-set Sherpa item 3 Treasure 101
+set Sherpa item 3 AltiumSword 101
 set Sherpa item 4 Bag 0
 set Sherpa item 5 FlameSword 101
-set Sherpa item 6 Treasure 101
+set Sherpa item 6 Zanbato 101
 set Sherpa item 7 Bag 0
 set Sherpa growth sword 100
 set Sherpa growth hp 30
@@ -5032,7 +5032,6 @@ set HighKnight skill armsthrift
 set HighKnight skill throw
 set HighKnight skill camouflage
 set HighKnight skill hide
-set HighKnight skill protector
 
 set HighKnight2_R base strength +5
 set HighKnight2_R base defense +5
@@ -5044,7 +5043,6 @@ set HighKnight2_R skill armsthrift
 set HighKnight2_R skill throw
 set HighKnight2_R skill camouflage
 set HighKnight2_R skill hide
-set HighKnight2_R skill protector
 
 set HighKnight2 base strength +5
 set HighKnight2 base defense +5
@@ -5056,7 +5054,6 @@ set HighKnight2 skill armsthrift
 set HighKnight2 skill throw
 set HighKnight2 skill camouflage
 set HighKnight2 skill hide
-set HighKnight2 skill protector
 
 set General base strength +5
 set General base defense +5
@@ -6782,45 +6779,58 @@ set WyvernKnightLarentia_R skill Prepared
 set WyvernLord skill Prepared
 set WyvernLord_R skill Prepared
 
-// Parry to every units without shield
+// Parry to every units without MShield or LShield
 set ArrowKnight skill Parry
 set ArrowKnight_R skill Parry
 set Assassin skill Parry
 set Axefighter skill Parry
+set Axeman skill parry
 set Bandit skill Parry
 set Barbarian skill Parry
 set Berserker skill Parry
 set BowKnight skill Parry
 set BowKnight_R skill Parry
-set Bowman skill Parry
 set BowRider skill Parry
 set BowRider_R skill Parry
+set Bowman skill Parry
 set Burglar skill Parry
 set Captain skill Parry
 set Chief skill Parry
 set ChosenOne skill Parry
 set Corsair skill Parry
+set DarkMaster skill parry
 set FailedPoet skill Parry
 set Farmer skill Parry
 set Fencer skill Parry
 set FlameFencer skill Parry
+set GigasKnight skill parry
 set Grassrunner skill Parry
 set Grassrunner_R skill Parry
 set Gunner skill Parry
 set HeavyGunner skill Parry
 set Hero skill Parry
 set HighHunter skill Parry
+set HighKnight skill parry
+set HighKnight2 skill parry
+set HighKnight2_R skill parry
+set HighKnight_R skill parry
 set Highlander skill Parry
 set Horseman skill Parry
 set Horseman_R skill Parry
 set Hunter skill Parry
 set Huntress skill Parry
-set ImperialBowman skill Parry
+set ImperialAxeman skill parry
 set ImperialBowRider skill Parry
 set ImperialBowRider_R skill Parry
+set ImperialBowman skill Parry
 set ImperialGunner skill Parry
 set ImperialHeavyGunner skill Parry
+set ImperialKnight skill parry
+set ImperialKnight_R skill parry
 set ImperialMarksman skill Parry
+set ImperialSpearRider skill parry
+set ImperialSpearRider_R skill parry
+set ImperialSpearman skill parry
 set LadyKnight skill Parry
 set LadyKnight_R skill Parry
 set Marksman skill Parry
@@ -6841,19 +6851,25 @@ set Ruffian skill Parry
 set Ruffian_R skill Parry
 set Scoundrel skill Parry
 set ShiningKnight skill Parry
-set ShiningKnight_R skill Parry
 set ShiningKnightParamythis skill Parry
 set ShiningKnightParamythis_R skill Parry
+set ShiningKnight_R skill Parry
 set Sniper skill Parry
 set SnowBandit skill Parry
+set SpearRider skill parry
+set SpearRider_R skill parry
+set Spearman skill parry
 set Swordfighter_M skill Parry
 set Swordmaster skill Parry
 set Thief_F skill Parry
 set Thief_M skill Parry
+set VerianKnight skill parry
+set VerianKnight2 skill parry
+set VerianKnight2_R skill parry
+set VerianKnight_R skill parry
 set WarMonk skill Parry
 set Warrior skill Parry
-set GigasKnight skill parry
-set DarkMaster skill parry
+set farmer skill parry
 
 
 // knockaway to Unit
