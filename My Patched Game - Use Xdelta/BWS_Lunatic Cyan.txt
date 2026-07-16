@@ -335,7 +335,7 @@ set sherlock item 1 IronArrow+ 40
 set sherlock item 3 Bag 0
 set sherlock item 4 BreakerArrow 20
 set sherlock item 5 FreezeArrow 20
-set sherlock item 6 Bag 0
+set sherlock item 6 Treasure 101
 set sherlock item 7 SteelArrow+ 20
 set sherlock growth bow 100
 set sherlock growth hp 15
@@ -412,7 +412,7 @@ set Daoud item 1 RoundShield 101
 set Daoud item 2 ShadowShield 101
 set Daoud item 3 Treasure 101 
 set Daoud item 4 Treasure 101 
-set Daoud item 5 Treasure 101 
+set Daoud item 5 Bag 0
 set Daoud item 6 Concoction 3
 set Daoud item 7 Bag 0
 set Daoud base axe +30
@@ -2942,11 +2942,11 @@ set GlacierAxe stat level 5
 set NimbusAxe stat level 5
 set DarkAxe stat level 5
 set BoltAxe stat level 10
-set Mjollnir stat level 15
+set Mjollnir stat level 20
 set Tabarzin stat level 15
 set MithrilAxe stat level 15
 set Gullveig stat level 15
-set GreatAxe stat level 20
+set GreatAxe stat level 18
 set MaozaWolf stat level 16
 set Shieldaxe stat level 16
 set BreakerAxe stat level 12
