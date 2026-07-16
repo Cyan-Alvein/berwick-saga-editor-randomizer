@@ -564,7 +564,7 @@ set kramer growth defense 20
 set kramer growth speed 20
 
 set dean item 2 HandAxe 20
-set dean item 3 BattleAxe 101
+set dean item 3 Treasure 101
 set dean item 4 LogSplitter 101
 set dean item 5 Bag 0
 set dean item 6 DawnCharm 0
@@ -773,7 +773,7 @@ set clifford base magic +3
 set axel item 0 IronAxe 101
 set axel item 1 Bag 0
 set axel item 2 Repairstone 10
-set axel item 3 BattleAxe 101
+set axel item 3 Treasure 101
 set axel item 4 Bag 0
 set axel item 5 ThiefsCharm 0
 set axel item 6 PegasusBrace 0
