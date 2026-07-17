@@ -18,11 +18,9 @@
 
 // Apeiron, Rossweisse, SereniaBow, Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons got cripple-x2
 
-// BastardSword same as Warpick now. Ignore Shield and 10 might. You can Pulverize with them for shreking Knight. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
+// BastardSword Poleax = Rapier WarPick +6 might now. Ignore Shield effect. You can Pulverize with them for shreking Knight. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
 
-// Zanbato same as Hammer now. Ignore Armor Defense and 15 might. You can Pulverize with them for shreking Armor. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
-
-// Rapier, Estoc, Colichemarde, Poleax, now ignore defense the same as knives. Rapier Colichemarde Poleax might 0, accuracy 60, crit 0. Estoc = Rapier -20 accuracy
+// Zanbato = Hammer = same as knives now. Ignore All Defense effect. You can Pulverize with them for shreking Armor. Faye Faramir Volo Kramer Sherpa can Pulverize with Zanbato
 
 // All Magic shields (WindShield) & magic rings (WindRing) effect cripple-rate 8 & 16 and 5 magic damage on block.
 
@@ -2236,9 +2234,9 @@ set Cutlass stat might 9
 set Scimitar+ stat might 6
 set LadySword stat might 9
 //set RazeEtoile stat might 13
-set Rapier stat might 0
-set Colichemarde stat might 0
-set Estoc stat might 0
+set Rapier stat might 7
+set Colichemarde stat might 7
+set Estoc stat might 3
 
 set AltiumSword effect cripple-x2
 set KillingEdge effect cripple-x2
@@ -2247,12 +2245,6 @@ set Albatross effect devil-reversal 0
 //set Albatross stat defense 6
 //set Albatross stat avoid 18
 set BronzeSword effect injure-rate 100
-set Rapier effect ignore-defense
-unset Rapier effect ignore-shields
-set Estoc effect ignore-defense
-unset Estoc effect ignore-shields
-set Colichemarde effect ignore-defense
-unset Colichemarde effect ignore-shields
 
 set WindEdge effect cripple-rate 8
 set LevinSword effect cripple-rate 12
@@ -2287,9 +2279,9 @@ set Gram stat accuracy 60
 set LadySword stat accuracy 70
 set Grimhild stat accuracy 60
 set RazeEtoile stat accuracy 60
-set Rapier stat accuracy 50
-set Colichemarde stat accuracy 50
-set Estoc stat accuracy 40
+set Rapier stat accuracy 70
+set Colichemarde stat accuracy 70
+set Estoc stat accuracy 60
 
 set AltiumSword stat cost 2000
 set MithrilSword stat cost 4000
@@ -2380,12 +2372,12 @@ set Albatross stat weight 7
 set HolySword stat weight 6
 set MithrilSword stat weight 4
 set KnightSword stat weight 5
-set Estoc stat weight 2
+set Estoc stat weight 3
 set Grimhild stat weight 7
 set Harperia stat weight 3
 set FlameSword stat Weight 5
 set InfernalEdge stat weight 4
-set Colichemarde stat weight 4
+set Colichemarde stat weight 3
 set Cutlass stat Weight 3
 set Cutlass+ stat Weight 4
 set RazeEtoile stat weight 4
@@ -2450,7 +2442,7 @@ set PoisonMace stat durability C
 
 //blades // blades
 
-set BastardSword stat accuracy 50
+set BastardSword stat accuracy 60
 set Shamshir stat accuracy 60
 set GreatSword stat accuracy 50
 set Zanbato stat accuracy 50
@@ -2460,7 +2452,7 @@ set Balmung3 stat accuracy 70
 set Brymranger stat accuracy 50
 
 set BastardSword stat weight 6
-set Zanbato stat weight 11
+set Zanbato stat weight 10
 set Shamshir stat weight 8
 set GreatSword stat weight 11
 set Adrastia stat weight 11
@@ -2481,19 +2473,19 @@ set Balmung2 stat crit 30
 set Balmung3 stat crit 30
 set Brymranger stat crit 0
 
-set Zanbato effect ignore-armor-defense
+set Zanbato effect ignore-defense
 set BastardSword effect ignore-shields
 set GreatSword effect cripple-rate 16
 
-set BastardSword stat level 7
+set BastardSword stat level 10
 set Shamshir stat level 12
 set Zanbato stat level 15
 set GreatSword stat level 18
 set Adrastia stat level 18
 
-set BastardSword stat might 10
+set BastardSword stat might 13
 set Shamshir stat might 16
-set Zanbato stat might 14
+set Zanbato stat might 5
 set GreatSword stat might 21
 set Adrastia stat might 21
 set Zweihander stat might 17
@@ -2502,12 +2494,13 @@ set Brymranger stat rounds 1
 set Brymranger stat avoid 0
 
 
+set BastardSword stat durability C
 set Shamshir stat durability B
-set Zanbato stat durability B
+set Zanbato stat durability D
 
 set Shamshir stat cost 2500
-set BastardSword stat cost 2250
-set Zanbato stat cost 2800
+set BastardSword stat cost 4000
+set Zanbato stat cost 3000
 set GreatSword stat cost 3000
 set Adrastia stat cost 4000
 set Zweihander stat cost 5000
@@ -2790,7 +2783,7 @@ set LogSplitter stat might 10
 set OldImperialAxe stat might 8
 set HandAxe stat might 10
 set Francisca stat might 14
-set WarPick stat might 11
+set WarPick stat might 8
 set Hatchet stat might 19
 set VolcanoAxe stat might 1
 set GlacierAxe stat might 1
@@ -2802,7 +2795,7 @@ set MithrilAxe stat might 22
 set BarbaricAxe stat might 20
 set CrookedAxe stat might 30
 set BreakerAxe stat might 14
-set Poleax stat might 0
+set Poleax stat might 14
 set Gullveig stat might 19
 set Tomahawk stat might 14
 set GreatAxe stat might 30
@@ -2810,6 +2803,7 @@ set Shieldaxe stat might 16
 set GigasAxe stat might 20
 set Bhuj stat might 13
 set KillerAxe stat might 1
+set Hammer stat might 6
 
 set BanditAxe stat crit 0
 set BarbaricAxe stat crit 0
@@ -2876,14 +2870,14 @@ set VolcanoAxe stat Weight 6
 set GlacierAxe stat Weight 6
 set NimbusAxe stat Weight 6
 set DarkAxe stat Weight 6
-set WarPick stat Weight 7
+set WarPick stat Weight 4
 set Hatchet stat Weight 10
 set BreakerAxe stat Weight 8
-set Poleax stat Weight 3
+set Poleax stat Weight 7
 set Tomahawk stat Weight 8
 set BoltAxe stat Weight 6
 set KillerAxe stat Weight 6
-set Hammer stat Weight 12
+set Hammer stat Weight 11
 set GreatAxe stat Weight 15
 //set Tabarzin stat Weight 8
 set MithrilAxe stat Weight 8
@@ -2911,8 +2905,8 @@ set OldImperialAxe stat accuracy 40
 set Tomahawk stat accuracy 50
 set Hatchet stat accuracy 40
 set Battleaxe stat accuracy 40
-set WarPick stat accuracy 40
-set Poleax stat accuracy 60
+set WarPick stat accuracy 60
+set Poleax stat accuracy 50
 set BreakerAxe stat accuracy 40
 set CrookedAxe stat accuracy 30
 set NimbusAxe stat accuracy 50
@@ -2944,8 +2938,9 @@ set CrookedAxe effect devil-reversal 0
 set BreakerAxe effect break-shield 0
 set BreakerAxe effect disarm-rate 100
 set Poleax effect kill-horse 0
-set Poleax effect ignore-defense
+set Poleax effect ignore-shields
 set GreatAxe effect cripple-rate 16
+set Hammer effect ignore-defense
 
 set Battleaxe stat level 10
 set Warpick stat level 7
@@ -2969,7 +2964,7 @@ set GreatAxe stat level 18
 set MaozaWolf stat level 16
 set Shieldaxe stat level 16
 set BreakerAxe stat level 12
-set Poleax stat level 7
+set Poleax stat level 10
 
 set BanditAxe stat durability D
 set Broadaxe stat durability D
@@ -2989,7 +2984,7 @@ set Tomahawk stat durability C
 set Battleaxe stat durability C
 set MithrilAxe stat durability B
 set Bhuj stat durability C
-set Poleax stat durability C
+set Poleax stat durability D
 set BreakerAxe stat durability D
 
 set VerianAxe stat durability E
@@ -3029,9 +3024,9 @@ set KillerAxe stat cost 3000
 set KillerArrow stat might 0
 set PoisonArrow stat might 8
 set SleepArrow stat might 1
-set BroadheadArrow stat might 11
-set BodkinArrow stat might 5
-set BreakerArrow stat might 11
+set BroadheadArrow stat might 6
+set BodkinArrow stat might 6
+set BreakerArrow stat might 1
 set EmberArrow stat might 0
 set FreezeArrow stat might 0
 set ImperialArrow stat might 8
@@ -3075,7 +3070,7 @@ set FreezeArrow effect wind-damage 15
 set RaijinArrow effect thunder-damage 20
 set BreakerArrow effect disarm-rate 100
 set BroadheadArrow effect kill-horse 0
-set BroadheadArrow effect disarm-rate 100
+set BroadheadArrow effect ignore-shields
 set KillerArrow effect cripple-x2
 
 set BroadheadArrow stat accuracy 10
@@ -3314,14 +3309,14 @@ set IronArrow stat cost 800
 set IronArrow+ stat cost 800
 set SteelArrow stat cost 1100
 set SteelArrow+ stat cost 1100
-set BroadheadArrow stat cost 1500
-set BreakerArrow stat cost 1500
+set BreakerArrow stat cost 1400
 set ImperialArrow stat cost 800
 set ImperialArrow+ stat cost 800
-set EmberArrow stat cost 900
-set FreezeArrow stat cost 900
+set EmberArrow stat cost 1000
+set FreezeArrow stat cost 1000
 set RaijinArrow stat cost 1400
 set MithrilArrow stat cost 1400
+set BroadheadArrow stat cost 1400
 set SwiftBow stat cost 3000
 set TripleFireBow stat cost 1000
 set Apollyon stat cost 4000
