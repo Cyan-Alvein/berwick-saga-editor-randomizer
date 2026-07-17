@@ -60,7 +60,7 @@
 
 // CrookedAxe & Albatross got Pascanion Back fire effect
 
-// BreakerArrow, BroadheadArrow, BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect.
+// BreakerArrow, BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect.
 
 // Brionac effect Nosferatu
 
@@ -2052,7 +2052,7 @@ set Seax stat might 6
 set Airknife stat might 1
 set ThiefsKnife stat might 1
 set Carnwenhau stat might 6
-set StunKnife stat might 6
+set StunKnife stat might 1
 set KillerKnife stat might 0
 set BloodKnife stat might 6
 set TempestKnife stat might 1
@@ -2794,7 +2794,7 @@ set BoltAxe stat might 1
 set MithrilAxe stat might 22
 set BarbaricAxe stat might 20
 set CrookedAxe stat might 30
-set BreakerAxe stat might 14
+set BreakerAxe stat might 8
 set Poleax stat might 14
 set Gullveig stat might 19
 set Tomahawk stat might 14
@@ -3026,7 +3026,7 @@ set PoisonArrow stat might 8
 set SleepArrow stat might 1
 set BroadheadArrow stat might 6
 set BodkinArrow stat might 6
-set BreakerArrow stat might 1
+set BreakerArrow stat might 6
 set EmberArrow stat might 0
 set FreezeArrow stat might 0
 set ImperialArrow stat might 8
@@ -3074,7 +3074,7 @@ set BroadheadArrow effect ignore-shields
 set KillerArrow effect cripple-x2
 
 set BroadheadArrow stat accuracy 10
-set BreakerArrow stat accuracy 10
+//set BreakerArrow stat accuracy 10
 set StoneArrow stat accuracy 10
 set WoodenArrow stat accuracy 10
 set BronzeArrow stat accuracy 10
