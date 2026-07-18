@@ -40,10 +40,6 @@
 
 // All unpromoted player class weapon cap are set as promoted class weapon cap. So Sherlock can reach bow rank 60 without getting promoted
 
-// All rings give +10 magic resistance. All magic rings (WindRing, FireRing...) + 10 block magic damage on block. Rings like windring give +30 wind resist and +10 other element magic resist.
-
-// SpiritBrace = magic +2 hit +12, BlessedBrace = Magic +3 hit +6, DivineBrace (Aegina own it)= Magic +4, EagleBrace = hit +12,  All Magic_Resist +10, MuscleBrace = Strenght +2, hit +6, All Magic_Resist +10 ...
-
 // All player magic weapon (Exept Dark) got +1 range, so AirBlade = 2 range, DireThunder = 3 range.
 
 // All healing orbs got +2 range, so heal = 3 range, Physic = 5 range (same as Darkmend, It pissed me off a dark healing magic was better than a holy healing magic. WTF Shogo Kaga)
@@ -98,11 +94,21 @@
 
 // ShieldAxe give 16 might 10 def skill parry. GigasAxe give 20 might 10 def no skill parry. 
 
-// 33% crit rate on all killer weapon (KillingEdge KillerSpear KillerAxe KillerKnife LadySword ...)
+// 90% crit rate on Thunder Magic, Wormwood & all killer weapon (KillingEdge KillerSpear KillerAxe KillerKnife ...). On Berwick Saga 15 Might = 100% Crit, I used that formula for adjust those item stats. Crit weapon, Knives and hammer weapon are now the best way to defeat tanky unit like Wyvern and Chaos.
 
-// 60% crit rate on KillerCrossbow.
+// All bows and crossbows give +10 magic resist. This is because they can't use rings. I will create soon my own Fire Emblem where Archer can use rings then remove this
 
-// All bow and crossbow give +10 magic resist
+// FeatherBrace 2 Spd 2 Str 10 Mag_Res, MuscleBrace 2 Str 6 Hit 10 Mag_Res, GuardBrace 2 Def 6 Hit 10 Mag_Res, SpiritBrace 2 Mag 2 Spd 6 Hit, EagleBrace 6 Hit 2 Spd 10 Mag_Res
+
+// PegasusBrace 4 Spd 10 Mag_Res, GiantsBrace 4 Str 10 Mag_Res, PhoenixBrace 4 Def 10 Mag_Res, BlessedBrace 4 Mag 6 Hit, TigerBrace 12 Hit 10 Mag_Res
+
+// DivineBrace 5 Mag, GamblersBrace 3 Str 3 Def, VanishCharm 5 Spd, DuskCharm 15 Avoid, DawnCharm 15 Hit
+
+// MiracleCharm & HealthCharm & FortuneCharm & ThiefsCharm 6 Hit 2 Speed
+
+// LightRing 2 Spd 10 Block_Damage 16 Cripple-rate 10 Mag_Res 20 Holy_Res 20 Dark_Res, WindRing & IceScale 2 Spd 10 Block_Damage 16 Cripple-rate 10 Mag_Res 20 Wind_Res, FireRing & FireScale 2 Spd 10 Block_Damage 16 Cripple-rate 10 Mag_Res 20 Wind_Res, ThunderRing & ThunderScale 2 Spd 10 Block_Damage 16 Cripple-rate 10 Mag_Res 20 Wind_Res, ThorScale is double Thunderstale stat so 4 Spd 20 Block_Damage 32 Cripple-rate 20 Mag_Res 40 Wind_Res
+
+// DarkRing 15 Def -10 Mag, DjinnRing 15 Mag -10 Def
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -835,8 +841,8 @@ set Owen base fire +20
 set Owen base wind +20
 set Owen base thunder +20
 set Owen base holy +20
-set Owen base dark +50
-set RazeMonkOwen growth dark 60
+set Owen base dark +60
+set RazeMonkOwen growth dark 100
 set Owen base speed +3
 set Owen base mind +7
 
@@ -847,7 +853,7 @@ set burroughs item 3 KisharsWrath 8
 set burroughs item 4 New-TypeBolt 20
 set burroughs item 5 Tumahann 16
 set burroughs item 6 MithrilShield 101
-set burroughs item 7 Wormwood 8
+set burroughs item 7 Wormwood 10
 set burroughs growth crossbow 100
 set burroughs growth hp 30
 set burroughs growth strength 40
@@ -921,7 +927,7 @@ set paramythis item 0 HolyMace 101
 set paramythis item 2 PeerlessBrace 0
 set paramythis item 3 holy 20
 set paramythis item 4 Treasure 101
-set paramythis item 5 Bag 0
+set paramythis item 5 Wormwood 10
 set paramythis item 6 Bag 0
 set paramythis item 7 GeneralShield 101
 set paramythis growth sword 100
@@ -1880,7 +1886,7 @@ set PallasRiana stat level 20
 //set PallasRiana stat uses 60
 set AirBlade stat accuracy 60
 set Windstorm stat accuracy 50
-set Blizzard stat accuracy 60
+set Blizzard stat accuracy 40
 set Windstorm stat level 1
 set Blizzard stat level 1
 set Blizzard stat might 20
@@ -1947,7 +1953,7 @@ set DireThunder stat max-range 3
 set DireThunder stat accuracy 50
 set DireThunder stat might 1
 set Lightning stat max-range 2
-set Lightning stat accuracy 60
+set Lightning stat accuracy 50
 set Lightning stat level 1
 set Lightning stat might 6
 set PallasSerenia stat level 20
@@ -2024,7 +2030,8 @@ Set KisharsWrath stat accuracy 50
 Set KisharsWrath stat uses 20
 Set Wormwood stat accuracy 40
 Set Wormwood stat uses 10
-Set Wormwood stat might 15
+Set Wormwood stat might 1
+Set Wormwood stat crit 90
 Set Sleep stat uses 5
 Set Berserk stat uses 5
 Set Berserk stat max-range 3
@@ -2924,7 +2931,7 @@ set Shieldaxe stat accuracy 40
 set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 40
 set VerianAxe stat accuracy 50
-set KillerAxe stat accuracy 50
+set KillerAxe stat accuracy 40
 
 set BanditAxe effect steal-rate-plus 50
 set BattleAxe effect cripple-x2
@@ -4281,7 +4288,7 @@ set RaijinShield effect cripple-rate 8
 set KojinShield effect block-fire-damage 10
 set FujinShield effect block-holy-damage 10
 set RaijinShield effect block-thunder-damage 10
-//set AmaterasuShield effect block-fire-damage 15
+set AmaterasuShield effect block-fire-damage 15
 //set GeneralShield effect block-holy-damage 15
 
 set ImpKnightLShd stat might 25
@@ -4420,10 +4427,8 @@ Set ImpKnightLShd Stat dark_res 25
 
 //Accessories Buff
 
-// All basic ring got 6 hit
-
 set FeatherBrace stat speed 2
-set FeatherBrace stat hit 6
+set FeatherBrace stat strength 2
 //set FeatherBrace stat avoid 3
 set FeatherBrace stat fire_res 10
 set FeatherBrace stat thunder_res 10
@@ -4449,9 +4454,10 @@ set GuardBrace stat wind_res 10
 set GuardBrace stat holy_res 10
 set GuardBrace stat dark_res 10
 
-//Magic resist are useless to SpiritBrace so they get 6 hit * 2
+//Magic resist are useless to SpiritBrace so they get 2 speed intead
 set SpiritBrace stat magic 2
-set SpiritBrace stat hit 12
+set SpiritBrace stat hit 6
+set SpiritBrace stat speed 2
 //set SpiritBrace stat avoid 3
 //set SpiritBrace stat fire_res 10
 //set SpiritBrace stat thunder_res 10
@@ -4459,7 +4465,8 @@ set SpiritBrace stat hit 12
 //set SpiritBrace stat holy_res 10
 //set SpiritBrace stat dark_res 10
 
-set EagleBrace stat hit 12
+set EagleBrace stat hit 6
+set EagleBrace stat speed 2
 //set EagleBrace stat avoid 3
 set EagleBrace stat fire_res 10
 set EagleBrace stat thunder_res 10
@@ -4467,15 +4474,15 @@ set EagleBrace stat wind_res 10
 set EagleBrace stat holy_res 10
 set EagleBrace stat dark_res 10
 
-set TigerBrace stat hit 15
+set TigerBrace stat hit 12
 set TigerBrace stat avoid 0
-//set TigerBrace stat fire_res 10
-//set TigerBrace stat thunder_res 10
-//set TigerBrace stat wind_res 10
-//set TigerBrace stat holy_res 10
-//set TigerBrace stat dark_res 10
+set TigerBrace stat fire_res 10
+set TigerBrace stat thunder_res 10
+set TigerBrace stat wind_res 10
+set TigerBrace stat holy_res 10
+set TigerBrace stat dark_res 10
 
-set GiantsBrace stat strength 3
+set GiantsBrace stat strength 4
 set GiantsBrace stat speed 0
 set GiantsBrace stat avoid 0
 set GiantsBrace stat fire_res 10
@@ -4484,7 +4491,7 @@ set GiantsBrace stat wind_res 10
 set GiantsBrace stat holy_res 10
 set GiantsBrace stat dark_res 10
 
-set PhoenixBrace stat defense 3
+set PhoenixBrace stat defense 4
 set PhoenixBrace stat strength 0
 set PhoenixBrace stat avoid 0
 set PhoenixBrace stat fire_res 10
@@ -4494,7 +4501,7 @@ set PhoenixBrace stat holy_res 10
 set PhoenixBrace stat dark_res 10
 set PhoenixBrace stat cost 3600
 
-set PegasusBrace stat speed 3
+set PegasusBrace stat speed 4
 set PegasusBrace stat strength 0
 set PegasusBrace stat avoid 0
 set PegasusBrace stat fire_res 10
@@ -4504,7 +4511,7 @@ set PegasusBrace stat holy_res 10
 set PegasusBrace stat dark_res 10
 set PegasusBrace stat cost 3600
 
-set BlessedBrace stat magic 3
+set BlessedBrace stat magic 4
 set BlessedBrace stat hit 6
 //set BlessedBrace stat avoid 3
 set BlessedBrace stat speed 0
@@ -4515,7 +4522,7 @@ set BlessedBrace stat speed 0
 //set BlessedBrace stat dark_res 10
 set BlessedBrace stat cost 3600
 
-set DivineBrace stat magic 4
+set DivineBrace stat magic 5
 set DivineBrace stat speed 0
 set DivineBrace stat strength 0
 set DivineBrace stat defense 0
@@ -4526,15 +4533,15 @@ set DivineBrace stat defense 0
 //set DivineBrace stat dark_res 10
 set DivineBrace stat cost 3600
 
-set GamblersBrace stat strength 2
-set GamblersBrace stat defense 2
+set GamblersBrace stat strength 3
+set GamblersBrace stat defense 3
 set GamblersBrace stat hit 0
 set GamblersBrace stat avoid 0
-set GamblersBrace stat fire_res 10
-set GamblersBrace stat thunder_res 10
-set GamblersBrace stat wind_res 10
-set GamblersBrace stat holy_res 10
-set GamblersBrace stat dark_res 10
+//set GamblersBrace stat fire_res 10
+//set GamblersBrace stat thunder_res 10
+//set GamblersBrace stat wind_res 10
+//set GamblersBrace stat holy_res 10
+//set GamblersBrace stat dark_res 10
 set GamblersBrace stat cost 3600
 
 set LightRing effect cripple-rate 16
@@ -4578,25 +4585,28 @@ set FireRing stat holy_res 10
 set FireRing stat dark_res 10
 set FireRing stat cost 3600
 
+set HealthCharm stat hit 6
 set HealthCharm stat speed 2
 //set HealthCharm stat avoid 3
-set HealthCharm stat fire_res 10
-set HealthCharm stat thunder_res 10
-set HealthCharm stat wind_res 10
-set HealthCharm stat holy_res 10
-set HealthCharm stat dark_res 10
-set HealthCharm stat cost 3600
+//set HealthCharm stat fire_res 10
+//set HealthCharm stat thunder_res 10
+//set HealthCharm stat wind_res 10
+//set HealthCharm stat holy_res 10
+//set HealthCharm stat dark_res 10
+set HealthCharm stat cost 5000
 
+set MiracleCharm stat hit 6
 set MiracleCharm stat speed 2
 //set MiracleCharm stat avoid 3
-set MiracleCharm stat fire_res 10
-set MiracleCharm stat thunder_res 10
-set MiracleCharm stat wind_res 10
-set MiracleCharm stat holy_res 10
-set MiracleCharm stat dark_res 10
-set MiracleCharm stat cost 3600
+//set MiracleCharm stat fire_res 10
+//set MiracleCharm stat thunder_res 10
+//set MiracleCharm stat wind_res 10
+//set MiracleCharm stat holy_res 10
+//set MiracleCharm stat dark_res 10
+set MiracleCharm stat cost 5000
 
-//set FortuneCharm stat speed 2
+set FortuneCharm stat hit 6
+set FortuneCharm stat speed 2
 //set FortuneCharm stat avoid 3
 //set FortuneCharm stat fire_res 10
 //set FortuneCharm stat thunder_res 10
@@ -4605,31 +4615,50 @@ set MiracleCharm stat cost 3600
 //set FortuneCharm stat dark_res 10
 //set FortuneCharm stat cost 3600
 
-set PeerlessBrace stat hit 3
-set PeerlessBrace stat avoid 3
-set PeerlessBrace stat fire_res 5
-set PeerlessBrace stat thunder_res 5
-set PeerlessBrace stat wind_res 5
-set PeerlessBrace stat holy_res 5
-set PeerlessBrace stat dark_res 5
-set PeerlessBrace stat cost 3600
+set PeerlessBrace stat strength 2
+set PeerlessBrace stat defense 2
+set PeerlessBrace stat Magic 2
+set PeerlessBrace stat speed 2
+set PeerlessBrace stat hit 6
+set PeerlessBrace stat avoid 6
+set PeerlessBrace stat fire_res 10
+set PeerlessBrace stat thunder_res 10
+set PeerlessBrace stat wind_res 10
+set PeerlessBrace stat holy_res 10
+set PeerlessBrace stat dark_res 10
+set PeerlessBrace stat cost 36000
 
-set DarkRing stat defense 14
+set DarkRing stat defense 15
+//set DarkRing stat fire_res 10
+//set DarkRing stat thunder_res 10
+//set DarkRing stat wind_res 10
+//set DarkRing stat holy_res 10
+//set DarkRing stat dark_res 10
 set DarkRing stat cost 3600
 
-set DjinnRing stat magic 14
+// Max stat bonus are +5 on my script, so it is similar to DivineBrace
+set DjinnRing stat magic 15
+//set DjinnRing stat defense -10
+//set DjinnRing stat fire_res 10
+//set DjinnRing stat thunder_res 10
+//set DjinnRing stat wind_res 10
+//set DjinnRing stat holy_res 10
+//set DjinnRing stat dark_res 10
 set DjinnRing stat cost 3600
 
 set ThiefsCharm stat hit 6
+set ThiefsCharm stat speed 2
 //set ThiefsCharm stat avoid 3
-set ThiefsCharm stat fire_res 10
-set ThiefsCharm stat thunder_res 10
-set ThiefsCharm stat wind_res 10
-set ThiefsCharm stat holy_res 10
-set ThiefsCharm stat dark_res 10
+//set ThiefsCharm stat fire_res 10
+//set ThiefsCharm stat thunder_res 10
+//set ThiefsCharm stat wind_res 10
+//set ThiefsCharm stat holy_res 10
+//set ThiefsCharm stat dark_res 10
 set ThiefsCharm stat cost 3600
 
 set DuskCharm stat avoid 15
+//set DuskCharm stat hit 6
+//set DuskCharm stat speed 2
 //set DuskCharm stat fire_res 10
 //set DuskCharm stat thunder_res 10
 //set DuskCharm stat wind_res 10
@@ -4638,7 +4667,7 @@ set DuskCharm stat avoid 15
 //set DuskCharm stat cost 3600
 
 // skill hide
-set VanishCharm stat speed 4
+set VanishCharm stat speed 5
 //set VanishCharm stat fire_res 10
 //set VanishCharm stat thunder_res 10
 //set VanishCharm stat wind_res 10
@@ -4663,7 +4692,7 @@ set FireScale stat thunder_res 10
 set FireScale stat wind_res 10
 set FireScale stat holy_res 10
 set FireScale stat dark_res 10
-set FireScale stat cost 5000
+set FireScale stat cost 3600
 
 set IceScale stat speed 2
 set IceScale effect cripple-rate 16
@@ -4674,7 +4703,7 @@ set IceScale stat thunder_res 10
 set IceScale stat wind_res 30
 set IceScale stat holy_res 10
 set IceScale stat dark_res 10
-set IceScale stat cost 5000
+set IceScale stat cost 3600
 
 set ThunderScale stat speed 2
 set ThunderScale effect cripple-rate 16
@@ -4685,7 +4714,7 @@ set ThunderScale stat thunder_res 30
 set ThunderScale stat wind_res 10
 set ThunderScale stat holy_res 10
 set ThunderScale stat dark_res 10
-set ThunderScale stat cost 5000
+set ThunderScale stat cost 3600
 
 set WyvernScale stat speed 2
 set WyvernScale effect cripple-rate 16
@@ -4696,7 +4725,7 @@ set WyvernScale stat thunder_res 30
 set WyvernScale stat wind_res 10
 set WyvernScale stat holy_res 10
 set WyvernScale stat dark_res 10
-set WyvernScale stat cost 5000
+set WyvernScale stat cost 3600
 
 set ThorsScale stat speed 4
 set ThorsScale effect cripple-rate 32
@@ -4707,7 +4736,7 @@ set ThorsScale stat thunder_res 60
 set ThorsScale stat wind_res 20
 set ThorsScale stat holy_res 20
 set ThorsScale stat dark_res 20
-set ThorsScale stat cost 7500
+set ThorsScale stat cost 36000
 
 ///////////////////////////Unit Weapon cap/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -5392,7 +5421,7 @@ set Pickpocket skill adept
 set Pickpocket skill critical
 set Pickpocket skill vantage
 
-//Thief ennemy with bow, didn't see any dagger yet
+//Thief ennemy with only bow, didn't see any dagger yet
 set Outlaw base strength +5
 set Outlaw base defense +5
 set Outlaw base magic +20
@@ -6468,6 +6497,7 @@ set LadyKnight_R skill Counter
 set Marksman skill Counter
 set Mercenary skill Counter
 set Myrmidon skill Counter
+set Outlaw skill Counter
 set Paladin skill Counter
 set Paladin_M skill Counter
 set Paladin_M_R skill Counter
@@ -8374,6 +8404,6 @@ set Arrow++ stat might 8
 // the skill desperation while attacking with a lance bug, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
 // The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
 // crit_avoid_penalty seems not working on shield. it worked on ring. It increases ennemy crit rate.
-
+// There are "??" Item_Effect on "BWSDefinitions.py", surely effects like HealthCharm are 1 of them. We should try them out.
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
