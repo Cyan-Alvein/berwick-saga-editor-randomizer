@@ -2088,7 +2088,7 @@ set ThiefsKnife stat crit 0
 set Seax stat crit 0
 set Carnwenhau stat crit 0
 set StunKnife stat crit 0
-set KillerKnife stat crit 40
+set KillerKnife stat crit 50
 set BloodKnife stat crit 0
 set Vespa stat crit 0
 set TempestKnife stat crit 0
@@ -2154,7 +2154,7 @@ set Seax stat weight 3
 set MainGauche stat weight 3
 set Kris stat weight 3
 set Crotalus stat weight 3
-set KillerKnife stat weight 3
+set KillerKnife stat weight 4
 set AssassinsKnife stat weight 6
 
 set dart stat level 1
@@ -2168,7 +2168,7 @@ set AssassinsKnife stat level 20
 set Airknife stat level 5
 set ThrowingKnife stat level 12
 set StunKnife stat level 12
-set KillerKnife stat level 6
+set KillerKnife stat level 15
 set Crotalus stat level 15
 set Kris stat level 10
 set BoltKnife stat level 1
@@ -2176,7 +2176,7 @@ set BoltKnife stat level 1
 set ThiefsKnife stat cost 1000
 set Vespa stat cost 1300
 set Seax stat cost 2000
-set AssassinsKnife stat cost 6000
+set AssassinsKnife stat cost 4000
 set BloodKnife stat cost 2000
 set KillerKnife stat cost 3000
 set Kris stat cost 6000
@@ -2202,6 +2202,7 @@ set TempestKnife stat durability C
 set Carnwenhau stat durability B
 set ThrowingKnife stat durability B
 set Swordbreaker stat durability C
+set KillerKnife stat durability C
 
 set Seax stat accuracy 50
 set Carnwenhau stat accuracy 60
@@ -2210,7 +2211,7 @@ set BoltKnife stat accuracy 40
 set BloodKnife stat accuracy 50
 set Swordbreaker stat accuracy 60
 set ThiefsKnife stat accuracy 50
-set KillerKnife stat accuracy 50
+set KillerKnife stat accuracy 40
 set AssassinsKnife stat accuracy 50
 set Shieldknife stat accuracy 40
 set Crotalus stat accuracy 50
@@ -2280,7 +2281,7 @@ set KnightSword stat accuracy 60
 set FlameSword stat accuracy 60
 set HolySword stat accuracy 60
 set WindEdge stat accuracy 60
-set KillingEdge stat accuracy 50
+set KillingEdge stat accuracy 40
 set Harperia stat accuracy 60
 set Gram stat accuracy 60
 set LadySword stat accuracy 70
@@ -2309,7 +2310,7 @@ set Cutlass+ stat cost 6000
 set Cutlass stat cost 5000
 set Scimitar+ stat cost 1000
 set KnightSword stat cost 3000
-set KillingEdge stat cost 3000
+set KillingEdge stat cost 4000
 
 set VerianSword stat cost 1000
 set BronzeSword stat cost 1000
@@ -2326,6 +2327,7 @@ set AltiumSword stat level 10
 set MithrilSword stat level 15
 set LevinSword stat level 12
 set Colichemarde stat level 15
+set KillingEdge stat level 15
 
 set BronzeSword stat crit 0
 set Shortsword stat crit 0
@@ -2370,7 +2372,7 @@ set Longsword stat weight 5
 set WindEdge stat weight 5
 set Broadsword stat weight 6
 set Scimitar+ stat weight 4
-set KillingEdge stat weight 5
+set KillingEdge stat weight 8
 set Saber stat weight 4
 set AltiumSword stat Weight 7
 set LevinSword stat weight 5
@@ -2528,7 +2530,7 @@ set SteelSpear stat accuracy 60
 set Brionac stat accuracy 60
 set Harpoon stat accuracy 40
 set PrototypeSpear stat accuracy 60
-set KillerSpear stat accuracy 50
+set KillerSpear stat accuracy 40
 set WindSpear stat accuracy 60
 set Euthyphro stat accuracy 60
 set VerianSpear stat accuracy 60
@@ -2565,6 +2567,7 @@ set LongSpear stat level 10
 set PrototypeSpear stat level 7
 set MithrilSpear stat level 15
 set Brionac stat level 15
+set KillerSpear stat level 15
 set Pike stat level 7
 set Doru stat level 12
 set WindSpear stat level 18
@@ -2603,7 +2606,7 @@ set Pilum stat Weight 6
 set SteelSpear stat Weight 7
 set Harpoon stat Weight 8
 set PrototypeSpear stat Weight 6
-set KillerSpear stat Weight 5
+set KillerSpear stat Weight 8
 set Pike stat Weight 6
 set Longspear stat Weight 8
 set Verutum stat Weight 8
@@ -2650,7 +2653,7 @@ set OldImperialSpear stat cost 400
 set WindSpear stat cost 3000
 set Euthyphro stat cost 3000
 set Doru stat cost 3000
-set KillerSpear stat cost 3000
+set KillerSpear stat cost 4000
 
 set Pilum stat uses 20
 set Verutum stat uses 20
@@ -2883,7 +2886,7 @@ set BreakerAxe stat Weight 8
 set Poleax stat Weight 7
 set Tomahawk stat Weight 8
 set BoltAxe stat Weight 6
-set KillerAxe stat Weight 6
+set KillerAxe stat Weight 8
 set Hammer stat Weight 11
 set GreatAxe stat Weight 15
 //set Tabarzin stat Weight 8
@@ -2931,7 +2934,7 @@ set Shieldaxe stat accuracy 40
 set MaozaWolf stat accuracy 40
 set GigasAxe stat accuracy 40
 set VerianAxe stat accuracy 50
-set KillerAxe stat accuracy 40
+set KillerAxe stat accuracy 30
 
 set BanditAxe effect steal-rate-plus 50
 set BattleAxe effect cripple-x2
@@ -2965,6 +2968,7 @@ set DarkAxe stat level 5
 set BoltAxe stat level 12
 set Mjollnir stat level 18
 set Tabarzin stat level 15
+set KillerAxe stat level 15
 set MithrilAxe stat level 15
 set Gullveig stat level 15
 set GreatAxe stat level 18
@@ -3023,7 +3027,7 @@ set Mjollnir stat cost 3000
 set ShieldAxe stat cost 3000
 set Bhuj stat cost 6000
 set Poleax stat cost 3000
-set KillerAxe stat cost 3000
+set KillerAxe stat cost 4000
 
 
 // bows
@@ -3102,6 +3106,7 @@ set Longbow stat level 4
 set CompositeBow stat level 8
 set Strongbow stat level 12
 set Greatbow stat level 16
+set KillerBow stat level 15
 set Greatbow stat max-range 3
 set Rossweisse stat max-range 3
 set Apollyon stat max-range 3
@@ -3125,7 +3130,7 @@ set CompositeBow stat crit 0
 set Apollyon stat crit 0
 set Strongbow stat crit 0
 set Greatbow stat crit 0
-set KillerBow stat crit 70
+set KillerBow stat crit 90
 set Apeiron stat crit 0
 set Rossweisse stat crit 0
 set Pascanion stat crit 0
@@ -3260,7 +3265,7 @@ set CompositeBow stat Weight 8
 set Apollyon stat Weight 5
 set Strongbow stat Weight 9
 set Greatbow stat Weight 10
-set KillerBow stat Weight 6
+set KillerBow stat Weight 12
 set Apeiron stat Weight 6
 set Rossweisse stat Weight 6
 set Pascanion stat Weight 7
@@ -3279,7 +3284,7 @@ set ShortBow stat accuracy 30
 set TripleFireBow stat accuracy 30
 set Strongbow stat accuracy 40
 set Greatbow stat accuracy 40
-set KillerBow stat accuracy 40
+set KillerBow stat accuracy 30
 set SwiftBow stat accuracy 50
 set VerianBow stat accuracy 50
 set OldImperialBow stat accuracy 40
@@ -3355,7 +3360,7 @@ set HeavyCrossbow stat weight 14
 set BraveCrossbow stat weight 14
 set Chu-ko-nu stat weight 15
 set Arbalest stat weight 15
-set KillerCrossbow stat weight 12
+set KillerCrossbow stat weight 15
 set Ollerus stat weight 11
 set RapidCrossbow stat weight 15
 set Hawkeye stat weight 13
@@ -3503,7 +3508,7 @@ set HeavyCrossbow stat accuracy 60
 set BraveCrossbow stat accuracy 60
 set Chu-ko-nu stat accuracy 60
 set Arbalest stat accuracy 60
-set KillerCrossbow stat accuracy 60
+set KillerCrossbow stat accuracy 50
 set Ollerus stat accuracy 70
 set RapidCrossbow stat accuracy 70
 set Hawkeye stat accuracy 70
