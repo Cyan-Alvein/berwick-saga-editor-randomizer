@@ -305,10 +305,10 @@ set adel growth defense 40
 set adel growth speed 20
 set adel growth spear 100
 set adel growth shield 100
-set adel base hp +0
+set adel base hp +5
 set adel base strength +3
-set adel base defense +0
-set adel base speed +0
+set adel base defense +1
+set adel base speed +1
 set adel base magic +3
 
 
@@ -814,8 +814,8 @@ set larentia growth magic 0
 set larentia base sword +25
 set larentia base spear +25
 set larentia base sshield +25
-set larentia base hp +3
-set larentia base strength +3
+set larentia base hp +9
+set larentia base strength +4
 set larentia base defense +4
 set larentia base speed +5
 set larentia base magic +3
@@ -979,7 +979,7 @@ unset ward skill shieldfaire
 set ward skill desperation
 set ward skill armsthrift
 set ward skill throw
-set ward skill counter
+//set ward skill counter
 set ward skill Windsweep
 set ward skill sunder
 
@@ -1027,7 +1027,7 @@ set christine skill fortune
 set christine skill pursuit
 set christine skill vantage
 set christine skill adept
-set christine skill counter
+//set christine skill counter
 set christine skill Windsweep
 set christine skill sunder
 set christine skill deathmatch
@@ -1060,7 +1060,7 @@ set adel skill hide
 set adel skill windsweep
 //set adel skill fortune
 set adel skill armsthrift
-set adel skill counter
+//set adel skill counter
 set adel skill sunder
 set adel skill provoke
 
@@ -1117,9 +1117,9 @@ set sherlock skill adept
 set sherlock skill sunder
 //set sherlock skill magicbane
 set sherlock skill celerity
-set sherlock skill parry
+//set sherlock skill parry
 set sherlock skill deathmatch
-set sherlock skill counter
+//set sherlock skill counter
 
 set izerna skill blessing
 set izerna skill canto
@@ -1172,8 +1172,8 @@ set czene skill deathmatch
 set czene skill vantage
 set czene skill battlecry
 set czene skill celerity
-set czene skill parry
-set czene skill counter
+//set czene skill parry
+//set czene skill counter
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -1191,7 +1191,7 @@ set daoud skill desperation
 set daoud skill maim
 set daoud skill robbery
 set daoud skill hide
-set daoud skill counter
+//set daoud skill counter
 set daoud skill adept
 set daoud skill Windsweep
 set daoud skill sunder
@@ -1217,7 +1217,7 @@ set enid skill fortune
 set enid skill Windsweep
 set enid skill sunder
 set enid skill desperation
-set enid skill parry
+//set enid skill parry
 
 set aegina skill canto
 set aegina skill focuschant
@@ -1265,7 +1265,7 @@ set perceval skill resistor
 set perceval skill onetwo
 
 set marcel skill canto
-set marcel skill counter
+//set marcel skill counter
 set marcel skill flourish
 set marcel skill guard
 set marcel skill hurry
@@ -1688,7 +1688,6 @@ set larentia skill prepared
 set larentia skill throw
 set larentia skill watchful
 set larentia skill desperation
-set larentia skill deathmatch
 set larentia skill scotopic
 set larentia skill maim
 set larentia skill robbery
@@ -1698,6 +1697,7 @@ set larentia skill windsweep
 //set larentia skill fortune
 set larentia skill vantage
 set larentia skill sunder
+set larentia skill parry
 
 set owen skill adept
 set owen skill blessing
@@ -2212,7 +2212,7 @@ set BloodKnife stat accuracy 50
 set Swordbreaker stat accuracy 60
 set ThiefsKnife stat accuracy 50
 set KillerKnife stat accuracy 40
-set AssassinsKnife stat accuracy 50
+set AssassinsKnife stat accuracy 40
 set Shieldknife stat accuracy 40
 set Crotalus stat accuracy 50
 set kris stat accuracy 50
@@ -6454,9 +6454,12 @@ set BowKnight_R skill Counter
 set BowRider skill Counter
 set BowRider_R skill Counter
 set Bowman skill Counter
+set Burglar skill Counter
 set Captain skill Counter
 set Cavalier skill Counter
 set Cavalier_R skill Counter
+set Chevalire skill counter
+set Chevalire_R skill counter
 set Chief skill Counter
 set Corsair skill Counter
 set DarkMaster skill Counter
@@ -6467,6 +6470,8 @@ set DukeKnight skill Counter
 set DukeKnight_R skill Counter
 set General skill Counter
 set GigasKnight skill Counter
+set Grassrunner skill Counter
+set Grassrunner_R skill Counter
 set Guardian skill Counter
 set Gunner skill Counter
 set HeavyGunner skill Counter
@@ -6497,16 +6502,27 @@ set ImperialSpearRider skill Counter
 set ImperialSpearRider_R skill Counter
 set ImperialSpearman skill Counter
 set King skill Counter
+set KnightLord skill counter
+set KnightLord_R skill counter
 set LadyKnight skill Counter
 set LadyKnight_R skill Counter
+set LanceKnight skill counter
+set LanceKnight2 skill counter
+set LanceKnight2_R skill counter
+set LanceKnight_R skill counter
+set Lord skill counter
+set Lord_R skill counter
 set Marksman skill Counter
 set Mercenary skill Counter
 set Myrmidon skill Counter
 set Outlaw skill Counter
 set Paladin skill Counter
+set Paladin_F skill counter
+set Paladin_F_R skill counter
 set Paladin_M skill Counter
 set Paladin_M_R skill Counter
 set Paladin_R skill Counter
+set Pickpocket skill Counter
 set Pirate skill Counter
 set Ranger skill Counter
 set RazeWarMonk skill Counter
@@ -6533,6 +6549,8 @@ set SwordKnight skill Counter
 set SwordKnight_R skill Counter
 set Swordfighter_M skill Counter
 set Swordmaster skill Counter
+set Thief_F skill Counter
+set Thief_M skill Counter
 set VerianKnight skill Counter
 set VerianKnight2 skill Counter
 set VerianKnight2_R skill Counter
@@ -6548,12 +6566,6 @@ set WyvernKnightLarentia_R skill Counter
 set WyvernKnight_R skill Counter
 set WyvernLord skill Counter
 set WyvernLord_R skill Counter
-set Thief_M skill Counter
-set Thief_F skill Counter
-set Burglar skill Counter
-set Pickpocket skill Counter
-set Grassrunner skill Counter
-set Grassrunner_R skill Counter
 
 //Critical
 set Myrmidon skill critical
@@ -8410,5 +8422,8 @@ set Arrow++ stat might 8
 // The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
 // crit_avoid_penalty seems not working on shield. it worked on ring. It increases ennemy crit rate.
 // There are "??" Item_Effect on "BWSDefinitions.py", surely effects like HealthCharm are 1 of them. We should try them out.
+// How I did the balance. Character with Deathmatch (Leon) got -7 stat compared to those without (Adel)
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
+// Marcel 1 Hp, 1 Def, 1 Spd To Larentia
+// Marcel 1 Hp, 1 Def, 1 Spd To Adel
