@@ -7407,6 +7407,38 @@ set lynette skill battlecry
 set paramythis skill battlecry
 set izerna skill battlecry
 
+set reese skill deathmatch
+set ward skill deathmatch
+set elbert skill deathmatch
+set christine skill deathmatch
+set adel skill deathmatch
+set leon skill deathmatch
+set sherlock skill deathmatch
+set czene skill deathmatch
+set daoud skill deathmatch
+set marcel skill deathmatch
+set enid skill deathmatch
+set aegina skill deathmatch
+set perceval skill deathmatch
+set alvina skill deathmatch
+set ruby skill deathmatch
+set arthur skill deathmatch
+set kramer skill deathmatch
+set sherpa skill deathmatch
+set dean skill deathmatch
+set sylvis skill deathmatch
+set thaddy skill deathmatch
+set esteban skill deathmatch
+set faye skill deathmatch
+set faramir skill deathmatch
+set volo skill deathmatch
+set clifford skill deathmatch
+set axel skill deathmatch
+set larentia skill deathmatch
+set derrick skill deathmatch
+set lynette skill deathmatch
+set paramythis skill deathmatch
+
 // No more Bane stuff, I hate it
 unset Acolyte skill arrowbane
 unset Apostle skill arrowbane
@@ -8359,8 +8391,4 @@ set Arrow++ stat might 8
 // There are "??" Item_Effect on "BWSDefinitions.py", surely effects like HealthCharm, MiracleCharm are 1 of them. We should try them out.
 // How I did the balance. Character with Deathmatch (Leon) got -7 stat compared to those without (Adel)
 
-// To delete, This is for updating my playthrough without restarting the game from chap 1.
-Set LanceKnight Skill Deathmatch
-Set LanceKnight_R Skill Deathmatch
-Set LanceKnight2 Skill Deathmatch
-Set LanceKnight2_R Skill Deathmatch
+
