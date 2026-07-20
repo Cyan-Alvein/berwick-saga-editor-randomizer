@@ -54,7 +54,7 @@
 
 // All orbs got restores-uses. So you can spam your holy, Dire Thunder, Blizzard, Lightning ... orbs at will. You will need it to win this lunatic mode.
 
-// CrookedAxe & Albatross got Pascanion Back fire effect
+// CrookedAxe & Albatross got Pascanion Back fire effect instead of devil-reversal effect
 
 // BreakerArrow, BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect.
 
@@ -8360,8 +8360,6 @@ set Arrow++ stat might 8
 // How I did the balance. Character with Deathmatch (Leon) got -7 stat compared to those without (Adel)
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
-// Marcel 1 Hp, 1 Def, 1 Spd To Larentia
-// Marcel 1 Hp, 1 Def, 1 Spd To Adel
 Set LanceKnight Skill Deathmatch
 Set LanceKnight_R Skill Deathmatch
 Set LanceKnight2 Skill Deathmatch
