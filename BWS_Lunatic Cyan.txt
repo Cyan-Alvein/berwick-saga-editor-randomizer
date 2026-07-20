@@ -3572,7 +3572,7 @@ set Perseid effect block-holy-damage 10
 
 set LeatherSShd stat might 2
 set Buckler stat might 4
-set PrototypeSShd stat might 7
+set PrototypeSShd stat might 8
 set Aspis stat might 6
 set RoundShield stat might 8
 set Windshield stat might 6
