@@ -305,10 +305,10 @@ set adel growth defense 40
 set adel growth speed 20
 set adel growth spear 100
 set adel growth shield 100
-set adel base hp +5
+set adel base hp +0
 set adel base strength +3
-set adel base defense +1
-set adel base speed +1
+set adel base defense +0
+set adel base speed +0
 set adel base magic +3
 
 
@@ -466,10 +466,10 @@ set Marcel item 6 FujinShield 101
 set Marcel item 7 Bag 0
 set Marcel base sword +20
 set Marcel base lshield +20
-set Marcel base hp +9
-set Marcel base strength +5
-set Marcel base defense +3
-set Marcel base speed +1
+set Marcel base hp +5
+set Marcel base strength +2
+set Marcel base defense +2
+set Marcel base speed +4
 set Marcel base magic +3
 
 set alvina item 4 LadyMShd 101
@@ -816,8 +816,8 @@ set larentia growth magic 0
 set larentia base sword +25
 set larentia base spear +25
 set larentia base sshield +25
-set larentia base hp +9
-set larentia base strength +4
+set larentia base hp +3
+set larentia base strength +3
 set larentia base defense +4
 set larentia base speed +5
 set larentia base magic +3
@@ -1065,6 +1065,7 @@ set adel skill armsthrift
 //set adel skill counter
 set adel skill sunder
 set adel skill provoke
+set adel skill deathmatch
 
 set leon skill canto
 set leon skill deathmatch
@@ -6461,10 +6462,51 @@ set WyvernLord skill Counter
 set WyvernLord_R skill Counter
 
 //Critical
+set Lord skill critical
+set Lord_R skill critical
+set KnightLord skill critical
+set KnightLord_R skill critical
+set SpearKnight skill critical
+set SpearKnight_R skill critical
+set LanceKnight skill critical
+set LanceKnight_R skill critical
+set LanceKnight2 skill critical
+set LanceKnight2_R skill critical
+set Horseman skill critical
+set Horseman_R skill critical
+set BowKnight skill critical
+set BowKnight_R skill critical
+set Thief_F skill critical
+set Thief_M skill critical
+set Burglar skill critical
+set Pickpocket skill critical
+set Grassrunner skill critical
+set Grassrunner_R skill critical
+set WindMage skill critical
+set WindSage skill critical
+set ThunderMage skill critical
+set ThunderSage skill critical
+set Fencer skill critical
+set FlameFencer skill critical
+set Paladin_F skill critical
+set Paladin_F_R skill critical
 set Myrmidon skill critical
 set Swordmaster skill critical
 set Swordfighter_M skill critical
 set Ranger skill critical
+set Sniper skill critical
+set Hunter skill critical
+set HighHunter skill critical
+set WyvernKnightLarentia skill critical
+set WyvernKnightLarentia_R skill critical
+set Apostle skill critical
+set Acolyte skill critical
+set Priestess skill critical
+set Cleric skill critical
+set ShiningKnightParamythis skill critical
+set ShiningKnightParamythis_R skill critical
+set ChosenOne skill critical
+
 
 //Pursuit to everyone
 set Acolyte skill pursuit
@@ -8320,3 +8362,7 @@ set Arrow++ stat might 8
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
 // Marcel 1 Hp, 1 Def, 1 Spd To Larentia
 // Marcel 1 Hp, 1 Def, 1 Spd To Adel
+Set LanceKnight Skill Deathmatch
+Set LanceKnight_R Skill Deathmatch
+Set LanceKnight2 Skill Deathmatch
+Set LanceKnight2_R Skill Deathmatch
