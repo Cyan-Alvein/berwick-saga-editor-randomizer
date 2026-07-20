@@ -3015,7 +3015,7 @@ set Warpick stat level 7
 //set KillerArrow stat accuracy 10
 set Apeiron stat Weight 10
 set Apeiron stat accuracy 50
-set Apeiron stat cost 5000
+set Apeiron stat cost 4600
 set Apeiron stat crit 0
 set Apeiron stat dark_res 10
 set Apeiron stat durability B
@@ -3028,7 +3028,7 @@ set Apeiron stat thunder_res 10
 set Apeiron stat wind_res 10
 set Apollyon stat Weight 5
 set Apollyon stat accuracy 50
-set Apollyon stat cost 4000
+set Apollyon stat cost 5000
 set Apollyon stat crit 0
 set Apollyon stat dark_res 10
 set Apollyon stat durability A
@@ -3123,13 +3123,13 @@ set IronBow stat might 1
 set IronBow stat thunder_res 10
 set IronBow stat wind_res 10
 set KillerArrow effect cripple-x2
-set KillerArrow stat crit 90
+set KillerArrow stat crit 46
 set KillerArrow stat might 0
 set KillerBow effect cripple-x2
-set KillerBow stat Weight 12
+set KillerBow stat Weight 7
 set KillerBow stat accuracy 30
-set KillerBow stat cost 4000
-set KillerBow stat crit 90
+set KillerBow stat cost 4600
+set KillerBow stat crit 30
 set KillerBow stat dark_res 10
 set KillerBow stat fire_res 10
 set KillerBow stat holy_res 10
@@ -3165,7 +3165,7 @@ set Pascanion effect fire-damage 25
 set Pascanion stat Weight 7
 set Pascanion stat accuracy 50
 set Pascanion stat avoid 0
-set Pascanion stat cost 6000
+set Pascanion stat cost 5600
 set Pascanion stat crit 0
 set Pascanion stat dark_res 10
 set Pascanion stat defense 0
@@ -3179,7 +3179,7 @@ set Pascanion2 effect fire-damage 25
 set Pascanion2 stat Weight 7
 set Pascanion2 stat accuracy 50
 set Pascanion2 stat avoid 0
-set Pascanion2 stat cost 6000
+set Pascanion2 stat cost 5600
 set Pascanion2 stat crit 0
 set Pascanion2 stat dark_res 10
 set Pascanion2 stat defense 0
@@ -3198,7 +3198,7 @@ set RaijinArrow stat might 0
 set Rossweisse effect cripple-x2
 set Rossweisse stat Weight 6
 set Rossweisse stat accuracy 50
-set Rossweisse stat cost 6000
+set Rossweisse stat cost 4600
 set Rossweisse stat crit 0
 set Rossweisse stat dark_res 10
 set Rossweisse stat defense 0
@@ -3211,7 +3211,7 @@ set Rossweisse stat wind_res 10
 set SereniaBow effect cripple-x2
 set SereniaBow stat Weight 6
 set SereniaBow stat accuracy 50
-set SereniaBow stat cost 6000
+set SereniaBow stat cost 4600
 set SereniaBow stat crit 0
 set SereniaBow stat dark_res 10
 set SereniaBow stat durability B
@@ -3289,317 +3289,273 @@ set WoodenArrow stat might 1
 
 //Crossbow
 
-set Gastraphetes stat level 8
-set HeavyCrossbow stat level 12
-set Arbalest stat level 16
-set BraveCrossbow stat level 8
-set Chu-ko-nu stat level 12
-set KillerCrossbow stat level 15
-set Ollerus stat level 15
-set RapidCrossbow stat level 20
-set Gastraphetes effect cripple-x2
-
-set Bowgun stat weight 10
-set IronCrossbow stat weight 12
-set Gastraphetes stat weight 13
-set HeavyCrossbow stat weight 14
-set BraveCrossbow stat weight 14
-set Chu-ko-nu stat weight 15
-set Arbalest stat weight 15
-set KillerCrossbow stat weight 15
-set Ollerus stat weight 11
-set RapidCrossbow stat weight 15
-set Hawkeye stat weight 13
-
-set ImperialCrossbow stat weight 12
-set OldImperialCrossbow stat weight 13
-set VerianCrossbow stat weight 12
-
-set Bowgun stat min-range 1
-set IronCrossbow stat min-range 1
-set Gastraphetes stat min-range 1
-set HeavyCrossbow stat min-range 1
-set BraveCrossbow stat min-range 1
-set Chu-ko-nu stat min-range 1
-set Arbalest stat min-range 1
-set KillerCrossbow stat min-range 1
-set Ollerus stat min-range 1
-set RapidCrossbow stat min-range 1
-set Hawkeye stat min-range 1
-
-set ImperialCrossbow stat min-range 1
-set OldImperialCrossbow stat min-range 1
-set VerianCrossbow stat min-range 1
-
-set Bowgun stat fire_res 10
-set Bowgun stat thunder_res 10
-set Bowgun stat wind_res 10
-set Bowgun stat holy_res 10
-set Bowgun stat dark_res 10
-
-set IronCrossbow stat fire_res 10
-set IronCrossbow stat thunder_res 10
-set IronCrossbow stat wind_res 10
-set IronCrossbow stat holy_res 10
-set IronCrossbow stat dark_res 10
-
-set Gastraphetes stat fire_res 10
-set Gastraphetes stat thunder_res 10
-set Gastraphetes stat wind_res 10
-set Gastraphetes stat holy_res 10
-set Gastraphetes stat dark_res 10
-
-set HeavyCrossbow stat fire_res 10
-set HeavyCrossbow stat thunder_res 10
-set HeavyCrossbow stat wind_res 10
-set HeavyCrossbow stat holy_res 10
-set HeavyCrossbow stat dark_res 10
-
-set BraveCrossbow stat fire_res 10
-set BraveCrossbow stat thunder_res 10
-set BraveCrossbow stat wind_res 10
-set BraveCrossbow stat holy_res 10
-set BraveCrossbow stat dark_res 10
-
-set Chu-ko-nu stat fire_res 10
-set Chu-ko-nu stat thunder_res 10
-set Chu-ko-nu stat wind_res 10
-set Chu-ko-nu stat holy_res 10
-set Chu-ko-nu stat dark_res 10
-
-set Arbalest stat fire_res 10
-set Arbalest stat thunder_res 10
-set Arbalest stat wind_res 10
-set Arbalest stat holy_res 10
-set Arbalest stat dark_res 10
-
-set KillerCrossbow stat fire_res 10
-set KillerCrossbow stat thunder_res 10
-set KillerCrossbow stat wind_res 10
-set KillerCrossbow stat holy_res 10
-set KillerCrossbow stat dark_res 10
-
-set Ollerus stat fire_res 10
-set Ollerus stat thunder_res 10
-set Ollerus stat wind_res 10
-set Ollerus stat holy_res 10
-set Ollerus stat dark_res 10
-
-set RapidCrossbow stat fire_res 10
-set RapidCrossbow stat thunder_res 10
-set RapidCrossbow stat wind_res 10
-set RapidCrossbow stat holy_res 10
-set RapidCrossbow stat dark_res 10
-
-set Hawkeye stat fire_res 10
-set Hawkeye stat thunder_res 10
-set Hawkeye stat wind_res 10
-set Hawkeye stat holy_res 10
-set Hawkeye stat dark_res 10
-
-set ImperialCrossbow stat fire_res 10
-set ImperialCrossbow stat thunder_res 10
-set ImperialCrossbow stat wind_res 10
-set ImperialCrossbow stat holy_res 10
-set ImperialCrossbow stat dark_res 10
-
-set OldImperialCrossbow stat fire_res 10
-set OldImperialCrossbow stat thunder_res 10
-set OldImperialCrossbow stat wind_res 10
-set OldImperialCrossbow stat holy_res 10
-set OldImperialCrossbow stat dark_res 10
-
-set VerianCrossbow stat fire_res 10
-set VerianCrossbow stat thunder_res 10
-set VerianCrossbow stat wind_res 10
-set VerianCrossbow stat holy_res 10
-set VerianCrossbow stat dark_res 10
-
-
-set Bowgun stat might 10
-set IronCrossbow stat might 15
-set Gastraphetes stat might 21
-set HeavyCrossbow stat might 27
-set BraveCrossbow stat might 18
-set Chu-ko-nu stat might 12
-set Arbalest stat might 33
-set KillerCrossbow stat might 19
-set Ollerus stat might 27
-set RapidCrossbow stat might 18
-set Hawkeye stat might 33
-
-set ImperialCrossbow stat might 15
-set OldImperialCrossbow stat might 9
-set VerianCrossbow stat might 15
-
-set IronCrossbow stat crit 0
-set Gastraphetes stat crit 0
-set HeavyCrossbow stat crit 0
-set BraveCrossbow stat crit 0
-set Chu-ko-nu stat crit 0
-set Arbalest stat crit 0
-set KillerCrossbow stat crit 90
-set Ollerus stat crit 0
-set RapidCrossbow stat crit 0
-set Hawkeye stat crit 0
-
-set ImperialCrossbow stat crit 0
-set OldImperialCrossbow stat crit 0
-set VerianCrossbow stat crit 0
-
-set Bowgun stat accuracy 50
-set IronCrossbow stat accuracy 70
-set Gastraphetes stat accuracy 70
-set HeavyCrossbow stat accuracy 60
-set BraveCrossbow stat accuracy 60
-set Chu-ko-nu stat accuracy 60
 set Arbalest stat accuracy 60
-set KillerCrossbow stat accuracy 50
-set Ollerus stat accuracy 70
-set RapidCrossbow stat accuracy 70
-set Hawkeye stat accuracy 70
-
-set ImperialCrossbow stat accuracy 70
-set OldImperialCrossbow stat accuracy 60
-set VerianCrossbow stat accuracy 70
-
-set Bowgun effect injure-rate 100
-set KillerCrossbow effect cripple-x2
-
-set Bowgun stat max-range 2
-set IronCrossbow stat max-range 2
-set Gastraphetes stat max-range 2
-set HeavyCrossbow stat max-range 2
-set BraveCrossbow stat max-range 2
-set Chu-ko-nu stat max-range 2
-set Arbalest stat max-range 3
-set KillerCrossbow stat max-range 2
-set Ollerus stat max-range 3
-set RapidCrossbow stat max-range 2
-set Hawkeye stat max-range 3
-
-set ImperialCrossbow stat max-range 2
-set OldImperialCrossbow stat max-range 2
-set VerianCrossbow stat max-range 2
-
-set Bowgun stat durability F
-set HeavyCrossbow stat durability B
-set KillerCrossbow stat durability C
-set RapidCrossbow stat durability B
-set Hawkeye stat durability B
-set Arbalest stat durability B
-set Ollerus stat durability A
-
-set ImperialCrossbow stat durability D
-set OldImperialCrossbow stat durability E
-set VerianCrossbow stat durability D
-
-set Bowgun stat cost 1000
-set ImperialCrossbow stat cost 800
-set OldImperialCrossbow stat cost 400
-set VerianCrossbow stat cost 800
-set IronCrossbow stat cost 1000
-set Gastraphetes stat cost 2000
-set HeavyCrossbow stat cost 2600
-set BraveCrossbow stat cost 3500
-set Chu-ko-nu stat cost 4500
 set Arbalest stat cost 4000
-set KillerCrossbow stat cost 4000
-set RapidCrossbow stat cost 8000
+set Arbalest stat crit 0
+set Arbalest stat dark_res 10
+set Arbalest stat durability B
+set Arbalest stat fire_res 10
+set Arbalest stat holy_res 10
+set Arbalest stat level 16
+set Arbalest stat max-range 3
+set Arbalest stat might 33
+set Arbalest stat min-range 1
+set Arbalest stat thunder_res 10
+set Arbalest stat weight 15
+set Arbalest stat wind_res 10
+set Bowgun effect injure-rate 100
+set Bowgun stat accuracy 50
+set Bowgun stat cost 1000
+set Bowgun stat dark_res 10
+set Bowgun stat durability F
+set Bowgun stat fire_res 10
+set Bowgun stat holy_res 10
+set Bowgun stat max-range 2
+set Bowgun stat might 10
+set Bowgun stat min-range 1
+set Bowgun stat thunder_res 10
+set Bowgun stat weight 10
+set Bowgun stat wind_res 10
+set BraveCrossbow stat accuracy 60
+set BraveCrossbow stat cost 3500
+set BraveCrossbow stat crit 0
+set BraveCrossbow stat dark_res 10
+set BraveCrossbow stat fire_res 10
+set BraveCrossbow stat holy_res 10
+set BraveCrossbow stat level 8
+set BraveCrossbow stat max-range 2
+set BraveCrossbow stat might 18
+set BraveCrossbow stat min-range 1
+set BraveCrossbow stat thunder_res 10
+set BraveCrossbow stat weight 14
+set BraveCrossbow stat wind_res 10
+set Chu-ko-nu stat accuracy 60
+set Chu-ko-nu stat cost 4500
+set Chu-ko-nu stat crit 0
+set Chu-ko-nu stat dark_res 10
+set Chu-ko-nu stat fire_res 10
+set Chu-ko-nu stat holy_res 10
+set Chu-ko-nu stat level 12
+set Chu-ko-nu stat max-range 2
+set Chu-ko-nu stat might 12
+set Chu-ko-nu stat min-range 1
+set Chu-ko-nu stat thunder_res 10
+set Chu-ko-nu stat weight 15
+set Chu-ko-nu stat wind_res 10
+set Gastraphetes effect cripple-x2
+set Gastraphetes stat accuracy 70
+set Gastraphetes stat cost 2000
+set Gastraphetes stat crit 0
+set Gastraphetes stat dark_res 10
+set Gastraphetes stat fire_res 10
+set Gastraphetes stat holy_res 10
+set Gastraphetes stat level 8
+set Gastraphetes stat max-range 2
+set Gastraphetes stat might 21
+set Gastraphetes stat min-range 1
+set Gastraphetes stat thunder_res 10
+set Gastraphetes stat weight 13
+set Gastraphetes stat wind_res 10
+set Hawkeye stat accuracy 70
 set Hawkeye stat cost 5000
+set Hawkeye stat crit 0
+set Hawkeye stat dark_res 10
+set Hawkeye stat durability B
+set Hawkeye stat fire_res 10
+set Hawkeye stat holy_res 10
+set Hawkeye stat max-range 3
+set Hawkeye stat might 33
+set Hawkeye stat min-range 1
+set Hawkeye stat thunder_res 10
+set Hawkeye stat weight 13
+set Hawkeye stat wind_res 10
+set HeavyCrossbow stat accuracy 60
+set HeavyCrossbow stat cost 2600
+set HeavyCrossbow stat crit 0
+set HeavyCrossbow stat dark_res 10
+set HeavyCrossbow stat durability B
+set HeavyCrossbow stat fire_res 10
+set HeavyCrossbow stat holy_res 10
+set HeavyCrossbow stat level 12
+set HeavyCrossbow stat max-range 2
+set HeavyCrossbow stat might 27
+set HeavyCrossbow stat min-range 1
+set HeavyCrossbow stat thunder_res 10
+set HeavyCrossbow stat weight 14
+set HeavyCrossbow stat wind_res 10
+set ImperialCrossbow stat accuracy 70
+set ImperialCrossbow stat cost 800
+set ImperialCrossbow stat crit 0
+set ImperialCrossbow stat dark_res 10
+set ImperialCrossbow stat durability D
+set ImperialCrossbow stat fire_res 10
+set ImperialCrossbow stat holy_res 10
+set ImperialCrossbow stat max-range 2
+set ImperialCrossbow stat might 15
+set ImperialCrossbow stat min-range 1
+set ImperialCrossbow stat thunder_res 10
+set ImperialCrossbow stat weight 12
+set ImperialCrossbow stat wind_res 10
+set IronCrossbow stat accuracy 70
+set IronCrossbow stat cost 1000
+set IronCrossbow stat crit 0
+set IronCrossbow stat dark_res 10
+set IronCrossbow stat fire_res 10
+set IronCrossbow stat holy_res 10
+set IronCrossbow stat max-range 2
+set IronCrossbow stat might 15
+set IronCrossbow stat min-range 1
+set IronCrossbow stat thunder_res 10
+set IronCrossbow stat weight 12
+set IronCrossbow stat wind_res 10
+set KillerCrossbow effect cripple-x2
+set KillerCrossbow stat accuracy 50
+set KillerCrossbow stat cost 4000
+set KillerCrossbow stat crit 90
+set KillerCrossbow stat dark_res 10
+set KillerCrossbow stat durability C
+set KillerCrossbow stat fire_res 10
+set KillerCrossbow stat holy_res 10
+set KillerCrossbow stat level 15
+set KillerCrossbow stat max-range 2
+set KillerCrossbow stat might 19
+set KillerCrossbow stat min-range 1
+set KillerCrossbow stat thunder_res 10
+set KillerCrossbow stat weight 15
+set KillerCrossbow stat wind_res 10
+set OldImperialCrossbow stat accuracy 60
+set OldImperialCrossbow stat cost 400
+set OldImperialCrossbow stat crit 0
+set OldImperialCrossbow stat dark_res 10
+set OldImperialCrossbow stat durability E
+set OldImperialCrossbow stat fire_res 10
+set OldImperialCrossbow stat holy_res 10
+set OldImperialCrossbow stat max-range 2
+set OldImperialCrossbow stat might 9
+set OldImperialCrossbow stat min-range 1
+set OldImperialCrossbow stat thunder_res 10
+set OldImperialCrossbow stat weight 13
+set OldImperialCrossbow stat wind_res 10
+set Ollerus stat accuracy 70
 set Ollerus stat cost 4000
+set Ollerus stat crit 0
+set Ollerus stat dark_res 10
+set Ollerus stat durability A
+set Ollerus stat fire_res 10
+set Ollerus stat holy_res 10
+set Ollerus stat level 15
+set Ollerus stat max-range 3
+set Ollerus stat might 27
+set Ollerus stat min-range 1
+set Ollerus stat thunder_res 10
+set Ollerus stat weight 11
+set Ollerus stat wind_res 10
+set RapidCrossbow stat accuracy 70
+set RapidCrossbow stat cost 8000
+set RapidCrossbow stat crit 0
+set RapidCrossbow stat dark_res 10
+set RapidCrossbow stat durability B
+set RapidCrossbow stat fire_res 10
+set RapidCrossbow stat holy_res 10
+set RapidCrossbow stat level 20
+set RapidCrossbow stat max-range 2
+set RapidCrossbow stat might 18
+set RapidCrossbow stat min-range 1
+set RapidCrossbow stat thunder_res 10
+set RapidCrossbow stat weight 15
+set RapidCrossbow stat wind_res 10
+set VerianCrossbow stat accuracy 70
+set VerianCrossbow stat cost 800
+set VerianCrossbow stat crit 0
+set VerianCrossbow stat dark_res 10
+set VerianCrossbow stat durability D
+set VerianCrossbow stat fire_res 10
+set VerianCrossbow stat holy_res 10
+set VerianCrossbow stat max-range 2
+set VerianCrossbow stat might 15
+set VerianCrossbow stat min-range 1
+set VerianCrossbow stat thunder_res 10
+set VerianCrossbow stat weight 12
+set VerianCrossbow stat wind_res 10
 
 
 // Balistae
-
-set OldBallista stat durability D
-
-set OldBallista stat might 13
-set BronzeBallista stat might 15
-set IronBallista stat might 21
-set SteelBallista stat might 27
-set PrototypeSpringald stat might 33
-set Springald stat might 33
-set PrototypeScorpio stat might 15
-set Scorpio stat might 15
-
-set OldBallista stat crit 0
-set BronzeBallista stat crit 0
-set IronBallista stat crit 0
-set SteelBallista stat crit 0
-set PrototypeSpringald stat crit 0
-set Springald stat crit 0
-set PrototypeScorpio stat crit 0
-set Scorpio stat crit 0
-
-set OldBallista stat accuracy 60
-set SteelBallista stat accuracy 70
-set PrototypeSpringald stat accuracy 70
-set Springald stat accuracy 70
-set PrototypeScorpio stat accuracy 80
-set Scorpio stat accuracy 100
-set BronzeBallista stat accuracy 70
-set IronBallista stat accuracy 70
-
-set SteelBallista stat level 10
-set Springald stat level 15
-
-set OldBallista stat weight 8
-set BronzeBallista stat weight 7
-set IronBallista stat weight 8
-set SteelBallista stat weight 9
-set PrototypeSpringald stat weight 10
-set Springald stat weight 10
-set PrototypeScorpio stat weight 7
-set Scorpio stat weight 7
-
-set OldBallista stat speed 5
-set BronzeBallista stat speed 5
-set IronBallista stat speed 5
-set SteelBallista stat speed 5
-set PrototypeSpringald stat speed 5
-set Springald stat speed 5
-set PrototypeScorpio stat speed 10
-set Scorpio stat speed 10
-
-set OldBallista stat defense 10
-set BronzeBallista stat defense 10
-set IronBallista stat defense 10
-set SteelBallista stat defense 10
-set PrototypeSpringald stat defense 10
-set Springald stat defense 10
-set PrototypeScorpio stat defense 10
-set Scorpio stat defense 10
-
-set OldBallista stat magic 10
-set BronzeBallista stat magic 10
-set IronBallista stat magic 10
-set SteelBallista stat magic 10
-set PrototypeSpringald stat magic 10
-set Springald stat magic 10
-set PrototypeScorpio stat magic 10
-set Scorpio stat magic 10
-
 set BronzeBallista effect cripple-x2
-set IronBallista effect cripple-x2
-set PrototypeSpringald effect cripple-x2
-set PrototypeScorpio effect cripple-x2
-set Scorpio effect cripple-x2
-
-set Scorpio stat Durability B
-
-set StandardBolt stat accuracy 10
-set OldBolt stat accuracy 10
-set New-TypeBolt stat accuracy 10
-
-set OldBallista stat cost 2000
+set BronzeBallista stat accuracy 70
 set BronzeBallista stat cost 3000
+set BronzeBallista stat crit 0
+set BronzeBallista stat defense 10
+set BronzeBallista stat magic 10
+set BronzeBallista stat might 15
+set BronzeBallista stat speed 5
+set BronzeBallista stat weight 7
+set IronBallista effect cripple-x2
+set IronBallista stat accuracy 70
 set IronBallista stat cost 4000
-set SteelBallista stat cost 5000
-set PrototypeSpringald stat cost 6000
-set Springald stat cost 7000
+set IronBallista stat crit 0
+set IronBallista stat defense 10
+set IronBallista stat magic 10
+set IronBallista stat might 21
+set IronBallista stat speed 5
+set IronBallista stat weight 8
+set New-TypeBolt stat accuracy 10
+set OldBallista stat accuracy 60
+set OldBallista stat cost 2000
+set OldBallista stat crit 0
+set OldBallista stat defense 10
+set OldBallista stat durability D
+set OldBallista stat magic 10
+set OldBallista stat might 13
+set OldBallista stat speed 5
+set OldBallista stat weight 8
+set OldBolt stat accuracy 10
+set PrototypeScorpio effect cripple-x2
+set PrototypeScorpio stat accuracy 80
 set PrototypeScorpio stat cost 5000
+set PrototypeScorpio stat crit 0
+set PrototypeScorpio stat defense 10
+set PrototypeScorpio stat magic 10
+set PrototypeScorpio stat might 15
+set PrototypeScorpio stat speed 10
+set PrototypeScorpio stat weight 7
+set PrototypeSpringald effect cripple-x2
+set PrototypeSpringald stat accuracy 70
+set PrototypeSpringald stat cost 6000
+set PrototypeSpringald stat crit 0
+set PrototypeSpringald stat defense 10
+set PrototypeSpringald stat magic 10
+set PrototypeSpringald stat might 33
+set PrototypeSpringald stat speed 5
+set PrototypeSpringald stat weight 10
+set Scorpio effect cripple-x2
+set Scorpio stat Durability B
+set Scorpio stat accuracy 100
 set Scorpio stat cost 6000
+set Scorpio stat crit 0
+set Scorpio stat defense 10
+set Scorpio stat magic 10
+set Scorpio stat might 15
+set Scorpio stat speed 10
+set Scorpio stat weight 7
+set Springald stat accuracy 70
+set Springald stat cost 7000
+set Springald stat crit 0
+set Springald stat defense 10
+set Springald stat level 15
+set Springald stat magic 10
+set Springald stat might 33
+set Springald stat speed 5
+set Springald stat weight 10
+set StandardBolt stat accuracy 10
+set SteelBallista stat accuracy 70
+set SteelBallista stat cost 5000
+set SteelBallista stat crit 0
+set SteelBallista stat defense 10
+set SteelBallista stat level 10
+set SteelBallista stat magic 10
+set SteelBallista stat might 27
+set SteelBallista stat speed 5
+set SteelBallista stat weight 9
 
 // sshield
 
