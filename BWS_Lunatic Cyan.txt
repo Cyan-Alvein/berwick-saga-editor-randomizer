@@ -1938,8 +1938,8 @@ set Blazetongue stat might 30
 set Flametongue stat max-range 0
 set Blazetongue stat max-range 0
 
-set Thunder stat crit 90
-set DireThunder stat crit 90
+set Thunder stat crit 0
+set DireThunder stat crit 0
 set Lightning stat crit 90
 set PallasSerenia stat crit 90
 set Stormtongue stat crit 100
@@ -1950,10 +1950,10 @@ set Lightning stat min-range 1
 set PallasSerenia stat min-range 1
 set Thunder stat max-range 3
 set Thunder stat accuracy 60
-set Thunder stat might 1
+set Thunder stat might 15
 set DireThunder stat max-range 3
 set DireThunder stat accuracy 50
-set DireThunder stat might 1
+set DireThunder stat might 15
 set Lightning stat max-range 2
 set Lightning stat accuracy 50
 set Lightning stat level 1
@@ -2053,174 +2053,151 @@ set KisharsWrath stat crit 0
 set Wormwood stat crit 0
 
 //knives
-set dagger stat might 2
-set Seax stat might 6
-set Dart stat might 4
-set Vespa stat might 4
-set Seax stat might 6
-set Airknife stat might 1
-set ThiefsKnife stat might 1
-set Carnwenhau stat might 6
-set StunKnife stat might 1
-set KillerKnife stat might 0
-set BloodKnife stat might 6
-set TempestKnife stat might 1
-set Shieldknife stat might 2
-set Crotalus stat might 6
-set Kris stat might 0
-set ThrowingKnife stat might 6
-set Swordbreaker stat might 6
-set PoisonKnife stat might 2
-set SleepKnife stat might 2
-set BoltKnife stat might 2
-set AssassinsKnife stat might 0
-set LetterOpener stat might 1
-set MainGauche stat might 0
 
-set Carnwenhau stat defense 0
-set MainGauche stat defense 6
-set Kris stat mind 6
-
-set dagger stat crit 0
-set LetterOpener stat crit 0
-set BoltKnife stat crit 0
-set Dart stat crit 0
-set AirKnife stat crit 0
-set ThiefsKnife stat crit 0
-set Seax stat crit 0
-set Carnwenhau stat crit 0
-set StunKnife stat crit 0
-set KillerKnife stat crit 50
-set BloodKnife stat crit 0
-set Vespa stat crit 0
-set TempestKnife stat crit 0
-set Shieldknife stat crit 0
-set Crotalus stat crit 0
-set Kris stat crit 0
-set MainGauche stat crit 0
-set ThrowingKnife stat crit 0
-set SwordBreaker stat crit 0
-set PoisonKnife stat crit 0
-set SleepKnife stat crit 0
 //set AssassinsKnife stat crit 80
-
-//set dagger effect parry
-//set LetterOpener effect parry
-//set BoltKnife effect parry
-//set Dart effect parry
-//set AirKnife effect parry
-//set ThiefsKnife effect parry
-//set Seax effect parry
-//set Carnwenhau effect parry
-//set StunKnife effect parry
-//set KillerKnife effect parry
-//set BloodKnife effect parry
-//set Vespa effect parry
-//set TempestKnife effect parry
-//set Shieldknife effect parry
-//set Crotalus effect parry
-//set Crotalus effect x2
-//set Kris effect parry
-//set MainGauche effect parry
-//set ThrowingKnife effect parry
-//set SwordBreaker effect parry
-//set PoisonKnife effect parry
-//set SleepKnife effect parry
-//set AssassinsKnife effect parry
-
+set AirKnife effect cripple-rate 8
+set AirKnife effect wind-damage 10
+set AirKnife stat accuracy 60
+set AirKnife stat cost 2000
+set AirKnife stat crit 0
+set AirKnife stat durability E
+set AirKnife stat weight 1
+set Airknife stat level 5
+set Airknife stat might 1
 set AssassinsKnife effect cripple-x2
-set KillerKnife effect cripple-x2
-set BoltKnife effect thunder-damage 0
+set AssassinsKnife stat accuracy 50
+set AssassinsKnife stat cost 4000
+set AssassinsKnife stat durability F
+set AssassinsKnife stat level 20
+set AssassinsKnife stat might 0
+set AssassinsKnife stat weight 8
+set BloodKnife effect dark-damage 5
+set BloodKnife effect nosferatu
+set BloodKnife stat accuracy 60
+set BloodKnife stat cost 2800
+set BloodKnife stat crit 0
+set BloodKnife stat level 10
+set BloodKnife stat might 1
+set BloodKnife stat weight 2
+set Bloodknife stat durability C
 set BoltKnife effect injure-rate 100
+set BoltKnife effect thunder-damage 0
+set BoltKnife stat accuracy 40
+set BoltKnife stat crit 0
+set BoltKnife stat durability E
+set BoltKnife stat level 1
+set BoltKnife stat might 2
+set BoltKnife stat weight 4
+set Carnwenhau stat accuracy 60
+set Carnwenhau stat cost 4600
+set Carnwenhau stat crit 0
+set Carnwenhau stat defense 0
+set Carnwenhau stat durability B
+set Carnwenhau stat might 6
+set Carnwenhau stat weight 2
+set Crotalus stat accuracy 60
+set Crotalus stat cost 6000
+set Crotalus stat crit 0
+set Crotalus stat level 15
+set Crotalus stat might 6
+set Crotalus stat weight 2
+set Crotalus stat durability B
+set Dart stat cost 950
+set Dart stat crit 0
+set Dart stat level 1
+set Dart stat might 4
+set Dart stat uses 20
+set Dart stat weight 2
+set KillerKnife effect cripple-x2
+set KillerKnife stat accuracy 50
+set KillerKnife stat cost 2800
+set KillerKnife stat crit 40
+set KillerKnife stat durability C
+set KillerKnife stat level 15
+set KillerKnife stat might 0
+set KillerKnife stat weight 5
+set Kris stat accuracy 50
+set Kris stat cost 2800
+set Kris stat crit 0
+set Kris stat durability C
+set Kris stat level 10
+set Kris stat might 0
+set Kris stat mind 6
+set Kris stat weight 3
+set LetterOpener stat crit 0
+set LetterOpener stat durability D
+set LetterOpener stat might 1
+set LetterOpener stat accuracy 60
+set LetterOpener stat weight 0
+set MainGauche stat cost 2800
+set MainGauche stat crit 0
+set MainGauche stat defense 6
+set MainGauche stat might 0
+set MainGauche stat weight 3
+set Maingauche stat accuracy 50
+set Maingauche stat durability C
+set PoisonKnife stat crit 0
+set PoisonKnife stat might 2
+set PoisonKnife stat accuracy 60
+set Seax stat accuracy 50
+set Seax stat cost 1800
+set Seax stat crit 0
+set Seax stat level 10
+set Seax stat might 6
+set Seax stat weight 3
+set Shieldknife stat accuracy 40
+set Shieldknife stat crit 40
+set Shieldknife stat might 0
+set Shieldknife stat weight 3
+set Shieldknife stat cost 5000
+set SleepKnife stat crit 0
+set SleepKnife stat durability C
+set SleepKnife stat might 2
+set StunKnife stat crit 0
+set StunKnife stat durability C
+set StunKnife stat level 12
+set StunKnife stat might 2
+set StunKnife stat weight 3
+set Stunknife effect disarm-rate 100
+set Stunknife stat accuracy 50
+set Stunknife stat cost 1600
+set SwordBreaker stat crit 0
+set Swordbreaker effect cripple-x2
+set Swordbreaker effect sword-break 100
+set Swordbreaker stat accuracy 40
+set Swordbreaker stat cost 2800
+set Swordbreaker stat durability C
+set Swordbreaker stat level 10
+set Swordbreaker stat might 6
 set TempestKnife effect cripple-rate 16
 set TempestKnife effect wind-damage 15
-set ThiefsKnife effect steal-rate-plus 50
-set ThiefsCharm effect steal-rate-plus 50
-set AirKnife effect cripple-rate 8
-set AirKnife effect wind-damage 7
-set BloodKnife effect dark-damage 0
-set BloodKnife effect nosferatu
-set Swordbreaker effect sword-break 100
-set Swordbreaker effect cripple-x2
-set stunknife effect disarm-rate 100
-
-set AirKnife stat weight 1
-set Dart stat weight 2
-set ThrowingKnife stat weight 3
-set BoltKnife stat weight 4
-set TempestKnife stat weight 1
-set BloodKnife stat weight 3
-set StunKnife stat weight 3
-set Shieldknife stat weight 3
-set Seax stat weight 3
-set MainGauche stat weight 3
-set Kris stat weight 3
-set Crotalus stat weight 3
-set KillerKnife stat weight 4
-set AssassinsKnife stat weight 6
-
-set dart stat level 1
-set dart stat uses 20
-set Seax stat level 10
-set BloodKnife stat level 10
-set Vespa stat level 5
-set TempestKnife stat level 12
-set Swordbreaker stat level 10
-set AssassinsKnife stat level 20
-set Airknife stat level 5
-set ThrowingKnife stat level 12
-set StunKnife stat level 12
-set KillerKnife stat level 15
-set Crotalus stat level 15
-set Kris stat level 10
-set BoltKnife stat level 1
-
-set ThiefsKnife stat cost 1000
-set Vespa stat cost 1300
-set Seax stat cost 2000
-set AssassinsKnife stat cost 4000
-set BloodKnife stat cost 2000
-set KillerKnife stat cost 3000
-set Kris stat cost 6000
-set ThrowingKnife stat cost 2000
-set Swordbreaker stat cost 2000
-set dart stat cost 1200
-set AirKnife stat cost 2000
-set Carnwenhau stat cost 4000
 set TempestKnife stat cost 6000
-set Crotalus stat cost 6000
-
-set BoltKnife stat durability E
-set LetterOpener stat durability D
-set Bloodknife stat durability C
-set kris stat durability C
-set SleepKnife stat durability C
-set AssassinsKnife stat durability F
-set ThiefsKnife stat durability C
-set AirKnife stat durability C
-set StunKnife stat durability C
-set Vespa stat durability C
-set TempestKnife stat durability C
-set Carnwenhau stat durability B
-set ThrowingKnife stat durability B
-set Swordbreaker stat durability C
-set KillerKnife stat durability C
-
-set Seax stat accuracy 50
-set Carnwenhau stat accuracy 60
-set stunknife stat accuracy 50
-set BoltKnife stat accuracy 40
-set BloodKnife stat accuracy 50
-set Swordbreaker stat accuracy 60
+set TempestKnife stat crit 0
+set TempestKnife stat durability B
+set TempestKnife stat level 15
+set TempestKnife stat might 0
+set TempestKnife stat weight 1
+set ThiefsCharm effect steal-rate-plus 50
+set ThiefsKnife effect steal-rate-plus 50
 set ThiefsKnife stat accuracy 50
-set KillerKnife stat accuracy 40
-set AssassinsKnife stat accuracy 40
-set Shieldknife stat accuracy 40
-set Crotalus stat accuracy 50
-set kris stat accuracy 50
-set maingauche stat accuracy 50
-set ThrowingKnife stat accuracy 40
-set AirKnife stat accuracy 60
+set ThiefsKnife stat cost 1000
+set ThiefsKnife stat crit 0
+set ThiefsKnife stat durability C
+set ThiefsKnife stat might 2
+set ThrowingKnife stat accuracy 60
+set ThrowingKnife stat cost 3500
+set ThrowingKnife stat crit 0
+set ThrowingKnife stat durability B
+set ThrowingKnife stat level 12
+set ThrowingKnife stat might 6
+set ThrowingKnife stat weight 2
+set Vespa stat cost 1200
+set Vespa stat crit 0
+set Vespa stat durability C
+set Vespa stat level 5
+set Vespa stat might 4
+set dagger stat crit 0
+set dagger stat might 2
 
 //swords
 //KillingEdge = MithrilSword stat + 2 Might -10 Accuracy, Then convert Might to crit Then do crit/2. 15 Might = 100% crit so 14 = 93%. I divise the crit by 2 for balance since crit is OP.
