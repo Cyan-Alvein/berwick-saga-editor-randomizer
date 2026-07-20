@@ -2057,14 +2057,14 @@ set Wormwood stat crit 0
 
 //set AssassinsKnife stat crit 80
 set AirKnife effect cripple-rate 8
-set AirKnife effect wind-damage 10
+set AirKnife effect wind-damage 15
 set AirKnife stat accuracy 60
-set AirKnife stat cost 2000
+set AirKnife stat cost 3000
 set AirKnife stat crit 0
 set AirKnife stat durability E
-set AirKnife stat weight 1
+set AirKnife stat weight 2
 set Airknife stat level 5
-set Airknife stat might 1
+set Airknife stat might 0
 set AssassinsKnife effect cripple-x2
 set AssassinsKnife stat accuracy 50
 set AssassinsKnife stat cost 4000
@@ -2072,14 +2072,14 @@ set AssassinsKnife stat durability F
 set AssassinsKnife stat level 20
 set AssassinsKnife stat might 0
 set AssassinsKnife stat weight 8
-set BloodKnife effect dark-damage 5
+set BloodKnife effect dark-damage 10
 set BloodKnife effect nosferatu
 set BloodKnife stat accuracy 60
-set BloodKnife stat cost 2800
+set BloodKnife stat cost 4000
 set BloodKnife stat crit 0
 set BloodKnife stat level 10
-set BloodKnife stat might 1
-set BloodKnife stat weight 2
+set BloodKnife stat might 0
+set BloodKnife stat weight 1
 set Bloodknife stat durability C
 set BoltKnife effect injure-rate 100
 set BoltKnife effect thunder-damage 0
@@ -2171,13 +2171,13 @@ set Swordbreaker stat durability C
 set Swordbreaker stat level 10
 set Swordbreaker stat might 6
 set TempestKnife effect cripple-rate 16
-set TempestKnife effect wind-damage 15
-set TempestKnife stat cost 6000
+set TempestKnife effect wind-damage 20
+set TempestKnife stat cost 8000
 set TempestKnife stat crit 0
 set TempestKnife stat durability B
 set TempestKnife stat level 15
 set TempestKnife stat might 0
-set TempestKnife stat weight 1
+set TempestKnife stat weight 3
 set ThiefsCharm effect steal-rate-plus 50
 set ThiefsKnife effect steal-rate-plus 50
 set ThiefsKnife stat accuracy 50
@@ -2542,11 +2542,11 @@ set Doru stat level 12
 set Doru stat might 12
 set Euthyphro effect cripple-rate 16
 set Euthyphro effect thunder-damage 25
-set Euthyphro stat Weight 5
+set Euthyphro stat Weight 6
 set Euthyphro stat accuracy 60
 set Euthyphro stat cost 4000
 set Euthyphro stat crit 0
-set Euthyphro stat might 1
+set Euthyphro stat might 0
 set Fauchard stat Weight 7
 set Fauchard stat cost 6000
 set Fauchard stat crit 0
@@ -2667,12 +2667,13 @@ set Verutum stat might 12
 set Verutum stat uses 20
 set WindSpear effect cripple-rate 16
 set WindSpear effect wind-damage 25
-set WindSpear stat Weight 5
+set WindSpear stat Weight 6
 set WindSpear stat accuracy 60
 set WindSpear stat cost 4000
 set WindSpear stat crit 0
 set WindSpear stat level 18
-set WindSpear stat might 1
+set WindSpear stat might 0
+set WindSpear stat hex 1
 
 // fork
 
@@ -2687,7 +2688,7 @@ set Firebrand stat crit 0
 set Firebrand stat durability D
 set Firebrand stat hex 1
 set Firebrand stat might 1
-set Firebrand stat weight 3
+set Firebrand stat weight 4
 set GoreFork effect cripple-rate 8
 set GoreFork stat accuracy 50
 set GoreFork stat cost 2000
@@ -8390,5 +8391,4 @@ set Arrow++ stat might 8
 // crit_avoid_penalty seems not working on shield. it worked on ring. It increases ennemy crit rate.
 // There are "??" Item_Effect on "BWSDefinitions.py", surely effects like HealthCharm, MiracleCharm are 1 of them. We should try them out.
 // How I did the balance. Character with Deathmatch (Leon) got -7 stat compared to those without (Adel)
-
 
