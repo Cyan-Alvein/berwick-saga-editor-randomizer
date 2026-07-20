@@ -3581,18 +3581,18 @@ set ThunderShield stat might 6
 set LightShield stat might 6
 set DarkShield stat might 8
 set MetalShield stat might 8
-set MithrilShield stat might 7
+set MithrilShield stat might 8
 set Vollenden stat might 8
 set ShiningShield stat might 8
-set LadyShield stat might 7
-set Perseid stat might 7
+set LadyShield stat might 8
+set Perseid stat might 8
 set Aiantos stat might 14
 set Aiantos stat magic 14
 
-Set VerianSShd Stat might 4
-set OldImpSShd stat might 3
-set ImpSoldierSShd stat might 4
-set ImpSoldierSShd++ stat might 6
+Set VerianSShd Stat might 2
+set OldImpSShd stat might 1
+set ImpSoldierSShd stat might 2
+set ImpSoldierSShd++ stat might 4
 set ImpOfficerSShd stat might 6
 set ImpKnightSShd stat might 8
 
@@ -3608,11 +3608,11 @@ Set Buckler Stat wind_res 4
 Set Buckler Stat holy_res 4
 Set Buckler Stat dark_res 4
 
-Set PrototypeSShd Stat fire_res 7
-Set PrototypeSShd Stat thunder_res 7
-Set PrototypeSShd Stat wind_res 7
-Set PrototypeSShd Stat holy_res 7
-Set PrototypeSShd Stat dark_res 7
+Set PrototypeSShd Stat fire_res 8
+Set PrototypeSShd Stat thunder_res 8
+Set PrototypeSShd Stat wind_res 8
+Set PrototypeSShd Stat holy_res 8
+Set PrototypeSShd Stat dark_res 8
 
 Set Aspis Stat fire_res 6
 Set Aspis Stat thunder_res 6
@@ -3662,11 +3662,11 @@ Set MetalShield Stat wind_res 8
 Set MetalShield Stat holy_res 8
 Set MetalShield Stat dark_res 8
 
-Set MithrilShield Stat fire_res 7
-Set MithrilShield Stat thunder_res 7
-Set MithrilShield Stat wind_res 7
-Set MithrilShield Stat holy_res 7
-Set MithrilShield Stat dark_res 7
+Set MithrilShield Stat fire_res 8
+Set MithrilShield Stat thunder_res 8
+Set MithrilShield Stat wind_res 8
+Set MithrilShield Stat holy_res 8
+Set MithrilShield Stat dark_res 8
 
 Set Vollenden Stat mind 6
 Set Vollenden Stat fire_res 8
@@ -3681,41 +3681,41 @@ Set ShiningShield Stat wind_res 7
 Set ShiningShield Stat holy_res 7
 Set ShiningShield Stat dark_res 7
 
-Set LadyShield Stat fire_res 7
-Set LadyShield Stat thunder_res 7
-Set LadyShield Stat wind_res 7
-Set LadyShield Stat holy_res 7
-Set LadyShield Stat dark_res 7
+Set LadyShield Stat fire_res 8
+Set LadyShield Stat thunder_res 8
+Set LadyShield Stat wind_res 8
+Set LadyShield Stat holy_res 8
+Set LadyShield Stat dark_res 8
 
-Set Perseid Stat fire_res 7
-Set Perseid Stat thunder_res 7
-Set Perseid Stat wind_res 7
-Set Perseid Stat holy_res 7
-Set Perseid Stat dark_res 7
+Set Perseid Stat fire_res 8
+Set Perseid Stat thunder_res 8
+Set Perseid Stat wind_res 8
+Set Perseid Stat holy_res 8
+Set Perseid Stat dark_res 8
 
-Set VerianSShd Stat fire_res 4
-Set VerianSShd Stat thunder_res 4
-Set VerianSShd Stat wind_res 4
-Set VerianSShd Stat holy_res 4
-Set VerianSShd Stat dark_res 4
+Set VerianSShd Stat fire_res 2
+Set VerianSShd Stat thunder_res 2
+Set VerianSShd Stat wind_res 2
+Set VerianSShd Stat holy_res 2
+Set VerianSShd Stat dark_res 2
 
-Set OldImpSShd Stat fire_res 3
-Set OldImpSShd Stat thunder_res 3
-Set OldImpSShd Stat wind_res 3
-Set OldImpSShd Stat holy_res 3
-Set OldImpSShd Stat dark_res 3
+Set OldImpSShd Stat fire_res 1
+Set OldImpSShd Stat thunder_res 1
+Set OldImpSShd Stat wind_res 1
+Set OldImpSShd Stat holy_res 1
+Set OldImpSShd Stat dark_res 1
 
-Set ImpSoldierSShd Stat fire_res 4
-Set ImpSoldierSShd Stat thunder_res 4
-Set ImpSoldierSShd Stat wind_res 4
-Set ImpSoldierSShd Stat holy_res 4
-Set ImpSoldierSShd Stat dark_res 4
+Set ImpSoldierSShd Stat fire_res 2
+Set ImpSoldierSShd Stat thunder_res 2
+Set ImpSoldierSShd Stat wind_res 2
+Set ImpSoldierSShd Stat holy_res 2
+Set ImpSoldierSShd Stat dark_res 2
 
-Set ImpSoldierSShd++ Stat fire_res 6
-Set ImpSoldierSShd++ Stat thunder_res 6
-Set ImpSoldierSShd++ Stat wind_res 6
-Set ImpSoldierSShd++ Stat holy_res 6
-Set ImpSoldierSShd++ Stat dark_res 6
+Set ImpSoldierSShd++ Stat fire_res 4
+Set ImpSoldierSShd++ Stat thunder_res 4
+Set ImpSoldierSShd++ Stat wind_res 4
+Set ImpSoldierSShd++ Stat holy_res 4
+Set ImpSoldierSShd++ Stat dark_res 4
 
 Set ImpOfficerSShd Stat fire_res 6
 Set ImpOfficerSShd Stat thunder_res 6
@@ -3747,16 +3747,16 @@ set Vollenden stat weight 4
 set ShiningShield stat Weight 4
 set Aiantos stat Weight 2
 
-Set VerianSShd Stat Weight 2
-set OldImpSShd stat Weight 4
-set ImpSoldierSShd stat Weight 2
-set ImpSoldierSShd++ stat Weight 3
+Set VerianSShd Stat Weight 1
+set OldImpSShd stat Weight 2
+set ImpSoldierSShd stat Weight 1
+set ImpSoldierSShd++ stat Weight 2
 set ImpOfficerSShd stat weight 3
 set ImpKnightSShd stat weight 4
 
 set LeatherSShd stat cost 433
 set Buckler stat cost 866
-set PrototypeSShd stat cost 1500
+set PrototypeSShd stat cost 2000
 set Aspis stat cost 1600
 set RoundShield stat cost 1300
 set Windshield stat cost 3000
@@ -3765,19 +3765,19 @@ set ThunderShield stat cost 3000
 set LightShield stat cost 3000
 set DarkShield stat cost 7000
 set MetalShield stat cost 3000
-set MithrilShield stat cost 6000
-set Perseid stat cost 6000
-set LadyShield stat cost 3000
+set MithrilShield stat cost 7000
+set Perseid stat cost 7000
+set LadyShield stat cost 4000
 set Vollenden stat cost 7000
 set ShiningShield stat cost 4000
 set Aiantos stat cost 3000
 
-Set VerianSShd Stat cost 600
-set OldImpSShd stat cost 300
-set ImpSoldierSShd stat cost 600
-set ImpSoldierSShd++ stat cost 1000
-set ImpOfficerSShd stat cost 1000
-set ImpKnightSShd stat cost 1400
+Set VerianSShd Stat cost 540
+set OldImpSShd stat cost 150
+set ImpSoldierSShd stat cost 260
+set ImpSoldierSShd++ stat cost 520
+set ImpOfficerSShd stat cost 780
+set ImpKnightSShd stat cost 1000
 
 set LeatherSShd stat accuracy 100
 set Buckler stat accuracy 100
@@ -3822,12 +3822,12 @@ set Vollenden stat durability S
 set LadyShield stat durability A
 set Perseid stat durability S
 
-set VerianSShd stat durability D
-set OldImpSShd stat durability E
-set ImpSoldierSShd stat durability D
-set ImpSoldierSShd++ stat durability D
-set ImpOfficerSShd stat durability D
-set ImpKnightSShd stat durability D
+set VerianSShd stat durability C
+set OldImpSShd stat durability F
+set ImpSoldierSShd stat durability E
+set ImpSoldierSShd++ stat durability E
+set ImpOfficerSShd stat durability E
+set ImpKnightSShd stat durability E
 
 set FireShield stat level 4
 set ThunderShield stat level 4
@@ -3837,7 +3837,7 @@ set DarkShield stat level 7
 set Vollenden stat level 7
 
 set Buckler stat level 1
-set PrototypeSShd stat level 4
+set PrototypeSShd stat level 7
 set Aspis stat level 4
 set RoundShield stat level 7
 set MetalShield stat level 10
@@ -3846,12 +3846,12 @@ set Aiantos stat level 15
 set ShiningShield stat level 15
 //set LadyShield stat level 1
 
-//Set VerianSShd Stat level 1
-//set OldImpSShd stat level 1
-//set ImpSoldierSShd stat level 1
-//set ImpSoldierSShd++ stat level 1
-//set ImpOfficerSShd stat level 4
-//set ImpKnightSShd stat level 10
+Set VerianSShd Stat level 1
+set OldImpSShd stat level 1
+set ImpSoldierSShd stat level 1
+set ImpSoldierSShd++ stat level 4
+set ImpOfficerSShd stat level 4
+set ImpKnightSShd stat level 7
 
 
 //mshield Stuff
@@ -4018,9 +4018,9 @@ set ShadowShield stat might 12
 set BlazingShield stat might 12
 set GaleShield stat might 12
 
-Set VerianMShd stat might 10
-Set ImpSoldierMShd stat might 10
-Set ImpSoldierMShd+ stat might 12
+Set VerianMShd stat might 8
+Set ImpSoldierMShd stat might 8
+Set ImpSoldierMShd+ stat might 10
 Set ImpOfficerMShd stat might 12
 Set ImpKnightMShd stat might 14
 
@@ -4081,21 +4081,21 @@ set PaladinShield stat durability A
 set BlackShield stat durability A
 
 set VerianMShd stat durability C
-set ImpSoldierMShd stat durability C
-set ImpSoldierMShd+ stat durability C
-set ImpOfficerMShd stat durability C
-set ImpKnightMShd stat durability C
+set ImpSoldierMShd stat durability E
+set ImpSoldierMShd+ stat durability E
+set ImpOfficerMShd stat durability E
+set ImpKnightMShd stat durability E
 
 set LeatherMShd stat cost 1600
 set Kiteshield stat cost 2000
 set SquareShield stat cost 4000
 set KnightShield stat cost 5000
-set LimitShield stat cost 2000
-set LadyMShd stat cost 6000
+set LimitShield stat cost 3000
+set LadyMShd stat cost 7000
 set Hestia stat cost 10000
-set WyrmskinShield stat cost 11000
+set WyrmskinShield stat cost 12000
 set PaladinShield stat cost 6000
-set BlackShield stat cost 6000
+set BlackShield stat cost 7000
 
 set LightningShield stat cost 6000
 set RadiantShield stat cost 6000
@@ -4104,10 +4104,10 @@ set BlazingShield stat cost 6000
 set GaleShield stat cost 6000
 
 set VerianMShd stat cost 1600
-set ImpSoldierMShd cost 1600
-set ImpSoldierMShd+ cost 2000
-set ImpOfficerMShd cost 2000
-set ImpKnightMShd cost 2400
+set ImpSoldierMShd cost 1000
+set ImpSoldierMShd+ cost 1300
+set ImpOfficerMShd cost 1560
+set ImpKnightMShd cost 1820
 
 set LightningShield stat level 12
 set RadiantShield stat level 12
@@ -4123,11 +4123,11 @@ set Hestia stat level 16
 set BlackShield stat level 16
 set WyrmskinShield stat level 16
 
-//Set VerianMShd stat level 8
-//Set ImpSoldierMShd stat level 8
-//Set ImpSoldierMShd+ stat level 8
-//Set ImpOfficerMShd stat level 12
-//Set ImpKnightMShd stat level 16
+Set VerianMShd stat level 1
+Set ImpSoldierMShd stat level 1
+Set ImpSoldierMShd+ stat level 8
+Set ImpOfficerMShd stat level 12
+Set ImpKnightMShd stat level 16
 
 // lshield stuff
 
@@ -4143,19 +4143,19 @@ set WideShield stat level 8
 set IronShield stat level 12
 set Greatshield stat level 16
 
-//set ImpKnightLShd stat level 16
-//set ImpOfficerLShd stat level 12
-//set ImpSoldierLShd stat level 8
-//set ImpSoldierLShd+ stat level 8
+set ImpKnightLShd stat level 16
+set ImpOfficerLShd stat level 12
+set ImpSoldierLShd stat level 1
+set ImpSoldierLShd+ stat level 8
 
-set ImpKnightLShd stat durability B
-set ImpOfficerLShd stat durability B
-set ImpSoldierLShd stat durability B
-set ImpSoldierLShd+ stat durability B
-set VerianLShd stat Durability A
+set ImpKnightLShd stat durability E
+set ImpOfficerLShd stat durability E
+set ImpSoldierLShd stat durability E
+set ImpSoldierLShd+ stat durability E
+set VerianLShd stat Durability B
 
-set LeatherLShd stat Durability A
-set WideShield stat Durability A
+set LeatherLShd stat Durability B
+set WideShield stat Durability B
 set IronShield stat Durability A
 set Greatshield stat Durability S
 set KojinShield stat Durability A
@@ -4191,138 +4191,138 @@ set RaijinShield effect block-thunder-damage 10
 set AmaterasuShield effect block-fire-damage 15
 //set GeneralShield effect block-holy-damage 15
 
-set ImpKnightLShd stat might 25
-set ImpOfficerLShd stat might 20
-set ImpSoldierLShd stat might 15
-set ImpSoldierLShd+ stat might 20
-set VerianLShd stat might 15
+set ImpKnightLShd stat might 26
+set ImpOfficerLShd stat might 22
+set ImpSoldierLShd+ stat might 18
+set ImpSoldierLShd stat might 14
+set VerianLShd stat might 14
 
-set LeatherLShd stat might 10
-set WideShield stat might 15
-set IronShield stat might 20
-set Greatshield stat might 25
-set KojinShield stat might 20
-set FujinShield stat might 20
-set RaijinShield stat might 20
-set AmaterasuShield stat might 20
-set GeneralShield stat might 25
+set LeatherLShd stat might 14
+set WideShield stat might 18
+set IronShield stat might 22
+set Greatshield stat might 26
+set KojinShield stat might 22
+set FujinShield stat might 22
+set RaijinShield stat might 22
+set AmaterasuShield stat might 22
+set GeneralShield stat might 26
 
-set LeatherLShd stat cost 4000
-set WideShield stat cost 6000
-set IronShield stat cost 8000
-set Greatshield stat cost 20000
-set KojinShield stat cost 9000
-set FujinShield stat cost 9000
-set RaijinShield stat cost 9000
-set GeneralShield stat cost 20000
-set AmaterasuShield stat cost 16000
+set LeatherLShd stat cost 1910
+set WideShield stat cost 2450
+set IronShield stat cost 4400
+set Greatshield stat cost 10000
+set KojinShield stat cost 4400
+set FujinShield stat cost 4400
+set RaijinShield stat cost 4400
+set GeneralShield stat cost 10000
+set AmaterasuShield stat cost 8700
 
-set ImpSoldierLShd stat cost 4500
-set ImpSoldierLShd+ stat cost 5300
-set VerianLShd stat cost 4500
-set ImpOfficerLShd stat cost 5300
-set ImpKnightLShd stat cost 6000
+set ImpSoldierLShd stat cost 925
+set ImpSoldierLShd+ stat cost 1200
+set VerianLShd stat cost 1910
+set ImpOfficerLShd stat cost 1460
+set ImpKnightLShd stat cost 1800
 
-Set LeatherLShd Stat Weight 5
-Set WideShield Stat Weight 7
-Set IronShield Stat Weight 9
-Set Greatshield Stat Weight 11
-Set GeneralShield Stat Weight 11
-Set KojinShield Stat Weight 9
-Set FujinShield Stat Weight 9
-Set RaijinShield Stat Weight 9
-Set AmaterasuShield Stat Weight 11
+Set LeatherLShd Stat Weight 6
+Set WideShield Stat Weight 8
+Set IronShield Stat Weight 10
+Set Greatshield Stat Weight 12
+Set GeneralShield Stat Weight 12
+Set KojinShield Stat Weight 10
+Set FujinShield Stat Weight 10
+Set RaijinShield Stat Weight 10
+Set AmaterasuShield Stat Weight 10
 
-Set VerianLShd Stat Weight 8
-Set ImpSoldierLShd Stat Weight 8
-Set ImpSoldierLShd+ Stat Weight 9
-Set ImpOfficerLShd Stat Weight 9
-Set ImpKnightLShd Stat Weight 10
+Set VerianLShd Stat Weight 6
+Set ImpSoldierLShd Stat Weight 6
+Set ImpSoldierLShd+ Stat Weight 8
+Set ImpOfficerLShd Stat Weight 10
+Set ImpKnightLShd Stat Weight 12
 
-Set LeatherLShd Stat fire_res 10
-Set LeatherLShd Stat thunder_res 10
-Set LeatherLShd Stat wind_res 10
-Set LeatherLShd Stat holy_res 10
-Set LeatherLShd Stat dark_res 10
+Set LeatherLShd Stat fire_res 14
+Set LeatherLShd Stat thunder_res 14
+Set LeatherLShd Stat wind_res 14
+Set LeatherLShd Stat holy_res 14
+Set LeatherLShd Stat dark_res 14
 
-Set WideShield Stat fire_res 15
-Set WideShield Stat thunder_res 15
-Set WideShield Stat wind_res 15
-Set WideShield Stat holy_res 15
-Set WideShield Stat dark_res 15
+Set WideShield Stat fire_res 18
+Set WideShield Stat thunder_res 18
+Set WideShield Stat wind_res 18
+Set WideShield Stat holy_res 18
+Set WideShield Stat dark_res 18
 
-Set IronShield Stat fire_res 20
-Set IronShield Stat thunder_res 20
-Set IronShield Stat wind_res 20
-Set IronShield Stat holy_res 20
-Set IronShield Stat dark_res 20
+Set IronShield Stat fire_res 22
+Set IronShield Stat thunder_res 22
+Set IronShield Stat wind_res 22
+Set IronShield Stat holy_res 22
+Set IronShield Stat dark_res 22
 
-Set Greatshield Stat fire_res 25
-Set Greatshield Stat thunder_res 25
-Set Greatshield Stat wind_res 25
-Set Greatshield Stat holy_res 25
-Set Greatshield Stat dark_res 25
+Set Greatshield Stat fire_res 26
+Set Greatshield Stat thunder_res 26
+Set Greatshield Stat wind_res 26
+Set Greatshield Stat holy_res 26
+Set Greatshield Stat dark_res 26
 
 Set GeneralShield Stat magic 0
-Set GeneralShield Stat fire_res 25
-Set GeneralShield Stat thunder_res 25
-Set GeneralShield Stat wind_res 25
-Set GeneralShield Stat holy_res 25
-Set GeneralShield Stat dark_res 25
+Set GeneralShield Stat fire_res 26
+Set GeneralShield Stat thunder_res 26
+Set GeneralShield Stat wind_res 26
+Set GeneralShield Stat holy_res 26
+Set GeneralShield Stat dark_res 26
 
-Set KojinShield Stat fire_res 40
-Set KojinShield Stat thunder_res 20
-Set KojinShield Stat wind_res 20
-Set KojinShield Stat holy_res 20
-Set KojinShield Stat dark_res 20
+Set KojinShield Stat fire_res 42
+Set KojinShield Stat thunder_res 22
+Set KojinShield Stat wind_res 22
+Set KojinShield Stat holy_res 22
+Set KojinShield Stat dark_res 22
 
-Set FujinShield Stat fire_res 20
-Set FujinShield Stat thunder_res 20
-Set FujinShield Stat wind_res 40
-Set FujinShield Stat holy_res 20
-Set FujinShield Stat dark_res 20
+Set FujinShield Stat fire_res 22
+Set FujinShield Stat thunder_res 22
+Set FujinShield Stat wind_res 42
+Set FujinShield Stat holy_res 22
+Set FujinShield Stat dark_res 22
 
-Set RaijinShield Stat fire_res 20
-Set RaijinShield Stat thunder_res 40
-Set RaijinShield Stat wind_res 20
-Set RaijinShield Stat holy_res 20
-Set RaijinShield Stat dark_res 20
+Set RaijinShield Stat fire_res 22
+Set RaijinShield Stat thunder_res 42
+Set RaijinShield Stat wind_res 22
+Set RaijinShield Stat holy_res 22
+Set RaijinShield Stat dark_res 22
 
-Set AmaterasuShield Stat fire_res 40
-Set AmaterasuShield Stat thunder_res 40
-Set AmaterasuShield Stat wind_res 40
-Set AmaterasuShield Stat holy_res 40
-Set AmaterasuShield Stat dark_res 40
+Set AmaterasuShield Stat fire_res 42
+Set AmaterasuShield Stat thunder_res 42
+Set AmaterasuShield Stat wind_res 42
+Set AmaterasuShield Stat holy_res 42
+Set AmaterasuShield Stat dark_res 42
 
-Set VerianLShd Stat fire_res 15
-Set VerianLShd Stat thunder_res 15
-Set VerianLShd Stat wind_res 15
-Set VerianLShd Stat holy_res 15
-Set VerianLShd Stat dark_res 15
+Set VerianLShd Stat fire_res 14
+Set VerianLShd Stat thunder_res 14
+Set VerianLShd Stat wind_res 14
+Set VerianLShd Stat holy_res 14
+Set VerianLShd Stat dark_res 14
 
-Set ImpSoldierLShd Stat fire_res 15
-Set ImpSoldierLShd Stat thunder_res 15
-Set ImpSoldierLShd Stat wind_res 15
-Set ImpSoldierLShd Stat holy_res 15
-Set ImpSoldierLShd Stat dark_res 15
+Set ImpSoldierLShd Stat fire_res 14
+Set ImpSoldierLShd Stat thunder_res 14
+Set ImpSoldierLShd Stat wind_res 14
+Set ImpSoldierLShd Stat holy_res 14
+Set ImpSoldierLShd Stat dark_res 14
 
-Set ImpSoldierLShd+ Stat fire_res 20
-Set ImpSoldierLShd+ Stat thunder_res 20
-Set ImpSoldierLShd+ Stat wind_res 20
-Set ImpSoldierLShd+ Stat holy_res 20
-Set ImpSoldierLShd+ Stat dark_res 20
+Set ImpSoldierLShd+ Stat fire_res 18
+Set ImpSoldierLShd+ Stat thunder_res 18
+Set ImpSoldierLShd+ Stat wind_res 18
+Set ImpSoldierLShd+ Stat holy_res 18
+Set ImpSoldierLShd+ Stat dark_res 18
 
-Set ImpOfficerLShd Stat fire_res 20
-Set ImpOfficerLShd Stat thunder_res 20
-Set ImpOfficerLShd Stat wind_res 20
-Set ImpOfficerLShd Stat holy_res 20
-Set ImpOfficerLShd Stat dark_res 20
+Set ImpOfficerLShd Stat fire_res 22
+Set ImpOfficerLShd Stat thunder_res 22
+Set ImpOfficerLShd Stat wind_res 22
+Set ImpOfficerLShd Stat holy_res 22
+Set ImpOfficerLShd Stat dark_res 22
 
-Set ImpKnightLShd Stat fire_res 25
-Set ImpKnightLShd Stat thunder_res 25
-Set ImpKnightLShd Stat wind_res 25
-Set ImpKnightLShd Stat holy_res 25
-Set ImpKnightLShd Stat dark_res 25
+Set ImpKnightLShd Stat fire_res 26
+Set ImpKnightLShd Stat thunder_res 26
+Set ImpKnightLShd Stat wind_res 26
+Set ImpKnightLShd Stat holy_res 26
+Set ImpKnightLShd Stat dark_res 26
 
 
 //Accessories Buff
