@@ -2539,15 +2539,16 @@ set Zweihander stat effect cripple-x2
 
 //spears // spears
 
-set Angon stat Weight 9
-set Angon stat cost 3000
+set Angon stat Weight 8
+set Angon stat cost 3900
 set Angon stat crit 0
 set Angon stat durability C
 set Angon stat level 15
 set Angon stat might 17
+set Angon stat accuracy 60
 set Brionac stat Weight 12
 set Brionac stat accuracy 50
-set Brionac stat cost 6000
+set Brionac stat cost 5000
 set Brionac stat crit 90
 set Brionac stat durability C
 set Brionac stat hex 0
@@ -2555,7 +2556,7 @@ set Brionac stat level 15
 set Brionac stat might 1
 set Doru stat Weight 9
 set Doru stat accuracy 50
-set Doru stat cost 4000
+set Doru stat cost 4400
 set Doru stat crit 0
 set Doru stat defense 4
 set Doru stat durability B
@@ -2569,7 +2570,7 @@ set Euthyphro stat cost 4000
 set Euthyphro stat crit 0
 set Euthyphro stat might 1
 set Fauchard stat Weight 7
-set Fauchard stat cost 5000
+set Fauchard stat cost 6000
 set Fauchard stat crit 0
 set Fauchard stat hex 1
 set Fauchard stat might 12
@@ -2610,7 +2611,7 @@ set Longspear stat accuracy 50
 set Longspear stat crit 0
 set MithrilSpear stat Weight 6
 set MithrilSpear stat accuracy 60
-set MithrilSpear stat cost 5000
+set MithrilSpear stat cost 6000
 set MithrilSpear stat crit 0
 set MithrilSpear stat durability A
 set MithrilSpear stat hex 0
@@ -2633,9 +2634,9 @@ set Partisan stat effect cripple-x2
 set Partisan stat level 18
 set Partisan stat might 21
 set Pike effect cripple-x2
-set Pike stat Weight 6
+set Pike stat Weight 5
 set Pike stat accuracy 60
-set Pike stat cost 3000
+set Pike stat cost 4000
 set Pike stat crit 0
 set Pike stat durability B
 set Pike stat hex 0
@@ -2649,7 +2650,7 @@ set Pilum stat might 8
 set Pilum stat uses 20
 set PrototypeSpear stat Weight 6
 set PrototypeSpear stat accuracy 60
-set PrototypeSpear stat cost 2000
+set PrototypeSpear stat cost 3000
 set PrototypeSpear stat crit 0
 set PrototypeSpear stat durability D
 set PrototypeSpear stat hex 0
@@ -2667,7 +2668,7 @@ set SteelSpear stat cost 1600
 set SteelSpear stat crit 0
 set SteelSpear stat level 5
 set SwiftSpear stat Weight 8
-set SwiftSpear stat cost 6000
+set SwiftSpear stat cost 6650
 set SwiftSpear stat accuracy 60
 set SwiftSpear stat crit 0
 set SwiftSpear stat hex 1
@@ -2703,15 +2704,15 @@ set WindSpear stat might 1
 set Firebrand effect cripple-rate 8
 set Firebrand effect fire-damage 15
 set Firebrand stat accuracy 60
-set Firebrand stat cost 1000
+set Firebrand stat cost 1900
 set Firebrand stat crit 0
-set Firebrand stat durability E
+set Firebrand stat durability D
 set Firebrand stat hex 1
 set Firebrand stat might 1
 set Firebrand stat weight 3
 set GoreFork effect cripple-rate 8
 set GoreFork stat accuracy 50
-set GoreFork stat cost 1700
+set GoreFork stat cost 2000
 set GoreFork stat crit 0
 set GoreFork stat durability C
 set GoreFork stat hex 1
@@ -2720,7 +2721,7 @@ set GoreFork stat might 8
 set GoreFork stat weight 6
 set MilitaryFork effect cripple-rate 8
 set MilitaryFork stat accuracy 50
-set MilitaryFork stat cost 1000
+set MilitaryFork stat cost 1200
 set MilitaryFork stat crit 0
 set MilitaryFork stat durability E
 set MilitaryFork stat hex 1
@@ -2728,7 +2729,7 @@ set MilitaryFork stat might 12
 set MilitaryFork stat weight 8
 set Pitchfork effect cripple-rate 8
 set Pitchfork stat accuracy 60
-set Pitchfork stat cost 850
+set Pitchfork stat cost 800
 set Pitchfork stat crit 0
 set Pitchfork stat durability E
 set Pitchfork stat hex 1
@@ -2884,6 +2885,7 @@ set Gullveig stat crit 0
 set Gullveig stat durability B
 set Gullveig stat level 15
 set Gullveig stat might 19
+set Gullveig stat accuracy 50
 set Hammer effect ignore-defense
 set Hammer stat cost 3625
 set Hammer stat Weight 15
@@ -3050,7 +3052,7 @@ set Apollyon stat might 9
 set Apollyon stat thunder_res 10
 set Apollyon stat wind_res 10
 set BodkinArrow stat accuracy 10
-set BodkinArrow stat might 6
+set BodkinArrow stat might 0
 set BreakerArrow effect disarm-rate 100
 set BreakerArrow stat cost 1400
 set BreakerArrow stat might 6
@@ -3058,7 +3060,7 @@ set BroadheadArrow effect ignore-shields
 set BroadheadArrow effect kill-horse 0
 set BroadheadArrow stat accuracy 10
 set BroadheadArrow stat cost 1400
-set BroadheadArrow stat might 6
+set BroadheadArrow stat might 0
 set BronzeArrow stat accuracy 10
 set BronzeArrow stat cost 400
 set BronzeArrow+ stat cost 500
@@ -3463,7 +3465,7 @@ set Ollerus stat thunder_res 10
 set Ollerus stat weight 13
 set Ollerus stat wind_res 10
 set RapidCrossbow stat accuracy 70
-set RapidCrossbow stat cost 13000
+set RapidCrossbow stat cost 14000
 set RapidCrossbow stat crit 0
 set RapidCrossbow stat dark_res 10
 set RapidCrossbow stat durability A
