@@ -3675,11 +3675,11 @@ Set Vollenden Stat wind_res 8
 Set Vollenden Stat holy_res 8
 Set Vollenden Stat dark_res 8
 
-Set ShiningShield Stat fire_res 7
-Set ShiningShield Stat thunder_res 7
-Set ShiningShield Stat wind_res 7
-Set ShiningShield Stat holy_res 7
-Set ShiningShield Stat dark_res 7
+Set ShiningShield Stat fire_res 8
+Set ShiningShield Stat thunder_res 8
+Set ShiningShield Stat wind_res 8
+Set ShiningShield Stat holy_res 8
+Set ShiningShield Stat dark_res 8
 
 Set LadyShield Stat fire_res 8
 Set LadyShield Stat thunder_res 8
@@ -3734,17 +3734,17 @@ set Buckler stat Weight 2
 set PrototypeSShd stat Weight 2
 set Aspis stat Weight 3
 set RoundShield stat Weight 4
-set Windshield stat Weight 3
-set FireShield stat Weight 3
-set ThunderShield stat Weight 3
-set LightShield stat Weight 3
-set DarkShield stat Weight 4
+set Windshield stat Weight 1
+set FireShield stat Weight 1
+set ThunderShield stat Weight 1
+set LightShield stat Weight 1
+set DarkShield stat Weight 2
 set MetalShield stat weight 4
 set MithrilShield stat weight 2
 set Perseid stat weight 2
 set LadyShield stat weight 2
-set Vollenden stat weight 4
-set ShiningShield stat Weight 4
+set Vollenden stat weight 2
+set ShiningShield stat Weight 2
 set Aiantos stat Weight 2
 
 Set VerianSShd Stat Weight 1
@@ -3754,26 +3754,26 @@ set ImpSoldierSShd++ stat Weight 2
 set ImpOfficerSShd stat weight 3
 set ImpKnightSShd stat weight 4
 
-set LeatherSShd stat cost 433
+set LeatherSShd stat cost 540
 set Buckler stat cost 866
 set PrototypeSShd stat cost 2000
 set Aspis stat cost 1600
 set RoundShield stat cost 1300
-set Windshield stat cost 3000
-set FireShield stat cost 3000
-set ThunderShield stat cost 3000
-set LightShield stat cost 3000
-set DarkShield stat cost 7000
+set Windshield stat cost 4000
+set FireShield stat cost 4000
+set ThunderShield stat cost 4000
+set LightShield stat cost 4000
+set DarkShield stat cost 8000
 set MetalShield stat cost 3000
 set MithrilShield stat cost 7000
-set Perseid stat cost 7000
+set Perseid stat cost 8000
 set LadyShield stat cost 4000
-set Vollenden stat cost 7000
-set ShiningShield stat cost 4000
-set Aiantos stat cost 3000
+set Vollenden stat cost 8000
+set ShiningShield stat cost 5000
+set Aiantos stat cost 7000
 
 Set VerianSShd Stat cost 540
-set OldImpSShd stat cost 150
+set OldImpSShd stat cost 130
 set ImpSoldierSShd stat cost 260
 set ImpSoldierSShd++ stat cost 520
 set ImpOfficerSShd stat cost 780
@@ -3860,18 +3860,18 @@ Set LeatherMShd stat Weight 3
 Set Kiteshield stat Weight 4
 Set SquareShield stat Weight 5
 Set KnightShield stat Weight 6
-Set LimitShield stat Weight 4
-Set Hestia stat Weight 7
-Set WyrmskinShield stat Weight 4
-Set LadyMShd stat Weight 4
+Set LimitShield stat Weight 5
+Set Hestia stat Weight 5
+Set WyrmskinShield stat Weight 5
+Set LadyMShd stat Weight 5
 Set PaladinShield stat Weight 7
 Set BlackShield stat Weight 7
 
-set LightningShield stat Weight 6
-set RadiantShield stat Weight 6
-set ShadowShield stat Weight 6
-set BlazingShield stat Weight 6
-set GaleShield stat Weight 6
+set LightningShield stat Weight 4
+set RadiantShield stat Weight 4
+set ShadowShield stat Weight 4
+set BlazingShield stat Weight 4
+set GaleShield stat Weight 4
 
 Set VerianMShd stat Weight 5
 Set ImpSoldierMShd stat Weight 5
@@ -3921,7 +3921,7 @@ Set LadyMShd Stat wind_res 14
 Set LadyMShd Stat holy_res 14
 Set LadyMShd Stat dark_res 14
 
-Set PaladinShield Stat mind 6
+Set PaladinShield Stat mind 0
 Set PaladinShield Stat fire_res 14
 Set PaladinShield Stat thunder_res 14
 Set PaladinShield Stat wind_res 14
@@ -4076,7 +4076,7 @@ set KnightShield stat durability A
 set LimitShield stat durability D
 set LadyMShd stat durability A
 set WyrmskinShield Stat durability S
-set Hestia stat durability S
+set Hestia stat durability A
 set PaladinShield stat durability A
 set BlackShield stat durability A
 
@@ -4092,16 +4092,16 @@ set SquareShield stat cost 4000
 set KnightShield stat cost 5000
 set LimitShield stat cost 3000
 set LadyMShd stat cost 7000
-set Hestia stat cost 10000
+set Hestia stat cost 8000
 set WyrmskinShield stat cost 12000
 set PaladinShield stat cost 6000
 set BlackShield stat cost 7000
 
-set LightningShield stat cost 6000
-set RadiantShield stat cost 6000
-set ShadowShield stat cost 6000
-set BlazingShield stat cost 6000
-set GaleShield stat cost 6000
+set LightningShield stat cost 7000
+set RadiantShield stat cost 7000
+set ShadowShield stat cost 7000
+set BlazingShield stat cost 7000
+set GaleShield stat cost 7000
 
 set VerianMShd stat cost 1600
 set ImpSoldierMShd cost 1000
@@ -4211,11 +4211,11 @@ set LeatherLShd stat cost 1910
 set WideShield stat cost 2450
 set IronShield stat cost 4400
 set Greatshield stat cost 10000
-set KojinShield stat cost 4400
-set FujinShield stat cost 4400
-set RaijinShield stat cost 4400
+set KojinShield stat cost 6400
+set FujinShield stat cost 6400
+set RaijinShield stat cost 6400
 set GeneralShield stat cost 10000
-set AmaterasuShield stat cost 8700
+set AmaterasuShield stat cost 11000
 
 set ImpSoldierLShd stat cost 925
 set ImpSoldierLShd+ stat cost 1200
@@ -4228,10 +4228,10 @@ Set WideShield Stat Weight 8
 Set IronShield Stat Weight 10
 Set Greatshield Stat Weight 12
 Set GeneralShield Stat Weight 12
-Set KojinShield Stat Weight 10
-Set FujinShield Stat Weight 10
-Set RaijinShield Stat Weight 10
-Set AmaterasuShield Stat Weight 10
+Set KojinShield Stat Weight 8
+Set FujinShield Stat Weight 8
+Set RaijinShield Stat Weight 8
+Set AmaterasuShield Stat Weight 8
 
 Set VerianLShd Stat Weight 6
 Set ImpSoldierLShd Stat Weight 6
