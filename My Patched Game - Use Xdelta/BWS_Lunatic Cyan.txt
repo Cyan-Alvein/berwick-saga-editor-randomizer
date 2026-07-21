@@ -328,11 +328,11 @@ set leon growth defense 10
 set leon growth speed 40
 set leon growth spear 100
 set leon growth sshield 100
-set leon stat hp +0
-set leon stat strength +1
-set leon stat defense +0
-set leon stat speed +1
-set leon stat magic +3
+set leon base hp +0
+set leon base strength +1
+set leon base defense +0
+set leon base speed +1
+set leon base magic +3
 
 set sherlock item 0 IronBow 101
 set sherlock item 1 IronArrow+ 40
@@ -2299,8 +2299,8 @@ set HolySword stat dark_res 10
 set HolySword stat level 18
 set HolySword stat might 1
 set HolySword stat weight 6
-set ImperialSword stat Cost 1000
-set ImperialSword stat Durability D
+set ImperialSword stat Cost 800
+set ImperialSword stat Durability E
 set ImperialSword stat accuracy 60
 set InfernalEdge effect cripple-rate 16
 set InfernalEdge effect fire-damage 25
@@ -2311,7 +2311,7 @@ set InfernalEdge stat level 18
 set InfernalEdge stat might 1
 set InfernalEdge stat weight 5
 set KillingEdge effect cripple-x2
-set KillingEdge stat 3000
+set KillingEdge stat cost 3000
 set KillingEdge stat Durability C
 set KillingEdge stat accuracy 50
 set KillingEdge stat crit 45
@@ -2358,8 +2358,8 @@ set Nothung stat crit 0
 set Nothung stat dark_res 20
 set Nothung stat might 15
 set Nothung stat weight 10
-set OldImperialSword stat Cost 610
-set OldImperialSword stat Durability E
+set OldImperialSword stat Cost 400
+set OldImperialSword stat Durability F
 set OldImperialSword stat might 7
 set Rapier stat Cost 3000
 set Rapier stat Durability C
@@ -2445,7 +2445,7 @@ set Adrastia stat level 18
 set Adrastia stat might 25
 set Adrastia stat weight 12
 set Adrastia stat accuracy 60
-set Adrastia stat effect cripple-x2
+set Adrastia effect cripple-x2
 set Balmung stat accuracy 60
 set Balmung stat cost 6000
 set Balmung stat crit 0
@@ -2453,7 +2453,7 @@ set Balmung stat weight 12
 set Balmung stat might 22
 set Balmung stat crit 20
 set Balmung stat Durability B
-set Balmung stat effect cripple-x2
+set Balmung effect cripple-x2
 set Balmung2 stat accuracy 60
 set Balmung2 stat cost 6000
 set Balmung2 stat crit 20
@@ -2499,7 +2499,7 @@ set Shamshir stat durability B
 set Shamshir stat level 12
 set Shamshir stat might 19
 set Shamshir stat weight 10
-set Shamshir stat effect cripple-x2
+set Shamshir effect cripple-x2
 set Zanbato effect ignore-defense
 set Zanbato stat accuracy 50
 set Zanbato stat cost 4400
@@ -2513,7 +2513,7 @@ set Zweihander stat crit 0
 set Zweihander stat might 25
 set Zweihander stat weight 12
 set Zweihander stat accuracy 50
-set Zweihander stat effect cripple-x2
+set Zweihander effect cripple-x2
 
 //spears // spears
 
@@ -2597,7 +2597,7 @@ set MithrilSpear stat level 15
 set MithrilSpear stat might 17
 set OldImperialSpear stat Weight 7
 set OldImperialSpear stat accuracy 50
-set OldImperialSpear stat cost 550
+set OldImperialSpear stat cost 400
 set OldImperialSpear stat crit 0
 set OldImperialSpear stat durability F
 set OldImperialSpear stat might 6
@@ -2608,7 +2608,7 @@ set Partisan stat cost 4000
 set Partisan stat crit 0
 set Partisan stat defense 0
 set Partisan stat durability B
-set Partisan stat effect cripple-x2
+set Partisan effect cripple-x2
 set Partisan stat level 18
 set Partisan stat might 21
 set Pike effect cripple-x2
@@ -2938,7 +2938,7 @@ set NimbusAxe stat durability D
 set NimbusAxe stat level 4
 set NimbusAxe stat might 1
 set OldImperialAxe stat Weight 8
-set OldImperialAxe stat accuracy 40
+set OldImperialAxe stat accuracy 250
 set OldImperialAxe stat cost 400
 set OldImperialAxe stat crit 0
 set OldImperialAxe stat durability F
@@ -3048,7 +3048,7 @@ set BronzeBow stat accuracy 50
 set BronzeBow stat cost 680
 set BronzeBow stat crit 0
 set BronzeBow stat dark_res 10
-set BronzeBow stat durability D
+set BronzeBow stat durability E
 set BronzeBow stat fire_res 10
 set BronzeBow stat holy_res 10
 set BronzeBow stat might 3
@@ -3091,10 +3091,10 @@ set ImperialArrow+ stat cost 800
 set ImperialArrow+ stat might 8
 set ImperialBow stat Weight 7
 set ImperialBow stat accuracy 50
-set ImperialBow stat cost 1000
+set ImperialBow stat cost 800
 set ImperialBow stat crit 0
 set ImperialBow stat dark_res 10
-set ImperialBow stat durability D
+set ImperialBow stat durability E
 set ImperialBow stat fire_res 10
 set ImperialBow stat holy_res 10
 set ImperialBow stat might 5
@@ -3142,10 +3142,10 @@ set MithrilArrow stat accuracy 10
 set MithrilArrow stat cost 1400
 set OldImperialBow stat Weight 8
 set OldImperialBow stat accuracy 40
-set OldImperialBow stat cost 550
+set OldImperialBow stat cost 400
 set OldImperialBow stat crit 0
 set OldImperialBow stat dark_res 10
-set OldImperialBow stat durability E
+set OldImperialBow stat durability F
 set OldImperialBow stat fire_res 10
 set OldImperialBow stat holy_res 10
 set OldImperialBow stat might 3
@@ -3377,10 +3377,10 @@ set HeavyCrossbow stat thunder_res 10
 set HeavyCrossbow stat weight 14
 set HeavyCrossbow stat wind_res 10
 set ImperialCrossbow stat accuracy 70
-set ImperialCrossbow stat cost 850
+set ImperialCrossbow stat cost 950
 set ImperialCrossbow stat crit 0
 set ImperialCrossbow stat dark_res 10
-set ImperialCrossbow stat durability D
+set ImperialCrossbow stat durability E
 set ImperialCrossbow stat fire_res 10
 set ImperialCrossbow stat holy_res 10
 set ImperialCrossbow stat max-range 2
@@ -3417,10 +3417,10 @@ set KillerCrossbow stat thunder_res 10
 set KillerCrossbow stat weight 16
 set KillerCrossbow stat wind_res 10
 set OldImperialCrossbow stat accuracy 60
-set OldImperialCrossbow stat cost 700
+set OldImperialCrossbow stat cost 475
 set OldImperialCrossbow stat crit 0
 set OldImperialCrossbow stat dark_res 10
-set OldImperialCrossbow stat durability E
+set OldImperialCrossbow stat durability F
 set OldImperialCrossbow stat fire_res 10
 set OldImperialCrossbow stat holy_res 10
 set OldImperialCrossbow stat max-range 2
@@ -3496,7 +3496,7 @@ set OldBallista stat accuracy 60
 set OldBallista stat cost 2000
 set OldBallista stat crit 0
 set OldBallista stat defense 10
-set OldBallista stat durability D
+set OldBallista stat durability F
 set OldBallista stat magic 10
 set OldBallista stat might 13
 set OldBallista stat speed 5
@@ -3773,7 +3773,7 @@ set ShiningShield stat cost 5000
 set Aiantos stat cost 7000
 
 Set VerianSShd Stat cost 540
-set OldImpSShd stat cost 130
+set OldImpSShd stat cost 150
 set ImpSoldierSShd stat cost 260
 set ImpSoldierSShd++ stat cost 520
 set ImpOfficerSShd stat cost 780
@@ -7416,8 +7416,6 @@ set adel skill deathmatch
 set leon skill deathmatch
 set sherlock skill deathmatch
 set czene skill deathmatch
-set daoud skill deathmatch
-set marcel skill deathmatch
 set enid skill deathmatch
 set aegina skill deathmatch
 set perceval skill deathmatch
@@ -7436,7 +7434,6 @@ set volo skill deathmatch
 set clifford skill deathmatch
 set axel skill deathmatch
 set larentia skill deathmatch
-set derrick skill deathmatch
 set lynette skill deathmatch
 set paramythis skill deathmatch
 

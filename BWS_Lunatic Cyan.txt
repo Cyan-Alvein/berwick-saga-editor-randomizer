@@ -7416,8 +7416,6 @@ set adel skill deathmatch
 set leon skill deathmatch
 set sherlock skill deathmatch
 set czene skill deathmatch
-set daoud skill deathmatch
-set marcel skill deathmatch
 set enid skill deathmatch
 set aegina skill deathmatch
 set perceval skill deathmatch
@@ -7436,7 +7434,6 @@ set volo skill deathmatch
 set clifford skill deathmatch
 set axel skill deathmatch
 set larentia skill deathmatch
-set derrick skill deathmatch
 set lynette skill deathmatch
 set paramythis skill deathmatch
 
