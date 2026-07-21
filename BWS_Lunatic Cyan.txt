@@ -328,11 +328,11 @@ set leon growth defense 10
 set leon growth speed 40
 set leon growth spear 100
 set leon growth sshield 100
-set leon stat hp +0
-set leon stat strength +1
-set leon stat defense +0
-set leon stat speed +1
-set leon stat magic +3
+set leon base hp +0
+set leon base strength +1
+set leon base defense +0
+set leon base speed +1
+set leon base magic +3
 
 set sherlock item 0 IronBow 101
 set sherlock item 1 IronArrow+ 40
@@ -2311,7 +2311,7 @@ set InfernalEdge stat level 18
 set InfernalEdge stat might 1
 set InfernalEdge stat weight 5
 set KillingEdge effect cripple-x2
-set KillingEdge stat 3000
+set KillingEdge stat cost 3000
 set KillingEdge stat Durability C
 set KillingEdge stat accuracy 50
 set KillingEdge stat crit 45
@@ -2445,7 +2445,7 @@ set Adrastia stat level 18
 set Adrastia stat might 25
 set Adrastia stat weight 12
 set Adrastia stat accuracy 60
-set Adrastia stat effect cripple-x2
+set Adrastia effect cripple-x2
 set Balmung stat accuracy 60
 set Balmung stat cost 6000
 set Balmung stat crit 0
@@ -2453,7 +2453,7 @@ set Balmung stat weight 12
 set Balmung stat might 22
 set Balmung stat crit 20
 set Balmung stat Durability B
-set Balmung stat effect cripple-x2
+set Balmung effect cripple-x2
 set Balmung2 stat accuracy 60
 set Balmung2 stat cost 6000
 set Balmung2 stat crit 20
@@ -2499,7 +2499,7 @@ set Shamshir stat durability B
 set Shamshir stat level 12
 set Shamshir stat might 19
 set Shamshir stat weight 10
-set Shamshir stat effect cripple-x2
+set Shamshir effect cripple-x2
 set Zanbato effect ignore-defense
 set Zanbato stat accuracy 50
 set Zanbato stat cost 4400
@@ -2513,7 +2513,7 @@ set Zweihander stat crit 0
 set Zweihander stat might 25
 set Zweihander stat weight 12
 set Zweihander stat accuracy 50
-set Zweihander stat effect cripple-x2
+set Zweihander effect cripple-x2
 
 //spears // spears
 
@@ -2608,7 +2608,7 @@ set Partisan stat cost 4000
 set Partisan stat crit 0
 set Partisan stat defense 0
 set Partisan stat durability B
-set Partisan stat effect cripple-x2
+set Partisan effect cripple-x2
 set Partisan stat level 18
 set Partisan stat might 21
 set Pike effect cripple-x2
@@ -3773,7 +3773,7 @@ set ShiningShield stat cost 5000
 set Aiantos stat cost 7000
 
 Set VerianSShd Stat cost 540
-set OldImpSShd stat cost 130
+set OldImpSShd stat cost 150
 set ImpSoldierSShd stat cost 260
 set ImpSoldierSShd++ stat cost 520
 set ImpOfficerSShd stat cost 780
