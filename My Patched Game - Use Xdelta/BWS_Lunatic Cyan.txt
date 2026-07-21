@@ -2333,7 +2333,7 @@ set LadySword stat weight 3
 set LevinSword effect cripple-rate 12
 set LevinSword effect thunder-damage 20
 set LevinSword stat Cost 2800
-set LevinSword stat Durability D
+set LevinSword stat Durability C
 set LevinSword stat accuracy 60
 set LevinSword stat crit 0
 set LevinSword stat level 12
@@ -2789,9 +2789,9 @@ set BoltAxe effect cripple-rate 12
 set BoltAxe effect thunder-damage 20
 set BoltAxe stat Weight 6
 set BoltAxe stat accuracy 50
-set BoltAxe stat cost 2000
+set BoltAxe stat cost 2650
 set BoltAxe stat crit 0
-set BoltAxe stat durability D
+set BoltAxe stat durability C
 set BoltAxe stat level 8
 set BoltAxe stat might 1
 set BreakerAxe effect break-shield 0
@@ -2820,9 +2820,9 @@ set DarkAxe effect cripple-rate 8
 set DarkAxe effect dark-damage 15
 set DarkAxe stat Weight 6
 set DarkAxe stat accuracy 50
-set DarkAxe stat cost 1620
+set DarkAxe stat cost 2000
 set DarkAxe stat crit 0
-set DarkAxe stat durability D
+set DarkAxe stat durability C
 set DarkAxe stat level 4
 set DarkAxe stat might 1
 set Francisca stat Weight 8
@@ -2845,9 +2845,9 @@ set GlacierAxe effect cripple-rate 8
 set GlacierAxe effect wind-damage 15
 set GlacierAxe stat Weight 6
 set GlacierAxe stat accuracy 50
-set GlacierAxe stat cost 1620
+set GlacierAxe stat cost 2000
 set GlacierAxe stat crit 0
-set GlacierAxe stat durability D
+set GlacierAxe stat durability C
 set GlacierAxe stat level 4
 set GlacierAxe stat might 1
 set GreatAxe effect cripple-rate 16
@@ -2912,7 +2912,11 @@ set LogSplitter stat might 10
 set MaozaWolf stat Weight 13
 set MaozaWolf stat accuracy 40
 set MaozaWolf stat level 15
-set MaozaWolf stat level 16
+set MaozaWolf stat cost 10000
+set MaozaWolf stat might 18
+set MaozaWolf stat durability B
+set MaozaWolf stat weight 10
+set MaozaWolf stat cripple-x2
 set MithrilAxe stat Weight 10
 set MithrilAxe stat cost 4500
 set MithrilAxe stat crit 0
@@ -2923,18 +2927,18 @@ set Mjollnir effect cripple-rate 16
 set Mjollnir effect thunder-damage 25
 set Mjollnir stat Weight 5
 set Mjollnir stat accuracy 50
-set Mjollnir stat cost 2625
+set Mjollnir stat cost 3000
 set Mjollnir stat crit 0
-set Mjollnir stat durability D
+set Mjollnir stat durability C
 set Mjollnir stat level 12
 set Mjollnir stat might 1
 set NimbusAxe effect cripple-rate 8
 set NimbusAxe effect thunder-damage 15
 set NimbusAxe stat Weight 6
 set NimbusAxe stat accuracy 50
-set NimbusAxe stat cost 1620
+set NimbusAxe stat cost 2000
 set NimbusAxe stat crit 0
-set NimbusAxe stat durability D
+set NimbusAxe stat durability C
 set NimbusAxe stat level 4
 set NimbusAxe stat might 1
 set OldImperialAxe stat Weight 8
@@ -2988,9 +2992,9 @@ set VolcanoAxe effect cripple-rate 8
 set VolcanoAxe effect fire-damage 15
 set VolcanoAxe stat Weight 6
 set VolcanoAxe stat accuracy 50
-set VolcanoAxe stat cost 1620
+set VolcanoAxe stat cost 2000
 set VolcanoAxe stat crit 0
-set VolcanoAxe stat durability D
+set VolcanoAxe stat durability C
 set VolcanoAxe stat level 4
 set VolcanoAxe stat might 1
 set WarPick stat cost 2615
@@ -6436,6 +6440,7 @@ set ShiningKnight_R skill Counter
 set Sniper skill Counter
 set Sniper skill Counter
 set SnowBandit skill Counter
+set Spearman skill Counter
 set SpearKnight skill Counter
 set SpearKnight_R skill Counter
 set SpearRider skill Counter
@@ -6938,7 +6943,6 @@ set ShiningKnight_R skill Parry
 set ShiningKnightParamythis skill Parry
 set ShiningKnightParamythis_R skill Parry
 set Sniper skill Parry
-set Spearman skill Parry
 set Swordfighter_M skill Parry
 set Swordmaster skill Parry
 set Thief_F skill Parry
