@@ -611,7 +611,7 @@ set sylvis item 2 Gastraphetes 101
 set sylvis item 3 RaijinArrow 20
 set sylvis item 4 IronArrow+ 40
 set sylvis item 5 Apollyon 101
-set sylvis item 6 Bag 0
+set sylvis item 6 KillerCrossbow 101
 set sylvis item 7 TripleFireBow 101
 set sylvis growth bow 100
 set sylvis growth crossbow 80
@@ -779,7 +779,7 @@ set clifford base speed +2
 set clifford base magic +3
 
 set axel item 0 IronAxe 101
-set axel item 1 Bag 0
+set axel item 1 KillerAxe 101
 set axel item 2 Repairstone 10
 set axel item 3 Treasure 101
 set axel item 4 Bag 0
@@ -890,7 +890,7 @@ set Derrick base magic +3
 set saphira item 1 Holy 20
 set saphira item 2 Bag 0
 set saphira item 3 LightRing 0
-set saphira item 4 Physic 15
+set saphira item 4 Bag 0
 set saphira item 5 Awaken 10
 set saphira item 6 Mend 20
 set saphira item 7 Bag 0
@@ -2118,7 +2118,7 @@ set KillerKnife stat accuracy 50
 set KillerKnife stat cost 2800
 set KillerKnife stat crit 40
 set KillerKnife stat durability C
-set KillerKnife stat level 15
+set KillerKnife stat level 7
 set KillerKnife stat might 0
 set KillerKnife stat weight 5
 set Kris stat accuracy 50
@@ -3141,6 +3141,7 @@ set KillerBow stat Weight 7
 set KillerBow stat accuracy 40
 set KillerBow stat cost 5000
 set KillerBow stat crit 30
+set KillerBow stat level 7
 set KillerBow stat dark_res 10
 set KillerBow stat fire_res 10
 set KillerBow stat holy_res 10
@@ -3432,7 +3433,7 @@ set KillerCrossbow stat dark_res 10
 set KillerCrossbow stat durability C
 set KillerCrossbow stat fire_res 10
 set KillerCrossbow stat holy_res 10
-set KillerCrossbow stat level 15
+set KillerCrossbow stat level 7
 set KillerCrossbow stat max-range 2
 set KillerCrossbow stat might 0
 set KillerCrossbow stat min-range 1
