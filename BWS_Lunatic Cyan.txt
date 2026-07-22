@@ -58,9 +58,9 @@
 
 // BreakerArrow, BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect.
 
-// KillingEdge, KillerSpear, KillerAxe Crit 45%
+// KillingEdge, KillerSpear, KillerAxe, KillerArrow Crit 45%. KillerBow Crit 30%
 
-// Albatross, Grimhild, Brionac, CrookedAxe Crit 90%
+// Albatross, Grimhild, Brionac, CrookedAxe, KillerCrossbow Crit 90%
 
 // All shields give magic stats same as defense stats. So Perseid give 7 magic resist. Shield unit can now tank magic damage too.
 
