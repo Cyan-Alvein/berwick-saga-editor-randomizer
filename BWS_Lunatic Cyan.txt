@@ -110,6 +110,8 @@
 
 // DarkRing 15 Def -10 Mag, DjinnRing 15 Mag -10 Def
 
+//Axel Faramir Esteban Sylvis Czene Thaddy got Locktouch skill
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set ArmorKnight attribute movement knight
@@ -1464,6 +1466,7 @@ set sylvis skill onetwo
 set sylvis skill deathmatch
 set sylvis skill parry
 set sylvis skill counter
+set sylvis skill locktouch
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -1594,6 +1597,7 @@ set faramir skill astra
 set faramir skill knockaway
 set faramir skill counter
 set faramir skill critical
+set faramir skill locktouch
 
 set volo skill adept
 set volo skill blade
@@ -2074,7 +2078,7 @@ set AssassinsKnife stat might 0
 set AssassinsKnife stat weight 8
 set BloodKnife effect dark-damage 10
 set BloodKnife effect nosferatu
-set BloodKnife stat accuracy 60
+set BloodKnife stat accuracy 50
 set BloodKnife stat cost 4000
 set BloodKnife stat crit 0
 set BloodKnife stat level 10
