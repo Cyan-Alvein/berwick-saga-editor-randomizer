@@ -2239,13 +2239,13 @@ set BronzeSword stat Weight 8
 set BronzeSword stat accuracy 40
 set BronzeSword stat crit 0
 set BronzeSword stat might 10
-set Colichemarde stat Cost 6000
+set Colichemarde stat Cost 5000
 set Colichemarde stat Durability C
 set Colichemarde stat accuracy 60
 set Colichemarde stat crit 0
 set Colichemarde stat level 15
 set Colichemarde stat might 0
-set Colichemarde stat weight 5
+set Colichemarde stat weight 6
 set Cutlass stat Cost 4500
 set Cutlass stat Durability A
 set Cutlass stat Weight 3
@@ -2256,11 +2256,11 @@ set Cutlass+ stat Durability A
 set Cutlass+ stat Weight 5
 set Cutlass+ stat crit 0
 set Cutlass+ stat might 13
-set Estoc stat Cost 5000
+set Estoc stat Cost 4000
 set Estoc stat Durability C
 set Estoc stat accuracy 50
 set Estoc stat crit 0
-set Estoc stat might 1
+set Estoc stat might 0
 set Estoc stat weight 8
 set FlameSword effect cripple-rate 12
 set FlameSword effect fire-damage 20
@@ -2480,7 +2480,7 @@ set BastardSword stat durability C
 set BastardSword stat level 10
 set BastardSword stat might 12
 set BastardSword stat weight 14
-set Brymranger stat accuracy 50
+set Brymranger stat accuracy 60
 set Brymranger stat avoid 0
 set Brymranger stat cost 10000
 set Brymranger stat crit 0
@@ -2516,8 +2516,8 @@ set Zanbato stat weight 16
 set Zweihander stat cost 8000
 set Zweihander stat crit 0
 set Zweihander stat might 25
-set Zweihander stat weight 11
-set Zweihander stat accuracy 50
+set Zweihander stat weight 12
+set Zweihander stat accuracy 60
 set Zweihander effect cripple-x2
 
 //spears // spears
@@ -2661,7 +2661,7 @@ set SwiftSpear stat crit 0
 set SwiftSpear stat hex 1
 set SwiftSpear stat level 18
 set SwiftSpear stat might 12
-set SwiftSpear stat weight 6
+set SwiftSpear stat weight 7
 set VerianSpear stat Weight 6
 set VerianSpear stat accuracy 60
 set VerianSpear stat cost 1000
@@ -2732,12 +2732,12 @@ set Pitchfork stat weight 6
 //set Oxtongue stat Durability D
 //set Xyston stat Durability C
 set Drakelance Stat Accuracy 80
-set Drakelance Stat Weight 17
+set Drakelance Stat Weight 15
 set Drakelance effect cripple-x2
 set Drakelance stat cost 6000
 set Drakelance stat hex 6
 set GreatLance Stat Accuracy 70
-set GreatLance Stat Weight 18
+set GreatLance Stat Weight 16
 set GreatLance effect cripple-x2
 set GreatLance stat cost 5000
 set GreatLance stat hex 7
@@ -2795,6 +2795,7 @@ set Bhuj stat cost 4500
 set Bhuj stat crit 0
 set Bhuj stat durability A
 set Bhuj stat might 14
+set Bhuj stat accuracy 50
 set BoltAxe effect cripple-rate 12
 set BoltAxe effect thunder-damage 20
 set BoltAxe stat Weight 6
@@ -2922,7 +2923,7 @@ set LogSplitter stat crit 0
 set LogSplitter stat durability F
 set LogSplitter stat might 10
 set MaozaWolf stat Weight 13
-set MaozaWolf stat accuracy 40
+set MaozaWolf stat accuracy 50
 set MaozaWolf stat level 15
 set MaozaWolf stat cost 10000
 set MaozaWolf stat might 18
@@ -2954,7 +2955,7 @@ set NimbusAxe stat durability C
 set NimbusAxe stat level 4
 set NimbusAxe stat might 1
 set OldImperialAxe stat Weight 8
-set OldImperialAxe stat accuracy 250
+set OldImperialAxe stat accuracy 40
 set OldImperialAxe stat cost 400
 set OldImperialAxe stat crit 0
 set OldImperialAxe stat durability F
@@ -2988,7 +2989,8 @@ set Tabarzin stat cost 4000
 set Tabarzin stat crit 0
 set Tabarzin stat level 15
 set Tabarzin stat weight 7
-set Tabarzin stat accuracy 6
+set Tabarzin stat might 14
+set Tabarzin stat accuracy 60
 set Tabarzin stat durability C
 set Tomahawk stat Weight 8
 set Tomahawk stat accuracy 50
