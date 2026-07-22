@@ -2214,6 +2214,7 @@ Set OldImperialSword stat Weight 6
 Set Vajra stat Weight 10
 Set Vritra stat Weight 5
 set Albatross effect devil-reversal 0
+set Albatross effect cripple-x2
 set Albatross effect pascanion-backfire
 set Albatross stat Cost 8000
 set Albatross stat Durability C
@@ -2280,6 +2281,7 @@ set Gram stat accuracy 60
 set Gram stat crit 0
 set Gram stat might 13
 set Gram stat weight 4
+set Grimhild stat effect cripple-x2
 set Grimhild stat Cost 6000
 set Grimhild stat Durability C
 set Grimhild stat accuracy 50
@@ -2528,6 +2530,7 @@ set Angon stat durability C
 set Angon stat level 15
 set Angon stat might 17
 set Angon stat accuracy 60
+set Brionac effect cripple-x2
 set Brionac stat Weight 12
 set Brionac stat accuracy 50
 set Brionac stat cost 5000
@@ -2813,6 +2816,7 @@ set Broadaxe stat crit 0
 set Broadaxe stat durability D
 set Broadaxe stat level 5
 set CrookedAxe effect devil-reversal 0
+set CrookedAxe effect cripple-x2
 set CrookedAxe effect pascanion-backfire
 set CrookedAxe stat cost 2000
 set CrookedAxe stat Durability F
