@@ -3145,7 +3145,7 @@ set KillerBow stat level 7
 set KillerBow stat dark_res 10
 set KillerBow stat fire_res 10
 set KillerBow stat holy_res 10
-set KillerBow stat level 15
+set KillerBow stat level 7
 set KillerBow stat might 0
 set KillerBow stat thunder_res 10
 set KillerBow stat wind_res 10
