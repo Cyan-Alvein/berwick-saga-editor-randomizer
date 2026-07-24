@@ -2061,7 +2061,7 @@ set Wormwood stat crit 0
 
 //set AssassinsKnife stat crit 80
 set AirKnife effect cripple-rate 8
-set AirKnife effect wind-damage 15
+set AirKnife effect wind-damage 13
 set AirKnife stat accuracy 60
 set AirKnife stat cost 3000
 set AirKnife stat crit 0
@@ -2076,7 +2076,7 @@ set AssassinsKnife stat durability F
 set AssassinsKnife stat level 20
 set AssassinsKnife stat might 0
 set AssassinsKnife stat weight 6
-set BloodKnife effect dark-damage 10
+set BloodKnife effect dark-damage 8
 set BloodKnife effect nosferatu
 set BloodKnife stat accuracy 50
 set BloodKnife stat cost 4000
@@ -2161,10 +2161,10 @@ set SleepKnife stat might 2
 set StunKnife stat crit 0
 set StunKnife stat durability C
 set StunKnife stat level 12
-set StunKnife stat might 2
+set StunKnife stat might 6
 set StunKnife stat weight 3
 set Stunknife effect disarm-rate 100
-set Stunknife stat accuracy 50
+set Stunknife stat accuracy 40
 set Stunknife stat cost 1600
 set SwordBreaker stat crit 0
 set Swordbreaker effect cripple-x2
@@ -2174,14 +2174,16 @@ set Swordbreaker stat cost 2800
 set Swordbreaker stat durability C
 set Swordbreaker stat level 10
 set Swordbreaker stat might 6
+set Swordbreaker stat weight 3
 set TempestKnife effect cripple-rate 16
-set TempestKnife effect wind-damage 20
+set TempestKnife effect wind-damage 18
 set TempestKnife stat cost 8000
 set TempestKnife stat crit 0
 set TempestKnife stat durability B
 set TempestKnife stat level 15
 set TempestKnife stat might 0
 set TempestKnife stat weight 3
+set TempestKnife stat accuracy 60
 set ThiefsCharm effect steal-rate-plus 50
 set ThiefsKnife effect steal-rate-plus 50
 set ThiefsKnife stat accuracy 50
@@ -2215,7 +2217,7 @@ set Albatross effect devil-reversal 0
 set Albatross stat Cost 8000
 set Albatross stat Durability C
 set Albatross stat accuracy 40
-set Albatross stat crit 90
+set Albatross stat crit 87
 set Albatross stat level 12
 set Albatross stat weight 14
 set Albatross stat might 1
@@ -2244,7 +2246,7 @@ set Colichemarde stat Durability C
 set Colichemarde stat accuracy 60
 set Colichemarde stat crit 0
 set Colichemarde stat level 15
-set Colichemarde stat might 0
+set Colichemarde stat might 1
 set Colichemarde stat weight 6
 set Cutlass stat Cost 4500
 set Cutlass stat Durability A
@@ -2260,7 +2262,7 @@ set Estoc stat Cost 4000
 set Estoc stat Durability C
 set Estoc stat accuracy 50
 set Estoc stat crit 0
-set Estoc stat might 0
+set Estoc stat might 1
 set Estoc stat weight 8
 set FlameSword effect cripple-rate 12
 set FlameSword effect fire-damage 20
@@ -2281,7 +2283,7 @@ set Grimhild stat effect cripple-x2
 set Grimhild stat Cost 6000
 set Grimhild stat Durability C
 set Grimhild stat accuracy 50
-set Grimhild stat crit 90
+set Grimhild stat crit 87
 set Grimhild stat level 15
 set Grimhild stat weight 12
 set Grimhild stat might 1
@@ -2315,10 +2317,10 @@ set InfernalEdge stat weight 5
 set KillingEdge effect cripple-x2
 set KillingEdge stat cost 3000
 set KillingEdge stat Durability C
-set KillingEdge stat accuracy 50
-set KillingEdge stat crit 45
+set KillingEdge stat accuracy 40
+set KillingEdge stat crit 43
 set KillingEdge stat level 7
-set KillingEdge stat might 1
+set KillingEdge stat might 0
 set KillingEdge stat weight 7
 set KnightSword stat Cost 4000
 set KnightSword stat Durability A
@@ -2329,9 +2331,9 @@ set KnightSword stat weight 5
 set LadySword stat Cost 3000
 set LadySword stat Durability C
 set LadySword stat accuracy 70
-set LadySword stat crit 20
-set LadySword stat might 6
-set LadySword stat weight 3
+set LadySword stat crit 27
+set LadySword stat might 9
+set LadySword stat weight 5
 set LevinSword effect cripple-rate 12
 set LevinSword effect thunder-damage 20
 set LevinSword stat Cost 2800
@@ -2367,7 +2369,7 @@ set Rapier stat Durability C
 set Rapier stat Weight 7
 set Rapier stat accuracy 60
 set Rapier stat crit 0
-set Rapier stat might 0
+set Rapier stat might 1
 set RazeEtoile stat Cost 3000
 set RazeEtoile stat Durability C
 set RazeEtoile stat accuracy 60
@@ -2477,8 +2479,8 @@ set BastardSword stat cost 5000
 set BastardSword stat crit 0
 set BastardSword stat durability C
 set BastardSword stat level 10
-set BastardSword stat might 12
-set BastardSword stat weight 14
+set BastardSword stat might 13
+set BastardSword stat weight 13
 set Brymranger stat accuracy 60
 set Brymranger stat avoid 0
 set Brymranger stat cost 10000
@@ -2511,7 +2513,7 @@ set Zanbato stat crit 0
 set Zanbato stat durability C
 set Zanbato stat level 15
 set Zanbato stat might 1
-set Zanbato stat weight 16
+set Zanbato stat weight 13
 set Zweihander stat cost 8000
 set Zweihander stat crit 0
 set Zweihander stat might 25
@@ -2532,7 +2534,7 @@ set Brionac effect cripple-x2
 set Brionac stat Weight 12
 set Brionac stat accuracy 50
 set Brionac stat cost 5000
-set Brionac stat crit 90
+set Brionac stat crit 86
 set Brionac stat durability C
 set Brionac stat hex 0
 set Brionac stat level 15
@@ -2582,13 +2584,13 @@ set Javelin stat might 17
 set Javelin stat uses 20
 set KillerSpear effect cripple-x2
 set KillerSpear stat Weight 7
-set KillerSpear stat accuracy 50
+set KillerSpear stat accuracy 40
 set KillerSpear stat cost 3000
-set KillerSpear stat crit 45
+set KillerSpear stat crit 43
 set KillerSpear stat durability C
 set KillerSpear stat hex 0
 set KillerSpear stat level 7
-set KillerSpear stat might 1
+set KillerSpear stat might 0
 set LongSpear stat cost 2500
 set LongSpear stat level 10
 set Longspear effect cripple-x2
@@ -2811,7 +2813,7 @@ set BreakerAxe stat accuracy 30
 set BreakerAxe stat crit 0
 set BreakerAxe stat durability C
 set BreakerAxe stat level 12
-set BreakerAxe stat might 8
+set BreakerAxe stat might 14
 set BreakerAxe stat cost 1750
 set BroadAxe stat cost 720
 set Broadaxe stat Weight 7
@@ -2825,7 +2827,7 @@ set CrookedAxe stat cost 2000
 set CrookedAxe stat Durability F
 set CrookedAxe stat Weight 14
 set CrookedAxe stat accuracy 30
-set CrookedAxe stat crit 90
+set CrookedAxe stat crit 94
 set CrookedAxe stat might 0
 set DarkAxe effect cripple-rate 8
 set DarkAxe effect dark-damage 15
@@ -2884,7 +2886,7 @@ set Hammer stat accuracy 40
 set Hammer stat crit 0
 set Hammer stat durability D
 set Hammer stat level 15
-set Hammer stat might 0
+set Hammer stat might 6
 set HandAxe stat Weight 6
 set HandAxe stat accuracy 40
 set HandAxe stat cost 970
@@ -2907,10 +2909,10 @@ set ImperialAxe stat might 10
 set IronAxe stat cost 600
 set IronAxe stat crit 0
 set KillerAxe effect cripple-x2
-set KillerAxe stat Weight 7
-set KillerAxe stat accuracy 40
+set KillerAxe stat Weight 8
+set KillerAxe stat accuracy 30
 set KillerAxe stat cost 3000
-set KillerAxe stat crit 45
+set KillerAxe stat crit 47
 set KillerAxe stat durability C
 set KillerAxe stat level 7
 set KillerAxe stat might 0
@@ -2973,7 +2975,7 @@ set Poleax stat cost 4000
 set Poleax stat crit 0
 set Poleax stat durability C
 set Poleax stat level 10
-set Poleax stat might 15
+set Poleax stat might 18
 set Pulverizer stat crit 0
 set ShieldAxe stat cost 6000
 set ShieldAxe stat durability C
@@ -3015,7 +3017,7 @@ set WarPick stat cost 2000
 set WarPick stat Weight 8
 set WarPick stat accuracy 50
 set WarPick stat crit 0
-set WarPick stat might 1
+set WarPick stat might 2
 set WarPick stat Durability C
 set Warpick stat level 7
 
@@ -3049,7 +3051,7 @@ set Apollyon stat might 5
 set Apollyon stat thunder_res 10
 set Apollyon stat wind_res 10
 set BodkinArrow stat accuracy 10
-set BodkinArrow stat might 0
+set BodkinArrow stat might 2
 set BreakerArrow effect disarm-rate 100
 set BreakerArrow stat cost 1400
 set BreakerArrow stat might 6
@@ -3057,7 +3059,7 @@ set BroadheadArrow effect ignore-shields
 set BroadheadArrow effect kill-horse 0
 set BroadheadArrow stat accuracy 10
 set BroadheadArrow stat cost 1400
-set BroadheadArrow stat might 0
+set BroadheadArrow stat might 2
 set BronzeArrow stat accuracy 10
 set BronzeArrow stat cost 400
 set BronzeArrow+ stat cost 500
@@ -3134,11 +3136,11 @@ set IronBow stat might 3
 set IronBow stat thunder_res 10
 set IronBow stat wind_res 10
 set KillerArrow effect cripple-x2
-set KillerArrow stat crit 46
+set KillerArrow stat crit 47
 set KillerArrow stat might 0
 set KillerBow effect cripple-x2
 set KillerBow stat Weight 10
-set KillerBow stat accuracy 40
+set KillerBow stat accuracy 30
 set KillerBow stat cost 5000
 set KillerBow stat crit 37
 set KillerBow stat level 7
@@ -8416,7 +8418,7 @@ set Arrow++ stat might 8
 // There are "??" Item_Effect on "BWSDefinitions.py", surely effects like HealthCharm, MiracleCharm are 1 of them. We should try them out.
 // How I did the balance. Character with Deathmatch (Leon) got -7 stat compared to those without (Adel)
 // Injure 100% weapon stat = +2 weight -20% accuracy
-// KillingEdge = AltiumSword stat & Crit = Might/2, 15 Might = 100% crit so 14 = 93%. I divise the crit by 2 for balance since crit is OP (Ignore both shield and defense).
-// Rapier effect = -15 might
-// Hammer Zanbato = -30 might, GreatAxe GreatSword stats were used
+// KillingEdge = AltiumSword stat & Crit = Might/2, 15 Might = 100% crit so 14 = 93%, accuracy -10%. I divise the crit by 2 for balance since crit is OP (Ignore both shield and defense).
+// Rapier effect = -12 might
+// Hammer Zanbato = -24 might, GreatAxe GreatSword stats were used
 // Mithril and Rare weapon got -2 weight in general.
