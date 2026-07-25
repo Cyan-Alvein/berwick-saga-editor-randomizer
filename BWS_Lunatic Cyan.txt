@@ -169,9 +169,9 @@ unset RazeMonkOwen skill limited
 set reese item 3 Bag 0
 set reese item 4 RoundShield 101
 set reese item 5 AltiumSword 101
-set reese item 6 Estoc 101 
+set reese item 6 KillingEdge 101 
 set reese item 7 Bag 0
-set reese base sword +20
+set reese base sword +30
 set reese base sshield +20
 set reese growth hp 30
 set reese growth strength 30
@@ -195,10 +195,10 @@ set reese base defense +0
 set reese base speed +2
 set reese base magic +3
 
-set ward item 0 Estoc 101
+set ward item 0 Longspear 101
 set ward item 1 SquareShield 101
 set ward item 2 BlackShield 101
-set ward item 3 Longspear 101
+set ward item 3 KillerSpear 101
 set ward item 4 Javelin 20
 set ward item 5 Partisan 101
 set ward item 6 RadiantShield 101 
@@ -211,8 +211,8 @@ set ward growth strength 30
 set ward growth defense 20
 set ward growth speed 20
 set ward base mshield +20
-set ward base sword +20
-set ward base spear +20
+set ward base sword +30
+set ward base spear +30
 set VeteranKnight cap spear 60
 set VeteranKnight cap sword 50
 set VeteranKnight_R cap spear 60
@@ -240,8 +240,8 @@ set elbert growth spear 80
 set elbert growth sshield 70
 set elbert growth mshield 70
 set elbert base sshield +25
-set elbert base sword +25
-set elbert base spear +25
+set elbert base sword +30
+set elbert base spear +30
 set elbert base mshield +40
 set elbert base magic +3
 
@@ -287,8 +287,8 @@ set christine base strength +0
 set christine base defense +1
 set christine base speed +7
 set christine base magic +3
-set christine base bow +20
-set christine base crossbow +20
+set christine base bow +30
+set christine base crossbow +30
 set christine base sword +40
 
 set adel item 0 IronSpear 101
@@ -300,7 +300,7 @@ set adel item 5 IronLance 101
 set adel item 6 Pilum 20
 set adel item 7 Harpoon 101
 set adel base sshield +20
-set adel base spear +20
+set adel base spear +30
 set adel growth hp 10
 set adel growth strength 40
 set adel growth defense 40
@@ -323,7 +323,7 @@ set leon item 5 Pilum 20
 set leon item 6 GoreFork 101
 set leon item 7 Harpoon 101
 set leon base sshield +20
-set leon base spear +20
+set leon base spear +30
 set leon growth hp 20
 set leon growth strength 40
 set leon growth defense 10
@@ -348,7 +348,7 @@ set sherlock growth hp 15
 set sherlock growth strength 40
 set sherlock growth defense 5
 set sherlock growth speed 40
-set sherlock base bow +20
+set sherlock base bow +30
 
 set izerna item 1 Soothe 20
 set izerna item 2 BlessedBrace 0
@@ -427,7 +427,7 @@ set Daoud base mshield +30
 set Daoud base magic +3
 
 set enid base sword +40
-set enid base fire +40
+set enid base fire +50
 set enid base thunder +40
 set Enid item 1 Hellfire 20
 set Enid item 2 Thunder 20
@@ -487,10 +487,10 @@ set alvina growth strength 25
 set alvina growth defense 25
 set alvina growth speed 35
 set alvina growth magic 0
-set alvina base sword +25
-set alvina base spear +25
-set alvina base sshield +25
-set alvina base mshield +25
+set alvina base sword +30
+set alvina base spear +30
+set alvina base sshield +30
+set alvina base mshield +30
 set alvina base hp +0
 set alvina base strength +0
 set alvina base defense +0
@@ -513,8 +513,8 @@ set ruby growth strength 25
 set ruby growth defense 20
 set ruby growth speed 40
 set ruby growth magic 0
-set ruby base sword +20
-set ruby base spear +20
+set ruby base sword +30
+set ruby base spear +30
 set ruby base sshield +20
 set ruby base mshield +40
 set Chevalire cap mshield 50
@@ -549,7 +549,7 @@ set arthur growth magic 0
 set arthur base sword +20
 set arthur base sshield +20
 set arthur base mshield +20
-set arthur base spear +40
+set arthur base spear +45
 set arthur base hp +2
 set arthur base strength +0
 set arthur base defense +0
@@ -573,7 +573,7 @@ set kramer growth speed 20
 
 set dean item 2 HandAxe 20
 set dean item 3 Treasure 101
-set dean item 4 LogSplitter 101
+set dean item 4 Bag 0
 set dean item 5 Bag 0
 set dean item 6 DawnCharm 0
 set dean item 7 GamblersBrace 0
@@ -626,7 +626,7 @@ set sylvis base defense +1
 set sylvis base speed +2
 set sylvis base magic +0
 set sylvis base bow +20
-set sylvis base crossbow +20
+set sylvis base crossbow +25
 
 set perceval item 1 Thunder 20
 set perceval item 2 Treasure 101
@@ -679,7 +679,7 @@ set esteban item 4 Bag 0
 set esteban item 5 Bag 0
 set esteban item 6 Bag 0
 set esteban item 7 Bag 0
-set esteban base knife +25
+set esteban base knife +30
 set esteban base bow +20
 set esteban base sword +40
 set esteban base hp +0
@@ -815,8 +815,8 @@ set larentia growth strength 40
 set larentia growth defense 10
 set larentia growth speed 40
 set larentia growth magic 0
-set larentia base sword +25
-set larentia base spear +25
+set larentia base sword +30
+set larentia base spear +30
 set larentia base sshield +25
 set larentia base hp +3
 set larentia base strength +3
@@ -879,7 +879,7 @@ set Derrick item 4 RaijinShield 101
 set Derrick item 5 AmaterasuShield 101
 set Derrick item 6 Treasure 101
 set Derrick item 7 Bag 0
-set Derrick base axe +20
+set Derrick base axe +30
 set Derrick base lshield +20
 set Derrick base hp +10
 set Derrick base strength +5
@@ -941,7 +941,7 @@ set paramythis growth strength 40
 set paramythis growth defense 30
 set paramythis growth speed 10
 set paramythis growth mind 30
-set paramythis base sword +20
+set paramythis base sword +25
 set paramythis base holy +20
 
 set reese skill adept
@@ -2736,7 +2736,10 @@ set Drakelance Stat Accuracy 80
 set Drakelance Stat Weight 15
 set Drakelance effect cripple-x2
 set Drakelance stat cost 6000
-set Drakelance stat hex 6
+set Drakelance stat hex 7
+set Drakelance stat might 1
+set Drakelance stat durability B
+set Drakelance stat level 20
 set GreatLance Stat Accuracy 70
 set GreatLance Stat Weight 16
 set GreatLance effect cripple-x2
