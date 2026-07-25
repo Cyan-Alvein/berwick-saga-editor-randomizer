@@ -2120,7 +2120,7 @@ set KillerKnife stat crit 40
 set KillerKnife stat durability C
 set KillerKnife stat level 7
 set KillerKnife stat might 0
-set KillerKnife stat weight 3
+set KillerKnife stat weight 5
 set Kris stat accuracy 50
 set Kris stat cost 2800
 set Kris stat crit 0
@@ -2216,10 +2216,10 @@ set Albatross effect pascanion-backfire
 set Albatross effect devil-reversal 0
 set Albatross stat Cost 8000
 set Albatross stat Durability C
-set Albatross stat accuracy 40
-set Albatross stat crit 87
+set Albatross stat accuracy 50
+set Albatross stat crit 90
 set Albatross stat level 12
-set Albatross stat weight 14
+set Albatross stat weight 16
 set Albatross stat might 1
 set AltiumSword effect cripple-x2
 set AltiumSword stat Cost 3400
@@ -2282,11 +2282,11 @@ set Gram stat weight 5
 set Grimhild stat effect cripple-x2
 set Grimhild stat Cost 6000
 set Grimhild stat Durability C
-set Grimhild stat accuracy 50
-set Grimhild stat crit 87
+set Grimhild stat accuracy 60
+set Grimhild stat crit 90
 set Grimhild stat level 15
-set Grimhild stat weight 12
-set Grimhild stat might 1
+set Grimhild stat weight 14
+set Grimhild stat might 0
 set Harperia stat Cost 4500
 set Harperia stat Durability A
 set Harperia stat accuracy 60
@@ -2317,11 +2317,11 @@ set InfernalEdge stat weight 5
 set KillingEdge effect cripple-x2
 set KillingEdge stat cost 3000
 set KillingEdge stat Durability C
-set KillingEdge stat accuracy 40
+set KillingEdge stat accuracy 50
 set KillingEdge stat crit 43
 set KillingEdge stat level 7
 set KillingEdge stat might 0
-set KillingEdge stat weight 7
+set KillingEdge stat weight 9
 set KnightSword stat Cost 4000
 set KnightSword stat Durability A
 set KnightSword stat accuracy 60
@@ -2531,10 +2531,10 @@ set Angon stat level 15
 set Angon stat might 17
 set Angon stat accuracy 60
 set Brionac effect cripple-x2
-set Brionac stat Weight 12
+set Brionac stat Weight 14
 set Brionac stat accuracy 50
 set Brionac stat cost 5000
-set Brionac stat crit 86
+set Brionac stat crit 90
 set Brionac stat durability C
 set Brionac stat hex 0
 set Brionac stat level 15
@@ -2583,8 +2583,8 @@ set Javelin stat crit 0
 set Javelin stat might 17
 set Javelin stat uses 20
 set KillerSpear effect cripple-x2
-set KillerSpear stat Weight 7
-set KillerSpear stat accuracy 40
+set KillerSpear stat Weight 9
+set KillerSpear stat accuracy 50
 set KillerSpear stat cost 3000
 set KillerSpear stat crit 43
 set KillerSpear stat durability C
@@ -2828,9 +2828,9 @@ set CrookedAxe effect pascanion-backfire
 set CrookedAxe effect devil-reversal 0
 set CrookedAxe stat cost 2000
 set CrookedAxe stat Durability F
-set CrookedAxe stat Weight 14
-set CrookedAxe stat accuracy 30
-set CrookedAxe stat crit 94
+set CrookedAxe stat Weight 17
+set CrookedAxe stat accuracy 40
+set CrookedAxe stat crit 87
 set CrookedAxe stat might 0
 set DarkAxe effect cripple-rate 8
 set DarkAxe effect dark-damage 15
@@ -2912,10 +2912,10 @@ set ImperialAxe stat might 10
 set IronAxe stat cost 600
 set IronAxe stat crit 0
 set KillerAxe effect cripple-x2
-set KillerAxe stat Weight 8
-set KillerAxe stat accuracy 30
+set KillerAxe stat Weight 10
+set KillerAxe stat accuracy 40
 set KillerAxe stat cost 3000
-set KillerAxe stat crit 47
+set KillerAxe stat crit 40
 set KillerAxe stat durability C
 set KillerAxe stat level 7
 set KillerAxe stat might 0
@@ -3142,8 +3142,8 @@ set KillerArrow effect cripple-x2
 set KillerArrow stat crit 47
 set KillerArrow stat might 0
 set KillerBow effect cripple-x2
-set KillerBow stat Weight 10
-set KillerBow stat accuracy 30
+set KillerBow stat Weight 12
+set KillerBow stat accuracy 40
 set KillerBow stat cost 5000
 set KillerBow stat crit 37
 set KillerBow stat level 7
@@ -3433,7 +3433,7 @@ set IronCrossbow stat thunder_res 10
 set IronCrossbow stat weight 12
 set IronCrossbow stat wind_res 10
 set KillerCrossbow effect cripple-x2
-set KillerCrossbow stat accuracy 50
+set KillerCrossbow stat accuracy 60
 set KillerCrossbow stat cost 3500
 set KillerCrossbow stat crit 90
 set KillerCrossbow stat dark_res 10
@@ -3445,7 +3445,7 @@ set KillerCrossbow stat max-range 2
 set KillerCrossbow stat might 0
 set KillerCrossbow stat min-range 1
 set KillerCrossbow stat thunder_res 10
-set KillerCrossbow stat weight 14
+set KillerCrossbow stat weight 16
 set KillerCrossbow stat wind_res 10
 set OldImperialCrossbow stat accuracy 60
 set OldImperialCrossbow stat cost 475
