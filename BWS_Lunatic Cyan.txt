@@ -3445,7 +3445,7 @@ set KillerCrossbow stat max-range 2
 set KillerCrossbow stat might 0
 set KillerCrossbow stat min-range 1
 set KillerCrossbow stat thunder_res 10
-set KillerCrossbow stat weight 17
+set KillerCrossbow stat weight 14
 set KillerCrossbow stat wind_res 10
 set OldImperialCrossbow stat accuracy 60
 set OldImperialCrossbow stat cost 475
