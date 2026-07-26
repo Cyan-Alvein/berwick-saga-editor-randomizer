@@ -2120,7 +2120,7 @@ set KillerKnife stat crit 40
 set KillerKnife stat durability C
 set KillerKnife stat level 7
 set KillerKnife stat might 0
-set KillerKnife stat weight 5
+set KillerKnife stat weight 4
 set Kris stat accuracy 50
 set Kris stat cost 2800
 set Kris stat crit 0
@@ -2830,7 +2830,7 @@ set CrookedAxe stat cost 2000
 set CrookedAxe stat Durability F
 set CrookedAxe stat Weight 15
 set CrookedAxe stat accuracy 40
-set CrookedAxe stat crit 87
+set CrookedAxe stat crit 90
 set CrookedAxe stat might 0
 set DarkAxe effect cripple-rate 8
 set DarkAxe effect dark-damage 15
@@ -2915,7 +2915,7 @@ set KillerAxe effect cripple-x2
 set KillerAxe stat Weight 11
 set KillerAxe stat accuracy 40
 set KillerAxe stat cost 3000
-set KillerAxe stat crit 40
+set KillerAxe stat crit 47
 set KillerAxe stat durability C
 set KillerAxe stat level 7
 set KillerAxe stat might 0
@@ -8419,9 +8419,9 @@ set Arrow++ stat might 8
 // The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
 // crit_avoid_penalty seems not working on shield. it worked on ring. It increases ennemy crit rate.
 // There are "??" Item_Effect on "BWSDefinitions.py", surely effects like HealthCharm, MiracleCharm are 1 of them. We should try them out.
-// How I did the balance. Character with Deathmatch (Leon) got -7 stat compared to those without (Adel)
+// How I did the balance. Character with critical skill Faye Leon ... got -7 stat compared to those without Arthur Dean
 // Injure 100% weapon stat = +2 weight -20% accuracy
-// KillingEdge = AltiumSword stat & Crit = Might/2, 15 Might = 100% crit so 14 = 93%, accuracy -10%. I divise the crit by 2 for balance since crit is OP (Ignore both shield and defense).
+// KillingEdge = AltiumSword stat & Crit = Might/2, +3 Weight, 15 Might = 100% crit so 14 = 93%. I divise the crit by 2 for balance since crit is OP (Ignore both shield and defense).
 // Rapier effect = -12 might
 // Hammer Zanbato = -24 might, GreatAxe GreatSword stats were used
 // Mithril and Rare weapon got -2 weight in general.
