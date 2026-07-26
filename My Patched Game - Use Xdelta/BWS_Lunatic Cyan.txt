@@ -2071,8 +2071,8 @@ set Airknife stat level 5
 set Airknife stat might 0
 set AssassinsKnife effect cripple-x2
 set AssassinsKnife stat accuracy 50
-set AssassinsKnife stat cost 4000
-set AssassinsKnife stat durability F
+set AssassinsKnife stat cost 3600
+set AssassinsKnife stat durability C
 set AssassinsKnife stat level 20
 set AssassinsKnife stat might 0
 set AssassinsKnife stat weight 6
@@ -2115,7 +2115,7 @@ set Dart stat uses 20
 set Dart stat weight 2
 set KillerKnife effect cripple-x2
 set KillerKnife stat accuracy 50
-set KillerKnife stat cost 2800
+set KillerKnife stat cost 1800
 set KillerKnife stat crit 40
 set KillerKnife stat durability C
 set KillerKnife stat level 7
@@ -2145,6 +2145,7 @@ set PoisonKnife stat crit 0
 set PoisonKnife stat might 2
 set PoisonKnife stat accuracy 60
 set Seax stat accuracy 50
+set Seax stat durability C
 set Seax stat cost 1800
 set Seax stat crit 0
 set Seax stat level 10
@@ -2214,7 +2215,7 @@ Set Vritra stat Weight 5
 set Albatross effect cripple-x2
 set Albatross effect pascanion-backfire
 set Albatross effect devil-reversal 0
-set Albatross stat Cost 8000
+set Albatross stat Cost 4000
 set Albatross stat Durability C
 set Albatross stat accuracy 50
 set Albatross stat crit 90
@@ -2280,7 +2281,7 @@ set Gram stat crit 0
 set Gram stat might 13
 set Gram stat weight 5
 set Grimhild stat effect cripple-x2
-set Grimhild stat Cost 6000
+set Grimhild stat Cost 5000
 set Grimhild stat Durability C
 set Grimhild stat accuracy 60
 set Grimhild stat crit 90
@@ -2315,7 +2316,7 @@ set InfernalEdge stat level 18
 set InfernalEdge stat might 1
 set InfernalEdge stat weight 5
 set KillingEdge effect cripple-x2
-set KillingEdge stat cost 3000
+set KillingEdge stat cost 2000
 set KillingEdge stat Durability C
 set KillingEdge stat accuracy 50
 set KillingEdge stat crit 43
@@ -2331,8 +2332,8 @@ set KnightSword stat weight 5
 set LadySword stat Cost 3000
 set LadySword stat Durability C
 set LadySword stat accuracy 70
-set LadySword stat crit 27
-set LadySword stat might 9
+set LadySword stat crit 0
+set LadySword stat might 13
 set LadySword stat weight 5
 set LevinSword effect cripple-rate 12
 set LevinSword effect thunder-damage 20
@@ -2450,26 +2451,26 @@ set Adrastia stat might 25
 set Adrastia stat weight 11
 set Adrastia stat accuracy 60
 set Adrastia effect cripple-x2
-set Balmung stat accuracy 60
+set Balmung stat accuracy 70
 set Balmung stat cost 6000
 set Balmung stat crit 0
 set Balmung stat weight 11
-set Balmung stat might 19
-set Balmung stat crit 40
+set Balmung stat might 25
+set Balmung stat crit 0
 set Balmung stat Durability B
 set Balmung effect cripple-x2
-set Balmung2 stat accuracy 60
+set Balmung2 stat accuracy 70
 set Balmung2 stat cost 6000
-set Balmung2 stat crit 40
+set Balmung2 stat crit 0
 set Balmung2 stat weight 11
-set Balmung2 stat might 19
+set Balmung2 stat might 25
 set Balmung2 Durability B
 set Balmung2 effect cripple-x2
-set Balmung3 stat accuracy 60
+set Balmung3 stat accuracy 70
 set Balmung3 stat cost 6000
-set Balmung3 stat crit 40
+set Balmung3 stat crit 0
 set Balmung3 stat weight 11
-set Balmung3 stat might 19
+set Balmung3 stat might 25
 set Balmung3 Durability B
 set Balmung3 effect cripple-x2
 set BastardSword effect cripple-x2
@@ -2532,7 +2533,7 @@ set Angon stat might 17
 set Angon stat accuracy 60
 set Brionac effect cripple-x2
 set Brionac stat Weight 12
-set Brionac stat accuracy 50
+set Brionac stat accuracy 60
 set Brionac stat cost 5000
 set Brionac stat crit 90
 set Brionac stat durability C
@@ -2585,7 +2586,7 @@ set Javelin stat uses 20
 set KillerSpear effect cripple-x2
 set KillerSpear stat Weight 10
 set KillerSpear stat accuracy 50
-set KillerSpear stat cost 3000
+set KillerSpear stat cost 2000
 set KillerSpear stat crit 43
 set KillerSpear stat durability C
 set KillerSpear stat hex 0
@@ -2826,8 +2827,8 @@ set Broadaxe stat level 5
 set CrookedAxe effect cripple-x2
 set CrookedAxe effect pascanion-backfire
 set CrookedAxe effect devil-reversal 0
-set CrookedAxe stat cost 2000
-set CrookedAxe stat Durability F
+set CrookedAxe stat cost 4000
+set CrookedAxe stat Durability C
 set CrookedAxe stat Weight 15
 set CrookedAxe stat accuracy 40
 set CrookedAxe stat crit 90
@@ -2914,7 +2915,7 @@ set IronAxe stat crit 0
 set KillerAxe effect cripple-x2
 set KillerAxe stat Weight 11
 set KillerAxe stat accuracy 40
-set KillerAxe stat cost 3000
+set KillerAxe stat cost 2000
 set KillerAxe stat crit 47
 set KillerAxe stat durability C
 set KillerAxe stat level 7
@@ -3098,6 +3099,7 @@ set FreezeArrow stat cost 1000
 set FreezeArrow stat might 0
 set Greatbow stat effect cripple-x2
 set Greatbow stat Weight 10
+set Greatbow stat durability B
 set Greatbow stat accuracy 40
 set Greatbow stat cost 3500
 set Greatbow stat crit 0
@@ -3132,19 +3134,20 @@ set IronBow stat cost 827
 set IronBow stat crit 0
 set IronBow stat dark_res 10
 set IronBow stat durability C
-set IronBow stat durability C
 set IronBow stat fire_res 10
 set IronBow stat holy_res 10
 set IronBow stat might 3
 set IronBow stat thunder_res 10
 set IronBow stat wind_res 10
 set KillerArrow effect cripple-x2
+set KillerArrow stat accuracy 10
 set KillerArrow stat crit 47
 set KillerArrow stat might 0
 set KillerBow effect cripple-x2
 set KillerBow stat Weight 13
+set KillerBow stat durability B
 set KillerBow stat accuracy 40
-set KillerBow stat cost 5000
+set KillerBow stat cost 3500
 set KillerBow stat crit 37
 set KillerBow stat level 7
 set KillerBow stat dark_res 10
@@ -3434,7 +3437,7 @@ set IronCrossbow stat weight 12
 set IronCrossbow stat wind_res 10
 set KillerCrossbow effect cripple-x2
 set KillerCrossbow stat accuracy 60
-set KillerCrossbow stat cost 3500
+set KillerCrossbow stat cost 2600
 set KillerCrossbow stat crit 90
 set KillerCrossbow stat dark_res 10
 set KillerCrossbow stat durability C
