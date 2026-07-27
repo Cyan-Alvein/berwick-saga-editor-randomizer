@@ -2331,7 +2331,7 @@ set KnightSword stat might 9
 set KnightSword stat weight 5
 set LadySword stat Cost 3000
 set LadySword stat Durability C
-set LadySword stat accuracy 70
+set LadySword stat accuracy 60
 set LadySword stat crit 0
 set LadySword stat might 13
 set LadySword stat weight 5
