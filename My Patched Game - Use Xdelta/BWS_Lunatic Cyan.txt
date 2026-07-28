@@ -2066,7 +2066,7 @@ set AirKnife stat accuracy 60
 set AirKnife stat cost 3000
 set AirKnife stat crit 0
 set AirKnife stat durability E
-set AirKnife stat weight 2
+set AirKnife stat weight 4
 set Airknife stat level 5
 set Airknife stat might 0
 set AssassinsKnife effect cripple-x2
@@ -2075,7 +2075,7 @@ set AssassinsKnife stat cost 3600
 set AssassinsKnife stat durability C
 set AssassinsKnife stat level 20
 set AssassinsKnife stat might 0
-set AssassinsKnife stat weight 6
+set AssassinsKnife stat weight 9
 set BloodKnife effect dark-damage 8
 set BloodKnife effect nosferatu
 set BloodKnife stat accuracy 50
@@ -2083,7 +2083,7 @@ set BloodKnife stat cost 4000
 set BloodKnife stat crit 0
 set BloodKnife stat level 10
 set BloodKnife stat might 0
-set BloodKnife stat weight 5
+set BloodKnife stat weight 3
 set Bloodknife stat durability C
 set BoltKnife effect thunder-damage 0
 set BoltKnife effect injure-rate 100
@@ -2092,27 +2092,27 @@ set BoltKnife stat crit 0
 set BoltKnife stat durability E
 set BoltKnife stat level 1
 set BoltKnife stat might 2
-set BoltKnife stat weight 3
+set BoltKnife stat weight 6
 set Carnwenhau stat accuracy 60
 set Carnwenhau stat cost 4600
 set Carnwenhau stat crit 0
 set Carnwenhau stat defense 0
 set Carnwenhau stat durability B
 set Carnwenhau stat might 6
-set Carnwenhau stat weight 2
+set Carnwenhau stat weight 4
 set Crotalus stat accuracy 60
 set Crotalus stat cost 6000
 set Crotalus stat crit 0
 set Crotalus stat level 15
 set Crotalus stat might 6
-set Crotalus stat weight 2
+set Crotalus stat weight 4
 set Crotalus stat durability B
 set Dart stat cost 950
 set Dart stat crit 0
 set Dart stat level 1
 set Dart stat might 4
 set Dart stat uses 20
-set Dart stat weight 2
+set Dart stat weight 4
 set KillerKnife effect cripple-x2
 set KillerKnife stat accuracy 50
 set KillerKnife stat cost 1800
@@ -2120,7 +2120,7 @@ set KillerKnife stat crit 40
 set KillerKnife stat durability C
 set KillerKnife stat level 7
 set KillerKnife stat might 0
-set KillerKnife stat weight 4
+set KillerKnife stat weight 7
 set Kris stat accuracy 50
 set Kris stat cost 2800
 set Kris stat crit 0
@@ -2128,17 +2128,17 @@ set Kris stat durability C
 set Kris stat level 10
 set Kris stat might 0
 set Kris stat mind 6
-set Kris stat weight 3
+set Kris stat weight 6
 set LetterOpener stat crit 0
 set LetterOpener stat durability D
 set LetterOpener stat might 1
 set LetterOpener stat accuracy 60
-set LetterOpener stat weight 0
+set LetterOpener stat weight 1
 set MainGauche stat cost 2800
 set MainGauche stat crit 0
 set MainGauche stat defense 6
 set MainGauche stat might 0
-set MainGauche stat weight 3
+set MainGauche stat weight 6
 set Maingauche stat accuracy 50
 set Maingauche stat durability C
 set PoisonKnife stat crit 0
@@ -2150,11 +2150,11 @@ set Seax stat cost 1800
 set Seax stat crit 0
 set Seax stat level 10
 set Seax stat might 6
-set Seax stat weight 3
+set Seax stat weight 6
 set Shieldknife stat accuracy 40
 set Shieldknife stat crit 40
 set Shieldknife stat might 0
-set Shieldknife stat weight 3
+set Shieldknife stat weight 6
 set Shieldknife stat cost 5000
 set SleepKnife stat crit 0
 set SleepKnife stat durability C
@@ -2163,7 +2163,7 @@ set StunKnife stat crit 0
 set StunKnife stat durability C
 set StunKnife stat level 12
 set StunKnife stat might 6
-set StunKnife stat weight 3
+set StunKnife stat weight 6
 set Stunknife effect disarm-rate 100
 set Stunknife stat accuracy 40
 set Stunknife stat cost 1600
@@ -2175,7 +2175,7 @@ set Swordbreaker stat cost 2800
 set Swordbreaker stat durability C
 set Swordbreaker stat level 10
 set Swordbreaker stat might 6
-set Swordbreaker stat weight 3
+set Swordbreaker stat weight 6
 set TempestKnife effect cripple-rate 16
 set TempestKnife effect wind-damage 18
 set TempestKnife stat cost 8000
@@ -2183,7 +2183,7 @@ set TempestKnife stat crit 0
 set TempestKnife stat durability B
 set TempestKnife stat level 15
 set TempestKnife stat might 0
-set TempestKnife stat weight 3
+set TempestKnife stat weight 5
 set TempestKnife stat accuracy 60
 set ThiefsCharm effect steal-rate-plus 50
 set ThiefsKnife effect steal-rate-plus 50
@@ -2198,14 +2198,16 @@ set ThrowingKnife stat crit 0
 set ThrowingKnife stat durability B
 set ThrowingKnife stat level 12
 set ThrowingKnife stat might 6
-set ThrowingKnife stat weight 2
+set ThrowingKnife stat weight 5
 set Vespa stat cost 1200
 set Vespa stat crit 0
 set Vespa stat durability C
 set Vespa stat level 5
 set Vespa stat might 4
+set Vespa stat weight 4
 set dagger stat crit 0
 set dagger stat might 2
+set dagger stat weight 2
 
 //swords
 Set ImperialSword stat Weight 5
@@ -2238,10 +2240,10 @@ set Broadsword stat weight 6
 set BronzeSword effect injure-rate 100
 set BronzeSword stat Cost 1000
 set BronzeSword stat Durability F
-set BronzeSword stat Weight 8
+set BronzeSword stat Weight 10
 set BronzeSword stat accuracy 40
 set BronzeSword stat crit 0
-set BronzeSword stat might 10
+set BronzeSword stat might 9
 set Colichemarde stat Cost 5000
 set Colichemarde stat Durability C
 set Colichemarde stat accuracy 60
@@ -2331,7 +2333,7 @@ set KnightSword stat might 9
 set KnightSword stat weight 5
 set LadySword stat Cost 3000
 set LadySword stat Durability C
-set LadySword stat accuracy 70
+set LadySword stat accuracy 60
 set LadySword stat crit 0
 set LadySword stat might 13
 set LadySword stat weight 5
@@ -2563,7 +2565,7 @@ set Fauchard stat crit 0
 set Fauchard stat hex 1
 set Fauchard stat might 12
 set Harpoon effect injure-rate 100
-set Harpoon stat Weight 8
+set Harpoon stat Weight 11
 set Harpoon stat accuracy 40
 set Harpoon stat cost 1000
 set Harpoon stat crit 0
@@ -2921,7 +2923,7 @@ set KillerAxe stat durability C
 set KillerAxe stat level 7
 set KillerAxe stat might 0
 set LogSplitter effect injure-rate 100
-set LogSplitter stat Weight 8
+set LogSplitter stat Weight 11
 set LogSplitter stat accuracy 30
 set LogSplitter stat cost 1000
 set LogSplitter stat crit 0
@@ -3088,12 +3090,12 @@ set CompositeBow stat level 8
 set CompositeBow stat thunder_res 10
 set CompositeBow stat wind_res 10
 set EmberArrow effect cripple-rate 8
-set EmberArrow effect fire-damage 15
+set EmberArrow effect fire-damage 20
 set EmberArrow stat accuracy 10
 set EmberArrow stat cost 1000
 set EmberArrow stat might 0
 set FreezeArrow effect cripple-rate 8
-set FreezeArrow effect wind-damage 15
+set FreezeArrow effect wind-damage 20
 set FreezeArrow stat accuracy 10
 set FreezeArrow stat cost 1000
 set FreezeArrow stat might 0
@@ -3212,7 +3214,7 @@ set Pascanion2 stat wind_res 10
 set PoisonArrow stat accuracy 10
 set PoisonArrow stat might 8
 set RaijinArrow effect cripple-rate 12
-set RaijinArrow effect thunder-damage 20
+set RaijinArrow effect thunder-damage 25
 set RaijinArrow stat accuracy 10
 set RaijinArrow stat cost 1400
 set RaijinArrow stat might 0
@@ -3243,14 +3245,14 @@ set SereniaBow stat holy_res 10
 set SereniaBow stat might 10
 set SereniaBow stat thunder_res 10
 set SereniaBow stat wind_res 10
-set ShortBow stat Weight 7
+set ShortBow stat Weight 12
 set ShortBow stat accuracy 30
 set ShortBow stat cost 1000
 set ShortBow stat crit 0
 set ShortBow stat dark_res 10
 set ShortBow stat fire_res 10
 set ShortBow stat holy_res 10
-set ShortBow stat might 1
+set ShortBow stat might 5
 set ShortBow stat thunder_res 10
 set ShortBow stat wind_res 10
 set Shortbow effect injure-rate 100
@@ -3335,10 +3337,10 @@ set Bowgun stat durability F
 set Bowgun stat fire_res 10
 set Bowgun stat holy_res 10
 set Bowgun stat max-range 2
-set Bowgun stat might 9
+set Bowgun stat might 15
 set Bowgun stat min-range 1
 set Bowgun stat thunder_res 10
-set Bowgun stat weight 13
+set Bowgun stat weight 17
 set Bowgun stat wind_res 10
 set BraveCrossbow stat accuracy 60
 set BraveCrossbow stat durability B
@@ -5813,6 +5815,46 @@ set Aristocrat skill camouflage
 set Aristocrat skill canto
 set Aristocrat skill hide
 
+set LanceKnight base strength +5
+set LanceKnight base defense +5
+set LanceKnight base magic +20
+set LanceKnight base speed +5
+set LanceKnight base hp +5
+set LanceKnight skill armsthrift
+set LanceKnight skill camouflage 
+set LanceKnight skill canto
+set LanceKnight skill hide
+
+set LanceKnight_R base strength +5
+set LanceKnight_R base defense +5
+set LanceKnight_R base magic +20
+set LanceKnight_R base speed +5
+set LanceKnight_R base hp +5
+set LanceKnight_R skill armsthrift
+set LanceKnight_R skill camouflage 
+set LanceKnight_R skill canto
+set LanceKnight_R skill hide
+
+set LanceKnight2 base strength +5
+set LanceKnight2 base defense +5
+set LanceKnight2 base magic +20
+set LanceKnight2 base speed +5
+set LanceKnight2 base hp +5
+set LanceKnight2 skill armsthrift
+set LanceKnight2 skill camouflage 
+set LanceKnight2 skill canto
+set LanceKnight2 skill hide
+
+set LanceKnight2_R base strength +5
+set LanceKnight2_R base defense +5
+set LanceKnight2_R base magic +20
+set LanceKnight2_R base speed +5
+set LanceKnight2_R base hp +5
+set LanceKnight2_R skill armsthrift
+set LanceKnight2_R skill camouflage 
+set LanceKnight2_R skill canto
+set LanceKnight2_R skill hide
+
 set Paladin_M skill throw
 set Paladin_M skill hide
 
@@ -6023,11 +6065,6 @@ set Mercenary skill adept
 set Mercenary skill knockaway
 set Mercenary skill fortune
 set Mercenary skill climber
-
-set LanceKnight skill adept
-set LanceKnight2 skill adept
-set LanceKnight2_R skill adept
-set LanceKnight_R skill adept
 
 set LanceKnight2_R skill throw
 set LanceKnight2_R skill hide
