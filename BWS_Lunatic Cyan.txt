@@ -964,6 +964,7 @@ set reese skill deathmatch
 set reese skill hide
 set reese skill windsweep
 set reese skill sunder
+set reese skill critical
 
 set ward skill canto
 set ward skill flourish
@@ -1068,6 +1069,7 @@ set adel skill armsthrift
 set adel skill sunder
 set adel skill provoke
 set adel skill deathmatch
+set adel skill critical
 
 set leon skill canto
 set leon skill deathmatch
@@ -1094,6 +1096,7 @@ set leon skill windsweep
 //set leon skill fortune
 set leon skill parry
 set leon skill sunder
+set leon skill critical
 
 set sherlock skill aim 
 set sherlock skill canto
@@ -1122,9 +1125,10 @@ set sherlock skill adept
 set sherlock skill sunder
 //set sherlock skill magicbane
 set sherlock skill celerity
-//set sherlock skill parry
+set sherlock skill parry
 set sherlock skill deathmatch
-//set sherlock skill counter
+set sherlock skill counter
+set sherlock skill critical
 
 set izerna skill blessing
 set izerna skill canto
@@ -1149,6 +1153,7 @@ set izerna skill charisma
 set izerna skill Windsweep
 set izerna skill sunder
 set izerna skill silence
+set izerna skill critical
 
 set czene skill adept
 set czene skill critical
@@ -1177,8 +1182,8 @@ set czene skill deathmatch
 set czene skill vantage
 set czene skill battlecry
 set czene skill celerity
-//set czene skill parry
-//set czene skill counter
+set czene skill parry
+set czene skill counter
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -1222,7 +1227,9 @@ set enid skill fortune
 set enid skill Windsweep
 set enid skill sunder
 set enid skill desperation
-//set enid skill parry
+set enid skill parry
+set enid skill critical
+set enid skill counter
 
 set aegina skill canto
 set aegina skill focuschant
@@ -1246,6 +1253,8 @@ set aegina skill sunder
 set aegina skill desperation
 set aegina skill resistor
 set aegina skill onetwo
+set aegina skill critical
+set aegina skill counter
 
 unset perceval skill arrowbane
 set perceval skill adept
@@ -1268,6 +1277,8 @@ set perceval skill sunder
 set perceval skill desperation
 set perceval skill resistor
 set perceval skill onetwo
+set perceval skill critical
+set perceval skill counter
 
 set marcel skill canto
 //set marcel skill counter
@@ -1310,6 +1321,7 @@ set alvina skill desperation
 set alvina skill deathmatch
 set alvina skill windsweep
 set alvina skill sunder
+set alvina skill critical
 
 set ruby skill adept 
 set ruby skill axebane
@@ -1332,6 +1344,7 @@ set ruby skill hide
 set ruby skill windsweep
 //set ruby skill shieldfaire
 set ruby skill sunder
+set ruby skill critical
 
 set arthur skill armsthrift
 set arthur skill canto
@@ -1467,6 +1480,7 @@ set sylvis skill deathmatch
 set sylvis skill parry
 set sylvis skill counter
 set sylvis skill locktouch
+set sylvis skill critical
 
 set thaddy skill camouflage 
 set thaddy skill canto
@@ -1533,6 +1547,7 @@ set esteban skill sunder
 set esteban skill deathmatch
 set esteban skill parry
 set esteban skill counter
+set esteban skill critical
 
 set faye skill adept
 set faye skill deathmatch
@@ -1705,6 +1720,7 @@ set larentia skill windsweep
 set larentia skill vantage
 set larentia skill sunder
 set larentia skill parry
+set larentia skill critical
 
 set owen skill adept
 set owen skill blessing
@@ -1789,6 +1805,7 @@ set saphira skill guard
 set saphira skill fortune
 set saphira skill Windsweep
 set saphira skill sunder
+set saphira skill critical
 
 set lynette skill aim
 set lynette skill canto
@@ -1819,6 +1836,8 @@ set lynette skill desperation
 set lynette skill magicbane
 set lynette skill resistor
 set lynette skill parry
+set lynette skill critical
+set lynette skill counter
 
 set paramythis skill blessing
 set paramythis skill camouflage
@@ -1848,6 +1867,7 @@ set paramythis skill sunder
 set paramythis skill parry
 set paramythis skill counter
 set paramythis skill knockaway
+set paramythis skill critical
 
 // prfs
 set Pascanion2 stat level 17
@@ -6534,6 +6554,13 @@ set WyvernKnightLarentia_R skill Counter
 set WyvernKnight_R skill Counter
 set WyvernLord skill Counter
 set WyvernLord_R skill Counter
+set WindMage skill Counter
+set WindSage skill Counter
+set ThunderMage skill Counter
+set ThunderSage skill Counter
+set Fencer skill Counter
+set FlameFencer skill Counter
+set ChosenOne skill Counter
 
 //Critical
 set Lord skill critical
@@ -7656,3 +7683,8 @@ set Arrow++ stat might 8
 // Rapier effect = -12 might
 // Hammer Zanbato = -24 might, GreatAxe GreatSword stats were used
 // Mithril and Rare weapon got -2 weight in general.
+
+
+
+
+
