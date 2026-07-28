@@ -3894,7 +3894,7 @@ set DarkShield stat level 7
 set Vollenden stat level 7
 
 set Buckler stat level 1
-set PrototypeSShd stat level 7
+set PrototypeSShd stat level 5
 set Aspis stat level 4
 set RoundShield stat level 7
 set MetalShield stat level 7
