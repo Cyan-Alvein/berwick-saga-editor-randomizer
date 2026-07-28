@@ -3088,12 +3088,12 @@ set CompositeBow stat level 8
 set CompositeBow stat thunder_res 10
 set CompositeBow stat wind_res 10
 set EmberArrow effect cripple-rate 8
-set EmberArrow effect fire-damage 15
+set EmberArrow effect fire-damage 20
 set EmberArrow stat accuracy 10
 set EmberArrow stat cost 1000
 set EmberArrow stat might 0
 set FreezeArrow effect cripple-rate 8
-set FreezeArrow effect wind-damage 15
+set FreezeArrow effect wind-damage 20
 set FreezeArrow stat accuracy 10
 set FreezeArrow stat cost 1000
 set FreezeArrow stat might 0
@@ -3212,7 +3212,7 @@ set Pascanion2 stat wind_res 10
 set PoisonArrow stat accuracy 10
 set PoisonArrow stat might 8
 set RaijinArrow effect cripple-rate 12
-set RaijinArrow effect thunder-damage 20
+set RaijinArrow effect thunder-damage 25
 set RaijinArrow stat accuracy 10
 set RaijinArrow stat cost 1400
 set RaijinArrow stat might 0
