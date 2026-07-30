@@ -2087,7 +2087,7 @@ set AirKnife stat cost 3000
 set AirKnife stat crit 0
 set AirKnife stat durability E
 set AirKnife stat weight 4
-set Airknife stat level 5
+set Airknife stat level 4
 set Airknife stat might 0
 set AssassinsKnife effect cripple-x2
 set AssassinsKnife stat accuracy 50
@@ -2101,7 +2101,7 @@ set BloodKnife effect nosferatu
 set BloodKnife stat accuracy 50
 set BloodKnife stat cost 4000
 set BloodKnife stat crit 0
-set BloodKnife stat level 10
+set BloodKnife stat level 8
 set BloodKnife stat might 0
 set BloodKnife stat weight 3
 set Bloodknife stat durability C
@@ -2201,7 +2201,7 @@ set TempestKnife effect wind-damage 18
 set TempestKnife stat cost 8000
 set TempestKnife stat crit 0
 set TempestKnife stat durability B
-set TempestKnife stat level 15
+set TempestKnife stat level 12
 set TempestKnife stat might 0
 set TempestKnife stat weight 5
 set TempestKnife stat accuracy 60
