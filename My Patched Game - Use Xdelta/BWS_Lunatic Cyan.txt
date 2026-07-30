@@ -2087,7 +2087,7 @@ set AirKnife stat cost 3000
 set AirKnife stat crit 0
 set AirKnife stat durability E
 set AirKnife stat weight 4
-set Airknife stat level 5
+set Airknife stat level 4
 set Airknife stat might 0
 set AssassinsKnife effect cripple-x2
 set AssassinsKnife stat accuracy 50
@@ -2101,7 +2101,7 @@ set BloodKnife effect nosferatu
 set BloodKnife stat accuracy 50
 set BloodKnife stat cost 4000
 set BloodKnife stat crit 0
-set BloodKnife stat level 10
+set BloodKnife stat level 8
 set BloodKnife stat might 0
 set BloodKnife stat weight 3
 set Bloodknife stat durability C
@@ -2123,7 +2123,7 @@ set Carnwenhau stat weight 4
 set Crotalus stat accuracy 60
 set Crotalus stat cost 6000
 set Crotalus stat crit 0
-set Crotalus stat level 15
+set Crotalus stat level 12
 set Crotalus stat might 6
 set Crotalus stat weight 4
 set Crotalus stat durability B
@@ -2168,7 +2168,7 @@ set Seax stat accuracy 50
 set Seax stat durability C
 set Seax stat cost 1800
 set Seax stat crit 0
-set Seax stat level 10
+set Seax stat level 8
 set Seax stat might 6
 set Seax stat weight 6
 set Shieldknife stat accuracy 40
@@ -2201,7 +2201,7 @@ set TempestKnife effect wind-damage 18
 set TempestKnife stat cost 8000
 set TempestKnife stat crit 0
 set TempestKnife stat durability B
-set TempestKnife stat level 15
+set TempestKnife stat level 12
 set TempestKnife stat might 0
 set TempestKnife stat weight 5
 set TempestKnife stat accuracy 60
@@ -2222,7 +2222,7 @@ set ThrowingKnife stat weight 5
 set Vespa stat cost 1200
 set Vespa stat crit 0
 set Vespa stat durability C
-set Vespa stat level 5
+set Vespa stat level 4
 set Vespa stat might 4
 set Vespa stat weight 4
 set dagger stat crit 0
