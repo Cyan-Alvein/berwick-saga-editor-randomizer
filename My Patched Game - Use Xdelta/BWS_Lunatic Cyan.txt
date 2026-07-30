@@ -2264,13 +2264,13 @@ set BronzeSword stat Weight 10
 set BronzeSword stat accuracy 40
 set BronzeSword stat crit 0
 set BronzeSword stat might 9
-set Colichemarde stat Cost 5000
+set Colichemarde stat Cost 4000
 set Colichemarde stat Durability C
 set Colichemarde stat accuracy 60
 set Colichemarde stat crit 0
-set Colichemarde stat level 15
-set Colichemarde stat might 1
-set Colichemarde stat weight 6
+set Colichemarde stat level 10
+set Colichemarde stat might 7
+set Colichemarde stat weight 8
 set Cutlass stat Cost 4500
 set Cutlass stat Durability A
 set Cutlass stat Weight 3
@@ -2281,12 +2281,12 @@ set Cutlass+ stat Durability A
 set Cutlass+ stat Weight 5
 set Cutlass+ stat crit 0
 set Cutlass+ stat might 13
-set Estoc stat Cost 4000
+set Estoc stat Cost 3000
 set Estoc stat Durability C
 set Estoc stat accuracy 50
 set Estoc stat crit 0
-set Estoc stat might 1
-set Estoc stat weight 8
+set Estoc stat might 4
+set Estoc stat weight 10
 set FlameSword effect cripple-rate 12
 set FlameSword effect fire-damage 20
 set FlameSword stat Cost 3000
@@ -2387,12 +2387,12 @@ set Nothung stat weight 8
 set OldImperialSword stat Cost 400
 set OldImperialSword stat Durability F
 set OldImperialSword stat might 7
-set Rapier stat Cost 2000
+set Rapier stat Cost 2600
 set Rapier stat Durability C
-set Rapier stat Weight 7
-set Rapier stat accuracy 60
+set Rapier stat Weight 10
+set Rapier stat accuracy 50
 set Rapier stat crit 0
-set Rapier stat might 1
+set Rapier stat might 7
 set RazeEtoile stat Cost 3000
 set RazeEtoile stat Durability C
 set RazeEtoile stat accuracy 60
@@ -3039,11 +3039,11 @@ set VolcanoAxe stat crit 0
 set VolcanoAxe stat durability C
 set VolcanoAxe stat level 4
 set VolcanoAxe stat might 1
-set WarPick stat cost 2000
-set WarPick stat Weight 8
-set WarPick stat accuracy 50
+set WarPick stat cost 2500
+set WarPick stat Weight 11
+set WarPick stat accuracy 40
 set WarPick stat crit 0
-set WarPick stat might 2
+set WarPick stat might 8
 set WarPick stat Durability C
 set Warpick stat level 7
 
@@ -3894,7 +3894,7 @@ set DarkShield stat level 7
 set Vollenden stat level 7
 
 set Buckler stat level 1
-set PrototypeSShd stat level 7
+set PrototypeSShd stat level 5
 set Aspis stat level 4
 set RoundShield stat level 7
 set MetalShield stat level 7
@@ -4174,7 +4174,7 @@ set GaleShield stat level 10
 set Kiteshield stat level 4
 set SquareShield stat level 7
 set KnightShield stat level 10
-set LimitShield stat level 13
+set LimitShield stat level 7
 set PaladinShield stat level 13
 set Hestia stat level 13
 set BlackShield stat level 13
