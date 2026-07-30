@@ -16,7 +16,7 @@
 
 // Blizzard 44% injure-rate, 40% Hit Rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter 100% injure-rate but -20% accuracy & +5 weight. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
 
-// cripple-x2 effect to Apeiron, Rossweisse, SereniaBow, Pike, Longspear, AltiumSword, Shamshir, Gastraphetes, CompositeBow, BattleAxe, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons, GreatSword, Adrastia, Balmung, Zweihander, Brymranger, Partisan, GreatAxe, BastardSword, Poleax, Albatross, Grimhild, CrookedAxe, Zanbato, Hammer, Brionac, KillerCrossbow
+// cripple-x2 effect to Apeiron, Rossweisse, SereniaBow, Pike, Longspear, AltiumSword, Shamshir, Gastraphetes, CompositeBow, BattleAxe, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons, GreatSword, Adrastia, Balmung, Zweihander, Brymranger, Partisan, GreatAxe, BastardSword, Poleax, Albatross, Grimhild, CrookedAxe, Zanbato, Hammer, Brionac, KillerCrossbow, All Mithril Weapon
 
 // BastardSword Poleax = Rapier WarPick +6 might now. Ignore Shield effect. You can Pulverize with them for shreking Knight. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
 
