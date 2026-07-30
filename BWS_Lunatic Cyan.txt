@@ -1876,7 +1876,7 @@ set Pascanion stat level 17
 set Bhuj stat level 20
 set Brymranger stat level 20
 set Fauchard stat level 20
-set Perseid stat level 15
+set Perseid stat level 10
 set RazeEtoile stat level 15
 set Vritra stat level 20
 set Cutlass+ stat level 20
