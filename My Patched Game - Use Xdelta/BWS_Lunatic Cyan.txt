@@ -5847,17 +5847,35 @@ set Aristocrat skill camouflage
 set Aristocrat skill canto
 set Aristocrat skill hide
 
+set LanceKnight base strength +5
+set LanceKnight base defense +5
+set LanceKnight base magic +20
+set LanceKnight base speed +5
+set LanceKnight base hp +5
+set LanceKnight skill armsthrift
+set LanceKnight skill camouflage 
 set LanceKnight skill canto
 set LanceKnight skill hide
+set LanceKnight skill throw
 
+set LanceKnight_R base strength +5
+set LanceKnight_R base defense +5
+set LanceKnight_R base magic +20
+set LanceKnight_R base speed +5
+set LanceKnight_R base hp +5
+set LanceKnight_R skill armsthrift
+set LanceKnight_R skill camouflage 
 set LanceKnight_R skill canto
 set LanceKnight_R skill hide
+set LanceKnight_R skill throw
 
 set LanceKnight2 skill canto
 set LanceKnight2 skill hide
+set LanceKnight2 skill throw
 
 set LanceKnight2_R skill canto
 set LanceKnight2_R skill hide
+set LanceKnight2_R skill throw
 
 set Paladin_M skill throw
 set Paladin_M skill hide
@@ -6069,18 +6087,6 @@ set Mercenary skill adept
 set Mercenary skill knockaway
 set Mercenary skill fortune
 set Mercenary skill climber
-
-set LanceKnight2_R skill throw
-set LanceKnight2_R skill hide
-
-set LanceKnight2 skill throw
-set LanceKnight2 skill hide
-
-set LanceKnight skill throw
-set LanceKnight skill hide
-
-set LanceKnight_R skill throw
-set LanceKnight_R skill hide
 
 set Guardian skill armsthrift
 set Guardian skill hide
@@ -7671,7 +7677,7 @@ set Arrow++ stat might 8
 // Rapier effect = -12 might
 // Hammer Zanbato = -24 might, GreatAxe GreatSword stats were used
 // Mithril and Rare weapon got -2 weight in general.
-
+// LanceKnight2 & LanceKnight2_R for class for Adel & Leon, not Ennemy Class.
 
 
 
