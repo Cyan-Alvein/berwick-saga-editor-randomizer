@@ -5847,43 +5847,15 @@ set Aristocrat skill camouflage
 set Aristocrat skill canto
 set Aristocrat skill hide
 
-set LanceKnight base strength +5
-set LanceKnight base defense +5
-set LanceKnight base magic +20
-set LanceKnight base speed +5
-set LanceKnight base hp +5
-set LanceKnight skill armsthrift
-set LanceKnight skill camouflage 
 set LanceKnight skill canto
 set LanceKnight skill hide
 
-set LanceKnight_R base strength +5
-set LanceKnight_R base defense +5
-set LanceKnight_R base magic +20
-set LanceKnight_R base speed +5
-set LanceKnight_R base hp +5
-set LanceKnight_R skill armsthrift
-set LanceKnight_R skill camouflage 
 set LanceKnight_R skill canto
 set LanceKnight_R skill hide
 
-set LanceKnight2 base strength +5
-set LanceKnight2 base defense +5
-set LanceKnight2 base magic +20
-set LanceKnight2 base speed +5
-set LanceKnight2 base hp +5
-set LanceKnight2 skill armsthrift
-set LanceKnight2 skill camouflage 
 set LanceKnight2 skill canto
 set LanceKnight2 skill hide
 
-set LanceKnight2_R base strength +5
-set LanceKnight2_R base defense +5
-set LanceKnight2_R base magic +20
-set LanceKnight2_R base speed +5
-set LanceKnight2_R base hp +5
-set LanceKnight2_R skill armsthrift
-set LanceKnight2_R skill camouflage 
 set LanceKnight2_R skill canto
 set LanceKnight2_R skill hide
 

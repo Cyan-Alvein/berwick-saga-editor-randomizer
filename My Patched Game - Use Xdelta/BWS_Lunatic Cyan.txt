@@ -16,7 +16,7 @@
 
 // Blizzard 44% injure-rate, 40% Hit Rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter 100% injure-rate but -20% accuracy & +5 weight. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
 
-// cripple-x2 effect to Apeiron, Rossweisse, SereniaBow, Pike, Longspear, AltiumSword, Shamshir, Gastraphetes, CompositeBow, BattleAxe, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons, GreatSword, Adrastia, Balmung, Zweihander, Brymranger, Partisan, GreatAxe, BastardSword, Poleax, Albatross, Grimhild, CrookedAxe, Zanbato, Hammer, Brionac, KillerCrossbow, All Mithril Weapon
+// cripple-x2 effect to Apeiron, Rossweisse, SereniaBow, Pike, Longspear, AltiumSword, Shamshir, Gastraphetes, CompositeBow, BattleAxe, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons, GreatSword, Adrastia, Balmung, Zweihander, Brymranger, Partisan, GreatAxe, BastardSword, Poleax, Albatross, Grimhild, CrookedAxe, Zanbato, Hammer, Brionac, KillerCrossbow, All Mithril Weapon, Seax
 
 // BastardSword Poleax = Rapier WarPick +6 might now. Ignore Shield effect. You can Pulverize with them for shreking Knight. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
 
@@ -2166,6 +2166,7 @@ set PoisonKnife stat might 2
 set PoisonKnife stat accuracy 60
 set Seax stat accuracy 50
 set Seax stat durability C
+set Seax stat effect cripple-x2
 set Seax stat cost 1800
 set Seax stat crit 0
 set Seax stat level 8
@@ -5846,43 +5847,15 @@ set Aristocrat skill camouflage
 set Aristocrat skill canto
 set Aristocrat skill hide
 
-set LanceKnight base strength +5
-set LanceKnight base defense +5
-set LanceKnight base magic +20
-set LanceKnight base speed +5
-set LanceKnight base hp +5
-set LanceKnight skill armsthrift
-set LanceKnight skill camouflage 
 set LanceKnight skill canto
 set LanceKnight skill hide
 
-set LanceKnight_R base strength +5
-set LanceKnight_R base defense +5
-set LanceKnight_R base magic +20
-set LanceKnight_R base speed +5
-set LanceKnight_R base hp +5
-set LanceKnight_R skill armsthrift
-set LanceKnight_R skill camouflage 
 set LanceKnight_R skill canto
 set LanceKnight_R skill hide
 
-set LanceKnight2 base strength +5
-set LanceKnight2 base defense +5
-set LanceKnight2 base magic +20
-set LanceKnight2 base speed +5
-set LanceKnight2 base hp +5
-set LanceKnight2 skill armsthrift
-set LanceKnight2 skill camouflage 
 set LanceKnight2 skill canto
 set LanceKnight2 skill hide
 
-set LanceKnight2_R base strength +5
-set LanceKnight2_R base defense +5
-set LanceKnight2_R base magic +20
-set LanceKnight2_R base speed +5
-set LanceKnight2_R base hp +5
-set LanceKnight2_R skill armsthrift
-set LanceKnight2_R skill camouflage 
 set LanceKnight2_R skill canto
 set LanceKnight2_R skill hide
 
