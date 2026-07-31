@@ -3371,7 +3371,7 @@ set Bowgun stat max-range 2
 set Bowgun stat might 15
 set Bowgun stat min-range 1
 set Bowgun stat thunder_res 10
-set Bowgun stat weight 17
+set Bowgun stat weight 14
 set Bowgun stat wind_res 10
 set BraveCrossbow stat accuracy 60
 set BraveCrossbow stat durability B
