@@ -4811,41 +4811,41 @@ set Cavalier cap spear 50
 set Cavalier cap sshield 50
 set Cavalier cap mshield 50
 
-set Reese bracket tight
-set Ward bracket tight
-set Leon bracket tight
-set Adel bracket tight
-set Sherlock bracket tight
-set Elbert bracket tight
-set Christine bracket tight
-set Dean bracket tight
-set Izerna bracket tight
-set Volo bracket tight
-set Axel bracket tight
-set Sylvis bracket tight
-set Ruby bracket tight
-set Arthur bracket tight
-set Czene bracket tight
-set Kramer bracket tight
-set Faye bracket tight
-set Derrick bracket tight
-set Clifford bracket tight
-set Faramir bracket tight
-set Esteban bracket tight
-set Aegina bracket tight
-set Sherpa bracket tight
-set Saphira bracket tight
-set Owen bracket tight
-set Daoud bracket tight
-set Larentia bracket tight
-set Thaddy bracket tight
-set Marcel bracket tight
-set Enid bracket tight
-set Perceval bracket tight
-set Burroughs bracket tight
-set Alvina bracket tight
-set Paramythis bracket tight
-set Lynette bracket tight
+set Reese bracket no
+set Ward bracket no
+set Leon bracket no
+set Adel bracket no
+set Sherlock bracket no
+set Elbert bracket no
+set Christine bracket no
+set Dean bracket no
+set Izerna bracket no
+set Volo bracket no
+set Axel bracket no
+set Sylvis bracket no
+set Ruby bracket no
+set Arthur bracket no
+set Czene bracket no
+set Kramer bracket no
+set Faye bracket no
+set Derrick bracket no
+set Clifford bracket no
+set Faramir bracket no
+set Esteban bracket no
+set Aegina bracket no
+set Sherpa bracket no
+set Saphira bracket no
+set Owen bracket no
+set Daoud bracket no
+set Larentia bracket no
+set Thaddy bracket no
+set Marcel bracket no
+set Enid bracket no
+set Perceval bracket no
+set Burroughs bracket no
+set Alvina bracket no
+set Paramythis bracket no
+set Lynette bracket no
 
 //////////////////////////Difficulty Level - Ennemy buff///////////////////
 
