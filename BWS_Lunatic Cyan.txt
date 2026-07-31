@@ -2643,13 +2643,13 @@ set OldImperialSpear stat might 6
 set Partisan effect cripple-rate 16
 set Partisan stat Weight 11
 set Partisan stat accuracy 50
-set Partisan stat cost 3500
+set Partisan stat cost 3600
 set Partisan stat crit 0
 set Partisan stat defense 0
 set Partisan stat durability B
 set Partisan effect cripple-x2
 set Partisan stat level 16
-set Partisan stat might 17
+set Partisan stat might 18
 set Partisan stat hex 1
 set Pike effect cripple-x2
 set Pike stat Weight 5
