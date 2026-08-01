@@ -16,7 +16,7 @@
 
 // Blizzard 44% injure-rate, 40% Hit Rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter 100% injure-rate but -20% accuracy & +5 weight. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
 
-// cripple-x2 effect to Apeiron, Rossweisse, SereniaBow, Pike, Longspear, AltiumSword, Shamshir, Gastraphetes, CompositeBow, BattleAxe, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons, GreatSword, Adrastia, Balmung, Zweihander, Brymranger, Partisan, GreatAxe, BastardSword, Poleax, Albatross, Grimhild, CrookedAxe, Zanbato, Hammer, Brionac, KillerCrossbow, All Mithril Weapon, Seax
+// cripple-x2 effect to Apeiron, Rossweisse, SereniaBow, Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons, BastardSword, Poleax, GreatSword, Adrastia, Balmung, Zweihander, Brymranger, Partisan, GreatAxe, Albatross, Grimhild, CrookedAxe, Zanbato, Hammer, Brionac, KillerCrossbow, All Mithril Weapon, Seax, PallasLeia, PallasSerenia
 
 // BastardSword Poleax = Rapier WarPick +6 might now. Ignore Shield effect. You can Pulverize with them for shreking Knight. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
 
@@ -1926,8 +1926,8 @@ set Sandstorm stat accuracy 110
 set Windtongue stat accuracy 110
 set Icetongue stat accuracy 110
 set Sandstorm stat might 15
-set Windtongue stat might 30
-set Icetongue stat might 30
+set Windtongue stat might 32
+set Icetongue stat might 32
 set Icetongue effect sleep 0
 set Sandstorm stat max-range 0
 set Windtongue stat max-range 0
@@ -1959,15 +1959,15 @@ set PallasLeia stat accuracy 70
 set Flametongue stat accuracy 110
 set Blazetongue stat accuracy 110
 set Flametongue stat might 22
-set Blazetongue stat might 30
+set Blazetongue stat might 32
 set Flametongue stat max-range 0
 set Blazetongue stat max-range 0
 
-set Thunder stat crit 0
-set DireThunder stat crit 0
-set Lightning stat crit 90
-set PallasSerenia stat crit 90
-set Stormtongue stat crit 100
+set Thunder stat crit 33
+set DireThunder stat crit 33
+set Lightning stat crit 33
+set PallasSerenia stat crit 33
+set Stormtongue stat crit 33
 
 set Thunder stat min-range 1
 set DireThunder stat min-range 1
@@ -1975,36 +1975,36 @@ set Lightning stat min-range 1
 set PallasSerenia stat min-range 1
 set Thunder stat max-range 3
 set Thunder stat accuracy 60
-set Thunder stat might 15
+set Thunder stat might 10
 set DireThunder stat max-range 3
 set DireThunder stat accuracy 50
-set DireThunder stat might 15
+set DireThunder stat might 10
 set Lightning stat max-range 2
-set Lightning stat accuracy 50
+set Lightning stat accuracy 60
 set Lightning stat level 1
-set Lightning stat might 6
+set Lightning stat might 15
 set PallasSerenia stat level 15
-set PallasSerenia stat might 18
+set PallasSerenia stat might 27
 set PallasSerenia max-range 3
 set PallasSerenia stat accuracy 60
 set Stormtongue stat accuracy 130
-set Stormtongue stat might 16
+set Stormtongue stat might 27
 set Stormtongue stat max-range 0
 
 set Physic stat max-range 5
 set Holy stat might 15
 set Holy stat uses 20
 set holy effect cripple-x2
-set Starlight effect holy-vantage
-set Starlight effect cripple-rate 16
+//set Starlight effect holy-vantage
+set Starlight effect cripple-x2
 set Starlight stat max-range 2
-set Starlight stat min-range 1
+set Starlight stat min-range 0
 set Starlight stat might 32
 set Starlight stat crit 0
 set Starlight stat accuracy 70
 set holy stat accuracy 60
 set holy stat max-range 2
-set holy stat min-range 1
+set holy stat min-range 0
 
 set Nosferatu stat max-range 2
 set Nosferatu+ stat max-range 2
@@ -2019,10 +2019,10 @@ set Blizzard effect injure-rate 47
 set Fire effect cripple-rate 8
 set Hellfire effect cripple-x2
 set Earthblaze effect cripple-x2
-set PallasLeia effect cripple-rate 16
+set PallasLeia effect cripple-x2
 set Thunder effect cripple-rate 8
 set DireThunder effect cripple-rate 8
-set PallasSerenia effect cripple-rate 16
+set PallasSerenia effect cripple-x2
 
 set Heal stat max-range 3
 set Soothe stat max-range 3
@@ -2035,11 +2035,11 @@ set Rehabilitate stat max-range 3
 
 // Dark Magic
 
-set Nosferatu stat min-range 1
-set Nosferatu+ stat min-range 1
+set Nosferatu stat min-range 0
+set Nosferatu+ stat min-range 0
 set Scylla stat min-range 1
 set Swarm stat min-range 1
-set Tumahann stat min-range 1
+set Tumahann stat min-range 0
 set KisharsWrath stat min-range 1
 //set Wormwood stat min-range 1
 Set Nosferatu stat accuracy 60
@@ -2533,7 +2533,6 @@ set Shamshir stat durability B
 set Shamshir stat level 14
 set Shamshir stat might 19
 set Shamshir stat weight 10
-set Shamshir effect cripple-x2
 set Zanbato effect cripple-x2
 set Zanbato effect ignore-defense
 set Zanbato stat accuracy 50
@@ -7679,6 +7678,26 @@ set Arrow++ stat might 8
 // Mithril and Rare weapon got -2 weight in general.
 // LanceKnight2 & LanceKnight2_R for class for Adel & Leon, not Ennemy Class.
 
-
-
-
+// To delete, This is for updating my playthrough without restarting the game from chap 1.
+Set LanceKnight2 Skill Deathmatch
+Set LanceKnight2_R Skill Deathmatch
+set VeteranKnight Skill Deathmatch
+set VeteranKnight_R Skill Deathmatch
+set WindSage Skill Deathmatch
+set WindMage Skill Deathmatch
+set Paladin_M Skill Deathmatch
+set Paladin_M_R Skill Deathmatch
+set Chevalire skill Deathmatch
+set Chevalire_R skill Deathmatch
+set Berserker Skill Deathmatch
+set Sniper Skill Deathmatch
+set DukeKnight Skill Deathmatch
+set DukeKnight_R Skill Deathmatch
+set Pirate Skill Deathmatch
+set WyvernKnightLarentia Skill Deathmatch
+set WyvernKnightLarentia_R Skill Deathmatch
+set Hero Skill Deathmatch
+set AxeSergeant skill deathmatch
+set Highlander skill deathmatch
+set Mercenary skill deathmatch
+set Axefighter skill deathmatch
