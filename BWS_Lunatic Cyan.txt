@@ -12,11 +12,11 @@
 
 /////////////////////////////////////////////README - Most Important Changes//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// pitchfork, GoreFork & MilitaryFork got cripple-rate 8. GreatSword Partisan GreatAxe cripple-rate 16. Magic Weapon (WindEdge, EmberArrow ...) 8 or 12 or 16 Cripple-rate depending of damage.
+// Magic damage & Forks deals cripple-rate 8 12 16 according to amount of damage.
 
 // Blizzard 44% injure-rate, 40% Hit Rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter 100% injure-rate but -20% accuracy & +5 weight. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
 
-// cripple-x2 effect to Apeiron, Rossweisse, SereniaBow, Pike, Longspear, AltiumSword, Gastraphetes, CompositeBow, BattleAxe, Swordbreaker, Holy , Hellfire, Earthblaze, all lance weapons, BastardSword, Poleax, GreatSword, Adrastia, Balmung, Zweihander, Brymranger, Partisan, GreatAxe, Albatross, Grimhild, CrookedAxe, Zanbato, Hammer, Brionac, KillerCrossbow, All Mithril Weapon, Seax, PallasLeia, PallasSerenia
+// All weapons got Cripple-x2 effect
 
 // BastardSword Poleax = Rapier WarPick +6 might now. Ignore Shield effect. You can Pulverize with them for shreking Knight. Faye Faramir Volo Kramer Sherpa can Pulverize with BastardSword
 
@@ -1869,6 +1869,228 @@ set paramythis skill counter
 set paramythis skill knockaway
 set paramythis skill critical
 
+
+// Cripple-x2 To all weapon
+set dagger effect cripple-x2
+set Seax effect cripple-x2
+set Dart effect cripple-x2
+set Vespa effect cripple-x2
+set Airknife effect cripple-x2
+set ThiefsKnife effect cripple-x2
+set Carnwenhau effect cripple-x2
+set StunKnife effect cripple-x2
+set KillerKnife effect cripple-x2
+set BloodKnife effect cripple-x2
+set TempestKnife effect cripple-x2
+set Shieldknife effect cripple-x2
+set Crotalus effect cripple-x2
+set Kris effect cripple-x2
+set ThrowingKnife effect cripple-x2
+set Swordbreaker effect cripple-x2
+set PoisonKnife effect cripple-x2
+set SleepKnife effect cripple-x2
+set BoltKnife effect cripple-x2
+set AssassinsKnife effect cripple-x2
+set LetterOpener effect cripple-x2
+set MainGauche effect cripple-x2
+
+set Fire effect cripple-x2
+set Hellfire effect cripple-x2
+set Earthblaze effect cripple-x2
+set PallasLeia effect cripple-x2
+set Flametongue effect cripple-x2
+set Blazetongue effect cripple-x2
+
+set AirBlade effect cripple-x2
+set Windstorm effect cripple-x2
+set Blizzard effect cripple-x2
+set PallasRiana effect cripple-x2
+set Icetongue effect cripple-x2
+set Icetongue effect cripple-x2
+set Windtongue effect cripple-x2
+
+set Thunder effect cripple-x2
+set DireThunder effect cripple-x2
+set Lightning effect cripple-x2
+set PallasSerenia effect cripple-x2
+set Stormtongue effect cripple-x2
+
+set Holy effect cripple-x2
+set Starlight effect cripple-x2
+
+set Nosferatu effect cripple-x2
+set Nosferatu+ effect cripple-x2
+set Swarm effect cripple-x2
+set Scylla effect cripple-x2
+set Tumahann effect cripple-x2
+set KisharsWrath effect cripple-x2
+set Wormwood effect cripple-x2
+
+set BronzeSword effect cripple-x2
+set Shortsword effect cripple-x2
+set Scimitar effect cripple-x2
+set Longsword effect cripple-x2
+set WindEdge effect cripple-x2
+set Broadsword effect cripple-x2
+set Scimitar+ effect cripple-x2
+set KillingEdge effect cripple-x2
+set Saber effect cripple-x2
+set AltiumSword effect cripple-x2
+set LevinSword effect cripple-x2
+set Rapier effect cripple-x2
+set Albatross effect cripple-x2
+set HolySword effect cripple-x2
+set MithrilSword effect cripple-x2
+set KnightSword effect cripple-x2
+set Estoc effect cripple-x2
+set Grimhild effect cripple-x2
+set Harperia effect cripple-x2
+set FlameSword effect cripple-x2
+set InfernalEdge effect cripple-x2
+set Colichemarde effect cripple-x2
+set Cutlass effect cripple-x2
+set Cutlass+ effect cripple-x2
+set RazeEtoile effect cripple-x2
+set LadySword effect cripple-x2
+set Gram effect cripple-x2
+set Nothung effect cripple-x2
+
+set VerianSword effect cripple-x2
+Set ImperialSword effect cripple-x2
+Set OldImperialSword effect cripple-x2
+Set Vajra effect cripple-x2
+Set Vritra effect cripple-x2
+
+set SlimSpear effect cripple-x2
+set IronSpear effect cripple-x2
+set Pilum effect cripple-x2
+set SteelSpear effect cripple-x2
+set Harpoon effect cripple-x2
+set PrototypeSpear effect cripple-x2
+set KillerSpear effect cripple-x2
+set Pike effect cripple-x2
+set Longspear effect cripple-x2
+set Verutum effect cripple-x2
+set Doru effect cripple-x2
+set MithrilSpear effect cripple-x2
+set WindSpear effect cripple-x2
+set Euthyphro effect cripple-x2
+set Javelin effect cripple-x2
+set Partisan effect cripple-x2
+set Angon effect cripple-x2
+set Brionac effect cripple-x2
+set SwiftSpear effect cripple-x2
+set Fauchard effect cripple-x2
+
+set ImperialSpear effect cripple-x2
+set VerianSpear effect cripple-x2
+set OldImperialSpear effect cripple-x2
+
+set LogSplitter effect cripple-x2
+set Pickaxe effect cripple-x2
+set BattleSaw effect cripple-x2
+set HandAxe effect cripple-x2
+set BarbaricAxe effect cripple-x2
+set CrookedAxe effect cripple-x2
+set IronAxe effect cripple-x2
+set Francisca effect cripple-x2
+set Battleaxe effect cripple-x2
+set Broadaxe effect cripple-x2
+set VolcanoAxe effect cripple-x2
+set GlacierAxe effect cripple-x2
+set NimbusAxe effect cripple-x2
+set DarkAxe effect cripple-x2
+set WarPick effect cripple-x2
+set Hatchet effect cripple-x2
+set BreakerAxe effect cripple-x2
+set Poleax effect cripple-x2
+set Tomahawk effect cripple-x2
+set BoltAxe effect cripple-x2
+set KillerAxe effect cripple-x2
+set Hammer effect cripple-x2
+set Greataxe effect cripple-x2
+set Tabarzin effect cripple-x2
+set MithrilAxe effect cripple-x2
+set Gullveig effect cripple-x2
+set Mjollnir effect cripple-x2
+set Shieldaxe effect cripple-x2
+set MaozaWolf effect cripple-x2
+set Bhuj effect cripple-x2
+set GigasAxe effect cripple-x2
+set VerianAxe effect cripple-x2
+set OldImperialAxe effect cripple-x2
+set ImperialAxe effect cripple-x2
+set BanditAxe effect cripple-x2
+
+set IronBow effect cripple-x2
+set ShortBow effect cripple-x2
+set SwiftBow effect cripple-x2
+set Longbow effect cripple-x2
+set TripleFireBow effect cripple-x2
+set CompositeBow effect cripple-x2
+set Apollyon effect cripple-x2
+set Strongbow effect cripple-x2
+set Greatbow effect cripple-x2
+set Killerbow effect cripple-x2
+set Apeiron effect cripple-x2
+set Rossweisse effect cripple-x2
+set Pascanion effect cripple-x2
+set Pascanion2 effect cripple-x2
+set SereniaBow effect cripple-x2
+
+set BronzeBow effect cripple-x2
+set VerianBow effect cripple-x2
+set OldImperialBow effect cripple-x2
+set ImperialBow effect cripple-x2
+
+set Bowgun effect cripple-x2
+set IronCrossbow effect cripple-x2
+set Gastraphetes effect cripple-x2
+set HeavyCrossbow effect cripple-x2
+set BraveCrossbow effect cripple-x2
+set Chu-ko-nu effect cripple-x2
+set Arbalest effect cripple-x2
+set KillerCrossbow effect cripple-x2
+set Ollerus effect cripple-x2
+set RapidCrossbow effect cripple-x2
+set Hawkeye effect cripple-x2
+
+set ImperialCrossbow effect cripple-x2
+set OldImperialCrossbow effect cripple-x2
+set VerianCrossbow effect cripple-x2
+
+set Drakelance effect cripple-x2
+set Xyston effect cripple-x2
+set IronLance effect cripple-x2
+set Oxtongue effect cripple-x2
+set GreatLance effect cripple-x2
+
+set IronClub effect cripple-x2
+set HolyMace effect cripple-x2
+set DarkMace effect cripple-x2
+set PoisonMace effect cripple-x2
+set IronClub effect cripple-x2
+
+set BastardSword effect cripple-x2
+set Zanbato effect cripple-x2
+set Shamshir effect cripple-x2
+set GreatSword effect cripple-x20
+set Adrastia effect cripple-x2
+set Zweihander effect cripple-x2
+set Balmung effect cripple-x2
+set Balmung2 effect cripple-x2
+set Balmung3 effect cripple-x2
+set Brymranger effect cripple-x2
+
+set OldBallista effect cripple-x2
+set BronzeBallista effect cripple-x2
+set IronBallista effect cripple-x2
+set SteelBallista effect cripple-x2
+set PrototypeSpringald effect cripple-x2
+set Springald effect cripple-x2
+set PrototypeScorpio effect cripple-x2
+set Scorpio effect cripple-x2
+
 // prfs
 set Pascanion2 stat level 18
 set Pascanion stat level 18
@@ -1996,7 +2218,7 @@ set Holy stat might 15
 set Holy stat uses 20
 set holy effect cripple-x2
 //set Starlight effect holy-vantage
-set Starlight effect cripple-x2
+set Starlight effect cripple-rate 16
 set Starlight stat max-range 2
 set Starlight stat min-range 0
 set Starlight stat might 32
@@ -2017,12 +2239,12 @@ set Windstorm effect injure-rate 8
 set PallasRiana effect injure-rate 8
 set Blizzard effect injure-rate 47
 set Fire effect cripple-rate 8
-set Hellfire effect cripple-x2
-set Earthblaze effect cripple-x2
-set PallasLeia effect cripple-x2
+set Hellfire effect cripple-rate 12
+set Earthblaze effect cripple-rate 12
+set PallasLeia effect cripple-rate 16
 set Thunder effect cripple-rate 8
 set DireThunder effect cripple-rate 8
-set PallasSerenia effect cripple-x2
+set PallasSerenia effect cripple-rate 16
 
 set Heal stat max-range 3
 set Soothe stat max-range 3
@@ -2089,7 +2311,6 @@ set AirKnife stat durability E
 set AirKnife stat weight 4
 set Airknife stat level 4
 set Airknife stat might 0
-set AssassinsKnife effect cripple-x2
 set AssassinsKnife stat accuracy 50
 set AssassinsKnife stat cost 3600
 set AssassinsKnife stat durability C
@@ -2133,7 +2354,6 @@ set Dart stat level 1
 set Dart stat might 4
 set Dart stat uses 20
 set Dart stat weight 4
-set KillerKnife effect cripple-x2
 set KillerKnife stat accuracy 50
 set KillerKnife stat cost 1800
 set KillerKnife stat crit 40
@@ -2166,7 +2386,6 @@ set PoisonKnife stat might 2
 set PoisonKnife stat accuracy 60
 set Seax stat accuracy 50
 set Seax stat durability C
-set Seax effect cripple-x2
 set Seax stat cost 1800
 set Seax stat crit 0
 set Seax stat level 8
@@ -2189,7 +2408,6 @@ set Stunknife effect disarm-rate 100
 set Stunknife stat accuracy 40
 set Stunknife stat cost 1600
 set SwordBreaker stat crit 0
-set Swordbreaker effect cripple-x2
 set Swordbreaker effect sword-break 100
 set Swordbreaker stat accuracy 40
 set Swordbreaker stat cost 2800
@@ -2235,7 +2453,6 @@ Set ImperialSword stat Weight 5
 Set OldImperialSword stat Weight 6
 Set Vajra stat Weight 10
 Set Vritra stat Weight 5
-set Albatross effect cripple-x2
 set Albatross effect pascanion-backfire
 set Albatross effect devil-reversal 0
 set Albatross stat Cost 4000
@@ -2245,7 +2462,6 @@ set Albatross stat crit 90
 set Albatross stat level 12
 set Albatross stat weight 14
 set Albatross stat might 1
-set AltiumSword effect cripple-x2
 set AltiumSword stat Cost 3400
 set AltiumSword stat Durability A
 set AltiumSword stat Weight 7
@@ -2304,7 +2520,6 @@ set Gram stat accuracy 60
 set Gram stat crit 0
 set Gram stat might 13
 set Gram stat weight 5
-set Grimhild stat effect cripple-x2
 set Grimhild stat Cost 5000
 set Grimhild stat Durability C
 set Grimhild stat accuracy 60
@@ -2340,7 +2555,6 @@ set InfernalEdge stat crit 0
 set InfernalEdge stat level 12
 set InfernalEdge stat might 1
 set InfernalEdge stat weight 5
-set KillingEdge effect cripple-x2
 set KillingEdge stat cost 2000
 set KillingEdge stat Durability C
 set KillingEdge stat accuracy 50
@@ -2380,7 +2594,6 @@ set MithrilSword stat crit 0
 set MithrilSword stat level 12
 set MithrilSword stat weight 5
 set MithrilSword stat Might 13
-set MithrilSword effect cripple-x2
 set Nothung effect cripple-rate 16
 set Nothung effect holy-damage 25
 set Nothung stat Cost 6400
@@ -2478,7 +2691,6 @@ set Adrastia stat level 18
 set Adrastia stat might 25
 set Adrastia stat weight 11
 set Adrastia stat accuracy 60
-set Adrastia effect cripple-x2
 set Balmung stat accuracy 70
 set Balmung stat cost 6000
 set Balmung stat crit 0
@@ -2486,22 +2698,18 @@ set Balmung stat weight 11
 set Balmung stat might 25
 set Balmung stat crit 0
 set Balmung stat Durability B
-set Balmung effect cripple-x2
 set Balmung2 stat accuracy 70
 set Balmung2 stat cost 6000
 set Balmung2 stat crit 0
 set Balmung2 stat weight 11
 set Balmung2 stat might 25
 set Balmung2 Durability B
-set Balmung2 effect cripple-x2
 set Balmung3 stat accuracy 70
 set Balmung3 stat cost 6000
 set Balmung3 stat crit 0
 set Balmung3 stat weight 11
 set Balmung3 stat might 25
 set Balmung3 Durability B
-set Balmung3 effect cripple-x2
-set BastardSword effect cripple-x2
 set BastardSword effect ignore-shields
 set BastardSword stat accuracy 50
 set BastardSword stat cost 5000
@@ -2517,9 +2725,7 @@ set Brymranger stat crit 0
 set Brymranger stat might 17
 set Brymranger stat Durability A
 set Brymranger stat weight 9
-set Brymranger effect cripple-x2
 //set Brymranger stat rounds 2
-set GreatSword effect cripple-x2
 set GreatSword stat accuracy 50
 set GreatSword stat cost 4500
 set GreatSword stat crit 0
@@ -2533,7 +2739,6 @@ set Shamshir stat durability B
 set Shamshir stat level 14
 set Shamshir stat might 19
 set Shamshir stat weight 10
-set Zanbato effect cripple-x2
 set Zanbato effect ignore-defense
 set Zanbato stat accuracy 50
 set Zanbato stat cost 4000
@@ -2547,7 +2752,6 @@ set Zweihander stat crit 0
 set Zweihander stat might 25
 set Zweihander stat weight 12
 set Zweihander stat accuracy 60
-set Zweihander effect cripple-x2
 
 //spears // spears
 
@@ -2558,7 +2762,6 @@ set Angon stat durability C
 set Angon stat level 15
 set Angon stat might 17
 set Angon stat accuracy 60
-set Brionac effect cripple-x2
 set Brionac stat Weight 12
 set Brionac stat accuracy 60
 set Brionac stat cost 5000
@@ -2582,7 +2785,6 @@ set Euthyphro stat accuracy 60
 set Euthyphro stat cost 4000
 set Euthyphro stat crit 0
 set Euthyphro stat might 0
-set Fauchard effect cripple-x2
 set Fauchard stat Weight 8
 set Fauchard stat accuracy 60
 set Fauchard stat cost 6000
@@ -2610,7 +2812,6 @@ set Javelin stat cost 2000
 set Javelin stat crit 0
 set Javelin stat might 17
 set Javelin stat uses 20
-set KillerSpear effect cripple-x2
 set KillerSpear stat Weight 10
 set KillerSpear stat accuracy 50
 set KillerSpear stat cost 2000
@@ -2621,7 +2822,6 @@ set KillerSpear stat level 7
 set KillerSpear stat might 0
 set LongSpear stat cost 2500
 set LongSpear stat level 8
-set Longspear effect cripple-x2
 set Longspear stat Weight 8
 set Longspear stat accuracy 50
 set Longspear stat crit 0
@@ -2633,25 +2833,21 @@ set MithrilSpear stat durability A
 set MithrilSpear stat hex 1
 set MithrilSpear stat level 12
 set MithrilSpear stat might 12
-set MithrilSpear effect cripple-x2
 set OldImperialSpear stat Weight 7
 set OldImperialSpear stat accuracy 50
 set OldImperialSpear stat cost 400
 set OldImperialSpear stat crit 0
 set OldImperialSpear stat durability F
 set OldImperialSpear stat might 6
-set Partisan effect cripple-rate 16
 set Partisan stat Weight 11
 set Partisan stat accuracy 50
 set Partisan stat cost 3600
 set Partisan stat crit 0
 set Partisan stat defense 0
 set Partisan stat durability B
-set Partisan effect cripple-x2
 set Partisan stat level 16
 set Partisan stat might 18
 set Partisan stat hex 1
-set Pike effect cripple-x2
 set Pike stat Weight 5
 set Pike stat accuracy 60
 set Pike stat cost 3000
@@ -2746,7 +2942,7 @@ set MilitaryFork stat durability E
 set MilitaryFork stat hex 1
 set MilitaryFork stat might 8
 set MilitaryFork stat weight 8
-set Pitchfork effect cripple-rate 8
+set Pitchfork effect cripple-rate 6
 set Pitchfork stat accuracy 60
 set Pitchfork stat cost 800
 set Pitchfork stat crit 0
@@ -2764,7 +2960,6 @@ set Pitchfork stat weight 6
 //set Xyston stat Durability C
 set Drakelance Stat Accuracy 80
 set Drakelance Stat Weight 15
-set Drakelance effect cripple-x2
 set Drakelance stat cost 6000
 set Drakelance stat hex 7
 set Drakelance stat might 1
@@ -2772,27 +2967,23 @@ set Drakelance stat durability B
 set Drakelance stat level 16
 set GreatLance Stat Accuracy 70
 set GreatLance Stat Weight 16
-set GreatLance effect cripple-x2
 set GreatLance stat cost 5000
 set GreatLance stat hex 7
 set GreatLance stat level 12
 set GreatLance stat might 5
 set IronLance Stat Accuracy 60
 set IronLance Stat Weight 16
-set IronLance effect cripple-x2
 set IronLance stat cost 3000
 set IronLance stat hex 5
 set IronLance stat level 1
 set Oxtongue Stat Accuracy 60
 set Oxtongue Stat Weight 17
-set Oxtongue effect cripple-x2
 set Oxtongue stat cost 3000
 set Oxtongue stat hex 6
 set Oxtongue stat might 5
 set Oxtongue stat level 4
 set Xyston Stat Accuracy 70
 set Xyston Stat Weight 16
-set Xyston effect cripple-x2
 set Xyston stat cost 4000
 set Xyston stat hex 5
 set Xyston stat level 8
@@ -2814,7 +3005,6 @@ set BarbaricAxe stat crit 0
 set BarbaricAxe stat might 20
 set BarbaricAxe stat cost 2000
 set BarbaricAxe stat Durability D
-set BattleAxe effect cripple-x2
 set BattleAxe stat crit 0
 set BattleSaw stat Weight 7
 set BattleSaw stat cost 1000
@@ -2825,7 +3015,6 @@ set Battleaxe stat accuracy 40
 set Battleaxe stat cost 1750
 set Battleaxe stat durability C
 set Battleaxe stat level 8
-set Bhuj effect cripple-x2
 set Bhuj stat Weight 6
 set Bhuj stat cost 4500
 set Bhuj stat crit 0
@@ -2855,7 +3044,6 @@ set Broadaxe stat Weight 7
 set Broadaxe stat crit 0
 set Broadaxe stat durability D
 set Broadaxe stat level 4
-set CrookedAxe effect cripple-x2
 set CrookedAxe effect pascanion-backfire
 set CrookedAxe effect devil-reversal 0
 set CrookedAxe stat cost 4000
@@ -2898,7 +3086,6 @@ set GlacierAxe stat crit 0
 set GlacierAxe stat durability C
 set GlacierAxe stat level 4
 set GlacierAxe stat might 1
-set GreatAxe effect cripple-x2
 set GreatAxe stat durability C
 set GreatAxe stat Weight 14
 set GreatAxe stat accuracy 40
@@ -2913,7 +3100,6 @@ set Gullveig stat durability B
 set Gullveig stat level 15
 set Gullveig stat might 19
 set Gullveig stat accuracy 50
-set Hammer effect cripple-x2
 set Hammer effect ignore-defense
 set Hammer stat cost 3000
 set Hammer stat Weight 14
@@ -2943,8 +3129,6 @@ set ImperialAxe stat durability E
 set ImperialAxe stat might 10
 set IronAxe stat cost 600
 set IronAxe stat crit 0
-set KillerAxe effect cripple-x2
-set KillerAxe stat Weight 11
 set KillerAxe stat accuracy 40
 set KillerAxe stat cost 2000
 set KillerAxe stat crit 47
@@ -2965,7 +3149,6 @@ set MaozaWolf stat cost 10000
 set MaozaWolf stat might 18
 set MaozaWolf stat durability B
 set MaozaWolf stat weight 10
-set MaozaWolf stat cripple-x2
 set MithrilAxe stat Weight 6
 set MithrilAxe stat cost 3000
 set MithrilAxe stat crit 0
@@ -2973,7 +3156,6 @@ set MithrilAxe stat durability B
 set MithrilAxe stat level 12
 set MithrilAxe stat might 14
 set MithrilAxe stat accuracy 50
-set MithrilAxe effect cripple-x2
 set Mjollnir effect cripple-rate 16
 set Mjollnir effect thunder-damage 25
 set Mjollnir stat Weight 6
@@ -3003,7 +3185,6 @@ set Pickaxe stat accuracy 40
 set Pickaxe stat accuracy 50
 set Pickaxe stat crit 0
 set Pickaxe stat might 6
-set Poleax effect cripple-x2
 set Poleax effect kill-horse 0
 set Poleax effect ignore-shields
 set Poleax stat Weight 14
@@ -3111,7 +3292,6 @@ set BronzeBow stat holy_res 10
 set BronzeBow stat might 3
 set BronzeBow stat thunder_res 10
 set BronzeBow stat wind_res 10
-set CompositeBow effect cripple-x2
 set CompositeBow stat Weight 8
 set CompositeBow stat crit 0
 set CompositeBow stat dark_res 10
@@ -3120,17 +3300,16 @@ set CompositeBow stat holy_res 10
 set CompositeBow stat level 8
 set CompositeBow stat thunder_res 10
 set CompositeBow stat wind_res 10
-set EmberArrow effect cripple-rate 8
+set EmberArrow effect cripple-rate 12
 set EmberArrow effect fire-damage 20
 set EmberArrow stat accuracy 10
 set EmberArrow stat cost 1000
 set EmberArrow stat might 0
-set FreezeArrow effect cripple-rate 8
+set FreezeArrow effect cripple-rate 12
 set FreezeArrow effect wind-damage 20
 set FreezeArrow stat accuracy 10
 set FreezeArrow stat cost 1000
 set FreezeArrow stat might 0
-set Greatbow stat effect cripple-x2
 set Greatbow stat Weight 10
 set Greatbow stat durability B
 set Greatbow stat accuracy 40
@@ -3172,11 +3351,9 @@ set IronBow stat holy_res 10
 set IronBow stat might 3
 set IronBow stat thunder_res 10
 set IronBow stat wind_res 10
-set KillerArrow effect cripple-x2
 set KillerArrow stat accuracy 10
 set KillerArrow stat crit 47
 set KillerArrow stat might 0
-set KillerBow effect cripple-x2
 set KillerBow stat Weight 13
 set KillerBow stat durability B
 set KillerBow stat accuracy 40
@@ -3212,7 +3389,6 @@ set OldImperialBow stat holy_res 10
 set OldImperialBow stat might 3
 set OldImperialBow stat thunder_res 10
 set OldImperialBow stat wind_res 10
-set Pascanion effect cripple-x2
 set Pascanion effect cripple-rate 16
 set Pascanion effect fire-damage 25
 set Pascanion stat Weight 11
@@ -3227,7 +3403,6 @@ set Pascanion stat holy_res 10
 set Pascanion stat max-range 3
 set Pascanion stat thunder_res 10
 set Pascanion stat wind_res 10
-set Pascanion2 effect cripple-x2
 set Pascanion2 effect cripple-rate 16
 set Pascanion2 effect fire-damage 25
 set Pascanion2 stat Weight 11
@@ -3244,12 +3419,11 @@ set Pascanion2 stat thunder_res 10
 set Pascanion2 stat wind_res 10
 set PoisonArrow stat accuracy 10
 set PoisonArrow stat might 8
-set RaijinArrow effect cripple-rate 12
+set RaijinArrow effect cripple-rate 16
 set RaijinArrow effect thunder-damage 25
 set RaijinArrow stat accuracy 10
 set RaijinArrow stat cost 1400
 set RaijinArrow stat might 0
-set Rossweisse effect cripple-x2
 set Rossweisse stat might 11
 set Rossweisse stat Weight 8
 set Rossweisse stat accuracy 50
@@ -3263,7 +3437,6 @@ set Rossweisse stat magic 0
 set Rossweisse stat max-range 3
 set Rossweisse stat thunder_res 10
 set Rossweisse stat wind_res 10
-set SereniaBow effect cripple-x2
 set SereniaBow stat Weight 8
 set SereniaBow stat might 11
 set SereniaBow stat accuracy 50
@@ -3345,7 +3518,6 @@ set WoodenArrow stat might 1
 
 //Crossbow
 
-set Arbalest effect cripple-x2
 set Arbalest stat accuracy 60
 set Arbalest stat cost 3000
 set Arbalest stat crit 0
@@ -3400,7 +3572,6 @@ set Chu-ko-nu stat min-range 1
 set Chu-ko-nu stat thunder_res 10
 set Chu-ko-nu stat weight 15
 set Chu-ko-nu stat wind_res 10
-set Gastraphetes effect cripple-x2
 set Gastraphetes stat accuracy 70
 set Gastraphetes stat cost 2000
 set Gastraphetes stat crit 0
@@ -3414,7 +3585,6 @@ set Gastraphetes stat min-range 1
 set Gastraphetes stat thunder_res 10
 set Gastraphetes stat weight 13
 set Gastraphetes stat wind_res 10
-set Hawkeye effect cripple-x2
 set Hawkeye stat accuracy 70
 set Hawkeye stat cost 5000
 set Hawkeye stat durability B
@@ -3468,7 +3638,6 @@ set IronCrossbow stat min-range 1
 set IronCrossbow stat thunder_res 10
 set IronCrossbow stat weight 12
 set IronCrossbow stat wind_res 10
-set KillerCrossbow effect cripple-x2
 set KillerCrossbow stat accuracy 60
 set KillerCrossbow stat cost 2600
 set KillerCrossbow stat crit 90
@@ -3510,7 +3679,6 @@ set Ollerus stat min-range 1
 set Ollerus stat thunder_res 10
 set Ollerus stat weight 14
 set Ollerus stat wind_res 10
-set RapidCrossbow effect cripple-x2
 set RapidCrossbow stat accuracy 70
 set RapidCrossbow stat cost 14000
 set RapidCrossbow stat crit 0
@@ -3541,7 +3709,6 @@ set VerianCrossbow stat wind_res 10
 
 
 // Balistae
-set BronzeBallista effect cripple-x2
 set BronzeBallista stat accuracy 70
 set BronzeBallista stat cost 3000
 set BronzeBallista stat crit 0
@@ -3550,7 +3717,6 @@ set BronzeBallista stat magic 10
 set BronzeBallista stat might 15
 set BronzeBallista stat speed 5
 set BronzeBallista stat weight 7
-set IronBallista effect cripple-x2
 set IronBallista stat accuracy 70
 set IronBallista stat cost 4000
 set IronBallista stat crit 0
@@ -3570,7 +3736,6 @@ set OldBallista stat might 13
 set OldBallista stat speed 5
 set OldBallista stat weight 8
 set OldBolt stat accuracy 10
-set PrototypeScorpio effect cripple-x2
 set PrototypeScorpio stat accuracy 80
 set PrototypeScorpio stat cost 5000
 set PrototypeScorpio stat crit 0
@@ -3579,7 +3744,6 @@ set PrototypeScorpio stat magic 10
 set PrototypeScorpio stat might 15
 set PrototypeScorpio stat speed 10
 set PrototypeScorpio stat weight 7
-set PrototypeSpringald effect cripple-x2
 set PrototypeSpringald stat accuracy 70
 set PrototypeSpringald stat cost 6000
 set PrototypeSpringald stat crit 0
@@ -3588,7 +3752,6 @@ set PrototypeSpringald stat magic 10
 set PrototypeSpringald stat might 33
 set PrototypeSpringald stat speed 5
 set PrototypeSpringald stat weight 10
-set Scorpio effect cripple-x2
 set Scorpio stat Durability B
 set Scorpio stat accuracy 100
 set Scorpio stat cost 6000
@@ -4513,7 +4676,7 @@ set GamblersBrace stat avoid 0
 set GamblersBrace stat cost 3600
 
 set LightRing effect cripple-rate 16
-set LightRing effect block-holy-damage 10
+set LightRing effect block-holy-damage 15
 set LightRing stat speed 2
 set LightRing stat avoid 0
 set LightRing stat fire_res 10
@@ -4524,7 +4687,7 @@ set LightRing stat dark_res 30
 set LightRing stat cost 3600
 
 set WindRing effect cripple-rate 16
-set WindRing effect block-holy-damage 10
+set WindRing effect block-holy-damage 15
 set WindRing stat speed 2
 set WindRing stat fire_res 10
 set WindRing stat thunder_res 10
@@ -4534,7 +4697,7 @@ set WindRing stat dark_res 10
 set WindRing stat cost 3600
 
 set ThunderRing effect cripple-rate 16
-set ThunderRing effect block-thunder-damage 10
+set ThunderRing effect block-thunder-damage 15
 set ThunderRing stat speed 2
 set ThunderRing stat fire_res 10
 set ThunderRing stat thunder_res 30
@@ -4544,7 +4707,7 @@ set ThunderRing stat dark_res 10
 set ThunderRing stat cost 3600
 
 set FireRing effect cripple-rate 16
-set FireRing effect block-fire-damage 10
+set FireRing effect block-fire-damage 15
 set FireRing stat speed 2
 set FireRing stat fire_res 30
 set FireRing stat thunder_res 10
@@ -4653,7 +4816,7 @@ set DawnCharm stat hit 15
 
 set FireScale stat speed 2
 set FireScale effect cripple-rate 16
-set FireScale effect block-fire-damage 10
+set FireScale effect block-fire-damage 15
 set FireScale stat crit_avoid_penalty 0
 set FireScale stat fire_res 30
 set FireScale stat thunder_res 10
@@ -4664,7 +4827,7 @@ set FireScale stat cost 3600
 
 set IceScale stat speed 2
 set IceScale effect cripple-rate 16
-set IceScale effect block-holy-damage 10
+set IceScale effect block-holy-damage 15
 set IceScale stat crit_avoid_penalty 0
 set IceScale stat fire_res 10
 set IceScale stat thunder_res 10
@@ -4675,7 +4838,7 @@ set IceScale stat cost 3600
 
 set ThunderScale stat speed 2
 set ThunderScale effect cripple-rate 16
-set ThunderScale effect block-thunder-damage 10
+set ThunderScale effect block-thunder-damage 15
 set ThunderScale stat crit_avoid_penalty 0
 set ThunderScale stat fire_res 10
 set ThunderScale stat thunder_res 30
@@ -4686,7 +4849,7 @@ set ThunderScale stat cost 3600
 
 set WyvernScale stat speed 2
 set WyvernScale effect cripple-rate 16
-set WyvernScale effect block-thunder-damage 10
+set WyvernScale effect block-thunder-damage 15
 set WyvernScale stat crit_avoid_penalty 0
 set WyvernScale stat fire_res 10
 set WyvernScale stat thunder_res 30
@@ -4697,7 +4860,7 @@ set WyvernScale stat cost 3600
 
 set ThorsScale stat speed 4
 set ThorsScale effect cripple-rate 32
-set ThorsScale effect block-thunder-damage 20
+set ThorsScale effect block-thunder-damage 30
 set ThorsScale stat crit_avoid_penalty 0
 set ThorsScale stat fire_res 20
 set ThorsScale stat thunder_res 60
