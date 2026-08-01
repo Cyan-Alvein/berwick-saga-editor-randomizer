@@ -2745,7 +2745,7 @@ set MilitaryFork stat cost 1200
 set MilitaryFork stat crit 0
 set MilitaryFork stat durability E
 set MilitaryFork stat hex 1
-set MilitaryFork stat might 10
+set MilitaryFork stat might 8
 set MilitaryFork stat weight 8
 set Pitchfork effect cripple-rate 8
 set Pitchfork stat accuracy 60
