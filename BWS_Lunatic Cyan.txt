@@ -2745,7 +2745,7 @@ set MilitaryFork stat cost 1200
 set MilitaryFork stat crit 0
 set MilitaryFork stat durability E
 set MilitaryFork stat hex 1
-set MilitaryFork stat might 12
+set MilitaryFork stat might 10
 set MilitaryFork stat weight 8
 set Pitchfork effect cripple-rate 8
 set Pitchfork stat accuracy 60
@@ -2753,7 +2753,7 @@ set Pitchfork stat cost 800
 set Pitchfork stat crit 0
 set Pitchfork stat durability E
 set Pitchfork stat hex 1
-set Pitchfork stat might 8
+set Pitchfork stat might 6
 set Pitchfork stat weight 6
 
 //lance // lance
