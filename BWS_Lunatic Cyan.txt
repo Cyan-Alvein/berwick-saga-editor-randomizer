@@ -853,9 +853,9 @@ set Owen base mind +7
 //set burroughs item 0 Bag 0
 //set burroughs item 1 BodkinArrow 20
 set burroughs item 2 MithrilArrow 20
-set burroughs item 3 KisharsWrath 8
+set burroughs item 3 KisharsWrath 20
 set burroughs item 4 New-TypeBolt 20
-set burroughs item 5 Tumahann 16
+set burroughs item 5 Tumahann 10
 set burroughs item 6 MithrilShield 101
 set burroughs item 7 Wormwood 10
 set burroughs growth crossbow 100
@@ -4744,7 +4744,7 @@ set FortuneCharm stat speed 2
 //set FortuneCharm stat wind_res 10
 //set FortuneCharm stat holy_res 10
 //set FortuneCharm stat dark_res 10
-//set FortuneCharm stat cost 3600
+set FortuneCharm stat cost 3600
 
 set PeerlessBrace stat strength 2
 set PeerlessBrace stat defense 2
@@ -4795,7 +4795,7 @@ set DuskCharm stat avoid 15
 //set DuskCharm stat wind_res 10
 //set DuskCharm stat holy_res 10
 //set DuskCharm stat dark_res 10
-//set DuskCharm stat cost 3600
+set DuskCharm stat cost 3600
 
 // skill hide
 set VanishCharm stat speed 5
@@ -4804,7 +4804,7 @@ set VanishCharm stat speed 5
 //set VanishCharm stat wind_res 10
 //set VanishCharm stat holy_res 10
 //set VanishCharm stat dark_res 10
-//set VanishCharm stat cost 3600
+set VanishCharm stat cost 3600
 
 set DawnCharm stat hit 15
 //set DawnCharm stat fire_res 10
@@ -4812,7 +4812,7 @@ set DawnCharm stat hit 15
 //set DawnCharm stat wind_res 10
 //set DawnCharm stat holy_res 10
 //set DawnCharm stat dark_res 10
-//set DawnCharm stat cost 3600
+set DawnCharm stat cost 3600
 
 set FireScale stat speed 2
 set FireScale effect cripple-rate 16
@@ -7740,7 +7740,7 @@ set ThinHorse stat cost 1500
 set PlainHorse stat cost 2500
 set SpryHorse stat cost 4000
 set ToughHorse stat cost 6000
-set StrongHorse cost 9000
+set StrongHorse stat cost 9000
 set SinonStallion stat cost 6000
 set LigaCourser stat cost 12500
 set LigaDestrier stat cost 7500
@@ -7849,6 +7849,7 @@ set Arrow++ stat might 8
 // Hammer Zanbato = -24 might, GreatAxe GreatSword stats were used
 // Mithril and Rare weapon got -2 weight in general.
 // LanceKnight2 & LanceKnight2_R for class for Adel & Leon, not Ennemy Class.
+// Horse Prize doesn't change. Surely a bug. Money isn't important anyway
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
 Set LanceKnight2 Skill Deathmatch
