@@ -7715,17 +7715,26 @@ set StrongHorse stat speed 2
 set StrongHorse stat strength 1
 set StrongHorse stat defense 1
 set StrongHorse stat magic 1
-set SinonStallion stat speed 2
-set SinonStallion stat strength 1
-set SinonStallion stat defense 1
+set SinonStallion stat speed 4
+set SinonStallion stat strength 0
+set SinonStallion stat defense 0
 set SinonStallion stat magic 1
-set LigaDestrier stat speed 2
-set LigaDestrier stat strength 1
+set LigaDestrier stat speed 0
+set LigaDestrier stat strength 3
 set LigaDestrier stat defense 1
 set LigaDestrier stat magic 1
 set LigaCourser stat speed 2
-set MorachHorse stat speed 2
+set LigaCourser stat strength 1
+set LigaCourser stat defense 1
+set LigaCourser stat magic 1
+set MorachHorse stat speed 0
+set MorachHorse stat strength 1
+set MorachHorse stat defense 3
+set MorachHorse stat magic 1
 set IshsCourser stat speed 2
+set IshsCourser stat strength 1
+set IshsCourser stat defense 1
+set IshsCourser stat magic 1
 
 set ThinHorse stat cost 1500
 set PlainHorse stat cost 2500
@@ -7733,10 +7742,10 @@ set SpryHorse stat cost 4000
 set ToughHorse stat cost 6000
 set StrongHorse cost 9000
 set SinonStallion stat cost 6000
-set LigaCourser stat cost 7500
+set LigaCourser stat cost 12500
 set LigaDestrier stat cost 7500
 set IshsStallion stat cost 5000
-set IshsCourser stat cost 4000
+set IshsCourser stat cost 9000
 set MorachHorse stat cost 7500
 //set tico stat cost
 
