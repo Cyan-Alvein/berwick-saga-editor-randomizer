@@ -2834,7 +2834,7 @@ set Bhuj stat might 14
 set Bhuj stat accuracy 50
 set BoltAxe effect cripple-rate 12
 set BoltAxe effect thunder-damage 20
-set BoltAxe stat Weight 6
+set BoltAxe stat Weight 5
 set BoltAxe stat accuracy 50
 set BoltAxe stat cost 2650
 set BoltAxe stat crit 0
@@ -2866,7 +2866,7 @@ set CrookedAxe stat crit 90
 set CrookedAxe stat might 0
 set DarkAxe effect cripple-rate 8
 set DarkAxe effect dark-damage 15
-set DarkAxe stat Weight 6
+set DarkAxe stat Weight 4
 set DarkAxe stat accuracy 50
 set DarkAxe stat cost 2000
 set DarkAxe stat crit 0
@@ -2891,7 +2891,7 @@ set GigasAxe stat level 16
 set GigasAxe stat might 16
 set GlacierAxe effect cripple-rate 8
 set GlacierAxe effect wind-damage 15
-set GlacierAxe stat Weight 5
+set GlacierAxe stat Weight 4
 set GlacierAxe stat accuracy 50
 set GlacierAxe stat cost 2000
 set GlacierAxe stat crit 0
