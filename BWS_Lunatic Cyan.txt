@@ -460,6 +460,8 @@ set marcel growth speed 10
 set marcel growth magic 0
 //set Marcel item 0 VerianSword 101 lock
 //set Marcel item 1 VerianLShd 101 lock
+set Marcel item 0 Longsword 101
+set Marcel item 1 LeatherLShd 101
 set Marcel item 2 Broadsword 101
 set Marcel item 3 Scimitar+ 101
 set Marcel item 4 WindEdge 101
@@ -2891,9 +2893,9 @@ set SwiftSpear stat might 12
 set SwiftSpear stat weight 7
 set VerianSpear stat Weight 6
 set VerianSpear stat accuracy 60
-set VerianSpear stat cost 1000
+set VerianSpear stat cost 800
 set VerianSpear stat crit 0
-set VerianSpear stat durability D
+set VerianSpear stat durability E
 set VerianSpear stat might 8
 set Verutum stat Weight 8
 set Verutum stat cost 1500
@@ -3220,8 +3222,8 @@ set Tomahawk stat level 15
 set Tomahawk stat might 14
 set VerianAxe stat Weight 6
 set VerianAxe stat accuracy 50
-set VerianAxe stat cost 600
-set VerianAxe stat durability D
+set VerianAxe stat cost 500
+set VerianAxe stat durability E
 set VolcanoAxe effect cripple-rate 8
 set VolcanoAxe effect fire-damage 15
 set VolcanoAxe stat Weight 4
@@ -3503,10 +3505,10 @@ set TripleFireBow stat thunder_res 10
 set TripleFireBow stat wind_res 10
 set VerianBow stat Weight 7
 set VerianBow stat accuracy 50
-set VerianBow stat cost 1400
+set VerianBow stat cost 800
 set VerianBow stat crit 0
 set VerianBow stat dark_res 10
-set VerianBow stat durability D
+set VerianBow stat durability E
 set VerianBow stat fire_res 10
 set VerianBow stat holy_res 10
 set VerianBow stat might 5
@@ -3694,10 +3696,10 @@ set RapidCrossbow stat thunder_res 10
 set RapidCrossbow stat weight 14
 set RapidCrossbow stat wind_res 10
 set VerianCrossbow stat accuracy 70
-set VerianCrossbow stat cost 1450
+set VerianCrossbow stat cost 950
 set VerianCrossbow stat crit 0
 set VerianCrossbow stat dark_res 10
-set VerianCrossbow stat durability C
+set VerianCrossbow stat durability E
 set VerianCrossbow stat fire_res 10
 set VerianCrossbow stat holy_res 10
 set VerianCrossbow stat max-range 2
@@ -4003,7 +4005,7 @@ set Vollenden stat cost 8000
 set ShiningShield stat cost 5000
 set Aiantos stat cost 7000
 
-Set VerianSShd Stat cost 540
+Set VerianSShd Stat cost 260
 set OldImpSShd stat cost 150
 set ImpSoldierSShd stat cost 260
 set ImpSoldierSShd++ stat cost 520
@@ -4053,7 +4055,7 @@ set Vollenden stat durability S
 set LadyShield stat durability A
 set Perseid stat durability S
 
-set VerianSShd stat durability C
+set VerianSShd stat durability E
 set OldImpSShd stat durability F
 set ImpSoldierSShd stat durability E
 set ImpSoldierSShd++ stat durability E
@@ -4311,7 +4313,7 @@ set Hestia stat durability A
 set PaladinShield stat durability A
 set BlackShield stat durability A
 
-set VerianMShd stat durability C
+set VerianMShd stat durability E
 set ImpSoldierMShd stat durability E
 set ImpSoldierMShd+ stat durability E
 set ImpOfficerMShd stat durability E
@@ -4334,7 +4336,7 @@ set ShadowShield stat cost 7000
 set BlazingShield stat cost 7000
 set GaleShield stat cost 7000
 
-set VerianMShd stat cost 1600
+set VerianMShd stat cost 1000
 set ImpSoldierMShd cost 1000
 set ImpSoldierMShd+ cost 1300
 set ImpOfficerMShd cost 1560
@@ -4383,7 +4385,7 @@ set ImpKnightLShd stat durability E
 set ImpOfficerLShd stat durability E
 set ImpSoldierLShd stat durability E
 set ImpSoldierLShd+ stat durability E
-set VerianLShd stat Durability B
+set VerianLShd stat Durability E
 
 set LeatherLShd stat Durability B
 set WideShield stat Durability B
@@ -4450,7 +4452,7 @@ set AmaterasuShield stat cost 11000
 
 set ImpSoldierLShd stat cost 925
 set ImpSoldierLShd+ stat cost 1200
-set VerianLShd stat cost 1910
+set VerianLShd stat cost 1200
 set ImpOfficerLShd stat cost 1460
 set ImpKnightLShd stat cost 1800
 
@@ -7166,8 +7168,6 @@ set ImperialBowRider skill Parry
 set ImperialBowRider_R skill Parry
 set ImperialGunner skill Parry
 set ImperialHeavyGunner skill Parry
-set ImperialKnight skill Parry
-set ImperialKnight_R skill Parry
 set ImperialMarksman skill Parry
 set LadyKnight skill Parry
 set LadyKnight_R skill Parry
