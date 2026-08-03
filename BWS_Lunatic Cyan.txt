@@ -2356,6 +2356,7 @@ set Dart stat level 1
 set Dart stat might 4
 set Dart stat uses 20
 set Dart stat weight 4
+set Dart stat min-range 0
 set KillerKnife stat accuracy 50
 set KillerKnife stat cost 1800
 set KillerKnife stat crit 40
@@ -2440,6 +2441,7 @@ set ThrowingKnife stat durability B
 set ThrowingKnife stat level 12
 set ThrowingKnife stat might 6
 set ThrowingKnife stat weight 5
+set ThrowingKnife stat min-range 0
 set Vespa stat cost 1200
 set Vespa stat crit 0
 set Vespa stat durability C
@@ -2764,6 +2766,7 @@ set Angon stat durability C
 set Angon stat level 15
 set Angon stat might 17
 set Angon stat accuracy 60
+set Angon stat min-range 0
 set Brionac stat Weight 12
 set Brionac stat accuracy 60
 set Brionac stat cost 5000
@@ -2814,6 +2817,7 @@ set Javelin stat cost 2000
 set Javelin stat crit 0
 set Javelin stat might 17
 set Javelin stat uses 20
+set Javelin stat min-range 0
 set KillerSpear stat Weight 10
 set KillerSpear stat accuracy 50
 set KillerSpear stat cost 2000
@@ -2858,12 +2862,13 @@ set Pike stat durability B
 set Pike stat hex 2
 set Pike stat level 8
 set Pike stat might 10
-set Pilum stat Weight 8
+set Pilum stat Weight 6
 set Pilum stat cost 1000
 set Pilum stat crit 0
 set Pilum stat level 1
 set Pilum stat might 8
 set Pilum stat uses 20
+set Pilum stat min-range 0
 set PrototypeSpear stat Weight 6
 set PrototypeSpear stat accuracy 60
 set PrototypeSpear stat cost 2500
@@ -2903,6 +2908,7 @@ set Verutum stat crit 0
 set Verutum stat level 10
 set Verutum stat might 12
 set Verutum stat uses 20
+set Verutum stat min-range 0
 set WindSpear effect cripple-rate 16
 set WindSpear effect wind-damage 25
 set WindSpear stat Weight 6
@@ -3070,6 +3076,7 @@ set Francisca stat crit 0
 set Francisca stat level 10
 set Francisca stat might 14
 set Francisca stat uses 20
+set Francisca stat min-range 0
 set GigasAxe effect chance-def-up
 set GigasAxe stat Weight 14
 set GigasAxe stat accuracy 40
@@ -3095,13 +3102,14 @@ set GreatAxe stat cost 3000
 set GreatAxe stat crit 0
 set GreatAxe stat level 18
 set GreatAxe stat might 26
-set Gullveig stat Weight 9
+set Gullveig stat Weight 8
 set Gullveig stat cost 4000
 set Gullveig stat crit 0
 set Gullveig stat durability B
 set Gullveig stat level 15
 set Gullveig stat might 19
 set Gullveig stat accuracy 50
+set Gullveig stat min-range 0
 set Hammer effect ignore-defense
 set Hammer stat cost 3000
 set Hammer stat Weight 14
@@ -3116,6 +3124,7 @@ set HandAxe stat cost 970
 set HandAxe stat crit 0
 set HandAxe stat might 10
 set HandAxe stat uses 20
+set HandAxe stat min-range 0
 set Hatchet stat Weight 10
 set Hatchet stat accuracy 40
 set Hatchet stat cost 1850
@@ -3123,6 +3132,7 @@ set Hatchet stat crit 0
 set Hatchet stat level 15
 set Hatchet stat might 19
 set Hatchet stat uses 20
+set Hatchet stat min-range 0
 set ImperialAxe stat Weight 6
 set ImperialAxe stat accuracy 50
 set ImperialAxe stat cost 500
@@ -3220,6 +3230,7 @@ set Tomahawk stat crit 0
 set Tomahawk stat durability C
 set Tomahawk stat level 15
 set Tomahawk stat might 14
+set Tomahawk stat min-range 0
 set VerianAxe stat Weight 6
 set VerianAxe stat accuracy 50
 set VerianAxe stat cost 500
