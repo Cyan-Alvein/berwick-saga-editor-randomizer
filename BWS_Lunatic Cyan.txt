@@ -683,14 +683,14 @@ set esteban item 6 Bag 0
 set esteban item 7 Bag 0
 set esteban base knife +30
 set esteban base bow +20
-set esteban base sword +40
+set esteban base sword +50
 set esteban base hp +0
 set esteban base strength +1
 set esteban base defense +0
 set esteban base speed +0
 set esteban base magic +0
 set Hunter cap Bow 60
-set Hunter cap Knife 80
+set Hunter cap Knife 50
 set Hunter cap sword 40
 set HighHunter cap Knife 50
 set HighHunter cap Sword 40
