@@ -2698,21 +2698,21 @@ set Adrastia stat accuracy 60
 set Balmung stat accuracy 70
 set Balmung stat cost 6000
 set Balmung stat crit 0
-set Balmung stat weight 11
-set Balmung stat might 25
+set Balmung stat weight 9
+set Balmung stat might 21
 set Balmung stat crit 0
 set Balmung stat Durability B
 set Balmung2 stat accuracy 70
 set Balmung2 stat cost 6000
 set Balmung2 stat crit 0
-set Balmung2 stat weight 11
-set Balmung2 stat might 25
+set Balmung2 stat weight 9
+set Balmung2 stat might 21
 set Balmung2 Durability B
 set Balmung3 stat accuracy 70
 set Balmung3 stat cost 6000
 set Balmung3 stat crit 0
-set Balmung3 stat weight 11
-set Balmung3 stat might 25
+set Balmung3 stat weight 9
+set Balmung3 stat might 21
 set Balmung3 Durability B
 set BastardSword effect ignore-shields
 set BastardSword stat accuracy 50
