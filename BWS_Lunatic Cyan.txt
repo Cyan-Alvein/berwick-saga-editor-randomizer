@@ -3604,7 +3604,7 @@ set Gastraphetes stat wind_res 10
 set Hawkeye stat accuracy 70
 set Hawkeye stat cost 5000
 set Hawkeye stat durability B
-set Hawkeye stat crit 20
+set Hawkeye stat crit 0
 set Hawkeye stat dark_res 10
 set Hawkeye stat durability B
 set Hawkeye stat fire_res 10
