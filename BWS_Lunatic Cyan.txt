@@ -2646,8 +2646,8 @@ set Shortsword stat Durability C
 set Shortsword stat Weight 4
 set Shortsword stat crit 0
 set Shortsword stat might 7
-set VerianSword stat Cost 1200
-set VerianSword stat Durability C
+set VerianSword stat Cost 800
+set VerianSword stat Durability E
 set VerianSword stat Weight 5
 set VerianSword stat crit 0
 set VerianSword stat might 9
