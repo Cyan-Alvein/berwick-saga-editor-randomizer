@@ -990,7 +990,7 @@ set ward skill throw
 set ward skill Windsweep
 set ward skill sunder
 
-unset elbert skill arrowbane
+set elbert skill arrowbane
 set elbert skill canto
 set elbert skill flourish
 set elbert skill guard 
@@ -1002,7 +1002,7 @@ set elbert skill prepared
 set elbert skill provoke
 unset elbert skill shieldfaire 
 set elbert skill counter
-set elbert skill armsthrift
+//set elbert skill armsthrift
 set elbert skill throw
 set elbert skill desperation
 set elbert skill maim
@@ -1066,7 +1066,7 @@ set adel skill robbery
 set adel skill hide
 set adel skill windsweep
 //set adel skill fortune
-set adel skill armsthrift
+//set adel skill armsthrift
 //set adel skill counter
 set adel skill sunder
 set adel skill provoke
@@ -1471,7 +1471,7 @@ set sylvis skill tripleshot
 set sylvis skill windsweep
 set sylvis skill fortune
 set sylvis skill pursuit
-set sylvis skill armsthrift
+//set sylvis skill armsthrift
 set sylvis skill celerity
 set sylvis skill adept
 set sylvis skill doubleshot
