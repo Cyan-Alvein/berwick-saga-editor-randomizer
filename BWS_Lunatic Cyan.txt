@@ -4356,24 +4356,24 @@ set ImpSoldierMShd+ cost 1300
 set ImpOfficerMShd cost 1560
 set ImpKnightMShd cost 1820
 
-set LightningShield stat level 13
-set RadiantShield stat level 13
-set ShadowShield stat level 13
-set BlazingShield stat level 13
-set GaleShield stat level 13
-set Kiteshield stat level 7
-set SquareShield stat level 10
-set KnightShield stat level 13
+set LightningShield stat level 12
+set RadiantShield stat level 12
+set ShadowShield stat level 12
+set BlazingShield stat level 12
+set GaleShield stat level 12
+set Kiteshield stat level 4
+set SquareShield stat level 8
+set KnightShield stat level 12
 set LimitShield stat level 8
 set PaladinShield stat level 16
-set Hestia stat level 16
+set Hestia stat level 8
 set BlackShield stat level 16
-set WyrmskinShield stat level 16
+set WyrmskinShield stat level 8
 
 Set VerianMShd stat level 1
 Set ImpSoldierMShd stat level 1
-Set ImpSoldierMShd+ stat level 10
-Set ImpOfficerMShd stat level 13
+Set ImpSoldierMShd+ stat level 8
+Set ImpOfficerMShd stat level 12
 Set ImpKnightMShd stat level 16
 
 // lshield stuff
