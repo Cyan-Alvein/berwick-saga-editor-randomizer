@@ -2611,7 +2611,7 @@ set OldImperialSword stat Durability F
 set OldImperialSword stat might 7
 set Rapier stat Cost 2600
 set Rapier stat Durability C
-set Rapier stat Weight 10
+set Rapier stat Weight 8
 set Rapier stat accuracy 50
 set Rapier stat crit 0
 set Rapier stat might 7
@@ -2721,7 +2721,7 @@ set BastardSword stat crit 0
 set BastardSword stat durability C
 set BastardSword stat level 10
 set BastardSword stat might 13
-set BastardSword stat weight 13
+set BastardSword stat weight 11
 set Brymranger stat accuracy 60
 set Brymranger stat avoid 0
 set Brymranger stat cost 10000
@@ -3202,7 +3202,7 @@ set Pickaxe stat crit 0
 set Pickaxe stat might 6
 set Poleax effect kill-horse 0
 set Poleax effect ignore-shields
-set Poleax stat Weight 14
+set Poleax stat Weight 12
 set Poleax stat accuracy 40
 set Poleax stat cost 4000
 set Poleax stat crit 0
@@ -3248,7 +3248,7 @@ set VolcanoAxe stat durability C
 set VolcanoAxe stat level 4
 set VolcanoAxe stat might 1
 set WarPick stat cost 2500
-set WarPick stat Weight 11
+set WarPick stat Weight 9
 set WarPick stat accuracy 40
 set WarPick stat crit 0
 set WarPick stat might 8
@@ -7859,7 +7859,7 @@ set Arrow++ stat might 8
 // How I did the balance. Character with critical skill Faye Leon ... got -7 stat compared to those without Arthur Dean
 // Injure 100% weapon stat = +2 weight -20% accuracy
 // KillingEdge = AltiumSword stat & Crit = Might/2, +3 Weight, 15 Might = 100% crit so 14 = 93%. I divise the crit by 2 for balance since crit is OP (Ignore both shield and defense).
-// Rapier effect = -12 might
+// Rapier effect = -8 might
 // Hammer Zanbato = -24 might, GreatAxe GreatSword stats were used
 // Mithril and Rare weapon got -2 weight in general.
 // LanceKnight2 & LanceKnight2_R for class for Adel & Leon, not Ennemy Class.
