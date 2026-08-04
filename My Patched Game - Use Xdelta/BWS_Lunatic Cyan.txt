@@ -990,7 +990,7 @@ set ward skill throw
 set ward skill Windsweep
 set ward skill sunder
 
-unset elbert skill arrowbane
+set elbert skill arrowbane
 set elbert skill canto
 set elbert skill flourish
 set elbert skill guard 
@@ -1002,7 +1002,7 @@ set elbert skill prepared
 set elbert skill provoke
 unset elbert skill shieldfaire 
 set elbert skill counter
-set elbert skill armsthrift
+//set elbert skill armsthrift
 set elbert skill throw
 set elbert skill desperation
 set elbert skill maim
@@ -1066,7 +1066,7 @@ set adel skill robbery
 set adel skill hide
 set adel skill windsweep
 //set adel skill fortune
-set adel skill armsthrift
+//set adel skill armsthrift
 //set adel skill counter
 set adel skill sunder
 set adel skill provoke
@@ -1471,7 +1471,7 @@ set sylvis skill tripleshot
 set sylvis skill windsweep
 set sylvis skill fortune
 set sylvis skill pursuit
-set sylvis skill armsthrift
+//set sylvis skill armsthrift
 set sylvis skill celerity
 set sylvis skill adept
 set sylvis skill doubleshot
@@ -2137,13 +2137,13 @@ set PallasRiana stat level 15
 //set PallasRiana stat uses 60
 set AirBlade stat accuracy 60
 set Windstorm stat accuracy 50
-set Blizzard stat accuracy 40
-set Windstorm stat level 1
+set Blizzard stat accuracy 50
+set Windstorm stat level 10
 set Blizzard stat level 1
 set Blizzard stat might 20
-set AirBlade stat might 10
-set Windstorm stat might 10
-set PallasRiana stat might 10
+set AirBlade stat might 8
+set Windstorm stat might 8
+set PallasRiana stat might 8
 set PallasRiana stat max-range 3
 set PallasRiana stat accuracy 50
 set Sandstorm stat accuracy 110
@@ -2172,10 +2172,10 @@ set Fire stat max-range 2
 set Fire stat accuracy 70
 set Fire stat might 15
 set Earthblaze stat max-range 3
-set Earthblaze stat level 1
+set Earthblaze stat level 10
 set Hellfire stat max-range 2
 set Hellfire stat accuracy 60
-set Hellfire stat level 1
+set Hellfire stat level 10
 set Earthblaze stat accuracy 50
 set PallasLeia stat level 15
 set PallasLeia stat max-range 2
@@ -2205,7 +2205,7 @@ set DireThunder stat accuracy 50
 set DireThunder stat might 10
 set Lightning stat max-range 2
 set Lightning stat accuracy 60
-set Lightning stat level 1
+set Lightning stat level 10
 set Lightning stat might 15
 set PallasSerenia stat level 15
 set PallasSerenia stat might 27
@@ -2268,8 +2268,8 @@ set KisharsWrath stat min-range 1
 //set Wormwood stat min-range 1
 Set Nosferatu stat accuracy 60
 Set Nosferatu+ stat accuracy 60
-Set Nosferatu stat might 15
-Set Nosferatu+ stat might 15
+Set Nosferatu stat might 10
+Set Nosferatu+ stat might 10
 Set Scylla stat accuracy 60
 Set Swarm stat might 15
 Set Tumahann stat might 32
