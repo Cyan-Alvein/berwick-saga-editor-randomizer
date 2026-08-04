@@ -3285,7 +3285,7 @@ set Apollyon stat might 5
 set Apollyon stat thunder_res 10
 set Apollyon stat wind_res 10
 set BodkinArrow stat accuracy 10
-set BodkinArrow stat might 2
+set BodkinArrow stat might 3
 set BreakerArrow effect disarm-rate 100
 set BreakerArrow stat cost 1400
 set BreakerArrow stat might 6
