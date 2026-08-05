@@ -4769,7 +4769,7 @@ set PeerlessBrace stat thunder_res 10
 set PeerlessBrace stat wind_res 10
 set PeerlessBrace stat holy_res 10
 set PeerlessBrace stat dark_res 10
-set PeerlessBrace stat cost 36000
+set PeerlessBrace stat cost 10000
 
 set DarkRing stat defense 14
 //set DarkRing stat fire_res 10
