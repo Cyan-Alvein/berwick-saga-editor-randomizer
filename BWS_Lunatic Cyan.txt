@@ -2131,9 +2131,9 @@ set AirBlade stat max-range 2
 set Windstorm stat max-range 2
 set PallasRiana stat level 15
 //set PallasRiana stat uses 60
-set AirBlade stat accuracy 60
-set Windstorm stat accuracy 50
-set Blizzard stat accuracy 50
+set AirBlade stat accuracy 70
+set Windstorm stat accuracy 60
+set Blizzard stat accuracy 60
 set Windstorm stat level 10
 set Blizzard stat level 1
 set Blizzard stat might 20
@@ -2141,7 +2141,7 @@ set AirBlade stat might 8
 set Windstorm stat might 8
 set PallasRiana stat might 8
 set PallasRiana stat max-range 3
-set PallasRiana stat accuracy 50
+set PallasRiana stat accuracy 60
 set Sandstorm stat accuracy 110
 set Windtongue stat accuracy 110
 set Icetongue stat accuracy 110
@@ -2275,7 +2275,7 @@ Set Tumahann stat accuracy 70
 Set KisharsWrath stat might 20
 Set KisharsWrath stat accuracy 50
 Set KisharsWrath stat uses 20
-Set Wormwood stat accuracy 40
+Set Wormwood stat accuracy 50
 Set Wormwood stat uses 10
 Set Wormwood stat might 1
 Set Wormwood stat crit 90
@@ -2344,7 +2344,7 @@ set Crotalus stat cost 6000
 set Crotalus stat crit 0
 set Crotalus stat level 12
 set Crotalus stat might 6
-set Crotalus stat weight 4
+set Crotalus stat weight 5
 set Crotalus stat durability B
 set Dart stat cost 950
 set Dart stat crit 0
@@ -2488,7 +2488,7 @@ set Colichemarde stat accuracy 60
 set Colichemarde stat crit 0
 set Colichemarde stat level 10
 set Colichemarde stat might 7
-set Colichemarde stat weight 8
+set Colichemarde stat weight 6
 set Cutlass stat Cost 4500
 set Cutlass stat Durability A
 set Cutlass stat Weight 3
@@ -2504,7 +2504,7 @@ set Estoc stat Durability C
 set Estoc stat accuracy 50
 set Estoc stat crit 0
 set Estoc stat might 4
-set Estoc stat weight 10
+set Estoc stat weight 8
 set FlameSword effect cripple-rate 12
 set FlameSword effect fire-damage 20
 set FlameSword stat Cost 3000
@@ -3502,9 +3502,9 @@ set SwiftBow stat holy_res 10
 set SwiftBow stat might 1
 set SwiftBow stat thunder_res 10
 set SwiftBow stat wind_res 10
-set TripleFireBow stat Weight 8
-set TripleFireBow stat accuracy 40
-set TripleFireBow stat cost 2000
+set TripleFireBow stat Weight 5
+set TripleFireBow stat accuracy 50
+set TripleFireBow stat cost 1000
 set TripleFireBow stat crit 0
 set TripleFireBow stat dark_res 10
 set TripleFireBow stat durability D
