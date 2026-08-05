@@ -22,7 +22,7 @@
 
 // Zanbato = Hammer = same as knives now. Ignore All Defense effect. You can Pulverize with them for shreking Armor. Faye Faramir Volo Kramer Sherpa can Pulverize with Zanbato
 
-// All Magic shields (WindShield) & magic rings (WindRing) effect cripple-rate 8 & 16 and 5 magic damage on block.
+// All Magic shields (WindShield) & magic rings (WindRing) effect cripple-rate 8 & 16 and 10 magic damage on block.
 
 // Hawkeye, Ollerus & Arbalest got 3 range. Apeiron, Rossweisse, Apollyon & Greatbow got 3 range. Crossbow minimum range is 1
 
@@ -30,7 +30,7 @@
 
 // NB: Faye, Volo use Astra. Faye, Faramir, Volo, Sherpa & Kramer can use Pulverize when they have a Blade Equiped. Now you understand why the Blade skill is OP, since Pulverize is the best offensive skill in the game.
 
-// Reese, Ruby, Alvina, Larentia, Kramer, Sherpa, Faye, Faramir, Dean got Deathmatch Skill
+// Every player unit got Deathmatch Skill except Tanks ( Daoud Derrick Marcel )
 
 // All ennemy got supporter & hide skill.
 
@@ -46,7 +46,7 @@
 
 // All prefered & locked weapon rank are now level 20 at best. So Thaddy can use AssassinsKnife at level 20, Ruby can use Perseid at level 20, Volo can use Brymranger at level 20
 
-// All priest class got resistor skill, yes even Izerna & ennemy priest
+// All Mage class got resistor skill, yes even Aegina Enid Izerna & ennemy priest
 
 // Izerna Got Silence Skill
 
@@ -66,7 +66,7 @@
 
 // All horses give stat bonus up to 5 points, while tico is still OP ofc (7 points, I didn't touch his stat no joke, Czene was cheating the whole time with that monster). So ThinHorse give 2 speed, 1 attack, 1 defense, 1 magic.
 
-// Vollenden, DarkShield, Hestia, reflect 10 magic damage on block. All other elemental shields reflect only 5.
+// Vollenden, DarkShield, Hestia, reflect 15 magic damage on block. All other elemental shields reflect only 10.
 
 // All elemental shields receive 20 magic resist on their attribute. So Windshield get +20 wind_res, and since Windshield got 6 might, it gets a total of 26 wind_res.
 
@@ -74,17 +74,15 @@
 
 // Axel movement type is now light-infantry
 
-// All player archers unit got magicbane, because they don't have a ring for magic resist.
-
 // Search skill to all player unit
 
 // Swimmer skill to Thaddy Czene Dean Volo Kramer Faye Sherpa. Please don't make Czene swimming while mounted.
 
-// All magic orbs minimum range is 1. So mages like Aegina can't defend at close range, while Enid can with her sword and prepared skill. That is why Aegina and Perceval now get OneTwo Skill while Enid doesn't for fair. Same logic for Sylvis & Esteban
+// Most magic orbs minimum range is 1 except Holy Starlight Nosferatu Tumahann PallasLeia. So mages like Aegina can't defend at close range, while Enid can with her sword and prepared skill. That is why Aegina and Perceval now get OneTwo Skill while Enid doesn't for fair. Same logic for Sylvis & Esteban
 
 // All shields are 100% accuracy, except Aiantos which is 0% accuracy, 14 defense & 14 magic, and of course 100% accuracy vs bow
 
-// MainGauche & Balmung gives 12 defense, Kris gives 12 magic.
+// MainGauche & Balmung gives 6 defense, Kris gives 6 magic.
 
 // Parry to all no-shield unit (Faye, Faramir, Volo, Kramer, Sherpa, Lynette, Paramythis, Sherlock, Christine, Sylvis, Esteban, Enid)
 
@@ -92,23 +90,21 @@
 
 // KnockAway to all no-shield sword unit (Faye, Faramir, Volo, Kramer, Sherpa, Paramythis, Enid)
 
-// GreatSword Adrastia 2 Defense, Partisan Doru 4 Defense, MainGauche Balmung 6 Defense, Rossweisse 3 Defense 
-
 // ShieldAxe give 16 might 10 def skill parry. GigasAxe give 20 might 10 def no skill parry. 
 
 // All bows and crossbows give +10 magic resist. This is because they can't use rings. I will create soon my own Fire Emblem where Archer can use rings then remove this
 
-// FeatherBrace 2 Spd 2 Str 10 Mag_Res, MuscleBrace 2 Str 6 Hit 10 Mag_Res, GuardBrace 2 Def 6 Hit 10 Mag_Res, SpiritBrace 2 Mag 2 Spd 6 Hit, EagleBrace 6 Hit 2 Spd 10 Mag_Res
+// FeatherBrace 2 Spd 10 Mag_Res, MuscleBrace 2 Str 10 Mag_Res, GuardBrace 2 Def 10 Mag_Res, SpiritBrace 2 Mag 1 Spd, EagleBrace 10 Hit 10 Mag_Res
 
-// PegasusBrace 4 Spd 10 Mag_Res, GiantsBrace 4 Str 10 Mag_Res, PhoenixBrace 4 Def 10 Mag_Res, BlessedBrace 4 Mag 6 Hit, TigerBrace 12 Hit 10 Mag_Res
+// PegasusBrace 3 Spd, GiantsBrace 3 Str, PhoenixBrace 3 Def, BlessedBrace 3 Mag, TigerBrace 10 Hit
 
-// DivineBrace 5 Mag, GamblersBrace 3 Str 3 Def, VanishCharm 5 Spd, DuskCharm 15 Avoid, DawnCharm 15 Hit
+// DivineBrace 4 Mag, GamblersBrace 2 Str 2 Def, VanishCharm 4 Spd, DuskCharm 20 Avoid, DawnCharm 20 Hit
 
-// MiracleCharm & HealthCharm & FortuneCharm & ThiefsCharm 6 Hit 2 Speed
+// MiracleCharm & HealthCharm & FortuneCharm 5 Hit 1 Speed, ThiefsCharm 10 Hit
 
-// LightRing 2 Spd 10 Block_Damage 16 Cripple-rate 10 Mag_Res 20 Holy_Res 20 Dark_Res, WindRing & IceScale 2 Spd 10 Block_Damage 16 Cripple-rate 10 Mag_Res 20 Wind_Res, FireRing & FireScale 2 Spd 10 Block_Damage 16 Cripple-rate 10 Mag_Res 20 Wind_Res, ThunderRing & ThunderScale 2 Spd 10 Block_Damage 16 Cripple-rate 10 Mag_Res 20 Wind_Res, ThorScale is double Thunderstale stat so 4 Spd 20 Block_Damage 32 Cripple-rate 20 Mag_Res 40 Wind_Res
+// LightRing 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Holy_Res 20 Dark_Res, WindRing & IceScale 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, FireRing & FireScale 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, ThunderRing & ThunderScale 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, ThorScale is double Thunderstale stat so 4 Spd 20 Block_Damage 32 Cripple-rate 20 Mag_Res 40 Wind_Res
 
-// DarkRing 15 Def -10 Mag, DjinnRing 15 Mag -10 Def
+// DarkRing 14 Def -10 Mag, DjinnRing 14 Mag -10 Def
 
 //Axel Faramir Esteban Sylvis Czene Thaddy got Locktouch skill
 
