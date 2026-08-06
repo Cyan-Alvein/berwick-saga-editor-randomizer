@@ -288,7 +288,7 @@ set christine base crossbow +30
 set christine base sword +40
 
 set adel item 0 IronSpear 101
-set adel item 1 Bag 0
+set adel item 1 Buckler 101
 set adel item 2 FireShield 101
 set adel item 3 Bag 0
 set adel item 4 GoreFork 101
@@ -311,7 +311,7 @@ set adel base magic +3
 
 
 set leon item 0 IronSpear 101
-set leon item 1 Bag 0
+set leon item 1 Buckler 101
 set leon item 2 ThunderShield 101
 set leon item 3 IronLance 101
 set leon item 4 Bag 0
@@ -776,7 +776,7 @@ set clifford base defense +0
 set clifford base speed +2
 set clifford base magic +3
 
-set axel item 0 IronAxe 101
+set axel item 0 Bag 0
 set axel item 1 KillerAxe 101
 set axel item 2 Repairstone 10
 set axel item 3 Treasure 101
@@ -799,7 +799,7 @@ set axel base magic +0
 
 
 // Since I can't increase larentia stat on wyvern, I gave her basic horse bonus stat.
-set larentia item 2 LadySword 101
+set larentia item 2 PrototypeSpear 101
 set larentia item 3 Bag 0
 set larentia item 4 Treasure 101
 set larentia item 5 Bag 0
@@ -886,11 +886,11 @@ set Derrick base defense +0
 set Derrick base speed +3
 set Derrick base magic +3
 
-set saphira item 1 Holy 20
+set saphira item 1 Bag 0
 set saphira item 2 Bag 0
 set saphira item 3 LightRing 0
 set saphira item 4 Bag 0
-set saphira item 5 Awaken 10
+set saphira item 5 Bag 0
 set saphira item 6 Bag 0
 set saphira item 7 Bag 0
 set saphira growth holy 100
@@ -903,10 +903,11 @@ set saphira base holy +20
 set saphira base hp +1
 set saphira base speed +2
 
-set lynette item 3 Bag 0
+set lynette item 2 MithrilArrow 20
+set lynette item 3 LadySword 101
 set lynette item 4 DireThunder 20
-set lynette item 5 LadySword 101
-set lynette item 6 MithrilArrow 20
+set lynette item 5 Bag 0
+set lynette item 6 Bag 0
 set lynette item 7 Bag 0
 set lynette base thunder +40
 set lynette base sword +40
