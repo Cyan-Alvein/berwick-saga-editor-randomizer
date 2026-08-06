@@ -4691,7 +4691,7 @@ set GamblersBrace stat avoid 0
 set GamblersBrace stat cost 5000
 
 set LightRing effect cripple-rate 8
-set LightRing effect block-holy-damage 10
+set LightRing effect block-holy-damage 15
 //set LightRing stat speed 2
 set LightRing stat avoid 0
 set LightRing stat fire_res 10
@@ -4702,7 +4702,7 @@ set LightRing stat dark_res 30
 set LightRing stat cost 3600
 
 set WindRing effect cripple-rate 8
-set WindRing effect block-holy-damage 10
+set WindRing effect block-holy-damage 15
 //set WindRing stat speed 2
 set WindRing stat fire_res 10
 set WindRing stat thunder_res 10
@@ -4712,7 +4712,7 @@ set WindRing stat dark_res 10
 set WindRing stat cost 3600
 
 set ThunderRing effect cripple-rate 8
-set ThunderRing effect block-thunder-damage 10
+set ThunderRing effect block-thunder-damage 15
 //set ThunderRing stat speed 2
 set ThunderRing stat fire_res 10
 set ThunderRing stat thunder_res 30
@@ -4722,7 +4722,7 @@ set ThunderRing stat dark_res 10
 set ThunderRing stat cost 3600
 
 set FireRing effect cripple-rate 8
-set FireRing effect block-fire-damage 10
+set FireRing effect block-fire-damage 15
 //set FireRing stat speed 2
 set FireRing stat fire_res 30
 set FireRing stat thunder_res 10
@@ -4831,7 +4831,7 @@ set DawnCharm stat cost 5000
 
 set FireScale stat speed 2
 set FireScale effect cripple-rate 8
-set FireScale effect block-fire-damage 10
+set FireScale effect block-fire-damage 15
 set FireScale stat crit_avoid_penalty 0
 set FireScale stat fire_res 30
 set FireScale stat thunder_res 10
@@ -4842,7 +4842,7 @@ set FireScale stat cost 5000
 
 set IceScale stat speed 2
 set IceScale effect cripple-rate 8
-set IceScale effect block-holy-damage 10
+set IceScale effect block-holy-damage 15
 set IceScale stat crit_avoid_penalty 0
 set IceScale stat fire_res 10
 set IceScale stat thunder_res 10
@@ -4853,7 +4853,7 @@ set IceScale stat cost 5000
 
 set ThunderScale stat speed 2
 set ThunderScale effect cripple-rate 8
-set ThunderScale effect block-thunder-damage 10
+set ThunderScale effect block-thunder-damage 15
 set ThunderScale stat crit_avoid_penalty 0
 set ThunderScale stat fire_res 10
 set ThunderScale stat thunder_res 30
@@ -4864,7 +4864,7 @@ set ThunderScale stat cost 5000
 
 set WyvernScale stat speed 2
 set WyvernScale effect cripple-rate 8
-set WyvernScale effect block-thunder-damage 10
+set WyvernScale effect block-thunder-damage 15
 set WyvernScale stat crit_avoid_penalty 0
 set WyvernScale stat fire_res 10
 set WyvernScale stat thunder_res 30
@@ -4875,7 +4875,7 @@ set WyvernScale stat cost 5000
 
 set ThorsScale stat speed 4
 set ThorsScale effect cripple-rate 16
-set ThorsScale effect block-thunder-damage 20
+set ThorsScale effect block-thunder-damage 30
 set ThorsScale stat crit_avoid_penalty 0
 set ThorsScale stat fire_res 20
 set ThorsScale stat thunder_res 60
