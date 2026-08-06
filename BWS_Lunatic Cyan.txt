@@ -14,7 +14,7 @@
 
 // Magic damage & Forks deals cripple-rate 8 12 16 according to amount of damage.
 
-// Blizzard 44% injure-rate, 40% Hit Rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter 100% injure-rate but -20% accuracy & +5 weight. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
+// Blizzard 44% injure-rate, 40% Hit Rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter, OldBolt, StandardBolt, New-TypeBolt 100% injure-rate but -20% accuracy & +5 weight. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
 
 // All weapons got Cripple-x2 effect
 
@@ -3741,6 +3741,7 @@ set IronBallista stat might 21
 set IronBallista stat speed 5
 set IronBallista stat weight 8
 set New-TypeBolt stat accuracy 10
+set New-TypeBolt effect injure-rate 100
 set OldBallista stat accuracy 60
 set OldBallista stat cost 2000
 set OldBallista stat crit 0
@@ -3751,6 +3752,7 @@ set OldBallista stat might 13
 set OldBallista stat speed 5
 set OldBallista stat weight 8
 set OldBolt stat accuracy 10
+set OldBolt effect injure-rate 100
 set PrototypeScorpio stat accuracy 80
 set PrototypeScorpio stat cost 5000
 set PrototypeScorpio stat crit 0
@@ -3786,6 +3788,7 @@ set Springald stat might 33
 set Springald stat speed 5
 set Springald stat weight 10
 set StandardBolt stat accuracy 10
+set StandardBolt effect injure-rate 100
 set SteelBallista stat accuracy 70
 set SteelBallista stat cost 5000
 set SteelBallista stat crit 0
