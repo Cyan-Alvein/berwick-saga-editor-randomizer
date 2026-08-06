@@ -2778,7 +2778,7 @@ set Doru stat Weight 9
 set Doru stat accuracy 50
 set Doru stat cost 4400
 set Doru stat crit 0
-set Doru stat defense 4
+set Doru stat defense 5
 set Doru stat durability B
 set Doru stat level 12
 set Doru stat might 12
