@@ -225,7 +225,7 @@ set elbert item 2 Harpoon 101
 set elbert item 3 Bag 0
 set elbert item 4 PrototypeSShd 101
 set elbert item 5 Pilum 20
-set elbert item 6 Bag 0
+set elbert item 6 GaleShield 101
 set elbert item 7 Bag 0
 set elbert growth hp 30
 set elbert growth strength 40
@@ -475,7 +475,7 @@ set Marcel base magic +3
 set alvina item 4 LadyMShd 101
 set alvina item 5 Bag 0
 set alvina item 6 LightningShield 101
-set alvina item 7 GaleShield 101
+set alvina item 7 Bag 0
 set alvina growth sword 100
 set alvina growth spear 100
 set alvina growth sshield 90
