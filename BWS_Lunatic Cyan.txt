@@ -2093,8 +2093,8 @@ set PrototypeScorpio effect cripple-x2
 set Scorpio effect cripple-x2
 
 // prfs
-set Pascanion2 stat level 18
-set Pascanion stat level 18
+set Pascanion2 stat level 17
+set Pascanion stat level 17
 
 set Bhuj stat level 18
 set Brymranger stat level 18
