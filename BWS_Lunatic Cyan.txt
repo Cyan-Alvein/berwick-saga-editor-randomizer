@@ -862,7 +862,7 @@ set burroughs growth strength 40
 set burroughs growth defense 10
 set burroughs growth speed 40
 set burroughs growth magic 0
-set burroughs base crossbow +20
+set burroughs base crossbow +30
 
 set derrick growth axe 100
 set derrick growth lshield 100
