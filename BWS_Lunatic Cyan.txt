@@ -2228,6 +2228,12 @@ set Starlight stat accuracy 70
 set holy stat accuracy 60
 set holy stat max-range 2
 set holy stat min-range 0
+set Barrier stat min-range 0
+set Barrier stat max-range 2
+set Barrier stat uses 5
+set Again stat min-range 0
+set Again stat max-range 2
+set Again stat uses 5
 
 set Nosferatu stat max-range 2
 set Nosferatu+ stat max-range 2
@@ -3741,6 +3747,7 @@ set IronBallista stat might 21
 set IronBallista stat speed 5
 set IronBallista stat weight 8
 set New-TypeBolt stat accuracy 10
+set New-TypeBolt stat might 30
 set New-TypeBolt effect injure-rate 100
 set OldBallista stat accuracy 60
 set OldBallista stat cost 2000
@@ -3752,6 +3759,7 @@ set OldBallista stat might 13
 set OldBallista stat speed 5
 set OldBallista stat weight 8
 set OldBolt stat accuracy 10
+set OldBolt stat might 20
 set OldBolt effect injure-rate 100
 set PrototypeScorpio stat accuracy 80
 set PrototypeScorpio stat cost 5000
@@ -3788,6 +3796,7 @@ set Springald stat might 33
 set Springald stat speed 5
 set Springald stat weight 10
 set StandardBolt stat accuracy 10
+set StandardBolt stat might 25
 set StandardBolt effect injure-rate 100
 set SteelBallista stat accuracy 70
 set SteelBallista stat cost 5000

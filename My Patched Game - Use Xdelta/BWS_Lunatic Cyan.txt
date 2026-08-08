@@ -14,7 +14,7 @@
 
 // Magic damage & Forks deals cripple-rate 8 12 16 according to amount of damage.
 
-// Blizzard 44% injure-rate, 40% Hit Rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter 100% injure-rate but -20% accuracy & +5 weight. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
+// Blizzard 44% injure-rate, 40% Hit Rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter, OldBolt, StandardBolt, New-TypeBolt 100% injure-rate but -20% accuracy & +5 weight. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
 
 // All weapons got Cripple-x2 effect
 
@@ -165,7 +165,7 @@ unset RazeMonkOwen skill limited
 set reese item 3 Bag 0
 set reese item 4 RoundShield 101
 set reese item 5 Bag 0
-set reese item 6 KillingEdge 101 
+set reese item 6 Bag 0
 set reese item 7 Bag 0
 set reese base sword +30
 set reese base sshield +20
@@ -198,7 +198,7 @@ set ward item 3 KillerSpear 101
 set ward item 4 Javelin 20
 set ward item 5 Partisan 101
 set ward item 6 RadiantShield 101 
-set ward item 7 HolySword 101
+set ward item 7 Bag 0
 set ward growth sword 100
 set ward growth spear 100
 set ward growth mshield 50
@@ -221,11 +221,11 @@ set ward base magic +3
 
 set elbert item 0 Longsword 101
 set elbert item 1 Aspis 101
-set elbert item 2 Harpoon 101
+set elbert item 2 Bag 0
 set elbert item 3 Bag 0
-set elbert item 4 PrototypeSShd 101
-set elbert item 5 Pilum 20
-set elbert item 6 Bag 0
+set elbert item 4 Bag 0
+set elbert item 5 Bag 0
+set elbert item 6 GaleShield 101
 set elbert item 7 Bag 0
 set elbert growth hp 30
 set elbert growth strength 40
@@ -265,9 +265,9 @@ set LadyKnight cap sword 40
 set ArrowKnight cap sword 40
 set ArrowKnight_R cap sword 40
 set christine item 0 IronCrossbow 101
-set christine item 1 Treasure 101
+set christine item 1 Bag 0
 //set christine item 2 Don't Touch Bag 4 Vulnerary
-set christine item 3 FreezeArrow 20
+set christine item 3 Bag 0
 set christine item 4 IronArrow+ 40
 set christine item 5 BodkinArrow 20
 set christine item 6 Bag 0
@@ -288,12 +288,12 @@ set christine base crossbow +30
 set christine base sword +40
 
 set adel item 0 IronSpear 101
-set adel item 1 Bag 0
+set adel item 1 Buckler 101
 set adel item 2 FireShield 101
 set adel item 3 Bag 0
 set adel item 4 GoreFork 101
 set adel item 5 IronLance 101
-set adel item 6 Pilum 20
+set adel item 6 Bag 0
 set adel item 7 Oxtongue 101
 set adel base sshield +20
 set adel base spear +30
@@ -311,11 +311,11 @@ set adel base magic +3
 
 
 set leon item 0 IronSpear 101
-set leon item 1 Bag 0
+set leon item 1 Buckler 101
 set leon item 2 ThunderShield 101
 set leon item 3 IronLance 101
 set leon item 4 Bag 0
-set leon item 5 Pilum 20
+set leon item 5 Bag 0
 set leon item 6 GoreFork 101
 set leon item 7 Oxtongue 101
 set leon base sshield +20
@@ -338,7 +338,7 @@ set sherlock item 3 Bag 0
 set sherlock item 4 Bag 0
 set sherlock item 5 Bag 0
 set sherlock item 6 Treasure 101
-set sherlock item 7 SteelArrow+ 20
+set sherlock item 7 Bag 0
 set sherlock growth bow 100
 set sherlock growth hp 15
 set sherlock growth strength 40
@@ -346,7 +346,7 @@ set sherlock growth defense 5
 set sherlock growth speed 40
 set sherlock base bow +30
 
-set izerna item 1 Soothe 20
+set izerna item 1 Bag 0
 set izerna item 2 BlessedBrace 0
 set izerna item 3 Mend 20
 set izerna item 4 Bag 0
@@ -367,7 +367,7 @@ set czene item 0 Dagger 101
 set czene item 1 BoltKnife 101
 set czene item 2 ThiefsKnife 101
 set czene item 3 ThiefsCharm 0
-set czene item 4 Dart 20
+set czene item 4 Bag 0
 set czene item 5 Bag 0
 set czene item 6 Bag 0
 set czene item 7 DuskCharm 0
@@ -387,7 +387,7 @@ set czene base magic +0
 set aegina item 1 Blizzard 15 
 set aegina item 2 Bag 0
 set aegina item 3 Bag 0
-set aegina item 4 Treasure 101
+set aegina item 4 Bag 0
 set aegina item 5 Fire 20
 set aegina item 6 Bag 0
 set aegina item 7 DivineBrace 0
@@ -412,8 +412,8 @@ set daoud growth mshield 100
 set Daoud item 0 Broadaxe 101
 set Daoud item 1 Bag 0
 set Daoud item 2 ShadowShield 101
-set Daoud item 3 Treasure 101 
-set Daoud item 4 Treasure 101 
+set Daoud item 3 Bag 0
+set Daoud item 4 Bag 0
 set Daoud item 5 Bag 0
 set Daoud item 6 Bag 0
 set Daoud item 7 Bag 0
@@ -459,8 +459,8 @@ set marcel growth magic 0
 set Marcel item 0 Broadsword 101
 set Marcel item 1 LeatherLShd 101
 set Marcel item 2 Bag 0
-set Marcel item 3 Scimitar+ 101
-set Marcel item 4 WindEdge 101
+set Marcel item 3 Bag 0
+set Marcel item 4 Bag 0
 set Marcel item 5 KojinShield 101
 set Marcel item 6 FujinShield 101
 set Marcel item 7 Bag 0
@@ -475,7 +475,7 @@ set Marcel base magic +3
 set alvina item 4 LadyMShd 101
 set alvina item 5 Bag 0
 set alvina item 6 LightningShield 101
-set alvina item 7 GaleShield 101
+set alvina item 7 Bag 0
 set alvina growth sword 100
 set alvina growth spear 100
 set alvina growth sshield 90
@@ -500,7 +500,7 @@ set ruby item 2 LadyShield 101
 set ruby item 3 LadyMShd 101
 set ruby item 4 LadySword 101
 set ruby item 5 Pilum 20
-set ruby item 6 IronSpear 101
+set ruby item 6 Bag 0
 set ruby item 7 Bag 0
 set ruby growth sword 100
 set ruby growth spear 100
@@ -535,7 +535,7 @@ set arthur item 2 BlazingShield 101
 set arthur item 3 Bag 0
 set arthur item 4 Bag 0
 set arthur item 5 LightShield 101
-set arthur item 6 Saber 101
+set arthur item 6 Bag 0
 set arthur item 7 Bag 0
 set arthur growth sword 100
 set arthur growth spear 80
@@ -570,7 +570,7 @@ set kramer growth defense 20
 set kramer growth speed 20
 
 set dean item 2 Bag 0
-set dean item 3 Treasure 101
+set dean item 3 Bag 0
 set dean item 4 Bag 0
 set dean item 5 Bag 0
 set dean item 6 DawnCharm 0
@@ -604,10 +604,10 @@ set faye base speed +0
 set faye base magic +0
 
 set sylvis item 0 CompositeBow 101
-set sylvis item 1 SteelArrow+ 20
+set sylvis item 1 SteelArrow+ 40
 set sylvis item 2 Gastraphetes 101
-set sylvis item 3 RaijinArrow 20
-set sylvis item 4 IronArrow+ 40
+set sylvis item 3 Bag 0
+set sylvis item 4 Bag 0
 set sylvis item 5 Apollyon 101
 set sylvis item 6 KillerCrossbow 101
 set sylvis item 7 TripleFireBow 101
@@ -627,7 +627,7 @@ set sylvis base bow +20
 set sylvis base crossbow +25
 
 set perceval item 1 Thunder 20
-set perceval item 2 Treasure 101
+set perceval item 2 Bag 0
 set perceval item 3 Bag 0
 set perceval item 4 Bag 0
 set perceval item 5 Bag 0
@@ -645,8 +645,8 @@ set perceval base wind +40
 set perceval base speed +2
 
 set thaddy item 2 FeatherBrace 0
-set thaddy item 3 MainGauche 101
-set thaddy item 4 AirKnife 101
+set thaddy item 3 Bag 0
+set thaddy item 4 Bag 0
 set thaddy item 5 ThrowingKnife 101
 set thaddy item 6 stunknife 101
 set thaddy item 7 Bag 0
@@ -671,7 +671,7 @@ set esteban growth defense 5
 set esteban growth speed 40
 set esteban item 0 IronBow 101
 set esteban item 1 IronArrow+ 40
-set esteban item 2 SteelArrow+ 20
+set esteban item 2 Bag 0
 set esteban item 3 Bag 0
 set esteban item 4 Bag 0
 set esteban item 5 Bag 0
@@ -693,7 +693,7 @@ set HighHunter cap Sword 40
 
 //set faramir item 0 Cutlass+ 101
 set faramir item 1 KillerBow 101
-set faramir item 2 SteelArrow+ 20
+set faramir item 2 SteelArrow+ 40
 set faramir item 3 Apollyon 101
 set faramir item 4 CompositeBow 101
 set faramir item 5 Bag 0
@@ -755,7 +755,7 @@ set Sherpa base magic +0
 
 set clifford item 3 Javelin 20
 set clifford item 4 GreatLance 101
-set clifford item 5 Partisan 101
+set clifford item 5 Bag 0
 set clifford item 6 MithrilSpear 101
 set clifford item 7 WyrmskinShield 101
 set clifford growth sword 100
@@ -776,14 +776,14 @@ set clifford base defense +0
 set clifford base speed +2
 set clifford base magic +3
 
-set axel item 0 IronAxe 101
+set axel item 0 Bag 0
 set axel item 1 KillerAxe 101
 set axel item 2 Repairstone 10
-set axel item 3 Treasure 101
+set axel item 3 Bag 0
 set axel item 4 Bag 0
 set axel item 5 ThiefsCharm 0
 set axel item 6 PegasusBrace 0
-set axel item 7 Treasure 101
+set axel item 7 Bag 0
 set axel base axe +20
 set axel growth axe 100
 set axel growth hp 40
@@ -799,9 +799,9 @@ set axel base magic +0
 
 
 // Since I can't increase larentia stat on wyvern, I gave her basic horse bonus stat.
-set larentia item 2 LadySword 101
+set larentia item 2 PrototypeSpear 101
 set larentia item 3 Bag 0
-set larentia item 4 Treasure 101
+set larentia item 4 Bag 0
 set larentia item 5 Bag 0
 set larentia item 6 Bag 0
 set larentia item 7 Bag 0
@@ -828,7 +828,7 @@ set WyvernKnight_R cap Spear 60
 
 set Owen item 5 Bag 0
 set Owen item 6 Bag 0
-set Owen item 7 Treasure 101
+set Owen item 7 Bag 0
 set owen growth holy 100
 set owen growth fire 80
 set owen growth thunder 80
@@ -876,7 +876,7 @@ set Derrick item 2 Bag 0
 set Derrick item 3 Bag 0
 set Derrick item 4 RaijinShield 101
 set Derrick item 5 AmaterasuShield 101
-set Derrick item 6 Treasure 101
+set Derrick item 6 Bag 0
 set Derrick item 7 Bag 0
 set Derrick base axe +30
 set Derrick base lshield +20
@@ -886,11 +886,11 @@ set Derrick base defense +0
 set Derrick base speed +3
 set Derrick base magic +3
 
-set saphira item 1 Holy 20
+set saphira item 1 Bag 0
 set saphira item 2 Bag 0
 set saphira item 3 LightRing 0
 set saphira item 4 Bag 0
-set saphira item 5 Awaken 10
+set saphira item 5 Bag 0
 set saphira item 6 Bag 0
 set saphira item 7 Bag 0
 set saphira growth holy 100
@@ -903,10 +903,11 @@ set saphira base holy +20
 set saphira base hp +1
 set saphira base speed +2
 
-set lynette item 3 Bag 0
+set lynette item 2 MithrilArrow 20
+set lynette item 3 LadySword 101
 set lynette item 4 DireThunder 20
-set lynette item 5 LadySword 101
-set lynette item 6 MithrilArrow 20
+set lynette item 5 Bag 0
+set lynette item 6 Bag 0
 set lynette item 7 Bag 0
 set lynette base thunder +40
 set lynette base sword +40
@@ -2227,6 +2228,12 @@ set Starlight stat accuracy 70
 set holy stat accuracy 60
 set holy stat max-range 2
 set holy stat min-range 0
+set Barrier stat min-range 0
+set Barrier stat max-range 2
+set Barrier stat uses 5
+set Again stat min-range 0
+set Again stat max-range 2
+set Again stat uses 5
 
 set Nosferatu stat max-range 2
 set Nosferatu+ stat max-range 2
@@ -2777,7 +2784,7 @@ set Doru stat Weight 9
 set Doru stat accuracy 50
 set Doru stat cost 4400
 set Doru stat crit 0
-set Doru stat defense 4
+set Doru stat defense 5
 set Doru stat durability B
 set Doru stat level 12
 set Doru stat might 12
@@ -3740,6 +3747,8 @@ set IronBallista stat might 21
 set IronBallista stat speed 5
 set IronBallista stat weight 8
 set New-TypeBolt stat accuracy 10
+set New-TypeBolt stat might 30
+set New-TypeBolt effect injure-rate 100
 set OldBallista stat accuracy 60
 set OldBallista stat cost 2000
 set OldBallista stat crit 0
@@ -3750,6 +3759,8 @@ set OldBallista stat might 13
 set OldBallista stat speed 5
 set OldBallista stat weight 8
 set OldBolt stat accuracy 10
+set OldBolt stat might 20
+set OldBolt effect injure-rate 100
 set PrototypeScorpio stat accuracy 80
 set PrototypeScorpio stat cost 5000
 set PrototypeScorpio stat crit 0
@@ -3785,6 +3796,8 @@ set Springald stat might 33
 set Springald stat speed 5
 set Springald stat weight 10
 set StandardBolt stat accuracy 10
+set StandardBolt stat might 25
+set StandardBolt effect injure-rate 100
 set SteelBallista stat accuracy 70
 set SteelBallista stat cost 5000
 set SteelBallista stat crit 0
@@ -4690,7 +4703,7 @@ set GamblersBrace stat avoid 0
 set GamblersBrace stat cost 5000
 
 set LightRing effect cripple-rate 8
-set LightRing effect block-holy-damage 10
+set LightRing effect block-holy-damage 15
 //set LightRing stat speed 2
 set LightRing stat avoid 0
 set LightRing stat fire_res 10
@@ -4701,7 +4714,7 @@ set LightRing stat dark_res 30
 set LightRing stat cost 3600
 
 set WindRing effect cripple-rate 8
-set WindRing effect block-holy-damage 10
+set WindRing effect block-holy-damage 15
 //set WindRing stat speed 2
 set WindRing stat fire_res 10
 set WindRing stat thunder_res 10
@@ -4711,7 +4724,7 @@ set WindRing stat dark_res 10
 set WindRing stat cost 3600
 
 set ThunderRing effect cripple-rate 8
-set ThunderRing effect block-thunder-damage 10
+set ThunderRing effect block-thunder-damage 15
 //set ThunderRing stat speed 2
 set ThunderRing stat fire_res 10
 set ThunderRing stat thunder_res 30
@@ -4721,7 +4734,7 @@ set ThunderRing stat dark_res 10
 set ThunderRing stat cost 3600
 
 set FireRing effect cripple-rate 8
-set FireRing effect block-fire-damage 10
+set FireRing effect block-fire-damage 15
 //set FireRing stat speed 2
 set FireRing stat fire_res 30
 set FireRing stat thunder_res 10
@@ -4830,7 +4843,7 @@ set DawnCharm stat cost 5000
 
 set FireScale stat speed 2
 set FireScale effect cripple-rate 8
-set FireScale effect block-fire-damage 10
+set FireScale effect block-fire-damage 15
 set FireScale stat crit_avoid_penalty 0
 set FireScale stat fire_res 30
 set FireScale stat thunder_res 10
@@ -4841,7 +4854,7 @@ set FireScale stat cost 5000
 
 set IceScale stat speed 2
 set IceScale effect cripple-rate 8
-set IceScale effect block-holy-damage 10
+set IceScale effect block-holy-damage 15
 set IceScale stat crit_avoid_penalty 0
 set IceScale stat fire_res 10
 set IceScale stat thunder_res 10
@@ -4852,7 +4865,7 @@ set IceScale stat cost 5000
 
 set ThunderScale stat speed 2
 set ThunderScale effect cripple-rate 8
-set ThunderScale effect block-thunder-damage 10
+set ThunderScale effect block-thunder-damage 15
 set ThunderScale stat crit_avoid_penalty 0
 set ThunderScale stat fire_res 10
 set ThunderScale stat thunder_res 30
@@ -4863,7 +4876,7 @@ set ThunderScale stat cost 5000
 
 set WyvernScale stat speed 2
 set WyvernScale effect cripple-rate 8
-set WyvernScale effect block-thunder-damage 10
+set WyvernScale effect block-thunder-damage 15
 set WyvernScale stat crit_avoid_penalty 0
 set WyvernScale stat fire_res 10
 set WyvernScale stat thunder_res 30
@@ -4874,7 +4887,7 @@ set WyvernScale stat cost 5000
 
 set ThorsScale stat speed 4
 set ThorsScale effect cripple-rate 16
-set ThorsScale effect block-thunder-damage 20
+set ThorsScale effect block-thunder-damage 30
 set ThorsScale stat crit_avoid_penalty 0
 set ThorsScale stat fire_res 20
 set ThorsScale stat thunder_res 60
@@ -7780,9 +7793,9 @@ Set SmellingSalts stat cost 500
 Set Sedative stat uses 5
 Set Sedative stat cost 500
 
-set Treasure stat price 20000
-Set Goldcoin stat price 2000
-Set Silvercoin stat price 500
+set Treasure stat price 40000
+Set Goldcoin stat price 4000
+Set Silvercoin stat price 1000
 
 
 //////////////////////////////////////////////////////////////////////////////////
