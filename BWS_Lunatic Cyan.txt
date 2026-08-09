@@ -2908,7 +2908,7 @@ set SwiftSpear stat crit 0
 set SwiftSpear stat hex 1
 set SwiftSpear stat level 16
 set SwiftSpear stat might 12
-set SwiftSpear stat weight 7
+set SwiftSpear stat weight 6
 set VerianSpear stat Weight 6
 set VerianSpear stat accuracy 60
 set VerianSpear stat cost 800
@@ -2948,7 +2948,7 @@ set Firebrand stat hex 1
 set Firebrand stat might 1
 set Firebrand stat weight 4
 set GoreFork effect cripple-rate 8
-set GoreFork stat accuracy 50
+set GoreFork stat accuracy 60
 set GoreFork stat cost 2000
 set GoreFork stat crit 0
 set GoreFork stat durability C
@@ -2957,13 +2957,13 @@ set GoreFork stat level 12
 set GoreFork stat might 8
 set GoreFork stat weight 6
 set MilitaryFork effect cripple-rate 8
-set MilitaryFork stat accuracy 50
+set MilitaryFork stat accuracy 60
 set MilitaryFork stat cost 1200
 set MilitaryFork stat crit 0
 set MilitaryFork stat durability E
 set MilitaryFork stat hex 1
 set MilitaryFork stat might 8
-set MilitaryFork stat weight 8
+set MilitaryFork stat weight 6
 set Pitchfork effect cripple-rate 6
 set Pitchfork stat accuracy 60
 set Pitchfork stat cost 800
@@ -3506,7 +3506,7 @@ set Strongbow stat holy_res 10
 set Strongbow stat level 12
 set Strongbow stat thunder_res 10
 set Strongbow stat wind_res 10
-set SwiftBow stat Weight 6
+set SwiftBow stat Weight 5
 set SwiftBow stat accuracy 50
 set SwiftBow stat cost 1000
 set SwiftBow stat crit 0
