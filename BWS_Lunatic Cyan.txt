@@ -2344,7 +2344,7 @@ set BoltKnife effect thunder-damage 0
 set BoltKnife effect injure-rate 100
 set BoltKnife stat accuracy 40
 set BoltKnife stat crit 0
-set BoltKnife stat durability E
+set BoltKnife stat durability C
 set BoltKnife stat level 1
 set BoltKnife stat might 2
 set BoltKnife stat weight 6
