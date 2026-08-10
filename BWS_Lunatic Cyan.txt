@@ -2207,7 +2207,7 @@ set Thunder stat accuracy 60
 set Thunder stat might 10
 set DireThunder stat max-range 3
 set DireThunder stat accuracy 50
-set DireThunder stat might 10
+set DireThunder stat might 7
 set Lightning stat max-range 2
 set Lightning stat accuracy 60
 set Lightning stat level 10
@@ -2498,29 +2498,33 @@ set BronzeSword stat Weight 10
 set BronzeSword stat accuracy 40
 set BronzeSword stat crit 0
 set BronzeSword stat might 9
-set Colichemarde stat Cost 4000
+set Colichemarde stat Cost 6000
 set Colichemarde stat Durability C
 set Colichemarde stat accuracy 60
 set Colichemarde stat crit 0
 set Colichemarde stat level 10
 set Colichemarde stat might 7
-set Colichemarde stat weight 6
+set Colichemarde stat weight 7
 set Cutlass stat Cost 4500
+set Cutlass stat rounds 0
+set Cutlass effect x2
 set Cutlass stat Durability A
-set Cutlass stat Weight 3
+set Cutlass stat Weight 4
 set Cutlass stat crit 0
 set Cutlass stat might 9
 set Cutlass+ stat Cost 6000
+set Cutlass+ stat rounds 0
+set Cutlass+ effect x2
 set Cutlass+ stat Durability A
-set Cutlass+ stat Weight 5
+set Cutlass+ stat Weight 6
 set Cutlass+ stat crit 0
 set Cutlass+ stat might 13
-set Estoc stat Cost 3000
+set Estoc stat Cost 5000
 set Estoc stat Durability C
 set Estoc stat accuracy 50
 set Estoc stat crit 0
-set Estoc stat might 4
-set Estoc stat weight 8
+set Estoc stat might 7
+set Estoc stat weight 9
 set FlameSword effect cripple-rate 12
 set FlameSword effect fire-damage 20
 set FlameSword stat Cost 3000
@@ -2531,11 +2535,13 @@ set FlameSword stat crit 0
 set FlameSword stat level 8
 set FlameSword stat might 1
 set Gram stat Cost 6000
+set Gram stat rounds 0
+set Gram effect x2
 set Gram stat Durability A
 set Gram stat accuracy 60
 set Gram stat crit 0
 set Gram stat might 13
-set Gram stat weight 5
+set Gram stat weight 6
 set Grimhild stat Cost 5000
 set Grimhild stat Durability C
 set Grimhild stat accuracy 60
@@ -2544,12 +2550,14 @@ set Grimhild stat level 15
 set Grimhild stat weight 12
 set Grimhild stat might 0
 set Harperia stat Cost 4500
+set Harperia stat rounds 0
+set Harperia effect x2
 set Harperia stat level 10
 set Harperia stat Durability A
 set Harperia stat accuracy 60
 set Harperia stat crit 0
 set Harperia stat might 9
-set Harperia stat weight 3
+set Harperia stat weight 4
 set HolySword effect cripple-rate 16
 set HolySword effect holy-damage 25
 set HolySword stat Cost 3500
@@ -2579,12 +2587,14 @@ set KillingEdge stat level 7
 set KillingEdge stat might 0
 set KillingEdge stat weight 10
 set KnightSword stat Cost 4000
+set KnightSword stat rounds 0
+set KnightSword effect x2
 set KnightSword stat level 10
 set KnightSword stat Durability A
 set KnightSword stat accuracy 60
 set KnightSword stat crit 0
 set KnightSword stat might 9
-set KnightSword stat weight 5
+set KnightSword stat weight 6
 set LadySword stat Cost 3000
 set LadySword stat Durability C
 set LadySword stat accuracy 60
@@ -2710,21 +2720,21 @@ set Adrastia stat accuracy 60
 set Balmung stat accuracy 70
 set Balmung stat cost 6000
 set Balmung stat crit 0
-set Balmung stat weight 9
-set Balmung stat might 21
+set Balmung stat weight 11
+set Balmung stat might 25
 set Balmung stat crit 0
 set Balmung stat Durability B
 set Balmung2 stat accuracy 70
 set Balmung2 stat cost 6000
 set Balmung2 stat crit 0
-set Balmung2 stat weight 9
-set Balmung2 stat might 21
+set Balmung2 stat weight 11
+set Balmung2 stat might 25
 set Balmung2 Durability B
 set Balmung3 stat accuracy 70
 set Balmung3 stat cost 6000
 set Balmung3 stat crit 0
-set Balmung3 stat weight 9
-set Balmung3 stat might 21
+set Balmung3 stat weight 11
+set Balmung3 stat might 25
 set Balmung3 Durability B
 set BastardSword effect ignore-shields
 set BastardSword stat accuracy 50
@@ -2736,11 +2746,11 @@ set BastardSword stat might 13
 set BastardSword stat weight 11
 set Brymranger stat accuracy 60
 set Brymranger stat avoid 0
-set Brymranger stat cost 10000
+set Brymranger stat cost 9000
 set Brymranger stat crit 0
-set Brymranger stat might 17
-set Brymranger stat Durability A
-set Brymranger stat weight 9
+set Brymranger stat might 19
+set Brymranger stat Durability B
+set Brymranger stat weight 8
 //set Brymranger stat rounds 2
 set GreatSword stat accuracy 50
 set GreatSword stat cost 4500
@@ -2764,10 +2774,13 @@ set Zanbato stat level 14
 set Zanbato stat might 1
 set Zanbato stat weight 13
 set Zweihander stat cost 8000
+set Zweihander stat rounds 0
+set Zweihander effect x2
 set Zweihander stat crit 0
-set Zweihander stat might 25
-set Zweihander stat weight 12
+set Zweihander stat might 19
+set Zweihander stat weight 9
 set Zweihander stat accuracy 60
+set Zweihander stat durability B
 
 //spears // spears
 
@@ -2802,7 +2815,7 @@ set Euthyphro stat accuracy 60
 set Euthyphro stat cost 4000
 set Euthyphro stat crit 0
 set Euthyphro stat might 0
-set Fauchard stat Weight 8
+set Fauchard stat Weight 7
 set Fauchard stat accuracy 60
 set Fauchard stat cost 6000
 set Fauchard stat crit 0
@@ -2904,12 +2917,14 @@ set SteelSpear stat crit 0
 set SteelSpear stat level 4
 set SwiftSpear stat Weight 8
 set SwiftSpear stat cost 6650
+set SwiftSpear stat rounds 0
+set SwiftSpear effect x2
 set SwiftSpear stat accuracy 60
 set SwiftSpear stat crit 0
 set SwiftSpear stat hex 1
 set SwiftSpear stat level 16
 set SwiftSpear stat might 12
-set SwiftSpear stat weight 6
+set SwiftSpear stat weight 7
 set VerianSpear stat Weight 6
 set VerianSpear stat accuracy 60
 set VerianSpear stat cost 800
@@ -2951,12 +2966,14 @@ set Firebrand stat weight 4
 set GoreFork effect cripple-rate 8
 set GoreFork stat accuracy 60
 set GoreFork stat cost 2000
+set GoreFork stat rounds 0
+set GoreFork effect x2
 set GoreFork stat crit 0
 set GoreFork stat durability C
 set GoreFork stat hex 1
 set GoreFork stat level 12
 set GoreFork stat might 8
-set GoreFork stat weight 6
+set GoreFork stat weight 7
 set MilitaryFork effect cripple-rate 8
 set MilitaryFork stat accuracy 60
 set MilitaryFork stat cost 1200
@@ -3038,8 +3055,9 @@ set Battleaxe stat accuracy 40
 set Battleaxe stat cost 1750
 set Battleaxe stat durability C
 set Battleaxe stat level 8
-set Bhuj stat Weight 6
-set Bhuj stat cost 4500
+set Bhuj stat Weight 7
+set Bhuj stat rounds 2
+set Bhuj stat cost 5000
 set Bhuj stat crit 0
 set Bhuj stat durability A
 set Bhuj stat might 14
@@ -3169,13 +3187,12 @@ set LogSplitter stat cost 1000
 set LogSplitter stat crit 0
 set LogSplitter stat durability F
 set LogSplitter stat might 10
-set MaozaWolf stat Weight 13
+set MaozaWolf stat Weight 7
 set MaozaWolf stat accuracy 50
 set MaozaWolf stat level 15
-set MaozaWolf stat cost 10000
-set MaozaWolf stat might 18
-set MaozaWolf stat durability B
-set MaozaWolf stat weight 10
+set MaozaWolf stat cost 5000
+set MaozaWolf stat might 14
+set MaozaWolf stat durability A
 set MithrilAxe stat Weight 6
 set MithrilAxe stat cost 3000
 set MithrilAxe stat crit 0
@@ -3507,8 +3524,10 @@ set Strongbow stat holy_res 10
 set Strongbow stat level 12
 set Strongbow stat thunder_res 10
 set Strongbow stat wind_res 10
-set SwiftBow stat Weight 5
+set SwiftBow stat Weight 6
 set SwiftBow stat accuracy 50
+set SwiftBow stat rounds 0
+set SwiftBow effect x2
 set SwiftBow stat cost 1000
 set SwiftBow stat crit 0
 set SwiftBow stat dark_res 10
@@ -3518,7 +3537,7 @@ set SwiftBow stat holy_res 10
 set SwiftBow stat might 1
 set SwiftBow stat thunder_res 10
 set SwiftBow stat wind_res 10
-set TripleFireBow stat Weight 5
+set TripleFireBow stat Weight 7
 set TripleFireBow stat accuracy 40
 set TripleFireBow stat cost 1000
 set TripleFireBow stat crit 0
@@ -3575,7 +3594,7 @@ set Bowgun stat weight 14
 set Bowgun stat wind_res 10
 set BraveCrossbow stat accuracy 60
 set BraveCrossbow stat durability B
-set BraveCrossbow stat cost 4600
+set BraveCrossbow stat cost 3420
 set BraveCrossbow stat crit 0
 set BraveCrossbow stat dark_res 10
 set BraveCrossbow stat fire_res 10
@@ -3588,17 +3607,17 @@ set BraveCrossbow stat thunder_res 10
 set BraveCrossbow stat weight 14
 set BraveCrossbow stat wind_res 10
 set Chu-ko-nu stat accuracy 50
-set Chu-ko-nu stat cost 6000
+set Chu-ko-nu stat cost 7000
 set Chu-ko-nu stat crit 0
 set Chu-ko-nu stat dark_res 10
 set Chu-ko-nu stat fire_res 10
 set Chu-ko-nu stat holy_res 10
 set Chu-ko-nu stat level 12
 set Chu-ko-nu stat max-range 2
-set Chu-ko-nu stat might 12
+set Chu-ko-nu stat might 18
 set Chu-ko-nu stat min-range 1
 set Chu-ko-nu stat thunder_res 10
-set Chu-ko-nu stat weight 15
+set Chu-ko-nu stat weight 16
 set Chu-ko-nu stat wind_res 10
 set Gastraphetes stat accuracy 70
 set Gastraphetes stat cost 2000
@@ -3708,7 +3727,7 @@ set Ollerus stat thunder_res 10
 set Ollerus stat weight 14
 set Ollerus stat wind_res 10
 set RapidCrossbow stat accuracy 60
-set RapidCrossbow stat cost 14000
+set RapidCrossbow stat cost 11000
 set RapidCrossbow stat crit 0
 set RapidCrossbow stat dark_res 10
 set RapidCrossbow stat durability A
@@ -7881,7 +7900,7 @@ set Arrow++ stat might 8
 // the skill desperation while attacking with a lance bug, it will work but that is cheating xD. The battle animation will be bugged to, same for faramir astra, so fight without battle animation in those case.
 // The game only show 2 screens for skill, All the skills still work fine, even those which the game doesn't show up
 // crit_avoid_penalty seems not working on shield. it worked on ring. It increases ennemy crit rate.
-// There are "??" Item_Effect on "BWSDefinitions.py", surely effects like HealthCharm, MiracleCharm are 1 of them. We should try them out.
+// There are "??" Item_Effect on "BWSDefinitions.py", surely effect like HealthCharm, MiracleCharm are 1 of them. We should try them out.
 // How I did the balance. Character with critical skill Faye Leon ... got -7 stat compared to those without Arthur Dean
 // Injure 100% weapon stat = +2 weight -20% accuracy
 // KillingEdge = AltiumSword stat & Crit = Might/2, +3 Weight, 15 Might = 100% crit so 14 = 93%. I divise the crit by 2 for balance since crit is OP (Ignore both shield and defense).
@@ -7890,6 +7909,7 @@ set Arrow++ stat might 8
 // Mithril and Rare weapon got -2 weight in general.
 // LanceKnight2 & LanceKnight2_R for class for Adel & Leon, not Ennemy Class.
 // Horse Prize doesn't change. Surely a bug. Money isn't important anyway
+// x2 effect & rounds 2 = +1 weight, x4 effect = +3 weight
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
 Set LanceKnight2 Skill Deathmatch
