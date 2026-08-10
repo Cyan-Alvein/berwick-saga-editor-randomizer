@@ -1757,6 +1757,7 @@ set burroughs skill hide
 set burroughs skill fortune
 set burroughs skill sunder
 set burroughs skill magicbane
+set burroughs skill watchful
 
 set derrick skill axeguard
 set derrick skill canto
@@ -4036,12 +4037,12 @@ set Vollenden stat cost 8000
 set ShiningShield stat cost 5000
 set Aiantos stat cost 7000
 
-Set VerianSShd Stat cost 260
+Set VerianSShd Stat cost 532
 set OldImpSShd stat cost 150
-set ImpSoldierSShd stat cost 260
-set ImpSoldierSShd++ stat cost 520
-set ImpOfficerSShd stat cost 780
-set ImpKnightSShd stat cost 1000
+set ImpSoldierSShd stat cost 1064
+set ImpSoldierSShd++ stat cost 1064
+set ImpOfficerSShd stat cost 1600
+set ImpKnightSShd stat cost 2000
 
 set LeatherSShd stat accuracy 100
 set Buckler stat accuracy 100
@@ -4086,12 +4087,12 @@ set Vollenden stat durability S
 set LadyShield stat durability A
 set Perseid stat durability S
 
-set VerianSShd stat durability E
-set OldImpSShd stat durability F
-set ImpSoldierSShd stat durability E
-set ImpSoldierSShd++ stat durability E
-set ImpOfficerSShd stat durability E
-set ImpKnightSShd stat durability E
+set VerianSShd stat durability B
+set OldImpSShd stat durability C
+set ImpSoldierSShd stat durability B
+set ImpSoldierSShd++ stat durability B
+set ImpOfficerSShd stat durability B
+set ImpKnightSShd stat durability B
 
 set FireShield stat level 4
 set ThunderShield stat level 4
@@ -4344,11 +4345,11 @@ set Hestia stat durability A
 set PaladinShield stat durability A
 set BlackShield stat durability A
 
-set VerianMShd stat durability E
-set ImpSoldierMShd stat durability E
-set ImpSoldierMShd+ stat durability E
-set ImpOfficerMShd stat durability E
-set ImpKnightMShd stat durability E
+set VerianMShd stat durability B
+set ImpSoldierMShd stat durability B
+set ImpSoldierMShd+ stat durability B
+set ImpOfficerMShd stat durability B
+set ImpKnightMShd stat durability B
 
 set LeatherMShd stat cost 1600
 set Kiteshield stat cost 2000
@@ -4368,10 +4369,10 @@ set BlazingShield stat cost 7000
 set GaleShield stat cost 7000
 
 set VerianMShd stat cost 1000
-set ImpSoldierMShd cost 1000
-set ImpSoldierMShd+ cost 1300
-set ImpOfficerMShd cost 1560
-set ImpKnightMShd cost 1820
+set ImpSoldierMShd cost 1500
+set ImpSoldierMShd+ cost 2000
+set ImpOfficerMShd cost 2500
+set ImpKnightMShd cost 3000
 
 set LightningShield stat level 12
 set RadiantShield stat level 12
@@ -4412,11 +4413,11 @@ set ImpOfficerLShd stat level 12
 set ImpSoldierLShd stat level 1
 set ImpSoldierLShd+ stat level 8
 
-set ImpKnightLShd stat durability E
-set ImpOfficerLShd stat durability E
-set ImpSoldierLShd stat durability E
-set ImpSoldierLShd+ stat durability E
-set VerianLShd stat Durability E
+set ImpKnightLShd stat durability B
+set ImpOfficerLShd stat durability B
+set ImpSoldierLShd stat durability B
+set ImpSoldierLShd+ stat durability B
+set VerianLShd stat Durability B
 
 set LeatherLShd stat Durability B
 set WideShield stat Durability B
@@ -4481,11 +4482,11 @@ set RaijinShield stat cost 6400
 set GeneralShield stat cost 10000
 set AmaterasuShield stat cost 11000
 
-set ImpSoldierLShd stat cost 925
-set ImpSoldierLShd+ stat cost 1200
-set VerianLShd stat cost 1200
-set ImpOfficerLShd stat cost 1460
-set ImpKnightLShd stat cost 1800
+set ImpSoldierLShd stat cost 1910
+set ImpSoldierLShd+ stat cost 2176
+set VerianLShd stat cost 1910
+set ImpOfficerLShd stat cost 2448
+set ImpKnightLShd stat cost 2720
 
 Set LeatherLShd Stat Weight 6
 Set WideShield Stat Weight 8
@@ -6230,6 +6231,7 @@ set Ballistician skill aim
 set Ballistician skill armsthrift
 set Ballistician skill hide
 set Ballistician skill celerity
+set Ballistician skill watchful
 
 // thaddy stat
 set Burglar skill camouflage
