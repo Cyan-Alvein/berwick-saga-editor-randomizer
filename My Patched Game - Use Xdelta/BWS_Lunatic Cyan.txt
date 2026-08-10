@@ -757,7 +757,7 @@ set clifford item 3 Javelin 20
 set clifford item 4 GreatLance 101
 set clifford item 5 Bag 0
 set clifford item 6 MithrilSpear 101
-set clifford item 7 WyrmskinShield 101
+set clifford item 7 Bag 0
 set clifford growth sword 100
 set clifford growth spear 100
 set clifford growth sshield 100
@@ -2344,7 +2344,7 @@ set BoltKnife effect thunder-damage 0
 set BoltKnife effect injure-rate 100
 set BoltKnife stat accuracy 40
 set BoltKnife stat crit 0
-set BoltKnife stat durability C
+set BoltKnife stat durability S
 set BoltKnife stat level 1
 set BoltKnife stat might 2
 set BoltKnife stat weight 6
