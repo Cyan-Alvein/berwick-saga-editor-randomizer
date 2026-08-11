@@ -3797,7 +3797,7 @@ set PrototypeScorpio stat magic 10
 set PrototypeScorpio stat might 15
 set PrototypeScorpio stat speed 10
 set PrototypeScorpio stat weight 7
-set PrototypeSpringald stat accuracy 70
+set PrototypeSpringald stat accuracy 60
 set PrototypeSpringald stat cost 6000
 set PrototypeSpringald stat crit 0
 set PrototypeSpringald stat defense 10
@@ -3814,7 +3814,7 @@ set Scorpio stat magic 10
 set Scorpio stat might 15
 set Scorpio stat speed 10
 set Scorpio stat weight 7
-set Springald stat accuracy 70
+set Springald stat accuracy 60
 set Springald stat cost 7000
 set Springald stat crit 0
 set Springald stat defense 10
@@ -3826,7 +3826,7 @@ set Springald stat weight 10
 set StandardBolt stat accuracy 10
 set StandardBolt stat might 25
 set StandardBolt effect injure-rate 100
-set SteelBallista stat accuracy 70
+set SteelBallista stat accuracy 60
 set SteelBallista stat cost 5000
 set SteelBallista stat crit 0
 set SteelBallista stat defense 10
