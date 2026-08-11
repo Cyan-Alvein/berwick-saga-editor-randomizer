@@ -1098,6 +1098,7 @@ set leon skill windsweep
 set leon skill parry
 set leon skill sunder
 set leon skill critical
+set leon skill provoke
 
 set sherlock skill aim 
 set sherlock skill canto
@@ -1722,6 +1723,7 @@ set larentia skill vantage
 set larentia skill sunder
 set larentia skill parry
 set larentia skill critical
+set larentia skill provoke
 
 set owen skill adept
 set owen skill blessing
@@ -7914,6 +7916,8 @@ set Arrow++ stat might 8
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
 Set LanceKnight2 Skill Deathmatch
 Set LanceKnight2_R Skill Deathmatch
+Set LanceKnight2 Skill provoke
+Set LanceKnight2_R Skill provoke
 set VeteranKnight Skill Deathmatch
 set VeteranKnight_R Skill Deathmatch
 set WindSage Skill Deathmatch
@@ -7929,6 +7933,8 @@ set DukeKnight_R Skill Deathmatch
 set Pirate Skill Deathmatch
 set WyvernKnightLarentia Skill Deathmatch
 set WyvernKnightLarentia_R Skill Deathmatch
+set WyvernKnightLarentia Skill provoke
+set WyvernKnightLarentia_R Skill provoke
 set Hero Skill Deathmatch
 set AxeSergeant skill deathmatch
 set Highlander skill deathmatch
