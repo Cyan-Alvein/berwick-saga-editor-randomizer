@@ -7329,7 +7329,7 @@ set Aristocrat skill Sunder
 set ArrowKnight skill Sunder
 set ArrowKnight_R skill Sunder
 set Assassin skill Sunder
-set Ballistician skill Sunder
+//set Ballistician skill Sunder
 set Bishop skill Sunder
 set BlackRider skill Sunder
 set BlackRider_R skill Sunder
