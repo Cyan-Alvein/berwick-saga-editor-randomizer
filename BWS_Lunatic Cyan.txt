@@ -2095,6 +2095,63 @@ set Springald effect unbreakable
 set PrototypeScorpio effect unbreakable
 set Scorpio effect unbreakable
 
+set LeatherSShd effect unbreakable
+set Buckler effect unbreakable
+set PrototypeSShd effect unbreakable
+set Aspis effect unbreakable
+set RoundShield effect unbreakable
+set Windshield effect unbreakable
+set FireShield effect unbreakable
+set ThunderShield effect unbreakable
+set LightShield effect unbreakable
+set DarkShield effect unbreakable
+set MetalShield effect unbreakable
+set MithrilShield effect unbreakable
+set ShiningShield effect unbreakable
+set Vollenden effect unbreakable
+set LadyShield effect unbreakable
+set Perseid effect unbreakable
+set Aiantos effect unbreakable
+
+set VerianSShd effect unbreakable
+set OldImpSShd effect unbreakable
+set ImpSoldierSShd effect unbreakable
+set ImpSoldierSShd++ effect unbreakable
+set ImpOfficerSShd effect unbreakable
+set ImpKnightSShd effect unbreakable
+
+set LeatherMShd effect unbreakable
+set Kiteshield effect unbreakable
+set SquareShield effect unbreakable
+set KnightShield effect unbreakable
+set LimitShield effect unbreakable
+set LadyMShd effect unbreakable
+set WyrmskinShield effect unbreakable
+set Hestia effect unbreakable
+set PaladinShield effect unbreakable
+set BlackShield effect unbreakable
+
+set VerianMShd effect unbreakable
+set ImpSoldierMShd effect unbreakable
+set ImpSoldierMShd+ effect unbreakable
+set ImpOfficerMShd effect unbreakable
+set ImpKnightMShd effect unbreakable
+
+set ImpKnightLShd effect unbreakable
+set ImpOfficerLShd effect unbreakable
+set ImpSoldierLShd effect unbreakable
+set ImpSoldierLShd+ effect unbreakable
+set VerianLShd effect unbreakable
+set LeatherLShd effect unbreakable
+set WideShield effect unbreakable
+set IronShield effect unbreakable
+set Greatshield effect unbreakable
+set KojinShield effect unbreakable
+set FujinShield effect unbreakable
+set RaijinShield effect unbreakable
+set AmaterasuShield effect unbreakable
+set GeneralShield effect unbreakable
+
 // Cripple-x2 To all weapon
 set dagger effect cripple-x2
 set Seax effect cripple-x2
@@ -2549,22 +2606,22 @@ set Wormwood stat crit 0
 //set AssassinsKnife stat crit 80
 set AirKnife effect cripple-rate 8
 set AirKnife effect wind-damage 13
-set AirKnife stat accuracy 60
+set AirKnife stat accuracy 50
 set AirKnife stat cost 3000
 set AirKnife stat crit 0
 set AirKnife stat durability E
 set AirKnife stat weight 4
 set Airknife stat level 4
 set Airknife stat might 0
-set AssassinsKnife stat accuracy 50
+set AssassinsKnife stat accuracy 40
 set AssassinsKnife stat cost 3600
 set AssassinsKnife stat durability C
 set AssassinsKnife stat level 16
 set AssassinsKnife stat might 0
-set AssassinsKnife stat weight 9
+set AssassinsKnife stat weight 10
 set BloodKnife effect dark-damage 8
 set BloodKnife effect nosferatu
-set BloodKnife stat accuracy 50
+set BloodKnife stat accuracy 40
 set BloodKnife stat cost 4000
 set BloodKnife stat crit 0
 set BloodKnife stat level 8
@@ -2573,83 +2630,85 @@ set BloodKnife stat weight 3
 set Bloodknife stat durability C
 set BoltKnife effect thunder-damage 0
 set BoltKnife effect injure-rate 100
-set BoltKnife stat accuracy 40
+set BoltKnife stat accuracy 30
 set BoltKnife stat crit 0
 set BoltKnife stat durability S
 set BoltKnife stat level 1
 set BoltKnife stat might 2
-set BoltKnife stat weight 6
-set Carnwenhau stat accuracy 60
+set BoltKnife stat weight 7
+set Carnwenhau stat accuracy 50
 set Carnwenhau stat cost 4600
 set Carnwenhau stat crit 0
 set Carnwenhau stat defense 0
 set Carnwenhau stat durability B
 set Carnwenhau stat might 6
-set Carnwenhau stat weight 4
-set Crotalus stat accuracy 60
+set Carnwenhau stat weight 5
+set Crotalus stat accuracy 50
 set Crotalus stat cost 6000
 set Crotalus stat crit 0
 set Crotalus stat level 12
 set Crotalus stat might 6
-set Crotalus stat weight 5
+set Crotalus stat weight 6
 set Crotalus stat durability B
 set Dart stat cost 950
 set Dart stat crit 0
 set Dart stat level 1
 set Dart stat might 4
 set Dart stat uses 20
-set Dart stat weight 4
+set Dart stat weight 6
 set Dart stat min-range 0
-set KillerKnife stat accuracy 50
+set Dart stat accuracy 50
+set KillerKnife stat accuracy 40
 set KillerKnife stat cost 1800
 set KillerKnife stat crit 40
 set KillerKnife stat durability C
 set KillerKnife stat level 7
 set KillerKnife stat might 0
-set KillerKnife stat weight 7
-set Kris stat accuracy 50
+set KillerKnife stat weight 10
+set Kris stat accuracy 40
 set Kris stat cost 2800
 set Kris stat crit 0
 set Kris stat durability C
 set Kris stat level 10
 set Kris stat might 0
 set Kris stat mind 6
-set Kris stat weight 6
+set Kris stat weight 7
 set LetterOpener stat crit 0
 set LetterOpener stat durability D
 set LetterOpener stat might 1
-set LetterOpener stat accuracy 60
-set LetterOpener stat weight 1
+set LetterOpener stat accuracy 50
+set LetterOpener stat weight 4
 set MainGauche stat cost 2800
 set MainGauche stat crit 0
 set MainGauche stat defense 6
 set MainGauche stat might 0
-set MainGauche stat weight 6
-set Maingauche stat accuracy 50
+set MainGauche stat weight 7
+set Maingauche stat accuracy 40
 set Maingauche stat durability C
 set PoisonKnife stat crit 0
 set PoisonKnife stat might 2
-set PoisonKnife stat accuracy 60
-set Seax stat accuracy 50
+set PoisonKnife stat accuracy 40
+set Seax stat accuracy 40
 set Seax stat durability C
 set Seax stat cost 1800
 set Seax stat crit 0
 set Seax stat level 8
 set Seax stat might 6
-set Seax stat weight 6
+set Seax stat weight 7
 set Shieldknife stat accuracy 40
 set Shieldknife stat crit 40
 set Shieldknife stat might 0
-set Shieldknife stat weight 6
+set Shieldknife stat weight 8
 set Shieldknife stat cost 5000
 set SleepKnife stat crit 0
 set SleepKnife stat durability C
 set SleepKnife stat might 2
+set SleepKnife stat accuracy 40
 set StunKnife stat crit 0
 set StunKnife stat durability C
 set StunKnife stat level 12
 set StunKnife stat might 6
-set StunKnife stat weight 6
+set StunKnife stat weight 8
 set Stunknife effect disarm-rate 100
 set Stunknife stat accuracy 40
 set Stunknife stat cost 1600
@@ -2660,7 +2719,7 @@ set Swordbreaker stat cost 2800
 set Swordbreaker stat durability C
 set Swordbreaker stat level 10
 set Swordbreaker stat might 6
-set Swordbreaker stat weight 6
+set Swordbreaker stat weight 8
 set TempestKnife effect cripple-rate 16
 set TempestKnife effect wind-damage 18
 set TempestKnife stat cost 8000
@@ -2669,31 +2728,34 @@ set TempestKnife stat durability B
 set TempestKnife stat level 12
 set TempestKnife stat might 0
 set TempestKnife stat weight 5
-set TempestKnife stat accuracy 60
+set TempestKnife stat accuracy 50
 set ThiefsCharm effect steal-rate-plus 50
 set ThiefsKnife effect steal-rate-plus 50
-set ThiefsKnife stat accuracy 50
+set ThiefsKnife stat accuracy 40
 set ThiefsKnife stat cost 1000
 set ThiefsKnife stat crit 0
 set ThiefsKnife stat durability C
 set ThiefsKnife stat might 2
-set ThrowingKnife stat accuracy 50
+set ThiefsKnife stat weight 5
+set ThrowingKnife stat accuracy 40
 set ThrowingKnife stat cost 3500
 set ThrowingKnife stat crit 0
 set ThrowingKnife stat durability B
 set ThrowingKnife stat level 12
 set ThrowingKnife stat might 6
-set ThrowingKnife stat weight 5
+set ThrowingKnife stat weight 7
 set ThrowingKnife stat min-range 0
 set Vespa stat cost 1200
 set Vespa stat crit 0
 set Vespa stat durability C
 set Vespa stat level 4
 set Vespa stat might 4
-set Vespa stat weight 4
+set Vespa stat weight 6
+set Vespa stat accuracy 50
 set dagger stat crit 0
 set dagger stat might 2
-set dagger stat weight 2
+set dagger stat weight 5
+set dagger stat accuracy 50
 
 //swords
 Set ImperialSword stat Weight 5
