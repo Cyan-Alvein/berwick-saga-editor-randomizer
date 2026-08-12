@@ -113,6 +113,7 @@
 set ArmorKnight attribute movement knight
 set GigasKnight attribute movement knight
 set General attribute movement knight
+set Ballistician attribute movement knight
 set Pirate attribute movement lt-infantry
 set Corsair attribute movement lt-infantry
 set Scoundrel attribute movement lt-infantry
@@ -1873,6 +1874,226 @@ set paramythis skill counter
 set paramythis skill knockaway
 set paramythis skill critical
 
+// Unbreakable To all weapon
+set dagger effect unbreakable
+set Seax effect unbreakable
+set Dart effect unbreakable
+set Vespa effect unbreakable
+set Airknife effect unbreakable
+set ThiefsKnife effect unbreakable
+set Carnwenhau effect unbreakable
+set StunKnife effect unbreakable
+set KillerKnife effect unbreakable
+set BloodKnife effect unbreakable
+set TempestKnife effect unbreakable
+set Shieldknife effect unbreakable
+set Crotalus effect unbreakable
+set Kris effect unbreakable
+set ThrowingKnife effect unbreakable
+set Swordbreaker effect unbreakable
+set PoisonKnife effect unbreakable
+set SleepKnife effect unbreakable
+set BoltKnife effect unbreakable
+set AssassinsKnife effect unbreakable
+set LetterOpener effect unbreakable
+set MainGauche effect unbreakable
+
+set Fire effect unbreakable
+set Hellfire effect unbreakable
+set Earthblaze effect unbreakable
+set PallasLeia effect unbreakable
+set Flametongue effect unbreakable
+set Blazetongue effect unbreakable
+
+set AirBlade effect unbreakable
+set Windstorm effect unbreakable
+set Blizzard effect unbreakable
+set PallasRiana effect unbreakable
+set Icetongue effect unbreakable
+set Icetongue effect unbreakable
+set Windtongue effect unbreakable
+
+set Thunder effect unbreakable
+set DireThunder effect unbreakable
+set Lightning effect unbreakable
+set PallasSerenia effect unbreakable
+set Stormtongue effect unbreakable
+
+set Holy effect unbreakable
+set Starlight effect unbreakable
+
+set Nosferatu effect unbreakable
+set Nosferatu+ effect unbreakable
+set Swarm effect unbreakable
+set Scylla effect unbreakable
+set Tumahann effect unbreakable
+set KisharsWrath effect unbreakable
+set Wormwood effect unbreakable
+
+set BronzeSword effect unbreakable
+set Shortsword effect unbreakable
+set Scimitar effect unbreakable
+set Longsword effect unbreakable
+set WindEdge effect unbreakable
+set Broadsword effect unbreakable
+set Scimitar+ effect unbreakable
+set KillingEdge effect unbreakable
+set Saber effect unbreakable
+set AltiumSword effect unbreakable
+set LevinSword effect unbreakable
+set Rapier effect unbreakable
+set Albatross effect unbreakable
+set HolySword effect unbreakable
+set MithrilSword effect unbreakable
+set KnightSword effect unbreakable
+set Estoc effect unbreakable
+set Grimhild effect unbreakable
+set Harperia effect unbreakable
+set FlameSword effect unbreakable
+set InfernalEdge effect unbreakable
+set Colichemarde effect unbreakable
+set Cutlass effect unbreakable
+set Cutlass+ effect unbreakable
+set RazeEtoile effect unbreakable
+set LadySword effect unbreakable
+set Gram effect unbreakable
+set Nothung effect unbreakable
+
+set VerianSword effect unbreakable
+Set ImperialSword effect unbreakable
+Set OldImperialSword effect unbreakable
+Set Vajra effect unbreakable
+Set Vritra effect unbreakable
+
+set SlimSpear effect unbreakable
+set IronSpear effect unbreakable
+set Pilum effect unbreakable
+set SteelSpear effect unbreakable
+set Harpoon effect unbreakable
+set PrototypeSpear effect unbreakable
+set KillerSpear effect unbreakable
+set Pike effect unbreakable
+set Longspear effect unbreakable
+set Verutum effect unbreakable
+set Doru effect unbreakable
+set MithrilSpear effect unbreakable
+set WindSpear effect unbreakable
+set Euthyphro effect unbreakable
+set Javelin effect unbreakable
+set Partisan effect unbreakable
+set Angon effect unbreakable
+set Brionac effect unbreakable
+set SwiftSpear effect unbreakable
+set Fauchard effect unbreakable
+
+set ImperialSpear effect unbreakable
+set VerianSpear effect unbreakable
+set OldImperialSpear effect unbreakable
+
+set LogSplitter effect unbreakable
+set Pickaxe effect unbreakable
+set BattleSaw effect unbreakable
+set HandAxe effect unbreakable
+set BarbaricAxe effect unbreakable
+set CrookedAxe effect unbreakable
+set IronAxe effect unbreakable
+set Francisca effect unbreakable
+set Battleaxe effect unbreakable
+set Broadaxe effect unbreakable
+set VolcanoAxe effect unbreakable
+set GlacierAxe effect unbreakable
+set NimbusAxe effect unbreakable
+set DarkAxe effect unbreakable
+set WarPick effect unbreakable
+set Hatchet effect unbreakable
+set BreakerAxe effect unbreakable
+set Poleax effect unbreakable
+set Tomahawk effect unbreakable
+set BoltAxe effect unbreakable
+set KillerAxe effect unbreakable
+set Hammer effect unbreakable
+set Greataxe effect unbreakable
+set Tabarzin effect unbreakable
+set MithrilAxe effect unbreakable
+set Gullveig effect unbreakable
+set Mjollnir effect unbreakable
+set Shieldaxe effect unbreakable
+set MaozaWolf effect unbreakable
+set Bhuj effect unbreakable
+set GigasAxe effect unbreakable
+set VerianAxe effect unbreakable
+set OldImperialAxe effect unbreakable
+set ImperialAxe effect unbreakable
+set BanditAxe effect unbreakable
+
+set IronBow effect unbreakable
+set ShortBow effect unbreakable
+set SwiftBow effect unbreakable
+set Longbow effect unbreakable
+set TripleFireBow effect unbreakable
+set CompositeBow effect unbreakable
+set Apollyon effect unbreakable
+set Strongbow effect unbreakable
+set Greatbow effect unbreakable
+set Killerbow effect unbreakable
+set Apeiron effect unbreakable
+set Rossweisse effect unbreakable
+set Pascanion effect unbreakable
+set Pascanion2 effect unbreakable
+set SereniaBow effect unbreakable
+
+set BronzeBow effect unbreakable
+set VerianBow effect unbreakable
+set OldImperialBow effect unbreakable
+set ImperialBow effect unbreakable
+
+set Bowgun effect unbreakable
+set IronCrossbow effect unbreakable
+set Gastraphetes effect unbreakable
+set HeavyCrossbow effect unbreakable
+set BraveCrossbow effect unbreakable
+set Chu-ko-nu effect unbreakable
+set Arbalest effect unbreakable
+set KillerCrossbow effect unbreakable
+set Ollerus effect unbreakable
+set RapidCrossbow effect unbreakable
+set Hawkeye effect unbreakable
+
+set ImperialCrossbow effect unbreakable
+set OldImperialCrossbow effect unbreakable
+set VerianCrossbow effect unbreakable
+
+set Drakelance effect unbreakable
+set Xyston effect unbreakable
+set IronLance effect unbreakable
+set Oxtongue effect unbreakable
+set GreatLance effect unbreakable
+
+set IronClub effect unbreakable
+set HolyMace effect unbreakable
+set DarkMace effect unbreakable
+set PoisonMace effect unbreakable
+set IronClub effect unbreakable
+
+set BastardSword effect unbreakable
+set Zanbato effect unbreakable
+set Shamshir effect unbreakable
+set GreatSword effect unbreakable0
+set Adrastia effect unbreakable
+set Zweihander effect unbreakable
+set Balmung effect unbreakable
+set Balmung2 effect unbreakable
+set Balmung3 effect unbreakable
+set Brymranger effect unbreakable
+
+set OldBallista effect unbreakable
+set BronzeBallista effect unbreakable
+set IronBallista effect unbreakable
+set SteelBallista effect unbreakable
+set PrototypeSpringald effect unbreakable
+set Springald effect unbreakable
+set PrototypeScorpio effect unbreakable
+set Scorpio effect unbreakable
 
 // Cripple-x2 To all weapon
 set dagger effect cripple-x2
@@ -2094,6 +2315,15 @@ set PrototypeSpringald effect cripple-x2
 set Springald effect cripple-x2
 set PrototypeScorpio effect cripple-x2
 set Scorpio effect cripple-x2
+
+unset OldBallista effect cant-move
+unset BronzeBallista effect cant-move
+unset IronBallista effect cant-move
+unset SteelBallista effect cant-move
+unset PrototypeSpringald effect cant-move
+unset Springald effect cant-move
+unset PrototypeScorpio effect cant-move
+unset Scorpio effect cant-move
 
 // prfs
 set Pascanion2 stat level 17
@@ -7325,18 +7555,18 @@ set Warrior skill Pulverize
 set Acolyte skill Sunder
 set Apostle skill Sunder
 set Aristocrat skill Sunder
-set ArrowKnight skill Sunder
-set ArrowKnight_R skill Sunder
+//set ArrowKnight skill Sunder
+//set ArrowKnight_R skill Sunder
 set Assassin skill Sunder
 //set Ballistician skill Sunder
 set Bishop skill Sunder
 set BlackRider skill Sunder
 set BlackRider_R skill Sunder
-set BowKnight skill Sunder
-set BowKnight_R skill Sunder
-set Bowman skill Sunder
-set BowRider skill Sunder
-set BowRider_R skill Sunder
+//set BowKnight skill Sunder
+//set BowKnight_R skill Sunder
+//set Bowman skill Sunder
+//set BowRider skill Sunder
+//set BowRider_R skill Sunder
 set Burglar skill Sunder
 set Captain skill Sunder
 set Cavalier skill Sunder
@@ -7361,26 +7591,26 @@ set Flamewyrm skill Sunder
 set Friar skill Sunder
 set Grassrunner skill Sunder
 set Grassrunner_R skill Sunder
-set Gunner skill Sunder
-set HeavyGunner skill Sunder
-set HighHunter skill Sunder
+//set Gunner skill Sunder
+//set HeavyGunner skill Sunder
+//set HighHunter skill Sunder
 set HighKnight skill Sunder
 set HighKnight2 skill Sunder
 set HighKnight2_R skill Sunder
 set HighKnight_R skill Sunder
-set Horseman skill Sunder
-set Horseman_R skill Sunder
-set Hunter skill Sunder
-set Huntress skill Sunder
+//set Horseman skill Sunder
+//set Horseman_R skill Sunder
+//set Hunter skill Sunder
+//set Huntress skill Sunder
 set Icewyrm skill Sunder
-set ImperialBowman skill Sunder
-set ImperialBowRider skill Sunder
-set ImperialBowRider_R skill Sunder
-set ImperialGunner skill Sunder
-set ImperialHeavyGunner skill Sunder
+//set ImperialBowman skill Sunder
+//set ImperialBowRider skill Sunder
+//set ImperialBowRider_R skill Sunder
+//set ImperialGunner skill Sunder
+//set ImperialHeavyGunner skill Sunder
 set ImperialKnight skill Sunder
 set ImperialKnight_R skill Sunder
-set ImperialMarksman skill Sunder
+//set ImperialMarksman skill Sunder
 set ImperialPaladin skill Sunder
 set ImperialPaladin_R skill Sunder
 set ImperialSpearman skill Sunder
@@ -7388,8 +7618,8 @@ set ImperialSpearRider skill Sunder
 set ImperialSpearRider_R skill Sunder
 set KnightLord skill Sunder
 set KnightLord_R skill Sunder
-set LadyKnight skill Sunder
-set LadyKnight_R skill Sunder
+//set LadyKnight skill Sunder
+//set LadyKnight_R skill Sunder
 set LanceKnight skill Sunder
 set LanceKnight2 skill Sunder
 set LanceKnight2_R skill Sunder
@@ -7417,7 +7647,7 @@ set RazePriest skill Sunder
 set RazeWarMonk skill Sunder
 set RazeWarMonk2 skill Sunder
 set Rogue skill Sunder
-set RogueArcher skill Sunder
+//set RogueArcher skill Sunder
 set RogueGunner skill Sunder
 set ShiningKnight skill Sunder
 set ShiningKnight_R skill Sunder
