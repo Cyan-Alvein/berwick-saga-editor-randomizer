@@ -2095,6 +2095,15 @@ set Springald effect cripple-x2
 set PrototypeScorpio effect cripple-x2
 set Scorpio effect cripple-x2
 
+unset OldBallista effect cant-move
+unset BronzeBallista effect cant-move
+unset IronBallista effect cant-move
+unset SteelBallista effect cant-move
+unset PrototypeSpringald effect cant-move
+unset Springald effect cant-move
+unset PrototypeScorpio effect cant-move
+unset Scorpio effect cant-move
+
 // prfs
 set Pascanion2 stat level 17
 set Pascanion stat level 17
