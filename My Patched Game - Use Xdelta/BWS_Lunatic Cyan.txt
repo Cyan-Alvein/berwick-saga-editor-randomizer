@@ -1098,6 +1098,7 @@ set leon skill windsweep
 set leon skill parry
 set leon skill sunder
 set leon skill critical
+set leon skill provoke
 
 set sherlock skill aim 
 set sherlock skill canto
@@ -1722,6 +1723,7 @@ set larentia skill vantage
 set larentia skill sunder
 set larentia skill parry
 set larentia skill critical
+set larentia skill provoke
 
 set owen skill adept
 set owen skill blessing
@@ -2097,17 +2099,16 @@ set Scorpio effect cripple-x2
 set Pascanion2 stat level 17
 set Pascanion stat level 17
 
-set Bhuj stat level 18
-set Brymranger stat level 18
+set Bhuj stat level 16
+set Brymranger stat level 16
 set Fauchard stat level 16
 set Perseid stat level 10
 set RazeEtoile stat level 15
-set Vritra stat level 20
 set Cutlass+ stat level 16
 set Cutlass stat level 10
-set Balmung stat level 18
-set Balmung2 stat level 18
-set Balmung3 stat level 18
+set Balmung stat level 16
+set Balmung2 stat level 16
+set Balmung3 stat level 16
 set Vajra stat level 20
 set Vritra stat level 20
 set Hawkeye stat level 16
@@ -2679,7 +2680,7 @@ set WindEdge stat Cost 2000
 set WindEdge stat Durability C
 set WindEdge stat accuracy 60
 set WindEdge stat crit 0
-set WindEdge stat level 5
+set WindEdge stat level 4
 set WindEdge stat might 1
 set WindEdge stat weight 3
 
@@ -2713,7 +2714,7 @@ set PoisonMace stat weight 7
 //blades // blades
 set Adrastia stat cost 5500
 set Adrastia stat crit 0
-set Adrastia stat level 18
+set Adrastia stat level 16
 set Adrastia stat might 25
 set Adrastia stat weight 11
 set Adrastia stat accuracy 60
@@ -2755,14 +2756,14 @@ set Brymranger stat weight 8
 set GreatSword stat accuracy 50
 set GreatSword stat cost 4500
 set GreatSword stat crit 0
-set GreatSword stat level 18
+set GreatSword stat level 16
 set GreatSword stat might 25
 set GreatSword stat weight 13
 set Shamshir stat accuracy 60
 set Shamshir stat cost 3500
 set Shamshir stat crit 0
 set Shamshir stat durability B
-set Shamshir stat level 14
+set Shamshir stat level 12
 set Shamshir stat might 19
 set Shamshir stat weight 10
 set Zanbato effect ignore-defense
@@ -3133,7 +3134,7 @@ set GreatAxe stat Weight 14
 set GreatAxe stat accuracy 40
 set GreatAxe stat cost 3000
 set GreatAxe stat crit 0
-set GreatAxe stat level 18
+set GreatAxe stat level 16
 set GreatAxe stat might 26
 set Gullveig stat Weight 8
 set Gullveig stat cost 4000
@@ -3149,7 +3150,7 @@ set Hammer stat Weight 14
 set Hammer stat accuracy 40
 set Hammer stat crit 0
 set Hammer stat durability D
-set Hammer stat level 15
+set Hammer stat level 14
 set Hammer stat might 2
 set HandAxe stat Weight 6
 set HandAxe stat accuracy 40
@@ -3260,7 +3261,7 @@ set Tomahawk stat accuracy 40
 set Tomahawk stat cost 1750
 set Tomahawk stat crit 0
 set Tomahawk stat durability C
-set Tomahawk stat level 15
+set Tomahawk stat level 10
 set Tomahawk stat might 14
 set Tomahawk stat min-range 0
 set VerianAxe stat Weight 6
@@ -3733,7 +3734,7 @@ set RapidCrossbow stat dark_res 10
 set RapidCrossbow stat durability A
 set RapidCrossbow stat fire_res 10
 set RapidCrossbow stat holy_res 10
-set RapidCrossbow stat level 20
+set RapidCrossbow stat level 16
 set RapidCrossbow stat max-range 2
 set RapidCrossbow stat might 18
 set RapidCrossbow stat min-range 1
@@ -3795,7 +3796,7 @@ set PrototypeScorpio stat magic 10
 set PrototypeScorpio stat might 15
 set PrototypeScorpio stat speed 10
 set PrototypeScorpio stat weight 7
-set PrototypeSpringald stat accuracy 70
+set PrototypeSpringald stat accuracy 60
 set PrototypeSpringald stat cost 6000
 set PrototypeSpringald stat crit 0
 set PrototypeSpringald stat defense 10
@@ -3812,7 +3813,7 @@ set Scorpio stat magic 10
 set Scorpio stat might 15
 set Scorpio stat speed 10
 set Scorpio stat weight 7
-set Springald stat accuracy 70
+set Springald stat accuracy 60
 set Springald stat cost 7000
 set Springald stat crit 0
 set Springald stat defense 10
@@ -3824,7 +3825,7 @@ set Springald stat weight 10
 set StandardBolt stat accuracy 10
 set StandardBolt stat might 25
 set StandardBolt effect injure-rate 100
-set SteelBallista stat accuracy 70
+set SteelBallista stat accuracy 60
 set SteelBallista stat cost 5000
 set SteelBallista stat crit 0
 set SteelBallista stat defense 10
@@ -7327,7 +7328,7 @@ set Aristocrat skill Sunder
 set ArrowKnight skill Sunder
 set ArrowKnight_R skill Sunder
 set Assassin skill Sunder
-set Ballistician skill Sunder
+//set Ballistician skill Sunder
 set Bishop skill Sunder
 set BlackRider skill Sunder
 set BlackRider_R skill Sunder
@@ -7914,6 +7915,8 @@ set Arrow++ stat might 8
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
 Set LanceKnight2 Skill Deathmatch
 Set LanceKnight2_R Skill Deathmatch
+Set LanceKnight2 Skill provoke
+Set LanceKnight2_R Skill provoke
 set VeteranKnight Skill Deathmatch
 set VeteranKnight_R Skill Deathmatch
 set WindSage Skill Deathmatch
@@ -7929,6 +7932,8 @@ set DukeKnight_R Skill Deathmatch
 set Pirate Skill Deathmatch
 set WyvernKnightLarentia Skill Deathmatch
 set WyvernKnightLarentia_R Skill Deathmatch
+set WyvernKnightLarentia Skill provoke
+set WyvernKnightLarentia_R Skill provoke
 set Hero Skill Deathmatch
 set AxeSergeant skill deathmatch
 set Highlander skill deathmatch
