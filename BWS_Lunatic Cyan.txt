@@ -5258,7 +5258,7 @@ set Guardian cap Sword 60
 set Guardian cap lshield 50
 
 set ArmorKnight cap lshield 60
-set ArmorKnight cap Axe 50
+set ArmorKnight cap Axe 60
 
 set pirate cap Axe 60
 
