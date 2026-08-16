@@ -2657,7 +2657,7 @@ set Dart stat might 4
 set Dart stat uses 20
 set Dart stat weight 6
 set Dart stat min-range 0
-set Dart stat accuracy 50
+set Dart stat accuracy 40
 set KillerKnife stat accuracy 40
 set KillerKnife stat cost 1800
 set KillerKnife stat crit 40
