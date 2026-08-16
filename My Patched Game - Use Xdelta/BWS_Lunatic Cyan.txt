@@ -851,11 +851,11 @@ set Owen base mind +7
 
 //set burroughs item 0 Bag 0
 //set burroughs item 1 BodkinArrow 20
-set burroughs item 2 MithrilArrow 20
+set burroughs item 2 Scorpio 101
 set burroughs item 3 KisharsWrath 20
 set burroughs item 4 New-TypeBolt 20
 set burroughs item 5 Tumahann 10
-set burroughs item 6 Bag 0
+set burroughs item 6 MithrilArrow 20
 set burroughs item 7 Wormwood 10
 set burroughs growth crossbow 100
 set burroughs growth hp 30
@@ -2370,8 +2370,8 @@ set IronBallista effect cripple-x2
 set SteelBallista effect cripple-x2
 set PrototypeSpringald effect cripple-x2
 set Springald effect cripple-x2
-set PrototypeScorpio effect cripple-x2
-set Scorpio effect cripple-x2
+//set PrototypeScorpio effect cripple-x2
+//set Scorpio effect cripple-x2
 
 unset OldBallista effect cant-move
 unset BronzeBallista effect cant-move
@@ -2381,6 +2381,21 @@ unset PrototypeSpringald effect cant-move
 unset Springald effect cant-move
 unset PrototypeScorpio effect cant-move
 unset Scorpio effect cant-move
+
+unset OldBallista effect no-counter
+unset BronzeBallista effect no-counter
+unset IronBallista effect no-counter
+unset SteelBallista effect no-counter
+unset PrototypeSpringald effect no-counter
+unset Springald effect no-counter
+unset PrototypeScorpio effect no-counter
+unset Scorpio effect no-counter
+
+set PrototypeScorpio effect injure-rate 100
+set Scorpio effect injure-rate 100
+
+set PrototypeScorpio stat min-range 1
+set Scorpio stat min-range 1
 
 // prfs
 set Pascanion2 stat level 17
@@ -4055,16 +4070,16 @@ set BronzeBallista stat crit 0
 set BronzeBallista stat defense 10
 set BronzeBallista stat magic 10
 set BronzeBallista stat might 15
-set BronzeBallista stat speed 0
-set BronzeBallista stat weight 12
+set BronzeBallista stat speed 5
+set BronzeBallista stat weight 10
 set IronBallista stat accuracy 70
 set IronBallista stat cost 4000
 set IronBallista stat crit 0
-set IronBallista stat defense 10
-set IronBallista stat magic 10
+set IronBallista stat defense 16
+set IronBallista stat magic 16
 set IronBallista stat might 21
-set IronBallista stat speed 0
-set IronBallista stat weight 13
+set IronBallista stat speed 5
+set IronBallista stat weight 11
 set New-TypeBolt stat accuracy 10
 set New-TypeBolt stat might 30
 set New-TypeBolt effect injure-rate 100
@@ -4076,7 +4091,7 @@ set OldBallista stat durability F
 set OldBallista stat magic 10
 set OldBallista stat might 13
 set OldBallista stat speed 5
-set OldBallista stat weight 8
+set OldBallista stat weight 11
 set OldBolt stat accuracy 10
 set OldBolt stat might 20
 set OldBolt effect injure-rate 100
@@ -4086,16 +4101,16 @@ set PrototypeScorpio stat crit 0
 set PrototypeScorpio stat defense 10
 set PrototypeScorpio stat magic 10
 set PrototypeScorpio stat might 15
-set PrototypeScorpio stat speed 0
-set PrototypeScorpio stat weight 7
+set PrototypeScorpio stat speed 5
+set PrototypeScorpio stat weight 5
 set PrototypeSpringald stat accuracy 60
 set PrototypeSpringald stat cost 6000
 set PrototypeSpringald stat crit 0
-set PrototypeSpringald stat defense 10
-set PrototypeSpringald stat magic 10
+set PrototypeSpringald stat defense 28
+set PrototypeSpringald stat magic 28
 set PrototypeSpringald stat might 33
-set PrototypeSpringald stat speed 0
-set PrototypeSpringald stat weight 15
+set PrototypeSpringald stat speed 5
+set PrototypeSpringald stat weight 13
 set Scorpio stat Durability B
 set Scorpio stat accuracy 100
 set Scorpio stat cost 6000
@@ -4103,29 +4118,29 @@ set Scorpio stat crit 0
 set Scorpio stat defense 10
 set Scorpio stat magic 10
 set Scorpio stat might 15
-set Scorpio stat speed 0
-set Scorpio stat weight 7
+set Scorpio stat speed 5
+set Scorpio stat weight 5
 set Springald stat accuracy 60
 set Springald stat cost 7000
 set Springald stat crit 0
-set Springald stat defense 10
+set Springald stat defense 28
 set Springald stat level 15
-set Springald stat magic 10
+set Springald stat magic 28
 set Springald stat might 33
-set Springald stat speed 0
-set Springald stat weight 15
+set Springald stat speed 5
+set Springald stat weight 13
 set StandardBolt stat accuracy 10
 set StandardBolt stat might 25
 set StandardBolt effect injure-rate 100
 set SteelBallista stat accuracy 60
 set SteelBallista stat cost 5000
 set SteelBallista stat crit 0
-set SteelBallista stat defense 10
+set SteelBallista stat defense 22
 set SteelBallista stat level 10
-set SteelBallista stat magic 10
+set SteelBallista stat magic 22
 set SteelBallista stat might 27
-set SteelBallista stat speed 0
-set SteelBallista stat weight 14
+set SteelBallista stat speed 5
+set SteelBallista stat weight 12
 
 // sshield
 
@@ -6544,6 +6559,8 @@ set Ballistician skill armsthrift
 set Ballistician skill hide
 set Ballistician skill celerity
 set Ballistician skill watchful
+set Ballistician skill overwatch
+set Ballistician skill parry
 
 // thaddy stat
 set Burglar skill camouflage
@@ -7622,8 +7639,8 @@ set Aristocrat skill Sunder
 set Assassin skill Sunder
 //set Ballistician skill Sunder
 set Bishop skill Sunder
-set BlackRider skill Sunder
-set BlackRider_R skill Sunder
+//set BlackRider skill Sunder
+//set BlackRider_R skill Sunder
 //set BowKnight skill Sunder
 //set BowKnight_R skill Sunder
 //set Bowman skill Sunder
@@ -7682,10 +7699,10 @@ set KnightLord skill Sunder
 set KnightLord_R skill Sunder
 //set LadyKnight skill Sunder
 //set LadyKnight_R skill Sunder
-set LanceKnight skill Sunder
-set LanceKnight2 skill Sunder
-set LanceKnight2_R skill Sunder
-set LanceKnight_R skill Sunder
+//set LanceKnight skill Sunder
+//set LanceKnight2 skill Sunder
+//set LanceKnight2_R skill Sunder
+//set LanceKnight_R skill Sunder
 set Levinwyrm skill Sunder
 set Lord skill Sunder
 set Lord_R skill Sunder
