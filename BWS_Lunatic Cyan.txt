@@ -4240,7 +4240,7 @@ set LightShield stat fire_res 6
 Set LightShield Stat thunder_res 6
 Set LightShield Stat wind_res 6
 Set LightShield Stat holy_res 26
-Set LightShield Stat dark_res 6
+Set LightShield Stat dark_res 26
 
 Set DarkShield Stat fire_res 8
 Set DarkShield Stat thunder_res 8
@@ -4536,7 +4536,7 @@ Set RadiantShield Stat fire_res 12
 Set RadiantShield Stat thunder_res 12
 Set RadiantShield Stat wind_res 12
 Set RadiantShield Stat holy_res 32
-Set RadiantShield Stat dark_res 12
+Set RadiantShield Stat dark_res 32
 
 Set ShadowShield Stat fire_res 12
 Set ShadowShield Stat thunder_res 12
