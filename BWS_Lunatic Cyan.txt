@@ -4042,7 +4042,7 @@ set RapidCrossbow stat durability A
 set RapidCrossbow stat fire_res 10
 set RapidCrossbow stat holy_res 10
 set RapidCrossbow stat level 16
-set RapidCrossbow stat max-range 2
+set RapidCrossbow stat max-range 3
 set RapidCrossbow stat might 18
 set RapidCrossbow stat min-range 1
 set RapidCrossbow stat thunder_res 10
