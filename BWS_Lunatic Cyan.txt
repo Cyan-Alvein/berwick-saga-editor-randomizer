@@ -12,9 +12,11 @@
 
 /////////////////////////////////////////////README - Most Important Changes//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Magic damage & Forks deals cripple-rate 8 12 16 according to amount of damage.
+// Magic damage & Forks deals cripple-rate 8 12 16 according to amount of damage. Forks don't have cripple-x2 because the game refuse to add those 2 effect. No choice but to recreate the game from scrath for fixing it.
 
-// Blizzard 44% injure-rate, 40% Hit Rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter, OldBolt, StandardBolt, New-TypeBolt 100% injure-rate but -20% accuracy & +5 weight. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
+// Blizzard, ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter, 100% injure-rate but -20% accuracy & +5 weight. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
+
+// Scorpio & PrototypeScorpio 100% injure-rate
 
 // All weapons got Cripple-x2 effect
 
@@ -2554,7 +2556,7 @@ set Rehabilitate stat level 10
 set AirBlade effect injure-rate 8
 set Windstorm effect injure-rate 8
 set PallasRiana effect injure-rate 8
-set Blizzard effect injure-rate 47
+set Blizzard effect injure-rate 100
 set Fire effect cripple-rate 8
 set Hellfire effect cripple-rate 12
 set Earthblaze effect cripple-rate 12
@@ -8084,8 +8086,8 @@ set StrongHorse stat speed 2
 set StrongHorse stat strength 1
 set StrongHorse stat defense 1
 set StrongHorse stat magic 1
-set SinonStallion stat speed 4
-set SinonStallion stat strength 0
+set SinonStallion stat speed 3
+set SinonStallion stat strength 1
 set SinonStallion stat defense 0
 set SinonStallion stat magic 1
 set LigaDestrier stat speed 0
@@ -8104,6 +8106,10 @@ set IshsCourser stat speed 2
 set IshsCourser stat strength 1
 set IshsCourser stat defense 1
 set IshsCourser stat magic 1
+set IshsStallion stat speed 4
+set IshsStallion  stat strength 0
+set IshsStallion  stat defense 0
+set IshsStallion  stat magic 1
 
 set ThinHorse stat cost 1500
 set PlainHorse stat cost 2500
