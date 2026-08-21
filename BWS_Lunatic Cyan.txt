@@ -3312,7 +3312,7 @@ set Drakelance Stat Accuracy 80
 set Drakelance Stat Weight 15
 set Drakelance stat cost 6000
 set Drakelance stat hex 7
-set Drakelance stat might 1
+set Drakelance stat might 5
 set Drakelance stat durability B
 set Drakelance stat level 16
 set GreatLance Stat Accuracy 70
@@ -3335,7 +3335,7 @@ set Oxtongue stat level 4
 set Xyston Stat Accuracy 70
 set Xyston Stat Weight 16
 set Xyston stat cost 4000
-set Xyston stat hex 5
+set Xyston stat hex 6
 set Xyston stat level 8
 
 // axe
