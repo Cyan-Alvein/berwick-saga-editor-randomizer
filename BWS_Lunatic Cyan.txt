@@ -282,9 +282,9 @@ set christine growth speed 40
 set christine growth bow 100
 set christine growth crossbow 100
 set christine base hp +2
-set christine base strength +0
+set christine base strength +3
 set christine base defense +1
-set christine base speed +7
+set christine base speed +4
 set christine base magic +3
 set christine base bow +30
 set christine base crossbow +30
@@ -3058,7 +3058,7 @@ set Brymranger stat accuracy 60
 set Brymranger stat avoid 0
 set Brymranger stat cost 9000
 set Brymranger stat crit 0
-set Brymranger stat might 19
+set Brymranger stat might 17
 set Brymranger stat Durability B
 set Brymranger stat weight 8
 //set Brymranger stat rounds 2
@@ -3084,10 +3084,9 @@ set Zanbato stat level 14
 set Zanbato stat might 1
 set Zanbato stat weight 13
 set Zweihander stat cost 8000
-set Zweihander stat rounds 0
-set Zweihander effect x2
+set Zweihander stat rounds 1
 set Zweihander stat crit 0
-set Zweihander stat might 19
+set Zweihander stat might 21
 set Zweihander stat weight 9
 set Zweihander stat accuracy 60
 set Zweihander stat durability B
@@ -6393,6 +6392,12 @@ set LanceKnight_R skill camouflage
 set LanceKnight_R skill canto
 set LanceKnight_R skill hide
 set LanceKnight_R skill throw
+
+set Structure base strength +10
+set Structure base defense +10
+set Structure base magic +20
+set Structure base speed +10
+set Structure base hp +10
 
 set LanceKnight2 skill canto
 set LanceKnight2 skill hide
