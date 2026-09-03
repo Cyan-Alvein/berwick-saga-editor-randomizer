@@ -2405,6 +2405,7 @@ set Pascanion stat level 17
 
 set Bhuj stat level 16
 set Brymranger stat level 16
+set Zweihander stat level 16
 set Fauchard stat level 16
 set Perseid stat level 10
 set RazeEtoile stat level 15
@@ -2947,6 +2948,7 @@ set Rapier stat Weight 8
 set Rapier stat accuracy 50
 set Rapier stat crit 0
 set Rapier stat might 7
+set Rapier stat level 2
 set RazeEtoile stat Cost 3000
 set RazeEtoile stat Durability C
 set RazeEtoile stat accuracy 60
@@ -3591,7 +3593,7 @@ set WarPick stat accuracy 40
 set WarPick stat crit 0
 set WarPick stat might 8
 set WarPick stat Durability C
-set Warpick stat level 7
+set Warpick stat level 2
 
 // bows
 

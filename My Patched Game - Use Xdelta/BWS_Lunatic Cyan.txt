@@ -12,9 +12,11 @@
 
 /////////////////////////////////////////////README - Most Important Changes//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Magic damage & Forks deals cripple-rate 8 12 16 according to amount of damage.
+// Magic damage & Forks deals cripple-rate 8 12 16 according to amount of damage. Forks don't have cripple-x2 because the game refuse to add those 2 effect. No choice but to recreate the game from scrath for fixing it.
 
-// Blizzard 44% injure-rate, 40% Hit Rate. ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter, OldBolt, StandardBolt, New-TypeBolt 100% injure-rate but -20% accuracy & +5 weight. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
+// Blizzard, ShortBow, Bowgun, BoltKnife, Harpoon, BronzeSword, LogSplitter, 100% injure-rate but -20% accuracy & +5 weight. No more need to hope you have good RNG with flourist skill, I hate luck in game. Luck is for noob.
+
+// Scorpio & PrototypeScorpio 100% injure-rate
 
 // All weapons got Cripple-x2 effect
 
@@ -280,9 +282,9 @@ set christine growth speed 40
 set christine growth bow 100
 set christine growth crossbow 100
 set christine base hp +2
-set christine base strength +0
+set christine base strength +3
 set christine base defense +1
-set christine base speed +7
+set christine base speed +4
 set christine base magic +3
 set christine base bow +30
 set christine base crossbow +30
@@ -2403,6 +2405,7 @@ set Pascanion stat level 17
 
 set Bhuj stat level 16
 set Brymranger stat level 16
+set Zweihander stat level 16
 set Fauchard stat level 16
 set Perseid stat level 10
 set RazeEtoile stat level 15
@@ -2554,7 +2557,7 @@ set Rehabilitate stat level 10
 set AirBlade effect injure-rate 8
 set Windstorm effect injure-rate 8
 set PallasRiana effect injure-rate 8
-set Blizzard effect injure-rate 47
+set Blizzard effect injure-rate 100
 set Fire effect cripple-rate 8
 set Hellfire effect cripple-rate 12
 set Earthblaze effect cripple-rate 12
@@ -2621,14 +2624,14 @@ set Wormwood stat crit 0
 //set AssassinsKnife stat crit 80
 set AirKnife effect cripple-rate 8
 set AirKnife effect wind-damage 13
-set AirKnife stat accuracy 50
+set AirKnife stat accuracy 40
 set AirKnife stat cost 3000
 set AirKnife stat crit 0
 set AirKnife stat durability E
 set AirKnife stat weight 4
 set Airknife stat level 4
 set Airknife stat might 0
-set AssassinsKnife stat accuracy 40
+set AssassinsKnife stat accuracy 30
 set AssassinsKnife stat cost 3600
 set AssassinsKnife stat durability C
 set AssassinsKnife stat level 16
@@ -2636,7 +2639,7 @@ set AssassinsKnife stat might 0
 set AssassinsKnife stat weight 10
 set BloodKnife effect dark-damage 8
 set BloodKnife effect nosferatu
-set BloodKnife stat accuracy 40
+set BloodKnife stat accuracy 30
 set BloodKnife stat cost 4000
 set BloodKnife stat crit 0
 set BloodKnife stat level 8
@@ -2651,14 +2654,14 @@ set BoltKnife stat durability S
 set BoltKnife stat level 1
 set BoltKnife stat might 2
 set BoltKnife stat weight 7
-set Carnwenhau stat accuracy 50
+set Carnwenhau stat accuracy 40
 set Carnwenhau stat cost 4600
 set Carnwenhau stat crit 0
 set Carnwenhau stat defense 0
 set Carnwenhau stat durability B
 set Carnwenhau stat might 6
 set Carnwenhau stat weight 5
-set Crotalus stat accuracy 50
+set Crotalus stat accuracy 40
 set Crotalus stat cost 6000
 set Crotalus stat crit 0
 set Crotalus stat level 12
@@ -2672,15 +2675,15 @@ set Dart stat might 4
 set Dart stat uses 20
 set Dart stat weight 6
 set Dart stat min-range 0
-set Dart stat accuracy 40
-set KillerKnife stat accuracy 40
+set Dart stat accuracy 30
+set KillerKnife stat accuracy 30
 set KillerKnife stat cost 1800
 set KillerKnife stat crit 40
 set KillerKnife stat durability C
 set KillerKnife stat level 7
 set KillerKnife stat might 0
 set KillerKnife stat weight 10
-set Kris stat accuracy 40
+set Kris stat accuracy 30
 set Kris stat cost 2800
 set Kris stat crit 0
 set Kris stat durability C
@@ -2691,26 +2694,26 @@ set Kris stat weight 7
 set LetterOpener stat crit 0
 set LetterOpener stat durability D
 set LetterOpener stat might 1
-set LetterOpener stat accuracy 50
+set LetterOpener stat accuracy 40
 set LetterOpener stat weight 4
 set MainGauche stat cost 2800
 set MainGauche stat crit 0
 set MainGauche stat defense 6
 set MainGauche stat might 0
 set MainGauche stat weight 7
-set Maingauche stat accuracy 40
+set Maingauche stat accuracy 30
 set Maingauche stat durability C
 set PoisonKnife stat crit 0
 set PoisonKnife stat might 2
-set PoisonKnife stat accuracy 40
-set Seax stat accuracy 40
+set PoisonKnife stat accuracy 30
+set Seax stat accuracy 30
 set Seax stat durability C
 set Seax stat cost 1800
 set Seax stat crit 0
 set Seax stat level 8
 set Seax stat might 6
 set Seax stat weight 7
-set Shieldknife stat accuracy 40
+set Shieldknife stat accuracy 30
 set Shieldknife stat crit 40
 set Shieldknife stat might 0
 set Shieldknife stat weight 8
@@ -2718,18 +2721,18 @@ set Shieldknife stat cost 5000
 set SleepKnife stat crit 0
 set SleepKnife stat durability C
 set SleepKnife stat might 2
-set SleepKnife stat accuracy 40
+set SleepKnife stat accuracy 30
 set StunKnife stat crit 0
 set StunKnife stat durability C
 set StunKnife stat level 12
 set StunKnife stat might 6
 set StunKnife stat weight 8
 set Stunknife effect disarm-rate 100
-set Stunknife stat accuracy 40
+set Stunknife stat accuracy 30
 set Stunknife stat cost 1600
 set SwordBreaker stat crit 0
 set Swordbreaker effect sword-break 100
-set Swordbreaker stat accuracy 40
+set Swordbreaker stat accuracy 30
 set Swordbreaker stat cost 2800
 set Swordbreaker stat durability C
 set Swordbreaker stat level 10
@@ -2743,16 +2746,16 @@ set TempestKnife stat durability B
 set TempestKnife stat level 12
 set TempestKnife stat might 0
 set TempestKnife stat weight 5
-set TempestKnife stat accuracy 50
+set TempestKnife stat accuracy 40
 set ThiefsCharm effect steal-rate-plus 50
 set ThiefsKnife effect steal-rate-plus 50
-set ThiefsKnife stat accuracy 40
+set ThiefsKnife stat accuracy 30
 set ThiefsKnife stat cost 1000
 set ThiefsKnife stat crit 0
 set ThiefsKnife stat durability C
 set ThiefsKnife stat might 2
 set ThiefsKnife stat weight 5
-set ThrowingKnife stat accuracy 40
+set ThrowingKnife stat accuracy 30
 set ThrowingKnife stat cost 3500
 set ThrowingKnife stat crit 0
 set ThrowingKnife stat durability B
@@ -2766,11 +2769,11 @@ set Vespa stat durability C
 set Vespa stat level 4
 set Vespa stat might 4
 set Vespa stat weight 6
-set Vespa stat accuracy 50
+set Vespa stat accuracy 40
 set dagger stat crit 0
 set dagger stat might 2
 set dagger stat weight 5
-set dagger stat accuracy 50
+set dagger stat accuracy 40
 
 //swords
 Set ImperialSword stat Weight 5
@@ -2945,6 +2948,7 @@ set Rapier stat Weight 8
 set Rapier stat accuracy 50
 set Rapier stat crit 0
 set Rapier stat might 7
+set Rapier stat level 2
 set RazeEtoile stat Cost 3000
 set RazeEtoile stat Durability C
 set RazeEtoile stat accuracy 60
@@ -3056,7 +3060,7 @@ set Brymranger stat accuracy 60
 set Brymranger stat avoid 0
 set Brymranger stat cost 9000
 set Brymranger stat crit 0
-set Brymranger stat might 19
+set Brymranger stat might 17
 set Brymranger stat Durability B
 set Brymranger stat weight 8
 //set Brymranger stat rounds 2
@@ -3082,10 +3086,9 @@ set Zanbato stat level 14
 set Zanbato stat might 1
 set Zanbato stat weight 13
 set Zweihander stat cost 8000
-set Zweihander stat rounds 0
-set Zweihander effect x2
+set Zweihander stat rounds 1
 set Zweihander stat crit 0
-set Zweihander stat might 19
+set Zweihander stat might 21
 set Zweihander stat weight 9
 set Zweihander stat accuracy 60
 set Zweihander stat durability B
@@ -3310,7 +3313,7 @@ set Drakelance Stat Accuracy 80
 set Drakelance Stat Weight 15
 set Drakelance stat cost 6000
 set Drakelance stat hex 7
-set Drakelance stat might 1
+set Drakelance stat might 5
 set Drakelance stat durability B
 set Drakelance stat level 16
 set GreatLance Stat Accuracy 70
@@ -3333,7 +3336,7 @@ set Oxtongue stat level 4
 set Xyston Stat Accuracy 70
 set Xyston Stat Weight 16
 set Xyston stat cost 4000
-set Xyston stat hex 5
+set Xyston stat hex 6
 set Xyston stat level 8
 
 // axe
@@ -3590,7 +3593,7 @@ set WarPick stat accuracy 40
 set WarPick stat crit 0
 set WarPick stat might 8
 set WarPick stat Durability C
-set Warpick stat level 7
+set Warpick stat level 2
 
 // bows
 
@@ -4042,7 +4045,7 @@ set RapidCrossbow stat durability A
 set RapidCrossbow stat fire_res 10
 set RapidCrossbow stat holy_res 10
 set RapidCrossbow stat level 16
-set RapidCrossbow stat max-range 2
+set RapidCrossbow stat max-range 3
 set RapidCrossbow stat might 18
 set RapidCrossbow stat min-range 1
 set RapidCrossbow stat thunder_res 10
@@ -4240,7 +4243,7 @@ set LightShield stat fire_res 6
 Set LightShield Stat thunder_res 6
 Set LightShield Stat wind_res 6
 Set LightShield Stat holy_res 26
-Set LightShield Stat dark_res 6
+Set LightShield Stat dark_res 26
 
 Set DarkShield Stat fire_res 8
 Set DarkShield Stat thunder_res 8
@@ -4536,7 +4539,7 @@ Set RadiantShield Stat fire_res 12
 Set RadiantShield Stat thunder_res 12
 Set RadiantShield Stat wind_res 12
 Set RadiantShield Stat holy_res 32
-Set RadiantShield Stat dark_res 12
+Set RadiantShield Stat dark_res 32
 
 Set ShadowShield Stat fire_res 12
 Set ShadowShield Stat thunder_res 12
@@ -6392,6 +6395,12 @@ set LanceKnight_R skill canto
 set LanceKnight_R skill hide
 set LanceKnight_R skill throw
 
+set Structure base strength +10
+set Structure base defense +10
+set Structure base magic +20
+set Structure base speed +10
+set Structure base hp +10
+
 set LanceKnight2 skill canto
 set LanceKnight2 skill hide
 set LanceKnight2 skill throw
@@ -8084,8 +8093,8 @@ set StrongHorse stat speed 2
 set StrongHorse stat strength 1
 set StrongHorse stat defense 1
 set StrongHorse stat magic 1
-set SinonStallion stat speed 4
-set SinonStallion stat strength 0
+set SinonStallion stat speed 3
+set SinonStallion stat strength 1
 set SinonStallion stat defense 0
 set SinonStallion stat magic 1
 set LigaDestrier stat speed 0
@@ -8104,6 +8113,10 @@ set IshsCourser stat speed 2
 set IshsCourser stat strength 1
 set IshsCourser stat defense 1
 set IshsCourser stat magic 1
+set IshsStallion stat speed 4
+set IshsStallion  stat strength 0
+set IshsStallion  stat defense 0
+set IshsStallion  stat magic 1
 
 set ThinHorse stat cost 1500
 set PlainHorse stat cost 2500
