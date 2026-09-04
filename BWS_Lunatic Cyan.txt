@@ -2372,7 +2372,7 @@ set IronBallista effect cripple-x2
 set SteelBallista effect cripple-x2
 set PrototypeSpringald effect cripple-x2
 set Springald effect cripple-x2
-//set PrototypeScorpio effect cripple-x2
+set PrototypeScorpio effect cripple-x2
 //set Scorpio effect cripple-x2
 
 unset OldBallista effect cant-move
@@ -2393,7 +2393,7 @@ unset Springald effect no-counter
 unset PrototypeScorpio effect no-counter
 unset Scorpio effect no-counter
 
-set PrototypeScorpio effect injure-rate 100
+//set PrototypeScorpio effect injure-rate 100
 set Scorpio effect injure-rate 100
 
 set PrototypeScorpio stat min-range 1
