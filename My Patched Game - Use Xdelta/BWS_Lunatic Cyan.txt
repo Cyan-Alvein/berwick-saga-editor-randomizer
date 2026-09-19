@@ -2372,7 +2372,7 @@ set IronBallista effect cripple-x2
 set SteelBallista effect cripple-x2
 set PrototypeSpringald effect cripple-x2
 set Springald effect cripple-x2
-//set PrototypeScorpio effect cripple-x2
+set PrototypeScorpio effect cripple-x2
 //set Scorpio effect cripple-x2
 
 unset OldBallista effect cant-move
@@ -2393,7 +2393,7 @@ unset Springald effect no-counter
 unset PrototypeScorpio effect no-counter
 unset Scorpio effect no-counter
 
-set PrototypeScorpio effect injure-rate 100
+//set PrototypeScorpio effect injure-rate 100
 set Scorpio effect injure-rate 100
 
 set PrototypeScorpio stat min-range 1
@@ -2447,20 +2447,21 @@ set Blizzard stat accuracy 60
 set Windstorm stat level 10
 set Blizzard stat level 1
 set Blizzard stat might 20
-set AirBlade stat might 8
-set Windstorm stat might 8
-set PallasRiana stat might 8
+set AirBlade stat might 7
+set Windstorm stat might 7
+set PallasRiana stat might 7
 set PallasRiana stat max-range 3
 set PallasRiana stat accuracy 60
+set PallasRiana stat speed 2
 set Sandstorm stat accuracy 110
 set Sandstorm stat speed 5
 set Windtongue stat accuracy 120
 set Windtongue stat speed 5
 set Icetongue stat accuracy 120
 set Icetongue stat speed 5
-set Sandstorm stat might 15
-set Windtongue stat might 32
-set Icetongue stat might 32
+set Sandstorm stat might 19
+set Windtongue stat might 37
+set Icetongue stat might 37
 set Icetongue effect sleep 0
 set Sandstorm stat max-range 0
 set Windtongue stat max-range 0
@@ -2489,12 +2490,13 @@ set Earthblaze stat accuracy 50
 set PallasLeia stat level 15
 set PallasLeia stat max-range 2
 set PallasLeia stat accuracy 70
+set PallasLeia stat speed 2
 set Flametongue stat accuracy 120
 set Flametongue stat speed 5
 set Blazetongue stat accuracy 120
 set Blazetongue stat speed 5
-set Flametongue stat might 22
-set Blazetongue stat might 32
+set Flametongue stat might 37
+set Blazetongue stat might 37
 set Flametongue stat max-range 0
 set Blazetongue stat max-range 0
 
@@ -2519,12 +2521,13 @@ set Lightning stat accuracy 60
 set Lightning stat level 10
 set Lightning stat might 15
 set PallasSerenia stat level 15
-set PallasSerenia stat might 27
+set PallasSerenia stat might 20
+set PallasSerenia stat speed 2
 set PallasSerenia max-range 3
 set PallasSerenia stat accuracy 60
 set Stormtongue stat accuracy 140
 set Stormtongue stat speed 10
-set Stormtongue stat might 27
+set Stormtongue stat might 32
 set Stormtongue stat max-range 0
 
 set Physic stat max-range 5
@@ -2535,7 +2538,8 @@ set holy effect cripple-x2
 set Starlight effect cripple-rate 16
 set Starlight stat max-range 2
 set Starlight stat min-range 0
-set Starlight stat might 32
+set Starlight stat might 25
+set Starlight stat speed 2
 set Starlight stat crit 0
 set Starlight stat accuracy 70
 set holy stat accuracy 60
@@ -2590,7 +2594,8 @@ Set Nosferatu stat might 10
 Set Nosferatu+ stat might 10
 Set Scylla stat accuracy 60
 Set Swarm stat might 15
-Set Tumahann stat might 32
+Set Tumahann stat might 25
+Set Tumahann stat speed 2
 Set Tumahann stat level 22
 Set Tumahann stat uses 10
 Set Tumahann stat accuracy 70
