@@ -2491,6 +2491,7 @@ set PallasLeia stat level 15
 set PallasLeia stat max-range 2
 set PallasLeia stat accuracy 70
 set PallasLeia stat speed 2
+set PallasLeia stat might 25
 set Flametongue stat accuracy 120
 set Flametongue stat speed 5
 set Blazetongue stat accuracy 120
