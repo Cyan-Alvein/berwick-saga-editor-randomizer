@@ -8137,24 +8137,24 @@ set IshsCourser stat cost 9000
 set MorachHorse stat cost 7500
 //set tico stat cost
 
-Set Concoction stat uses 3
-Set Concoction stat cost 3000
+Set Concoction stat uses 6
+Set Concoction stat cost 1000
 Set Vulnerary stat uses 6
-Set Vulnerary stat cost 3000
-Set Elixir stat uses 3
-Set Elixir stat cost 5000
+Set Vulnerary stat cost 600
+Set Elixir stat uses 6
+Set Elixir stat cost 1200
 Set Vanishstone stat uses 3
-Set Vanishstone stat cost 6000
+Set Vanishstone stat cost 3000
 Set Escapestone stat uses 3
-Set Escapestone stat cost 3000
-Set Panacea stat uses 3
-Set Panacea stat cost 4000
-Set Antitoxin stat uses 5
-Set Antitoxin stat cost 500
-Set SmellingSalts stat uses 5
-Set SmellingSalts stat cost 500
-Set Sedative stat uses 5
-Set Sedative stat cost 500
+Set Escapestone stat cost 1500
+Set Panacea stat uses 6
+Set Panacea stat cost 1000
+Set Antitoxin stat uses 6
+Set Antitoxin stat cost 600
+Set SmellingSalts stat uses 6
+Set SmellingSalts stat cost 600
+Set Sedative stat uses 6
+Set Sedative stat cost 600
 
 set Treasure stat price 40000
 Set Goldcoin stat price 4000
