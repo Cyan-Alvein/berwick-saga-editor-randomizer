@@ -193,7 +193,7 @@ set reese base hp +0
 set reese base strength +0
 set reese base defense +0
 set reese base speed +2
-set reese base magic +2
+set reese base magic +3
 
 set ward item 0 MithrilSpear 101
 set ward item 1 SquareShield 101
@@ -245,7 +245,7 @@ set elbert base sshield +25
 set elbert base sword +30
 set elbert base spear +30
 set elbert base mshield +40
-set elbert base magic +3
+set elbert base magic +4
 
 set Paladin_R cap mshield 50
 set Paladin_R cap spear 50
@@ -315,7 +315,7 @@ set adel base hp +0
 set adel base strength +3
 set adel base defense +0
 set adel base speed +0
-set adel base magic +1
+set adel base magic +2
 
 
 set leon item 0 IronSpear 101
@@ -339,7 +339,7 @@ set leon base hp +0
 set leon base strength +1
 set leon base defense +0
 set leon base speed +1
-set leon base magic +2
+set leon base magic +3
 
 set sherlock item 0 IronBow 101
 set sherlock item 1 IronArrow+ 40
@@ -568,7 +568,7 @@ set arthur base hp +2
 set arthur base strength +0
 set arthur base defense +0
 set arthur base speed +0
-set arthur base magic +3
+set arthur base magic +4
 
 set kramer item 0 Longsword 101
 set kramer item 1 Bag 0
@@ -600,7 +600,7 @@ set dean growth strength 30
 set dean growth defense 5
 set dean growth magic 2
 set dean growth speed 25
-set dean base magic +1
+set dean base magic +2
 
 set faye item 2 GiantsBrace 0
 set faye item 3 Bag 0
