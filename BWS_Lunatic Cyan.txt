@@ -8275,6 +8275,7 @@ set Arrow++ stat might 8
 // Horse Prize doesn't change. Surely a bug. Money isn't important anyway
 // x2 effect & rounds 2 = +1 weight, x4 effect = +3 weight
 // Unbreakable item effect prevent weapon & shield from randomly break, they only break when durability reach 0, but the repairstone no longer work.
+// I made player character magic stat & growth= 1/2 def stat & growth
 // 31 is the max value for magic_res item stat. 15 is the max value for magic item stat
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
