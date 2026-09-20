@@ -5256,8 +5256,8 @@ set WyvernScale effect cripple-rate 8
 set WyvernScale effect block-thunder-damage 8
 set WyvernScale stat crit_avoid_penalty 0
 set WyvernScale stat fire_res 10
-set WyvernScale stat thunder_res 30
-set WyvernScale stat wind_res 10
+set WyvernScale stat thunder_res 10
+set WyvernScale stat wind_res 30
 set WyvernScale stat holy_res 10
 set WyvernScale stat dark_res 10
 set WyvernScale stat cost 5000
