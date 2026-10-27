@@ -110,6 +110,10 @@
 
 // Axel Faramir Esteban Sylvis Czene Thaddy got Locktouch skill
 
+// BanditAxe, Scimitar, ThiefsCharm & ThiefsKnife got Steal-rate-plus 50% effect
+
+// Faye Faramir Volo Axel Dean Kramer Sherpa Enid Czene Thaddy got skill mug mug2 steal
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set ArmorKnight attribute movement knight
@@ -1259,6 +1263,9 @@ set enid skill desperation
 set enid skill parry
 set enid skill critical
 set enid skill counter
+set enid skill mug
+set enid skill mug2
+set enid skill steal
 
 set aegina skill canto
 set aegina skill focuschant
@@ -1422,6 +1429,9 @@ set kramer skill adept
 set kramer skill sunder
 set kramer skill parry
 unset kramer skill arrowbane
+set kramer skill mug
+set kramer skill mug2
+set kramer skill steal
 
 set sherpa skill canto
 set sherpa skill climber
@@ -1448,6 +1458,9 @@ set sherpa skill pursuit
 set sherpa skill adept
 set sherpa skill sunder
 set sherpa skill parry
+set sherpa skill mug
+set sherpa skill mug2
+set sherpa skill steal
 
 set dean skill adept
 set dean skill axeguard
@@ -1477,6 +1490,7 @@ set dean skill sunder
 set dean skill parry
 set dean skill mug
 set dean skill mug2
+set dean skill steal
 
 set sylvis skill aim
 set sylvis skill canto
@@ -1607,6 +1621,9 @@ set faye skill evasion
 set faye skill knockaway
 set faye skill counter
 set faye skill critical
+set faye skill mug
+set faye skill mug2
+set faye skill steal
 
 set faramir skill aim
 set faramir skill canto
@@ -1642,6 +1659,9 @@ set faramir skill knockaway
 set faramir skill counter
 set faramir skill critical
 set faramir skill locktouch
+set faramir skill mug
+set faramir skill mug2
+set faramir skill steal
 
 set volo skill adept
 set volo skill blade
@@ -1674,6 +1694,9 @@ set volo skill evasion
 set volo skill knockaway
 set volo skill counter
 set volo skill critical
+set volo skill mug
+set volo skill mug2
+set volo skill steal
 
 set clifford skill canto
 set clifford skill flourish
@@ -1869,6 +1892,9 @@ set lynette skill resistor
 set lynette skill parry
 set lynette skill critical
 set lynette skill counter
+set lynette skill mug
+set lynette skill mug2
+set lynette skill steal
 
 set paramythis skill blessing
 set paramythis skill camouflage
@@ -2998,10 +3024,11 @@ set Saber stat Accuracy 70
 set Saber stat crit 0
 set Scimitar stat Cost 900
 set Scimitar stat Durability B
-set Scimitar stat accuracy 60
+set Scimitar stat accuracy 50
 set Scimitar stat crit 0
 set Scimitar stat might 5
 set Scimitar stat weight 3
+set Scimitar effect steal-rate-plus 50
 set Scimitar+ stat Cost 1000
 set Scimitar+ stat Durability C
 set Scimitar+ stat accuracy 60
@@ -8308,3 +8335,23 @@ set AxeSergeant skill deathmatch
 set Highlander skill deathmatch
 set Mercenary skill deathmatch
 set Axefighter skill deathmatch
+set Axefighter skill steal
+set Berserker skill steal
+set FlameFencer skill mug
+set FlameFencer skill mug2
+set FlameFencer skill steal
+set Hero skill mug
+set Hero skill mug2
+set Hero skill steal
+set Highlander skill mug
+set Highlander skill mug2
+set Highlander skill steal
+set Swordmaster skill mug
+set Swordmaster skill mug2
+set Swordmaster skill steal
+set Swordfighter_M skill mug
+set Swordfighter_M skill mug2
+set Swordfighter_M skill steal
+set Ranger skill mug
+set Ranger skill mug2
+set Ranger skill steal
