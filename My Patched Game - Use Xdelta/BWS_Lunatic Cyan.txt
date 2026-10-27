@@ -3448,7 +3448,7 @@ set DarkAxe stat durability C
 set DarkAxe stat level 4
 set DarkAxe stat might 1
 set Francisca stat Weight 8
-set Francisca stat accuracy 50
+set Francisca stat accuracy 40
 set Francisca stat cost 1400
 set Francisca stat crit 0
 set Francisca stat level 10
