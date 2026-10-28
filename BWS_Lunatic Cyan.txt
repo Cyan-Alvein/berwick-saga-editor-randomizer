@@ -640,7 +640,7 @@ set sylvis item 0 CompositeBow 101
 set sylvis item 1 SteelArrow+ 40
 set sylvis item 2 Gastraphetes 101
 set sylvis item 3 KillerCrossbow 101
-set sylvis item 4 Bag 0
+set sylvis item 4 KillerArrow 20
 set sylvis item 5 Bag 0
 set sylvis item 6 Bag 0
 set sylvis item 7 Bag 0
