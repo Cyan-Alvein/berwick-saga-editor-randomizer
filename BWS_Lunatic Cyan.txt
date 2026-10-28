@@ -198,9 +198,9 @@ set reese base speed +2
 set reese base magic +3
 
 set ward item 0 LongSpear 101
-set ward item 1 SquareShield 101
+set ward item 1 Bag 0
 //set ward item 2 RadiantShield 101 
-set ward item 2 Bag 0
+set ward item 2 SquareShield 101
 set ward item 3 Bag 0
 set ward item 4 Bag 0
 set ward item 5 Bag 0
