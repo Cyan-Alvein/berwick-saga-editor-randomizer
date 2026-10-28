@@ -94,8 +94,6 @@
 
 // ShieldAxe give 16 might 10 def skill parry. GigasAxe give 20 might 10 def no skill parry. 
 
-// All bows and crossbows give +10 magic resist. This is because they can't use rings. I will create soon my own Fire Emblem where Archer can use rings then remove this
-
 // FeatherBrace 2 Spd 10 Mag_Res, MuscleBrace 2 Str 10 Mag_Res, GuardBrace 2 Def 10 Mag_Res, SpiritBrace 2 Mag 1 Spd, EagleBrace 10 Hit 10 Mag_Res
 
 // PegasusBrace 3 Spd, GiantsBrace 3 Str, PhoenixBrace 3 Def, BlessedBrace 3 Mag, TigerBrace 10 Hit
@@ -199,13 +197,14 @@ set reese base defense +0
 set reese base speed +2
 set reese base magic +3
 
-set ward item 0 MithrilSpear 101
+set ward item 0 LongSpear 101
 set ward item 1 SquareShield 101
-set ward item 2 BlackShield 101
-set ward item 3 KillerSpear 101
-set ward item 4 Javelin 20
-set ward item 5 Partisan 101
-set ward item 6 RadiantShield 101 
+//set ward item 2 RadiantShield 101 
+set ward item 2 Bag 0
+set ward item 3 Bag 0
+set ward item 4 Bag 0
+set ward item 5 Bag 0
+set ward item 6 Bag 0
 set ward item 7 Bag 0
 set ward growth sword 100
 set ward growth spear 100
@@ -222,11 +221,11 @@ set VeteranKnight cap spear 60
 set VeteranKnight cap sword 50
 set VeteranKnight_R cap spear 60
 set VeteranKnight_R cap sword 50
-set ward base hp +2
-set ward base strength +5
+set ward base hp +5
+set ward base strength +1
 set ward base defense +2
-set ward base speed +5
-set ward base magic +6
+set ward base speed +2
+set ward base magic +5
 
 set elbert item 0 Longsword 101
 set elbert item 1 Aspis 101
@@ -234,7 +233,8 @@ set elbert item 2 Bag 0
 set elbert item 3 Bag 0
 set elbert item 4 Bag 0
 set elbert item 5 Bag 0
-set elbert item 6 GaleShield 101
+//set elbert item 6 GaleShield 101
+set elbert item 6 Bag 0
 set elbert item 7 Bag 0
 set elbert growth hp 30
 set elbert growth strength 40
@@ -290,19 +290,20 @@ set christine growth speed 40
 set christine growth bow 100
 set christine growth crossbow 100
 set christine base hp +2
-set christine base strength +3
-set christine base defense +1
-set christine base speed +4
-set christine base magic +2
+set christine base strength +1
+set christine base defense +2
+set christine base speed +5
+set christine base magic +3
 set christine base bow +30
 set christine base crossbow +30
 set christine base sword +40
 
 set adel item 0 IronSpear 101
 set adel item 1 Buckler 101
-set adel item 2 FireShield 101
+//set adel item 2 FireShield 101
+set adel item 2 Bag 0
 set adel item 3 Bag 0
-set adel item 4 GoreFork 101
+set adel item 4 Bag 0
 set adel item 5 IronLance 101
 set adel item 6 Bag 0
 set adel item 7 Oxtongue 101
@@ -324,11 +325,12 @@ set adel base magic +2
 
 set leon item 0 IronSpear 101
 set leon item 1 Buckler 101
-set leon item 2 ThunderShield 101
+//set leon item 2 ThunderShield 101
+set leon item 2 Bag 0
 set leon item 3 IronLance 101
 set leon item 4 Bag 0
 set leon item 5 Bag 0
-set leon item 6 GoreFork 101
+set leon item 6 Bag 0
 set leon item 7 Oxtongue 101
 set leon base sshield +20
 set leon base spear +30
@@ -385,7 +387,8 @@ set czene item 3 ThiefsCharm 0
 set czene item 4 Bag 0
 set czene item 5 Bag 0
 set czene item 6 Bag 0
-set czene item 7 DuskCharm 0
+//set czene item 7 DuskCharm 0
+set czene item 7 Bag 0
 set czene growth knife 100
 set czene growth hp 25
 set czene growth strength 30
@@ -417,17 +420,18 @@ set aegina base speed +3
 set aegina base fire +40
 set aegina base wind +40
 
-set daoud growth hp 10
-set daoud growth strength 20
-set daoud growth defense 20
-set daoud growth magic 10
-set daoud growth speed 30
+set daoud growth hp 30
+set daoud growth strength 10
+set daoud growth defense 30
+set daoud growth speed 10
+set daoud growth magic 5
 set daoud growth axe 100
 set daoud growth sshield 100
 set daoud growth mshield 100
 set Daoud item 0 Broadaxe 101
 set Daoud item 1 Bag 0
-set Daoud item 2 ShadowShield 101
+//set Daoud item 2 ShadowShield 101
+set Daoud item 2 Bag 0
 set Daoud item 3 Bag 0
 set Daoud item 4 Bag 0
 set Daoud item 5 Bag 0
@@ -444,7 +448,8 @@ set enid base thunder +40
 set Enid item 1 Bag 0
 set Enid item 2 Bag 0
 set Enid item 3 Earthblaze 18
-set Enid item 4 FireRing 0
+//set Enid item 4 FireRing 0
+set Enid item 4 Bag 0
 set Enid item 5 Bag 0
 set Enid item 6 Bag 0
 set Enid item 7 Fire 20
@@ -478,20 +483,23 @@ set Marcel item 1 LeatherLShd 101
 set Marcel item 2 Bag 0
 set Marcel item 3 Bag 0
 set Marcel item 4 Bag 0
-set Marcel item 5 KojinShield 101
-set Marcel item 6 FujinShield 101
+//set Marcel item 5 KojinShield 101
+set Marcel item 5 Bag 0
+//set Marcel item 6 FujinShield 101
+set Marcel item 6 Bag 0
 set Marcel item 7 Bag 0
 set Marcel base sword +20
 set Marcel base lshield +20
-set Marcel base hp +5
+set Marcel base hp +9
 set Marcel base strength +2
 set Marcel base defense +2
-set Marcel base speed +4
+set Marcel base speed +0
 set Marcel base magic +5
 
 set alvina item 4 LadyMShd 101
 set alvina item 5 Bag 0
-set alvina item 6 LightningShield 101
+//set alvina item 6 LightningShield 101
+set alvina item 6 Bag 0
 set alvina item 7 Bag 0
 set alvina growth sword 100
 set alvina growth spear 100
@@ -513,11 +521,11 @@ set alvina base defense +0
 set alvina base speed +3
 set alvina base magic +1
 
-set ruby item 1 Bag 0
+set ruby item 1 LadySword 101
 set ruby item 2 LadyShield 101
 set ruby item 3 LadyMShd 101
-set ruby item 4 LadySword 101
-set ruby item 5 Pilum 20
+set ruby item 4 Pilum 20
+set ruby item 5 Bag 0
 set ruby item 6 Bag 0
 set ruby item 7 Bag 0
 set ruby growth sword 100
@@ -550,10 +558,12 @@ set ruby base magic +2
 
 set arthur item 0 Longsword 101
 set arthur item 1 LeatherMShd 101
-set arthur item 2 BlazingShield 101
+//set arthur item 2 BlazingShield 101
+set arthur item 2 Bag 0
 set arthur item 3 Bag 0
 set arthur item 4 Bag 0
-set arthur item 5 LightShield 101
+//set arthur item 5 LightShield 101
+set arthur item 5 Bag 0
 set arthur item 6 Bag 0
 set arthur item 7 Bag 0
 set arthur growth sword 100
@@ -608,7 +618,7 @@ set dean base magic +2
 
 set faye item 2 GiantsBrace 0
 set faye item 3 Bag 0
-set faye item 4 LadySword 101
+set faye item 4 Bag 0
 set faye item 5 Bag 0
 set faye item 6 Bag 0
 set faye item 7 Bag 0
@@ -629,11 +639,11 @@ set faye base magic +0
 set sylvis item 0 CompositeBow 101
 set sylvis item 1 SteelArrow+ 40
 set sylvis item 2 Gastraphetes 101
-set sylvis item 3 Bag 0
+set sylvis item 3 KillerCrossbow 101
 set sylvis item 4 Bag 0
-set sylvis item 5 Apollyon 101
-set sylvis item 6 KillerCrossbow 101
-set sylvis item 7 TripleFireBow 101
+set sylvis item 5 Bag 0
+set sylvis item 6 Bag 0
+set sylvis item 7 Bag 0
 set sylvis growth bow 100
 set sylvis growth crossbow 100
 set sylvis growth hp 15
@@ -716,12 +726,12 @@ set HighHunter cap Knife 50
 set HighHunter cap Sword 40
 
 //set faramir item 0 Cutlass+ 101
-set faramir item 1 KillerBow 101
+set faramir item 1 CompositeBow 101
 set faramir item 2 SteelArrow+ 40
-set faramir item 3 Apollyon 101
-set faramir item 4 CompositeBow 101
+set faramir item 3 Bag 0
+set faramir item 4 Bag 0
 set faramir item 5 Bag 0
-set faramir item 6 MithrilArrow 20
+set faramir item 6 Bag 0
 set faramir item 7 Bag 0
 set faramir growth sword 100
 set faramir growth bow 100
@@ -739,10 +749,10 @@ set faramir base speed +0
 set faramir base magic +1
 
 set volo item 1 Albatross 101
-set volo item 2 LevinSword 101
-set volo item 3 MithrilSword 101
+set volo item 2 Bag 0
+set volo item 3 Bag 0
 set volo item 4 Bag 0
-set volo item 5 BastardSword 101
+set volo item 5 Bag 0
 set volo item 6 PhoenixBrace 0
 set volo item 7 MiracleCharm 0
 set volo growth sword 100
@@ -761,11 +771,11 @@ set volo base magic +2
 
 //set sherpa growth sword 90
 set Sherpa item 1 Longsword 101
-set Sherpa item 2 Bag 0
+set Sherpa item 2 Zanbato 101
 set Sherpa item 3 Bag 0
 set Sherpa item 4 Bag 0
-set Sherpa item 5 FlameSword 101
-set Sherpa item 6 Zanbato 101
+set Sherpa item 5 Bag 0
+set Sherpa item 6 Bag 0
 set Sherpa item 7 Bag 0
 set Sherpa growth sword 100
 set Sherpa growth hp 30
@@ -780,10 +790,10 @@ set Sherpa base defense +0
 set Sherpa base speed +1
 set Sherpa base magic +3
 
-set clifford item 3 Javelin 20
-set clifford item 4 GreatLance 101
+set clifford item 3 Bag 0
+set clifford item 4 Bag 0
 set clifford item 5 Bag 0
-set clifford item 6 MithrilSpear 101
+set clifford item 6 Bag 0
 set clifford item 7 Bag 0
 set clifford growth sword 100
 set clifford growth spear 100
@@ -798,15 +808,15 @@ set clifford base sword +25
 set clifford base spear +25
 set clifford base sshield +20
 set clifford base mshield +20
-set clifford base hp +4
-set clifford base strength +2
+set clifford base hp +1
+set clifford base strength +0
 set clifford base defense +0
-set clifford base speed +2
+set clifford base speed +0
 set clifford base magic +5
 
 set axel item 0 Bag 0
-set axel item 1 KillerAxe 101
-set axel item 2 Repairstone 10
+set axel item 1 Bag 0
+set axel item 2 Bag 0
 set axel item 3 Bag 0
 set axel item 4 Bag 0
 set axel item 5 ThiefsCharm 0
@@ -828,7 +838,7 @@ set axel base magic +2
 
 
 // Since I can't increase larentia stat on wyvern, I gave her basic horse bonus stat.
-set larentia item 2 PrototypeSpear 101
+set larentia item 2 Bag 0
 set larentia item 3 Bag 0
 set larentia item 4 Bag 0
 set larentia item 5 Bag 0
@@ -884,8 +894,8 @@ set burroughs item 2 Scorpio 101
 set burroughs item 3 KisharsWrath 20
 set burroughs item 4 New-TypeBolt 20
 set burroughs item 5 Tumahann 10
-set burroughs item 6 MithrilArrow 20
-set burroughs item 7 Wormwood 10
+set burroughs item 6 Bag 0
+set burroughs item 7 Bag 0
 set burroughs growth crossbow 100
 set burroughs growth hp 30
 set burroughs growth strength 40
@@ -905,8 +915,10 @@ set Derrick item 0 IronAxe 101
 set Derrick item 1 LeatherLShd 101
 set Derrick item 2 Bag 0
 set Derrick item 3 Bag 0
-set Derrick item 4 RaijinShield 101
-set Derrick item 5 AmaterasuShield 101
+//set Derrick item 4 RaijinShield 101
+set Derrick item 4 Bag 0
+//set Derrick item 5 AmaterasuShield 101
+set Derrick item 5 Bag 0
 set Derrick item 6 Bag 0
 set Derrick item 7 Bag 0
 set Derrick base axe +30
@@ -919,7 +931,8 @@ set Derrick base magic +6
 
 set saphira item 1 Bag 0
 set saphira item 2 Bag 0
-set saphira item 3 LightRing 0
+//set saphira item 3 LightRing 0
+set saphira item 3 Bag 0
 set saphira item 4 Bag 0
 set saphira item 5 Bag 0
 set saphira item 6 Bag 0
@@ -960,12 +973,13 @@ set lynette base mind +4
 
 //set paramythis item 0 HolySword 101
 set paramythis item 1 Bag 0
-set paramythis item 2 PeerlessBrace 0
+//set paramythis item 2 PeerlessBrace 0
+set paramythis item 2 Bag 0
 set paramythis item 3 Bag 0
 set paramythis item 4 Bag 0
-set paramythis item 5 Wormwood 10
+set paramythis item 5 Bag 0
 set paramythis item 6 Bag 0
-set paramythis item 7 GeneralShield 101
+set paramythis item 7 Bag 0
 set paramythis growth sword 100
 set paramythis growth holy 100
 set paramythis growth hp 10
@@ -986,8 +1000,8 @@ set reese skill horselover
 set reese skill horseswap 
 set reese skill hurry
 set reese skill mercy
-set reese skill robust2
-set reese skill robust
+unset set reese skill robust2
+unset set reese skill robust
 set reese skill paragon
 set reese skill Prepared
 set reese skill robbery
@@ -1007,20 +1021,20 @@ set ward skill hurry
 set ward skill mercy
 set ward skill prepared
 set ward skill provoke
-set ward skill robust2
-set ward skill robust
+unset ward skill robust2
+unset ward skill robust
 set ward skill maim
 set ward skill robbery
 set ward skill hide
 unset ward skill shieldfaire
 set ward skill desperation
-set ward skill armsthrift
+//set ward skill armsthrift
 set ward skill throw
 //set ward skill counter
 set ward skill Windsweep
 set ward skill sunder
 
-set elbert skill arrowbane
+unset elbert skill arrowbane
 set elbert skill canto
 set elbert skill flourish
 set elbert skill guard 
@@ -1043,7 +1057,7 @@ set elbert skill Windsweep
 set elbert skill sunder
 
 set christine skill aim
-set christine skill armsthrift
+unset christine skill armsthrift
 set christine skill canto
 set christine skill deadeye 
 set christine skill flourish
@@ -1060,7 +1074,7 @@ set christine skill huntsman
 set christine skill hide
 set christine skill onetwo
 set christine skill robbery
-set christine skill fortune
+//set christine skill fortune
 set christine skill pursuit
 set christine skill vantage
 set christine skill adept
@@ -1090,8 +1104,6 @@ set adel skill vantage
 set adel skill prepared 
 set adel skill desperation
 set adel skill maim
-set adel skill robust2
-set adel skill robust
 set adel skill robbery
 set adel skill hide
 set adel skill windsweep
@@ -1115,8 +1127,8 @@ set leon skill lance
 set leon skill mercy
 set leon skill pitchfork
 set leon skill prepared
-set leon skill robust2
-set leon skill robust
+unset leon skill robust
+unset leon skill robust2
 set leon skill supporter
 set leon skill throw 
 set leon skill maim
@@ -1227,8 +1239,8 @@ set daoud skill hurry
 set daoud skill mercy
 set daoud skill prepared
 set daoud skill pulverize
-set daoud skill robust2
-set daoud skill robust
+unset daoud skill robust2
+unset daoud skill robust
 set daoud skill throw
 set daoud skill desperation
 set daoud skill maim
@@ -1287,7 +1299,7 @@ set aegina skill adept
 set aegina skill Windsweep
 set aegina skill sunder
 set aegina skill desperation
-set aegina skill resistor
+//set aegina skill resistor
 set aegina skill onetwo
 set aegina skill critical
 set aegina skill counter
@@ -1311,7 +1323,7 @@ set perceval skill focuschant
 set perceval skill Windsweep
 set perceval skill sunder
 set perceval skill desperation
-set perceval skill resistor
+//set perceval skill resistor
 set perceval skill onetwo
 set perceval skill critical
 set perceval skill counter
@@ -1325,19 +1337,19 @@ set marcel skill mercy
 unset marcel skill shieldfaire
 set marcel skill prepared
 set marcel skill desperation
-set marcel skill robust2
-set marcel skill robust
+unset marcel skill robust2
+unset marcel skill robust
 set marcel skill maim
 set marcel skill robbery
 set marcel skill pulverize
 set marcel skill hide
 set marcel skill battlecry
-set marcel skill armsthrift
+unset marcel skill armsthrift
 set marcel skill adept
 set marcel skill Windsweep
 set marcel skill sunder
 set marcel skill provoke
-set marcel skill protector
+//set marcel skill protector
 
 set alvina skill adept
 set alvina skill canto
@@ -1382,7 +1394,7 @@ set ruby skill windsweep
 set ruby skill sunder
 set ruby skill critical
 
-set arthur skill armsthrift
+unset arthur skill armsthrift
 set arthur skill canto
 set arthur skill counter 
 set arthur skill desperation
@@ -1415,8 +1427,6 @@ set kramer skill mercy
 set kramer skill pulverize 
 set kramer skill prepared
 set kramer skill desperation
-set kramer skill robust2
-set kramer skill robust
 set kramer skill maim
 set kramer skill robbery
 set kramer skill hide
@@ -1441,8 +1451,8 @@ set sherpa skill guard
 set sherpa skill hurry
 set sherpa skill mercy
 set sherpa skill pulverize
-set sherpa skill robust2
-set sherpa skill robust
+unset sherpa skill robust
+unset sherpa skill robust2
 set sherpa skill windsweep
 set sherpa skill blade
 set sherpa skill Prepared
@@ -1476,8 +1486,6 @@ set dean skill prepared
 set dean skill vengeful
 set dean skill throw
 set dean skill hide
-set dean skill robust2
-set dean skill robust
 set dean skill maim
 set dean skill robbery
 set dean skill pulverize
@@ -1662,6 +1670,8 @@ set faramir skill locktouch
 set faramir skill mug
 set faramir skill mug2
 set faramir skill steal
+unset faramir skill robust2
+unset faramir skill robust
 
 set volo skill adept
 set volo skill blade
@@ -1738,8 +1748,6 @@ set axel skill climber
 set axel skill throw
 set axel skill battlecry
 set axel skill desperation
-set axel skill robust2
-set axel skill robust
 set axel skill maim
 set axel skill watchful
 set axel skill vengeful
@@ -1793,7 +1801,9 @@ set owen skill fortune
 set owen skill focuschant
 set owen skill Windsweep
 set owen skill sunder
-set owen skill resistor
+//set owen skill resistor
+unset owen skill robust
+unset owen skill robust2
 
 set burroughs skill armsthrift
 set burroughs skill battlecry
@@ -1806,9 +1816,9 @@ set burroughs skill paragon
 set burroughs skill Prepared
 set burroughs skill maim
 set burroughs skill hide
-set burroughs skill fortune
+//set burroughs skill fortune
 //set burroughs skill sunder
-set burroughs skill magicbane
+//unset burroughs skill magicbane
 set burroughs skill watchful
 
 set derrick skill axeguard
@@ -1821,21 +1831,19 @@ set derrick skill prepared
 set derrick skill throw
 set derrick skill desperation
 set derrick skill paragon
-set derrick skill robust2
-set derrick skill robust
 set derrick skill maim
 //set derrick skill shieldfaire
 set derrick skill robbery
 set derrick skill pulverize
 set derrick skill hide
 set derrick skill battlecry
-set derrick skill armsthrift
+unset derrick skill armsthrift
 set derrick skill adept
 set derrick skill Windsweep
 set derrick skill sunder
 set derrick skill provoke
 set derrick skill counter
-set derrick skill protector
+//set derrick skill protector
 
 set saphira skill blessing
 set saphira skill canto
@@ -1860,6 +1868,8 @@ set saphira skill fortune
 set saphira skill Windsweep
 set saphira skill sunder
 set saphira skill critical
+unset saphira skill robust2
+unset saphira skill robust
 
 set lynette skill aim
 set lynette skill canto
@@ -1887,8 +1897,8 @@ set lynette skill adept
 set lynette skill Windsweep
 set lynette skill sunder
 set lynette skill desperation
-set lynette skill magicbane
-set lynette skill resistor
+unset lynette skill magicbane
+//set lynette skill resistor
 set lynette skill parry
 set lynette skill critical
 set lynette skill counter
@@ -1911,12 +1921,12 @@ set paramythis skill versatile
 set paramythis skill Prepared
 set paramythis skill miracle
 set paramythis skill maim
-set paramythis skill resistor
+//set paramythis skill resistor
 set paramythis skill robbery
 set paramythis skill hide
 set paramythis skill watchful
 set paramythis skill desperation
-set paramythis skill fortune
+//set paramythis skill fortune
 set paramythis skill charisma
 set paramythis skill adept
 set paramythis skill Windsweep
@@ -1925,6 +1935,8 @@ set paramythis skill parry
 set paramythis skill counter
 set paramythis skill knockaway
 set paramythis skill critical
+unset paramythis skill robust
+unset paramythis skill robust2
 
 // Unbreakable To all weapon
 //set dagger effect unbreakable
@@ -3663,27 +3675,17 @@ set Apeiron stat Weight 8
 set Apeiron stat accuracy 50
 set Apeiron stat cost 5000
 set Apeiron stat crit 0
-set Apeiron stat dark_res 10
 set Apeiron stat durability B
-set Apeiron stat fire_res 10
-set Apeiron stat holy_res 10
 set Apeiron stat level 1
 set Apeiron stat max-range 3
 set Apeiron stat might 11
-set Apeiron stat thunder_res 10
-set Apeiron stat wind_res 10
 set Apollyon stat Weight 5
 set Apollyon stat accuracy 60
 set Apollyon stat cost 3800
 set Apollyon stat crit 0
-set Apollyon stat dark_res 10
 set Apollyon stat durability A
-set Apollyon stat fire_res 10
-set Apollyon stat holy_res 10
 set Apollyon stat max-range 2
 set Apollyon stat might 5
-set Apollyon stat thunder_res 10
-set Apollyon stat wind_res 10
 set BodkinArrow stat accuracy 10
 set BodkinArrow stat might 3
 set BreakerArrow effect disarm-rate 100
@@ -3701,21 +3703,11 @@ set BronzeBow stat Weight 6
 set BronzeBow stat accuracy 50
 set BronzeBow stat cost 680
 set BronzeBow stat crit 0
-set BronzeBow stat dark_res 10
 set BronzeBow stat durability E
-set BronzeBow stat fire_res 10
-set BronzeBow stat holy_res 10
 set BronzeBow stat might 3
-set BronzeBow stat thunder_res 10
-set BronzeBow stat wind_res 10
 set CompositeBow stat Weight 8
 set CompositeBow stat crit 0
-set CompositeBow stat dark_res 10
-set CompositeBow stat fire_res 10
-set CompositeBow stat holy_res 10
 set CompositeBow stat level 8
-set CompositeBow stat thunder_res 10
-set CompositeBow stat wind_res 10
 set EmberArrow effect cripple-rate 12
 set EmberArrow effect fire-damage 20
 set EmberArrow stat accuracy 10
@@ -3731,13 +3723,8 @@ set Greatbow stat durability B
 set Greatbow stat accuracy 40
 set Greatbow stat cost 3500
 set Greatbow stat crit 0
-set Greatbow stat dark_res 10
-set Greatbow stat fire_res 10
-set Greatbow stat holy_res 10
 set Greatbow stat level 16
 set Greatbow stat max-range 3
-set Greatbow stat thunder_res 10
-set Greatbow stat wind_res 10
 set ImperialArrow stat accuracy 10
 set ImperialArrow stat cost 800
 set ImperialArrow stat might 8
@@ -3747,26 +3734,16 @@ set ImperialBow stat Weight 7
 set ImperialBow stat accuracy 50
 set ImperialBow stat cost 800
 set ImperialBow stat crit 0
-set ImperialBow stat dark_res 10
 set ImperialBow stat durability E
-set ImperialBow stat fire_res 10
-set ImperialBow stat holy_res 10
 set ImperialBow stat might 5
-set ImperialBow stat thunder_res 10
-set ImperialBow stat wind_res 10
 set IronArrow stat accuracy 10
 set IronArrow stat cost 800
 set IronArrow+ stat cost 800
 set IronBow stat Weight 6
 set IronBow stat cost 827
 set IronBow stat crit 0
-set IronBow stat dark_res 10
 set IronBow stat durability C
-set IronBow stat fire_res 10
-set IronBow stat holy_res 10
 set IronBow stat might 3
-set IronBow stat thunder_res 10
-set IronBow stat wind_res 10
 set KillerArrow stat accuracy 10
 set KillerArrow stat crit 30
 set KillerArrow stat might 7
@@ -3776,35 +3753,20 @@ set KillerBow stat accuracy 50
 set KillerBow stat cost 3500
 set KillerBow stat crit 30
 set KillerBow stat level 7
-set KillerBow stat dark_res 10
-set KillerBow stat fire_res 10
-set KillerBow stat holy_res 10
 set KillerBow stat level 7
 set KillerBow stat might 5
-set KillerBow stat thunder_res 10
-set KillerBow stat wind_res 10
 set Longbow stat Weight 7
 set Longbow stat crit 0
-set Longbow stat dark_res 10
 set Longbow stat durability C
-set Longbow stat fire_res 10
-set Longbow stat holy_res 10
 set Longbow stat level 4
-set Longbow stat thunder_res 10
-set Longbow stat wind_res 10
 set MithrilArrow stat accuracy 10
 set MithrilArrow stat cost 1400
 set OldImperialBow stat Weight 8
 set OldImperialBow stat accuracy 40
 set OldImperialBow stat cost 400
 set OldImperialBow stat crit 0
-set OldImperialBow stat dark_res 10
 set OldImperialBow stat durability F
-set OldImperialBow stat fire_res 10
-set OldImperialBow stat holy_res 10
 set OldImperialBow stat might 3
-set OldImperialBow stat thunder_res 10
-set OldImperialBow stat wind_res 10
 set Pascanion effect cripple-rate 16
 set Pascanion effect fire-damage 25
 set Pascanion stat Weight 11
@@ -3812,13 +3774,8 @@ set Pascanion stat accuracy 50
 set Pascanion stat avoid 0
 set Pascanion stat cost 5600
 set Pascanion stat crit 0
-set Pascanion stat dark_res 10
 set Pascanion stat defense 0
-set Pascanion stat fire_res 10
-set Pascanion stat holy_res 10
 set Pascanion stat max-range 3
-set Pascanion stat thunder_res 10
-set Pascanion stat wind_res 10
 set Pascanion2 effect cripple-rate 16
 set Pascanion2 effect fire-damage 25
 set Pascanion2 stat Weight 11
@@ -3826,13 +3783,8 @@ set Pascanion2 stat accuracy 50
 set Pascanion2 stat avoid 0
 set Pascanion2 stat cost 5600
 set Pascanion2 stat crit 0
-set Pascanion2 stat dark_res 10
 set Pascanion2 stat defense 0
-set Pascanion2 stat fire_res 10
-set Pascanion2 stat holy_res 10
 set Pascanion2 stat max-range 3
-set Pascanion2 stat thunder_res 10
-set Pascanion2 stat wind_res 10
 set PoisonArrow stat accuracy 10
 set PoisonArrow stat might 8
 set RaijinArrow effect cripple-rate 16
@@ -3845,36 +3797,21 @@ set Rossweisse stat Weight 8
 set Rossweisse stat accuracy 50
 set Rossweisse stat cost 4600
 set Rossweisse stat crit 0
-set Rossweisse stat dark_res 10
 set Rossweisse stat defense 0
-set Rossweisse stat fire_res 10
-set Rossweisse stat holy_res 10
 set Rossweisse stat magic 0
 set Rossweisse stat max-range 3
-set Rossweisse stat thunder_res 10
-set Rossweisse stat wind_res 10
 set SereniaBow stat Weight 8
 set SereniaBow stat might 11
 set SereniaBow stat accuracy 50
 set SereniaBow stat cost 4600
 set SereniaBow stat crit 0
-set SereniaBow stat dark_res 10
 set SereniaBow stat durability B
-set SereniaBow stat fire_res 10
-set SereniaBow stat holy_res 10
 set SereniaBow stat might 10
-set SereniaBow stat thunder_res 10
-set SereniaBow stat wind_res 10
 set ShortBow stat Weight 12
 set ShortBow stat accuracy 30
 set ShortBow stat cost 1000
 set ShortBow stat crit 0
-set ShortBow stat dark_res 10
-set ShortBow stat fire_res 10
-set ShortBow stat holy_res 10
 set ShortBow stat might 5
-set ShortBow stat thunder_res 10
-set ShortBow stat wind_res 10
 set Shortbow effect injure-rate 100
 set Shortbow stat durability F
 set SleepArrow stat accuracy 10
@@ -3889,47 +3826,27 @@ set Strongbow stat Weight 9
 set Strongbow stat cost 3000
 set Strongbow stat accuracy 50
 set Strongbow stat crit 0
-set Strongbow stat dark_res 10
-set Strongbow stat fire_res 10
-set Strongbow stat holy_res 10
 set Strongbow stat level 12
-set Strongbow stat thunder_res 10
-set Strongbow stat wind_res 10
 set SwiftBow stat Weight 6
 set SwiftBow stat accuracy 50
 set SwiftBow stat rounds 0
 set SwiftBow effect x2
 set SwiftBow stat cost 1000
 set SwiftBow stat crit 0
-set SwiftBow stat dark_res 10
 set SwiftBow stat durability D
-set SwiftBow stat fire_res 10
-set SwiftBow stat holy_res 10
 set SwiftBow stat might 1
-set SwiftBow stat thunder_res 10
-set SwiftBow stat wind_res 10
 set TripleFireBow stat Weight 7
 set TripleFireBow stat accuracy 50
 set TripleFireBow stat cost 1000
 set TripleFireBow stat crit 0
-set TripleFireBow stat dark_res 10
 set TripleFireBow stat durability D
-set TripleFireBow stat fire_res 10
-set TripleFireBow stat holy_res 10
 set TripleFireBow stat might 1
-set TripleFireBow stat thunder_res 10
-set TripleFireBow stat wind_res 10
 set VerianBow stat Weight 7
 set VerianBow stat accuracy 50
 set VerianBow stat cost 800
 set VerianBow stat crit 0
-set VerianBow stat dark_res 10
 set VerianBow stat durability E
-set VerianBow stat fire_res 10
-set VerianBow stat holy_res 10
 set VerianBow stat might 5
-set VerianBow stat thunder_res 10
-set VerianBow stat wind_res 10
 set WoodenArrow stat accuracy 10
 set WoodenArrow stat cost 100
 set WoodenArrow stat might 1
@@ -3939,191 +3856,121 @@ set WoodenArrow stat might 1
 set Arbalest stat accuracy 60
 set Arbalest stat cost 3000
 set Arbalest stat crit 0
-set Arbalest stat dark_res 10
 set Arbalest stat durability C
-set Arbalest stat fire_res 10
-set Arbalest stat holy_res 10
 set Arbalest stat level 16
 set Arbalest stat max-range 3
 set Arbalest stat might 33
 set Arbalest stat min-range 1
-set Arbalest stat thunder_res 10
 set Arbalest stat weight 15
-set Arbalest stat wind_res 10
 set Bowgun effect injure-rate 100
 set Bowgun stat accuracy 50
 set Bowgun stat cost 1000
-set Bowgun stat dark_res 10
 set Bowgun stat durability F
-set Bowgun stat fire_res 10
-set Bowgun stat holy_res 10
 set Bowgun stat max-range 2
 set Bowgun stat might 15
 set Bowgun stat min-range 1
-set Bowgun stat thunder_res 10
 set Bowgun stat weight 17
-set Bowgun stat wind_res 10
 set BraveCrossbow stat accuracy 70
 set BraveCrossbow stat durability B
 set BraveCrossbow stat cost 3420
 set BraveCrossbow stat crit 0
-set BraveCrossbow stat dark_res 10
-set BraveCrossbow stat fire_res 10
-set BraveCrossbow stat holy_res 10
 set BraveCrossbow stat level 8
 set BraveCrossbow stat max-range 2
 set BraveCrossbow stat might 18
 set BraveCrossbow stat min-range 1
-set BraveCrossbow stat thunder_res 10
 set BraveCrossbow stat weight 14
-set BraveCrossbow stat wind_res 10
 set Chu-ko-nu stat accuracy 70
 set Chu-ko-nu stat cost 4000
 set Chu-ko-nu stat crit 0
-set Chu-ko-nu stat dark_res 10
-set Chu-ko-nu stat fire_res 10
-set Chu-ko-nu stat holy_res 10
 set Chu-ko-nu stat level 12
 set Chu-ko-nu stat max-range 2
 set Chu-ko-nu stat might 12
 set Chu-ko-nu stat min-range 1
-set Chu-ko-nu stat thunder_res 10
 set Chu-ko-nu stat weight 16
-set Chu-ko-nu stat wind_res 10
 set Gastraphetes stat accuracy 70
 set Gastraphetes stat cost 2000
 set Gastraphetes stat crit 0
-set Gastraphetes stat dark_res 10
-set Gastraphetes stat fire_res 10
-set Gastraphetes stat holy_res 10
 set Gastraphetes stat level 8
 set Gastraphetes stat max-range 2
 set Gastraphetes stat might 21
 set Gastraphetes stat min-range 1
-set Gastraphetes stat thunder_res 10
 set Gastraphetes stat weight 13
-set Gastraphetes stat wind_res 10
 set Hawkeye stat accuracy 70
 set Hawkeye stat cost 5000
 set Hawkeye stat durability B
 set Hawkeye stat crit 0
-set Hawkeye stat dark_res 10
 set Hawkeye stat durability B
-set Hawkeye stat fire_res 10
-set Hawkeye stat holy_res 10
 set Hawkeye stat max-range 3
 set Hawkeye stat might 33
 set Hawkeye stat min-range 1
-set Hawkeye stat thunder_res 10
 set Hawkeye stat weight 13
-set Hawkeye stat wind_res 10
 set HeavyCrossbow stat accuracy 70
 set HeavyCrossbow stat cost 2600
 set HeavyCrossbow stat crit 0
-set HeavyCrossbow stat dark_res 10
 set HeavyCrossbow stat durability B
-set HeavyCrossbow stat fire_res 10
-set HeavyCrossbow stat holy_res 10
 set HeavyCrossbow stat level 12
 set HeavyCrossbow stat max-range 2
 set HeavyCrossbow stat might 27
 set HeavyCrossbow stat min-range 1
-set HeavyCrossbow stat thunder_res 10
 set HeavyCrossbow stat weight 14
-set HeavyCrossbow stat wind_res 10
 set ImperialCrossbow stat accuracy 70
 set ImperialCrossbow stat cost 950
 set ImperialCrossbow stat crit 0
-set ImperialCrossbow stat dark_res 10
 set ImperialCrossbow stat durability E
-set ImperialCrossbow stat fire_res 10
-set ImperialCrossbow stat holy_res 10
 set ImperialCrossbow stat max-range 2
 set ImperialCrossbow stat might 15
 set ImperialCrossbow stat min-range 1
-set ImperialCrossbow stat thunder_res 10
 set ImperialCrossbow stat weight 12
-set ImperialCrossbow stat wind_res 10
 set IronCrossbow stat accuracy 70
 set IronCrossbow stat cost 1450
 set IronCrossbow stat crit 0
-set IronCrossbow stat dark_res 10
-set IronCrossbow stat fire_res 10
-set IronCrossbow stat holy_res 10
 set IronCrossbow stat max-range 2
 set IronCrossbow stat might 15
 set IronCrossbow stat min-range 1
-set IronCrossbow stat thunder_res 10
 set IronCrossbow stat weight 12
-set IronCrossbow stat wind_res 10
 set KillerCrossbow stat accuracy 70
 set KillerCrossbow stat cost 2600
 set KillerCrossbow stat crit 80
-set KillerCrossbow stat dark_res 10
 set KillerCrossbow stat durability C
-set KillerCrossbow stat fire_res 10
-set KillerCrossbow stat holy_res 10
 set KillerCrossbow stat level 7
 set KillerCrossbow stat max-range 2
 set KillerCrossbow stat might 15
 set KillerCrossbow stat min-range 1
-set KillerCrossbow stat thunder_res 10
 set KillerCrossbow stat weight 14
-set KillerCrossbow stat wind_res 10
 set OldImperialCrossbow stat accuracy 60
 set OldImperialCrossbow stat cost 475
 set OldImperialCrossbow stat crit 0
-set OldImperialCrossbow stat dark_res 10
 set OldImperialCrossbow stat durability F
-set OldImperialCrossbow stat fire_res 10
-set OldImperialCrossbow stat holy_res 10
 set OldImperialCrossbow stat max-range 2
 set OldImperialCrossbow stat might 9
 set OldImperialCrossbow stat min-range 1
-set OldImperialCrossbow stat thunder_res 10
 set OldImperialCrossbow stat weight 13
-set OldImperialCrossbow stat wind_res 10
 set Ollerus stat accuracy 70
 set Ollerus stat cost 5000
 set Ollerus stat crit 0
-set Ollerus stat dark_res 10
 set Ollerus stat durability B
-set Ollerus stat fire_res 10
-set Ollerus stat holy_res 10
 set Ollerus stat level 15
 set Ollerus stat max-range 3
 set Ollerus stat might 13
 set Ollerus stat min-range 1
-set Ollerus stat thunder_res 10
 set Ollerus stat weight 12
-set Ollerus stat wind_res 10
 set RapidCrossbow stat accuracy 80
 set RapidCrossbow stat cost 11000
 set RapidCrossbow stat crit 0
-set RapidCrossbow stat dark_res 10
 set RapidCrossbow stat durability A
-set RapidCrossbow stat fire_res 10
-set RapidCrossbow stat holy_res 10
 set RapidCrossbow stat level 16
 set RapidCrossbow stat max-range 2
 set RapidCrossbow stat might 18
 set RapidCrossbow stat min-range 1
-set RapidCrossbow stat thunder_res 10
 set RapidCrossbow stat weight 14
-set RapidCrossbow stat wind_res 10
 set VerianCrossbow stat accuracy 70
 set VerianCrossbow stat cost 950
 set VerianCrossbow stat crit 0
-set VerianCrossbow stat dark_res 10
 set VerianCrossbow stat durability E
-set VerianCrossbow stat fire_res 10
-set VerianCrossbow stat holy_res 10
 set VerianCrossbow stat max-range 2
 set VerianCrossbow stat might 15
 set VerianCrossbow stat min-range 1
-set VerianCrossbow stat thunder_res 10
 set VerianCrossbow stat weight 12
-set VerianCrossbow stat wind_res 10
 
 
 // Balistae
@@ -5608,7 +5455,7 @@ set ImperialPaladin_R skill throw
 set ImperialPaladin_R skill commander
 set ImperialPaladin_R skill camouflage
 set ImperialPaladin_R skill hide
-set ImperialPaladin_R skill protector
+//set ImperialPaladin_R skill protector
 
 set ImperialPaladin base strength +5
 set ImperialPaladin base defense +5
@@ -5620,7 +5467,7 @@ set ImperialPaladin skill armsthrift
 set ImperialPaladin skill throw
 set ImperialPaladin skill camouflage
 set ImperialPaladin skill hide
-set ImperialPaladin skill protector
+//set ImperialPaladin skill protector
 
 set HighKnight_R base strength +5
 set HighKnight_R base defense +5
@@ -5676,7 +5523,7 @@ set General skill armsthrift
 set General skill commander
 set General skill camouflage
 set General skill hide
-set General skill protector
+//set General skill protector
 
 // This may be Larentia Stat too
 set WyvernKnight_R base strength +5
@@ -5756,7 +5603,7 @@ set AxeGuard skill armsthrift
 set AxeGuard skill canto
 set AxeGuard skill camouflage
 set AxeGuard skill hide
-set AxeGuard skill protector
+//set AxeGuard skill protector
 
 set Bowman base strength +5
 set Bowman base defense +5
@@ -6094,8 +5941,8 @@ set DarkMaster base speed +5
 set DarkMaster base hp +5
 set DarkMaster skill canto
 set DarkMaster skill commander
-set DarkMaster skill protector
-set DarkMaster skill resistor
+//set DarkMaster skill protector
+//set DarkMaster skill resistor
 set DarkMaster skill imbue
 //set DarkMaster skill hide
 set DarkMaster skill charisma
@@ -6112,7 +5959,7 @@ set RazeWarMonk skill canto
 set RazeWarMonk skill blessing
 set RazeWarMonk skill camouflage
 set RazeWarMonk skill versatile
-set RazeWarMonk skill resistor
+//set RazeWarMonk skill resistor
 set RazeWarMonk skill hide
 set RazeWarMonk skill watchful
 set RazeWarMonk skill armsthrift
@@ -6214,7 +6061,7 @@ set Scoundrel skill canto
 set Scoundrel skill iaido
 set Scoundrel skill camouflage
 set Scoundrel skill commander
-set Scoundrel skill protector
+//set Scoundrel skill protector
 set Scoundrel skill sunder
 //set Scoundrel skill hide
 set Scoundrel skill charisma
@@ -6233,7 +6080,7 @@ set RazeWarMonk2 skill iaido
 set RazeWarMonk2 skill camouflage
 set RazeWarMonk2 skill versatile
 set RazeWarMonk2 skill commander
-set RazeWarMonk2 skill resistor
+//set RazeWarMonk2 skill resistor
 set RazeWarMonk2 skill hide
 set RazeWarMonk2 skill charisma
 
@@ -6291,7 +6138,7 @@ set Captain skill canto
 set Captain skill iaido
 set Captain skill camouflage
 set Captain skill commander
-set Captain skill protector
+//set Captain skill protector
 set Captain skill hide
 
 set Huntress skill armsthrift
@@ -6355,7 +6202,7 @@ set BlackRider_R skill armsthrift
 set BlackRider_R skill camouflage
 set BlackRider_R skill throw
 set BlackRider_R skill hide
-set BlackRider_R skill protector
+//set BlackRider_R skill protector
 
 set BlackRider base strength +5
 set BlackRider base defense +5
@@ -6366,7 +6213,7 @@ set BlackRider skill armsthrift
 set BlackRider skill camouflage
 set BlackRider skill throw
 set BlackRider skill charisma
-set BlackRider skill protector
+//set BlackRider skill protector
 
 set GigasKnight base strength +5
 set GigasKnight base defense +5
@@ -6377,7 +6224,7 @@ set GigasKnight skill armsthrift
 set GigasKnight skill camouflage
 set GigasKnight skill canto
 set GigasKnight skill hide
-set GigasKnight skill protector
+//set GigasKnight skill protector
 
 set Transporter base strength +5
 set Transporter base defense +5
@@ -6401,7 +6248,7 @@ set Chief skill throw
 set Chief skill commander
 set Chief skill hide
 set Chief skill charisma
-set Chief skill protector
+//set Chief skill protector
 set Chief skill knockaway
 set Chief skill fortune
 set Chief skill climber
@@ -6504,18 +6351,19 @@ set Paladin_F_R skill hide
 //set Paladin_F skill vantage
 set Paladin_F skill hide
 
-set Paladin skill armsthrift
-set Paladin_M skill armsthrift
-set Paladin_M_R skill armsthrift
-set Paladin skill armsthrift
-set Paladin_R skill armsthrift
+//set Paladin skill armsthrift
+//set Paladin_M skill armsthrift
+//set Paladin_M_R skill armsthrift
+//set Paladin skill armsthrift
+//set Paladin_R skill armsthrift
 
 //Will fuck Daoud Stat on Rankup
-set AxeSergeant skill armsthrift
+//set AxeSergeant skill armsthrift
 set AxeSergeant skill canto
 set AxeSergeant skill throw
 set AxeSergeant skill hide
-set AxeSergeant skill protector
+//set AxeSergeant skill protector
+set AxeSergeant skill vengeful
 
 //Will fuck Czene Stat on rankup
 set Grassrunner_R skill camouflage
@@ -6541,7 +6389,7 @@ set Priest skill blessing
 set Priest skill camouflage
 set Priest skill canto
 set Priest skill imbue
-set Priest skill resistor
+//set Priest skill resistor
 set Priest skill miracle
 set Priest skill adept
 set Priest skill hide
@@ -6599,10 +6447,10 @@ set Swordmaster skill celerity
 set Swordmaster skill vantage
 set Swordmaster skill critical
 
-set SwordKnight_R skill armsthrift
+//set SwordKnight_R skill armsthrift
 set SwordKnight_R skill hide
 
-set SwordKnight skill armsthrift
+//set SwordKnight skill armsthrift
 set SwordKnight skill hide
 
 set Pirate skill throw
@@ -6669,15 +6517,15 @@ set Myrmidon skill critical
 //Daoud Stat
 set AxeSoldier skill throw
 set AxeSoldier skill hide
-set AxeSoldier skill protector
+//set AxeSoldier skill protector
 
 //Derrick Stat
 set ArmorKnight skill throw
 set ArmorKnight skill canto
 set ArmorKnight skill hide
-set ArmorKnight skill armsthrift
+//set ArmorKnight skill armsthrift
 set ArmorKnight skill adept
-set ArmorKnight skill protector
+//set ArmorKnight skill protector
 
 //Esteban stat
 set Hunter skill canto
@@ -6696,33 +6544,33 @@ set Mercenary skill knockaway
 set Mercenary skill fortune
 set Mercenary skill climber
 
-set Guardian skill armsthrift
+//set Guardian skill armsthrift
 set Guardian skill hide
-set Guardian skill protector
+//set Guardian skill protector
 
 set LadyKnight_R skill aim
-set LadyKnight_R skill armsthrift
+//set LadyKnight_R skill armsthrift
 set LadyKnight_R skill canto
 set LadyKnight_R skill prepared
 set LadyKnight_R skill hide
 set LadyKnight_R skill watchful
 
 set LadyKnight skill aim
-set LadyKnight skill armsthrift
+//set LadyKnight skill armsthrift
 set LadyKnight skill canto
 set LadyKnight skill prepared
 set LadyKnight skill hide
 set LadyKnight skill watchful
 
 set ArrowKnight_R skill aim
-set ArrowKnight_R skill armsthrift
+//set ArrowKnight_R skill armsthrift
 set ArrowKnight_R skill canto
 set ArrowKnight_R skill prepared
 set ArrowKnight_R skill hide
 set ArrowKnight_R skill watchful
 
 set ArrowKnight skill aim
-set ArrowKnight skill armsthrift
+//set ArrowKnight skill armsthrift
 set ArrowKnight skill canto
 set ArrowKnight skill prepared
 set ArrowKnight skill hide
@@ -6749,13 +6597,13 @@ set DukeKnight_R skill hide
 
 set FlameFencer skill maim
 set FlameFencer skill hide
-set FlameFencer skill resistor
+//set FlameFencer skill resistor
 
 set VeteranKnight_R skill hide
-set VeteranKnight_R skill armsthrift
+//set VeteranKnight_R skill armsthrift
 
 set VeteranKnight skill hide
-set VeteranKnight skill armsthrift
+//set VeteranKnight skill armsthrift
 
 //supporter to ennemy
 //set Thief_M skill supporter
@@ -8311,49 +8159,3 @@ set Arrow++ stat might 8
 // 31 is the max value for magic_res item stat. 15 is the max value for magic item stat
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
-Set LanceKnight2 Skill Deathmatch
-Set LanceKnight2_R Skill Deathmatch
-Set LanceKnight2 Skill provoke
-Set LanceKnight2_R Skill provoke
-set VeteranKnight Skill Deathmatch
-set VeteranKnight_R Skill Deathmatch
-set WindSage Skill Deathmatch
-set WindMage Skill Deathmatch
-set Paladin_M Skill Deathmatch
-set Paladin_M_R Skill Deathmatch
-set Chevalire skill Deathmatch
-set Chevalire_R skill Deathmatch
-set Berserker Skill Deathmatch
-set Sniper Skill Deathmatch
-set DukeKnight Skill Deathmatch
-set DukeKnight_R Skill Deathmatch
-set Pirate Skill Deathmatch
-set WyvernKnightLarentia Skill Deathmatch
-set WyvernKnightLarentia_R Skill Deathmatch
-set WyvernKnightLarentia Skill provoke
-set WyvernKnightLarentia_R Skill provoke
-set Hero Skill Deathmatch
-set AxeSergeant skill deathmatch
-set Highlander skill deathmatch
-set Mercenary skill deathmatch
-set Axefighter skill deathmatch
-set Axefighter skill steal
-set Berserker skill steal
-set FlameFencer skill mug
-set FlameFencer skill mug2
-set FlameFencer skill steal
-set Hero skill mug
-set Hero skill mug2
-set Hero skill steal
-set Highlander skill mug
-set Highlander skill mug2
-set Highlander skill steal
-set Swordmaster skill mug
-set Swordmaster skill mug2
-set Swordmaster skill steal
-set Swordfighter_M skill mug
-set Swordfighter_M skill mug2
-set Swordfighter_M skill steal
-set Ranger skill mug
-set Ranger skill mug2
-set Ranger skill steal
