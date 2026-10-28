@@ -1807,7 +1807,7 @@ set burroughs skill Prepared
 set burroughs skill maim
 set burroughs skill hide
 set burroughs skill fortune
-set burroughs skill sunder
+//set burroughs skill sunder
 set burroughs skill magicbane
 set burroughs skill watchful
 
@@ -6879,7 +6879,7 @@ set AxeGuard skill adept
 set Axeman skill adept
 set AxeSergeant skill adept
 set AxeSoldier skill adept
-set Ballistician skill adept
+//set Ballistician skill adept
 set Bandit skill adept
 set Barbarian skill adept
 set Berserker skill adept
@@ -7233,7 +7233,7 @@ set AxeGuard skill pursuit
 set Axeman skill pursuit
 set AxeSergeant skill pursuit
 set AxeSoldier skill pursuit
-set Ballistician skill pursuit
+//set Ballistician skill pursuit
 set Bandit skill pursuit
 set Barbarian skill pursuit
 set Berserker skill pursuit
