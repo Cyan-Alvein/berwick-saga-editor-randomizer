@@ -2653,10 +2653,10 @@ Set Tumahann stat accuracy 70
 Set KisharsWrath stat might 20
 Set KisharsWrath stat accuracy 60
 Set KisharsWrath stat uses 20
-Set Wormwood stat accuracy 50
+Set Wormwood stat accuracy 60
 Set Wormwood stat uses 10
-Set Wormwood stat might 1
-Set Wormwood stat crit 90
+Set Wormwood stat might 15
+Set Wormwood stat crit 0
 Set Sleep stat uses 5
 Set Berserk stat uses 5
 Set Berserk stat max-range 3
@@ -3008,7 +3008,7 @@ set Rapier stat Weight 7
 set Rapier stat accuracy 70
 set Rapier stat crit 0
 set Rapier stat might 5
-set Rapier stat level 2
+set Rapier stat level 7
 set RazeEtoile stat Cost 3000
 set RazeEtoile stat Durability C
 set RazeEtoile stat accuracy 60
@@ -5381,6 +5381,8 @@ set AxeSoldier cap sshield 50
 set AxeSoldier cap mshield 50
 
 set Mercenary cap Sword 60
+
+set Ballistician cap Crossbow 60
 
 set Thief_M cap Knife 60
 set Thief_F cap Knife 60
