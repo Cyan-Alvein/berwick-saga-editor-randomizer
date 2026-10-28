@@ -3,7 +3,7 @@
 //It took me more than a year to make this, fixing all bugs, testing all possibilities by replaying the patched games many times (Yeah I love this game too much), managing character balance so someone (Faye Dean Ruby Derrick...) aren't too OP
 
 // If you wanna tip me:
-// My monero address is: 473xfHS4yyyRsyv2bhSMBHUSm1VHtXDkM677oV8iMtruBjuRrN3YuXQAqEADq3THEwWoYoSZjz2D57826daXMSdXSyrCzh7
+// My monero address is: 87totSvhKggX9E14sC5dAu2Rb9X5nEEiZPCJHGUsPgLU65RjixyB7uMcxpq4ATNcM77qQa3s8QimNYHvd6uAgScwNmZG3Fo
 // If you wanna contact me:
 // Telegram Address: https://t.me/cyanalvein
 // My youtube Channel: https://www.youtube.com/@AlveinCyan
@@ -1820,6 +1820,7 @@ set burroughs skill hide
 //set burroughs skill sunder
 //unset burroughs skill magicbane
 set burroughs skill watchful
+set burroughs skill overwatch
 
 set derrick skill axeguard
 set derrick skill canto
@@ -6489,7 +6490,7 @@ set Ballistician skill armsthrift
 set Ballistician skill hide
 set Ballistician skill celerity
 set Ballistician skill watchful
-set Ballistician skill overwatch
+// set Ballistician skill overwatch - CPU isn't very smart with it
 set Ballistician skill parry
 
 // thaddy stat
