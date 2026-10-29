@@ -169,9 +169,9 @@ unset RazeMonkOwen skill limited
 
 set reese item 3 Bag 0
 set reese item 4 RoundShield 101
-set reese item 5 Bag 0
-set reese item 6 Bag 0
-set reese item 7 Bag 0
+//set reese item 5 Bag 0
+//set reese item 6 Bag 0
+//set reese item 7 Bag 0
 set reese base sword +30
 set reese base sshield +20
 set reese growth hp 30
@@ -199,13 +199,12 @@ set reese base magic +3
 
 set ward item 0 LongSpear 101
 set ward item 1 Bag 0
-//set ward item 2 RadiantShield 101 
 set ward item 2 SquareShield 101
 set ward item 3 Bag 0
 set ward item 4 Bag 0
-set ward item 5 Bag 0
-set ward item 6 Bag 0
-set ward item 7 Bag 0
+set ward item 5 RadiantShield 101 
+//set ward item 6 Bag 0
+//set ward item 7 Bag 0
 set ward growth sword 100
 set ward growth spear 100
 set ward growth mshield 50
@@ -229,12 +228,11 @@ set ward base magic +5
 
 set elbert item 0 Longsword 101
 set elbert item 1 Aspis 101
-set elbert item 2 Bag 0
-set elbert item 3 Bag 0
+set elbert item 2 Buckler 101
+set elbert item 3 Harpoon 101
 set elbert item 4 Bag 0
 set elbert item 5 Bag 0
-//set elbert item 6 GaleShield 101
-set elbert item 6 Bag 0
+set elbert item 6 GaleShield 101
 set elbert item 7 Bag 0
 set elbert growth hp 30
 set elbert growth strength 40
@@ -277,7 +275,7 @@ set ArrowKnight_R cap sword 40
 set christine item 0 IronCrossbow 101
 set christine item 1 Bag 0
 //set christine item 2 Don't Touch Bag 4 Vulnerary
-set christine item 3 Bag 0
+set christine item 3 IronCrossbow 101
 set christine item 4 IronArrow+ 40
 set christine item 5 BodkinArrow 20
 set christine item 6 Bag 0
@@ -300,10 +298,9 @@ set christine base sword +40
 
 set adel item 0 IronSpear 101
 set adel item 1 Buckler 101
-//set adel item 2 FireShield 101
-set adel item 2 Bag 0
-set adel item 3 Bag 0
-set adel item 4 Bag 0
+set adel item 2 FireShield 101
+set adel item 3 GoreFork 101
+set adel item 4 Pilum 20
 set adel item 5 IronLance 101
 set adel item 6 Bag 0
 set adel item 7 Oxtongue 101
@@ -325,11 +322,10 @@ set adel base magic +2
 
 set leon item 0 IronSpear 101
 set leon item 1 Buckler 101
-//set leon item 2 ThunderShield 101
-set leon item 2 Bag 0
+set leon item 2 ThunderShield 101
 set leon item 3 IronLance 101
-set leon item 4 Bag 0
-set leon item 5 Bag 0
+set leon item 4 Pilum 20
+set leon item 5 GoreFork 101
 set leon item 6 Bag 0
 set leon item 7 Oxtongue 101
 set leon base sshield +20
@@ -350,10 +346,10 @@ set leon base magic +3
 set sherlock item 0 IronBow 101
 set sherlock item 1 IronArrow+ 40
 set sherlock item 3 Bag 0
-set sherlock item 4 Bag 0
-set sherlock item 5 Bag 0
+set sherlock item 4 IronBow 101
+set sherlock item 5 treasure 101
 set sherlock item 6 Treasure 101
-set sherlock item 7 Bag 0
+set sherlock item 7 Longbow 101
 set sherlock growth bow 100
 set sherlock growth hp 15
 set sherlock growth strength 40
@@ -366,9 +362,9 @@ set sherlock base magic +1
 set izerna item 1 Bag 0
 set izerna item 2 BlessedBrace 0
 set izerna item 3 Mend 20
-set izerna item 4 Bag 0
+set izerna item 4 Detoxify 10
 set izerna item 5 holy 20
-set izerna item 6 Bag 0
+set izerna item 6 Physic 10
 set izerna item 7 Rehabilitate 10
 set izerna growth holy 100
 set izerna growth hp 10
@@ -384,11 +380,10 @@ set czene item 0 Dagger 101
 set czene item 1 BoltKnife 101
 set czene item 2 ThiefsKnife 101
 set czene item 3 ThiefsCharm 0
-set czene item 4 Bag 0
-set czene item 5 Bag 0
+set czene item 4 Dart 20
+set czene item 5 Vespa 101
 set czene item 6 Bag 0
-//set czene item 7 DuskCharm 0
-set czene item 7 Bag 0
+set czene item 7 DuskCharm 0
 set czene growth knife 100
 set czene growth hp 25
 set czene growth strength 30
@@ -403,12 +398,12 @@ set czene base speed +2
 set czene base magic +0
 
 set aegina item 1 Blizzard 15 
-set aegina item 2 Bag 0
+set aegina item 2 DivineBrace 0
 set aegina item 3 Bag 0
-set aegina item 4 Bag 0
-set aegina item 5 Fire 20
-set aegina item 6 Bag 0
-set aegina item 7 DivineBrace 0
+set aegina item 4 Fire 20
+set aegina item 5 Hellfire 10
+set aegina item 6 Windstorm 10
+set aegina item 7 Bag 0
 set aegina growth wind 100
 set aegina growth fire 100
 set aegina growth hp 10
@@ -429,12 +424,11 @@ set daoud growth axe 100
 set daoud growth sshield 100
 set daoud growth mshield 100
 set Daoud item 0 Broadaxe 101
-set Daoud item 1 Bag 0
-//set Daoud item 2 ShadowShield 101
-set Daoud item 2 Bag 0
-set Daoud item 3 Bag 0
-set Daoud item 4 Bag 0
-set Daoud item 5 Bag 0
+set Daoud item 1 Kiteshield 101
+set Daoud item 2 ShadowShield 101
+set Daoud item 3 Francisca 20
+set Daoud item 4 IronAxe 101
+set Daoud item 5 LeatherMShd 101
 set Daoud item 6 Bag 0
 set Daoud item 7 Bag 0
 set Daoud base axe +30
@@ -445,11 +439,10 @@ set Daoud base magic +4
 set enid base sword +40
 set enid base fire +50
 set enid base thunder +40
-set Enid item 1 Bag 0
-set Enid item 2 Bag 0
+set Enid item 1 Scimitar 101
+set Enid item 2 Shortsword 101
 set Enid item 3 Earthblaze 18
-//set Enid item 4 FireRing 0
-set Enid item 4 Bag 0
+set Enid item 4 FireRing 0
 set Enid item 5 Bag 0
 set Enid item 6 Bag 0
 set Enid item 7 Fire 20
@@ -476,17 +469,13 @@ set marcel growth defense 20
 set marcel growth magic 10
 set marcel growth speed 10
 set marcel growth magic 0
-//set Marcel item 0 VerianSword 101 lock
-//set Marcel item 1 VerianLShd 101 lock
-set Marcel item 0 Broadsword 101
-set Marcel item 1 LeatherLShd 101
-set Marcel item 2 Bag 0
-set Marcel item 3 Bag 0
+set Marcel item 0 VerianSword 101 lock
+set Marcel item 1 VerianLShd 101 lock
+set Marcel item 2 Broadsword 101
+set Marcel item 3 LeatherLShd 101
 set Marcel item 4 Bag 0
-//set Marcel item 5 KojinShield 101
-set Marcel item 5 Bag 0
-//set Marcel item 6 FujinShield 101
-set Marcel item 6 Bag 0
+set Marcel item 5 KojinShield 101
+set Marcel item 6 FujinShield 101
 set Marcel item 7 Bag 0
 set Marcel base sword +20
 set Marcel base lshield +20
@@ -498,8 +487,7 @@ set Marcel base magic +5
 
 set alvina item 4 LadyMShd 101
 set alvina item 5 Bag 0
-//set alvina item 6 LightningShield 101
-set alvina item 6 Bag 0
+set alvina item 6 LightningShield 101
 set alvina item 7 Bag 0
 set alvina growth sword 100
 set alvina growth spear 100
@@ -525,8 +513,8 @@ set ruby item 1 LadySword 101
 set ruby item 2 LadyShield 101
 set ruby item 3 LadyMShd 101
 set ruby item 4 Pilum 20
-set ruby item 5 Bag 0
-set ruby item 6 Bag 0
+set ruby item 5 IronSpear 101
+set ruby item 6 SlimSpear 101
 set ruby item 7 Bag 0
 set ruby growth sword 100
 set ruby growth spear 100
@@ -558,13 +546,11 @@ set ruby base magic +2
 
 set arthur item 0 Longsword 101
 set arthur item 1 LeatherMShd 101
-//set arthur item 2 BlazingShield 101
-set arthur item 2 Bag 0
-set arthur item 3 Bag 0
-set arthur item 4 Bag 0
-//set arthur item 5 LightShield 101
-set arthur item 5 Bag 0
-set arthur item 6 Bag 0
+set arthur item 2 BlazingShield 101
+set arthur item 3 BronzeSword 101
+set arthur item 4 Buckler 101
+set arthur item 5 LightShield 101
+set arthur item 6 Shortsword 101
 set arthur item 7 Bag 0
 set arthur growth sword 100
 set arthur growth spear 100
@@ -585,9 +571,9 @@ set arthur base speed +0
 set arthur base magic +4
 
 set kramer item 0 Longsword 101
-set kramer item 1 Bag 0
-set kramer item 2 Bag 0
-set kramer item 3 Bag 0
+set kramer item 1 Shortsword 101
+set kramer item 2 Scimitar 101
+set kramer item 3 Scimitar+ 101
 set kramer item 4 FeatherBrace 0
 set kramer item 5 MuscleBrace 0
 set kramer item 6 Bag 0
@@ -601,9 +587,9 @@ set kramer growth magic 10
 set kramer growth speed 20
 set kramer base magic +1
 
-set dean item 2 Bag 0
-set dean item 3 Bag 0
-set dean item 4 Bag 0
+set dean item 2 HandAxe 20
+set dean item 3 LogSplitter 101
+set dean item 4 BanditAxe 101
 set dean item 5 Bag 0
 set dean item 6 DawnCharm 0
 set dean item 7 GamblersBrace 0
@@ -617,9 +603,9 @@ set dean growth speed 25
 set dean base magic +2
 
 set faye item 2 GiantsBrace 0
-set faye item 3 Bag 0
-set faye item 4 Bag 0
-set faye item 5 Bag 0
+set faye item 3 Shortsword 101
+set faye item 4 Longsword 101
+set faye item 5 Scimitar 101
 set faye item 6 Bag 0
 set faye item 7 Bag 0
 set faye growth sword 100
@@ -660,8 +646,8 @@ set sylvis base bow +30
 set sylvis base crossbow +30
 
 set perceval item 1 Thunder 20
-set perceval item 2 Bag 0
-set perceval item 3 Bag 0
+set perceval item 2 AirBlade 15
+set perceval item 3 Blizzard 10
 set perceval item 4 Bag 0
 set perceval item 5 Bag 0
 set perceval item 6 TigerBrace 0
@@ -678,11 +664,11 @@ set perceval base wind +40
 set perceval base speed +2
 
 set thaddy item 2 FeatherBrace 0
-set thaddy item 3 Bag 0
-set thaddy item 4 Bag 0
+set thaddy item 3 Dart 20
+set thaddy item 4 Vespa 20
 set thaddy item 5 ThrowingKnife 101
 set thaddy item 6 stunknife 101
-set thaddy item 7 Bag 0
+set thaddy item 7 Seax 101
 set thaddy growth knife 100
 set thaddy growth hp 25
 set thaddy growth strength 40
@@ -705,12 +691,12 @@ set esteban growth magic 2
 set esteban growth speed 40
 set esteban item 0 IronBow 101
 set esteban item 1 IronArrow+ 40
-set esteban item 2 Bag 0
-set esteban item 3 Bag 0
-set esteban item 4 Bag 0
-set esteban item 5 Bag 0
-set esteban item 6 Bag 0
-set esteban item 7 Bag 0
+set esteban item 2 Dagger 101
+set esteban item 3 Vespa 101
+set esteban item 4 ThrowingKnife 101
+set esteban item 5 Seax 101
+set esteban item 6 StunKnife 101
+set esteban item 7 ThiefsKnife 101
 set esteban base knife +30
 set esteban base bow +20
 set esteban base sword +50
@@ -728,8 +714,8 @@ set HighHunter cap Sword 40
 //set faramir item 0 Cutlass+ 101
 set faramir item 1 CompositeBow 101
 set faramir item 2 SteelArrow+ 40
-set faramir item 3 Bag 0
-set faramir item 4 Bag 0
+set faramir item 3 AltiumSword 101
+set faramir item 4 Strongbow 101
 set faramir item 5 Bag 0
 set faramir item 6 Bag 0
 set faramir item 7 Bag 0
@@ -749,7 +735,7 @@ set faramir base speed +0
 set faramir base magic +1
 
 set volo item 1 Albatross 101
-set volo item 2 Bag 0
+set volo item 2 Scimitar+ 101
 set volo item 3 Bag 0
 set volo item 4 Bag 0
 set volo item 5 Bag 0
@@ -772,8 +758,8 @@ set volo base magic +2
 //set sherpa growth sword 90
 set Sherpa item 1 Longsword 101
 set Sherpa item 2 Zanbato 101
-set Sherpa item 3 Bag 0
-set Sherpa item 4 Bag 0
+set Sherpa item 3 Scimitar 101
+set Sherpa item 4 Shortsword 101
 set Sherpa item 5 Bag 0
 set Sherpa item 6 Bag 0
 set Sherpa item 7 Bag 0
@@ -790,7 +776,7 @@ set Sherpa base defense +0
 set Sherpa base speed +1
 set Sherpa base magic +3
 
-set clifford item 3 Bag 0
+set clifford item 3 Partisan 101
 set clifford item 4 Bag 0
 set clifford item 5 Bag 0
 set clifford item 6 Bag 0
@@ -814,7 +800,7 @@ set clifford base defense +0
 set clifford base speed +0
 set clifford base magic +5
 
-set axel item 0 Bag 0
+set axel item 0 HandAxe 101
 set axel item 1 Bag 0
 set axel item 2 Bag 0
 set axel item 3 Bag 0
@@ -838,11 +824,11 @@ set axel base magic +2
 
 
 // Since I can't increase larentia stat on wyvern, I gave her basic horse bonus stat.
-set larentia item 2 Bag 0
-set larentia item 3 Bag 0
-set larentia item 4 Bag 0
-set larentia item 5 Bag 0
-set larentia item 6 Bag 0
+set larentia item 2 PrototypeSpear 101
+set larentia item 3 Pilum 20
+set larentia item 4 SteelSpear 101
+set larentia item 5 Harpoon 101
+set larentia item 6 LadySword 101
 set larentia item 7 Bag 0
 set larentia growth sword 100
 set larentia growth spear 100
@@ -911,14 +897,12 @@ set derrick growth strength 30
 set derrick growth defense 20
 set derrick growth magic 10
 set derrick growth speed 10
-set Derrick item 0 IronAxe 101
-set Derrick item 1 LeatherLShd 101
-set Derrick item 2 Bag 0
-set Derrick item 3 Bag 0
-//set Derrick item 4 RaijinShield 101
-set Derrick item 4 Bag 0
-//set Derrick item 5 AmaterasuShield 101
-set Derrick item 5 Bag 0
+//set Derrick item 0 IronAxe 101
+//set Derrick item 1 LeatherLShd 101
+set Derrick item 2 HandAxe 101
+set Derrick item 3 LeatherLShd 101
+set Derrick item 4 RaijinShield 101
+set Derrick item 5 AmaterasuShield 101
 set Derrick item 6 Bag 0
 set Derrick item 7 Bag 0
 set Derrick base axe +30
@@ -929,12 +913,11 @@ set Derrick base defense +0
 set Derrick base speed +3
 set Derrick base magic +6
 
-set saphira item 1 Bag 0
-set saphira item 2 Bag 0
-//set saphira item 3 LightRing 0
-set saphira item 3 Bag 0
-set saphira item 4 Bag 0
-set saphira item 5 Bag 0
+set saphira item 1 Heal 10
+set saphira item 2 Physic 10
+set saphira item 3 LightRing 0
+set saphira item 4 Mend 10
+set saphira item 5 Holy 10
 set saphira item 6 Bag 0
 set saphira item 7 Bag 0
 set saphira growth holy 100
@@ -972,10 +955,9 @@ set lynette base speed +4
 set lynette base mind +4
 
 //set paramythis item 0 HolySword 101
-set paramythis item 1 Bag 0
-//set paramythis item 2 PeerlessBrace 0
-set paramythis item 2 Bag 0
-set paramythis item 3 Bag 0
+set paramythis item 1 Elixir 6
+set paramythis item 2 PeerlessBrace 0
+set paramythis item 3 LadySword 101
 set paramythis item 4 Bag 0
 set paramythis item 5 Bag 0
 set paramythis item 6 Bag 0
@@ -8158,5 +8140,6 @@ set Arrow++ stat might 8
 // Unbreakable item effect prevent weapon & shield from randomly break, they only break when durability reach 0, but the repairstone no longer work.
 // I made player character magic stat & growth= 1/2 def stat & growth
 // 31 is the max value for magic_res item stat. 15 is the max value for magic item stat
+// Adding too many bag will bug the bag. Your item will start dissapearing. It happened when I had 72 Bags total in game.
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
