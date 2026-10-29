@@ -2451,23 +2451,23 @@ set Scorpio stat min-range 1
 set Pascanion2 stat level 16
 set Pascanion stat level 16
 
-set Bhuj stat level 8
+set Bhuj stat level 12
 set Brymranger stat level 16
 set Zweihander stat level 16
-set Fauchard stat level 8
-set Perseid stat level 7
+set Fauchard stat level 12
+set Perseid stat level 10
 set RazeEtoile stat level 8
-set Cutlass+ stat level 8
-set Cutlass stat level 1
+set Cutlass+ stat level 12
+set Cutlass stat level 4
 set Balmung stat level 16
 set Balmung2 stat level 16
 set Balmung3 stat level 16
 set Vajra stat level 16
 set Vritra stat level 16
 set Hawkeye stat level 16
-set Harperia stat level 8
+set Harperia stat level 12
 set SereniaBow stat level 16
-set Gram stat level 8
+set Gram stat level 12
 set Nothung stat level 16
 
 // magic
@@ -2696,7 +2696,7 @@ set BloodKnife effect nosferatu
 set BloodKnife stat accuracy 30
 set BloodKnife stat cost 4000
 set BloodKnife stat crit 0
-set BloodKnife stat level 8
+set BloodKnife stat level 12
 set BloodKnife stat might 3
 set BloodKnife stat weight 7
 set Bloodknife stat durability C
@@ -2718,7 +2718,7 @@ set Carnwenhau stat weight 5
 set Crotalus stat accuracy 50
 set Crotalus stat cost 6000
 set Crotalus stat crit 0
-set Crotalus stat level 4
+set Crotalus stat level 12
 set Crotalus stat might 4
 set Crotalus stat weight 5
 set Crotalus stat durability B
@@ -2741,7 +2741,7 @@ set Kris stat accuracy 30
 set Kris stat cost 2800
 set Kris stat crit 0
 set Kris stat durability C
-set Kris stat level 10
+set Kris stat level 12
 set Kris stat might 0
 set Kris stat mind 6
 set Kris stat weight 7
@@ -2757,6 +2757,7 @@ set MainGauche stat might 0
 set MainGauche stat weight 7
 set Maingauche stat accuracy 30
 set Maingauche stat durability C
+set Maingauche stat level 12
 set PoisonKnife stat crit 0
 set PoisonKnife stat might 2
 set PoisonKnife stat accuracy 30
@@ -2772,13 +2773,14 @@ set Shieldknife stat crit 40
 set Shieldknife stat might 0
 set Shieldknife stat weight 8
 set Shieldknife stat cost 5000
+set Shieldknife stat level 12
 set SleepKnife stat crit 0
 set SleepKnife stat durability C
 set SleepKnife stat might 2
 set SleepKnife stat accuracy 20
 set StunKnife stat crit 0
 set StunKnife stat durability C
-set StunKnife stat level 8
+set StunKnife stat level 12
 set StunKnife stat might 6
 set StunKnife stat weight 8
 set Stunknife effect disarm-rate 100
@@ -2789,7 +2791,7 @@ set Swordbreaker effect sword-break 100
 set Swordbreaker stat accuracy 20
 set Swordbreaker stat cost 2800
 set Swordbreaker stat durability C
-set Swordbreaker stat level 8
+set Swordbreaker stat level 12
 set Swordbreaker stat might 6
 set Swordbreaker stat weight 8
 set TempestKnife effect cripple-rate 16
@@ -2867,10 +2869,10 @@ set Colichemarde stat Cost 7000
 set Colichemarde stat Durability C
 set Colichemarde stat accuracy 80
 set Colichemarde stat crit 0
-set Colichemarde stat level 8
+set Colichemarde stat level 12
 set Colichemarde stat might 5
 set Colichemarde stat weight 5
-set Cutlass stat Cost 4500
+set Cutlass stat Cost 4000
 set Cutlass stat rounds 0
 set Cutlass effect x2
 set Cutlass stat Durability A
@@ -2913,13 +2915,13 @@ set Grimhild stat Cost 5000
 set Grimhild stat Durability C
 set Grimhild stat accuracy 70
 set Grimhild stat crit 70
-set Grimhild stat level 15
+set Grimhild stat level 12
 set Grimhild stat weight 8
 set Grimhild stat might 8
 set Harperia stat Cost 4500
 set Harperia stat rounds 0
 set Harperia effect x2
-set Harperia stat level 8
+set Harperia stat level 12
 set Harperia stat Durability A
 set Harperia stat accuracy 70
 set Harperia stat crit 0
@@ -2956,7 +2958,7 @@ set KillingEdge stat weight 7
 set KnightSword stat Cost 4000
 //set KnightSword stat rounds 0
 //set KnightSword effect x2
-set KnightSword stat level 8
+set KnightSword stat level 12
 set KnightSword stat Durability A
 set KnightSword stat accuracy 60
 set KnightSword stat crit 0
@@ -3013,6 +3015,7 @@ set RazeEtoile stat accuracy 60
 set RazeEtoile stat crit 0
 set RazeEtoile stat might 7
 set RazeEtoile stat weight 6
+set RazeEtoile stat level 12
 set Saber stat Cost 2650
 set Saber stat level 4
 set Saber stat Durability B
@@ -3115,13 +3118,13 @@ set BastardSword stat durability C
 set BastardSword stat level 12
 set BastardSword stat might 13
 set BastardSword stat weight 11
-set Brymranger stat accuracy 60
+set Brymranger stat accuracy 50
 set Brymranger stat avoid 0
 set Brymranger stat cost 9000
 set Brymranger stat crit 0
-set Brymranger stat might 17
+set Brymranger stat might 21
 set Brymranger stat Durability B
-set Brymranger stat weight 8
+set Brymranger stat weight 11
 //set Brymranger stat rounds 2
 set GreatSword stat accuracy 50
 set GreatSword stat cost 4500
@@ -3147,9 +3150,9 @@ set Zanbato stat weight 11
 set Zweihander stat cost 8000
 set Zweihander stat rounds 1
 set Zweihander stat crit 0
-set Zweihander stat might 21
-set Zweihander stat weight 9
-set Zweihander stat accuracy 60
+set Zweihander stat might 25
+set Zweihander stat weight 13
+set Zweihander stat accuracy 50
 set Zweihander stat durability B
 
 //spears // spears
@@ -3158,7 +3161,7 @@ set Angon stat Weight 8
 set Angon stat cost 3900
 set Angon stat crit 0
 set Angon stat durability C
-set Angon stat level 15
+set Angon stat level 12
 set Angon stat might 17
 set Angon stat accuracy 60
 set Angon stat min-range 0
@@ -3168,7 +3171,7 @@ set Brionac stat cost 5000
 set Brionac stat crit 70
 set Brionac stat durability C
 set Brionac stat hex 1
-set Brionac stat level 15
+set Brionac stat level 12
 set Brionac stat might 8
 set Doru stat Weight 9
 set Doru stat accuracy 50
@@ -3213,7 +3216,7 @@ set Javelin stat cost 2000
 set Javelin stat crit 0
 set Javelin stat might 17
 set Javelin stat uses 20
-set Javelin stat level 15
+set Javelin stat level 12
 set Javelin stat min-range 0
 set KillerSpear stat Weight 8
 set KillerSpear stat accuracy 60
@@ -3342,7 +3345,7 @@ set GoreFork stat cost 2000
 set GoreFork stat crit 0
 set GoreFork stat durability C
 set GoreFork stat hex 1
-set GoreFork stat level 1
+set GoreFork stat level 4
 set GoreFork stat might 8
 set GoreFork stat weight 6
 set MilitaryFork effect cripple-rate 8
@@ -3449,7 +3452,7 @@ set BreakerAxe stat Weight 8
 set BreakerAxe stat accuracy 30
 set BreakerAxe stat crit 0
 set BreakerAxe stat durability C
-set BreakerAxe stat level 8
+set BreakerAxe stat level 12
 set BreakerAxe stat might 14
 set BreakerAxe stat cost 1750
 set BroadAxe stat cost 720
@@ -3512,7 +3515,7 @@ set Gullveig stat Weight 8
 set Gullveig stat cost 4000
 set Gullveig stat crit 0
 set Gullveig stat durability B
-set Gullveig stat level 15
+set Gullveig stat level 12
 set Gullveig stat might 19
 set Gullveig stat accuracy 50
 set Gullveig stat min-range 0
@@ -3535,7 +3538,7 @@ set Hatchet stat Weight 10
 set Hatchet stat accuracy 40
 set Hatchet stat cost 1850
 set Hatchet stat crit 0
-set Hatchet stat level 15
+set Hatchet stat level 12
 set Hatchet stat might 19
 set Hatchet stat uses 20
 set Hatchet stat min-range 0
@@ -3562,7 +3565,7 @@ set LogSplitter stat durability F
 set LogSplitter stat might 10
 set MaozaWolf stat Weight 7
 set MaozaWolf stat accuracy 60
-set MaozaWolf stat level 8
+set MaozaWolf stat level 12
 set MaozaWolf stat cost 5000
 set MaozaWolf stat might 14
 set MaozaWolf stat durability A
@@ -3622,7 +3625,7 @@ set Shieldaxe stat level 16
 set Shieldaxe stat might 10
 set Tabarzin stat cost 4000
 set Tabarzin stat crit 0
-set Tabarzin stat level 8
+set Tabarzin stat level 12
 set Tabarzin stat weight 6
 set Tabarzin stat might 10
 set Tabarzin stat accuracy 60
@@ -3632,7 +3635,7 @@ set Tomahawk stat accuracy 50
 set Tomahawk stat cost 1750
 set Tomahawk stat crit 0
 set Tomahawk stat durability C
-set Tomahawk stat level 8
+set Tomahawk stat level 12
 set Tomahawk stat might 14
 set Tomahawk stat min-range 0
 set VerianAxe stat Weight 6
@@ -3665,7 +3668,7 @@ set Apeiron stat accuracy 50
 set Apeiron stat cost 5000
 set Apeiron stat crit 0
 set Apeiron stat durability B
-set Apeiron stat level 1
+set Apeiron stat level 16
 set Apeiron stat max-range 3
 set Apeiron stat might 11
 set Apollyon stat Weight 5
@@ -3788,6 +3791,7 @@ set Rossweisse stat crit 0
 set Rossweisse stat defense 0
 set Rossweisse stat magic 0
 set Rossweisse stat max-range 3
+set Rossweisse stat durability B
 set SereniaBow stat Weight 8
 set SereniaBow stat might 11
 set SereniaBow stat accuracy 50
@@ -3937,12 +3941,12 @@ set Ollerus stat accuracy 70
 set Ollerus stat cost 5000
 set Ollerus stat crit 0
 set Ollerus stat durability B
-set Ollerus stat level 12
+set Ollerus stat level 16
 set Ollerus stat max-range 3
 set Ollerus stat might 13
 set Ollerus stat min-range 1
 set Ollerus stat weight 12
-set RapidCrossbow stat accuracy 80
+set RapidCrossbow stat accuracy 70
 set RapidCrossbow stat cost 11000
 set RapidCrossbow stat crit 0
 set RapidCrossbow stat durability A
