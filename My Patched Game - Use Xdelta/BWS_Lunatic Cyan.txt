@@ -3210,6 +3210,7 @@ set Javelin stat cost 2000
 set Javelin stat crit 0
 set Javelin stat might 17
 set Javelin stat uses 20
+set Javelin stat level 15
 set Javelin stat min-range 0
 set KillerSpear stat Weight 8
 set KillerSpear stat accuracy 60
@@ -3302,7 +3303,7 @@ set Verutum stat Weight 8
 set Verutum stat cost 1500
 set Verutum stat accuracy 50
 set Verutum stat crit 0
-set Verutum stat level 10
+set Verutum stat level 8
 set Verutum stat might 12
 set Verutum stat uses 20
 set Verutum stat min-range 0
@@ -3473,7 +3474,7 @@ set Francisca stat Weight 8
 set Francisca stat accuracy 40
 set Francisca stat cost 1400
 set Francisca stat crit 0
-set Francisca stat level 10
+set Francisca stat level 8
 set Francisca stat might 14
 set Francisca stat uses 20
 set Francisca stat min-range 0
