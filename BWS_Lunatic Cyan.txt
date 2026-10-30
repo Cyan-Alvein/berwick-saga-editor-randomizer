@@ -143,6 +143,13 @@ set Soothe effect restore-uses
 set Physic effect restore-uses
 set Fortify effect restore-uses
 set Holy effect restore-uses
+set Again effect restore-uses
+set Barrier effect restore-uses
+set Silence effect restore-uses
+set Warp effect restore-uses
+set Ensorcel effect restore-uses
+set Empower effect restore-uses
+set Enarmor effect restore-uses
 set Escape effect restore-uses
 set Awaken effect restore-uses
 set Pacify effect restore-uses
@@ -362,7 +369,7 @@ set sherlock base magic +1
 set izerna item 1 Bag 0
 set izerna item 2 BlessedBrace 0
 set izerna item 3 Mend 20
-set izerna item 4 Detoxify 10
+set izerna item 4 Bag 0
 set izerna item 5 holy 20
 set izerna item 6 Physic 10
 set izerna item 7 Rehabilitate 10
@@ -915,13 +922,13 @@ set Derrick base defense +0
 set Derrick base speed +3
 set Derrick base magic +6
 
-set saphira item 1 Heal 10
-set saphira item 2 Physic 10
-set saphira item 3 LightRing 0
-set saphira item 4 Mend 10
-set saphira item 5 Holy 10
-set saphira item 6 Bag 0
-set saphira item 7 Bag 0
+set saphira item 1 Enarmor 3
+set saphira item 2 Empower 3
+set saphira item 3 Ensorcel 3
+set saphira item 4 Silence 3
+set saphira item 5 Again 3
+set saphira item 6 Barrier 3
+set saphira item 7 LightRing 0
 set saphira growth holy 100
 set saphira growth hp 10
 set saphira growth strength 0
@@ -2451,21 +2458,20 @@ set Scorpio stat min-range 1
 set Pascanion2 stat level 16
 set Pascanion stat level 16
 
-set Bhuj stat level 12
+set Bhuj stat level 16
 set Brymranger stat level 16
 set Zweihander stat level 16
 set Fauchard stat level 12
 set Perseid stat level 10
 set RazeEtoile stat level 8
 set Cutlass+ stat level 12
-set Cutlass stat level 4
+set Cutlass stat level 8
 set Balmung stat level 16
 set Balmung2 stat level 16
 set Balmung3 stat level 16
 set Vajra stat level 16
 set Vritra stat level 16
 set Hawkeye stat level 16
-set Harperia stat level 12
 set SereniaBow stat level 16
 set Gram stat level 12
 set Nothung stat level 16
@@ -2530,7 +2536,7 @@ set Fire stat max-range 2
 set Fire stat accuracy 80
 set Fire stat might 15
 set Earthblaze stat max-range 3
-set Earthblaze stat level 10
+set Earthblaze stat level 1
 set Hellfire stat max-range 2
 set Hellfire stat accuracy 70
 set Hellfire stat level 5
@@ -2565,6 +2571,7 @@ set Thunder stat might 10
 set DireThunder stat max-range 3
 set DireThunder stat accuracy 60
 set DireThunder stat might 7
+set DireThunder stat level 1
 set Lightning stat max-range 2
 set Lightning stat accuracy 60
 set Lightning stat level 5
@@ -2600,6 +2607,11 @@ set Barrier stat uses 5
 set Again stat min-range 0
 set Again stat max-range 2
 set Again stat uses 5
+set Fortify stat level 1
+set Again stat level 1
+set Barrier stat level 1
+set Pacify stat level 1
+set Escape stat level 1
 
 set Nosferatu stat max-range 2
 set Nosferatu+ stat max-range 2
@@ -2715,6 +2727,7 @@ set Carnwenhau stat defense 0
 set Carnwenhau stat durability B
 set Carnwenhau stat might 6
 set Carnwenhau stat weight 3
+set Carnwenhau stat level 1
 set Crotalus stat accuracy 50
 set Crotalus stat cost 6000
 set Crotalus stat crit 0
@@ -2799,7 +2812,8 @@ set TempestKnife effect wind-damage 25
 set TempestKnife stat cost 8000
 set TempestKnife stat crit 0
 set TempestKnife stat durability B
-set TempestKnife stat level 12
+//set TempestKnife stat level 12
+set TempestKnife stat level 1
 set TempestKnife stat might 0
 set TempestKnife stat weight 5
 set TempestKnife stat accuracy 40
@@ -2869,16 +2883,17 @@ set Colichemarde stat Cost 7000
 set Colichemarde stat Durability C
 set Colichemarde stat accuracy 80
 set Colichemarde stat crit 0
-set Colichemarde stat level 12
+//set Colichemarde stat level 12
+set Colichemarde stat level 1
 set Colichemarde stat might 5
 set Colichemarde stat weight 5
-set Cutlass stat Cost 6000
+set Cutlass stat Cost 8000
 set Cutlass stat rounds 0
 set Cutlass effect x2
 set Cutlass stat Durability A
-set Cutlass stat Weight 3
+set Cutlass stat Weight 4
 set Cutlass stat crit 0
-set Cutlass stat might 9
+set Cutlass stat might 11
 set Cutlass stat accuracy 70
 set Cutlass+ stat Cost 9000
 set Cutlass+ stat rounds 0
@@ -2915,13 +2930,15 @@ set Grimhild stat Cost 5000
 set Grimhild stat Durability C
 set Grimhild stat accuracy 70
 set Grimhild stat crit 70
-set Grimhild stat level 12
+//set Grimhild stat level 12
+set Grimhild stat level 1
 set Grimhild stat weight 8
 set Grimhild stat might 8
 set Harperia stat Cost 9000
 set Harperia stat rounds 0
 set Harperia effect x2
-set Harperia stat level 12
+//set Harperia stat level 12
+set Harperia stat level 1
 set Harperia stat Durability A
 set Harperia stat accuracy 70
 set Harperia stat crit 0
@@ -2945,7 +2962,8 @@ set InfernalEdge effect fire-damage 25
 set InfernalEdge stat Cost 3500
 set InfernalEdge stat Durability C
 set InfernalEdge stat crit 0
-set InfernalEdge stat level 12
+//set InfernalEdge stat level 12
+set InfernalEdge stat level 1
 set InfernalEdge stat might 1
 set InfernalEdge stat weight 5
 set KillingEdge stat cost 2000
@@ -3030,13 +3048,13 @@ set Scimitar stat crit 0
 set Scimitar stat might 5
 set Scimitar stat weight 3
 set Scimitar effect steal-rate-plus 50
-set Scimitar+ stat Cost 1000
+set Scimitar+ stat Cost 1800
 set Scimitar+ stat Durability C
 set Scimitar+ stat accuracy 60
 set Scimitar+ stat crit 0
-set Scimitar+ stat level 1
-set Scimitar+ stat might 5
-set Scimitar+ stat weight 3
+set Scimitar+ stat level 4
+set Scimitar+ stat might 9
+set Scimitar+ stat weight 5
 set Shortsword stat Cost 1000
 set Shortsword stat Durability C
 set Shortsword stat Weight 4
@@ -3087,7 +3105,8 @@ set PoisonMace stat weight 7
 //blades // blades
 set Adrastia stat cost 5500
 set Adrastia stat crit 0
-set Adrastia stat level 16
+//set Adrastia stat level 16
+set Adrastia stat level 1
 set Adrastia stat might 25
 set Adrastia stat weight 11
 set Adrastia stat accuracy 60
@@ -3161,7 +3180,8 @@ set Angon stat Weight 8
 set Angon stat cost 3900
 set Angon stat crit 0
 set Angon stat durability C
-set Angon stat level 12
+//set Angon stat level 12
+set Angon stat level 1
 set Angon stat might 17
 set Angon stat accuracy 60
 set Angon stat min-range 0
@@ -3171,7 +3191,8 @@ set Brionac stat cost 5000
 set Brionac stat crit 70
 set Brionac stat durability C
 set Brionac stat hex 1
-set Brionac stat level 12
+//set Brionac stat level 12
+set Brionac stat level 1
 set Brionac stat might 8
 set Doru stat Weight 12
 set Doru stat accuracy 60
@@ -3297,7 +3318,8 @@ set SwiftSpear stat cost 7500
 set SwiftSpear stat accuracy 50
 set SwiftSpear stat crit 0
 set SwiftSpear stat hex 1
-set SwiftSpear stat level 16
+//set SwiftSpear stat level 16
+set SwiftSpear stat level 1
 set SwiftSpear stat might 24
 set SwiftSpear stat weight 14
 set VerianSpear stat Weight 6
@@ -3384,7 +3406,8 @@ set GreatLance Stat Accuracy 70
 set GreatLance Stat Weight 21
 set GreatLance stat cost 5000
 set GreatLance stat hex 7
-set GreatLance stat level 12
+//set GreatLance stat level 12
+set GreatLance stat level 1
 set GreatLance stat might 5
 set IronLance Stat Accuracy 60
 set IronLance Stat Weight 21
@@ -3431,14 +3454,14 @@ set BattleAxe stat accuracy 50
 set BattleAxe stat cost 1750
 set BattleAxe stat durability C
 set BattleAxe stat level 8
-set Bhuj stat Weight 6
+set Bhuj stat Weight 14
 //set Bhuj stat rounds 2
-set Bhuj effect x2
-set Bhuj stat cost 9000
+//set Bhuj effect x2
+set Bhuj stat cost 6000
 set Bhuj stat crit 0
-set Bhuj stat durability A
-set Bhuj stat might 14
-set Bhuj stat accuracy 60
+set Bhuj stat durability B
+set Bhuj stat might 26
+set Bhuj stat accuracy 40
 set BoltAxe effect cripple-rate 12
 set BoltAxe effect thunder-damage 20
 set BoltAxe stat Weight 5
@@ -3517,7 +3540,8 @@ set Gullveig stat Weight 8
 set Gullveig stat cost 4000
 set Gullveig stat crit 0
 set Gullveig stat durability B
-set Gullveig stat level 12
+//set Gullveig stat level 12
+set Gullveig stat level 1
 set Gullveig stat might 19
 set Gullveig stat accuracy 50
 set Gullveig stat min-range 0
@@ -3565,9 +3589,10 @@ set LogSplitter stat cost 1000
 set LogSplitter stat crit 0
 set LogSplitter stat durability F
 set LogSplitter stat might 10
-set MaozaWolf stat Weight 7
+set MaozaWolf stat Weight 5
 set MaozaWolf stat accuracy 60
-set MaozaWolf stat level 12
+//set MaozaWolf stat level 12
+set MaozaWolf stat level 1
 set MaozaWolf stat cost 5000
 set MaozaWolf stat might 14
 set MaozaWolf stat durability A
@@ -3585,7 +3610,8 @@ set Mjollnir stat accuracy 50
 set Mjollnir stat cost 3000
 set Mjollnir stat crit 0
 set Mjollnir stat durability C
-set Mjollnir stat level 12
+//set Mjollnir stat level 12
+set Mjollnir stat level 1
 set Mjollnir stat might 1
 set NimbusAxe effect cripple-rate 8
 set NimbusAxe effect thunder-damage 15
@@ -3627,14 +3653,15 @@ set Shieldaxe stat level 16
 set Shieldaxe stat might 10
 set Tabarzin stat cost 4000
 set Tabarzin stat crit 0
-set Tabarzin stat level 12
+//set Tabarzin stat level 12
+set Tabarzin stat level 1
 set Tabarzin stat weight 6
-set Tabarzin stat might 10
+set Tabarzin stat might 14
 set Tabarzin stat accuracy 60
 set Tabarzin stat durability C
-set Tomahawk stat Weight 8
+set Tomahawk stat Weight 6
 set Tomahawk stat accuracy 50
-set Tomahawk stat cost 1750
+set Tomahawk stat cost 2750
 set Tomahawk stat crit 0
 set Tomahawk stat durability C
 set Tomahawk stat level 12
@@ -3670,7 +3697,8 @@ set Apeiron stat accuracy 50
 set Apeiron stat cost 5000
 set Apeiron stat crit 0
 set Apeiron stat durability B
-set Apeiron stat level 16
+//set Apeiron stat level 16
+set Apeiron stat level 1
 set Apeiron stat max-range 3
 set Apeiron stat might 11
 set Apollyon stat Weight 5
@@ -3794,6 +3822,8 @@ set Rossweisse stat defense 0
 set Rossweisse stat magic 0
 set Rossweisse stat max-range 3
 set Rossweisse stat durability B
+//set Rossweisse stat level 16
+set Rossweisse stat level 1
 set SereniaBow stat Weight 8
 set SereniaBow stat might 11
 set SereniaBow stat accuracy 50
@@ -3836,7 +3866,7 @@ set TripleFireBow stat cost 1000
 set TripleFireBow stat crit 0
 set TripleFireBow stat durability D
 set TripleFireBow stat might 1
-set TripleFireBow stat level 8
+set TripleFireBow stat level 4
 set VerianBow stat Weight 7
 set VerianBow stat accuracy 50
 set VerianBow stat cost 800
@@ -3882,7 +3912,7 @@ set Chu-ko-nu stat level 12
 set Chu-ko-nu stat max-range 2
 set Chu-ko-nu stat might 12
 set Chu-ko-nu stat min-range 1
-set Chu-ko-nu stat weight 16
+set Chu-ko-nu stat weight 14
 set Gastraphetes stat accuracy 70
 set Gastraphetes stat cost 2000
 set Gastraphetes stat crit 0
@@ -3945,7 +3975,8 @@ set Ollerus stat accuracy 70
 set Ollerus stat cost 5000
 set Ollerus stat crit 0
 set Ollerus stat durability B
-set Ollerus stat level 16
+//set Ollerus stat level 16
+set Ollerus stat level 1
 set Ollerus stat max-range 3
 set Ollerus stat might 13
 set Ollerus stat min-range 1
@@ -3954,7 +3985,8 @@ set RapidCrossbow stat accuracy 70
 set RapidCrossbow stat cost 11000
 set RapidCrossbow stat crit 0
 set RapidCrossbow stat durability A
-set RapidCrossbow stat level 16
+//set RapidCrossbow stat level 16
+set RapidCrossbow stat level 1
 set RapidCrossbow stat max-range 2
 set RapidCrossbow stat might 18
 set RapidCrossbow stat min-range 1
@@ -4327,12 +4359,18 @@ set ImpSoldierSShd++ stat durability B
 set ImpOfficerSShd stat durability B
 set ImpKnightSShd stat durability B
 
-set FireShield stat level 4
-set ThunderShield stat level 4
-set LightShield stat level 4
-set Windshield stat level 4
-set DarkShield stat level 7
-set Vollenden stat level 7
+//set FireShield stat level 4
+set FireShield stat level 1
+//set ThunderShield stat level 4
+set ThunderShield stat level 1
+//set LightShield stat level 4
+set LightShield stat level 1
+//set Windshield stat level 4
+set Windshield stat level 1
+//set DarkShield stat level 7
+set DarkShield stat level 1
+//set Vollenden stat level 7
+set Vollenden stat level 1
 
 set Buckler stat level 1
 set PrototypeSShd stat level 5
@@ -4340,8 +4378,9 @@ set Aspis stat level 4
 set RoundShield stat level 7
 set MetalShield stat level 7
 set MithrilShield stat level 10
-set Aiantos stat level 10
-set ShiningShield stat level 10
+//set Aiantos stat level 10
+set Aiantos stat level 1
+set ShiningShield stat level 1
 //set LadyShield stat level 1
 
 Set VerianSShd Stat level 1
@@ -4613,19 +4652,26 @@ set ImpSoldierMShd+ cost 2000
 set ImpOfficerMShd cost 2500
 set ImpKnightMShd cost 3000
 
-set LightningShield stat level 12
-set RadiantShield stat level 12
-set ShadowShield stat level 12
-set BlazingShield stat level 12
-set GaleShield stat level 12
+//set LightningShield stat level 12
+set LightningShield stat level 1
+//set RadiantShield stat level 12
+set RadiantShield stat level 1
+//set ShadowShield stat level 12
+set ShadowShield stat level 1
+//set BlazingShield stat level 12
+set BlazingShield stat level 1
+//set GaleShield stat level 12
+set GaleShield stat level 1
 set Kiteshield stat level 4
 set SquareShield stat level 8
 set KnightShield stat level 12
 set LimitShield stat level 8
 set PaladinShield stat level 16
-set Hestia stat level 8
+//set Hestia stat level 16
+set Hestia stat level 1
 set BlackShield stat level 16
-set WyrmskinShield stat level 8
+//set WyrmskinShield stat level 16
+set WyrmskinShield stat level 1
 
 Set VerianMShd stat level 1
 Set ImpSoldierMShd stat level 1
@@ -4637,9 +4683,12 @@ Set ImpKnightMShd stat level 16
 
 set AmaterasuShield stat level 16
 set GeneralShield stat level 16
-set KojinShield stat level 12
-set FujinShield stat level 12
-set RaijinShield stat level 12
+//set KojinShield stat level 12
+//set FujinShield stat level 12
+//set RaijinShield stat level 12
+set KojinShield stat level 1
+set FujinShield stat level 1
+set RaijinShield stat level 1
 
 set VerianLShd stat level 1
 set LeatherLShd stat level 1
