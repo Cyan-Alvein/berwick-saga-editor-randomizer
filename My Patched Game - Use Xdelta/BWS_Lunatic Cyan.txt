@@ -4011,7 +4011,7 @@ set BronzeBallista stat crit 0
 set BronzeBallista stat defense 10
 set BronzeBallista stat magic 10
 set BronzeBallista stat might 15
-set BronzeBallista stat speed 50
+set BronzeBallista stat speed 40
 set BronzeBallista stat weight 20
 set IronBallista stat accuracy 70
 set IronBallista stat cost 4000
@@ -4019,7 +4019,7 @@ set IronBallista stat crit 0
 set IronBallista stat defense 10
 set IronBallista stat magic 10
 set IronBallista stat might 21
-set IronBallista stat speed 50
+set IronBallista stat speed 40
 set IronBallista stat weight 20
 set New-TypeBolt stat accuracy 10
 set New-TypeBolt stat might 30
@@ -4031,7 +4031,7 @@ set OldBallista stat defense 10
 set OldBallista stat durability F
 set OldBallista stat magic 10
 set OldBallista stat might 13
-set OldBallista stat speed 50
+set OldBallista stat speed 40
 set OldBallista stat weight 21
 set OldBolt stat accuracy 10
 set OldBolt stat might 20
@@ -4042,7 +4042,7 @@ set PrototypeScorpio stat crit 0
 set PrototypeScorpio stat defense 10
 set PrototypeScorpio stat magic 10
 set PrototypeScorpio stat might 15
-set PrototypeScorpio stat speed 50
+set PrototypeScorpio stat speed 40
 set PrototypeScorpio stat weight 15
 set PrototypeSpringald stat accuracy 60
 set PrototypeSpringald stat cost 6000
@@ -4050,7 +4050,7 @@ set PrototypeSpringald stat crit 0
 set PrototypeSpringald stat defense 10
 set PrototypeSpringald stat magic 10
 set PrototypeSpringald stat might 33
-set PrototypeSpringald stat speed 50
+set PrototypeSpringald stat speed 40
 set PrototypeSpringald stat weight 23
 set Scorpio stat Durability B
 set Scorpio stat accuracy 100
@@ -4059,7 +4059,7 @@ set Scorpio stat crit 0
 set Scorpio stat defense 10
 set Scorpio stat magic 10
 set Scorpio stat might 15
-set Scorpio stat speed 50
+set Scorpio stat speed 40
 set Scorpio stat weight 15
 set Springald stat accuracy 60
 set Springald stat cost 7000
@@ -4068,7 +4068,7 @@ set Springald stat defense 10
 set Springald stat level 15
 set Springald stat magic 10
 set Springald stat might 33
-set Springald stat speed 50
+set Springald stat speed 40
 set Springald stat weight 23
 set StandardBolt stat accuracy 10
 set StandardBolt stat might 25
@@ -4080,7 +4080,7 @@ set SteelBallista stat defense 10
 set SteelBallista stat level 10
 set SteelBallista stat magic 10
 set SteelBallista stat might 27
-set SteelBallista stat speed 50
+set SteelBallista stat speed 40
 set SteelBallista stat weight 22
 
 // sshield
