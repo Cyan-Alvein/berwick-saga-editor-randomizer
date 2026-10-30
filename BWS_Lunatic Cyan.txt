@@ -2461,11 +2461,11 @@ set Pascanion stat level 16
 set Bhuj stat level 16
 set Brymranger stat level 16
 set Zweihander stat level 16
-set Fauchard stat level 12
+set Fauchard stat level 16
 set Perseid stat level 10
 set RazeEtoile stat level 8
-set Cutlass+ stat level 12
-set Cutlass stat level 8
+set Cutlass+ stat level 16
+set Cutlass stat level 12
 set Balmung stat level 16
 set Balmung2 stat level 16
 set Balmung3 stat level 16
@@ -2473,7 +2473,7 @@ set Vajra stat level 16
 set Vritra stat level 16
 set Hawkeye stat level 16
 set SereniaBow stat level 16
-set Gram stat level 12
+set Gram stat level 16
 set Nothung stat level 16
 
 // magic
@@ -2617,7 +2617,7 @@ set Nosferatu stat max-range 2
 set Nosferatu+ stat max-range 2
 
 set Starlight stat level 15
-set Rehabilitate stat level 10
+set Rehabilitate stat level 1
 
 set AirBlade effect injure-rate 8
 set Windstorm effect injure-rate 8
@@ -2731,7 +2731,8 @@ set Carnwenhau stat level 1
 set Crotalus stat accuracy 50
 set Crotalus stat cost 6000
 set Crotalus stat crit 0
-set Crotalus stat level 12
+//set Crotalus stat level 12
+set Crotalus stat level 1
 set Crotalus stat might 6
 set Crotalus stat weight 5
 set Crotalus stat durability B
@@ -2786,7 +2787,8 @@ set Shieldknife stat crit 40
 set Shieldknife stat might 0
 set Shieldknife stat weight 8
 set Shieldknife stat cost 5000
-set Shieldknife stat level 12
+//set Shieldknife stat level 12
+set Shieldknife stat level 1
 set SleepKnife stat crit 0
 set SleepKnife stat durability C
 set SleepKnife stat might 2
@@ -2856,7 +2858,7 @@ set Albatross stat Cost 4000
 set Albatross stat Durability C
 set Albatross stat accuracy 60
 set Albatross stat crit 70
-set Albatross stat level 12
+set Albatross stat level 1
 set Albatross stat weight 10
 set Albatross stat might 9
 set AltiumSword stat Cost 3400
@@ -2937,7 +2939,7 @@ set Grimhild stat might 8
 set Harperia stat Cost 9000
 set Harperia stat rounds 0
 set Harperia effect x2
-//set Harperia stat level 12
+//set Harperia stat level 16
 set Harperia stat level 1
 set Harperia stat Durability A
 set Harperia stat accuracy 70
@@ -3033,7 +3035,8 @@ set RazeEtoile stat accuracy 60
 set RazeEtoile stat crit 0
 set RazeEtoile stat might 7
 set RazeEtoile stat weight 6
-set RazeEtoile stat level 12
+//set RazeEtoile stat level 12
+set RazeEtoile stat level 1
 set Saber stat Cost 2650
 set Saber stat level 4
 set Saber stat Durability B
@@ -3493,7 +3496,7 @@ set CrookedAxe stat Weight 11
 set CrookedAxe stat accuracy 50
 set CrookedAxe stat crit 70
 set CrookedAxe stat might 10
-set CrookedAxe stat level 12
+set CrookedAxe stat level 1
 set DarkAxe effect cripple-rate 8
 set DarkAxe effect dark-damage 15
 set DarkAxe stat Weight 4
