@@ -143,10 +143,10 @@ set Soothe effect restore-uses
 set Physic effect restore-uses
 set Fortify effect restore-uses
 set Holy effect restore-uses
+set Warp effect restore-uses
 set Again effect restore-uses
 set Barrier effect restore-uses
 set Silence effect restore-uses
-set Warp effect restore-uses
 set Ensorcel effect restore-uses
 set Empower effect restore-uses
 set Enarmor effect restore-uses
@@ -164,6 +164,26 @@ set Darkmend effect restore-uses
 set Sleep effect restore-uses
 set Berserk effect restore-uses
 set BoltKnife effect restore-uses
+
+set Warp effect numerical-durability
+set Again effect numerical-durability
+set Barrier effect numerical-durability
+set Silence effect numerical-durability
+set Ensorcel effect numerical-durability
+set Empower effect numerical-durability
+set Enarmor effect numerical-durability
+
+set Warp stat durability 6
+set Again stat durability 6
+set Barrier stat durability 6
+set Silence stat durability 6
+set Ensorcel stat durability 6
+set Empower stat durability 6
+set Enarmor stat durability 6
+
+set Again stat max-range 3
+set Barrier stat max-range 3
+set Warp stat max-range 3
 
 unset RazeMonkOwen skill limited
 
@@ -366,10 +386,10 @@ set sherlock growth speed 40
 set sherlock base bow +30
 set sherlock base magic +1
 
-set izerna item 1 Bag 0
+set izerna item 1 Again 5
 set izerna item 2 BlessedBrace 0
 set izerna item 3 Mend 20
-set izerna item 4 Bag 0
+set izerna item 4 Warp 5
 set izerna item 5 holy 20
 set izerna item 6 Physic 10
 set izerna item 7 Rehabilitate 10
@@ -922,12 +942,12 @@ set Derrick base defense +0
 set Derrick base speed +3
 set Derrick base magic +6
 
-set saphira item 1 Enarmor 3
-set saphira item 2 Empower 3
-set saphira item 3 Ensorcel 3
-set saphira item 4 Silence 3
-set saphira item 5 Again 3
-set saphira item 6 Barrier 3
+set saphira item 1 Bag 0
+set saphira item 2 Rehabilitate 10
+set saphira item 3 Bag 0
+set saphira item 4 Silence 5
+set saphira item 5 Bag 0
+set saphira item 6 Barrier 5
 set saphira item 7 LightRing 0
 set saphira growth holy 100
 set saphira growth hp 10
