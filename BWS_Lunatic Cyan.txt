@@ -176,8 +176,8 @@ unset RazeMonkOwen skill limited
 
 set reese item 3 Saber 101
 set reese item 4 RoundShield 101
-set reese item 5 Bag 0
-//set reese item 6 Bag 0
+set reese item 5 Panacea 6
+set reese item 6 Bag 0
 //set reese item 7 Bag 0
 set reese base sword +30
 set reese base sshield +20
