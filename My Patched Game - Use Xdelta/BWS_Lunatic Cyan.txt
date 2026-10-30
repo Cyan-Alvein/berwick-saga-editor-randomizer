@@ -3829,12 +3829,14 @@ set SwiftBow stat cost 1000
 set SwiftBow stat crit 0
 set SwiftBow stat durability D
 set SwiftBow stat might 1
+set SwiftBow stat level 4
 set TripleFireBow stat Weight 7
 set TripleFireBow stat accuracy 50
 set TripleFireBow stat cost 1000
 set TripleFireBow stat crit 0
 set TripleFireBow stat durability D
 set TripleFireBow stat might 1
+set TripleFireBow stat level 8
 set VerianBow stat Weight 7
 set VerianBow stat accuracy 50
 set VerianBow stat cost 800
