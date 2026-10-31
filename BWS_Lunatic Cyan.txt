@@ -2736,7 +2736,7 @@ set BoltKnife effect thunder-damage 0
 set BoltKnife effect injure-rate 100
 set BoltKnife stat accuracy 20
 set BoltKnife stat crit 0
-set BoltKnife stat   S
+set BoltKnife stat durability S
 set BoltKnife stat level 1
 set BoltKnife stat might 2
 set BoltKnife stat weight 10
@@ -8253,6 +8253,3 @@ set Arrow++ stat might 8
 // Adding too many bag will bug the bag. Your item will start dissapearing. It happened when I had 72 Bags total in game.
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
-
-x141
-0x13F
