@@ -2516,8 +2516,8 @@ set Windstorm stat max-range 2
 set PallasRiana stat level 15
 //set PallasRiana stat uses 60
 set AirBlade stat accuracy 70
-set Windstorm stat accuracy 60
-set Blizzard stat accuracy 60
+set Windstorm stat accuracy 70
+set Blizzard stat accuracy 50
 set Windstorm stat level 5
 set Blizzard stat level 1
 set Blizzard stat might 20
@@ -2525,7 +2525,7 @@ set AirBlade stat might 7
 set Windstorm stat might 7
 set PallasRiana stat might 7
 set PallasRiana stat max-range 3
-set PallasRiana stat accuracy 60
+set PallasRiana stat accuracy 70
 set PallasRiana stat speed 2
 set Sandstorm stat accuracy 110
 //set Sandstorm stat speed 5
@@ -2548,19 +2548,19 @@ set PallasLeia stat crit 0
 set Flametongue stat crit 0
 set Blazetongue stat crit 0
 
-set Fire stat min-range 1
-set Hellfire stat min-range 1
+set Fire stat min-range 0
+set Hellfire stat min-range 0
 set Earthblaze stat min-range 1
-set PallasLeia stat min-range 1
+set PallasLeia stat min-range 0
 set Fire stat max-range 2
-set Fire stat accuracy 80
+set Fire stat accuracy 70
 set Fire stat might 15
 set Earthblaze stat max-range 3
 set Earthblaze stat level 1
 set Hellfire stat max-range 2
 set Hellfire stat accuracy 70
 set Hellfire stat level 5
-set Earthblaze stat accuracy 60
+set Earthblaze stat accuracy 70
 set PallasLeia stat level 15
 set PallasLeia stat max-range 2
 set PallasLeia stat accuracy 70
@@ -2575,11 +2575,11 @@ set Blazetongue stat might 37
 set Flametongue stat max-range 0
 set Blazetongue stat max-range 0
 
-set Thunder stat crit 33
-set DireThunder stat crit 33
-set Lightning stat crit 33
-set PallasSerenia stat crit 33
-set Stormtongue stat crit 33
+set Thunder stat crit 30
+set DireThunder stat crit 30
+set Lightning stat crit 70
+set PallasSerenia stat crit 70
+set Stormtongue stat crit 0
 
 set Thunder stat min-range 1
 set DireThunder stat min-range 1
@@ -2587,23 +2587,23 @@ set Lightning stat min-range 1
 set PallasSerenia stat min-range 1
 set Thunder stat max-range 3
 set Thunder stat accuracy 70
-set Thunder stat might 10
+set Thunder stat might 11
 set DireThunder stat max-range 3
-set DireThunder stat accuracy 60
-set DireThunder stat might 7
+set DireThunder stat accuracy 70
+set DireThunder stat might 11
 set DireThunder stat level 1
 set Lightning stat max-range 2
-set Lightning stat accuracy 60
+set Lightning stat accuracy 70
 set Lightning stat level 5
-set Lightning stat might 15
+set Lightning stat might 10
 set PallasSerenia stat level 15
-set PallasSerenia stat might 20
+set PallasSerenia stat might 15
 set PallasSerenia stat speed 2
 set PallasSerenia max-range 3
-set PallasSerenia stat accuracy 60
+set PallasSerenia stat accuracy 70
 set Stormtongue stat accuracy 140
 //set Stormtongue stat speed 10
-set Stormtongue stat might 32
+set Stormtongue stat might 37
 set Stormtongue stat max-range 0
 
 set Physic stat max-range 5
@@ -2618,7 +2618,7 @@ set Starlight stat might 25
 set Starlight stat speed 2
 set Starlight stat crit 0
 set Starlight stat accuracy 70
-set holy stat accuracy 60
+set holy stat accuracy 70
 set holy stat max-range 2
 set holy stat min-range 0
 set Barrier stat min-range 0
@@ -2669,11 +2669,11 @@ set Swarm stat min-range 1
 set Tumahann stat min-range 0
 set KisharsWrath stat min-range 1
 //set Wormwood stat min-range 1
-Set Nosferatu stat accuracy 50
-Set Nosferatu+ stat accuracy 50
+Set Nosferatu stat accuracy 70
+Set Nosferatu+ stat accuracy 70
 Set Nosferatu stat might 10
 Set Nosferatu+ stat might 10
-Set Scylla stat accuracy 60
+Set Scylla stat accuracy 70
 Set Swarm stat might 15
 Set Tumahann stat might 25
 Set Tumahann stat speed 2
@@ -2681,9 +2681,9 @@ Set Tumahann stat level 16
 Set Tumahann stat uses 10
 Set Tumahann stat accuracy 70
 Set KisharsWrath stat might 20
-Set KisharsWrath stat accuracy 60
+Set KisharsWrath stat accuracy 70
 Set KisharsWrath stat uses 20
-Set Wormwood stat accuracy 60
+Set Wormwood stat accuracy 70
 Set Wormwood stat uses 10
 Set Wormwood stat might 15
 Set Wormwood stat crit 0
