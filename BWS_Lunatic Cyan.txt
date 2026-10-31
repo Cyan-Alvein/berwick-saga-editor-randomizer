@@ -64,7 +64,7 @@
 
 // Albatross, Grimhild, Brionac, CrookedAxe, KillerCrossbow Crit 70%
 
-// All shields give magic stats same as defense stats. So Perseid give 7 magic resist. Shield unit can now tank magic damage too.
+// All shields give magic stats. Shield magic_res = might/2. So Perseid give 4 magic resist. Shield unit can now tank magic damage too.
 
 // All horses give stat bonus up to 5 points, while tico is still OP ofc (7 points, I didn't touch his stat no joke, Czene was cheating the whole time with that monster). So ThinHorse give 2 speed, 1 attack, 1 defense, 1 magic.
 
@@ -102,7 +102,7 @@
 
 // MiracleCharm & HealthCharm & FortuneCharm 5 Hit 1 Speed, ThiefsCharm 10 Hit
 
-// LightRing 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Holy_Res 20 Dark_Res, WindRing & IceScale 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, FireRing & FireScale 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, ThunderRing & ThunderScale 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, ThorScale is double Thunderstale stat so 4 Spd 20 Block_Damage 32 Cripple-rate 20 Mag_Res 40 Wind_Res
+// LightRing 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 holy_res 5 Dark_Res, WindRing & IceScale 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, FireRing & FireScale 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, ThunderRing & ThunderScale 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, ThorScale is double Thunderstale stat so 4 Spd 20 Block_Damage 32 Cripple-rate 20 Mag_Res 40 Wind_Res
 
 // DarkRing 14 Def -10 Mag, DjinnRing 14 Mag -10 Def
 
@@ -2973,7 +2973,7 @@ set HolySword stat Cost 4500
 set HolySword stat Durability C
 set HolySword stat accuracy 70
 set HolySword stat crit 0
-set HolySword stat dark_res 10
+set HolySword stat dark_res 5
 set HolySword stat level 12
 set HolySword stat might 1
 set HolySword stat weight 3
@@ -3037,7 +3037,7 @@ set Nothung effect holy-damage 25
 set Nothung stat Cost 6400
 set Nothung stat Durability C
 set Nothung stat crit 0
-set Nothung stat dark_res 20
+set Nothung stat dark_res 5
 set Nothung stat might 15
 set Nothung stat weight 8
 set Nothung stat accuracy 60
@@ -4178,108 +4178,108 @@ set ImpSoldierSShd++ stat might 4
 set ImpOfficerSShd stat might 6
 set ImpKnightSShd stat might 8
 
-Set LeatherSShd Stat fire_res 2
-Set LeatherSShd Stat thunder_res 2
-Set LeatherSShd Stat wind_res 2
-Set LeatherSShd Stat holy_res 2
-Set LeatherSShd Stat dark_res 2
+Set LeatherSShd Stat fire_res 1
+Set LeatherSShd Stat thunder_res 1
+Set LeatherSShd Stat wind_res 1
+Set LeatherSShd Stat holy_res 1
+Set LeatherSShd Stat dark_res 1
 
-Set Buckler Stat fire_res 4
-Set Buckler Stat thunder_res 4
-Set Buckler Stat wind_res 4
-Set Buckler Stat holy_res 4
-Set Buckler Stat dark_res 4
+Set Buckler Stat fire_res 2
+Set Buckler Stat thunder_res 2
+Set Buckler Stat wind_res 2
+Set Buckler Stat holy_res 2
+Set Buckler Stat dark_res 2
 
-Set PrototypeSShd Stat fire_res 8
-Set PrototypeSShd Stat thunder_res 8
-Set PrototypeSShd Stat wind_res 8
-Set PrototypeSShd Stat holy_res 8
-Set PrototypeSShd Stat dark_res 8
+Set PrototypeSShd Stat fire_res 4
+Set PrototypeSShd Stat thunder_res 4
+Set PrototypeSShd Stat wind_res 4
+Set PrototypeSShd Stat holy_res 4
+Set PrototypeSShd Stat dark_res 4
 
-Set Aspis Stat fire_res 6
-Set Aspis Stat thunder_res 6
-Set Aspis Stat wind_res 6
-Set Aspis Stat holy_res 6
-Set Aspis Stat dark_res 6
+Set Aspis Stat fire_res 3
+Set Aspis Stat thunder_res 3
+Set Aspis Stat wind_res 3
+Set Aspis Stat holy_res 3
+Set Aspis Stat dark_res 3
 
-Set RoundShield Stat fire_res 8
-Set RoundShield Stat thunder_res 8
-Set RoundShield Stat wind_res 8
-Set RoundShield Stat holy_res 8
-Set RoundShield Stat dark_res 8
+Set RoundShield Stat fire_res 4
+Set RoundShield Stat thunder_res 4
+Set RoundShield Stat wind_res 4
+Set RoundShield Stat holy_res 4
+Set RoundShield Stat dark_res 4
 
-set FireShield stat fire_res 26
-Set FireShield Stat thunder_res 6
-Set FireShield Stat wind_res 6
-Set FireShield Stat holy_res 6
-Set FireShield Stat dark_res 6
+set FireShield stat fire_res 23
+Set FireShield Stat thunder_res 3
+Set FireShield Stat wind_res 3
+Set FireShield Stat holy_res 3
+Set FireShield Stat dark_res 3
 
-Set Windshield Stat fire_res 6
-Set Windshield Stat thunder_res 6
-Set Windshield Stat wind_res 26
-Set Windshield Stat holy_res 6
-Set Windshield Stat dark_res 6
+Set Windshield Stat fire_res 3
+Set Windshield Stat thunder_res 3
+Set Windshield Stat wind_res 23
+Set Windshield Stat holy_res 3
+Set Windshield Stat dark_res 3
 
-Set ThunderShield Stat fire_res 6
-set ThunderShield stat thunder_res 26
-Set ThunderShield Stat wind_res 6
-Set ThunderShield Stat holy_res 6
-Set ThunderShield Stat dark_res 6
+Set ThunderShield Stat fire_res 3
+set ThunderShield stat thunder_res 23
+Set ThunderShield Stat wind_res 3
+Set ThunderShield Stat holy_res 3
+Set ThunderShield Stat dark_res 3
 
-set LightShield stat fire_res 6
-Set LightShield Stat thunder_res 6
-Set LightShield Stat wind_res 6
-Set LightShield Stat holy_res 26
-Set LightShield Stat dark_res 26
+set LightShield stat fire_res 3
+Set LightShield Stat thunder_res 3
+Set LightShield Stat wind_res 3
+Set LightShield Stat holy_res 23
+Set LightShield Stat dark_res 23
 
-Set DarkShield Stat fire_res 8
-Set DarkShield Stat thunder_res 8
-Set DarkShield Stat wind_res 8
-Set DarkShield Stat holy_res 28
-Set DarkShield Stat dark_res 28
+Set DarkShield Stat fire_res 4
+Set DarkShield Stat thunder_res 4
+Set DarkShield Stat wind_res 4
+Set DarkShield Stat holy_res 24
+Set DarkShield Stat dark_res 24
 
-Set MetalShield Stat fire_res 8
-Set MetalShield Stat thunder_res 8
-Set MetalShield Stat wind_res 8
-Set MetalShield Stat holy_res 8
-Set MetalShield Stat dark_res 8
+Set MetalShield Stat fire_res 4
+Set MetalShield Stat thunder_res 4
+Set MetalShield Stat wind_res 4
+Set MetalShield Stat holy_res 4
+Set MetalShield Stat dark_res 4
 
-Set MithrilShield Stat fire_res 8
-Set MithrilShield Stat thunder_res 8
-Set MithrilShield Stat wind_res 8
-Set MithrilShield Stat holy_res 8
-Set MithrilShield Stat dark_res 8
+Set MithrilShield Stat fire_res 4
+Set MithrilShield Stat thunder_res 4
+Set MithrilShield Stat wind_res 4
+Set MithrilShield Stat holy_res 4
+Set MithrilShield Stat dark_res 4
 
 Set Vollenden Stat mind 0
-Set Vollenden Stat fire_res 8
-Set Vollenden Stat thunder_res 8
-Set Vollenden Stat wind_res 8
-Set Vollenden Stat holy_res 28
-Set Vollenden Stat dark_res 28
+Set Vollenden Stat fire_res 4
+Set Vollenden Stat thunder_res 4
+Set Vollenden Stat wind_res 4
+Set Vollenden Stat holy_res 24
+Set Vollenden Stat dark_res 24
 
-Set ShiningShield Stat fire_res 8
-Set ShiningShield Stat thunder_res 8
-Set ShiningShield Stat wind_res 8
-Set ShiningShield Stat holy_res 8
-Set ShiningShield Stat dark_res 8
+Set ShiningShield Stat fire_res 4
+Set ShiningShield Stat thunder_res 4
+Set ShiningShield Stat wind_res 4
+Set ShiningShield Stat holy_res 4
+Set ShiningShield Stat dark_res 4
 
-Set LadyShield Stat fire_res 8
-Set LadyShield Stat thunder_res 8
-Set LadyShield Stat wind_res 8
-Set LadyShield Stat holy_res 8
-Set LadyShield Stat dark_res 8
+Set LadyShield Stat fire_res 4
+Set LadyShield Stat thunder_res 4
+Set LadyShield Stat wind_res 4
+Set LadyShield Stat holy_res 4
+Set LadyShield Stat dark_res 4
 
-Set Perseid Stat fire_res 8
-Set Perseid Stat thunder_res 8
-Set Perseid Stat wind_res 8
-Set Perseid Stat holy_res 8
-Set Perseid Stat dark_res 8
+Set Perseid Stat fire_res 4
+Set Perseid Stat thunder_res 4
+Set Perseid Stat wind_res 4
+Set Perseid Stat holy_res 4
+Set Perseid Stat dark_res 4
 
-Set VerianSShd Stat fire_res 2
-Set VerianSShd Stat thunder_res 2
-Set VerianSShd Stat wind_res 2
-Set VerianSShd Stat holy_res 2
-Set VerianSShd Stat dark_res 2
+Set VerianSShd Stat fire_res 1
+Set VerianSShd Stat thunder_res 1
+Set VerianSShd Stat wind_res 1
+Set VerianSShd Stat holy_res 1
+Set VerianSShd Stat dark_res 1
 
 Set OldImpSShd Stat fire_res 1
 Set OldImpSShd Stat thunder_res 1
@@ -4287,29 +4287,29 @@ Set OldImpSShd Stat wind_res 1
 Set OldImpSShd Stat holy_res 1
 Set OldImpSShd Stat dark_res 1
 
-Set ImpSoldierSShd Stat fire_res 2
-Set ImpSoldierSShd Stat thunder_res 2
-Set ImpSoldierSShd Stat wind_res 2
-Set ImpSoldierSShd Stat holy_res 2
-Set ImpSoldierSShd Stat dark_res 2
+Set ImpSoldierSShd Stat fire_res 1
+Set ImpSoldierSShd Stat thunder_res 1
+Set ImpSoldierSShd Stat wind_res 1
+Set ImpSoldierSShd Stat holy_res 1
+Set ImpSoldierSShd Stat dark_res 1
 
-Set ImpSoldierSShd++ Stat fire_res 4
-Set ImpSoldierSShd++ Stat thunder_res 4
-Set ImpSoldierSShd++ Stat wind_res 4
-Set ImpSoldierSShd++ Stat holy_res 4
-Set ImpSoldierSShd++ Stat dark_res 4
+Set ImpSoldierSShd++ Stat fire_res 2
+Set ImpSoldierSShd++ Stat thunder_res 2
+Set ImpSoldierSShd++ Stat wind_res 2
+Set ImpSoldierSShd++ Stat holy_res 2
+Set ImpSoldierSShd++ Stat dark_res 2
 
-Set ImpOfficerSShd Stat fire_res 6
-Set ImpOfficerSShd Stat thunder_res 6
-Set ImpOfficerSShd Stat wind_res 6
-Set ImpOfficerSShd Stat holy_res 6
-Set ImpOfficerSShd Stat dark_res 6
+Set ImpOfficerSShd Stat fire_res 3
+Set ImpOfficerSShd Stat thunder_res 3
+Set ImpOfficerSShd Stat wind_res 3
+Set ImpOfficerSShd Stat holy_res 3
+Set ImpOfficerSShd Stat dark_res 3
 
-Set ImpKnightSShd Stat fire_res 8
-Set ImpKnightSShd Stat thunder_res 8
-Set ImpKnightSShd Stat wind_res 8
-Set ImpKnightSShd Stat holy_res 8
-Set ImpKnightSShd Stat dark_res 8
+Set ImpKnightSShd Stat fire_res 4
+Set ImpKnightSShd Stat thunder_res 4
+Set ImpKnightSShd Stat wind_res 4
+Set ImpKnightSShd Stat holy_res 4
+Set ImpKnightSShd Stat dark_res 4
 
 set LeatherSShd stat Weight 1
 set Buckler stat Weight 2
@@ -4468,132 +4468,132 @@ Set ImpSoldierMShd+ stat Weight 6
 Set ImpOfficerMShd stat Weight 6
 Set ImpKnightMShd stat Weight 7
 
-Set LeatherMShd Stat fire_res 6
-Set LeatherMShd Stat thunder_res 6
-Set LeatherMShd Stat wind_res 6
-Set LeatherMShd Stat holy_res 6
-Set LeatherMShd Stat dark_res 6
+Set LeatherMShd Stat fire_res 3
+Set LeatherMShd Stat thunder_res 3
+Set LeatherMShd Stat wind_res 3
+Set LeatherMShd Stat holy_res 3
+Set LeatherMShd Stat dark_res 3
 
-Set Kiteshield Stat fire_res 8
-Set Kiteshield Stat thunder_res 8
-Set Kiteshield Stat wind_res 8
-Set Kiteshield Stat holy_res 8
-Set Kiteshield Stat dark_res 8
+Set Kiteshield Stat fire_res 4
+Set Kiteshield Stat thunder_res 4
+Set Kiteshield Stat wind_res 4
+Set Kiteshield Stat holy_res 4
+Set Kiteshield Stat dark_res 4
 
-Set SquareShield Stat fire_res 10
-Set SquareShield Stat thunder_res 10
-Set SquareShield Stat wind_res 10
-Set SquareShield Stat holy_res 10
-Set SquareShield Stat dark_res 10
+Set SquareShield Stat fire_res 5
+Set SquareShield Stat thunder_res 5
+Set SquareShield Stat wind_res 5
+Set SquareShield Stat holy_res 5
+Set SquareShield Stat dark_res 5
 
-Set KnightShield Stat fire_res 12
-Set KnightShield Stat thunder_res 12
-Set KnightShield Stat wind_res 12
-Set KnightShield Stat holy_res 12
-Set KnightShield Stat dark_res 12
+Set KnightShield Stat fire_res 6
+Set KnightShield Stat thunder_res 6
+Set KnightShield Stat wind_res 6
+Set KnightShield Stat holy_res 6
+Set KnightShield Stat dark_res 6
 
-Set LimitShield Stat fire_res 14
-Set LimitShield Stat thunder_res 14
-Set LimitShield Stat wind_res 14
-Set LimitShield Stat holy_res 14
-Set LimitShield Stat dark_res 14
+Set LimitShield Stat fire_res 7
+Set LimitShield Stat thunder_res 7
+Set LimitShield Stat wind_res 7
+Set LimitShield Stat holy_res 7
+Set LimitShield Stat dark_res 7
 
-Set WyrmskinShield Stat fire_res 14
-Set WyrmskinShield Stat thunder_res 14
-Set WyrmskinShield Stat wind_res 14
-Set WyrmskinShield Stat holy_res 14
-Set WyrmskinShield Stat dark_res 14
+Set WyrmskinShield Stat fire_res 7
+Set WyrmskinShield Stat thunder_res 7
+Set WyrmskinShield Stat wind_res 7
+Set WyrmskinShield Stat holy_res 7
+Set WyrmskinShield Stat dark_res 7
 
-Set LadyMShd Stat fire_res 14
-Set LadyMShd Stat thunder_res 14
-Set LadyMShd Stat wind_res 14
-Set LadyMShd Stat holy_res 14
-Set LadyMShd Stat dark_res 14
+Set LadyMShd Stat fire_res 7
+Set LadyMShd Stat thunder_res 7
+Set LadyMShd Stat wind_res 7
+Set LadyMShd Stat holy_res 7
+Set LadyMShd Stat dark_res 7
 
 Set PaladinShield Stat mind 0
-Set PaladinShield Stat fire_res 14
-Set PaladinShield Stat thunder_res 14
-Set PaladinShield Stat wind_res 14
-Set PaladinShield Stat holy_res 14
-Set PaladinShield Stat dark_res 14
+Set PaladinShield Stat fire_res 7
+Set PaladinShield Stat thunder_res 7
+Set PaladinShield Stat wind_res 7
+Set PaladinShield Stat holy_res 7
+Set PaladinShield Stat dark_res 7
 
-Set BlackShield stat fire_res 14
-Set BlackShield Stat thunder_res 14
-Set BlackShield Stat wind_res 14
-Set BlackShield Stat holy_res 14
-Set BlackShield Stat dark_res 14
+Set BlackShield stat fire_res 7
+Set BlackShield Stat thunder_res 7
+Set BlackShield Stat wind_res 7
+Set BlackShield Stat holy_res 7
+Set BlackShield Stat dark_res 7
 
-Set LightningShield Stat magic 1
+Set LightningShield Stat magic 0
 Set LightningShield Stat fire_res 11
 Set LightningShield Stat thunder_res 31
 Set LightningShield Stat wind_res 11
 Set LightningShield Stat holy_res 11
 Set LightningShield Stat dark_res 11
 
-Set RadiantShield Stat magic 1
+Set RadiantShield Stat magic 0
 Set RadiantShield Stat fire_res 11
 Set RadiantShield Stat thunder_res 11
 Set RadiantShield Stat wind_res 11
 Set RadiantShield Stat holy_res 31
 Set RadiantShield Stat dark_res 31
 
-Set ShadowShield Stat magic 1
+Set ShadowShield Stat magic 0
 Set ShadowShield Stat fire_res 11
 Set ShadowShield Stat thunder_res 11
 Set ShadowShield Stat wind_res 11
 Set ShadowShield Stat holy_res 11
 Set ShadowShield Stat dark_res 31
 
-Set BlazingShield Stat magic 1
+Set BlazingShield Stat magic 0
 Set BlazingShield Stat fire_res 31
 Set BlazingShield Stat thunder_res 11
 Set BlazingShield Stat wind_res 11
 Set BlazingShield Stat holy_res 11
 Set BlazingShield Stat dark_res 11
 
-Set GaleShield Stat magic 1
+Set GaleShield Stat magic 0
 Set GaleShield Stat fire_res 11
 Set GaleShield Stat thunder_res 11
 Set GaleShield Stat wind_res 31
 Set GaleShield Stat holy_res 11
 Set GaleShield Stat dark_res 11
 
-Set Hestia Stat magic 3
+Set Hestia Stat magic 0
 Set Hestia Stat fire_res 31
 Set Hestia Stat thunder_res 11
 Set Hestia Stat wind_res 11
 Set Hestia Stat holy_res 11
 Set Hestia Stat dark_res 11
 
-Set VerianMShd Stat fire_res 10
-Set VerianMShd Stat thunder_res 10
-Set VerianMShd Stat wind_res 10
-Set VerianMShd Stat holy_res 10
-Set VerianMShd Stat dark_res 10
+Set VerianMShd Stat fire_res 4
+Set VerianMShd Stat thunder_res 4
+Set VerianMShd Stat wind_res 4
+Set VerianMShd Stat holy_res 4
+Set VerianMShd Stat dark_res 4
 
-Set ImpSoldierMShd Stat fire_res 10
-Set ImpSoldierMShd Stat thunder_res 10
-Set ImpSoldierMShd Stat wind_res 10
-Set ImpSoldierMShd Stat holy_res 10
-Set ImpSoldierMShd Stat dark_res 10
+Set ImpSoldierMShd Stat fire_res 4
+Set ImpSoldierMShd Stat thunder_res 4
+Set ImpSoldierMShd Stat wind_res 4
+Set ImpSoldierMShd Stat holy_res 4
+Set ImpSoldierMShd Stat dark_res 4
 
-Set ImpSoldierMShd+ Stat fire_res 12
-Set ImpSoldierMShd+ Stat thunder_res 12
-Set ImpSoldierMShd+ Stat wind_res 12
-Set ImpSoldierMShd+ Stat holy_res 12
-Set ImpSoldierMShd+ Stat dark_res 12
+Set ImpSoldierMShd+ Stat fire_res 5
+Set ImpSoldierMShd+ Stat thunder_res 5
+Set ImpSoldierMShd+ Stat wind_res 5
+Set ImpSoldierMShd+ Stat holy_res 5
+Set ImpSoldierMShd+ Stat dark_res 5
 
-Set ImpOfficerMShd Stat fire_res 12
-Set ImpOfficerMShd Stat thunder_res 12
-Set ImpOfficerMShd Stat wind_res 12
-Set ImpOfficerMShd Stat holy_res 12
-Set ImpOfficerMShd Stat dark_res 12
+Set ImpOfficerMShd Stat fire_res 6
+Set ImpOfficerMShd Stat thunder_res 6
+Set ImpOfficerMShd Stat wind_res 6
+Set ImpOfficerMShd Stat holy_res 6
+Set ImpOfficerMShd Stat dark_res 6
 
-Set ImpKnightMShd Stat fire_res 14
-Set ImpKnightMShd Stat thunder_res 14
-Set ImpKnightMShd Stat wind_res 14
-Set ImpKnightMShd Stat holy_res 14
-Set ImpKnightMShd Stat dark_res 14
+Set ImpKnightMShd Stat fire_res 7
+Set ImpKnightMShd Stat thunder_res 7
+Set ImpKnightMShd Stat wind_res 7
+Set ImpKnightMShd Stat holy_res 7
+Set ImpKnightMShd Stat dark_res 7
 
 
 Set LeatherMShd stat might 6
@@ -4832,7 +4832,7 @@ Set LeatherLShd Stat Weight 6
 Set WideShield Stat Weight 8
 Set IronShield Stat Weight 10
 Set Greatshield Stat Weight 12
-Set GeneralShield Stat Weight 12
+Set GeneralShield Stat Weight 10
 Set KojinShield Stat Weight 8
 Set FujinShield Stat Weight 8
 Set RaijinShield Stat Weight 8
@@ -4844,94 +4844,94 @@ Set ImpSoldierLShd+ Stat Weight 8
 Set ImpOfficerLShd Stat Weight 10
 Set ImpKnightLShd Stat Weight 12
 
-Set LeatherLShd Stat fire_res 14
-Set LeatherLShd Stat thunder_res 14
-Set LeatherLShd Stat wind_res 14
-Set LeatherLShd Stat holy_res 14
-Set LeatherLShd Stat dark_res 14
+Set LeatherLShd Stat fire_res 7
+Set LeatherLShd Stat thunder_res 7
+Set LeatherLShd Stat wind_res 7
+Set LeatherLShd Stat holy_res 7
+Set LeatherLShd Stat dark_res 7
 
-Set WideShield Stat fire_res 18
-Set WideShield Stat thunder_res 18
-Set WideShield Stat wind_res 18
-Set WideShield Stat holy_res 18
-Set WideShield Stat dark_res 18
+Set WideShield Stat fire_res 9
+Set WideShield Stat thunder_res 9
+Set WideShield Stat wind_res 9
+Set WideShield Stat holy_res 9
+Set WideShield Stat dark_res 9
 
-Set IronShield Stat fire_res 22
-Set IronShield Stat thunder_res 22
-Set IronShield Stat wind_res 22
-Set IronShield Stat holy_res 22
-Set IronShield Stat dark_res 22
+Set IronShield Stat fire_res 11
+Set IronShield Stat thunder_res 11
+Set IronShield Stat wind_res 11
+Set IronShield Stat holy_res 11
+Set IronShield Stat dark_res 11
 
-Set Greatshield Stat fire_res 26
-Set Greatshield Stat thunder_res 26
-Set Greatshield Stat wind_res 26
-Set Greatshield Stat holy_res 26
-Set Greatshield Stat dark_res 26
+Set Greatshield Stat fire_res 13
+Set Greatshield Stat thunder_res 13
+Set Greatshield Stat wind_res 13
+Set Greatshield Stat holy_res 13
+Set Greatshield Stat dark_res 13
 
 Set GeneralShield Stat magic 0
-Set GeneralShield Stat fire_res 26
-Set GeneralShield Stat thunder_res 26
-Set GeneralShield Stat wind_res 26
-Set GeneralShield Stat holy_res 26
-Set GeneralShield Stat dark_res 26
+Set GeneralShield Stat fire_res 13
+Set GeneralShield Stat thunder_res 13
+Set GeneralShield Stat wind_res 13
+Set GeneralShield Stat holy_res 13
+Set GeneralShield Stat dark_res 13
 
-Set KojinShield Stat magic 11
+Set KojinShield Stat magic 0
 Set KojinShield Stat fire_res 31
 Set KojinShield Stat thunder_res 11
 Set KojinShield Stat wind_res 11
 Set KojinShield Stat holy_res 11
 Set KojinShield Stat dark_res 11
 
-Set FujinShield Stat magic 11
+Set FujinShield Stat magic 0
 Set FujinShield Stat fire_res 11
 Set FujinShield Stat thunder_res 11
 Set FujinShield Stat wind_res 31
 Set FujinShield Stat holy_res 11
 Set FujinShield Stat dark_res 11
 
-Set RaijinShield Stat magic 11
+Set RaijinShield Stat magic 0
 Set RaijinShield Stat fire_res 11
 Set RaijinShield Stat thunder_res 31
 Set RaijinShield Stat wind_res 11
 Set RaijinShield Stat holy_res 11
 Set RaijinShield Stat dark_res 11
 
-Set AmaterasuShield Stat magic 11
+Set AmaterasuShield Stat magic 0
 Set AmaterasuShield Stat fire_res 31
 Set AmaterasuShield Stat thunder_res 31
 Set AmaterasuShield Stat wind_res 31
 Set AmaterasuShield Stat holy_res 31
 Set AmaterasuShield Stat dark_res 31
 
-Set VerianLShd Stat fire_res 14
-Set VerianLShd Stat thunder_res 14
-Set VerianLShd Stat wind_res 14
-Set VerianLShd Stat holy_res 14
-Set VerianLShd Stat dark_res 14
+Set VerianLShd Stat fire_res 7
+Set VerianLShd Stat thunder_res 7
+Set VerianLShd Stat wind_res 7
+Set VerianLShd Stat holy_res 7
+Set VerianLShd Stat dark_res 7
 
-Set ImpSoldierLShd Stat fire_res 14
-Set ImpSoldierLShd Stat thunder_res 14
-Set ImpSoldierLShd Stat wind_res 14
-Set ImpSoldierLShd Stat holy_res 14
-Set ImpSoldierLShd Stat dark_res 14
+Set ImpSoldierLShd Stat fire_res 7
+Set ImpSoldierLShd Stat thunder_res 7
+Set ImpSoldierLShd Stat wind_res 7
+Set ImpSoldierLShd Stat holy_res 7
+Set ImpSoldierLShd Stat dark_res 7
 
-Set ImpSoldierLShd+ Stat fire_res 18
-Set ImpSoldierLShd+ Stat thunder_res 18
-Set ImpSoldierLShd+ Stat wind_res 18
-Set ImpSoldierLShd+ Stat holy_res 18
-Set ImpSoldierLShd+ Stat dark_res 18
+Set ImpSoldierLShd+ Stat fire_res 9
+Set ImpSoldierLShd+ Stat thunder_res 9
+Set ImpSoldierLShd+ Stat wind_res 9
+Set ImpSoldierLShd+ Stat holy_res 9
+Set ImpSoldierLShd+ Stat dark_res 9
 
-Set ImpOfficerLShd Stat fire_res 22
-Set ImpOfficerLShd Stat thunder_res 22
-Set ImpOfficerLShd Stat wind_res 22
-Set ImpOfficerLShd Stat holy_res 22
-Set ImpOfficerLShd Stat dark_res 22
+Set ImpOfficerLShd Stat fire_res 11
+Set ImpOfficerLShd Stat thunder_res 11
+Set ImpOfficerLShd Stat wind_res 11
+Set ImpOfficerLShd Stat holy_res 11
+Set ImpOfficerLShd Stat dark_res 11
 
-Set ImpKnightLShd Stat fire_res 26
-Set ImpKnightLShd Stat thunder_res 26
-Set ImpKnightLShd Stat wind_res 26
-Set ImpKnightLShd Stat holy_res 26
-Set ImpKnightLShd Stat dark_res 26
+Set ImpKnightLShd Stat fire_res 13
+Set ImpKnightLShd Stat thunder_res 13
+Set ImpKnightLShd Stat wind_res 13
+Set ImpKnightLShd Stat holy_res 13
+Set ImpKnightLShd Stat dark_res 13
 
 
 //Accessories Buff
@@ -4939,189 +4939,189 @@ Set ImpKnightLShd Stat dark_res 26
 set FeatherBrace stat speed 2
 set FeatherBrace stat strength 0
 //set FeatherBrace stat avoid 3
-set FeatherBrace stat fire_res 10
-set FeatherBrace stat thunder_res 10
-set FeatherBrace stat wind_res 10
-set FeatherBrace stat holy_res 10
-set FeatherBrace stat dark_res 10
+set FeatherBrace stat fire_res 5
+set FeatherBrace stat thunder_res 5
+set FeatherBrace stat wind_res 5
+set FeatherBrace stat holy_res 5
+set FeatherBrace stat dark_res 5
 
 set MuscleBrace stat strength 2
 set MuscleBrace stat hit 0
 //set MuscleBrace stat avoid 3
-set MuscleBrace stat fire_res 10
-set MuscleBrace stat thunder_res 10
-set MuscleBrace stat wind_res 10
-set MuscleBrace stat holy_res 10
-set MuscleBrace stat dark_res 10
+set MuscleBrace stat fire_res 5
+set MuscleBrace stat thunder_res 5
+set MuscleBrace stat wind_res 5
+set MuscleBrace stat holy_res 5
+set MuscleBrace stat dark_res 5
 
 set GuardBrace stat defense 2
 set GuardBrace stat hit 0
 //set GuardBrace stat avoid 3
-set GuardBrace stat fire_res 10
-set GuardBrace stat thunder_res 10
-set GuardBrace stat wind_res 10
-set GuardBrace stat holy_res 10
-set GuardBrace stat dark_res 10
+set GuardBrace stat fire_res 5
+set GuardBrace stat thunder_res 5
+set GuardBrace stat wind_res 5
+set GuardBrace stat holy_res 5
+set GuardBrace stat dark_res 5
 
 //Magic resist are useless to SpiritBrace so they get 2 speed intead
 set SpiritBrace stat magic 2
 set SpiritBrace stat hit 5
 set SpiritBrace stat speed 0
 //set SpiritBrace stat avoid 3
-//set SpiritBrace stat fire_res 10
-//set SpiritBrace stat thunder_res 10
-//set SpiritBrace stat wind_res 10
-//set SpiritBrace stat holy_res 10
-//set SpiritBrace stat dark_res 10
+//set SpiritBrace stat fire_res 5
+//set SpiritBrace stat thunder_res 5
+//set SpiritBrace stat wind_res 5
+//set SpiritBrace stat holy_res 5
+//set SpiritBrace stat dark_res 5
 
 set EagleBrace stat hit 10
 set EagleBrace stat speed 0
 //set EagleBrace stat avoid 3
-set EagleBrace stat fire_res 10
-set EagleBrace stat thunder_res 10
-set EagleBrace stat wind_res 10
-set EagleBrace stat holy_res 10
-set EagleBrace stat dark_res 10
+set EagleBrace stat fire_res 5
+set EagleBrace stat thunder_res 5
+set EagleBrace stat wind_res 5
+set EagleBrace stat holy_res 5
+set EagleBrace stat dark_res 5
 
 set TigerBrace stat hit 15
 set TigerBrace stat avoid 0
-//set TigerBrace stat fire_res 10
-//set TigerBrace stat thunder_res 10
-//set TigerBrace stat wind_res 10
-//set TigerBrace stat holy_res 10
-//set TigerBrace stat dark_res 10
+//set TigerBrace stat fire_res 5
+//set TigerBrace stat thunder_res 5
+//set TigerBrace stat wind_res 5
+//set TigerBrace stat holy_res 5
+//set TigerBrace stat dark_res 5
 
 set GiantsBrace stat strength 3
 set GiantsBrace stat speed 0
 set GiantsBrace stat avoid 0
-//set GiantsBrace stat fire_res 10
-//set GiantsBrace stat thunder_res 10
-//set GiantsBrace stat wind_res 10
-//set GiantsBrace stat holy_res 10
-//set GiantsBrace stat dark_res 10
+//set GiantsBrace stat fire_res 5
+//set GiantsBrace stat thunder_res 5
+//set GiantsBrace stat wind_res 5
+//set GiantsBrace stat holy_res 5
+//set GiantsBrace stat dark_res 5
 
 set PhoenixBrace stat defense 3
 set PhoenixBrace stat strength 0
 set PhoenixBrace stat avoid 0
-//set PhoenixBrace stat fire_res 10
-//set PhoenixBrace stat thunder_res 10
-//set PhoenixBrace stat wind_res 10
-//set PhoenixBrace stat holy_res 10
-//set PhoenixBrace stat dark_res 10
+//set PhoenixBrace stat fire_res 5
+//set PhoenixBrace stat thunder_res 5
+//set PhoenixBrace stat wind_res 5
+//set PhoenixBrace stat holy_res 5
+//set PhoenixBrace stat dark_res 5
 //set PhoenixBrace stat cost 3600
 
 set PegasusBrace stat speed 3
 set PegasusBrace stat strength 0
 set PegasusBrace stat avoid 0
-//set PegasusBrace stat fire_res 10
-//set PegasusBrace stat thunder_res 10
-//set PegasusBrace stat wind_res 10
-//set PegasusBrace stat holy_res 10
-//set PegasusBrace stat dark_res 10
+//set PegasusBrace stat fire_res 5
+//set PegasusBrace stat thunder_res 5
+//set PegasusBrace stat wind_res 5
+//set PegasusBrace stat holy_res 5
+//set PegasusBrace stat dark_res 5
 //set PegasusBrace stat cost 3600
 
 set BlessedBrace stat magic 3
 set BlessedBrace stat hit 0
 //set BlessedBrace stat avoid 3
 set BlessedBrace stat speed 0
-//set BlessedBrace stat fire_res 10
-//set BlessedBrace stat thunder_res 10
-//set BlessedBrace stat wind_res 10
-//set BlessedBrace stat holy_res 10
-//set BlessedBrace stat dark_res 10
+//set BlessedBrace stat fire_res 5
+//set BlessedBrace stat thunder_res 5
+//set BlessedBrace stat wind_res 5
+//set BlessedBrace stat holy_res 5
+//set BlessedBrace stat dark_res 5
 set BlessedBrace stat cost 3600
 
 set DivineBrace stat magic 4
 set DivineBrace stat speed 0
 set DivineBrace stat strength 0
 set DivineBrace stat defense 0
-//set DivineBrace stat fire_res 10
-//set DivineBrace stat thunder_res 10
-//set DivineBrace stat wind_res 10
-//set DivineBrace stat holy_res 10
-//set DivineBrace stat dark_res 10
+//set DivineBrace stat fire_res 5
+//set DivineBrace stat thunder_res 5
+//set DivineBrace stat wind_res 5
+//set DivineBrace stat holy_res 5
+//set DivineBrace stat dark_res 5
 set DivineBrace stat cost 5000
 
 set GamblersBrace stat strength 2
 set GamblersBrace stat defense 2
 set GamblersBrace stat hit 0
 set GamblersBrace stat avoid 0
-//set GamblersBrace stat fire_res 10
-//set GamblersBrace stat thunder_res 10
-//set GamblersBrace stat wind_res 10
-//set GamblersBrace stat holy_res 10
-//set GamblersBrace stat dark_res 10
+//set GamblersBrace stat fire_res 5
+//set GamblersBrace stat thunder_res 5
+//set GamblersBrace stat wind_res 5
+//set GamblersBrace stat holy_res 5
+//set GamblersBrace stat dark_res 5
 set GamblersBrace stat cost 5000
 
 set LightRing effect cripple-rate 8
 set LightRing effect block-holy-damage 8
 //set LightRing stat speed 2
 set LightRing stat avoid 0
-set LightRing stat fire_res 10
-set LightRing stat thunder_res 10
-set LightRing stat wind_res 10
-set LightRing stat holy_res 30
-set LightRing stat dark_res 30
+set LightRing stat fire_res 5
+set LightRing stat thunder_res 5
+set LightRing stat wind_res 5
+set LightRing stat holy_res 25
+set LightRing stat dark_res 25
 set LightRing stat cost 3600
 
 set WindRing effect cripple-rate 8
 set WindRing effect block-holy-damage 8
 //set WindRing stat speed 2
-set WindRing stat fire_res 10
-set WindRing stat thunder_res 10
-set WindRing stat wind_res 30
-set WindRing stat holy_res 30
-set WindRing stat dark_res 10
+set WindRing stat fire_res 5
+set WindRing stat thunder_res 5
+set WindRing stat wind_res 25
+set WindRing stat holy_res 25
+set WindRing stat dark_res 5
 set WindRing stat cost 3600
 
 set ThunderRing effect cripple-rate 8
 set ThunderRing effect block-thunder-damage 8
 //set ThunderRing stat speed 2
-set ThunderRing stat fire_res 10
-set ThunderRing stat thunder_res 30
-set ThunderRing stat wind_res 10
-set ThunderRing stat holy_res 10
-set ThunderRing stat dark_res 10
+set ThunderRing stat fire_res 5
+set ThunderRing stat thunder_res 25
+set ThunderRing stat wind_res 5
+set ThunderRing stat holy_res 5
+set ThunderRing stat dark_res 5
 set ThunderRing stat cost 3600
 
 set FireRing effect cripple-rate 8
 set FireRing effect block-fire-damage 8
 //set FireRing stat speed 2
-set FireRing stat fire_res 30
-set FireRing stat thunder_res 10
-set FireRing stat wind_res 10
-set FireRing stat holy_res 10
-set FireRing stat dark_res 10
+set FireRing stat fire_res 25
+set FireRing stat thunder_res 5
+set FireRing stat wind_res 5
+set FireRing stat holy_res 5
+set FireRing stat dark_res 5
 set FireRing stat cost 3600
 
 set HealthCharm stat hit 5
 set HealthCharm stat speed 1
 //set HealthCharm stat avoid 3
-//set HealthCharm stat fire_res 10
-//set HealthCharm stat thunder_res 10
-//set HealthCharm stat wind_res 10
-//set HealthCharm stat holy_res 10
-//set HealthCharm stat dark_res 10
+//set HealthCharm stat fire_res 5
+//set HealthCharm stat thunder_res 5
+//set HealthCharm stat wind_res 5
+//set HealthCharm stat holy_res 5
+//set HealthCharm stat dark_res 5
 set HealthCharm stat cost 5000
 
 set MiracleCharm stat hit 5
 set MiracleCharm stat speed 1
 //set MiracleCharm stat avoid 3
-//set MiracleCharm stat fire_res 10
-//set MiracleCharm stat thunder_res 10
-//set MiracleCharm stat wind_res 10
-//set MiracleCharm stat holy_res 10
-//set MiracleCharm stat dark_res 10
+//set MiracleCharm stat fire_res 5
+//set MiracleCharm stat thunder_res 5
+//set MiracleCharm stat wind_res 5
+//set MiracleCharm stat holy_res 5
+//set MiracleCharm stat dark_res 5
 set MiracleCharm stat cost 5000
 
 set FortuneCharm stat hit 5
 set FortuneCharm stat speed 1
 //set FortuneCharm stat avoid 3
-//set FortuneCharm stat fire_res 10
-//set FortuneCharm stat thunder_res 10
-//set FortuneCharm stat wind_res 10
-//set FortuneCharm stat holy_res 10
-//set FortuneCharm stat dark_res 10
+//set FortuneCharm stat fire_res 5
+//set FortuneCharm stat thunder_res 5
+//set FortuneCharm stat wind_res 5
+//set FortuneCharm stat holy_res 5
+//set FortuneCharm stat dark_res 5
 set FortuneCharm stat cost 3600
 
 set PeerlessBrace stat strength 1
@@ -5130,66 +5130,66 @@ set PeerlessBrace stat Magic 1
 set PeerlessBrace stat speed 1
 set PeerlessBrace stat hit 5
 set PeerlessBrace stat avoid 5
-set PeerlessBrace stat fire_res 10
-set PeerlessBrace stat thunder_res 10
-set PeerlessBrace stat wind_res 10
-set PeerlessBrace stat holy_res 10
-set PeerlessBrace stat dark_res 10
+set PeerlessBrace stat fire_res 5
+set PeerlessBrace stat thunder_res 5
+set PeerlessBrace stat wind_res 5
+set PeerlessBrace stat holy_res 5
+set PeerlessBrace stat dark_res 5
 set PeerlessBrace stat cost 10000
 
 set DarkRing stat defense 14
-//set DarkRing stat fire_res 10
-//set DarkRing stat thunder_res 10
-//set DarkRing stat wind_res 10
-//set DarkRing stat holy_res 10
-//set DarkRing stat dark_res 10
+//set DarkRing stat fire_res 5
+//set DarkRing stat thunder_res 5
+//set DarkRing stat wind_res 5
+//set DarkRing stat holy_res 5
+//set DarkRing stat dark_res 5
 set DarkRing stat cost 5000
 
 // Max stat bonus are +5 on my script, so it is similar to DivineBrace
 set DjinnRing stat magic 14
 //set DjinnRing stat defense -10
-//set DjinnRing stat fire_res 10
-//set DjinnRing stat thunder_res 10
-//set DjinnRing stat wind_res 10
-//set DjinnRing stat holy_res 10
-//set DjinnRing stat dark_res 10
+//set DjinnRing stat fire_res 5
+//set DjinnRing stat thunder_res 5
+//set DjinnRing stat wind_res 5
+//set DjinnRing stat holy_res 5
+//set DjinnRing stat dark_res 5
 set DjinnRing stat cost 5000
 
 set ThiefsCharm stat hit 10
 set ThiefsCharm stat speed 0
 //set ThiefsCharm stat avoid 3
-//set ThiefsCharm stat fire_res 10
-//set ThiefsCharm stat thunder_res 10
-//set ThiefsCharm stat wind_res 10
-//set ThiefsCharm stat holy_res 10
-//set ThiefsCharm stat dark_res 10
+//set ThiefsCharm stat fire_res 5
+//set ThiefsCharm stat thunder_res 5
+//set ThiefsCharm stat wind_res 5
+//set ThiefsCharm stat holy_res 5
+//set ThiefsCharm stat dark_res 5
 set ThiefsCharm stat cost 3600
 
 set DuskCharm stat avoid 20
 //set DuskCharm stat hit 5
 //set DuskCharm stat speed 1
-//set DuskCharm stat fire_res 10
-//set DuskCharm stat thunder_res 10
-//set DuskCharm stat wind_res 10
-//set DuskCharm stat holy_res 10
-//set DuskCharm stat dark_res 10
+//set DuskCharm stat fire_res 5
+//set DuskCharm stat thunder_res 5
+//set DuskCharm stat wind_res 5
+//set DuskCharm stat holy_res 5
+//set DuskCharm stat dark_res 5
 set DuskCharm stat cost 5000
 
 // skill hide
 set VanishCharm stat speed 4
-//set VanishCharm stat fire_res 10
-//set VanishCharm stat thunder_res 10
-//set VanishCharm stat wind_res 10
-//set VanishCharm stat holy_res 10
-//set VanishCharm stat dark_res 10
+//set VanishCharm stat fire_res 5
+//set VanishCharm stat thunder_res 5
+//set VanishCharm stat wind_res 5
+//set VanishCharm stat holy_res 5
+//set VanishCharm stat dark_res 5
 set VanishCharm stat cost 5000
 
 set DawnCharm stat hit 20
-//set DawnCharm stat fire_res 10
-//set DawnCharm stat thunder_res 10
-//set DawnCharm stat wind_res 10
-//set DawnCharm stat holy_res 10
-//set DawnCharm stat dark_res 10
+//set DawnCharm stat fire_res 5
+//set DawnCharm stat thunder_res 5
+//set DawnCharm stat wind_res 5
+//set DawnCharm stat holy_res 5
+//set DawnCharm stat dark_res 5
 set DawnCharm stat cost 5000
 
 set FireScale stat speed 2
@@ -5197,52 +5197,52 @@ set FireScale effect cripple-rate 8
 set FireScale effect block-fire-damage 8
 set FireScale stat crit_avoid_penalty 0
 set FireScale stat fire_res 30
-set FireScale stat thunder_res 10
-set FireScale stat wind_res 10
-set FireScale stat holy_res 10
-set FireScale stat dark_res 10
+set FireScale stat thunder_res 5
+set FireScale stat wind_res 5
+set FireScale stat holy_res 5
+set FireScale stat dark_res 5
 set FireScale stat cost 5000
 
 set IceScale stat speed 2
 set IceScale effect cripple-rate 8
 set IceScale effect block-holy-damage 8
 set IceScale stat crit_avoid_penalty 0
-set IceScale stat fire_res 10
-set IceScale stat thunder_res 10
+set IceScale stat fire_res 5
+set IceScale stat thunder_res 5
 set IceScale stat wind_res 30
 set IceScale stat holy_res 30
-set IceScale stat dark_res 10
+set IceScale stat dark_res 5
 set IceScale stat cost 5000
 
 set ThunderScale stat speed 2
 set ThunderScale effect cripple-rate 8
 set ThunderScale effect block-thunder-damage 8
 set ThunderScale stat crit_avoid_penalty 0
-set ThunderScale stat fire_res 10
-set ThunderScale stat thunder_res 30
-set ThunderScale stat wind_res 10
-set ThunderScale stat holy_res 10
-set ThunderScale stat dark_res 10
+set ThunderScale stat fire_res 5
+set ThunderScale stat thunder_res 25
+set ThunderScale stat wind_res 5
+set ThunderScale stat holy_res 5
+set ThunderScale stat dark_res 5
 set ThunderScale stat cost 5000
 
 set WyvernScale stat speed 2
 set WyvernScale effect cripple-rate 8
 set WyvernScale effect block-thunder-damage 8
 set WyvernScale stat crit_avoid_penalty 0
-set WyvernScale stat fire_res 10
-set WyvernScale stat thunder_res 10
-set WyvernScale stat wind_res 30
-set WyvernScale stat holy_res 10
-set WyvernScale stat dark_res 10
+set WyvernScale stat fire_res 5
+set WyvernScale stat thunder_res 5
+set WyvernScale stat wind_res 25
+set WyvernScale stat holy_res 5
+set WyvernScale stat dark_res 5
 set WyvernScale stat cost 5000
 
 set ThorsScale stat speed 4
-set ThorsScale stat magic 15
+set ThorsScale stat magic 5
 set ThorsScale effect cripple-rate 16
 set ThorsScale effect block-thunder-damage 16
 set ThorsScale stat crit_avoid_penalty 0
 set ThorsScale stat fire_res 5
-set ThorsScale stat thunder_res 31
+set ThorsScale stat thunder_res 25
 set ThorsScale stat wind_res 5
 set ThorsScale stat holy_res 5
 set ThorsScale stat dark_res 5
