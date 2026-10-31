@@ -2807,6 +2807,7 @@ set Shieldknife stat crit 40
 set Shieldknife stat might 1
 set Shieldknife stat weight 8
 set Shieldknife stat cost 3000
+set Shieldknife stat durability C
 //set Shieldknife stat level 12
 set Shieldknife stat level 1
 set SleepKnife stat crit 0
@@ -3253,6 +3254,7 @@ set Harpoon stat crit 0
 set Harpoon stat level 1
 set Harpoon stat might 8
 set Harpoon stat hex 1
+set Harpoon stat durability F
 set ImperialSpear stat Weight 6
 set ImperialSpear stat accuracy 60
 set ImperialSpear stat cost 800
@@ -3336,11 +3338,13 @@ set SlimSpear stat cost 750
 set SlimSpear stat crit 0
 set SlimSpear stat hex 1
 set SlimSpear stat might 6
+set SlimSpear stat Durability D
 set SteelSpear stat Weight 7
 set SteelSpear stat accuracy 60
 set SteelSpear stat cost 1600
 set SteelSpear stat crit 0
 set SteelSpear stat level 4
+set SteelSpear stat Durability D
 set SwiftSpear stat cost 5000
 //set SwiftSpear stat rounds 0
 //set SwiftSpear effect x2
@@ -3459,7 +3463,6 @@ set Xyston Stat Weight 21
 set Xyston stat cost 4000
 set Xyston stat hex 6
 set Xyston stat level 8
-set Xyston stat Durability D
 set Xyston stat might 5
 
 // axe
@@ -3484,6 +3487,7 @@ set BattleSaw stat Weight 8
 set BattleSaw stat cost 1000
 set BattleSaw stat crit 0
 set BattleSaw stat might 10
+set BattleSaw stat Durability D
 set BattleAxe stat crit 0
 set BattleAxe stat Weight 8
 set BattleAxe stat accuracy 50
@@ -3770,6 +3774,8 @@ set BronzeBow stat might 3
 set CompositeBow stat Weight 8
 set CompositeBow stat crit 0
 set CompositeBow stat level 8
+set CompositeBow stat Durability C
+set CompositeBow stat cost 1700
 set EmberArrow effect cripple-rate 12
 set EmberArrow effect fire-damage 15
 set EmberArrow stat accuracy 10
@@ -3831,6 +3837,7 @@ set OldImperialBow stat crit 0
 set OldImperialBow stat durability F
 set OldImperialBow stat might 3
 set Pascanion effect cripple-rate 16
+set Pascanion stat Durability B
 set Pascanion effect fire-damage 25
 set Pascanion stat Weight 11
 set Pascanion stat accuracy 50
@@ -3848,6 +3855,7 @@ set Pascanion2 stat cost 5600
 set Pascanion2 stat crit 0
 set Pascanion2 stat defense 0
 set Pascanion2 stat max-range 3
+set Pascanion2 stat Durability B
 set PoisonArrow stat accuracy 10
 set PoisonArrow stat might 8
 set RaijinArrow effect cripple-rate 16
