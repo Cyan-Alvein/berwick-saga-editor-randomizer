@@ -456,7 +456,7 @@ set Daoud item 2 ShadowShield 101
 set Daoud item 3 Francisca 20
 set Daoud item 4 IronAxe 101
 set Daoud item 5 Kiteshield 101
-set Daoud item 6 Bag 0
+set Daoud item 6 Vulnerary 6
 set Daoud item 7 Bag 0
 set Daoud base axe +30
 set Daoud base sshield +30
@@ -4524,46 +4524,46 @@ Set BlackShield Stat holy_res 7
 Set BlackShield Stat dark_res 7
 
 Set LightningShield Stat magic 0
-Set LightningShield Stat fire_res 11
-Set LightningShield Stat thunder_res 31
-Set LightningShield Stat wind_res 11
-Set LightningShield Stat holy_res 11
-Set LightningShield Stat dark_res 11
+Set LightningShield Stat fire_res 6
+Set LightningShield Stat thunder_res 26
+Set LightningShield Stat wind_res 6
+Set LightningShield Stat holy_res 6
+Set LightningShield Stat dark_res 6
 
 Set RadiantShield Stat magic 0
-Set RadiantShield Stat fire_res 11
-Set RadiantShield Stat thunder_res 11
-Set RadiantShield Stat wind_res 11
-Set RadiantShield Stat holy_res 31
-Set RadiantShield Stat dark_res 31
+Set RadiantShield Stat fire_res 6
+Set RadiantShield Stat thunder_res 6
+Set RadiantShield Stat wind_res 6
+Set RadiantShield Stat holy_res 26
+Set RadiantShield Stat dark_res 26
 
 Set ShadowShield Stat magic 0
-Set ShadowShield Stat fire_res 11
-Set ShadowShield Stat thunder_res 11
-Set ShadowShield Stat wind_res 11
-Set ShadowShield Stat holy_res 11
-Set ShadowShield Stat dark_res 31
+Set ShadowShield Stat fire_res 6
+Set ShadowShield Stat thunder_res 6
+Set ShadowShield Stat wind_res 6
+Set ShadowShield Stat holy_res 26
+Set ShadowShield Stat dark_res 26
 
 Set BlazingShield Stat magic 0
-Set BlazingShield Stat fire_res 31
-Set BlazingShield Stat thunder_res 11
-Set BlazingShield Stat wind_res 11
-Set BlazingShield Stat holy_res 11
-Set BlazingShield Stat dark_res 11
+Set BlazingShield Stat fire_res 26
+Set BlazingShield Stat thunder_res 6
+Set BlazingShield Stat wind_res 6
+Set BlazingShield Stat holy_res 6
+Set BlazingShield Stat dark_res 6
 
 Set GaleShield Stat magic 0
-Set GaleShield Stat fire_res 11
-Set GaleShield Stat thunder_res 11
-Set GaleShield Stat wind_res 31
-Set GaleShield Stat holy_res 11
-Set GaleShield Stat dark_res 11
+Set GaleShield Stat fire_res 6
+Set GaleShield Stat thunder_res 6
+Set GaleShield Stat wind_res 26
+Set GaleShield Stat holy_res 6
+Set GaleShield Stat dark_res 6
 
 Set Hestia Stat magic 0
-Set Hestia Stat fire_res 31
-Set Hestia Stat thunder_res 11
-Set Hestia Stat wind_res 11
-Set Hestia Stat holy_res 11
-Set Hestia Stat dark_res 11
+Set Hestia Stat fire_res 27
+Set Hestia Stat thunder_res 7
+Set Hestia Stat wind_res 7
+Set Hestia Stat holy_res 7
+Set Hestia Stat dark_res 7
 
 Set VerianMShd Stat fire_res 4
 Set VerianMShd Stat thunder_res 4
@@ -4809,7 +4809,7 @@ set Greatshield stat might 26
 set KojinShield stat might 22
 set FujinShield stat might 22
 set RaijinShield stat might 22
-set AmaterasuShield stat might 22
+set AmaterasuShield stat might 26
 set GeneralShield stat might 26
 
 set LeatherLShd stat cost 1910
@@ -4836,7 +4836,7 @@ Set GeneralShield Stat Weight 10
 Set KojinShield Stat Weight 8
 Set FujinShield Stat Weight 8
 Set RaijinShield Stat Weight 8
-Set AmaterasuShield Stat Weight 8
+Set AmaterasuShield Stat Weight 10
 
 Set VerianLShd Stat Weight 6
 Set ImpSoldierLShd Stat Weight 6
@@ -4897,11 +4897,11 @@ Set RaijinShield Stat holy_res 11
 Set RaijinShield Stat dark_res 11
 
 Set AmaterasuShield Stat magic 0
-Set AmaterasuShield Stat fire_res 31
-Set AmaterasuShield Stat thunder_res 31
-Set AmaterasuShield Stat wind_res 31
-Set AmaterasuShield Stat holy_res 31
-Set AmaterasuShield Stat dark_res 31
+Set AmaterasuShield Stat fire_res 33
+Set AmaterasuShield Stat thunder_res 33
+Set AmaterasuShield Stat wind_res 33
+Set AmaterasuShield Stat holy_res 33
+Set AmaterasuShield Stat dark_res 33
 
 Set VerianLShd Stat fire_res 7
 Set VerianLShd Stat thunder_res 7
