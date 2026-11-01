@@ -229,7 +229,7 @@ set reese base speed +2
 set reese base magic +3
 
 set ward item 0 LongSpear 101
-set ward item 1 Bag 0
+set ward item 1 KnightSword 101
 set ward item 2 SquareShield 101
 set ward item 3 Bag 0
 set ward item 4 Bag 0
@@ -505,7 +505,7 @@ set marcel growth magic 0
 set Marcel item 0 Saber 101
 set Marcel item 1 LeatherLShd 101
 set Marcel item 2 Broadsword 101
-set Marcel item 3 LeatherLShd 101
+set Marcel item 3 WideShield 101
 set Marcel item 4 Bag 0
 set Marcel item 5 KojinShield 101
 set Marcel item 6 FujinShield 101
@@ -749,7 +749,7 @@ set faramir item 1 CompositeBow 101
 set faramir item 2 SteelArrow+ 20
 set faramir item 3 AltiumSword 101
 set faramir item 4 Strongbow 101
-set faramir item 5 Bag 0
+set faramir item 5 BreakerArrow 20
 set faramir item 6 Bag 0
 set faramir item 7 Bag 0
 set faramir growth sword 100
@@ -3761,7 +3761,7 @@ set BodkinArrow stat uses 20
 set BodkinArrow stat cost 1800
 set BreakerArrow effect disarm-rate 100
 set BreakerArrow stat cost 1800
-set BreakerArrow stat might 6
+set BreakerArrow stat might 8
 set BreakerArrow stat uses 20
 set BroadheadArrow effect ignore-shields
 set BroadheadArrow effect kill-horse 0
@@ -4758,14 +4758,14 @@ set RaijinShield stat level 1
 
 set VerianLShd stat level 1
 set LeatherLShd stat level 1
-set WideShield stat level 8
-set IronShield stat level 12
+set WideShield stat level 5
+set IronShield stat level 10
 set Greatshield stat level 16
 
 set ImpKnightLShd stat level 16
-set ImpOfficerLShd stat level 12
+set ImpOfficerLShd stat level 10
 set ImpSoldierLShd stat level 1
-set ImpSoldierLShd+ stat level 8
+set ImpSoldierLShd+ stat level 5
 
 set ImpKnightLShd stat durability B
 set ImpOfficerLShd stat durability B
@@ -4811,46 +4811,46 @@ set AmaterasuShield effect block-fire-damage 8
 //set GeneralShield effect block-holy-damage 8
 
 set ImpKnightLShd stat might 26
-set ImpOfficerLShd stat might 22
-set ImpSoldierLShd+ stat might 18
-set ImpSoldierLShd stat might 14
-set VerianLShd stat might 14
+set ImpOfficerLShd stat might 21
+set ImpSoldierLShd+ stat might 16
+set ImpSoldierLShd stat might 11
+set VerianLShd stat might 11
 
-set LeatherLShd stat might 14
-set WideShield stat might 18
-set IronShield stat might 22
+set LeatherLShd stat might 11
+set WideShield stat might 16
+set IronShield stat might 21
 set Greatshield stat might 26
-set KojinShield stat might 22
-set FujinShield stat might 22
-set RaijinShield stat might 22
+set KojinShield stat might 21
+set FujinShield stat might 21
+set RaijinShield stat might 21
 set AmaterasuShield stat might 26
 set GeneralShield stat might 26
 
-set LeatherLShd stat cost 1910
-set WideShield stat cost 2450
-set IronShield stat cost 4400
+set LeatherLShd stat cost 1500
+set WideShield stat cost 2200
+set IronShield stat cost 4200
 set Greatshield stat cost 5000
-set KojinShield stat cost 5400
-set FujinShield stat cost 5400
-set RaijinShield stat cost 5400
-set GeneralShield stat cost 10000
+set KojinShield stat cost 5000
+set FujinShield stat cost 5000
+set RaijinShield stat cost 5000
+set GeneralShield stat cost 11000
 set AmaterasuShield stat cost 11000
 
-set ImpSoldierLShd stat cost 1910
-set ImpSoldierLShd+ stat cost 2176
-set VerianLShd stat cost 1910
-set ImpOfficerLShd stat cost 2448
-set ImpKnightLShd stat cost 2720
+set ImpSoldierLShd stat cost 1500
+set ImpSoldierLShd+ stat cost 2200
+set VerianLShd stat cost 1500
+set ImpOfficerLShd stat cost 2800
+set ImpKnightLShd stat cost 3500
 
-Set LeatherLShd Stat Weight 6
-Set WideShield Stat Weight 8
-Set IronShield Stat Weight 10
-Set Greatshield Stat Weight 12
-Set GeneralShield Stat Weight 10
-Set KojinShield Stat Weight 8
-Set FujinShield Stat Weight 8
-Set RaijinShield Stat Weight 8
-Set AmaterasuShield Stat Weight 10
+Set LeatherLShd Stat Weight 5
+Set WideShield Stat Weight 7
+Set IronShield Stat Weight 9
+Set Greatshield Stat Weight 11
+Set GeneralShield Stat Weight 9
+Set KojinShield Stat Weight 7
+Set FujinShield Stat Weight 7
+Set RaijinShield Stat Weight 7
+Set AmaterasuShield Stat Weight 9
 
 Set VerianLShd Stat Weight 6
 Set ImpSoldierLShd Stat Weight 6
@@ -4858,23 +4858,23 @@ Set ImpSoldierLShd+ Stat Weight 8
 Set ImpOfficerLShd Stat Weight 10
 Set ImpKnightLShd Stat Weight 12
 
-Set LeatherLShd Stat fire_res 7
-Set LeatherLShd Stat thunder_res 7
-Set LeatherLShd Stat wind_res 7
-Set LeatherLShd Stat holy_res 7
-Set LeatherLShd Stat dark_res 7
+Set LeatherLShd Stat fire_res 5
+Set LeatherLShd Stat thunder_res 5
+Set LeatherLShd Stat wind_res 5
+Set LeatherLShd Stat holy_res 5
+Set LeatherLShd Stat dark_res 5
 
-Set WideShield Stat fire_res 9
-Set WideShield Stat thunder_res 9
-Set WideShield Stat wind_res 9
-Set WideShield Stat holy_res 9
-Set WideShield Stat dark_res 9
+Set WideShield Stat fire_res 8
+Set WideShield Stat thunder_res 8
+Set WideShield Stat wind_res 8
+Set WideShield Stat holy_res 8
+Set WideShield Stat dark_res 8
 
-Set IronShield Stat fire_res 11
-Set IronShield Stat thunder_res 11
-Set IronShield Stat wind_res 11
-Set IronShield Stat holy_res 11
-Set IronShield Stat dark_res 11
+Set IronShield Stat fire_res 10
+Set IronShield Stat thunder_res 10
+Set IronShield Stat wind_res 10
+Set IronShield Stat holy_res 10
+Set IronShield Stat dark_res 10
 
 Set Greatshield Stat fire_res 13
 Set Greatshield Stat thunder_res 13
@@ -4889,57 +4889,57 @@ Set GeneralShield Stat wind_res 13
 Set GeneralShield Stat holy_res 13
 Set GeneralShield Stat dark_res 13
 
-Set KojinShield Stat magic 0
-Set KojinShield Stat fire_res 31
-Set KojinShield Stat thunder_res 11
-Set KojinShield Stat wind_res 11
-Set KojinShield Stat holy_res 11
-Set KojinShield Stat dark_res 11
+Set KojinShield Stat magic 10
+Set KojinShield Stat fire_res 20
+Set KojinShield Stat thunder_res 0
+Set KojinShield Stat wind_res 0
+Set KojinShield Stat holy_res 0
+Set KojinShield Stat dark_res 0
 
-Set FujinShield Stat magic 0
-Set FujinShield Stat fire_res 11
-Set FujinShield Stat thunder_res 11
-Set FujinShield Stat wind_res 31
-Set FujinShield Stat holy_res 11
-Set FujinShield Stat dark_res 11
+Set FujinShield Stat magic 10
+Set FujinShield Stat fire_res 0
+Set FujinShield Stat thunder_res 0
+Set FujinShield Stat wind_res 20
+Set FujinShield Stat holy_res 0
+Set FujinShield Stat dark_res 0
 
-Set RaijinShield Stat magic 0
-Set RaijinShield Stat fire_res 11
-Set RaijinShield Stat thunder_res 31
-Set RaijinShield Stat wind_res 11
-Set RaijinShield Stat holy_res 11
-Set RaijinShield Stat dark_res 11
+Set RaijinShield Stat magic 10
+Set RaijinShield Stat fire_res 0
+Set RaijinShield Stat thunder_res 20
+Set RaijinShield Stat wind_res 0
+Set RaijinShield Stat holy_res 0
+Set RaijinShield Stat dark_res 0
 
-Set AmaterasuShield Stat magic 0
-Set AmaterasuShield Stat fire_res 33
-Set AmaterasuShield Stat thunder_res 33
-Set AmaterasuShield Stat wind_res 33
-Set AmaterasuShield Stat holy_res 33
-Set AmaterasuShield Stat dark_res 33
+Set AmaterasuShield Stat magic 10
+Set AmaterasuShield Stat fire_res 23
+Set AmaterasuShield Stat thunder_res 23
+Set AmaterasuShield Stat wind_res 23
+Set AmaterasuShield Stat holy_res 23
+Set AmaterasuShield Stat dark_res 23
 
-Set VerianLShd Stat fire_res 7
-Set VerianLShd Stat thunder_res 7
-Set VerianLShd Stat wind_res 7
-Set VerianLShd Stat holy_res 7
-Set VerianLShd Stat dark_res 7
+Set VerianLShd Stat fire_res 5
+Set VerianLShd Stat thunder_res 5
+Set VerianLShd Stat wind_res 5
+Set VerianLShd Stat holy_res 5
+Set VerianLShd Stat dark_res 5
 
-Set ImpSoldierLShd Stat fire_res 7
-Set ImpSoldierLShd Stat thunder_res 7
-Set ImpSoldierLShd Stat wind_res 7
-Set ImpSoldierLShd Stat holy_res 7
-Set ImpSoldierLShd Stat dark_res 7
+Set ImpSoldierLShd Stat fire_res 5
+Set ImpSoldierLShd Stat thunder_res 5
+Set ImpSoldierLShd Stat wind_res 5
+Set ImpSoldierLShd Stat holy_res 5
+Set ImpSoldierLShd Stat dark_res 5
 
-Set ImpSoldierLShd+ Stat fire_res 9
-Set ImpSoldierLShd+ Stat thunder_res 9
-Set ImpSoldierLShd+ Stat wind_res 9
-Set ImpSoldierLShd+ Stat holy_res 9
-Set ImpSoldierLShd+ Stat dark_res 9
+Set ImpSoldierLShd+ Stat fire_res 8
+Set ImpSoldierLShd+ Stat thunder_res 8
+Set ImpSoldierLShd+ Stat wind_res 8
+Set ImpSoldierLShd+ Stat holy_res 8
+Set ImpSoldierLShd+ Stat dark_res 8
 
-Set ImpOfficerLShd Stat fire_res 11
-Set ImpOfficerLShd Stat thunder_res 11
-Set ImpOfficerLShd Stat wind_res 11
-Set ImpOfficerLShd Stat holy_res 11
-Set ImpOfficerLShd Stat dark_res 11
+Set ImpOfficerLShd Stat fire_res 10
+Set ImpOfficerLShd Stat thunder_res 10
+Set ImpOfficerLShd Stat wind_res 10
+Set ImpOfficerLShd Stat holy_res 10
+Set ImpOfficerLShd Stat dark_res 10
 
 Set ImpKnightLShd Stat fire_res 13
 Set ImpKnightLShd Stat thunder_res 13
@@ -8271,7 +8271,7 @@ set Arrow++ stat might 8
 // x2 effect & rounds 2 = +1 weight, x4 effect = +3 weight
 // Unbreakable item effect prevent weapon & shield from randomly break, they only break when durability reach 0, but the repairstone no longer work.
 // I made player character magic stat & growth= 1/2 def stat & growth
-// 31 is the max value for magic_res item stat. 15 is the max value for magic item stat
+// 31 is the max value for magic_res item stat. 15 is the max value for magic_res item stat
 // Adding too many bag will bug the bag. Your item will start dissapearing. It happened when I had 72 Bags total in game.
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
