@@ -3314,7 +3314,7 @@ set Partisan stat might 24
 set Partisan stat hex 1
 set Pike stat Weight 8
 set Pike stat accuracy 60
-set Pike stat cost 2500
+set Pike stat cost 1500
 set Pike stat crit 0
 set Pike stat durability D
 set Pike stat hex 2
