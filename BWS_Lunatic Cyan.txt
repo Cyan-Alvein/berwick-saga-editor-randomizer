@@ -2732,7 +2732,7 @@ set BloodKnife effect nosferatu
 set BloodKnife stat accuracy 40
 set BloodKnife stat cost 5000
 set BloodKnife stat crit 0
-set BloodKnife stat level 12
+set BloodKnife stat level 8
 set BloodKnife stat might 0
 set BloodKnife stat weight 4
 set Bloodknife stat durability D
@@ -2779,7 +2779,7 @@ set Kris stat accuracy 30
 set Kris stat cost 2800
 set Kris stat crit 0
 set Kris stat durability C
-set Kris stat level 12
+set Kris stat level 1
 set Kris stat might 0
 set Kris stat mind 6
 set Kris stat weight 7
@@ -2795,7 +2795,7 @@ set MainGauche stat might 0
 set MainGauche stat weight 7
 set Maingauche stat accuracy 30
 set Maingauche stat durability C
-set Maingauche stat level 12
+set Maingauche stat level 8
 set PoisonKnife stat crit 0
 set PoisonKnife stat might 2
 set PoisonKnife stat accuracy 30
@@ -2820,7 +2820,7 @@ set SleepKnife stat might 2
 set SleepKnife stat accuracy 20
 set StunKnife stat crit 0
 set StunKnife stat durability C
-set StunKnife stat level 12
+set StunKnife stat level 8
 set StunKnife stat might 6
 set StunKnife stat weight 8
 set Stunknife effect disarm-rate 100
@@ -2831,7 +2831,7 @@ set Swordbreaker effect sword-break 100
 set Swordbreaker stat accuracy 20
 set Swordbreaker stat cost 2800
 set Swordbreaker stat durability C
-set Swordbreaker stat level 12
+set Swordbreaker stat level 8
 set Swordbreaker stat might 6
 set Swordbreaker stat weight 8
 set TempestKnife effect cripple-rate 16
@@ -2853,12 +2853,12 @@ set ThiefsKnife stat durability C
 set ThiefsKnife stat might 2
 set ThiefsKnife stat weight 5
 set ThrowingKnife stat accuracy 40
-set ThrowingKnife stat cost 1800
+set ThrowingKnife stat cost 2800
 set ThrowingKnife stat crit 0
 set ThrowingKnife stat durability C
-set ThrowingKnife stat level 8
+set ThrowingKnife stat level 12
 set ThrowingKnife stat might 6
-set ThrowingKnife stat weight 7
+set ThrowingKnife stat weight 5
 set ThrowingKnife stat min-range 0
 set Vespa stat cost 1200
 set Vespa stat crit 0
@@ -2936,6 +2936,7 @@ set Estoc stat accuracy 70
 set Estoc stat crit 0
 set Estoc stat might 3
 set Estoc stat weight 7
+set Estoc stat level 8
 set FlameSword effect cripple-rate 12
 set FlameSword effect fire-damage 20
 set FlameSword stat Cost 2000
@@ -3004,7 +3005,7 @@ set KillingEdge stat weight 7
 set KnightSword stat Cost 2600
 //set KnightSword stat rounds 0
 //set KnightSword effect x2
-set KnightSword stat level 12
+set KnightSword stat level 8
 set KnightSword stat Durability C
 set KnightSword stat accuracy 60
 set KnightSword stat crit 0
@@ -3081,7 +3082,7 @@ set Scimitar+ stat Cost 1800
 set Scimitar+ stat Durability C
 set Scimitar+ stat accuracy 60
 set Scimitar+ stat crit 0
-set Scimitar+ stat level 4
+set Scimitar+ stat level 1
 set Scimitar+ stat might 9
 set Scimitar+ stat weight 5
 set Shortsword stat Cost 1000
@@ -3399,6 +3400,7 @@ set Firebrand stat durability F
 set Firebrand stat hex 1
 set Firebrand stat might 0
 set Firebrand stat weight 4
+set Firebrand stat level 4
 set GoreFork effect cripple-rate 8
 set GoreFork stat accuracy 60
 set GoreFork stat cost 1600
@@ -3407,7 +3409,7 @@ set GoreFork stat cost 1600
 set GoreFork stat crit 0
 set GoreFork stat durability E
 set GoreFork stat hex 1
-set GoreFork stat level 4
+set GoreFork stat level 1
 set GoreFork stat might 8
 set GoreFork stat weight 6
 set MilitaryFork effect cripple-rate 8
@@ -3521,7 +3523,7 @@ set BreakerAxe stat Weight 8
 set BreakerAxe stat accuracy 30
 set BreakerAxe stat crit 0
 set BreakerAxe stat durability D
-set BreakerAxe stat level 12
+set BreakerAxe stat level 8
 set BreakerAxe stat might 14
 set BreakerAxe stat cost 2400
 set BroadAxe stat cost 1200
@@ -3752,6 +3754,7 @@ set Apollyon stat crit 0
 set Apollyon stat durability B
 set Apollyon stat max-range 2
 set Apollyon stat might 5
+set Apollyon stat level 8
 set BodkinArrow stat accuracy 10
 set BodkinArrow stat might 0
 set BodkinArrow stat uses 20
@@ -3914,14 +3917,14 @@ set SwiftBow stat cost 1000
 set SwiftBow stat crit 0
 set SwiftBow stat durability D
 set SwiftBow stat might 1
-set SwiftBow stat level 4
+set SwiftBow stat level 1
 set TripleFireBow stat Weight 7
 set TripleFireBow stat accuracy 50
 set TripleFireBow stat cost 1000
 set TripleFireBow stat crit 0
 set TripleFireBow stat durability D
 set TripleFireBow stat might 1
-set TripleFireBow stat level 4
+set TripleFireBow stat level 1
 set VerianBow stat Weight 7
 set VerianBow stat accuracy 50
 set VerianBow stat cost 800
