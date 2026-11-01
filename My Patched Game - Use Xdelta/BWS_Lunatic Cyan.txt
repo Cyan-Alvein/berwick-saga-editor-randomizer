@@ -76,6 +76,8 @@
 
 // Axel movement type is now light-infantry
 
+// Esteban Movement type is thief
+
 // Search skill to all player unit
 
 // Swimmer skill to Thaddy Czene Dean Volo Kramer Faye Sherpa. Please don't make Czene swimming while mounted.
@@ -124,6 +126,8 @@ set Scoundrel attribute movement lt-infantry
 //set SnowBandit attribute movement lt-infantry
 set Barbarian attribute movement lt-infantry
 set Bandit attribute movement lt-infantry
+set Hunter attribute movement thief
+set HighHunter attribute movement thief
 
 //this will restore 2 points on repairstone each turn. I fixed all item price so it is no longer needed.
 //set Repairstone effect restore-uses
@@ -374,8 +378,8 @@ set sherlock item 0 IronBow 101
 set sherlock item 1 IronArrow+ 40
 set sherlock item 3 Bag 0
 set sherlock item 4 IronBow 101
-set sherlock item 5 treasure 101
-set sherlock item 6 Treasure 101
+set sherlock item 5 treasure 0
+set sherlock item 6 Treasure 0
 set sherlock item 7 Longbow 101
 set sherlock growth bow 100
 set sherlock growth hp 15
@@ -694,7 +698,7 @@ set perceval base speed +2
 
 set thaddy item 2 FeatherBrace 0
 set thaddy item 3 Dart 20
-set thaddy item 4 Vespa 20
+set thaddy item 4 Vespa 101
 set thaddy item 5 ThrowingKnife 101
 set thaddy item 6 stunknife 101
 set thaddy item 7 Seax 101
@@ -2513,12 +2517,12 @@ set PallasRiana stat min-range 1
 set Blizzard stat max-range 2
 set AirBlade stat max-range 2
 set Windstorm stat max-range 2
-set PallasRiana stat level 15
+set PallasRiana stat level 16
 //set PallasRiana stat uses 60
 set AirBlade stat accuracy 70
 set Windstorm stat accuracy 70
 set Blizzard stat accuracy 50
-set Windstorm stat level 5
+set Windstorm stat level 8
 set Blizzard stat level 1
 set Blizzard stat might 20
 set AirBlade stat might 7
@@ -2556,12 +2560,12 @@ set Fire stat max-range 2
 set Fire stat accuracy 70
 set Fire stat might 15
 set Earthblaze stat max-range 3
-set Earthblaze stat level 1
+set Earthblaze stat level 8
 set Hellfire stat max-range 2
 set Hellfire stat accuracy 70
-set Hellfire stat level 5
+set Hellfire stat level 8
 set Earthblaze stat accuracy 70
-set PallasLeia stat level 15
+set PallasLeia stat level 16
 set PallasLeia stat max-range 2
 set PallasLeia stat accuracy 70
 set PallasLeia stat speed 2
@@ -2594,9 +2598,9 @@ set DireThunder stat might 11
 set DireThunder stat level 1
 set Lightning stat max-range 2
 set Lightning stat accuracy 70
-set Lightning stat level 5
+set Lightning stat level 8
 set Lightning stat might 10
-set PallasSerenia stat level 15
+set PallasSerenia stat level 16
 set PallasSerenia stat might 15
 set PallasSerenia stat speed 2
 set PallasSerenia max-range 3
@@ -2627,11 +2631,11 @@ set Barrier stat uses 5
 set Again stat min-range 0
 set Again stat max-range 2
 set Again stat uses 5
-set Fortify stat level 1
-set Again stat level 1
-set Barrier stat level 1
-set Pacify stat level 1
-set Escape stat level 1
+set Fortify stat level 15
+set Again stat level 8
+set Barrier stat level 8
+set Pacify stat level 15
+set Escape stat level 8
 
 set Nosferatu stat max-range 2
 set Nosferatu+ stat max-range 2
@@ -3038,7 +3042,7 @@ set Nothung stat Cost 8000
 set Nothung stat Durability C
 set Nothung stat crit 0
 set Nothung stat dark_res 5
-set Nothung stat might 15
+set Nothung stat might 13
 set Nothung stat weight 8
 set Nothung stat accuracy 70
 set OldImperialSword stat Cost 400
@@ -3839,7 +3843,7 @@ set OldImperialBow stat might 3
 set Pascanion effect cripple-rate 16
 set Pascanion stat Durability B
 set Pascanion effect fire-damage 25
-set Pascanion stat Weight 13
+set Pascanion stat Weight 11
 set Pascanion stat accuracy 50
 set Pascanion stat avoid 0
 set Pascanion stat cost 12000
@@ -3848,7 +3852,7 @@ set Pascanion stat defense 0
 set Pascanion stat max-range 3
 set Pascanion2 effect cripple-rate 16
 set Pascanion2 effect fire-damage 25
-set Pascanion2 stat Weight 13
+set Pascanion2 stat Weight 11
 set Pascanion2 stat accuracy 50
 set Pascanion2 stat avoid 0
 set Pascanion2 stat cost 12000
