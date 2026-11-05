@@ -96,15 +96,13 @@
 
 // ShieldAxe & GigasAxe give 16 might 10 def skill chance-def-up
 
-// FeatherBrace 2 Spd 10 Mag_Res, MuscleBrace 2 Str 10 Mag_Res, GuardBrace 2 Def 10 Mag_Res, SpiritBrace 2 Mag 1 Spd, EagleBrace 10 Hit 10 Mag_Res
-
-// PegasusBrace 3 Spd, GiantsBrace 3 Str, PhoenixBrace 3 Def, BlessedBrace 3 Mag, TigerBrace 10 Hit
+// FeatherBrace & PegasusBrace = 3 Speed, MuscleBrace & GiantsBrace = 3 Strenght, GuardBrace & PhoenixBrace = 3 Defense, SpiritBrace & BlessedBrace = 3 Mag, EagleBrace & TigerBrace = 15 Hit
 
 // DivineBrace 4 Mag, GamblersBrace 2 Str 2 Def, VanishCharm 4 Spd, DuskCharm 20 Avoid, DawnCharm 20 Hit
 
-// MiracleCharm & HealthCharm & FortuneCharm 5 Hit 1 Speed, ThiefsCharm 10 Hit
+// MiracleCharm & HealthCharm & FortuneCharm & ThiefsCharm = 10 Hit
 
-// LightRing 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 holy_res 5 Dark_Res, WindRing & IceScale 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, FireRing & FireScale 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, ThunderRing & ThunderScale 2 Spd 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, ThorScale is double Thunderstale stat so 4 Spd 20 Block_Damage 32 Cripple-rate 20 Mag_Res 40 Wind_Res
+// LightRing 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 holy_res 20 Dark_Res, WindRing & IceScale 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, FireRing & FireScale 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, ThunderRing & ThunderScale 10 Block_Damage 8 Cripple-rate 10 Mag_Res 20 Wind_Res, ThorScale is double Thunderstale stat so 4 Spd 20 Block_Damage 32 Cripple-rate 20 Mag_Res 40 Wind_Res
 
 // DarkRing 14 Def -10 Mag, DjinnRing 14 Mag -10 Def
 
@@ -4950,36 +4948,36 @@ Set ImpKnightLShd Stat dark_res 13
 
 //Accessories Buff
 
-set FeatherBrace stat speed 2
+set FeatherBrace stat speed 3
 set FeatherBrace stat strength 0
 //set FeatherBrace stat avoid 3
-set FeatherBrace stat fire_res 5
-set FeatherBrace stat thunder_res 5
-set FeatherBrace stat wind_res 5
-set FeatherBrace stat holy_res 5
-set FeatherBrace stat dark_res 5
+//set FeatherBrace stat fire_res 5
+//set FeatherBrace stat thunder_res 5
+//set FeatherBrace stat wind_res 5
+//set FeatherBrace stat holy_res 5
+//set FeatherBrace stat dark_res 5
 
-set MuscleBrace stat strength 2
+set MuscleBrace stat strength 3
 set MuscleBrace stat hit 0
 //set MuscleBrace stat avoid 3
-set MuscleBrace stat fire_res 5
-set MuscleBrace stat thunder_res 5
-set MuscleBrace stat wind_res 5
-set MuscleBrace stat holy_res 5
-set MuscleBrace stat dark_res 5
+//set MuscleBrace stat fire_res 5
+//set MuscleBrace stat thunder_res 5
+//set MuscleBrace stat wind_res 5
+//set MuscleBrace stat holy_res 5
+//set MuscleBrace stat dark_res 5
 
-set GuardBrace stat defense 2
+set GuardBrace stat defense 3
 set GuardBrace stat hit 0
 //set GuardBrace stat avoid 3
-set GuardBrace stat fire_res 5
-set GuardBrace stat thunder_res 5
-set GuardBrace stat wind_res 5
-set GuardBrace stat holy_res 5
-set GuardBrace stat dark_res 5
+//set GuardBrace stat fire_res 5
+//set GuardBrace stat thunder_res 5
+//set GuardBrace stat wind_res 5
+//set GuardBrace stat holy_res 5
+//set GuardBrace stat dark_res 5
 
 //Magic resist are useless to SpiritBrace so they get 2 speed intead
-set SpiritBrace stat magic 2
-set SpiritBrace stat hit 5
+set SpiritBrace stat magic 3
+//set SpiritBrace stat hit 5
 set SpiritBrace stat speed 0
 //set SpiritBrace stat avoid 3
 //set SpiritBrace stat fire_res 5
@@ -4988,13 +4986,13 @@ set SpiritBrace stat speed 0
 //set SpiritBrace stat holy_res 5
 //set SpiritBrace stat dark_res 5
 
-set EagleBrace stat hit 10
+set EagleBrace stat hit 15
 set EagleBrace stat speed 0
 //set EagleBrace stat avoid 3
-set EagleBrace stat fire_res 5
-set EagleBrace stat thunder_res 5
-set EagleBrace stat wind_res 5
-set EagleBrace stat holy_res 5
+//set EagleBrace stat fire_res 5
+//set EagleBrace stat thunder_res 5
+//set EagleBrace stat wind_res 5
+//set EagleBrace stat holy_res 5
 set EagleBrace stat dark_res 5
 
 set TigerBrace stat hit 15
@@ -5071,71 +5069,71 @@ set LightRing effect cripple-rate 8
 set LightRing effect block-holy-damage 8
 //set LightRing stat speed 2
 set LightRing stat avoid 0
-set LightRing stat fire_res 5
-set LightRing stat thunder_res 5
-set LightRing stat wind_res 5
-set LightRing stat holy_res 25
-set LightRing stat dark_res 25
+set LightRing stat fire_res 10
+set LightRing stat thunder_res 10
+set LightRing stat wind_res 10
+set LightRing stat holy_res 30
+set LightRing stat dark_res 30
 set LightRing stat cost 3600
 
 set WindRing effect cripple-rate 8
 set WindRing effect block-holy-damage 8
 //set WindRing stat speed 2
-set WindRing stat fire_res 5
-set WindRing stat thunder_res 5
-set WindRing stat wind_res 25
-set WindRing stat holy_res 25
-set WindRing stat dark_res 5
+set WindRing stat fire_res 10
+set WindRing stat thunder_res 10
+set WindRing stat wind_res 30
+set WindRing stat holy_res 30
+set WindRing stat dark_res 10
 set WindRing stat cost 3600
 
 set ThunderRing effect cripple-rate 8
 set ThunderRing effect block-thunder-damage 8
 //set ThunderRing stat speed 2
-set ThunderRing stat fire_res 5
-set ThunderRing stat thunder_res 25
-set ThunderRing stat wind_res 5
-set ThunderRing stat holy_res 5
-set ThunderRing stat dark_res 5
+set ThunderRing stat fire_res 10
+set ThunderRing stat thunder_res 30
+set ThunderRing stat wind_res 10
+set ThunderRing stat holy_res 10
+set ThunderRing stat dark_res 10
 set ThunderRing stat cost 3600
 
 set FireRing effect cripple-rate 8
 set FireRing effect block-fire-damage 8
 //set FireRing stat speed 2
-set FireRing stat fire_res 25
-set FireRing stat thunder_res 5
-set FireRing stat wind_res 5
-set FireRing stat holy_res 5
-set FireRing stat dark_res 5
+set FireRing stat fire_res 30
+set FireRing stat thunder_res 10
+set FireRing stat wind_res 10
+set FireRing stat holy_res 10
+set FireRing stat dark_res 10
 set FireRing stat cost 3600
 
-set HealthCharm stat hit 5
-set HealthCharm stat speed 1
+set HealthCharm stat hit 10
+//set HealthCharm stat speed 1
 //set HealthCharm stat avoid 3
-//set HealthCharm stat fire_res 5
-//set HealthCharm stat thunder_res 5
-//set HealthCharm stat wind_res 5
-//set HealthCharm stat holy_res 5
-//set HealthCharm stat dark_res 5
+//set HealthCharm stat fire_res 10
+//set HealthCharm stat thunder_res 10
+//set HealthCharm stat wind_res 10
+//set HealthCharm stat holy_res 10
+//set HealthCharm stat dark_res 10
 set HealthCharm stat cost 5000
 
-set MiracleCharm stat hit 5
-set MiracleCharm stat speed 1
+set MiracleCharm stat hit 10
+//set MiracleCharm stat speed 1
 //set MiracleCharm stat avoid 3
-//set MiracleCharm stat fire_res 5
-//set MiracleCharm stat thunder_res 5
-//set MiracleCharm stat wind_res 5
-//set MiracleCharm stat holy_res 5
-//set MiracleCharm stat dark_res 5
+//set MiracleCharm stat fire_res 10
+//set MiracleCharm stat thunder_res 10
+//set MiracleCharm stat wind_res 10
+//set MiracleCharm stat holy_res 10
+//set MiracleCharm stat dark_res 10
 set MiracleCharm stat cost 5000
 
-set FortuneCharm stat hit 5
-set FortuneCharm stat speed 1
+set FortuneCharm stat hit 10
+//set FortuneCharm stat speed 1
 //set FortuneCharm stat avoid 3
-//set FortuneCharm stat fire_res 5
-//set FortuneCharm stat thunder_res 5
-//set FortuneCharm stat wind_res 5
-//set FortuneCharm stat holy_res 5
-//set FortuneCharm stat dark_res 5
+//set FortuneCharm stat fire_res 10
+//set FortuneCharm stat thunder_res 10
+//set FortuneCharm stat wind_res 10
+//set FortuneCharm stat holy_res 10
+//set FortuneCharm stat dark_res 10
 set FortuneCharm stat cost 3600
 
 set PeerlessBrace stat strength 1
@@ -5149,7 +5147,7 @@ set PeerlessBrace stat thunder_res 5
 set PeerlessBrace stat wind_res 5
 set PeerlessBrace stat holy_res 5
 set PeerlessBrace stat dark_res 5
-set PeerlessBrace stat cost 10000
+set PeerlessBrace stat cost 5000
 
 set DarkRing stat defense 14
 //set DarkRing stat fire_res 5
@@ -5211,55 +5209,55 @@ set FireScale effect cripple-rate 8
 set FireScale effect block-fire-damage 8
 set FireScale stat crit_avoid_penalty 0
 set FireScale stat fire_res 30
-set FireScale stat thunder_res 5
-set FireScale stat wind_res 5
-set FireScale stat holy_res 5
-set FireScale stat dark_res 5
+set FireScale stat thunder_res 10
+set FireScale stat wind_res 10
+set FireScale stat holy_res 10
+set FireScale stat dark_res 10
 set FireScale stat cost 5000
 
 set IceScale stat speed 2
 set IceScale effect cripple-rate 8
 set IceScale effect block-holy-damage 8
 set IceScale stat crit_avoid_penalty 0
-set IceScale stat fire_res 5
-set IceScale stat thunder_res 5
+set IceScale stat fire_res 10
+set IceScale stat thunder_res 10
 set IceScale stat wind_res 30
 set IceScale stat holy_res 30
-set IceScale stat dark_res 5
+set IceScale stat dark_res 10
 set IceScale stat cost 5000
 
 set ThunderScale stat speed 2
 set ThunderScale effect cripple-rate 8
 set ThunderScale effect block-thunder-damage 8
 set ThunderScale stat crit_avoid_penalty 0
-set ThunderScale stat fire_res 5
-set ThunderScale stat thunder_res 25
-set ThunderScale stat wind_res 5
-set ThunderScale stat holy_res 5
-set ThunderScale stat dark_res 5
+set ThunderScale stat fire_res 10
+set ThunderScale stat thunder_res 30
+set ThunderScale stat wind_res 10
+set ThunderScale stat holy_res 10
+set ThunderScale stat dark_res 10
 set ThunderScale stat cost 5000
 
 set WyvernScale stat speed 2
 set WyvernScale effect cripple-rate 8
 set WyvernScale effect block-thunder-damage 8
 set WyvernScale stat crit_avoid_penalty 0
-set WyvernScale stat fire_res 5
-set WyvernScale stat thunder_res 5
-set WyvernScale stat wind_res 25
-set WyvernScale stat holy_res 5
-set WyvernScale stat dark_res 5
+set WyvernScale stat fire_res 10
+set WyvernScale stat thunder_res 10
+set WyvernScale stat wind_res 30
+set WyvernScale stat holy_res 10
+set WyvernScale stat dark_res 10
 set WyvernScale stat cost 5000
 
 set ThorsScale stat speed 4
-set ThorsScale stat magic 5
+set ThorsScale stat magic 10
 set ThorsScale effect cripple-rate 16
 set ThorsScale effect block-thunder-damage 16
 set ThorsScale stat crit_avoid_penalty 0
-set ThorsScale stat fire_res 5
-set ThorsScale stat thunder_res 25
-set ThorsScale stat wind_res 5
-set ThorsScale stat holy_res 5
-set ThorsScale stat dark_res 5
+set ThorsScale stat fire_res 10
+set ThorsScale stat thunder_res 30
+set ThorsScale stat wind_res 10
+set ThorsScale stat holy_res 10
+set ThorsScale stat dark_res 10
 set ThorsScale stat cost 10000
 
 ///////////////////////////Unit Weapon cap/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
