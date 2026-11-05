@@ -86,7 +86,7 @@
 
 // All shields are 100% accuracy, except Aiantos which is 0% accuracy, 14 defense & 14 magic, and of course 100% accuracy vs bow
 
-// MainGauche & Balmung gives 6 defense, Kris gives 6 magic.
+// MainGauche gives 6 defense, Kris gives 6 magic.
 
 // Parry to all no-shield unit (Faye, Faramir, Volo, Kramer, Sherpa, Lynette, Paramythis, Sherlock, Christine, Sylvis, Esteban, Enid)
 
