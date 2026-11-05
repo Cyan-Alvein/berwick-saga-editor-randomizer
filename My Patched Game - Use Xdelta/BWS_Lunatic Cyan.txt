@@ -3642,12 +3642,12 @@ set MaozaWolf stat level 1
 set MaozaWolf stat cost 4000
 set MaozaWolf stat might 14
 set MaozaWolf stat durability C
-set MithrilAxe stat Weight 10
-set MithrilAxe stat cost 3000
+set MithrilAxe stat Weight 6
+set MithrilAxe stat cost 1750
 set MithrilAxe stat crit 0
 set MithrilAxe stat durability C
 set MithrilAxe stat level 12
-set MithrilAxe stat might 22
+set MithrilAxe stat might 14
 set MithrilAxe stat accuracy 60
 set Mjollnir effect cripple-rate 16
 set Mjollnir effect thunder-damage 25
@@ -8160,9 +8160,9 @@ set Tico stat magic 1
 
 // Changing horse cost doesn't work, so the code below is useless.
 set ThinHorse stat cost 1500
-set PlainHorse stat cost 2500
-set SpryHorse stat cost 4000
-set ToughHorse stat cost 6000
+set PlainHorse stat cost 1650
+set SpryHorse stat cost 2670
+set ToughHorse stat cost 4000
 set StrongHorse stat cost 9000
 set SinonStallion stat cost 6000
 set LigaCourser stat cost 12500
@@ -8171,6 +8171,21 @@ set IshsStallion stat cost 5000
 set IshsCourser stat cost 9000
 set MorachHorse stat cost 7500
 //set tico stat cost
+
+// this code too doesn't work
+set ThinHorseMap stat cost 1000
+set PlainHorseMap stat cost 1650
+set SpryHorseMap stat cost 2670
+set ToughHorseMap stat cost 4000
+set StrongHorseMap stat cost 6000
+set SinonStallionMap stat cost 6000
+set LigaCourserMap stat cost 10000
+set LigaDestrierMap stat cost 6000
+set IshsStallionMap stat cost 8300
+set IshsCourserMap stat cost 7600
+set MorachHorseMap stat cost 8000
+
+
 
 Set Concoction stat uses 6
 Set Concoction stat cost 1000
