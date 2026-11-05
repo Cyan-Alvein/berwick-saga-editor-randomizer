@@ -32,7 +32,7 @@
 
 // NB: Faye, Volo use Astra. Faye, Faramir, Volo, Sherpa & Kramer can use Pulverize when they have a Blade Equiped. Now you understand why the Blade skill is OP, since Pulverize is the best offensive skill in the game.
 
-// Every player unit got Deathmatch Skill except Tanks ( Daoud Derrick Marcel )
+// Every player unit got Deathmatch Skill
 
 // All ennemy got supporter & hide skill.
 
@@ -48,7 +48,7 @@
 
 // All prefered & locked weapon rank are now level 20 at best. So Thaddy can use AssassinsKnife at level 20, Ruby can use Perseid at level 20, Volo can use Brymranger at level 20
 
-// All Mage class got resistor skill, yes even Aegina Enid Izerna & ennemy priest
+// All healing class got resistor skill
 
 // Izerna Got Silence Skill
 
@@ -56,7 +56,7 @@
 
 // All orbs got restores-uses. So you can spam your holy, Dire Thunder, Blizzard, Lightning ... orbs at will. You will need it to win this lunatic mode.
 
-// CrookedAxe & Albatross got Pascanion Back fire effect instead of devil-reversal effect
+// CrookedAxe & Albatross no longer get devil-reversal effect
 
 // BreakerArrow, BreakerAxe, stunknife effect disarm rate 100%, no more shield break effect.
 
@@ -68,9 +68,9 @@
 
 // All horses give stat bonus up to 5 points, while tico is still OP ofc (7 points, I didn't touch his stat no joke, Czene was cheating the whole time with that monster). So ThinHorse give 2 speed, 1 attack, 1 defense, 1 magic.
 
-// Vollenden, DarkShield, Hestia, reflect 15 magic damage on block. All other elemental shields reflect only 10.
+// All elemental shields reflect only 8.
 
-// All elemental shields receive 20 magic resist on their attribute. So Windshield get +20 wind_res, and since Windshield got 6 might, it gets a total of 26 wind_res.
+/ All elemental shields receive 20 magic resist on their attribute. So Windshield get +20 wind_res, and since Windshield got 6 might, it gets a total of 23 wind_res.
 
 // Derrick movement type is now Knight, so he can walk on shallow water
 
@@ -82,7 +82,7 @@
 
 // Swimmer skill to Thaddy Czene Dean Volo Kramer Faye Sherpa. Please don't make Czene swimming while mounted.
 
-// Most magic orbs minimum range is 1 except Holy Starlight Nosferatu Tumahann PallasLeia. So mages like Aegina can't defend at close range, while Enid can with her sword and prepared skill. That is why Aegina and Perceval now get OneTwo Skill while Enid doesn't for fair. Same logic for Sylvis & Esteban
+// Most magic orbs minimum range is 1 except Holy Starlight Nosferatu Tumahann. So mages like Aegina can't defend at close range, while Enid can with her sword, prepared and parry skill. That is why Aegina and Perceval now get OneTwo Skill while Enid doesn't for fair. Same logic for Sylvis & Esteban
 
 // All shields are 100% accuracy, except Aiantos which is 0% accuracy, 14 defense & 14 magic, and of course 100% accuracy vs bow
 
@@ -834,7 +834,7 @@ set clifford base speed +0
 set clifford base magic +5
 
 set axel item 0 HandAxe 20
-set axel item 1 Bag 0
+set axel item 1 BarbaricAxe 101
 set axel item 2 Bag 0
 set axel item 3 Bag 0
 set axel item 4 Bag 0
@@ -936,7 +936,7 @@ set Derrick item 2 HandAxe 20
 set Derrick item 3 LeatherLShd 101
 set Derrick item 4 RaijinShield 101
 set Derrick item 5 AmaterasuShield 101
-set Derrick item 6 Bag 0
+set Derrick item 6 BarbaricAxe 101
 set Derrick item 7 Bag 0
 set Derrick base axe +30
 set Derrick base lshield +20
@@ -2552,10 +2552,10 @@ set PallasLeia stat crit 0
 set Flametongue stat crit 0
 set Blazetongue stat crit 0
 
-set Fire stat min-range 0
-set Hellfire stat min-range 0
+set Fire stat min-range 1
+set Hellfire stat min-range 1
 set Earthblaze stat min-range 1
-set PallasLeia stat min-range 0
+set PallasLeia stat min-range 1
 set Fire stat max-range 2
 set Fire stat accuracy 70
 set Fire stat might 15
@@ -2579,10 +2579,10 @@ set Blazetongue stat might 37
 set Flametongue stat max-range 0
 set Blazetongue stat max-range 0
 
-set Thunder stat crit 30
-set DireThunder stat crit 30
-set Lightning stat crit 70
-set PallasSerenia stat crit 70
+set Thunder stat crit 0
+set DireThunder stat crit 0
+set Lightning stat crit 0
+set PallasSerenia stat crit 0
 set Stormtongue stat crit 0
 
 set Thunder stat min-range 1
@@ -2591,17 +2591,17 @@ set Lightning stat min-range 1
 set PallasSerenia stat min-range 1
 set Thunder stat max-range 3
 set Thunder stat accuracy 70
-set Thunder stat might 11
+set Thunder stat might 15
 set DireThunder stat max-range 3
 set DireThunder stat accuracy 70
-set DireThunder stat might 11
+set DireThunder stat might 15
 set DireThunder stat level 1
 set Lightning stat max-range 2
 set Lightning stat accuracy 70
 set Lightning stat level 8
-set Lightning stat might 10
+set Lightning stat might 20
 set PallasSerenia stat level 16
-set PallasSerenia stat might 15
+set PallasSerenia stat might 25
 set PallasSerenia stat speed 2
 set PallasSerenia max-range 3
 set PallasSerenia stat accuracy 70
