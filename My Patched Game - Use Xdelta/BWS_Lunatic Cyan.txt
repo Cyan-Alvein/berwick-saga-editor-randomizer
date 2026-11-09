@@ -1295,6 +1295,7 @@ set enid skill counter
 set enid skill mug
 set enid skill mug2
 set enid skill steal
+set enid skill locktouch
 
 set aegina skill canto
 set aegina skill focuschant
@@ -1516,6 +1517,7 @@ set dean skill parry
 set dean skill mug
 set dean skill mug2
 set dean skill steal
+set dean skill locktouch
 
 set sylvis skill aim
 set sylvis skill canto
