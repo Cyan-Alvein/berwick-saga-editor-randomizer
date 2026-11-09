@@ -246,9 +246,9 @@ set ward growth speed 20
 set ward base mshield +20
 set ward base sword +30
 set ward base spear +30
-set VeteranKnight cap spear 60
+set VeteranKnight cap spear 50
 set VeteranKnight cap sword 50
-set VeteranKnight_R cap spear 60
+set VeteranKnight_R cap spear 50
 set VeteranKnight_R cap sword 50
 set ward base hp +5
 set ward base strength +1
@@ -284,24 +284,26 @@ set Paladin_R cap spear 50
 set Paladin cap mshield 50
 set Paladin cap spear 50
 set Paladin_F_R cap mshield 50
-set Paladin_F_R cap spear 60
+set Paladin_F_R cap spear 50
 set Paladin_F cap mshield 50
-set Paladin_F cap spear 60
+set Paladin_F cap spear 50
 set Paladin_M_R cap mshield 50
 set Paladin_M_R cap spear 50
-set Paladin_M_R cap sword 60
+set Paladin_M_R cap sword 50
 set Paladin_M cap mshield 50
 set Paladin_M cap spear 50
-set Paladin_M cap sword 60
+set Paladin_M cap sword 50
 
 set LadyKnight_R cap bow 50
-set LadyKnight_R cap crossbow 60
+set LadyKnight_R cap crossbow 50
 set LadyKnight_R cap sword 40
 set LadyKnight cap bow 50
-set LadyKnight cap crossbow 60
+set LadyKnight cap crossbow 50
 set LadyKnight cap sword 40
 set ArrowKnight cap sword 40
+set ArrowKnight cap crossbow 50
 set ArrowKnight_R cap sword 40
+set ArrowKnight_R cap crossbow 50
 set christine item 0 IronCrossbow 101
 set christine item 1 Bag 0
 //set christine item 2 Don't Touch Bag 4 Vulnerary
@@ -565,10 +567,10 @@ set ruby base mshield +40
 set Chevalire cap mshield 50
 set Chevalire_R cap mshield 50
 set Chevalire cap sshield 50
-set Chevalire cap Spear 60
+set Chevalire cap Spear 50
 set Chevalire cap Sword 50
 set Chevalire_R cap sshield 50
-set Chevalire_R cap Spear 60
+set Chevalire_R cap Spear 50
 set Chevalire_R cap Sword 50
 set ruby base hp +0
 set ruby base strength +0
@@ -738,7 +740,7 @@ set esteban base defense +0
 set esteban base speed +0
 set esteban base magic +1
 set Hunter cap Bow 60
-set Hunter cap Knife 40
+set Hunter cap Knife 30
 set Hunter cap sword 50
 set HighHunter cap Knife 40
 set HighHunter cap Sword 50
@@ -915,11 +917,11 @@ set burroughs item 5 Tumahann 10
 set burroughs item 6 Bag 0
 set burroughs item 7 Bag 0
 set burroughs growth crossbow 100
-set burroughs growth hp 30
-set burroughs growth strength 40
-set burroughs growth defense 10
-set burroughs growth speed 40
-set burroughs growth magic 0
+set burroughs growth hp 20
+set burroughs growth strength 0
+set burroughs growth defense 20
+set burroughs growth speed 0
+set burroughs growth magic 20
 set burroughs base crossbow +30
 
 set derrick growth axe 100
@@ -1112,7 +1114,7 @@ set adel skill lance
 set adel skill mercy
 set adel skill pitchfork
 unset adel skill shieldfaire
-set adel skill supporter
+unset adel skill supporter
 set adel skill throw
 set adel skill vantage
 set adel skill prepared 
@@ -1143,7 +1145,7 @@ set leon skill pitchfork
 set leon skill prepared
 unset leon skill robust
 unset leon skill robust2
-set leon skill supporter
+unset leon skill supporter
 set leon skill throw 
 set leon skill maim
 set leon skill robbery
@@ -2518,9 +2520,9 @@ set AirBlade stat max-range 2
 set Windstorm stat max-range 2
 set PallasRiana stat level 16
 //set PallasRiana stat uses 60
-set AirBlade stat accuracy 70
-set Windstorm stat accuracy 70
-set Blizzard stat accuracy 50
+set AirBlade stat accuracy 60
+set Windstorm stat accuracy 60
+set Blizzard stat accuracy 40
 set Windstorm stat level 8
 set Blizzard stat level 1
 set Blizzard stat might 20
@@ -2528,13 +2530,13 @@ set AirBlade stat might 7
 set Windstorm stat might 7
 set PallasRiana stat might 7
 set PallasRiana stat max-range 3
-set PallasRiana stat accuracy 70
+set PallasRiana stat accuracy 60
 set PallasRiana stat speed 2
-set Sandstorm stat accuracy 110
+set Sandstorm stat accuracy 100
 //set Sandstorm stat speed 5
-set Windtongue stat accuracy 120
+set Windtongue stat accuracy 110
 //set Windtongue stat speed 5
-set Icetongue stat accuracy 120
+set Icetongue stat accuracy 110
 //set Icetongue stat speed 5
 set Sandstorm stat might 19
 set Windtongue stat might 37
@@ -2556,22 +2558,22 @@ set Hellfire stat min-range 1
 set Earthblaze stat min-range 1
 set PallasLeia stat min-range 1
 set Fire stat max-range 2
-set Fire stat accuracy 70
+set Fire stat accuracy 60
 set Fire stat might 15
 set Earthblaze stat max-range 3
 set Earthblaze stat level 8
 set Hellfire stat max-range 2
-set Hellfire stat accuracy 70
+set Hellfire stat accuracy 60
 set Hellfire stat level 8
-set Earthblaze stat accuracy 70
+set Earthblaze stat accuracy 60
 set PallasLeia stat level 16
 set PallasLeia stat max-range 2
-set PallasLeia stat accuracy 70
+set PallasLeia stat accuracy 60
 set PallasLeia stat speed 2
 set PallasLeia stat might 25
-set Flametongue stat accuracy 120
+set Flametongue stat accuracy 110
 //set Flametongue stat speed 5
-set Blazetongue stat accuracy 120
+set Blazetongue stat accuracy 110
 //set Blazetongue stat speed 5
 set Flametongue stat might 37
 set Blazetongue stat might 37
@@ -2589,22 +2591,22 @@ set DireThunder stat min-range 1
 set Lightning stat min-range 1
 set PallasSerenia stat min-range 1
 set Thunder stat max-range 3
-set Thunder stat accuracy 70
+set Thunder stat accuracy 60
 set Thunder stat might 15
 set DireThunder stat max-range 3
-set DireThunder stat accuracy 70
+set DireThunder stat accuracy 60
 set DireThunder stat might 15
 set DireThunder stat level 1
 set Lightning stat max-range 2
-set Lightning stat accuracy 70
+set Lightning stat accuracy 60
 set Lightning stat level 8
 set Lightning stat might 20
 set PallasSerenia stat level 16
 set PallasSerenia stat might 25
 set PallasSerenia stat speed 2
 set PallasSerenia max-range 3
-set PallasSerenia stat accuracy 70
-set Stormtongue stat accuracy 140
+set PallasSerenia stat accuracy 60
+set Stormtongue stat accuracy 130
 //set Stormtongue stat speed 10
 set Stormtongue stat might 37
 set Stormtongue stat max-range 0
@@ -2620,8 +2622,8 @@ set Starlight stat min-range 0
 set Starlight stat might 25
 set Starlight stat speed 2
 set Starlight stat crit 0
-set Starlight stat accuracy 70
-set holy stat accuracy 70
+set Starlight stat accuracy 60
+set holy stat accuracy 60
 set holy stat max-range 2
 set holy stat min-range 0
 set Barrier stat min-range 0
@@ -2672,21 +2674,21 @@ set Swarm stat min-range 1
 set Tumahann stat min-range 0
 set KisharsWrath stat min-range 1
 //set Wormwood stat min-range 1
-Set Nosferatu stat accuracy 70
-Set Nosferatu+ stat accuracy 70
+Set Nosferatu stat accuracy 60
+Set Nosferatu+ stat accuracy 60
 Set Nosferatu stat might 10
 Set Nosferatu+ stat might 10
-Set Scylla stat accuracy 70
+Set Scylla stat accuracy 60
 Set Swarm stat might 15
 Set Tumahann stat might 25
 Set Tumahann stat speed 2
 Set Tumahann stat level 16
 Set Tumahann stat uses 10
-Set Tumahann stat accuracy 70
+Set Tumahann stat accuracy 60
 Set KisharsWrath stat might 20
-Set KisharsWrath stat accuracy 70
+Set KisharsWrath stat accuracy 60
 Set KisharsWrath stat uses 20
-Set Wormwood stat accuracy 70
+Set Wormwood stat accuracy 60
 Set Wormwood stat uses 10
 Set Wormwood stat might 15
 Set Wormwood stat crit 0
@@ -5300,11 +5302,11 @@ set LanceKnight2 cap sshield 50
 set LanceKnight2_R cap spear 60
 set LanceKnight2_R cap sshield 50
 
-set Guardian cap Sword 60
+set Guardian cap Sword 50
 set Guardian cap lshield 50
 
 set ArmorKnight cap lshield 60
-set ArmorKnight cap Axe 60
+set ArmorKnight cap Axe 50
 
 set pirate cap Axe 60
 
@@ -5324,7 +5326,7 @@ set SpearKnight cap sshield 50
 set SpearKnight_R cap spear 60
 set SpearKnight_R cap sshield 50
 
-set SpearRider_R cap spear 60
+set SpearRider_R cap spear 50
 set SpearRider_R cap sshield 50
 set SpearRider cap spear 60
 set SpearRider cap sshield 50
@@ -5333,36 +5335,36 @@ set DukeKnight cap sword 50
 set DukeKnight_R cap sword 50
 set Duke cap sword 50
 
-set AxeSoldier cap axe 60
+set AxeSoldier cap axe 50
 set AxeSoldier cap sshield 50
 set AxeSoldier cap mshield 50
 
 set Mercenary cap Sword 60
 
-set Ballistician cap Crossbow 60
+set Ballistician cap Crossbow 50
 
-set Thief_M cap Knife 60
-set Thief_F cap Knife 60
-set Burglar cap Knife 60
-set Grassrunner cap Knife 60
-set Grassrunner_R cap Knife 60
+set Thief_M cap Knife 50
+set Thief_F cap Knife 50
+set Burglar cap Knife 50
+set Grassrunner cap Knife 50
+set Grassrunner_R cap Knife 50
 
 set SwordKnight cap sshield 50
 set SwordKnight cap mshield 50
-set SwordKnight cap sword 60
+set SwordKnight cap sword 50
 set SwordKnight cap spear 50
 
 set SwordKnight_R cap sshield 50
 set SwordKnight_R cap mshield 50
-set SwordKnight_R cap sword 60
+set SwordKnight_R cap sword 50
 set SwordKnight_R cap spear 50
 
-set Cavalier_R cap sword 60
+set Cavalier_R cap sword 50
 set Cavalier_R cap spear 50
 set Cavalier_R cap sshield 50
 set Cavalier_R cap mshield 50
 
-set Cavalier cap sword 60
+set Cavalier cap sword 50
 set Cavalier cap spear 50
 set Cavalier cap sshield 50
 set Cavalier cap mshield 50
@@ -6793,6 +6795,8 @@ set Warrior skill supporter
 set Wyvern skill supporter
 set WyvernLord skill supporter
 set WyvernLord_R skill supporter
+set LanceKnight skill supporter
+set LanceKnight_R skill supporter
 
 // Swimmer skill on player unit
 set Thaddy skill swimmer
