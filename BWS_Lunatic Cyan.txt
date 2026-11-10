@@ -88,7 +88,7 @@
 
 // MainGauche gives 6 defense, Kris gives 6 magic.
 
-// Parry to all melee no-shield unit (Faye, Faramir, Volo, Kramer, Sherpa, Lynette, Paramythis, Enid)
+// Parry to all no-shield unit (Faye, Faramir, Volo, Kramer, Sherpa, Lynette, Paramythis, Enid, Christine, Sylvis, Esteban)
 
 // KnockAway removed (from Kramer), Arrowbane removed from all player unit.
 
@@ -676,6 +676,8 @@ set sylvis base speed +2
 set sylvis base magic +1
 set sylvis base bow +30
 set sylvis base crossbow +30
+set Sniper cap bow 60
+set Sniper cap crossbow 60
 
 set perceval item 1 Thunder 20
 set perceval item 2 AirBlade 15
@@ -738,9 +740,9 @@ set esteban base defense +0
 set esteban base speed +0
 set esteban base magic +1
 set Hunter cap Bow 60
-set Hunter cap Knife 50
+set Hunter cap Knife 40
 set Hunter cap sword 50
-set HighHunter cap Knife 50
+set HighHunter cap Knife 40
 set HighHunter cap Sword 50
 
 //set faramir item 0 Cutlass+ 101
@@ -1098,7 +1100,7 @@ set christine skill adept
 set christine skill deathmatch
 //set christine skill magicbane
 set christine skill charisma
-//set christine skill parry
+set christine skill parry
 
 set adel skill canto
 set adel skill pursuit 
@@ -1185,7 +1187,7 @@ set sherlock skill adept
 //set sherlock skill sunder
 //set sherlock skill magicbane
 set sherlock skill celerity
-//set sherlock skill parry
+set sherlock skill parry
 set sherlock skill deathmatch
 set sherlock skill counter
 //set sherlock skill critical
@@ -1553,7 +1555,7 @@ set sylvis skill doubleshot
 //set sylvis skill onetwo
 //set sylvis skill magicbane
 set sylvis skill deathmatch
-//set sylvis skill parry
+set sylvis skill parry
 set sylvis skill counter
 set sylvis skill locktouch
 //set sylvis skill critical
@@ -1623,7 +1625,7 @@ set esteban skill vantage
 //set esteban skill sunder
 //set esteban skill magicbane
 set esteban skill deathmatch
-//set esteban skill parry
+set esteban skill parry
 set esteban skill counter
 set esteban skill battlecry
 //set esteban skill critical
@@ -1696,7 +1698,7 @@ set faramir skill evasion
 set faramir skill astra
 //set faramir skill knockaway
 set faramir skill counter
-set faramir skill critical
+//set faramir skill critical
 set faramir skill locktouch
 set faramir skill mug
 set faramir skill mug2
@@ -7520,16 +7522,16 @@ set WyvernLord skill Prepared
 set WyvernLord_R skill Prepared
 
 // Parry to every melee units without Shields
-//set ArrowKnight skill Parry
-//set ArrowKnight_R skill Parry
+set ArrowKnight skill Parry
+set ArrowKnight_R skill Parry
 set Assassin skill Parry
 set Axefighter skill Parry
 set Berserker skill Parry
-//set BowKnight skill Parry
-//set BowKnight_R skill Parry
-//set Bowman skill Parry
-//set BowRider skill Parry
-//set BowRider_R skill Parry
+set BowKnight skill Parry
+set BowKnight_R skill Parry
+set Bowman skill Parry
+set BowRider skill Parry
+set BowRider_R skill Parry
 set Burglar skill Parry
 set Captain skill Parry
 set Chief skill Parry
@@ -7542,28 +7544,28 @@ set FlameFencer skill Parry
 //set GigasKnight skill Parry
 set Grassrunner skill Parry
 set Grassrunner_R skill Parry
-//set Gunner skill Parry
-//set HeavyGunner skill Parry
+set Gunner skill Parry
+set HeavyGunner skill Parry
 set Hero skill Parry
-//set HighHunter skill Parry
+set HighHunter skill Parry
 set Highlander skill Parry
-//set Horseman skill Parry
-//set Horseman_R skill Parry
-//set Hunter skill Parry
-//set Huntress skill Parry
-//set ImperialBowman skill Parry
-//set ImperialBowRider skill Parry
-//set ImperialBowRider_R skill Parry
-//set ImperialGunner skill Parry
-//set ImperialHeavyGunner skill Parry
-//set ImperialMarksman skill Parry
-//set LadyKnight skill Parry
-//set LadyKnight_R skill Parry
+set Horseman skill Parry
+set Horseman_R skill Parry
+set Hunter skill Parry
+set Huntress skill Parry
+set ImperialBowman skill Parry
+set ImperialBowRider skill Parry
+set ImperialBowRider_R skill Parry
+set ImperialGunner skill Parry
+set ImperialHeavyGunner skill Parry
+set ImperialMarksman skill Parry
+set LadyKnight skill Parry
+set LadyKnight_R skill Parry
 set LanceKnight skill Parry
 set LanceKnight2 skill Parry
 set LanceKnight2_R skill Parry
 set LanceKnight_R skill Parry
-//set Marksman skill Parry
+set Marksman skill Parry
 set Mercenary skill Parry
 set Myrmidon skill Parry
 set Outlaw skill Parry
@@ -7571,19 +7573,19 @@ set Pickpocket skill Parry
 set Ranger skill Parry
 set RazeWarMonk skill Parry
 set RazeWarMonk2 skill Parry
-//set Rogue skill Parry
-//set RogueArcher skill Parry
+set Rogue skill Parry
+set RogueArcher skill Parry
 set RogueGuard skill Parry
-//set RogueGunner skill Parry
+set RogueGunner skill Parry
 set RogueWarrior skill Parry
-//set Ruffian skill Parry
-//set Ruffian_R skill Parry
+set Ruffian skill Parry
+set Ruffian_R skill Parry
 set Scoundrel skill Parry
 set ShiningKnight skill Parry
 set ShiningKnight_R skill Parry
 set ShiningKnightParamythis skill Parry
 set ShiningKnightParamythis_R skill Parry
-//set Sniper skill Parry
+set Sniper skill Parry
 set Swordfighter_M skill Parry
 set Swordmaster skill Parry
 set Thief_F skill Parry
