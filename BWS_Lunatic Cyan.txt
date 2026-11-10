@@ -942,10 +942,11 @@ set Derrick item 7 Bag 0
 set Derrick base axe +30
 set Derrick base lshield +20
 set Derrick base hp +10
-set Derrick base strength +5
-set Derrick base defense +0
-set Derrick base speed +3
-set Derrick base magic +6
+//Bonus stat are added on the armorknight class
+//set Derrick base strength +5
+//set Derrick base defense +0
+//set Derrick base speed +3
+//set Derrick base magic +6
 
 set saphira item 1 Bag 0
 set saphira item 2 Rehabilitate 10
@@ -6658,6 +6659,10 @@ set AxeSoldier skill hide
 //set AxeSoldier skill protector
 
 //Derrick Stat
+set ArmorKnight base speed +5
+set ArmorKnight base defense +0
+set ArmorKnight base defense +3
+set ArmorKnight base hp +6
 set ArmorKnight skill throw
 set ArmorKnight skill canto
 set ArmorKnight skill hide
