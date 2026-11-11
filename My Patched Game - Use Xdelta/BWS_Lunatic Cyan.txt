@@ -464,7 +464,8 @@ set Daoud item 7 Bag 0
 set Daoud base axe +30
 set Daoud base sshield +30
 set Daoud base mshield +30
-set Daoud base magic +4
+//set Daoud base magic +4
+set AxeSoldier base hp +4
 
 set enid base sword +40
 set enid base fire +50
@@ -511,11 +512,15 @@ set Marcel item 6 FujinShield 101
 set Marcel item 7 Bag 0
 set Marcel base sword +20
 set Marcel base lshield +20
-set Marcel base hp +9
-set Marcel base strength +2
-set Marcel base defense +2
-set Marcel base speed +0
-set Marcel base magic +5
+//set Marcel base hp +9
+//set Marcel base strength +2
+//set Marcel base defense +2
+//set Marcel base speed +0
+//set Marcel base magic +5
+set Guardian base strength +9
+set Guardian base speed +2
+set Guardian base magic +2
+set Guardian base hp +5
 
 set alvina item 4 LadyMShd 101
 set alvina item 5 Bag 0
@@ -710,11 +715,16 @@ set thaddy growth defense 5
 set thaddy growth speed 30
 set thaddy growth magic 2
 set thaddy base knife +20
-set thaddy base hp +3
-set thaddy base strength +5
-set thaddy base defense +3
-set thaddy base speed +2
-set thaddy base magic +0
+//set thaddy base hp +3
+//set thaddy base strength +5
+//set thaddy base defense +3
+//set thaddy base speed +2
+//set thaddy base magic +0
+set Thief_M base strength +3
+set Thief_M base speed +5
+set Thief_M base magic +3
+set Thief_M base defense +2
+set Thief_M base hp +0
 
 set esteban growth knife 100
 set esteban growth bow 100
@@ -783,11 +793,16 @@ set volo growth magic 10
 set volo growth speed 40
 set volo growth magic 0
 set volo base sword +31
-set volo base hp +1
-set volo base strength +2
-set volo base defense +0
-set volo base speed +0
-set volo base magic +2
+//set volo base hp +1
+//set volo base strength +2
+//set volo base defense +0
+//set volo base speed +0
+//set volo base magic +2
+set Swordfighter_M base strength +1
+set Swordfighter_M base speed +2
+set Swordfighter_M base magic +0
+set Swordfighter_M base defense +0
+set Swordfighter_M base hp +2
 
 //set sherpa growth sword 90
 set Sherpa item 1 Longsword 101
@@ -850,11 +865,16 @@ set axel growth defense 5
 set axel growth magic 2
 set axel growth speed 25
 set axel growth magic 0
-set axel base hp +2
-set axel base strength +2
-set axel base defense +0
-set axel base speed +5
-set axel base magic +2
+//set axel base hp +2
+//set axel base strength +2
+//set axel base defense +0
+//set axel base speed +5
+//set axel base magic +2
+set Pirate base strength +2
+set Pirate base speed +2
+set Pirate base magic +0
+set Pirate base defense +5
+set Pirate base hp +2
 
 
 // Since I can't increase larentia stat on wyvern, I gave her basic horse bonus stat.
@@ -942,10 +962,14 @@ set Derrick item 7 Bag 0
 set Derrick base axe +30
 set Derrick base lshield +20
 set Derrick base hp +10
-set Derrick base strength +5
-set Derrick base defense +0
-set Derrick base speed +3
-set Derrick base magic +6
+//Bonus stat are added on the armorknight class
+//set Derrick base strength +5
+//set Derrick base defense +0
+//set Derrick base speed +3
+//set Derrick base magic +6
+set ArmorKnight base speed +5
+set ArmorKnight base defense +3
+set ArmorKnight base hp +6
 
 set saphira item 1 Bag 0
 set saphira item 2 Rehabilitate 10
@@ -5374,15 +5398,18 @@ set Burglar cap Knife 60
 set Grassrunner cap Knife 60
 set Grassrunner_R cap Knife 60
 
+// Arthur Class
 set SwordKnight cap sshield 50
 set SwordKnight cap mshield 50
 set SwordKnight cap sword 50
 set SwordKnight cap spear 50
 
+// Ennemy Class
 set SwordKnight_R cap sshield 50
 set SwordKnight_R cap mshield 50
 set SwordKnight_R cap sword 50
 set SwordKnight_R cap spear 50
+
 
 set Cavalier_R cap sword 50
 set Cavalier_R cap spear 50
@@ -5662,7 +5689,6 @@ set General skill camouflage
 set General skill hide
 //set General skill protector
 
-// This may be Larentia Stat too
 set WyvernKnight_R base strength +5
 set WyvernKnight_R base hp +5
 set WyvernKnight_R base speed +5
@@ -5673,7 +5699,6 @@ set WyvernKnight_R skill throw
 set WyvernKnight_R skill hide
 set WyvernKnight_R skill adept
 
-// larentia stat
 set WyvernKnight base strength +5
 set WyvernKnight base hp +5
 set WyvernKnight base speed +5
@@ -6470,9 +6495,26 @@ set LanceKnight2_R skill throw
 set Paladin_M skill throw
 set Paladin_M skill hide
 
+// Ennemy Class
+set Paladin_M_R base strength +5
+set Paladin_M_R base defense +5
+set Paladin_M_R base magic +20
+set Paladin_M_R base speed +5
+set Paladin_M_R base hp +5
+set Paladin_M_R skill armsthrift
+set Paladin_M_R skill camouflage
 set Paladin_M_R skill throw
 set Paladin_M_R skill hide
 
+set Paladin_R base strength +5
+set Paladin_R base defense +5
+set Paladin_R base magic +20
+set Paladin_R base speed +5
+set Paladin_R base hp +5
+set Paladin_R skill armsthrift
+set Paladin_R skill camouflage
+set Paladin_R skill throw
+set Paladin_R skill hide
 set Paladin_R skill throw
 set Paladin_R skill hide
 
@@ -6503,7 +6545,11 @@ set AxeSergeant skill hide
 //set AxeSergeant skill protector
 set AxeSergeant skill vengeful
 
-//Will fuck Czene Stat on rankup
+set Grassrunner_R base strength +5
+set Grassrunner_R base defense +5
+set Grassrunner_R base magic +20
+set Grassrunner_R base speed +5
+set Grassrunner_R base hp +5
 set Grassrunner_R skill camouflage
 set Grassrunner_R skill canto
 set Grassrunner_R skill throw
@@ -6585,11 +6631,28 @@ set Swordmaster skill celerity
 set Swordmaster skill vantage
 set Swordmaster skill critical
 
-//set SwordKnight_R skill armsthrift
+// Ennemy class
+set SwordKnight_R base strength +5
+set SwordKnight_R base defense +5
+set SwordKnight_R base magic +20
+set SwordKnight_R base speed +5
+set SwordKnight_R base hp +5
+set SwordKnight_R skill armsthrift
 set SwordKnight_R skill hide
 
+// Arthur Class
 //set SwordKnight skill armsthrift
 set SwordKnight skill hide
+
+// Ennemy Class
+set Cavalier_R base strength +5
+set Cavalier_R base defense +5
+set Cavalier_R base magic +20
+set Cavalier_R base speed +5
+set Cavalier_R base hp +5
+set Cavalier_R skill armsthrift
+set Cavalier_R skill hide
+set Cavalier_R skill throw
 
 set Pirate skill throw
 set Pirate skill hide
@@ -6613,14 +6676,19 @@ set BowKnight skill aim
 set BowKnight skill doubleshot
 set BowKnight skill tripleshot
 
+set Horseman_R base strength +5
+set Horseman_R base defense +5
+set Horseman_R base magic +20
+set Horseman_R base speed +5
+set Horseman_R base hp +5
+set Horseman_R skill armsthrift
+set Horseman_R skill hide
 set Horseman_R skill aim
 set Horseman_R skill hide
 set Horseman_R skill watchful
 set Horseman_R skill doubleshot
 
 set SpearKnight skill hide
-
-set SpearKnight_R skill hide
 
 set Ballistician skill aim
 set Ballistician skill armsthrift
@@ -6686,11 +6754,16 @@ set Mercenary skill climber
 set Guardian skill hide
 //set Guardian skill protector
 
+set LadyKnight_R base strength +5
+set LadyKnight_R base defense +5
+set LadyKnight_R base magic +20
+set LadyKnight_R base speed +5
+set LadyKnight_R base hp +5
+set LadyKnight_R skill armsthrift
+set LadyKnight_R skill hide
 set LadyKnight_R skill aim
-//set LadyKnight_R skill armsthrift
 set LadyKnight_R skill canto
 set LadyKnight_R skill prepared
-set LadyKnight_R skill hide
 set LadyKnight_R skill watchful
 
 set LadyKnight skill aim
@@ -6700,8 +6773,14 @@ set LadyKnight skill prepared
 set LadyKnight skill hide
 set LadyKnight skill watchful
 
+set ArrowKnight_R base strength +5
+set ArrowKnight_R base defense +5
+set ArrowKnight_R base magic +20
+set ArrowKnight_R base speed +5
+set ArrowKnight_R base hp +5
+set ArrowKnight_R skill armsthrift
+set ArrowKnight_R skill hide
 set ArrowKnight_R skill aim
-//set ArrowKnight_R skill armsthrift
 set ArrowKnight_R skill canto
 set ArrowKnight_R skill prepared
 set ArrowKnight_R skill hide
@@ -6714,12 +6793,25 @@ set ArrowKnight skill prepared
 set ArrowKnight skill hide
 set ArrowKnight skill watchful
 
+// Adel Lean Class
 set SpearKnight skill adept
-set SpearKnight_R skill adept
 
-set BowKnight skill adept
-set BowKnight skill doubleshot
-set BowKnight skill tripleshot
+// Ennemy CLass
+set SpearKnight_R base strength +5
+set SpearKnight_R base defense +5
+set SpearKnight_R base magic +20
+set SpearKnight_R base speed +5
+set SpearKnight_R base hp +5
+set SpearKnight_R skill adept
+set SpearKnight_R skill throw
+set SpearKnight_R skill armsthrift
+
+set BowKnight_R base strength +5
+set BowKnight_R base defense +5
+set BowKnight_R base magic +20
+set BowKnight_R base speed +5
+set BowKnight_R base hp +5
+set BowKnight_R skill armsthrift
 set BowKnight_R skill adept
 set BowKnight_R skill doubleshot
 set BowKnight_R skill tripleshot
@@ -6737,8 +6829,14 @@ set FlameFencer skill maim
 set FlameFencer skill hide
 //set FlameFencer skill resistor
 
+// Ennemy Class
+set VeteranKnight_R base strength +5
+set VeteranKnight_R base defense +5
+set VeteranKnight_R base magic +20
+set VeteranKnight_R base speed +5
+set VeteranKnight_R base hp +5
 set VeteranKnight_R skill hide
-//set VeteranKnight_R skill armsthrift
+set VeteranKnight_R skill armsthrift
 
 set VeteranKnight skill hide
 //set VeteranKnight skill armsthrift
@@ -8098,12 +8196,17 @@ set Arrow++ stat might 8
 // Rapier effect = -8 might
 // Hammer Zanbato = -16 might, GreatAxe GreatSword stats were used
 // Mithril and Rare weapon got -2 weight in general.
-// LanceKnight2 & LanceKnight2_R for class for Adel & Leon, not Ennemy Class.
+// LanceKnight2 for class for Adel & Leon, not Ennemy Class.
 // Horse Prize doesn't change. Surely a bug. Money isn't important anyway
 // x2 effect & rounds 2 = +1 weight, x4 effect = +3 weight
 // Unbreakable item effect prevent weapon & shield from randomly break, they only break when durability reach 0, but the repairstone no longer work.
 // I made player character magic stat & growth= 1/2 def stat & growth
 // 31 is the max value for magic_res item stat. 15 is the max value for magic_res item stat
 // Adding too many bag will bug the bag. Your item will start dissapearing. It happened when I had 72 Bags total in game.
+// Arthur class is Swordknight
+// Adel and Lean class is SpearKnight
+// Ward Class is VeteranKnight
+// Elbert Class is Cavalier & Paladin_M 
+// All Class name which finish by "_M" are ennemy class
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
