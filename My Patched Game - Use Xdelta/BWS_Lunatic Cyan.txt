@@ -6593,6 +6593,9 @@ set Swordfighter_M skill watchful
 set Swordfighter_M skill celerity
 set Swordfighter_M skill vantage
 set Swordfighter_M skill critical
+set Swordfighter_M skill climber
+
+set Ranger skill climber
 
 set Swordmaster skill adept
 set Swordmaster skill canto
@@ -6605,6 +6608,7 @@ set Swordmaster skill watchful
 set Swordmaster skill celerity
 set Swordmaster skill vantage
 set Swordmaster skill critical
+set Swordmaster skill climber
 
 // Ennemy class
 set SwordKnight_R base strength +5
@@ -6671,7 +6675,7 @@ set Ballistician skill hide
 set Ballistician skill celerity
 set Ballistician skill watchful
 // set Ballistician skill overwatch - CPU isn't very smart with it
-//set Ballistician skill parry
+set Ballistician skill parry
 
 // thaddy stat
 set Burglar skill camouflage
@@ -7690,6 +7694,21 @@ set WyvernKnightLarentia_R skill Parry
 //set WarMonk skill knockaway
 //set Warrior skill knockaway
 
+// Charisma to Class
+set LadyKnight skill charisma
+set LadyKnight_R skill charisma
+set ArrowKnight skill charisma
+set ArrowKnight_R skill charisma
+set Chevalire skill charisma
+set Paladin_F skill charisma
+set Thief_F skill charisma
+set Grassrunner skill charisma
+set Sniper skill charisma
+set Myrmidon skill charisma
+set WyvernKnightLarentia skill charisma
+set ChosenOne skill charisma
+set ShiningKnightParamythis skill charisma
+
 //Pulverize to units
 set ArmorKnight skill Pulverize
 set Axefighter skill Pulverize
@@ -8185,3 +8204,17 @@ set Arrow++ stat might 8
 // All Class name which finish by "_M" are ennemy class
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
+set WindMage skill scotopic
+set WindSage skill scotopic
+set ThunderMage skill scotopic
+set ThunderSage skill scotopic
+set Fencer skill scotopic
+set FlameFencer skill scotopic
+set RazeMonkOwen skill scotopic
+set Mercenary skill locktouch
+set Hero skill locktouch
+set Highlander skill locktouch
+set Myrmidon skill locktouch
+set Swordfighter_M skill locktouch
+set Swordmaster skill locktouch
+set Ranger skill locktouch
