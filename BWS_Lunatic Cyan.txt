@@ -2509,7 +2509,7 @@ set Bhuj stat level 20
 set Brymranger stat level 20
 set Zweihander stat level 20
 set Fauchard stat level 16
-set Perseid stat level 10
+set Perseid stat level 13
 set RazeEtoile stat level 12
 set Cutlass+ stat level 16
 set Cutlass stat level 12
@@ -4381,14 +4381,14 @@ set ImpKnightSShd stat weight 4
 set LeatherSShd stat cost 540
 set Buckler stat cost 1000
 set PrototypeSShd stat cost 3000
-set Aspis stat cost 1600
-set RoundShield stat cost 2000
+set Aspis stat cost 2000
+set RoundShield stat cost 3000
 set Windshield stat cost 3000
 set FireShield stat cost 3000
 set ThunderShield stat cost 3000
 set LightShield stat cost 3000
 set DarkShield stat cost 7000
-set MetalShield stat cost 3000
+set MetalShield stat cost 6000
 set MithrilShield stat cost 7000
 set Perseid stat cost 8000
 set LadyShield stat cost 3000
@@ -4431,14 +4431,14 @@ set ImpKnightSShd stat accuracy 100
 set LeatherSShd stat durability B
 set Buckler stat durability B
 set PrototypeSShd stat durability B
-set Aspis stat durability B
-set RoundShield stat durability B
+set Aspis stat durability A
+set RoundShield stat durability A
 set Windshield stat durability B
 set FireShield stat durability B
 set ThunderShield stat durability B
 set LightShield stat durability B
 set DarkShield stat durability S
-set MetalShield stat durability A
+set MetalShield stat durability S
 set MithrilShield stat durability S
 set Aiantos stat durability S
 set ShiningShield stat durability S
@@ -4496,7 +4496,7 @@ Set Hestia stat Weight 4
 Set WyrmskinShield stat Weight 3
 Set LadyMShd stat Weight 4
 Set PaladinShield stat Weight 4
-Set BlackShield stat Weight 4
+Set BlackShield stat Weight 6
 
 set LightningShield stat Weight 3
 set RadiantShield stat Weight 3
@@ -4707,14 +4707,14 @@ set GaleShield stat Durability A
 
 set LeatherMShd stat durability B
 set Kiteshield stat durability B
-set SquareShield stat durability B
-set KnightShield stat durability B
+set SquareShield stat durability A
+set KnightShield stat durability A
 set LimitShield stat durability B
 set LadyMShd stat durability B
 set WyrmskinShield Stat durability S
 set Hestia stat durability S
-set PaladinShield stat durability A
-set BlackShield stat durability A
+set PaladinShield stat durability S
+set BlackShield stat durability S
 
 set VerianMShd stat durability B
 set ImpSoldierMShd stat durability B
@@ -4724,14 +4724,14 @@ set ImpKnightMShd stat durability B
 
 set LeatherMShd stat cost 1000
 set Kiteshield stat cost 2000
-set SquareShield stat cost 3000
-set KnightShield stat cost 4000
+set SquareShield stat cost 4000
+set KnightShield stat cost 6000
 set LimitShield stat cost 5000
 set LadyMShd stat cost 5000
 set Hestia stat cost 12000
-set WyrmskinShield stat cost 12000
-set PaladinShield stat cost 7000
-set BlackShield stat cost 8000
+set WyrmskinShield stat cost 13000
+set PaladinShield stat cost 12000
+set BlackShield stat cost 12000
 
 set LightningShield stat cost 7000
 set RadiantShield stat cost 7000
