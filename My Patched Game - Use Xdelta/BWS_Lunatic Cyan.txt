@@ -5135,7 +5135,7 @@ set FireRing stat holy_res 10
 set FireRing stat dark_res 10
 set FireRing stat cost 3600
 
-set HealthCharm stat hit 10
+set HealthCharm stat hit 15
 //set HealthCharm stat speed 1
 //set HealthCharm stat avoid 3
 //set HealthCharm stat fire_res 10
@@ -5145,7 +5145,7 @@ set HealthCharm stat hit 10
 //set HealthCharm stat dark_res 10
 set HealthCharm stat cost 5000
 
-set MiracleCharm stat hit 10
+set MiracleCharm stat hit 15
 //set MiracleCharm stat speed 1
 //set MiracleCharm stat avoid 3
 //set MiracleCharm stat fire_res 10
@@ -5155,7 +5155,7 @@ set MiracleCharm stat hit 10
 //set MiracleCharm stat dark_res 10
 set MiracleCharm stat cost 5000
 
-set FortuneCharm stat hit 10
+set FortuneCharm stat hit 15
 //set FortuneCharm stat speed 1
 //set FortuneCharm stat avoid 3
 //set FortuneCharm stat fire_res 10
@@ -5163,7 +5163,7 @@ set FortuneCharm stat hit 10
 //set FortuneCharm stat wind_res 10
 //set FortuneCharm stat holy_res 10
 //set FortuneCharm stat dark_res 10
-set FortuneCharm stat cost 3600
+set FortuneCharm stat cost 5000
 
 set PeerlessBrace stat strength 1
 set PeerlessBrace stat defense 1
@@ -5196,7 +5196,7 @@ set DjinnRing stat magic 14
 //set DjinnRing stat dark_res 5
 set DjinnRing stat cost 5000
 
-set ThiefsCharm stat hit 10
+set ThiefsCharm stat hit 15
 set ThiefsCharm stat speed 0
 //set ThiefsCharm stat avoid 3
 //set ThiefsCharm stat fire_res 5
@@ -5204,7 +5204,7 @@ set ThiefsCharm stat speed 0
 //set ThiefsCharm stat wind_res 5
 //set ThiefsCharm stat holy_res 5
 //set ThiefsCharm stat dark_res 5
-set ThiefsCharm stat cost 3600
+set ThiefsCharm stat cost 5000
 
 set DuskCharm stat avoid 20
 //set DuskCharm stat hit 5
@@ -8163,52 +8163,52 @@ set Marcel skill deathmatch
 set Derrick skill deathmatch
 
 set Tico stat uses 12
-set ThinHorse stat speed 2
+set ThinHorse stat speed 1
 set ThinHorse stat strength 1
 set ThinHorse stat defense 1
 set ThinHorse stat magic 1
-set PlainHorse stat speed 2
+set PlainHorse stat speed 1
 set PlainHorse stat strength 1
 set PlainHorse stat defense 1
 set PlainHorse stat magic 1
-set SpryHorse stat speed 2
+set SpryHorse stat speed 1
 set SpryHorse stat strength 1
 set SpryHorse stat defense 1
 set SpryHorse stat magic 1
-set ToughHorse stat speed 2
+set ToughHorse stat speed 1
 set ToughHorse stat strength 1
 set ToughHorse stat defense 1
 set ToughHorse stat magic 1
-set StrongHorse stat speed 2
+set StrongHorse stat speed 1
 set StrongHorse stat strength 1
 set StrongHorse stat defense 1
 set StrongHorse stat magic 1
-set SinonStallion stat speed 4
+set SinonStallion stat speed 3
 set SinonStallion stat strength 1
 set SinonStallion stat defense 1
 set SinonStallion stat magic 1
-set LigaDestrier stat speed 2
-set LigaDestrier stat strength 2
+set LigaDestrier stat speed 1
+set LigaDestrier stat strength 3
 set LigaDestrier stat defense 1
 set LigaDestrier stat magic 1
-set LigaCourser stat speed 2
+set LigaCourser stat speed 1
 set LigaCourser stat strength 1
 set LigaCourser stat defense 1
 set LigaCourser stat magic 1
-set MorachHorse stat speed 2
+set MorachHorse stat speed 1
 set MorachHorse stat strength 1
-set MorachHorse stat defense 4
+set MorachHorse stat defense 3
 set MorachHorse stat magic 1
-set IshsCourser stat speed 2
+set IshsCourser stat speed 1
 set IshsCourser stat strength 1
 set IshsCourser stat defense 1
 set IshsCourser stat magic 1
-set IshsStallion stat speed 7
+set IshsStallion stat speed 4
 set IshsStallion stat strength 1
 set IshsStallion stat defense 1
 set IshsStallion stat magic 1
-set Tico stat speed 7
-set Tico stat strength 2
+set Tico stat speed 4
+set Tico stat strength 1
 set Tico stat defense 1
 set Tico stat magic 1
 
