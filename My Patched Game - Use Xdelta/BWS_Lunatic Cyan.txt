@@ -4853,21 +4853,21 @@ set RaijinShield stat might 21
 set AmaterasuShield stat might 26
 set GeneralShield stat might 26
 
-set LeatherLShd stat cost 1500
-set WideShield stat cost 2000
-set IronShield stat cost 4000
-set Greatshield stat cost 5000
-set KojinShield stat cost 5000
-set FujinShield stat cost 5000
-set RaijinShield stat cost 5000
-set GeneralShield stat cost 12000
-set AmaterasuShield stat cost 12000
+set LeatherLShd stat cost 3000
+set WideShield stat cost 4000
+set IronShield stat cost 8000
+set Greatshield stat cost 10000
+set KojinShield stat cost 9000
+set FujinShield stat cost 9000
+set RaijinShield stat cost 9000
+set GeneralShield stat cost 22000
+set AmaterasuShield stat cost 22000
 
-set ImpSoldierLShd stat cost 1500
-set ImpSoldierLShd+ stat cost 2000
-set VerianLShd stat cost 1500
-set ImpOfficerLShd stat cost 3000
-set ImpKnightLShd stat cost 4000
+set ImpSoldierLShd stat cost 3000
+set ImpSoldierLShd+ stat cost 4000
+set VerianLShd stat cost 3000
+set ImpOfficerLShd stat cost 6000
+set ImpKnightLShd stat cost 7000
 
 Set LeatherLShd Stat Weight 5
 Set WideShield Stat Weight 6
