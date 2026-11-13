@@ -2500,26 +2500,26 @@ set PrototypeScorpio stat min-range 1
 set Scorpio stat min-range 1
 
 // prfs
-set Pascanion2 stat level 16
-set Pascanion stat level 16
+set Pascanion2 stat level 20
+set Pascanion stat level 20
 
-set Bhuj stat level 16
-set Brymranger stat level 16
-set Zweihander stat level 16
+set Bhuj stat level 20
+set Brymranger stat level 20
+set Zweihander stat level 20
 set Fauchard stat level 16
 set Perseid stat level 10
-set RazeEtoile stat level 8
+set RazeEtoile stat level 12
 set Cutlass+ stat level 16
 set Cutlass stat level 12
-set Balmung stat level 16
-set Balmung2 stat level 16
-set Balmung3 stat level 16
-set Vajra stat level 16
-set Vritra stat level 16
-set Hawkeye stat level 16
-set SereniaBow stat level 16
-set Gram stat level 16
-set Nothung stat level 16
+set Balmung stat level 20
+set Balmung2 stat level 20
+set Balmung3 stat level 20
+set Vajra stat level 20
+set Vritra stat level 20
+set Hawkeye stat level 20
+set SereniaBow stat level 20
+set Gram stat level 20
+set Nothung stat level 20
 
 // magic
 
@@ -2661,7 +2661,7 @@ set Escape stat level 8
 set Nosferatu stat max-range 2
 set Nosferatu+ stat max-range 2
 
-set Starlight stat level 15
+set Starlight stat level 16
 set Rehabilitate stat level 1
 
 set AirBlade effect injure-rate 8
@@ -2745,7 +2745,7 @@ set AssassinsKnife stat crit 70
 set AssassinsKnife stat accuracy 60
 set AssassinsKnife stat cost 2000
 set AssassinsKnife stat durability C
-set AssassinsKnife stat level 16
+set AssassinsKnife stat level 20
 set AssassinsKnife stat might 2
 set AssassinsKnife stat weight 8
 set BloodKnife effect dark-damage 10
@@ -2753,7 +2753,7 @@ set BloodKnife effect nosferatu
 set BloodKnife stat accuracy 40
 set BloodKnife stat cost 5000
 set BloodKnife stat crit 0
-set BloodKnife stat level 8
+set BloodKnife stat level 12
 set BloodKnife stat might 0
 set BloodKnife stat weight 4
 set Bloodknife stat durability D
@@ -2816,7 +2816,7 @@ set MainGauche stat might 0
 set MainGauche stat weight 7
 set Maingauche stat accuracy 30
 set Maingauche stat durability C
-set Maingauche stat level 8
+set Maingauche stat level 12
 set PoisonKnife stat crit 0
 set PoisonKnife stat might 2
 set PoisonKnife stat accuracy 30
@@ -2841,7 +2841,7 @@ set SleepKnife stat might 2
 set SleepKnife stat accuracy 20
 set StunKnife stat crit 0
 set StunKnife stat durability C
-set StunKnife stat level 8
+set StunKnife stat level 12
 set StunKnife stat might 6
 set StunKnife stat weight 8
 set Stunknife effect disarm-rate 100
@@ -2853,7 +2853,7 @@ set Swordbreaker effect disarm-rate 100
 set Swordbreaker stat accuracy 20
 set Swordbreaker stat cost 2800
 set Swordbreaker stat durability C
-set Swordbreaker stat level 8
+set Swordbreaker stat level 12
 set Swordbreaker stat might 6
 set Swordbreaker stat weight 8
 set TempestKnife effect cripple-rate 16
@@ -3027,7 +3027,7 @@ set KillingEdge stat weight 7
 set KnightSword stat Cost 2600
 //set KnightSword stat rounds 0
 //set KnightSword effect x2
-set KnightSword stat level 8
+set KnightSword stat level 12
 set KnightSword stat Durability C
 set KnightSword stat accuracy 60
 set KnightSword stat crit 0
@@ -3052,6 +3052,7 @@ set Longsword stat Cost 1200
 set Longsword stat Durability C
 set Longsword stat crit 0
 set Longsword stat weight 5
+set Longsword stat level 1
 set MithrilSword stat Cost 3000
 set MithrilSword stat Durability B
 set MithrilSword stat crit 0
@@ -3104,7 +3105,7 @@ set Scimitar+ stat Cost 1800
 set Scimitar+ stat Durability C
 set Scimitar+ stat accuracy 60
 set Scimitar+ stat crit 0
-set Scimitar+ stat level 1
+set Scimitar+ stat level 4
 set Scimitar+ stat might 9
 set Scimitar+ stat weight 5
 set Shortsword stat Cost 1000
@@ -3217,7 +3218,7 @@ set Zanbato stat accuracy 50
 set Zanbato stat cost 3800
 set Zanbato stat crit 0
 set Zanbato stat durability C
-set Zanbato stat level 12
+set Zanbato stat level 16
 set Zanbato stat might 5
 set Zanbato stat weight 11
 set Zweihander stat cost 6600
@@ -3431,7 +3432,7 @@ set GoreFork stat cost 1600
 set GoreFork stat crit 0
 set GoreFork stat durability E
 set GoreFork stat hex 1
-set GoreFork stat level 1
+set GoreFork stat level 4
 set GoreFork stat might 8
 set GoreFork stat weight 6
 set MilitaryFork effect cripple-rate 8
@@ -3545,7 +3546,7 @@ set BreakerAxe stat Weight 8
 set BreakerAxe stat accuracy 30
 set BreakerAxe stat crit 0
 set BreakerAxe stat durability D
-set BreakerAxe stat level 8
+set BreakerAxe stat level 12
 set BreakerAxe stat might 14
 set BreakerAxe stat cost 2400
 set BroadAxe stat cost 1200
@@ -3586,7 +3587,7 @@ set GigasAxe stat cost 4000
 set GigasAxe stat crit 0
 set GigasAxe stat defense 10
 set GigasAxe stat durability D
-set GigasAxe stat level 16
+set GigasAxe stat level 20
 set GigasAxe stat might 16
 set GlacierAxe effect cripple-rate 8
 set GlacierAxe effect wind-damage 15
@@ -3619,7 +3620,7 @@ set Hammer stat Weight 12
 set Hammer stat accuracy 40
 set Hammer stat crit 0
 set Hammer stat durability D
-set Hammer stat level 12
+set Hammer stat level 16
 set Hammer stat might 6
 set HandAxe stat Weight 6
 set HandAxe stat accuracy 40
@@ -3717,7 +3718,7 @@ set Shieldaxe stat Weight 14
 set Shieldaxe stat accuracy 30
 set Shieldaxe stat crit 0
 set Shieldaxe stat defense 10
-set Shieldaxe stat level 16
+set Shieldaxe stat level 20
 set Shieldaxe stat might 10
 set Tabarzin stat cost 4000
 set Tabarzin stat crit 0
@@ -3939,14 +3940,14 @@ set SwiftBow stat cost 1000
 set SwiftBow stat crit 0
 set SwiftBow stat durability D
 set SwiftBow stat might 1
-set SwiftBow stat level 1
+set SwiftBow stat level 4
 set TripleFireBow stat Weight 7
 set TripleFireBow stat accuracy 50
 set TripleFireBow stat cost 1000
 set TripleFireBow stat crit 0
 set TripleFireBow stat durability D
 set TripleFireBow stat might 1
-set TripleFireBow stat level 1
+set TripleFireBow stat level 4
 set VerianBow stat Weight 7
 set VerianBow stat accuracy 50
 set VerianBow stat cost 800
@@ -4092,6 +4093,7 @@ set BronzeBallista stat might 15
 set BronzeBallista stat speed 40
 set BronzeBallista stat weight 20
 set BronzeBallista stat durability C
+set BronzeBallista stat level 1
 set IronBallista stat accuracy 70
 set IronBallista stat cost 4000
 set IronBallista stat crit 0
@@ -4101,6 +4103,7 @@ set IronBallista stat might 21
 set IronBallista stat speed 40
 set IronBallista stat weight 20
 set IronBallista stat durability C
+set IronBallista stat level 8
 set New-TypeBolt stat accuracy 10
 set New-TypeBolt stat might 30
 set New-TypeBolt effect injure-rate 100
@@ -4144,11 +4147,12 @@ set Scorpio stat might 15
 set Scorpio stat speed 40
 set Scorpio stat weight 15
 set Scorpio stat durability C
+set Scorpio stat level 1
 set Springald stat accuracy 60
 set Springald stat cost 7000
 set Springald stat crit 0
 set Springald stat defense 10
-set Springald stat level 15
+set Springald stat level 16
 set Springald stat magic 10
 set Springald stat might 33
 set Springald stat speed 40
@@ -4161,7 +4165,7 @@ set SteelBallista stat accuracy 70
 set SteelBallista stat cost 5000
 set SteelBallista stat crit 0 
 set SteelBallista stat defense 10
-set SteelBallista stat level 10
+set SteelBallista stat level 12
 set SteelBallista stat magic 10
 set SteelBallista stat might 27
 set SteelBallista stat speed 40
@@ -6199,7 +6203,7 @@ set Scoundrel skill iaido
 set Scoundrel skill camouflage
 set Scoundrel skill commander
 //set Scoundrel skill protector
-set Scoundrel skill sunder
+//set Scoundrel skill sunder
 //set Scoundrel skill hide
 set Scoundrel skill charisma
 //set Scoundrel skill knockaway
@@ -7541,6 +7545,43 @@ set saphira skill pursuit
 set lynette skill pursuit
 set paramythis skill pursuit
 set izerna skill pursuit
+
+//critical to Classs
+set Assassin skill critical
+set Burglar skill critical
+set Captain skill critical
+set DarkMaster skill critical
+set FailedPoet skill critical
+set Grassrunner skill critical
+set Grassrunner_R skill critical
+set Myrmidon skill critical
+set Paladin_F skill critical
+set Paladin_F_R skill critical
+set Pickpocket skill critical
+set Ranger skill critical
+set ShiningKnight skill critical
+set ShiningKnight_R skill critical
+set ShiningKnightParamythis skill critical
+set ShiningKnightParamythis_R skill critical
+set Swordfighter_M skill critical
+set Swordmaster skill critical
+set Thief_F skill critical
+set Thief_M skill critical
+
+//vengeful to class
+set Axefighter skill vengeful
+set ArmorKnight skill vengeful
+set AxeGuard skill vengeful
+set Axeman skill vengeful
+set AxeSergeant skill vengeful
+set AxeSoldier skill vengeful
+set Bandit skill vengeful
+set Barbarian skill vengeful
+set Berserker skill vengeful
+set GigasKnight skill vengeful
+set ImperialAxeman skill vengeful
+set Pirate skill vengeful
+set SnowBandit skill vengeful
 
 //Prepared to everyone
 set Acolyte skill Prepared
