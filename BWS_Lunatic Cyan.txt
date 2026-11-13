@@ -4755,27 +4755,27 @@ set ShadowShield stat level 1
 set BlazingShield stat level 1
 //set GaleShield stat level 12
 set GaleShield stat level 1
-set Kiteshield stat level 4
-set SquareShield stat level 8
-set KnightShield stat level 12
-set LimitShield stat level 8
-set PaladinShield stat level 16
-//set Hestia stat level 16
+set Kiteshield stat level 5
+set SquareShield stat level 10
+set KnightShield stat level 15
+set LimitShield stat level 15
+set PaladinShield stat level 20
+//set Hestia stat level 20
 set Hestia stat level 1
-set BlackShield stat level 16
-//set WyrmskinShield stat level 16
+set BlackShield stat level 20
+//set WyrmskinShield stat level 20
 set WyrmskinShield stat level 1
 
 Set VerianMShd stat level 1
 Set ImpSoldierMShd stat level 1
-Set ImpSoldierMShd+ stat level 8
-Set ImpOfficerMShd stat level 12
-Set ImpKnightMShd stat level 16
+Set ImpSoldierMShd+ stat level 5
+Set ImpOfficerMShd stat level 10
+Set ImpKnightMShd stat level 15
 
 // lshield stuff
 
-set AmaterasuShield stat level 16
-set GeneralShield stat level 16
+set AmaterasuShield stat level 20
+set GeneralShield stat level 20
 //set KojinShield stat level 12
 //set FujinShield stat level 12
 //set RaijinShield stat level 12
@@ -4787,9 +4787,9 @@ set VerianLShd stat level 1
 set LeatherLShd stat level 1
 set WideShield stat level 5
 set IronShield stat level 10
-set Greatshield stat level 16
+set Greatshield stat level 15
 
-set ImpKnightLShd stat level 16
+set ImpKnightLShd stat level 15
 set ImpOfficerLShd stat level 10
 set ImpSoldierLShd stat level 1
 set ImpSoldierLShd+ stat level 5
