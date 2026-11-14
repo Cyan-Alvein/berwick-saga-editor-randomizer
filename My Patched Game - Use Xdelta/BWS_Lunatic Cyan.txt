@@ -112,6 +112,7 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// "_R" are for when the unit is mounted. Christine unmounted is ArrowKnight, Christine mounted is ArrowKnight_R
 set ArmorKnight attribute movement knight
 set GigasKnight attribute movement knight
 set General attribute movement knight
@@ -124,6 +125,12 @@ set Barbarian attribute movement lt-infantry
 set Bandit attribute movement lt-infantry
 set Hunter attribute movement thief
 set HighHunter attribute movement thief
+set LanceKnight2_R attribute movement lt-cavalry
+set LanceKnight2 attribute movement infantry
+set BowKnight attribute movement lt-infantry
+set WyvernKnightLarentia attribute movement infantry
+set ArrowKnight_R attribute movement Lt-cavalry
+set ArrowKnight attribute movement infantry
 
 //this will restore 2 points on repairstone each turn. I fixed all item price so it is no longer needed.
 //set Repairstone effect restore-uses
@@ -213,7 +220,8 @@ set reese growth mshield 100
 set reese base mshield 40
 set Lord_R cap sshield 60
 set Lord_R cap mshield 50
-set Lord_R cap sword 60
+set Lord_R cap sword 50
+set Lord cap sword 60
 set Lord cap sshield 60
 set Lord cap mshield 50
 set KnightLord cap mshield 50
@@ -244,8 +252,8 @@ set ward growth speed 20
 set ward base mshield +20
 set ward base sword +30
 set ward base spear +30
-set VeteranKnight cap spear 50
-set VeteranKnight cap sword 50
+set VeteranKnight cap spear 60
+set VeteranKnight cap sword 60
 set VeteranKnight_R cap spear 50
 set VeteranKnight_R cap sword 50
 set ward base hp +5
@@ -280,17 +288,19 @@ set elbert base magic +4
 set Paladin_R cap mshield 50
 set Paladin_R cap spear 50
 set Paladin cap mshield 50
-set Paladin cap spear 50
+set Paladin cap spear 60
+set Paladin cap sword 60
 set Paladin_F_R cap mshield 50
 set Paladin_F_R cap spear 50
 set Paladin_F cap mshield 50
-set Paladin_F cap spear 50
+set Paladin_F cap spear 60
+set Paladin_F cap sword 60
 set Paladin_M_R cap mshield 50
 set Paladin_M_R cap spear 50
 set Paladin_M_R cap sword 50
 set Paladin_M cap mshield 50
-set Paladin_M cap spear 50
-set Paladin_M cap sword 50
+set Paladin_M cap spear 60
+set Paladin_M cap sword 60
 
 set LadyKnight_R cap bow 50
 set LadyKnight_R cap crossbow 50
@@ -298,10 +308,12 @@ set LadyKnight_R cap sword 40
 set LadyKnight cap bow 50
 set LadyKnight cap crossbow 50
 set LadyKnight cap sword 40
-set ArrowKnight cap sword 40
-set ArrowKnight cap crossbow 50
-set ArrowKnight_R cap sword 40
+set ArrowKnight cap sword 50
+set ArrowKnight cap crossbow 60
+set ArrowKnight cap bow 60
+set ArrowKnight_R cap sword 50
 set ArrowKnight_R cap crossbow 50
+set ArrowKnight_R cap bow 50
 set christine item 0 IronCrossbow 101
 set christine item 1 Bag 0
 //set christine item 2 Don't Touch Bag 4 Vulnerary
@@ -465,6 +477,7 @@ set Daoud base axe +30
 set Daoud base sshield +30
 set Daoud base mshield +30
 set Daoud base magic +4
+set AxeSergeant cap Axe 60
 
 set enid base sword +40
 set enid base fire +50
@@ -486,10 +499,10 @@ set Enid growth speed 30
 set Enid growth mind 60
 set FlameFencer cap fire 60
 set FlameFencer cap thunder 50
-set FlameFencer cap sword 40
+set FlameFencer cap sword 50
 set Fencer cap fire 60
 set Fencer cap thunder 50
-set Fencer cap sword 40
+set Fencer cap sword 50
 
 set marcel growth sword 100
 set marcel growth Lshield 100
@@ -565,8 +578,8 @@ set ruby base mshield +40
 set Chevalire cap mshield 50
 set Chevalire_R cap mshield 50
 set Chevalire cap sshield 50
-set Chevalire cap Spear 50
-set Chevalire cap Sword 50
+set Chevalire cap Spear 60
+set Chevalire cap Sword 60
 set Chevalire_R cap sshield 50
 set Chevalire_R cap Spear 50
 set Chevalire_R cap Sword 50
@@ -880,10 +893,14 @@ set larentia base strength +3
 set larentia base defense +4
 set larentia base speed +5
 set larentia base magic +3
-set WyvernKnightLarentia_R cap Spear 60
+set WyvernKnightLarentia_R cap Spear 50
+set WyvernKnightLarentia_R cap sword 50
 set WyvernKnightLarentia cap Spear 60
+set WyvernKnightLarentia cap Sword 60
 set WyvernKnight cap Spear 60
-set WyvernKnight_R cap Spear 60
+set WyvernKnight cap Sword 60
+set WyvernKnight_R cap Spear 50
+set WyvernKnight_R cap Sword 50
 
 set Owen item 5 Bag 0
 set Owen item 6 Bag 0
@@ -1011,8 +1028,10 @@ set reese skill commander
 set reese skill expert
 set reese skill flourish
 set reese skill guard
-set reese skill horselover
-set reese skill horseswap 
+set Lord_R skill horselover
+set Lord_R skill horseswap 
+set KnightLord_R skill horselover
+set KnightLord_R skill horseswap 
 set reese skill hurry
 set reese skill mercy
 unset set reese skill robust2
@@ -1030,8 +1049,8 @@ set reese skill critical
 set ward skill canto
 set ward skill flourish
 set ward skill guard
-set ward skill horselover
-set ward skill horseswap
+set VeteranKnight_R skill horselover
+set VeteranKnight_R skill horseswap
 set ward skill hurry
 set ward skill mercy
 set ward skill prepared
@@ -1053,8 +1072,12 @@ unset elbert skill arrowbane
 set elbert skill canto
 set elbert skill flourish
 set elbert skill guard 
-set elbert skill horselover
-set elbert skill horseswap
+set Cavalier_R skill horselover
+set Cavalier_R skill horseswap
+set Paladin_M_R skill horselover
+set Paladin_M_R skill horseswap
+set Paladin_R skill horselover
+set Paladin_R skill horseswap
 set elbert skill hurry
 set elbert skill mercy
 set elbert skill prepared
@@ -1076,8 +1099,10 @@ unset christine skill armsthrift
 set christine skill canto
 set christine skill deadeye 
 set christine skill flourish
-set christine skill horselover
-set christine skill horseswap
+set LadyKnight_R skill horselover
+set LadyKnight_R skill horseswap
+set ArrowKnight_R skill horselover
+set ArrowKnight_R skill horseswap
 set christine skill hurry
 set christine skill mercy
 set christine skill overwatch 
@@ -1107,8 +1132,10 @@ set adel skill adept
 set adel skill parry
 set adel skill flourish
 set adel skill guard
-set adel skill horselover
-set adel skill horseswap 
+set SpearKnight_R skill horselover
+set SpearKnight_R skill horseswap 
+set LanceKnight2_R skill horselover
+set LanceKnight2_R skill horseswap 
 set adel skill hurry
 set adel skill lance
 set adel skill mercy
@@ -1136,8 +1163,6 @@ set leon skill deathmatch
 set leon skill desperation
 set leon skill flourish
 set leon skill guard
-set leon skill horselover
-set leon skill horseswap 
 set leon skill hurry
 set leon skill lance
 set leon skill mercy
@@ -1163,8 +1188,10 @@ set sherlock skill aim
 set sherlock skill canto
 set sherlock skill deadeye 
 set sherlock skill flourish
-set sherlock skill horselover
-set sherlock skill horseswap
+set Horseman_R skill horselover
+set Horseman_R skill horseswap
+set BowKnight_R skill horselover
+set BowKnight_R skill horseswap
 set sherlock skill hurry
 set sherlock skill mercy
 unset sherlock skill onetwo
@@ -1376,8 +1403,8 @@ set alvina skill adept
 set alvina skill canto
 set alvina skill flourish
 set alvina skill guard
-set alvina skill horselover
-set alvina skill horseswap
+set Paladin_F_R skill horselover
+set Paladin_F_R skill horseswap
 set alvina skill hurry
 set alvina skill mercy
 set alvina skill prepared
@@ -1399,8 +1426,8 @@ set ruby skill vantage
 set ruby skill canto
 set ruby skill flourish
 set ruby skill guard
-set ruby skill horselover
-set ruby skill horseswap 
+set Chevalire_R skill horselover
+set Chevalire_R skill horseswap 
 set ruby skill hurry
 set ruby skill mercy
 set ruby skill paragon
@@ -1424,8 +1451,6 @@ set arthur skill desperation
 //set arthur skill shieldfaire
 set arthur skill flourish
 set arthur skill guard
-set arthur skill horselover
-set arthur skill horseswap
 set arthur skill hurry
 set arthur skill mercy
 set arthur skill prepared
@@ -5292,13 +5317,13 @@ set ThorsScale stat cost 10000
 ///////////////////////////Unit Weapon cap/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 set ShiningKnight cap holy 50
-set ShiningKnight_R cap holy 50
+set ShiningKnight_R cap holy 40
 set ShiningKnightParamythis cap holy 50
-set ShiningKnightParamythis_R cap holy 50
+set ShiningKnightParamythis_R cap holy 40
 set ShiningKnight cap sword 60
-set ShiningKnight_R cap sword 60
+set ShiningKnight_R cap sword 50
 set ShiningKnightParamythis cap sword 60
-set ShiningKnightParamythis_R cap sword 60
+set ShiningKnightParamythis_R cap sword 50
 
 set Acolyte cap holy 60
 
@@ -5325,19 +5350,19 @@ set Axefighter cap Axe 60
 
 set LanceKnight2 cap spear 60
 set LanceKnight2 cap sshield 50
-set LanceKnight2_R cap spear 60
+set LanceKnight2_R cap spear 50
 set LanceKnight2_R cap sshield 50
 
-set Guardian cap Sword 50
+set Guardian cap Sword 60
 set Guardian cap lshield 50
 
 set ArmorKnight cap lshield 60
-set ArmorKnight cap Axe 50
+set ArmorKnight cap Axe 60
 
 set pirate cap Axe 60
 
 set Horseman cap Bow 60
-set Horseman_R cap Bow 60
+set Horseman_R cap Bow 50
 
 set Cleric cap Holy 60
 
@@ -5349,7 +5374,7 @@ set Swordfighter_M cap Sword 60
 
 set SpearKnight cap spear 60
 set SpearKnight cap sshield 50
-set SpearKnight_R cap spear 60
+set SpearKnight_R cap spear 50
 set SpearKnight_R cap sshield 50
 
 set SpearRider_R cap spear 50
@@ -5357,14 +5382,14 @@ set SpearRider_R cap sshield 50
 set SpearRider cap spear 60
 set SpearRider cap sshield 50
 
-set DukeKnight cap sword 50
-set DukeKnight cap spear 50
+set DukeKnight cap sword 60
+set DukeKnight cap spear 60
 set DukeKnight_R cap sword 50
 set DukeKnight_R cap spear 50
 set Duke cap sword 50
 set Duke cap spear 50
 
-set AxeSoldier cap axe 50
+set AxeSoldier cap axe 60
 set AxeSoldier cap sshield 50
 set AxeSoldier cap mshield 50
 
@@ -5376,28 +5401,26 @@ set Thief_M cap Knife 60
 set Thief_F cap Knife 60
 set Burglar cap Knife 60
 set Grassrunner cap Knife 60
-set Grassrunner_R cap Knife 60
+set Grassrunner_R cap Knife 50
 
 // Arthur Class
 set SwordKnight cap sshield 50
 set SwordKnight cap mshield 50
-set SwordKnight cap sword 50
-set SwordKnight cap spear 50
+set SwordKnight cap sword 60
+set SwordKnight cap spear 60
 
-// Ennemy Class
 set SwordKnight_R cap sshield 50
 set SwordKnight_R cap mshield 50
 set SwordKnight_R cap sword 50
 set SwordKnight_R cap spear 50
-
 
 set Cavalier_R cap sword 50
 set Cavalier_R cap spear 50
 set Cavalier_R cap sshield 50
 set Cavalier_R cap mshield 50
 
-set Cavalier cap sword 50
-set Cavalier cap spear 50
+set Cavalier cap sword 60
+set Cavalier cap spear 60
 set Cavalier cap sshield 50
 set Cavalier cap mshield 50
 
@@ -5522,17 +5545,6 @@ set Farmer skill throw
 set Farmer skill camouflage
 set Farmer skill adept
 set Farmer skill hide
-
-set VerianKnight_R base strength +5
-set VerianKnight_R base defense +5
-set VerianKnight_R base magic +20
-set VerianKnight_R base speed +5
-set VerianKnight_R base hp +5
-set VerianKnight_R skill canto
-set VerianKnight_R skill armsthrift
-set VerianKnight_R skill throw
-set VerianKnight_R skill camouflage
-set VerianKnight_R skill hide
 
 set VerianKnight base strength +5
 set VerianKnight base defense +5
@@ -6475,29 +6487,6 @@ set LanceKnight2_R skill throw
 set Paladin_M skill throw
 set Paladin_M skill hide
 
-// Ennemy Class
-set Paladin_M_R base strength +5
-set Paladin_M_R base defense +5
-set Paladin_M_R base magic +20
-set Paladin_M_R base speed +5
-set Paladin_M_R base hp +5
-set Paladin_M_R skill armsthrift
-set Paladin_M_R skill camouflage
-set Paladin_M_R skill throw
-set Paladin_M_R skill hide
-
-set Paladin_R base strength +5
-set Paladin_R base defense +5
-set Paladin_R base magic +20
-set Paladin_R base speed +5
-set Paladin_R base hp +5
-set Paladin_R skill armsthrift
-set Paladin_R skill camouflage
-set Paladin_R skill throw
-set Paladin_R skill hide
-set Paladin_R skill throw
-set Paladin_R skill hide
-
 set Paladin skill throw
 set Paladin skill hide
 
@@ -6524,20 +6513,6 @@ set AxeSergeant skill throw
 set AxeSergeant skill hide
 //set AxeSergeant skill protector
 set AxeSergeant skill vengeful
-
-set Grassrunner_R base strength +5
-set Grassrunner_R base defense +5
-set Grassrunner_R base magic +20
-set Grassrunner_R base speed +5
-set Grassrunner_R base hp +5
-set Grassrunner_R skill camouflage
-set Grassrunner_R skill canto
-set Grassrunner_R skill throw
-set Grassrunner_R skill hide
-set Grassrunner_R skill watchful
-set Grassrunner_R skill critical
-set Grassrunner_R skill adept
-set Grassrunner_R skill vantage
 
 //Will fuck Czene Stat on rankup
 set Grassrunner skill camouflage
@@ -6615,28 +6590,9 @@ set Swordmaster skill vantage
 set Swordmaster skill critical
 set Swordmaster skill climber
 
-// Ennemy class
-set SwordKnight_R base strength +5
-set SwordKnight_R base defense +5
-set SwordKnight_R base magic +20
-set SwordKnight_R base speed +5
-set SwordKnight_R base hp +5
-set SwordKnight_R skill armsthrift
-set SwordKnight_R skill hide
-
 // Arthur Class
 //set SwordKnight skill armsthrift
 set SwordKnight skill hide
-
-// Ennemy Class
-set Cavalier_R base strength +5
-set Cavalier_R base defense +5
-set Cavalier_R base magic +20
-set Cavalier_R base speed +5
-set Cavalier_R base hp +5
-set Cavalier_R skill armsthrift
-set Cavalier_R skill hide
-set Cavalier_R skill throw
 
 set Pirate skill throw
 set Pirate skill hide
@@ -6659,18 +6615,6 @@ set BowKnight skill watchful
 set BowKnight skill aim
 set BowKnight skill doubleshot
 set BowKnight skill tripleshot
-
-set Horseman_R base strength +5
-set Horseman_R base defense +5
-set Horseman_R base magic +20
-set Horseman_R base speed +5
-set Horseman_R base hp +5
-set Horseman_R skill armsthrift
-set Horseman_R skill hide
-set Horseman_R skill aim
-set Horseman_R skill hide
-set Horseman_R skill watchful
-set Horseman_R skill doubleshot
 
 set SpearKnight skill hide
 
@@ -6739,37 +6683,12 @@ set Mercenary skill celerity
 set Guardian skill hide
 //set Guardian skill protector
 
-set LadyKnight_R base strength +5
-set LadyKnight_R base defense +5
-set LadyKnight_R base magic +20
-set LadyKnight_R base speed +5
-set LadyKnight_R base hp +5
-set LadyKnight_R skill armsthrift
-set LadyKnight_R skill hide
-set LadyKnight_R skill aim
-set LadyKnight_R skill canto
-set LadyKnight_R skill prepared
-set LadyKnight_R skill watchful
-
 set LadyKnight skill aim
 //set LadyKnight skill armsthrift
 set LadyKnight skill canto
 set LadyKnight skill prepared
 set LadyKnight skill hide
 set LadyKnight skill watchful
-
-set ArrowKnight_R base strength +5
-set ArrowKnight_R base defense +5
-set ArrowKnight_R base magic +20
-set ArrowKnight_R base speed +5
-set ArrowKnight_R base hp +5
-set ArrowKnight_R skill armsthrift
-set ArrowKnight_R skill hide
-set ArrowKnight_R skill aim
-set ArrowKnight_R skill canto
-set ArrowKnight_R skill prepared
-set ArrowKnight_R skill hide
-set ArrowKnight_R skill watchful
 
 set ArrowKnight skill aim
 //set ArrowKnight skill armsthrift
@@ -6780,26 +6699,6 @@ set ArrowKnight skill watchful
 
 // Adel Lean Class
 set SpearKnight skill adept
-
-// Ennemy CLass
-set SpearKnight_R base strength +5
-set SpearKnight_R base defense +5
-set SpearKnight_R base magic +20
-set SpearKnight_R base speed +5
-set SpearKnight_R base hp +5
-set SpearKnight_R skill adept
-set SpearKnight_R skill throw
-set SpearKnight_R skill armsthrift
-
-set BowKnight_R base strength +5
-set BowKnight_R base defense +5
-set BowKnight_R base magic +20
-set BowKnight_R base speed +5
-set BowKnight_R base hp +5
-set BowKnight_R skill armsthrift
-set BowKnight_R skill adept
-set BowKnight_R skill doubleshot
-set BowKnight_R skill tripleshot
 
 set Berserker skill maim
 set Berserker skill hide
@@ -6813,15 +6712,6 @@ set DukeKnight_R skill hide
 set FlameFencer skill maim
 set FlameFencer skill hide
 //set FlameFencer skill resistor
-
-// Ennemy Class
-set VeteranKnight_R base strength +5
-set VeteranKnight_R base defense +5
-set VeteranKnight_R base magic +20
-set VeteranKnight_R base speed +5
-set VeteranKnight_R base hp +5
-set VeteranKnight_R skill hide
-set VeteranKnight_R skill armsthrift
 
 set VeteranKnight skill hide
 //set VeteranKnight skill armsthrift
@@ -6907,8 +6797,9 @@ set LanceKnight skill supporter
 set LanceKnight_R skill supporter
 
 // Swimmer skill on player unit
-set Thaddy skill swimmer
-set Czene skill swimmer
+set Thief_F skill swimmer
+set Thief_M skill swimmer
+set Burglar skill swimmer
 set Dean skill swimmer
 set Volo skill swimmer
 set Kramer skill swimmer
@@ -8163,51 +8054,63 @@ set Marcel skill deathmatch
 set Derrick skill deathmatch
 
 set Tico stat uses 12
-set ThinHorse stat speed 1
+set ThinHorse stat hp 10
+set ThinHorse stat speed 2
 set ThinHorse stat strength 1
 set ThinHorse stat defense 1
 set ThinHorse stat magic 1
-set PlainHorse stat speed 1
+set PlainHorse stat hp 10
+set PlainHorse stat speed 2
 set PlainHorse stat strength 1
 set PlainHorse stat defense 1
 set PlainHorse stat magic 1
-set SpryHorse stat speed 1
+set SpryHorse stat hp 10
+set SpryHorse stat speed 2
 set SpryHorse stat strength 1
 set SpryHorse stat defense 1
 set SpryHorse stat magic 1
-set ToughHorse stat speed 1
+set ToughHorse stat hp 10
 set ToughHorse stat strength 1
 set ToughHorse stat defense 1
 set ToughHorse stat magic 1
-set StrongHorse stat speed 1
+set StrongHorse stat hp 10
+set StrongHorse stat speed 2
 set StrongHorse stat strength 1
 set StrongHorse stat defense 1
 set StrongHorse stat magic 1
-set SinonStallion stat speed 3
+set SinonStallion stat hp 10
+set SinonStallion stat speed 4
 set SinonStallion stat strength 1
 set SinonStallion stat defense 1
 set SinonStallion stat magic 1
-set LigaDestrier stat speed 1
+set LigaDestrier stat hp 10
+set LigaDestrier stat speed 2
 set LigaDestrier stat strength 3
 set LigaDestrier stat defense 1
+set LigaDestrier stat defense 1
 set LigaDestrier stat magic 1
-set LigaCourser stat speed 1
+set LigaCourser stat hp 10
+set LigaCourser stat speed 2
 set LigaCourser stat strength 1
 set LigaCourser stat defense 1
 set LigaCourser stat magic 1
-set MorachHorse stat speed 1
+set MorachHorse stat hp 10
+set MorachHorse stat speed 2
 set MorachHorse stat strength 1
 set MorachHorse stat defense 3
 set MorachHorse stat magic 1
-set IshsCourser stat speed 1
+set IshsCourser stat hp 10
+set IshsCourser stat speed 2
 set IshsCourser stat strength 1
 set IshsCourser stat defense 1
 set IshsCourser stat magic 1
-set IshsStallion stat speed 4
+set IshsStallion stat hp 10
+set IshsStallion stat speed 5
 set IshsStallion stat strength 1
 set IshsStallion stat defense 1
 set IshsStallion stat magic 1
-set Tico stat speed 4
+set Tico stat hp 10
+set Tico stat speed 5
 set Tico stat strength 1
 set Tico stat defense 1
 set Tico stat magic 1
@@ -8317,11 +8220,6 @@ set Arrow++ stat might 8
 // I need to make larentia wyvern to give stats bonuses just like regular horse
 // Adding Magic to shields is limited to 15, surely the magic stat is a single float value, that is why I use fire_res, wind_res on shield to bypass that limit.
 // Need to allow all non-shielded unit to use a ring (bow unit)
-// Christine should be lt-infantry / Lt-Cavalry
-// Sherlock should be lt-infantry / Lt-Cavalry
-// Larentia should be infantry / flier
-// Adel should be infantry / Lt-Cavalry
-// Leon should be infantry / Lt-Cavalry
 // Maybe add disarm rate 20 % to all axe, I don't know how the disarm rate for normal axe work
 // Only Axel can use search skill on water, eventhough all melee light infantry also got both search and swimmer skill.
 // KillerKnife is a little bugged, Esteban won't use his prepared skill to switch for the killerknife in fight
@@ -8336,22 +8234,16 @@ set Arrow++ stat might 8
 // There are "??" Item_Effect on "BWSDefinitions.py", surely effect like HealthCharm, MiracleCharm are 1 of them. We should try them out.
 // How I did the balance. Character with critical skill Faye Leon ... got -7 stat compared to those without Arthur Dean
 // Injure 100% weapon stat = +5 weight -20% accuracy
-// KillingEdge Might = AltiumSword Might *2/3, KillingEdge Crit = AltiumSword Crit *1/3
 // Rapier effect = -8 might
 // Hammer Zanbato = -16 might, GreatAxe GreatSword stats were used
 // Mithril and Rare weapon got -2 weight in general.
 // LanceKnight2 for class for Adel & Leon, not Ennemy Class.
 // Horse Prize doesn't change. Surely a bug. Money isn't important anyway
-// x2 effect & rounds 2 = +1 weight, x4 effect = +3 weight
-// Unbreakable item effect prevent weapon & shield from randomly break, they only break when durability reach 0, but the repairstone no longer work.
 // I made player character magic stat & growth= 1/2 def stat & growth
 // 31 is the max value for magic_res item stat. 15 is the max value for magic_res item stat
 // Adding too many bag will bug the bag. Your item will start dissapearing. It happened when I had 72 Bags total in game.
-// Arthur class is Swordknight
-// Adel and Lean class is SpearKnight
-// Ward Class is VeteranKnight
 // Elbert Class is Cavalier & Paladin_M 
-// All Class name which finish by "_M" are ennemy class
+// All Class name which finish by "_R" are for when unit are mounted, so elbert become Paladin_M_R when mounted
 
 // To delete, This is for updating my playthrough without restarting the game from chap 1.
 set WindMage skill scotopic
