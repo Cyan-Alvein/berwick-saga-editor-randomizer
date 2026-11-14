@@ -220,12 +220,13 @@ set reese growth mshield 100
 set reese base mshield 40
 set Lord_R cap sshield 60
 set Lord_R cap mshield 50
-set Lord_R cap sword 50
+set Lord_R cap sword 60
 set Lord cap sword 60
 set Lord cap sshield 60
 set Lord cap mshield 50
 set KnightLord cap mshield 50
 set KnightLord_R cap mshield 50
+set KnightLord_R cap sword 60
 set Lord cap sword 60
 set reese base hp +0
 set reese base strength +0
@@ -303,16 +304,16 @@ set Paladin_M cap spear 60
 set Paladin_M cap sword 60
 
 set LadyKnight_R cap bow 50
-set LadyKnight_R cap crossbow 50
-set LadyKnight_R cap sword 40
-set LadyKnight cap bow 50
-set LadyKnight cap crossbow 50
-set LadyKnight cap sword 40
+set LadyKnight_R cap crossbow 60
+set LadyKnight_R cap sword 50
+set LadyKnight cap bow 60
+set LadyKnight cap crossbow 60
+set LadyKnight cap sword 50
 set ArrowKnight cap sword 50
 set ArrowKnight cap crossbow 60
 set ArrowKnight cap bow 60
 set ArrowKnight_R cap sword 50
-set ArrowKnight_R cap crossbow 50
+set ArrowKnight_R cap crossbow 60
 set ArrowKnight_R cap bow 50
 set christine item 0 IronCrossbow 101
 set christine item 1 Bag 0
@@ -348,19 +349,21 @@ set adel item 6 Bag 0
 set adel item 7 Oxtongue 101
 set adel base sshield +20
 set adel base spear +30
+set adel base sword +30
 set adel growth hp 10
 set adel growth strength 40
 set adel growth defense 40
 set adel growth magic 20
 set adel growth speed 20
 set adel growth spear 100
+set adel growth sword 100
 set adel growth shield 100
+set adel growth mhield 100
 set adel base hp +0
 set adel base strength +3
 set adel base defense +0
 set adel base speed +0
 set adel base magic +2
-
 
 set leon item 0 IronSpear 101
 set leon item 1 Buckler 101
@@ -372,13 +375,16 @@ set leon item 6 Bag 0
 set leon item 7 Oxtongue 101
 set leon base sshield +20
 set leon base spear +30
+set leon base sword +30
 set leon growth hp 20
 set leon growth strength 40
 set leon growth defense 10
 set leon growth magic 5
 set leon growth speed 40
 set leon growth spear 100
+set leon growth sword 100
 set leon growth sshield 100
+set leon growth mshield 100
 set leon base hp +0
 set leon base strength +1
 set leon base defense +0
@@ -392,13 +398,17 @@ set sherlock item 4 IronBow 101
 set sherlock item 5 treasure 0
 set sherlock item 6 Treasure 0
 set sherlock item 7 Longbow 101
+set sherlock growth sword 100
 set sherlock growth bow 100
+set sherlock growth crossbow 100
 set sherlock growth hp 15
 set sherlock growth strength 40
 set sherlock growth defense 5
 set sherlock growth magic 2
 set sherlock growth speed 40
+set sherlock base sword +40
 set sherlock base bow +30
+set sherlock base crossbow +30
 set sherlock base magic +1
 
 set izerna item 1 Again 5
@@ -427,12 +437,14 @@ set czene item 5 Vespa 101
 set czene item 6 Bag 0
 set czene item 7 DuskCharm 0
 set czene growth knife 100
+set czene growth bow 100
 set czene growth hp 25
 set czene growth strength 30
 set czene growth defense 5
 set czene growth speed 40
 set czene growth magic 2
-set czene base knife +20
+set czene base knife +30
+set czene base bow +30
 set czene base hp +2
 set czene base strength +4
 set czene base defense +1
@@ -473,7 +485,7 @@ set Daoud item 4 IronAxe 101
 set Daoud item 5 Kiteshield 101
 set Daoud item 6 Vulnerary 6
 set Daoud item 7 Bag 0
-set Daoud base axe +30
+set Daoud base axe +40
 set Daoud base sshield +30
 set Daoud base mshield +30
 set Daoud base magic +4
@@ -522,7 +534,7 @@ set Marcel item 4 Bag 0
 set Marcel item 5 KojinShield 101
 set Marcel item 6 FujinShield 101
 set Marcel item 7 Bag 0
-set Marcel base sword +20
+set Marcel base sword +30
 set Marcel base lshield +20
 set Marcel base hp +9
 set Marcel base strength +2
@@ -605,7 +617,7 @@ set arthur growth defense 20
 set arthur growth magic 10
 set arthur growth speed 20
 set arthur growth magic 0
-set arthur base sword +20
+set arthur base sword +30
 set arthur base sshield +20
 set arthur base mshield +20
 set arthur base spear +45
@@ -623,7 +635,7 @@ set kramer item 4 FeatherBrace 0
 set kramer item 5 MuscleBrace 0
 set kramer item 6 Bag 0
 set kramer item 7 VanishCharm 0
-set kramer base sword +20
+set kramer base sword +30
 set kramer growth sword 100
 set kramer growth hp 30
 set kramer growth strength 30
@@ -638,7 +650,7 @@ set dean item 4 BanditAxe 101
 set dean item 5 Bag 0
 set dean item 6 DawnCharm 0
 set dean item 7 GamblersBrace 0
-set dean base axe +20
+set dean base axe +30
 set dean growth axe 100
 set dean growth hp 40
 set dean growth strength 30
@@ -660,7 +672,7 @@ set faye growth strength 40
 set faye growth defense 5
 set faye growth speed 30
 set faye growth magic 2
-set faye base sword +25
+set faye base sword +30
 set faye base hp +1
 set faye base strength +0
 set faye base defense +0
@@ -677,6 +689,7 @@ set sylvis item 6 Bag 0
 set sylvis item 7 Bag 0
 set sylvis growth bow 100
 set sylvis growth crossbow 100
+set sylvis growth sword 100
 set sylvis growth hp 15
 set sylvis growth strength 40
 set sylvis growth defense 5
@@ -688,9 +701,11 @@ set sylvis base defense +1
 set sylvis base speed +2
 set sylvis base magic +1
 set sylvis base bow +30
+set sylvis base sword +30
 set sylvis base crossbow +30
 set Sniper cap bow 60
 set Sniper cap crossbow 60
+set Sniper cap Sword 50
 
 set perceval item 1 Thunder 20
 set perceval item 2 AirBlade 15
@@ -717,12 +732,14 @@ set thaddy item 5 ThrowingKnife 101
 set thaddy item 6 stunknife 101
 set thaddy item 7 Seax 101
 set thaddy growth knife 100
+set thaddy growth bow 100
 set thaddy growth hp 25
 set thaddy growth strength 40
 set thaddy growth defense 5
 set thaddy growth speed 30
 set thaddy growth magic 2
-set thaddy base knife +20
+set thaddy base knife +30
+set thaddy base bow +30
 set thaddy base hp +3
 set thaddy base strength +5
 set thaddy base defense +3
@@ -745,7 +762,7 @@ set esteban item 5 Seax 101
 set esteban item 6 StunKnife 101
 set esteban item 7 ThiefsKnife 101
 set esteban base knife +30
-set esteban base bow +20
+set esteban base bow +30
 set esteban base sword +50
 set esteban base hp +0
 set esteban base strength +1
@@ -753,9 +770,9 @@ set esteban base defense +0
 set esteban base speed +0
 set esteban base magic +1
 set Hunter cap Bow 60
-set Hunter cap Knife 40
+set Hunter cap Knife 50
 set Hunter cap sword 50
-set HighHunter cap Knife 40
+set HighHunter cap Knife 50
 set HighHunter cap Sword 50
 
 //set faramir item 0 Cutlass+ 101
@@ -773,8 +790,8 @@ set faramir growth strength 40
 set faramir growth defense 20
 set faramir growth magic 2
 set faramir growth speed 40
-set faramir base sword +20
-set faramir base bow +20
+set faramir base sword +30
+set faramir base bow +30
 set faramir base hp +0
 set faramir base strength +1
 set faramir base defense +0
@@ -837,8 +854,8 @@ set clifford growth strength 40
 set clifford growth defense 20
 set clifford growth magic 10
 set clifford growth speed 20
-set clifford base sword +25
-set clifford base spear +25
+set clifford base sword +30
+set clifford base spear +30
 set clifford base sshield +20
 set clifford base mshield +20
 set clifford base hp +1
@@ -855,7 +872,7 @@ set axel item 4 Bag 0
 set axel item 5 ThiefsCharm 0
 set axel item 6 PegasusBrace 0
 set axel item 7 Bag 0
-set axel base axe +20
+set axel base axe +30
 set axel growth axe 100
 set axel growth hp 40
 set axel growth strength 30
@@ -889,17 +906,21 @@ set larentia base sword +30
 set larentia base spear +30
 set larentia base sshield +25
 set larentia base hp +3
-set larentia base strength +3
-set larentia base defense +4
-set larentia base speed +5
-set larentia base magic +3
-set WyvernKnightLarentia_R cap Spear 50
+set larentia base strength +2
+set larentia base defense +3
+set larentia base speed +3
+set larentia base magic +2
+set WyvernKnightLarentia_R cap Spear 60
 set WyvernKnightLarentia_R cap sword 50
+set WyvernKnightLarentia_R base strength +2
+set WyvernKnightLarentia_R base hp +1
+set WyvernKnightLarentia_R base defense +1
+set WyvernKnightLarentia_R base speed +1
 set WyvernKnightLarentia cap Spear 60
 set WyvernKnightLarentia cap Sword 60
 set WyvernKnight cap Spear 60
 set WyvernKnight cap Sword 60
-set WyvernKnight_R cap Spear 50
+set WyvernKnight_R cap Spear 60
 set WyvernKnight_R cap Sword 50
 
 set Owen item 5 Bag 0
@@ -916,9 +937,9 @@ set Owen growth defense 0
 set Owen growth speed 15
 set Owen growth mind 40
 set Owen base fire +20
-set Owen base wind +20
-set Owen base thunder +20
-set Owen base holy +20
+set Owen base wind +30
+set Owen base thunder +30
+set Owen base holy +30
 set Owen base dark +60
 set RazeMonkOwen growth dark 100
 set Owen base speed +0
@@ -976,7 +997,7 @@ set saphira growth strength 0
 set saphira growth defense 0
 set saphira growth speed 15
 set saphira growth mind 40
-set saphira base holy +20
+set saphira base holy +30
 set saphira base hp +0
 set saphira base speed +0
 
@@ -999,7 +1020,7 @@ set lynette growth speed 30
 set lynette growth mind 60
 set ChosenOne cap thunder 60
 set ChosenOne cap bow 50
-set ChosenOne cap sword 40
+set ChosenOne cap sword 50
 set lynette base strength +1
 set lynette base speed +4
 set lynette base mind +4
@@ -1019,8 +1040,8 @@ set paramythis growth strength 40
 set paramythis growth defense 30
 set paramythis growth speed 10
 set paramythis growth mind 30
-set paramythis base sword +25
-set paramythis base holy +20
+set paramythis base sword +30
+set paramythis base holy +30
 
 set reese skill adept
 set reese skill canto
@@ -2573,6 +2594,7 @@ set Blizzard stat accuracy 40
 set Windstorm stat level 8
 set Blizzard stat level 1
 set Blizzard stat might 20
+set Blizzard stat weight 5
 set AirBlade stat might 7
 set Windstorm stat might 7
 set PallasRiana stat might 7
@@ -5316,14 +5338,14 @@ set ThorsScale stat cost 10000
 
 ///////////////////////////Unit Weapon cap/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-set ShiningKnight cap holy 50
-set ShiningKnight_R cap holy 40
-set ShiningKnightParamythis cap holy 50
-set ShiningKnightParamythis_R cap holy 40
+set ShiningKnight cap holy 60
+set ShiningKnight_R cap holy 50
+set ShiningKnightParamythis cap holy 60
+set ShiningKnightParamythis_R cap holy 50
 set ShiningKnight cap sword 60
-set ShiningKnight_R cap sword 50
+set ShiningKnight_R cap sword 60
 set ShiningKnightParamythis cap sword 60
-set ShiningKnightParamythis_R cap sword 50
+set ShiningKnightParamythis_R cap sword 60
 
 set Acolyte cap holy 60
 
@@ -5350,8 +5372,10 @@ set Axefighter cap Axe 60
 
 set LanceKnight2 cap spear 60
 set LanceKnight2 cap sshield 50
-set LanceKnight2_R cap spear 50
+set LanceKnight2 cap sword 60
+set LanceKnight2_R cap spear 60
 set LanceKnight2_R cap sshield 50
+set LanceKnight2_R cap sword 50
 
 set Guardian cap Sword 60
 set Guardian cap lshield 50
@@ -5362,7 +5386,18 @@ set ArmorKnight cap Axe 60
 set pirate cap Axe 60
 
 set Horseman cap Bow 60
-set Horseman_R cap Bow 50
+set Horseman_R cap Bow 60
+set Horseman cap Crossbow 60
+set Horseman_R cap Crossbow 50
+set Horseman cap Sword 50
+set Horseman_R cap Sword 50
+
+set BowKnight cap Bow 60
+set BowKnight_R cap Bow 60
+set BowKnight cap Crossbow 60
+set BowKnight_R cap Crossbow 50
+set BowKnight cap Sword 50
+set BowKnight_R cap Sword 50
 
 set Cleric cap Holy 60
 
@@ -5374,10 +5409,12 @@ set Swordfighter_M cap Sword 60
 
 set SpearKnight cap spear 60
 set SpearKnight cap sshield 50
-set SpearKnight_R cap spear 50
+set SpearKnight cap sword 60
+set SpearKnight_R cap spear 60
 set SpearKnight_R cap sshield 50
+set SpearKnight_R cap sword 50
 
-set SpearRider_R cap spear 50
+set SpearRider_R cap spear 60
 set SpearRider_R cap sshield 50
 set SpearRider cap spear 60
 set SpearRider cap sshield 50
@@ -5385,9 +5422,9 @@ set SpearRider cap sshield 50
 set DukeKnight cap sword 60
 set DukeKnight cap spear 60
 set DukeKnight_R cap sword 50
-set DukeKnight_R cap spear 50
-set Duke cap sword 50
-set Duke cap spear 50
+set DukeKnight_R cap spear 60
+set Duke cap sword 60
+set Duke cap spear 60
 
 set AxeSoldier cap axe 60
 set AxeSoldier cap sshield 50
@@ -5401,7 +5438,12 @@ set Thief_M cap Knife 60
 set Thief_F cap Knife 60
 set Burglar cap Knife 60
 set Grassrunner cap Knife 60
-set Grassrunner_R cap Knife 50
+set Grassrunner_R cap Knife 60
+set Thief_M cap Bow 50
+set Thief_F cap Bow 50
+set Burglar cap Bow 50
+set Grassrunner cap Bow 50
+set Grassrunner_R cap Bow 50
 
 // Arthur Class
 set SwordKnight cap sshield 50
@@ -5681,15 +5723,17 @@ set General skill camouflage
 set General skill hide
 //set General skill protector
 
-set WyvernKnight_R base strength +5
-set WyvernKnight_R base hp +5
-set WyvernKnight_R base speed +5
-set WyvernKnight_R base defense +5
+set WyvernKnight_R base strength +7
+set WyvernKnight_R base hp +6
+set WyvernKnight_R base speed +6
+set WyvernKnight_R base defense +6
 set WyvernKnight_R base magic +20
 set WyvernKnight_R skill canto
 set WyvernKnight_R skill throw
 set WyvernKnight_R skill hide
 set WyvernKnight_R skill adept
+set WyvernKnight_R cap Sword 50
+set WyvernKnight_R cap Spear 60
 
 set WyvernKnight base strength +5
 set WyvernKnight base hp +5
@@ -5700,11 +5744,13 @@ set WyvernKnight skill canto
 set WyvernKnight skill throw
 set WyvernKnight skill hide
 set WyvernKnight skill adept
+set WyvernKnight cap Sword 60
+set WyvernKnight cap Spear 60
 
-set WyvernLord_R base strength +5
-set WyvernLord_R base defense +5
+set WyvernLord_R base strength +7
+set WyvernLord_R base defense +6
 set WyvernLord_R base magic +20
-set WyvernLord_R base speed +5
+set WyvernLord_R base speed +6
 set WyvernLord_R base hp +5
 set WyvernLord_R skill canto
 set WyvernLord_R skill armsthrift
@@ -5712,6 +5758,8 @@ set WyvernLord_R skill throw
 set WyvernLord_R skill commander
 set WyvernLord_R skill camouflage
 set WyvernLord_R skill hide
+set WyvernLord_R cap Sword 50
+set WyvernLord_R cap Spear 60
 
 set WyvernLord base strength +5
 set WyvernLord base defense +5
@@ -5724,6 +5772,8 @@ set WyvernLord skill throw
 set WyvernLord skill commander
 set WyvernLord skill camouflage
 set WyvernLord skill hide
+set WyvernLord cap Sword 60
+set WyvernLord cap Spear 60
 
 set Axeman base strength +5
 set Axeman base defense +5
