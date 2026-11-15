@@ -127,10 +127,17 @@ set Hunter attribute movement thief
 set HighHunter attribute movement thief
 set LanceKnight2_R attribute movement lt-cavalry
 set LanceKnight2 attribute movement infantry
+set LanceKnight_R attribute movement lt-cavalry
+set LanceKnight attribute movement infantry
 set BowKnight attribute movement lt-infantry
+set Horseman attribute movement lt-infantry
+set BowKnight_R attribute movement lt-cavalry
+set Horseman_R attribute movement lt-cavalry
 set WyvernKnightLarentia attribute movement infantry
 set ArrowKnight_R attribute movement Lt-cavalry
 set ArrowKnight attribute movement infantry
+set LadyKnight_R attribute movement Lt-cavalry
+set LadyKnight attribute movement infantry
 
 //this will restore 2 points on repairstone each turn. I fixed all item price so it is no longer needed.
 //set Repairstone effect restore-uses
