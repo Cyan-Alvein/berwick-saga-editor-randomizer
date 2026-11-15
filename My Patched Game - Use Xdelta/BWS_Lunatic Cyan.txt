@@ -3294,7 +3294,7 @@ set Angon stat durability D
 //set Angon stat level 12
 set Angon stat level 1
 set Angon stat might 24
-set Angon stat accuracy 60
+set Angon stat accuracy 50
 set Angon stat min-range 0
 set Brionac stat Weight 9
 set Brionac stat accuracy 70
@@ -3348,7 +3348,7 @@ set ImperialSpear stat might 8
 set IronSpear stat Weight 6
 set IronSpear stat crit 0
 set Javelin stat Weight 14
-set Javelin stat accuracy 50
+set Javelin stat accuracy 40
 set Javelin stat cost 3200
 set Javelin stat crit 0
 set Javelin stat might 24
@@ -3668,7 +3668,7 @@ set Gullveig stat durability C
 //set Gullveig stat level 12
 set Gullveig stat level 1
 set Gullveig stat might 25
-set Gullveig stat accuracy 50
+set Gullveig stat accuracy 40
 set Gullveig stat min-range 0
 set Hammer effect ignore-defense
 set Hammer stat cost 2000
@@ -3686,7 +3686,7 @@ set HandAxe stat might 13
 set HandAxe stat uses 20
 set HandAxe stat min-range 0
 set Hatchet stat Weight 14
-set Hatchet stat accuracy 40
+set Hatchet stat accuracy 30
 set Hatchet stat cost 2650
 set Hatchet stat crit 0
 set Hatchet stat level 16
