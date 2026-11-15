@@ -6846,29 +6846,20 @@ set WyvernLord_R skill supporter
 set LanceKnight skill supporter
 set LanceKnight_R skill supporter
 
-// Swimmer skill on player unit
+// Swimmer skill to ennemy
+set Grassrunner skill swimmer
+set Burglar skill swimmer
 set Thief_F skill swimmer
 set Thief_M skill swimmer
-set Burglar skill swimmer
-set Dean skill swimmer
-set Volo skill swimmer
-set Kramer skill swimmer
-set Faye skill swimmer
-set Sherpa skill swimmer
-
-// Swimmer skill to ennemy
-//set Burglar skill swimmer
-//set Thief_F skill swimmer
-//set Thief_M skill swimmer
-//set Axefighter skill swimmer
-//set Berserker skill swimmer
-//set Swordfighter_M skill swimmer
-//set Swordmaster skill swimmer
-//set Myrmidon skill swimmer
-//set Mercenary skill swimmer
-//set Hero skill swimmer
-//set Highlander skill swimmer
-//set Assassin skill swimmer
+set Axefighter skill swimmer
+set Berserker skill swimmer
+set Swordfighter_M skill swimmer
+set Swordmaster skill swimmer
+set Myrmidon skill swimmer
+set Mercenary skill swimmer
+set Hero skill swimmer
+set Highlander skill swimmer
+set Assassin skill swimmer
 
 //adept to everyone
 set ArrowKnight skill adept
