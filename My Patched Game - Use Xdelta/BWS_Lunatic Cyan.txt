@@ -3296,6 +3296,7 @@ set Angon stat level 1
 set Angon stat might 24
 set Angon stat accuracy 50
 set Angon stat min-range 0
+set Angon stat hex 1
 set Brionac stat Weight 9
 set Brionac stat accuracy 70
 set Brionac stat cost 4000
@@ -3355,6 +3356,7 @@ set Javelin stat might 24
 set Javelin stat uses 20
 set Javelin stat level 16
 set Javelin stat min-range 0
+set Javelin stat hex 1
 set KillerSpear stat Weight 8
 set KillerSpear stat accuracy 60
 set KillerSpear stat cost 1600
@@ -3408,6 +3410,7 @@ set Pilum stat level 1
 set Pilum stat might 12
 set Pilum stat uses 20
 set Pilum stat min-range 0
+set Pilum stat hex 1
 set PrototypeSpear stat Weight 6
 set PrototypeSpear stat accuracy 70
 set PrototypeSpear stat cost 2500
@@ -3454,6 +3457,7 @@ set Verutum stat level 8
 set Verutum stat might 18
 set Verutum stat uses 20
 set Verutum stat min-range 0
+set Verutum stat hex 1
 set WindSpear effect cripple-rate 16
 set WindSpear effect wind-damage 25
 set WindSpear stat Weight 6
@@ -3633,7 +3637,7 @@ set Francisca stat accuracy 40
 set Francisca stat cost 1500
 set Francisca stat crit 0
 set Francisca stat level 8
-set Francisca stat might 19
+set Francisca stat might 20
 set Francisca stat uses 20
 set Francisca stat min-range 0
 set GigasAxe effect chance-def-up
@@ -3667,7 +3671,7 @@ set Gullveig stat crit 0
 set Gullveig stat durability C
 //set Gullveig stat level 12
 set Gullveig stat level 1
-set Gullveig stat might 25
+set Gullveig stat might 26
 set Gullveig stat accuracy 40
 set Gullveig stat min-range 0
 set Hammer effect ignore-defense
@@ -3682,7 +3686,7 @@ set HandAxe stat Weight 8
 set HandAxe stat accuracy 40
 set HandAxe stat cost 2000
 set HandAxe stat crit 0
-set HandAxe stat might 13
+set HandAxe stat might 14
 set HandAxe stat uses 20
 set HandAxe stat min-range 0
 set Hatchet stat Weight 14
@@ -3690,7 +3694,7 @@ set Hatchet stat accuracy 30
 set Hatchet stat cost 2650
 set Hatchet stat crit 0
 set Hatchet stat level 16
-set Hatchet stat might 25
+set Hatchet stat might 26
 set Hatchet stat uses 20
 set Hatchet stat min-range 0
 set ImperialAxe stat Weight 6
@@ -3790,7 +3794,7 @@ set Tomahawk stat cost 2500
 set Tomahawk stat crit 0
 set Tomahawk stat durability C
 set Tomahawk stat level 12
-set Tomahawk stat might 19
+set Tomahawk stat might 20
 set Tomahawk stat min-range 0
 set VerianAxe stat Weight 6
 set VerianAxe stat accuracy 50
