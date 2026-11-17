@@ -2822,10 +2822,10 @@ set BoltKnife stat level 1
 set BoltKnife stat might 2
 set BoltKnife stat weight 10
 set Carnwenhau stat accuracy 60
-set Carnwenhau stat cost 6000
+set Carnwenhau stat cost 5000
 set Carnwenhau stat crit 0
 set Carnwenhau stat defense 0
-set Carnwenhau stat durability B
+set Carnwenhau stat durability A
 set Carnwenhau stat might 6
 set Carnwenhau stat weight 4
 set Carnwenhau stat level 1
@@ -2836,7 +2836,7 @@ set Crotalus stat crit 0
 set Crotalus stat level 1
 set Crotalus stat might 6
 set Crotalus stat weight 5
-set Crotalus stat durability B
+set Crotalus stat durability A
 set Dart stat cost 500
 set Dart stat crit 0
 set Dart stat level 1
@@ -2984,8 +2984,8 @@ set BronzeSword stat Weight 10
 set BronzeSword stat accuracy 40
 set BronzeSword stat crit 0
 set BronzeSword stat might 9
-set Colichemarde stat Cost 7000
-set Colichemarde stat Durability B
+set Colichemarde stat Cost 5000
+set Colichemarde stat Durability A
 set Colichemarde stat accuracy 80
 set Colichemarde stat crit 0
 //set Colichemarde stat level 12
@@ -2995,7 +2995,7 @@ set Colichemarde stat weight 5
 set Cutlass stat Cost 4000
 set Cutlass stat rounds 0
 set Cutlass effect x2
-set Cutlass stat Durability B
+set Cutlass stat Durability A
 set Cutlass stat Weight 4
 set Cutlass stat crit 0
 set Cutlass stat might 11
@@ -3003,13 +3003,13 @@ set Cutlass stat accuracy 70
 set Cutlass+ stat Cost 5000
 set Cutlass+ stat rounds 0
 set Cutlass+ effect x2
-set Cutlass+ stat Durability B
+set Cutlass+ stat Durability A
 set Cutlass+ stat Weight 5
 set Cutlass+ stat crit 0
 set Cutlass+ stat might 13
 set Cutlass+ stat accuracy 70
-set Estoc stat Cost 3500
-set Estoc stat Durability C
+set Estoc stat Cost 3000
+set Estoc stat Durability A
 set Estoc stat accuracy 70
 set Estoc stat crit 0
 set Estoc stat might 3
@@ -3024,7 +3024,7 @@ set FlameSword stat accuracy 60
 set FlameSword stat crit 0
 set FlameSword stat level 8
 set FlameSword stat might 1
-set Gram stat Cost 7000
+set Gram stat Cost 5000
 //set Gram stat rounds 0
 //set Gram effect x2
 set Gram stat Durability A
@@ -3045,7 +3045,7 @@ set Harperia stat rounds 0
 set Harperia effect x2
 //set Harperia stat level 16
 set Harperia stat level 1
-set Harperia stat Durability B
+set Harperia stat Durability A
 set Harperia stat accuracy 70
 set Harperia stat crit 0
 set Harperia stat might 13
@@ -3084,7 +3084,7 @@ set KnightSword stat Cost 2600
 //set KnightSword stat rounds 0
 //set KnightSword effect x2
 set KnightSword stat level 12
-set KnightSword stat Durability C
+set KnightSword stat Durability A
 set KnightSword stat accuracy 60
 set KnightSword stat crit 0
 set KnightSword stat might 13
@@ -3157,7 +3157,7 @@ set Scimitar stat crit 0
 set Scimitar stat might 5
 set Scimitar stat weight 3
 set Scimitar effect steal-rate-plus 50
-set Scimitar+ stat Cost 1800
+set Scimitar+ stat Cost 1000
 set Scimitar+ stat Durability C
 set Scimitar+ stat accuracy 60
 set Scimitar+ stat crit 0
@@ -3249,10 +3249,10 @@ set BastardSword stat might 13
 set BastardSword stat weight 11
 set Brymranger stat accuracy 50
 set Brymranger stat avoid 0
-set Brymranger stat cost 9000
+set Brymranger stat cost 7000
 set Brymranger stat crit 0
 set Brymranger stat might 25
-set Brymranger stat Durability B
+set Brymranger stat Durability S
 set Brymranger stat weight 13
 //set Brymranger stat rounds 2
 set GreatSword stat accuracy 50
@@ -3277,13 +3277,13 @@ set Zanbato stat durability C
 set Zanbato stat level 16
 set Zanbato stat might 5
 set Zanbato stat weight 11
-set Zweihander stat cost 6600
+set Zweihander stat cost 5000
 set Zweihander stat rounds 1
 set Zweihander stat crit 0
 set Zweihander stat might 25
 set Zweihander stat weight 13
 set Zweihander stat accuracy 50
-set Zweihander stat durability B
+set Zweihander stat durability A
 
 //spears // spears
 
@@ -3326,11 +3326,11 @@ set Euthyphro stat might 0
 set Euthyphro stat Durability D
 set Fauchard stat Weight 6
 set Fauchard stat accuracy 70
-set Fauchard stat cost 5000
+set Fauchard stat cost 4000
 set Fauchard stat crit 0
 set Fauchard stat hex 1
 set Fauchard stat might 12
-set Fauchard stat Durability C
+set Fauchard stat Durability B
 set Harpoon effect injure-rate 100
 set Harpoon stat Weight 11
 set Harpoon stat accuracy 40
@@ -3432,7 +3432,7 @@ set SteelSpear stat cost 1600
 set SteelSpear stat crit 0
 set SteelSpear stat level 4
 set SteelSpear stat Durability D
-set SwiftSpear stat cost 6000
+set SwiftSpear stat cost 5000
 //set SwiftSpear stat rounds 0
 //set SwiftSpear effect x2
 set SwiftSpear stat accuracy 50
@@ -3442,7 +3442,7 @@ set SwiftSpear stat hex 1
 set SwiftSpear stat level 1
 set SwiftSpear stat might 24
 set SwiftSpear stat weight 14
-set SwiftSpear stat Durability C
+set SwiftSpear stat Durability B
 set VerianSpear stat Weight 6
 set VerianSpear stat accuracy 60
 set VerianSpear stat cost 800
@@ -3490,7 +3490,7 @@ set GoreFork stat cost 1600
 //set GoreFork stat rounds 0
 //set GoreFork effect x2
 set GoreFork stat crit 0
-set GoreFork stat durability E
+set GoreFork stat durability C
 set GoreFork stat hex 1
 set GoreFork stat level 4
 set GoreFork stat might 8
@@ -3586,9 +3586,9 @@ set BattleAxe stat level 8
 set Bhuj stat Weight 14
 //set Bhuj stat rounds 2
 //set Bhuj effect x2
-set Bhuj stat cost 5000
+set Bhuj stat cost 6000
 set Bhuj stat crit 0
-set Bhuj stat durability C
+set Bhuj stat durability B
 set Bhuj stat might 26
 set Bhuj stat accuracy 40
 set BoltAxe effect cripple-rate 12
@@ -3722,9 +3722,9 @@ set MaozaWolf stat Weight 5
 set MaozaWolf stat accuracy 60
 //set MaozaWolf stat level 12
 set MaozaWolf stat level 1
-set MaozaWolf stat cost 4000
+set MaozaWolf stat cost 6000
 set MaozaWolf stat might 14
-set MaozaWolf stat durability C
+set MaozaWolf stat durability B
 set MithrilAxe stat Weight 6
 set MithrilAxe stat cost 1750
 set MithrilAxe stat crit 0
@@ -3787,7 +3787,7 @@ set Tabarzin stat level 1
 set Tabarzin stat weight 6
 set Tabarzin stat might 14
 set Tabarzin stat accuracy 60
-set Tabarzin stat durability C
+set Tabarzin stat durability B
 set Tomahawk stat Weight 9
 set Tomahawk stat accuracy 60
 set Tomahawk stat cost 2500
@@ -3998,14 +3998,14 @@ set SwiftBow stat rounds 0
 set SwiftBow effect x2
 set SwiftBow stat cost 1000
 set SwiftBow stat crit 0
-set SwiftBow stat durability D
+set SwiftBow stat durability E
 set SwiftBow stat might 1
 set SwiftBow stat level 4
 set TripleFireBow stat Weight 7
 set TripleFireBow stat accuracy 50
 set TripleFireBow stat cost 1000
 set TripleFireBow stat crit 0
-set TripleFireBow stat durability D
+set TripleFireBow stat durability F
 set TripleFireBow stat might 1
 set TripleFireBow stat level 4
 set VerianBow stat Weight 7
@@ -4038,7 +4038,7 @@ set Bowgun stat might 15
 set Bowgun stat min-range 1
 set Bowgun stat weight 17
 set BraveCrossbow stat accuracy 70
-set BraveCrossbow stat durability C
+set BraveCrossbow stat durability A
 set BraveCrossbow stat cost 2000
 set BraveCrossbow stat crit 0
 set BraveCrossbow stat level 8
@@ -4047,14 +4047,14 @@ set BraveCrossbow stat might 11
 set BraveCrossbow stat min-range 1
 set BraveCrossbow stat weight 13
 set Chu-ko-nu stat accuracy 70
-set Chu-ko-nu stat cost 2600
+set Chu-ko-nu stat cost 3000
 set Chu-ko-nu stat crit 0
 set Chu-ko-nu stat level 12
 set Chu-ko-nu stat max-range 2
 set Chu-ko-nu stat might 7
 set Chu-ko-nu stat min-range 1
 set Chu-ko-nu stat weight 14
-set Chu-ko-nu stat durability C	
+set Chu-ko-nu stat durability S	
 set Gastraphetes stat accuracy 70
 set Gastraphetes stat cost 2000
 set Gastraphetes stat crit 0
@@ -4124,9 +4124,9 @@ set Ollerus stat might 17
 set Ollerus stat min-range 1
 set Ollerus stat weight 13
 set RapidCrossbow stat accuracy 80
-set RapidCrossbow stat cost 6000
+set RapidCrossbow stat cost 5000
 set RapidCrossbow stat crit 0
-set RapidCrossbow stat durability B
+set RapidCrossbow stat durability S
 //set RapidCrossbow stat level 16
 set RapidCrossbow stat level 1
 set RapidCrossbow stat max-range 2
