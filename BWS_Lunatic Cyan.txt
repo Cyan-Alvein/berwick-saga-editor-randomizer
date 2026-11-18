@@ -1451,10 +1451,11 @@ set alvina skill deathmatch
 set alvina skill sunder
 set alvina skill critical
 set alvina skill charisma
+set alvina skill armsthrift
 unset alvina skill cavalry
 
 set ruby skill adept 
-unset ruby skill axebane
+set ruby skill axebane
 unset ruby skill cavalry
 set ruby skill vantage
 set ruby skill canto
