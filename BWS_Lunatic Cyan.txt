@@ -7549,6 +7549,7 @@ set Pirate skill vengeful
 set SnowBandit skill vengeful
 set Corsair skill vengeful
 set Warrior skill vengeful
+set RogueWarrior skill vengeful
 
 //arrowbane to class
 set Swordfighter_M skill arrowbane
@@ -7563,6 +7564,7 @@ set Thief_M skill arrowbane
 set Burglar skill arrowbane
 set Grassrunner skill arrowbane
 set Grassrunner_R skill arrowbane
+set RogueGuard skill arrowbane
 
 //Prepared to everyone
 set Acolyte skill Prepared
