@@ -5851,7 +5851,7 @@ set Bowman skill aim
 set Bowman skill camouflage
 set Bowman skill hide
 set Bowman skill watchful
-set Bowman skill doubleshot
+//set Bowman skill doubleshot
 
 set BowRider base strength +5
 set BowRider base defense +5
@@ -5864,7 +5864,7 @@ set BowRider skill aim
 set BowRider skill camouflage
 set BowRider skill hide
 set BowRider skill watchful
-set BowRider skill doubleshot
+//set BowRider skill doubleshot
 
 set BowRider_R base strength +5
 set BowRider_R base defense +5
@@ -5877,7 +5877,7 @@ set BowRider_R skill aim
 set BowRider_R skill camouflage
 set BowRider_R skill hide
 set BowRider_R skill watchful
-set BowRider_R skill doubleshot
+//set BowRider_R skill doubleshot
 
 set Gunner base strength +5
 set Gunner base defense +5
@@ -5914,7 +5914,7 @@ set ImperialBowman skill aim
 set ImperialBowman skill camouflage
 set ImperialBowman skill hide
 set ImperialBowman skill watchful
-set ImperialBowman skill doubleshot
+//set ImperialBowman skill doubleshot
 
 set ImperialBowRider_R base strength +5
 set ImperialBowRider_R base defense +5
@@ -5927,7 +5927,7 @@ set ImperialBowRider_R skill aim
 set ImperialBowRider_R skill camouflage
 set ImperialBowRider_R skill hide
 set ImperialBowRider_R skill watchful
-set ImperialBowRider_R skill doubleshot
+//set ImperialBowRider_R skill doubleshot
 
 set ImperialBowRider base strength +5
 set ImperialBowRider base defense +5
@@ -5940,7 +5940,7 @@ set ImperialBowRider skill aim
 set ImperialBowRider skill camouflage
 set ImperialBowRider skill hide
 set ImperialBowRider skill watchful
-set ImperialBowRider skill doubleshot
+//set ImperialBowRider skill doubleshot
 
 set ImperialGunner base strength +5
 set ImperialGunner base defense +5
@@ -6039,7 +6039,7 @@ set Ruffian_R skill aim
 set Ruffian_R skill hide
 set Ruffian_R skill watchful
 set Ruffian_R skill vantage
-set Ruffian_R skill doubleshot
+//set Ruffian_R skill doubleshot
 
 set Ruffian base strength +5
 set Ruffian base defense +5
@@ -6054,7 +6054,7 @@ set Ruffian skill aim
 set Ruffian skill hide
 set Ruffian skill watchful
 set Ruffian skill vantage
-set Ruffian skill doubleshot
+//set Ruffian skill doubleshot
 
 set Pickpocket base strength +5
 set Pickpocket base defense +5
@@ -6084,7 +6084,7 @@ set Outlaw skill camouflage
 set Outlaw skill aim
 set Outlaw skill hide
 set Outlaw skill watchful
-set Outlaw skill doubleshot
+//set Outlaw skill doubleshot
 
 // same stats as thaddy
 set Assassin base strength +5
@@ -6227,7 +6227,7 @@ set RogueArcher skill armsthrift
 set RogueArcher skill camouflage
 set RogueArcher skill hide
 set RogueArcher skill watchful
-set RogueArcher skill doubleshot
+//set RogueArcher skill doubleshot
 
 set RogueGunner base strength +5
 set RogueGunner base defense +5
@@ -6749,7 +6749,7 @@ set Hunter skill hide
 set Hunter skill watchful
 set Hunter skill aim
 set Hunter skill adept
-set Hunter skill doubleshot
+//set Hunter skill doubleshot
 
 //Kramer Stat
 set Mercenary skill canto
