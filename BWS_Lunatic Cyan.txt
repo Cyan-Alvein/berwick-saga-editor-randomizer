@@ -1056,10 +1056,8 @@ set reese skill commander
 set reese skill expert
 set reese skill flourish
 set reese skill guard
-set Lord_R skill horselover
-set Lord_R skill horseswap 
-set KnightLord_R skill horselover
-set KnightLord_R skill horseswap 
+set reese skill horselover
+set reese skill horseswap 
 set reese skill hurry
 set reese skill mercy
 unset set reese skill robust2
@@ -1078,8 +1076,8 @@ unset reese skill cavalry
 set ward skill canto
 set ward skill flourish
 set ward skill guard
-set VeteranKnight_R skill horselover
-set VeteranKnight_R skill horseswap
+set ward skill horselover
+set ward skill horseswap
 set ward skill hurry
 set ward skill mercy
 set ward skill prepared
@@ -1102,12 +1100,8 @@ unset elbert skill arrowbane
 set elbert skill canto
 set elbert skill flourish
 set elbert skill guard 
-set Cavalier_R skill horselover
-set Cavalier_R skill horseswap
-set Paladin_M_R skill horselover
-set Paladin_M_R skill horseswap
-set Paladin_R skill horselover
-set Paladin_R skill horseswap
+set elbert skill horselover
+set elbert skill horseswap
 set elbert skill hurry
 set elbert skill mercy
 set elbert skill prepared
@@ -1130,10 +1124,8 @@ unset christine skill armsthrift
 set christine skill canto
 set christine skill deadeye 
 set christine skill flourish
-set LadyKnight_R skill horselover
-set LadyKnight_R skill horseswap
-set ArrowKnight_R skill horselover
-set ArrowKnight_R skill horseswap
+set christine skill horselover
+set christine skill horseswap
 set christine skill hurry
 set christine skill mercy
 set christine skill overwatch 
@@ -1164,10 +1156,8 @@ set adel skill adept
 set adel skill parry
 set adel skill flourish
 set adel skill guard
-set SpearKnight_R skill horselover
-set SpearKnight_R skill horseswap 
-set LanceKnight2_R skill horselover
-set LanceKnight2_R skill horseswap 
+set adel skill horselover
+set adel skill horseswap 
 set adel skill hurry
 set adel skill lance
 set adel skill mercy
@@ -1217,15 +1207,15 @@ set leon skill sunder
 set leon skill critical
 unset leon skill cavalry
 //set leon skill provoke
+set leon skill horselover
+set leon skill horseswap 
 
 set sherlock skill aim 
 set sherlock skill canto
 set sherlock skill deadeye 
 set sherlock skill flourish
-set Horseman_R skill horselover
-set Horseman_R skill horseswap
-set BowKnight_R skill horselover
-set BowKnight_R skill horseswap
+set sherlock skill horselover
+set sherlock skill horseswap
 set sherlock skill hurry
 set sherlock skill mercy
 unset sherlock skill onetwo
@@ -1311,6 +1301,10 @@ set czene skill charisma
 set czene skill arrowbane
 unset czene skill cavalry
 unset Grassrunner_R skill cavalry
+set Grassrunner_R skill horselover
+set Grassrunner_R skill horseswap
+set Grassrunner skill horselover
+set Grassrunner skill horseswap
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -1441,8 +1435,8 @@ set alvina skill adept
 set alvina skill canto
 set alvina skill flourish
 set alvina skill guard
-set Paladin_F_R skill horselover
-set Paladin_F_R skill horseswap
+set alvina skill horselover
+set alvina skill horseswap
 set alvina skill hurry
 set alvina skill mercy
 set alvina skill prepared
@@ -1466,8 +1460,8 @@ set ruby skill vantage
 set ruby skill canto
 set ruby skill flourish
 set ruby skill guard
-set Chevalire_R skill horselover
-set Chevalire_R skill horseswap 
+set ruby skill horselover
+set ruby skill horseswap 
 set ruby skill hurry
 set ruby skill mercy
 set ruby skill paragon
@@ -1501,6 +1495,8 @@ set arthur skill robbery
 set arthur skill hide
 set arthur skill provoke
 set arthur skill adept
+set arthur skill horselover
+set arthur skill horseswap
 unset arthur skill cavalry
 //set arthur skill Windsweep
 //set arthur skill sunder
