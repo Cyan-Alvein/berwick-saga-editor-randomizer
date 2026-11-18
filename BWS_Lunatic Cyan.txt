@@ -1071,7 +1071,7 @@ set reese skill hide
 //set reese skill windsweep
 set reese skill sunder
 set reese skill critical
-unset reese skill cavalry
+//unset reese skill cavalry
 
 set ward skill canto
 set ward skill flourish
@@ -1089,7 +1089,7 @@ set ward skill robbery
 set ward skill hide
 unset ward skill shieldfaire
 set ward skill desperation
-unset ward skill cavalry
+//unset ward skill cavalry
 //set ward skill armsthrift
 //set ward skill throw
 //set ward skill counter
@@ -1115,7 +1115,7 @@ set elbert skill maim
 set elbert skill robbery
 set elbert skill hide
 set elbert skill adept
-unset elbert skill cavalry
+//unset elbert skill cavalry
 //set elbert skill Windsweep
 //set elbert skill sunder
 
@@ -1148,7 +1148,7 @@ set christine skill deathmatch
 //set christine skill magicbane
 set christine skill charisma
 set christine skill parry
-unset christine skill cavalry
+//unset christine skill cavalry
 
 set adel skill canto
 set adel skill pursuit 
@@ -1179,7 +1179,7 @@ set adel skill sunder
 //set adel skill provoke
 set adel skill deathmatch
 set adel skill critical
-unset adel skill cavalry
+//unset adel skill cavalry
 
 set leon skill canto
 set leon skill deathmatch
@@ -1205,7 +1205,7 @@ set leon skill windsweep
 set leon skill parry
 set leon skill sunder
 set leon skill critical
-unset leon skill cavalry
+//unset leon skill cavalry
 //set leon skill provoke
 set leon skill horselover
 set leon skill horseswap 
@@ -1241,7 +1241,7 @@ set sherlock skill parry
 set sherlock skill deathmatch
 set sherlock skill counter
 //set sherlock skill critical
-unset sherlock skill cavalry
+//unset sherlock skill cavalry
 
 set izerna skill blessing
 set izerna skill canto
@@ -1299,8 +1299,8 @@ set czene skill parry
 set czene skill counter
 set czene skill charisma
 set czene skill arrowbane
-unset czene skill cavalry
-unset Grassrunner_R skill cavalry
+//unset czene skill cavalry
+//unset Grassrunner_R skill cavalry
 set Grassrunner_R skill horselover
 set Grassrunner_R skill horseswap
 set Grassrunner skill horselover
@@ -1452,11 +1452,11 @@ set alvina skill sunder
 set alvina skill critical
 set alvina skill charisma
 set alvina skill armsthrift
-unset alvina skill cavalry
+//unset alvina skill cavalry
 
 set ruby skill adept 
 set ruby skill axebane
-unset ruby skill cavalry
+//unset ruby skill cavalry
 set ruby skill vantage
 set ruby skill canto
 set ruby skill flourish
@@ -1478,7 +1478,7 @@ set ruby skill hide
 set ruby skill sunder
 set ruby skill critical
 set ruby skill charisma
-unset ruby skill cavalry
+//unset ruby skill cavalry
 
 unset arthur skill armsthrift
 set arthur skill canto
@@ -1498,7 +1498,7 @@ set arthur skill provoke
 set arthur skill adept
 set arthur skill horselover
 set arthur skill horseswap
-unset arthur skill cavalry
+//unset arthur skill cavalry
 //set arthur skill Windsweep
 //set arthur skill sunder
 
@@ -1834,7 +1834,7 @@ set clifford skill hide
 set clifford skill adept
 //set clifford skill Windsweep
 //set clifford skill sunder
-unset clifford skill cavalry
+//unset clifford skill cavalry
 
 set axel skill canto
 set axel skill axeguard
@@ -2046,7 +2046,7 @@ set paramythis skill counter
 set paramythis skill critical
 unset paramythis skill robust
 unset paramythis skill robust2
-unset paramythis skill cavalry
+//unset paramythis skill cavalry
 
 // Unbreakable To all weapon
 //set dagger effect unbreakable
