@@ -1301,6 +1301,7 @@ set czene skill celerity
 set czene skill parry
 set czene skill counter
 set czene skill charisma
+set czene skill arrowbane
 
 set daoud skill axeguard
 set daoud skill battlecry
@@ -1379,7 +1380,7 @@ set aegina skill Windsweep
 set aegina skill counter
 set aegina skill scotopic
 
-unset perceval skill arrowbane
+set perceval skill arrowbane
 set perceval skill adept
 set perceval skill canto
 set perceval skill hurry
@@ -1449,7 +1450,7 @@ set alvina skill critical
 set alvina skill charisma
 
 set ruby skill adept 
-set ruby skill axebane
+unset ruby skill axebane
 set ruby skill vantage
 set ruby skill canto
 set ruby skill flourish
@@ -1514,7 +1515,7 @@ set kramer skill pursuit
 set kramer skill adept
 set kramer skill sunder
 set kramer skill parry
-unset kramer skill arrowbane
+set kramer skill arrowbane
 set kramer skill mug
 set kramer skill mug2
 set kramer skill steal
@@ -1551,6 +1552,7 @@ set sherpa skill mug2
 set sherpa skill steal
 set sherpa skill locktouch
 set sherpa skill celerity
+set sherpa skill arrowbane
 
 set dean skill adept
 set dean skill axeguard
@@ -1646,6 +1648,7 @@ set thaddy skill adept
 set thaddy skill battlecry
 set thaddy skill parry
 set thaddy skill counter
+set thaddy skill arrowbane
 
 set esteban skill aim 
 set esteban skill camouflage
@@ -1719,6 +1722,7 @@ set faye skill steal
 set faye skill locktouch
 set faye skill charisma
 set faye skill climber
+set faye skill arrowbane
 
 set faramir skill aim
 set faramir skill canto
@@ -1749,7 +1753,7 @@ set faramir skill deathmatch
 //set faramir skill magicbane
 set faramir skill vantage
 set faramir skill evasion
-//set faramir skill astra
+set faramir skill astra
 //set faramir skill knockaway
 set faramir skill counter
 set faramir skill critical
@@ -1798,6 +1802,7 @@ set volo skill mug2
 set volo skill steal
 set volo skill locktouch
 set volo skill climber
+set volo skill arrowbane
 
 set clifford skill canto
 set clifford skill flourish
@@ -7527,6 +7532,22 @@ set GigasKnight skill vengeful
 set ImperialAxeman skill vengeful
 set Pirate skill vengeful
 set SnowBandit skill vengeful
+set Corsair skill vengeful
+set Warrior skill vengeful
+
+//arrowbane to class
+set Swordfighter_M skill arrowbane
+set Swordmaster skill arrowbane
+set Myrmidon skill arrowbane
+set Mercenary skill arrowbane
+set Axefighter skill arrowbane
+set Berserker skill arrowbane
+set Highlander skill arrowbane
+set Thief_F skill arrowbane
+set Thief_M skill arrowbane
+set Burglar skill arrowbane
+set Grassrunner skill arrowbane
+set Grassrunner_R skill arrowbane
 
 //Prepared to everyone
 set Acolyte skill Prepared
@@ -8303,3 +8324,6 @@ set Swordmaster skill locktouch
 set Ranger skill locktouch
 set Hero skill celerity
 set Highlander skill celerity
+set ThunderMage skill arrowbane
+set ThunderSage skill arrowbane
+set Ranger skill astra
