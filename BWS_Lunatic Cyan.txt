@@ -1165,7 +1165,7 @@ set adel skill pitchfork
 unset adel skill shieldfaire
 unset adel skill supporter
 unset adel skill throw
-//set adel skill vantage
+unset adel skill vantage
 set adel skill prepared 
 set adel skill desperation
 set adel skill maim
@@ -1178,7 +1178,7 @@ set adel skill windsweep
 set adel skill sunder
 //set adel skill provoke
 set adel skill deathmatch
-set adel skill critical
+//set adel skill critical
 //unset adel skill cavalry
 
 set leon skill canto
@@ -1204,7 +1204,7 @@ set leon skill windsweep
 //set leon skill fortune
 set leon skill parry
 set leon skill sunder
-set leon skill critical
+//set leon skill critical
 //unset leon skill cavalry
 //set leon skill provoke
 set leon skill horselover
@@ -5542,7 +5542,6 @@ set Spearman skill canto
 set Spearman skill armsthrift
 unset Spearman skill throw
 set Spearman skill camouflage
-set Spearman skill adept
 set Spearman skill hide
 
 set SpearRider_R base strength +5
@@ -5554,7 +5553,6 @@ set SpearRider_R skill canto
 set SpearRider_R skill armsthrift
 unset SpearRider_R skill throw
 set SpearRider_R skill camouflage
-set SpearRider_R skill adept
 set SpearRider_R skill hide
 
 set SpearRider base strength +5
@@ -5566,7 +5564,6 @@ set SpearRider skill canto
 set SpearRider skill armsthrift
 unset SpearRider skill throw
 set SpearRider skill camouflage
-set SpearRider skill adept
 set SpearRider skill hide
 
 set ImperialSpearman base strength +5
@@ -5578,7 +5575,6 @@ set ImperialSpearman skill canto
 set ImperialSpearman skill armsthrift
 unset ImperialSpearman skill throw
 set ImperialSpearman skill camouflage
-set ImperialSpearman skill adept
 set ImperialSpearman skill hide
 
 set ImperialSpearRider_R base strength +5
@@ -5590,7 +5586,6 @@ set ImperialSpearRider_R skill canto
 set ImperialSpearRider_R skill armsthrift
 unset ImperialSpearRider_R skill throw
 set ImperialSpearRider_R skill camouflage
-set ImperialSpearRider_R skill adept
 set ImperialSpearRider_R skill hide
 
 set ImperialSpearRider base strength +5
@@ -5602,7 +5597,6 @@ set ImperialSpearRider skill canto
 set ImperialSpearRider skill armsthrift
 unset ImperialSpearRider skill throw
 set ImperialSpearRider skill camouflage
-set ImperialSpearRider skill adept
 set ImperialSpearRider skill hide
 
 set Farmer base strength +5
@@ -5614,7 +5608,6 @@ set Farmer skill canto
 set Farmer skill armsthrift
 unset Farmer skill throw
 set Farmer skill camouflage
-set Farmer skill adept
 set Farmer skill hide
 
 set VerianKnight base strength +5
@@ -5760,7 +5753,6 @@ set WyvernKnight_R base magic +20
 set WyvernKnight_R skill canto
 unset WyvernKnight_R skill throw
 set WyvernKnight_R skill hide
-set WyvernKnight_R skill adept
 set WyvernKnight_R cap Sword 50
 set WyvernKnight_R cap Spear 60
 
@@ -5772,7 +5764,6 @@ set WyvernKnight base magic +20
 set WyvernKnight skill canto
 unset WyvernKnight skill throw
 set WyvernKnight skill hide
-set WyvernKnight skill adept
 set WyvernKnight cap Sword 50
 set WyvernKnight cap Spear 60
 
@@ -6036,7 +6027,6 @@ set Ruffian_R skill camouflage
 set Ruffian_R skill aim
 set Ruffian_R skill hide
 set Ruffian_R skill watchful
-set Ruffian_R skill vantage
 //set Ruffian_R skill doubleshot
 
 set Ruffian base strength +5
@@ -6051,7 +6041,6 @@ set Ruffian skill camouflage
 set Ruffian skill aim
 set Ruffian skill hide
 set Ruffian skill watchful
-set Ruffian skill vantage
 //set Ruffian skill doubleshot
 
 set Pickpocket base strength +5
@@ -6065,9 +6054,6 @@ set Pickpocket skill armsthrift
 set Pickpocket skill camouflage
 set Pickpocket skill hide
 set Pickpocket skill watchful
-set Pickpocket skill adept
-set Pickpocket skill critical
-set Pickpocket skill vantage
 set Pickpocket skill fortune
 
 //Thief ennemy with only bow, didn't see any dagger yet
@@ -6093,15 +6079,12 @@ set Assassin base speed +5
 set Assassin base hp +5
 set Assassin skill canto
 set Assassin skill camouflage
-set Assassin skill critical
 unset Assassin skill throw
 set Assassin skill celerity
 set Assassin skill windsweep
 set Assassin skill fortune
 set Assassin skill hide
 set Assassin skill watchful
-set Assassin skill adept
-set Assassin skill vantage
 set Assassin skill armsthrift
 set Assassin skill commander
 
@@ -6129,7 +6112,6 @@ set RazeMonk skill camouflage
 set RazeMonk skill resistor
 set RazeMonk skill versatile
 set RazeMonk skill miracle
-set RazeMonk skill vantage
 set RazeMonk skill hide
 set RazeMonk skill watchful
 
@@ -6146,7 +6128,6 @@ set RazePriest skill versatile
 set RazePriest skill imbue
 set RazePriest skill resistor
 set RazePriest skill miracle
-set RazePriest skill vantage
 set RazePriest skill hide
 set RazePriest skill watchful
 
@@ -6164,7 +6145,6 @@ set RazeBishop skill camouflage
 set RazeBishop skill versatile
 set RazeBishop skill imbue
 set RazeBishop skill miracle
-set RazeBishop skill vantage
 set RazeBishop skill hide
 set RazeBishop skill watchful
 
@@ -6326,8 +6306,6 @@ set FailedPoet skill canto
 set FailedPoet skill camouflage
 //set FailedPoet skill hide
 set FailedPoet skill watchful
-set FailedPoet skill critical
-set FailedPoet skill adept
 
 set RazeBishop2 base strength +5
 set RazeBishop2 base defense +5
@@ -6342,7 +6320,6 @@ set RazeBishop2 skill resistor
 set RazeBishop2 skill camouflage
 set RazeBishop2 skill versatile
 set RazeBishop2 skill miracle
-set RazeBishop2 skill vantage
 set RazeBishop2 skill hide
 set RazeBishop2 skill watchful
 set RazeBishop2 skill charisma
@@ -6565,14 +6542,10 @@ set Paladin_M skill hide
 unset Paladin skill throw
 set Paladin skill hide
 
-//set Paladin_F_R skill adept
 unset Paladin_F_R skill throw
-//set Paladin_F_R skill vantage
 set Paladin_F_R skill hide
 
-//set Paladin_F skill adept
 unset Paladin_F skill throw
-//set Paladin_F skill vantage
 set Paladin_F skill hide
 
 //set Paladin skill armsthrift
@@ -6587,7 +6560,6 @@ set AxeSergeant skill canto
 unset AxeSergeant skill throw
 set AxeSergeant skill hide
 //set AxeSergeant skill protector
-set AxeSergeant skill vengeful
 
 //Will fuck Czene Stat on rankup
 set Grassrunner skill camouflage
@@ -6595,9 +6567,6 @@ set Grassrunner skill canto
 unset Grassrunner skill throw
 set Grassrunner skill hide
 set Grassrunner skill watchful
-set Grassrunner skill critical
-set Grassrunner skill adept
-set Grassrunner skill vantage
 
 set Priest skill blessing
 set Priest skill camouflage
@@ -6605,21 +6574,17 @@ set Priest skill canto
 set Priest skill imbue
 //set Priest skill resistor
 set Priest skill miracle
-set Priest skill adept
 set Priest skill hide
 set Priest skill watchful
-set Priest skill vantage
 set Priest skill prepared
 
 //Owen stat
-set Bishop skill adept
 set Bishop skill blessing
 set Bishop skill camouflage 
 set Bishop skill canto
 set Bishop skill imbue
 set Bishop skill versatile
 set Bishop skill watchful
-set Bishop skill vantage
 set Bishop skill prepared
 
 //thaddy stats, touching this will affect thaddy stat & skill
@@ -6628,29 +6593,21 @@ set Thief_M skill canto
 unset Thief_M skill throw
 set Thief_M skill hide
 set Thief_M skill watchful
-set Thief_M skill critical
-set Thief_M skill adept
-set Thief_M skill vantage
 
-set Axefighter skill adept
 set Axefighter skill canto
 unset Axefighter skill throw
 set Axefighter skill hide
 
-set Swordfighter_M skill adept
 set Swordfighter_M skill canto
 set Swordfighter_M skill iaido
 set Swordfighter_M skill fortune
 set Swordfighter_M skill hide
 set Swordfighter_M skill watchful
 set Swordfighter_M skill celerity
-set Swordfighter_M skill vantage
-set Swordfighter_M skill critical
 set Swordfighter_M skill climber
 
 set Ranger skill climber
 
-set Swordmaster skill adept
 set Swordmaster skill canto
 set Swordmaster skill iaido
 set Swordmaster skill astra
@@ -6659,8 +6616,6 @@ set Swordmaster skill maim
 set Swordmaster skill hide
 set Swordmaster skill watchful
 set Swordmaster skill celerity
-set Swordmaster skill vantage
-set Swordmaster skill critical
 set Swordmaster skill climber
 
 // Arthur Class
@@ -6669,7 +6624,6 @@ set SwordKnight skill hide
 
 unset Pirate skill throw
 set Pirate skill hide
-set Pirate skill adept
 
 //sherlock stats
 set Horseman skill aim
@@ -6703,22 +6657,16 @@ set Ballistician skill parry
 set Burglar skill camouflage
 set Burglar skill scotopic
 unset Burglar skill throw
-set Burglar skill critical
 set Burglar skill hide
 set Burglar skill watchful
-set Burglar skill adept
-set Burglar skill vantage
 
 // faye stat
-set Myrmidon skill adept
 set Myrmidon skill canto
 set Myrmidon skill iaido
 set Myrmidon skill hide
 set Myrmidon skill watchful
 set Myrmidon skill celerity
 set Myrmidon skill fortune
-set Myrmidon skill vantage
-set Myrmidon skill critical
 
 //Daoud Stat
 unset AxeSoldier skill throw
@@ -6730,7 +6678,6 @@ unset ArmorKnight skill throw
 set ArmorKnight skill canto
 set ArmorKnight skill hide
 //set ArmorKnight skill armsthrift
-set ArmorKnight skill adept
 //set ArmorKnight skill protector
 
 //Esteban stat
@@ -6739,13 +6686,11 @@ set Hunter skill camouflage
 set Hunter skill hide
 set Hunter skill watchful
 set Hunter skill aim
-set Hunter skill adept
 //set Hunter skill doubleshot
 
 //Kramer Stat
 set Mercenary skill canto
 set Mercenary skill hide
-set Mercenary skill adept
 //set Mercenary skill knockaway
 set Mercenary skill fortune
 set Mercenary skill climber
@@ -6770,12 +6715,9 @@ set ArrowKnight skill hide
 set ArrowKnight skill watchful
 
 // Adel Lean Class
-set SpearKnight skill adept
 
 set Berserker skill maim
 set Berserker skill hide
-set Berserker skill vengeful
-set Berserker skill adept
 
 set DukeKnight skill hide
 
@@ -7048,166 +6990,166 @@ set WyvernLord_R skill adept
 
 //Counter to everyone
 //set Ballistician skill counter
-set Acolyte skill counter
-set Apostle skill counter
-set Aristocrat skill counter
-set ArmorKnight skill counter
-set ArrowKnight skill counter
-set ArrowKnight_R skill counter
-set Assassin skill counter
-set AxeGuard skill counter
-set AxeSergeant skill counter
-set AxeSoldier skill counter
-set Axefighter skill counter
-set Axeman skill counter
-set Bandit skill counter
-set Barbarian skill counter
-set Berserker skill counter
-set Bishop skill counter
-set BlackRider skill counter
-set BlackRider_R skill counter
-set BowKnight skill counter
-set BowKnight_R skill counter
-set BowRider skill counter
-set BowRider_R skill counter
-set Bowman skill counter
-set Burglar skill counter
-set Captain skill counter
-set Cavalier skill counter
-set Cavalier_R skill counter
-set Chevalire skill counter
-set Chevalire_R skill counter
-set Chief skill counter
-set ChosenOne skill counter
-set Cleric skill counter
-set Corsair skill counter
-set CourtPriest skill counter
-set DarkMaster skill counter
-set DragonKnight skill counter
-set DragonKnight_R skill counter
-set Duke skill counter
-set DukeKnight skill counter
-set DukeKnight_R skill counter
-set Engineer skill counter
-set FailedPoet skill counter
-set Farmer skill counter
-set Fencer skill counter
-set FlameFencer skill counter
-set Flamewyrm skill counter
-set Friar skill counter
-set General skill counter
-set GigasKnight skill counter
-set Grassrunner skill counter
-set Grassrunner_R skill counter
-set Guardian skill counter
-set Gunner skill counter
-set HeavyGunner skill counter
-set Hero skill counter
-set HighHunter skill counter
-set HighKnight skill counter
-set HighKnight2 skill counter
-set HighKnight2_R skill counter
-set HighKnight_R skill counter
-set Highlander skill counter
-set Horseman skill counter
-set Horseman_R skill counter
-set Hunter skill counter
-set Huntress skill counter
-set Icewyrm skill counter
-set ImperialAxeman skill counter
-set ImperialBowRider skill counter
-set ImperialBowRider_R skill counter
-set ImperialBowman skill counter
-set ImperialGunner skill counter
-set ImperialHeavyGunner skill counter
-set ImperialKnight skill counter
-set ImperialKnight_R skill counter
-set ImperialMarksman skill counter
-set ImperialPaladin skill counter
-set ImperialPaladin_R skill counter
-set ImperialSpearRider skill counter
-set ImperialSpearRider_R skill counter
-set ImperialSpearman skill counter
-set King skill counter
-set KnightLord skill counter
-set KnightLord_R skill counter
-set LadyKnight skill counter
-set LadyKnight_R skill counter
-set LanceKnight skill counter
-set LanceKnight2 skill counter
-set LanceKnight2_R skill counter
-set LanceKnight_R skill counter
-set Levinwyrm skill counter
-set Lord skill counter
-set Lord_R skill counter
-set Marksman skill counter
-set Mercenary skill counter
-set Myrmidon skill counter
-set Outlaw skill counter
-set Paladin skill counter
-set Paladin_F skill counter
-set Paladin_F_R skill counter
-set Paladin_M skill counter
-set Paladin_M_R skill counter
-set Paladin_R skill counter
-set Pickpocket skill counter
-set Pirate skill counter
-set Priest skill counter
-set Priestess skill counter
-set Princess skill counter
-set Ranger skill counter
-set RazeBishop skill counter
-set RazeBishop2 skill counter
-set RazeMonk skill counter
-set RazeMonkOwen skill counter
-set RazePriest skill counter
-set RazeWarMonk skill counter
-set RazeWarMonk2 skill counter
-set Rogue skill counter
-set RogueArcher skill counter
-set RogueGuard skill counter
-set RogueGunner skill counter
-set RogueWarrior skill counter
-set Ruffian skill counter
-set Ruffian_R skill counter
-set Scoundrel skill counter
-set ShiningKnight skill counter
-set ShiningKnightParamythis skill counter
-set ShiningKnightParamythis_R skill counter
-set ShiningKnight_R skill counter
-set Sniper skill counter
-set SnowBandit skill counter
-set SpearKnight skill counter
-set SpearKnight_R skill counter
-set SpearRider skill counter
-set SpearRider_R skill counter
-set Spearman skill counter
-set SwordKnight skill counter
-set SwordKnight_R skill counter
-set Swordfighter_M skill counter
-set Swordmaster skill counter
-set Thief_F skill counter
-set Thief_M skill counter
-set ThunderMage skill counter
-set ThunderSage skill counter
-set Transporter skill counter
-set VerianKnight skill counter
-set VerianKnight2 skill counter
-set VerianKnight2_R skill counter
-set VerianKnight_R skill counter
-set VeteranKnight skill counter
-set VeteranKnight_R skill counter
-set WarMonk skill counter
-set Warrior skill counter
-set WindMage skill counter
-set WindSage skill counter
-set Wyvern skill counter
-set WyvernKnight skill counter
-set WyvernKnightLarentia skill counter
-set WyvernKnightLarentia_R skill counter
-set WyvernKnight_R skill counter
-set WyvernLord skill counter
-set WyvernLord_R skill counter
+//set Acolyte skill counter
+//set Apostle skill counter
+//set Aristocrat skill counter
+//set ArmorKnight skill counter
+//set ArrowKnight skill counter
+//set ArrowKnight_R skill counter
+//set Assassin skill counter
+//set AxeGuard skill counter
+//set AxeSergeant skill counter
+//set AxeSoldier skill counter
+//set Axefighter skill counter
+//set Axeman skill counter
+//set Bandit skill counter
+//set Barbarian skill counter
+//set Berserker skill counter
+//set Bishop skill counter
+//set BlackRider skill counter
+//set BlackRider_R skill counter
+//set BowKnight skill counter
+//set BowKnight_R skill counter
+//set BowRider skill counter
+//set BowRider_R skill counter
+//set Bowman skill counter
+//set Burglar skill counter
+//set Captain skill counter
+//set Cavalier skill counter
+//set Cavalier_R skill counter
+//set Chevalire skill counter
+//set Chevalire_R skill counter
+//set Chief skill counter
+//set ChosenOne skill counter
+//set Cleric skill counter
+//set Corsair skill counter
+//set CourtPriest skill counter
+//set DarkMaster skill counter
+//set DragonKnight skill counter
+//set DragonKnight_R skill counter
+//set Duke skill counter
+//set DukeKnight skill counter
+//set DukeKnight_R skill counter
+//set Engineer skill counter
+//set FailedPoet skill counter
+//set Farmer skill counter
+//set Fencer skill counter
+//set FlameFencer skill counter
+//set Flamewyrm skill counter
+//set Friar skill counter
+//set General skill counter
+//set GigasKnight skill counter
+//set Grassrunner skill counter
+//set Grassrunner_R skill counter
+//set Guardian skill counter
+//set Gunner skill counter
+//set HeavyGunner skill counter
+//set Hero skill counter
+//set HighHunter skill counter
+//set HighKnight skill counter
+//set HighKnight2 skill counter
+//set HighKnight2_R skill counter
+//set HighKnight_R skill counter
+//set Highlander skill counter
+//set Horseman skill counter
+//set Horseman_R skill counter
+//set Hunter skill counter
+//set Huntress skill counter
+//set Icewyrm skill counter
+//set ImperialAxeman skill counter
+//set ImperialBowRider skill counter
+//set ImperialBowRider_R skill counter
+//set ImperialBowman skill counter
+//set ImperialGunner skill counter
+//set ImperialHeavyGunner skill counter
+//set ImperialKnight skill counter
+//set ImperialKnight_R skill counter
+//set ImperialMarksman skill counter
+//set ImperialPaladin skill counter
+//set ImperialPaladin_R skill counter
+//set ImperialSpearRider skill counter
+//set ImperialSpearRider_R skill counter
+//set ImperialSpearman skill counter
+//set King skill counter
+//set KnightLord skill counter
+//set KnightLord_R skill counter
+//set LadyKnight skill counter
+//set LadyKnight_R skill counter
+//set LanceKnight skill counter
+//set LanceKnight2 skill counter
+//set LanceKnight2_R skill counter
+//set LanceKnight_R skill counter
+//set Levinwyrm skill counter
+//set Lord skill counter
+//set Lord_R skill counter
+//set Marksman skill counter
+//set Mercenary skill counter
+//set Myrmidon skill counter
+//set Outlaw skill counter
+//set Paladin skill counter
+//set Paladin_F skill counter
+//set Paladin_F_R skill counter
+//set Paladin_M skill counter
+//set Paladin_M_R skill counter
+//set Paladin_R skill counter
+//set Pickpocket skill counter
+//set Pirate skill counter
+//set Priest skill counter
+//set Priestess skill counter
+//set Princess skill counter
+//set Ranger skill counter
+//set RazeBishop skill counter
+//set RazeBishop2 skill counter
+//set RazeMonk skill counter
+//set RazeMonkOwen skill counter
+//set RazePriest skill counter
+//set RazeWarMonk skill counter
+//set RazeWarMonk2 skill counter
+//set Rogue skill counter
+//set RogueArcher skill counter
+//set RogueGuard skill counter
+//set RogueGunner skill counter
+//set RogueWarrior skill counter
+//set Ruffian skill counter
+//set Ruffian_R skill counter
+//set Scoundrel skill counter
+//set ShiningKnight skill counter
+//set ShiningKnightParamythis skill counter
+//set ShiningKnightParamythis_R skill counter
+//set ShiningKnight_R skill counter
+//set Sniper skill counter
+//set SnowBandit skill counter
+//set SpearKnight skill counter
+//set SpearKnight_R skill counter
+//set SpearRider skill counter
+//set SpearRider_R skill counter
+//set Spearman skill counter
+//set SwordKnight skill counter
+//set SwordKnight_R skill counter
+//set Swordfighter_M skill counter
+//set Swordmaster skill counter
+//set Thief_F skill counter
+//set Thief_M skill counter
+//set ThunderMage skill counter
+//set ThunderSage skill counter
+//set Transporter skill counter
+//set VerianKnight skill counter
+//set VerianKnight2 skill counter
+//set VerianKnight2_R skill counter
+//set VerianKnight_R skill counter
+//set VeteranKnight skill counter
+//set VeteranKnight_R skill counter
+//set WarMonk skill counter
+//set Warrior skill counter
+//set WindMage skill counter
+//set WindSage skill counter
+//set Wyvern skill counter
+//set WyvernKnight skill counter
+//set WyvernKnightLarentia skill counter
+//set WyvernKnightLarentia_R skill counter
+//set WyvernKnight_R skill counter
+//set WyvernLord skill counter
+//set WyvernLord_R skill counter
 
 // Fortune for no shield unit
 //set Ballistician skill fortune
@@ -7523,13 +7465,17 @@ set Swordfighter_M skill critical
 set Swordmaster skill critical
 set Thief_F skill critical
 set Thief_M skill critical
+set WyvernKnightLarentia skill critical
+set WyvernKnightLarentia_R skill critical
+set WyvernKnight skill critical
+set WyvernKnight_R skill critical
 
 //vengeful to class
 //set Axefighter skill vengeful
 set ArmorKnight skill vengeful
 //set AxeGuard skill vengeful
 //set Axeman skill vengeful
-//set AxeSergeant skill vengeful
+set AxeSergeant skill vengeful
 //set AxeSoldier skill vengeful
 //set Bandit skill vengeful
 //set Barbarian skill vengeful
@@ -7550,7 +7496,7 @@ set Mercenary skill arrowbane
 set Hero skill arrowbane
 set Axefighter skill arrowbane
 set Berserker skill arrowbane
-set Highlander skill arrowbane
+//set Highlander skill arrowbane
 set Thief_F skill arrowbane
 set Thief_M skill arrowbane
 set Burglar skill arrowbane
@@ -7906,167 +7852,167 @@ set paramythis skill search
 set izerna skill search
 
 //vantage to everyone
-set Acolyte skill vantage
-set Apostle skill vantage
-set Aristocrat skill vantage
-set ArmorKnight skill vantage
-set ArrowKnight skill vantage
-set ArrowKnight_R skill vantage
-set Assassin skill vantage
-set Axefighter skill vantage
-set AxeGuard skill vantage
-set Axeman skill vantage
-set AxeSergeant skill vantage
-set AxeSoldier skill vantage
-//set Ballistician skill vantage
-set Bandit skill vantage
-set Barbarian skill vantage
-set Berserker skill vantage
-set Bishop skill vantage
-set BlackRider skill vantage
-set BlackRider_R skill vantage
-set BowKnight skill vantage
-set BowKnight_R skill vantage
-set Bowman skill vantage
-set BowRider skill vantage
-set BowRider_R skill vantage
-set Burglar skill vantage
-set Captain skill vantage
-set Cavalier skill vantage
-set Cavalier_R skill vantage
-set Chevalire skill vantage
-set Chevalire_R skill vantage
-set Chief skill vantage
-set ChosenOne skill vantage
-set Cleric skill vantage
-set Corsair skill vantage
-set CourtPriest skill vantage
-set DarkMaster skill vantage
-set DragonKnight skill vantage
-set DragonKnight_R skill vantage
-set Duke skill vantage
-set DukeKnight skill vantage
-set DukeKnight_R skill vantage
-set Engineer skill vantage
-set FailedPoet skill vantage
-set Farmer skill vantage
-set Fencer skill vantage
-set FlameFencer skill vantage
-set Flamewyrm skill vantage
-set Friar skill vantage
-set General skill vantage
-set GigasKnight skill vantage
-set Grassrunner skill vantage
-set Grassrunner_R skill vantage
-set Guardian skill vantage
-set Gunner skill vantage
-set HeavyGunner skill vantage
-set Hero skill vantage
-set HighHunter skill vantage
-set HighKnight skill vantage
-set HighKnight2 skill vantage
-set HighKnight2_R skill vantage
-set HighKnight_R skill vantage
-set Highlander skill vantage
-//set Horseman skill vantage
-//set Horseman_R skill vantage
-set Hunter skill vantage
-set Huntress skill vantage
-set Icewyrm skill vantage
-set ImperialAxeman skill vantage
-set ImperialBowman skill vantage
-set ImperialBowRider skill vantage
-set ImperialBowRider_R skill vantage
-set ImperialGunner skill vantage
-set ImperialHeavyGunner skill vantage
-set ImperialKnight skill vantage
-set ImperialKnight_R skill vantage
-set ImperialMarksman skill vantage
-set ImperialPaladin skill vantage
-set ImperialPaladin_R skill vantage
+//set Acolyte skill vantage
+//set Apostle skill vantage
+//set Aristocrat skill vantage
+//set ArmorKnight skill vantage
+//set ArrowKnight skill vantage
+//set ArrowKnight_R skill vantage
+//set Assassin skill vantage
+//set Axefighter skill vantage
+//set AxeGuard skill vantage
+//set Axeman skill vantage
+//set AxeSergeant skill vantage
+//set AxeSoldier skill vantage
+////set Ballistician skill vantage
+//set Bandit skill vantage
+//set Barbarian skill vantage
+//set Berserker skill vantage
+//set Bishop skill vantage
+//set BlackRider skill vantage
+//set BlackRider_R skill vantage
+//set BowKnight skill vantage
+//set BowKnight_R skill vantage
+//set Bowman skill vantage
+//set BowRider skill vantage
+//set BowRider_R skill vantage
+//set Burglar skill vantage
+//set Captain skill vantage
+//set Cavalier skill vantage
+//set Cavalier_R skill vantage
+//set Chevalire skill vantage
+//set Chevalire_R skill vantage
+//set Chief skill vantage
+//set ChosenOne skill vantage
+//set Cleric skill vantage
+//set Corsair skill vantage
+//set CourtPriest skill vantage
+//set DarkMaster skill vantage
+//set DragonKnight skill vantage
+//set DragonKnight_R skill vantage
+//set Duke skill vantage
+//set DukeKnight skill vantage
+//set DukeKnight_R skill vantage
+//set Engineer skill vantage
+//set FailedPoet skill vantage
+//set Farmer skill vantage
+//set Fencer skill vantage
+//set FlameFencer skill vantage
+//set Flamewyrm skill vantage
+//set Friar skill vantage
+//set General skill vantage
+//set GigasKnight skill vantage
+//set Grassrunner skill vantage
+//set Grassrunner_R skill vantage
+//set Guardian skill vantage
+//set Gunner skill vantage
+//set HeavyGunner skill vantage
+//set Hero skill vantage
+//set HighHunter skill vantage
+//set HighKnight skill vantage
+//set HighKnight2 skill vantage
+//set HighKnight2_R skill vantage
+//set HighKnight_R skill vantage
+//set Highlander skill vantage
+////set Horseman skill vantage
+////set Horseman_R skill vantage
+//set Hunter skill vantage
+//set Huntress skill vantage
+//set Icewyrm skill vantage
+//set ImperialAxeman skill vantage
+//set ImperialBowman skill vantage
+//set ImperialBowRider skill vantage
+//set ImperialBowRider_R skill vantage
+//set ImperialGunner skill vantage
+//set ImperialHeavyGunner skill vantage
+//set ImperialKnight skill vantage
+//set ImperialKnight_R skill vantage
+//set ImperialMarksman skill vantage
+//set ImperialPaladin skill vantage
+//set ImperialPaladin_R skill vantage
 set ImperialSpearman skill vantage
 set ImperialSpearRider skill vantage
 set ImperialSpearRider_R skill vantage
-set King skill vantage
-set KnightLord skill vantage
-set KnightLord_R skill vantage
-set LadyKnight skill vantage
-set LadyKnight_R skill vantage
+//set King skill vantage
+//set KnightLord skill vantage
+//set KnightLord_R skill vantage
+//set LadyKnight skill vantage
+//set LadyKnight_R skill vantage
 set LanceKnight skill vantage
 set LanceKnight2 skill vantage
 set LanceKnight2_R skill vantage
 set LanceKnight_R skill vantage
-set Levinwyrm skill vantage
-set Lord skill vantage
-set Lord_R skill vantage
-set Marksman skill vantage
-set Mercenary skill vantage
-set Myrmidon skill vantage
-set Outlaw skill vantage
-set Paladin skill vantage
-set Paladin_F skill vantage
-set Paladin_F_R skill vantage
-set Paladin_M skill vantage
-set Paladin_M_R skill vantage
-set Paladin_R skill vantage
-set Pickpocket skill vantage
-set Pirate skill vantage
-set Priest skill vantage
-set Priestess skill vantage
-set Princess skill vantage
-set Ranger skill vantage
-set RazeBishop skill vantage
-set RazeBishop2 skill vantage
-set RazeMonk skill vantage
-set RazeMonkOwen skill vantage
-set RazePriest skill vantage
-set RazeWarMonk skill vantage
-set RazeWarMonk2 skill vantage
-set Rogue skill vantage
-set RogueArcher skill vantage
-set RogueGuard skill vantage
-set RogueGunner skill vantage
-set RogueWarrior skill vantage
-set Ruffian skill vantage
-set Ruffian_R skill vantage
-set Scoundrel skill vantage
-set ShiningKnight skill vantage
-set ShiningKnight_R skill vantage
-set ShiningKnightParamythis skill vantage
-set ShiningKnightParamythis_R skill vantage
-//set Sniper skill vantage
-set SnowBandit skill vantage
+//set Levinwyrm skill vantage
+//set Lord skill vantage
+//set Lord_R skill vantage
+//set Marksman skill vantage
+//set Mercenary skill vantage
+//set Myrmidon skill vantage
+//set Outlaw skill vantage
+//set Paladin skill vantage
+//set Paladin_F skill vantage
+//set Paladin_F_R skill vantage
+//set Paladin_M skill vantage
+//set Paladin_M_R skill vantage
+//set Paladin_R skill vantage
+//set Pickpocket skill vantage
+//set Pirate skill vantage
+//set Priest skill vantage
+//set Priestess skill vantage
+//set Princess skill vantage
+//set Ranger skill vantage
+//set RazeBishop skill vantage
+//set RazeBishop2 skill vantage
+//set RazeMonk skill vantage
+//set RazeMonkOwen skill vantage
+//set RazePriest skill vantage
+//set RazeWarMonk skill vantage
+//set RazeWarMonk2 skill vantage
+//set Rogue skill vantage
+//set RogueArcher skill vantage
+//set RogueGuard skill vantage
+//set RogueGunner skill vantage
+//set RogueWarrior skill vantage
+//set Ruffian skill vantage
+//set Ruffian_R skill vantage
+//set Scoundrel skill vantage
+//set ShiningKnight skill vantage
+//set ShiningKnight_R skill vantage
+//set ShiningKnightParamythis skill vantage
+//set ShiningKnightParamythis_R skill vantage
+////set Sniper skill vantage
+//set SnowBandit skill vantage
 set SpearKnight skill vantage
 set SpearKnight_R skill vantage
 set Spearman skill vantage
 set SpearRider skill vantage
 set SpearRider_R skill vantage
-set Swordfighter_M skill vantage
-set SwordKnight skill vantage
-set SwordKnight_R skill vantage
-set Swordmaster skill vantage
-set Thief_F skill vantage
-set Thief_M skill vantage
-set ThunderMage skill vantage
-set ThunderSage skill vantage
-set Transporter skill vantage
-set VerianKnight skill vantage
-set VerianKnight2 skill vantage
-set VerianKnight2_R skill vantage
-set VerianKnight_R skill vantage
-set VeteranKnight skill vantage
-set VeteranKnight_R skill vantage
-set WarMonk skill vantage
-set Warrior skill vantage
-set WindMage skill vantage
-set WindSage skill vantage
-set Wyvern skill vantage
-set WyvernKnight skill vantage
-set WyvernKnight_R skill vantage
-set WyvernKnightLarentia skill vantage
-set WyvernKnightLarentia_R skill vantage
-set WyvernLord skill vantage
-set WyvernLord_R skill vantage
+//set Swordfighter_M skill vantage
+//set SwordKnight skill vantage
+//set SwordKnight_R skill vantage
+//set Swordmaster skill vantage
+//set Thief_F skill vantage
+//set Thief_M skill vantage
+//set ThunderMage skill vantage
+//set ThunderSage skill vantage
+//set Transporter skill vantage
+//set VerianKnight skill vantage
+//set VerianKnight2 skill vantage
+//set VerianKnight2_R skill vantage
+//set VerianKnight_R skill vantage
+//set VeteranKnight skill vantage
+//set VeteranKnight_R skill vantage
+//set WarMonk skill vantage
+//set Warrior skill vantage
+//set WindMage skill vantage
+//set WindSage skill vantage
+//set Wyvern skill vantage
+//set WyvernKnight skill vantage
+//set WyvernKnight_R skill vantage
+//set WyvernKnightLarentia skill vantage
+//set WyvernKnightLarentia_R skill vantage
+//set WyvernLord skill vantage
+//set WyvernLord_R skill vantage
 
 //set reese skill vantage
 //set ward skill vantage
