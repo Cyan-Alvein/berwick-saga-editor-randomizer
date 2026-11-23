@@ -110,6 +110,29 @@
 
 // Faye Faramir Volo Axel Dean Kramer Sherpa Enid Czene Thaddy got skill mug mug2 steal
 
+// The following below are the chances only available on the "BWS Lunatic Cyan.xdelta.xdelta" after using both MinN's Editor and the Workshop
+
+// Crit will always deal 15 damages
+
+// Deadeye, Overwatch, AxeGuard, Steal, Evasion, Silence, Imbue Available after moving
+
+// Axeguard will always block, 100% block-rate
+
+// Astra Focus_Chant OneTwo Silence 4 turn wait
+
+// Steal, Mug2 unlimited
+
+// Charisma 5 hit to unit
+
+// Supporter 30 hit
+
+// Flourish 100% injure rate, no longer halve weapon
+
+// Desperation no longer drop defense to 0
+
+// Vengeful went from 3% to 5% by hp lost
+
+// Weapon break chance are 1% between 25 and 12 durability, 2% between 12 and 1 durability, 100% at 1 durability
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // "_R" are for when the unit is mounted. Christine unmounted is ArrowKnight, Christine mounted is ArrowKnight_R

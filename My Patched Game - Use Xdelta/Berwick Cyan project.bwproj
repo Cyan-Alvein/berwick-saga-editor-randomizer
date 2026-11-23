@@ -1,0 +1,775 @@
+{
+  "format": "Berwick Workshop project",
+  "formatVersion": 1,
+  "edition": "Modified English v2.3",
+  "editionSha256": "b035d563d8a81efebd5f5b933a589f3b068e52a65f2b377558eaeeb285a4d4ac",
+  "appVersion": "0.118.0",
+  "changes": [
+    {
+      "table": "items",
+      "id": 521,
+      "name": "Strong Horse",
+      "field": "price",
+      "original": 9000,
+      "value": 6000
+    },
+    {
+      "table": "items",
+      "id": 522,
+      "name": "Ishs Stallion",
+      "field": "price",
+      "original": 5000,
+      "value": 7000
+    },
+    {
+      "table": "items",
+      "id": 524,
+      "name": "Liga Destrier",
+      "field": "price",
+      "original": 7500,
+      "value": 7000
+    },
+    {
+      "table": "items",
+      "id": 525,
+      "name": "Liga Courser",
+      "field": "price",
+      "original": 12500,
+      "value": 7000
+    },
+    {
+      "table": "items",
+      "id": 526,
+      "name": "Morach Horse",
+      "field": "price",
+      "original": 7500,
+      "value": 7000
+    },
+    {
+      "table": "items",
+      "id": 527,
+      "name": "Ishs Courser",
+      "field": "price",
+      "original": 9000,
+      "value": 4600
+    },
+    {
+      "table": "characters",
+      "id": 84,
+      "name": "Ward",
+      "field": "hpBonus",
+      "original": 13,
+      "value": 9
+    },
+    {
+      "table": "characters",
+      "id": 84,
+      "name": "Ward",
+      "field": "strengthBonus",
+      "original": 5,
+      "value": 4
+    },
+    {
+      "table": "characters",
+      "id": 84,
+      "name": "Ward",
+      "field": "defenseBonus",
+      "original": 5,
+      "value": 3
+    },
+    {
+      "table": "characters",
+      "id": 84,
+      "name": "Ward",
+      "field": "agilityBonus",
+      "original": 5,
+      "value": 3
+    },
+    {
+      "table": "characters",
+      "id": 84,
+      "name": "Ward",
+      "field": "mindBonus",
+      "original": 5,
+      "value": 0
+    },
+    {
+      "table": "characters",
+      "id": 84,
+      "name": "Ward",
+      "field": "smallshieldLevel",
+      "original": 66,
+      "value": 450
+    },
+    {
+      "table": "characters",
+      "id": 86,
+      "name": "Marcel",
+      "field": "hpBonus",
+      "original": 12,
+      "value": 6
+    },
+    {
+      "table": "characters",
+      "id": 86,
+      "name": "Marcel",
+      "field": "strengthBonus",
+      "original": 3,
+      "value": 1
+    },
+    {
+      "table": "characters",
+      "id": 86,
+      "name": "Marcel",
+      "field": "defenseBonus",
+      "original": 3,
+      "value": 1
+    },
+    {
+      "table": "characters",
+      "id": 86,
+      "name": "Marcel",
+      "field": "mindBonus",
+      "original": 5,
+      "value": 0
+    },
+    {
+      "table": "characters",
+      "id": 116,
+      "name": "Derrick",
+      "field": "hpBonus",
+      "original": 10,
+      "value": 9
+    },
+    {
+      "table": "characters",
+      "id": 116,
+      "name": "Derrick",
+      "field": "strengthBonus",
+      "original": 5,
+      "value": 0
+    },
+    {
+      "table": "characters",
+      "id": 116,
+      "name": "Derrick",
+      "field": "agilityBonus",
+      "original": 3,
+      "value": 0
+    },
+    {
+      "table": "characters",
+      "id": 116,
+      "name": "Derrick",
+      "field": "mindBonus",
+      "original": 6,
+      "value": 0
+    },
+    {
+      "table": "characters",
+      "id": 144,
+      "name": "Volo",
+      "field": "hpBonus",
+      "original": 4,
+      "value": 3
+    },
+    {
+      "table": "characters",
+      "id": 144,
+      "name": "Volo",
+      "field": "strengthBonus",
+      "original": 5,
+      "value": 3
+    },
+    {
+      "table": "characters",
+      "id": 147,
+      "name": "Axel",
+      "field": "hpBonus",
+      "original": 6,
+      "value": 5
+    },
+    {
+      "table": "characters",
+      "id": 147,
+      "name": "Axel",
+      "field": "strengthBonus",
+      "original": 7,
+      "value": 5
+    },
+    {
+      "table": "characters",
+      "id": 147,
+      "name": "Axel",
+      "field": "defenseBonus",
+      "original": 2,
+      "value": 0
+    },
+    {
+      "table": "characters",
+      "id": 147,
+      "name": "Axel",
+      "field": "agilityBonus",
+      "original": 7,
+      "value": 2
+    },
+    {
+      "table": "characters",
+      "id": 147,
+      "name": "Axel",
+      "field": "mindBonus",
+      "original": 2,
+      "value": 0
+    },
+    {
+      "table": "classes",
+      "id": 18,
+      "name": "Swordfighter (male)",
+      "field": "hp",
+      "original": 26,
+      "value": 27
+    },
+    {
+      "table": "classes",
+      "id": 18,
+      "name": "Swordfighter (male)",
+      "field": "strength",
+      "original": 6,
+      "value": 8
+    },
+    {
+      "table": "classes",
+      "id": 29,
+      "name": "Guardian",
+      "field": "hp",
+      "original": 28,
+      "value": 31
+    },
+    {
+      "table": "classes",
+      "id": 29,
+      "name": "Guardian",
+      "field": "strength",
+      "original": 6,
+      "value": 8
+    },
+    {
+      "table": "classes",
+      "id": 29,
+      "name": "Guardian",
+      "field": "defense",
+      "original": 8,
+      "value": 10
+    },
+    {
+      "table": "classes",
+      "id": 29,
+      "name": "Guardian",
+      "field": "mind",
+      "original": 0,
+      "value": 5
+    },
+    {
+      "table": "classes",
+      "id": 30,
+      "name": "Veteran Knight (mounted)",
+      "field": "hp",
+      "original": 30,
+      "value": 31
+    },
+    {
+      "table": "classes",
+      "id": 30,
+      "name": "Veteran Knight (mounted)",
+      "field": "strength",
+      "original": 7,
+      "value": 8
+    },
+    {
+      "table": "classes",
+      "id": 30,
+      "name": "Veteran Knight (mounted)",
+      "field": "defense",
+      "original": 7,
+      "value": 9
+    },
+    {
+      "table": "classes",
+      "id": 30,
+      "name": "Veteran Knight (mounted)",
+      "field": "agility",
+      "original": 6,
+      "value": 8
+    },
+    {
+      "table": "classes",
+      "id": 30,
+      "name": "Veteran Knight (mounted)",
+      "field": "mind",
+      "original": 0,
+      "value": 5
+    },
+    {
+      "table": "classes",
+      "id": 30,
+      "name": "Veteran Knight (mounted)",
+      "field": "smallshieldCap",
+      "original": 0,
+      "value": 50
+    },
+    {
+      "table": "classes",
+      "id": 30,
+      "name": "Veteran Knight (mounted)",
+      "field": "shieldSmall",
+      "original": 0,
+      "value": 1
+    },
+    {
+      "table": "classes",
+      "id": 31,
+      "name": "Veteran Knight",
+      "field": "hp",
+      "original": 30,
+      "value": 31
+    },
+    {
+      "table": "classes",
+      "id": 31,
+      "name": "Veteran Knight",
+      "field": "strength",
+      "original": 7,
+      "value": 8
+    },
+    {
+      "table": "classes",
+      "id": 31,
+      "name": "Veteran Knight",
+      "field": "defense",
+      "original": 7,
+      "value": 9
+    },
+    {
+      "table": "classes",
+      "id": 31,
+      "name": "Veteran Knight",
+      "field": "agility",
+      "original": 6,
+      "value": 8
+    },
+    {
+      "table": "classes",
+      "id": 31,
+      "name": "Veteran Knight",
+      "field": "mind",
+      "original": 0,
+      "value": 5
+    },
+    {
+      "table": "classes",
+      "id": 31,
+      "name": "Veteran Knight",
+      "field": "smallshieldCap",
+      "original": 0,
+      "value": 50
+    },
+    {
+      "table": "classes",
+      "id": 31,
+      "name": "Veteran Knight",
+      "field": "shieldSmall",
+      "original": 0,
+      "value": 1
+    },
+    {
+      "table": "classes",
+      "id": 63,
+      "name": "Armor Knight",
+      "field": "hp",
+      "original": 30,
+      "value": 31
+    },
+    {
+      "table": "classes",
+      "id": 63,
+      "name": "Armor Knight",
+      "field": "strength",
+      "original": 6,
+      "value": 11
+    },
+    {
+      "table": "classes",
+      "id": 63,
+      "name": "Armor Knight",
+      "field": "agility",
+      "original": 4,
+      "value": 7
+    },
+    {
+      "table": "classes",
+      "id": 63,
+      "name": "Armor Knight",
+      "field": "mind",
+      "original": 0,
+      "value": 6
+    },
+    {
+      "table": "classes",
+      "id": 229,
+      "name": "Pirate",
+      "field": "hp",
+      "original": 30,
+      "value": 31
+    },
+    {
+      "table": "classes",
+      "id": 229,
+      "name": "Pirate",
+      "field": "strength",
+      "original": 6,
+      "value": 8
+    },
+    {
+      "table": "classes",
+      "id": 229,
+      "name": "Pirate",
+      "field": "agility",
+      "original": 5,
+      "value": 10
+    },
+    {
+      "table": "classes",
+      "id": 229,
+      "name": "Pirate",
+      "field": "mind",
+      "original": 0,
+      "value": 2
+    },
+    {
+      "table": "rules",
+      "id": 13,
+      "name": "Critical hit bonus damage",
+      "field": "criticalBonus",
+      "original": 2580,
+      "value": 3855
+    },
+    {
+      "table": "rules",
+      "id": 53,
+      "name": "Sunder critical bonus",
+      "field": "sunderCritical",
+      "original": 25,
+      "value": 70
+    },
+    {
+      "table": "rules",
+      "id": 61,
+      "name": "Deadeye after moving",
+      "field": "deadeyeAfterMoving",
+      "original": 1,
+      "value": 0
+    },
+    {
+      "table": "rules",
+      "id": 65,
+      "name": "Overwatch after moving",
+      "field": "overwatchAfterMoving",
+      "original": 1,
+      "value": 0
+    },
+    {
+      "table": "rules",
+      "id": 66,
+      "name": "Axe Guard after moving",
+      "field": "axeGuardAfterMoving",
+      "original": 1,
+      "value": 0
+    },
+    {
+      "table": "rules",
+      "id": 69,
+      "name": "Steal after moving",
+      "field": "stealAfterMoving",
+      "original": 1,
+      "value": 0
+    },
+    {
+      "table": "rules",
+      "id": 71,
+      "name": "Evasion after moving",
+      "field": "evasionAfterMoving",
+      "original": 1,
+      "value": 0
+    },
+    {
+      "table": "rules",
+      "id": 72,
+      "name": "Silence after moving",
+      "field": "silenceAfterMoving",
+      "original": 1,
+      "value": 0
+    },
+    {
+      "table": "rules",
+      "id": 73,
+      "name": "Imbue after moving",
+      "field": "imbueAfterMoving",
+      "original": 1,
+      "value": 0
+    },
+    {
+      "table": "rules",
+      "id": 86,
+      "name": "Astra wait",
+      "field": "astraWait",
+      "original": 6,
+      "value": 4
+    },
+    {
+      "table": "rules",
+      "id": 87,
+      "name": "Focus Chant wait",
+      "field": "focusChantWait",
+      "original": 6,
+      "value": 4
+    },
+    {
+      "table": "rules",
+      "id": 94,
+      "name": "Steal limit",
+      "field": "stealLimit",
+      "original": 0,
+      "value": 1
+    },
+    {
+      "table": "rules",
+      "id": 113,
+      "name": "Charisma hit for each ally with it",
+      "field": "charismaHit",
+      "original": 3,
+      "value": 5
+    },
+    {
+      "table": "rules",
+      "id": 114,
+      "name": "Supporter hit",
+      "field": "supporterHit",
+      "original": 20,
+      "value": 30
+    },
+    {
+      "table": "rules",
+      "id": 115,
+      "name": "Supporter critical bonus",
+      "field": "supporterCritical",
+      "original": 3,
+      "value": 0
+    },
+    {
+      "table": "rules",
+      "id": 126,
+      "name": "One-Two wait",
+      "field": "oneTwoWait",
+      "original": 6,
+      "value": 4
+    },
+    {
+      "table": "rules",
+      "id": 127,
+      "name": "Silence wait",
+      "field": "silenceWait",
+      "original": 10,
+      "value": 4
+    },
+    {
+      "table": "rules",
+      "id": 128,
+      "name": "Despoil gold per enemy level",
+      "field": "despoilPerLevel",
+      "original": 2,
+      "value": 5
+    },
+    {
+      "table": "rules",
+      "id": 134,
+      "name": "Supporter range",
+      "field": "supporterRange",
+      "original": 3,
+      "value": 10
+    },
+    {
+      "table": "rules",
+      "id": 152,
+      "name": "Flourish injury bonus",
+      "field": "flourishInjury",
+      "original": 33,
+      "value": 100
+    },
+    {
+      "table": "rules",
+      "id": 153,
+      "name": "Flourish attack",
+      "field": "flourishAttack",
+      "original": 0,
+      "value": 1
+    },
+    {
+      "table": "rules",
+      "id": 155,
+      "name": "Desperation defense",
+      "field": "desperationDefense",
+      "original": 0,
+      "value": 1
+    },
+    {
+      "table": "rules",
+      "id": 165,
+      "name": "Axe Guard block bonus",
+      "field": "axeGuardChance",
+      "original": 25,
+      "value": 100
+    },
+    {
+      "table": "rules",
+      "id": 169,
+      "name": "Vengeful chance",
+      "field": "vengefulChance",
+      "original": 2,
+      "value": 4
+    },
+    {
+      "table": "rules",
+      "id": 205,
+      "name": "Robbery range",
+      "field": "robberyRange",
+      "original": 1,
+      "value": 3
+    },
+    {
+      "table": "rules",
+      "id": 209,
+      "name": "Guard\u0027s own defense and avoid",
+      "field": "guardHalving",
+      "original": 0,
+      "value": 1
+    },
+    {
+      "table": "rules",
+      "id": 221,
+      "name": "Lowest durability of the 61 or more band",
+      "field": "durabilityBand1",
+      "original": 61,
+      "value": 50
+    },
+    {
+      "table": "rules",
+      "id": 222,
+      "name": "Lowest durability of the 41 to 60 band",
+      "field": "durabilityBand2",
+      "original": 41,
+      "value": 25
+    },
+    {
+      "table": "rules",
+      "id": 223,
+      "name": "Lowest durability of the 21 to 40 band",
+      "field": "durabilityBand3",
+      "original": 21,
+      "value": 12
+    },
+    {
+      "table": "rules",
+      "id": 226,
+      "name": "Break chance, band 41 to 60",
+      "field": "breakChance2",
+      "original": 1,
+      "value": 0
+    },
+    {
+      "table": "rules",
+      "id": 227,
+      "name": "Break chance, band 21 to 40",
+      "field": "breakChance3",
+      "original": 2,
+      "value": 1
+    },
+    {
+      "table": "rules",
+      "id": 228,
+      "name": "Break chance, band 1 to 20",
+      "field": "breakChance4",
+      "original": 4,
+      "value": 2
+    },
+    {
+      "table": "stablePrices",
+      "id": 518,
+      "field": "stablePrice",
+      "original": 2500,
+      "value": 1650
+    },
+    {
+      "table": "stablePrices",
+      "id": 519,
+      "field": "stablePrice",
+      "original": 5000,
+      "value": 2670
+    },
+    {
+      "table": "stablePrices",
+      "id": 520,
+      "field": "stablePrice",
+      "original": 8000,
+      "value": 4000
+    },
+    {
+      "table": "stablePrices",
+      "id": 521,
+      "field": "stablePrice",
+      "original": 15000,
+      "value": 6000
+    },
+    {
+      "table": "stablePrices",
+      "id": 522,
+      "field": "stablePrice",
+      "original": 15000,
+      "value": 7000
+    },
+    {
+      "table": "stablePrices",
+      "id": 523,
+      "field": "stablePrice",
+      "original": 12000,
+      "value": 6000
+    },
+    {
+      "table": "stablePrices",
+      "id": 524,
+      "field": "stablePrice",
+      "original": 18000,
+      "value": 7000
+    },
+    {
+      "table": "stablePrices",
+      "id": 525,
+      "field": "stablePrice",
+      "original": 20000,
+      "value": 7000
+    },
+    {
+      "table": "stablePrices",
+      "id": 526,
+      "field": "stablePrice",
+      "original": 24000,
+      "value": 7000
+    },
+    {
+      "table": "stablePrices",
+      "id": 527,
+      "field": "stablePrice",
+      "original": 10000,
+      "value": 4600
+    }
+  ]
+}

@@ -1,0 +1,2172 @@
+{
+  "Format": "Berwick Workshop change manifest",
+  "Version": 1,
+  "Edition": "Modified English v2.3",
+  "SourceSha256": "b035d563d8a81efebd5f5b933a589f3b068e52a65f2b377558eaeeb285a4d4ac",
+  "CanExport": true,
+  "Changes": [
+    {
+      "Table": "items",
+      "Id": 521,
+      "Record": "Strong Horse",
+      "Key": "price",
+      "Field": "Base price",
+      "Original": "9000",
+      "Current": "6000",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "items",
+      "Id": 522,
+      "Record": "Ishs Stallion",
+      "Key": "price",
+      "Field": "Base price",
+      "Original": "5000",
+      "Current": "7000",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "items",
+      "Id": 524,
+      "Record": "Liga Destrier",
+      "Key": "price",
+      "Field": "Base price",
+      "Original": "7500",
+      "Current": "7000",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "items",
+      "Id": 525,
+      "Record": "Liga Courser",
+      "Key": "price",
+      "Field": "Base price",
+      "Original": "12500",
+      "Current": "7000",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "items",
+      "Id": 526,
+      "Record": "Morach Horse",
+      "Key": "price",
+      "Field": "Base price",
+      "Original": "7500",
+      "Current": "7000",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "items",
+      "Id": 527,
+      "Record": "Ishs Courser",
+      "Key": "price",
+      "Field": "Base price",
+      "Original": "9000",
+      "Current": "4600",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 84,
+      "Record": "Ward",
+      "Key": "hpBonus",
+      "Field": "HP bonus",
+      "Original": "13",
+      "Current": "9",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 84,
+      "Record": "Ward",
+      "Key": "strengthBonus",
+      "Field": "Strength bonus",
+      "Original": "5",
+      "Current": "4",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 84,
+      "Record": "Ward",
+      "Key": "defenseBonus",
+      "Field": "Defense bonus",
+      "Original": "5",
+      "Current": "3",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 84,
+      "Record": "Ward",
+      "Key": "agilityBonus",
+      "Field": "Agility bonus",
+      "Original": "5",
+      "Current": "3",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 84,
+      "Record": "Ward",
+      "Key": "mindBonus",
+      "Field": "Mind bonus",
+      "Original": "5",
+      "Current": "0",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 84,
+      "Record": "Ward",
+      "Key": "smallshieldLevel",
+      "Field": "Weapon levels: Small shield",
+      "Original": "6.6",
+      "Current": "45",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 86,
+      "Record": "Marcel",
+      "Key": "hpBonus",
+      "Field": "HP bonus",
+      "Original": "12",
+      "Current": "6",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 86,
+      "Record": "Marcel",
+      "Key": "strengthBonus",
+      "Field": "Strength bonus",
+      "Original": "3",
+      "Current": "1",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 86,
+      "Record": "Marcel",
+      "Key": "defenseBonus",
+      "Field": "Defense bonus",
+      "Original": "3",
+      "Current": "1",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 86,
+      "Record": "Marcel",
+      "Key": "mindBonus",
+      "Field": "Mind bonus",
+      "Original": "5",
+      "Current": "0",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 116,
+      "Record": "Derrick",
+      "Key": "hpBonus",
+      "Field": "HP bonus",
+      "Original": "10",
+      "Current": "9",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 116,
+      "Record": "Derrick",
+      "Key": "strengthBonus",
+      "Field": "Strength bonus",
+      "Original": "5",
+      "Current": "0",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 116,
+      "Record": "Derrick",
+      "Key": "agilityBonus",
+      "Field": "Agility bonus",
+      "Original": "3",
+      "Current": "0",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 116,
+      "Record": "Derrick",
+      "Key": "mindBonus",
+      "Field": "Mind bonus",
+      "Original": "6",
+      "Current": "0",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 144,
+      "Record": "Volo",
+      "Key": "hpBonus",
+      "Field": "HP bonus",
+      "Original": "4",
+      "Current": "3",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 144,
+      "Record": "Volo",
+      "Key": "strengthBonus",
+      "Field": "Strength bonus",
+      "Original": "5",
+      "Current": "3",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 147,
+      "Record": "Axel",
+      "Key": "hpBonus",
+      "Field": "HP bonus",
+      "Original": "6",
+      "Current": "5",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 147,
+      "Record": "Axel",
+      "Key": "strengthBonus",
+      "Field": "Strength bonus",
+      "Original": "7",
+      "Current": "5",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 147,
+      "Record": "Axel",
+      "Key": "defenseBonus",
+      "Field": "Defense bonus",
+      "Original": "2",
+      "Current": "0",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 147,
+      "Record": "Axel",
+      "Key": "agilityBonus",
+      "Field": "Agility bonus",
+      "Original": "7",
+      "Current": "2",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "characters",
+      "Id": 147,
+      "Record": "Axel",
+      "Key": "mindBonus",
+      "Field": "Mind bonus",
+      "Original": "2",
+      "Current": "0",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 18,
+      "Record": "Swordfighter (male)",
+      "Key": "hp",
+      "Field": "HP",
+      "Original": "26",
+      "Current": "27",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 18,
+      "Record": "Swordfighter (male)",
+      "Key": "strength",
+      "Field": "Strength",
+      "Original": "6",
+      "Current": "8",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 29,
+      "Record": "Guardian",
+      "Key": "hp",
+      "Field": "HP",
+      "Original": "28",
+      "Current": "31",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 29,
+      "Record": "Guardian",
+      "Key": "strength",
+      "Field": "Strength",
+      "Original": "6",
+      "Current": "8",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 29,
+      "Record": "Guardian",
+      "Key": "defense",
+      "Field": "Defense",
+      "Original": "8",
+      "Current": "10",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 29,
+      "Record": "Guardian",
+      "Key": "mind",
+      "Field": "Mind",
+      "Original": "0",
+      "Current": "5",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 30,
+      "Record": "Veteran Knight (mounted)",
+      "Key": "hp",
+      "Field": "HP",
+      "Original": "30",
+      "Current": "31",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 30,
+      "Record": "Veteran Knight (mounted)",
+      "Key": "strength",
+      "Field": "Strength",
+      "Original": "7",
+      "Current": "8",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 30,
+      "Record": "Veteran Knight (mounted)",
+      "Key": "defense",
+      "Field": "Defense",
+      "Original": "7",
+      "Current": "9",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 30,
+      "Record": "Veteran Knight (mounted)",
+      "Key": "agility",
+      "Field": "Agility",
+      "Original": "6",
+      "Current": "8",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 30,
+      "Record": "Veteran Knight (mounted)",
+      "Key": "mind",
+      "Field": "Mind",
+      "Original": "0",
+      "Current": "5",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 30,
+      "Record": "Veteran Knight (mounted)",
+      "Key": "smallshieldCap",
+      "Field": "Weapon level caps: Small shield",
+      "Original": "0",
+      "Current": "50",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 30,
+      "Record": "Veteran Knight (mounted)",
+      "Key": "shieldSmall",
+      "Field": "Shield sizes: Small shields",
+      "Original": "No",
+      "Current": "Yes",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 31,
+      "Record": "Veteran Knight",
+      "Key": "hp",
+      "Field": "HP",
+      "Original": "30",
+      "Current": "31",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 31,
+      "Record": "Veteran Knight",
+      "Key": "strength",
+      "Field": "Strength",
+      "Original": "7",
+      "Current": "8",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 31,
+      "Record": "Veteran Knight",
+      "Key": "defense",
+      "Field": "Defense",
+      "Original": "7",
+      "Current": "9",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 31,
+      "Record": "Veteran Knight",
+      "Key": "agility",
+      "Field": "Agility",
+      "Original": "6",
+      "Current": "8",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 31,
+      "Record": "Veteran Knight",
+      "Key": "mind",
+      "Field": "Mind",
+      "Original": "0",
+      "Current": "5",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 31,
+      "Record": "Veteran Knight",
+      "Key": "smallshieldCap",
+      "Field": "Weapon level caps: Small shield",
+      "Original": "0",
+      "Current": "50",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 31,
+      "Record": "Veteran Knight",
+      "Key": "shieldSmall",
+      "Field": "Shield sizes: Small shields",
+      "Original": "No",
+      "Current": "Yes",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 63,
+      "Record": "Armor Knight",
+      "Key": "hp",
+      "Field": "HP",
+      "Original": "30",
+      "Current": "31",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 63,
+      "Record": "Armor Knight",
+      "Key": "strength",
+      "Field": "Strength",
+      "Original": "6",
+      "Current": "11",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 63,
+      "Record": "Armor Knight",
+      "Key": "agility",
+      "Field": "Agility",
+      "Original": "4",
+      "Current": "7",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 63,
+      "Record": "Armor Knight",
+      "Key": "mind",
+      "Field": "Mind",
+      "Original": "0",
+      "Current": "6",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 229,
+      "Record": "Pirate",
+      "Key": "hp",
+      "Field": "HP",
+      "Original": "30",
+      "Current": "31",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 229,
+      "Record": "Pirate",
+      "Key": "strength",
+      "Field": "Strength",
+      "Original": "6",
+      "Current": "8",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 229,
+      "Record": "Pirate",
+      "Key": "agility",
+      "Field": "Agility",
+      "Original": "5",
+      "Current": "10",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "classes",
+      "Id": 229,
+      "Record": "Pirate",
+      "Key": "mind",
+      "Field": "Mind",
+      "Original": "0",
+      "Current": "2",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "rules",
+      "Id": 13,
+      "Record": "Critical hit bonus damage",
+      "Key": "criticalBonus",
+      "Field": "Critical hit bonus damage",
+      "Original": "10 to 20 (normal)",
+      "Current": "15 to 15",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 53,
+      "Record": "Sunder critical bonus",
+      "Key": "sunderCritical",
+      "Field": "Sunder critical bonus",
+      "Original": "Normal (25)",
+      "Current": "70",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 61,
+      "Record": "Deadeye after moving",
+      "Key": "deadeyeAfterMoving",
+      "Field": "Deadeye after moving",
+      "Original": "Not allowed",
+      "Current": "Allowed",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 65,
+      "Record": "Overwatch after moving",
+      "Key": "overwatchAfterMoving",
+      "Field": "Overwatch after moving",
+      "Original": "Not allowed",
+      "Current": "Allowed",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 66,
+      "Record": "Axe Guard after moving",
+      "Key": "axeGuardAfterMoving",
+      "Field": "Axe Guard after moving",
+      "Original": "Not allowed",
+      "Current": "Allowed",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 69,
+      "Record": "Steal after moving",
+      "Key": "stealAfterMoving",
+      "Field": "Steal after moving",
+      "Original": "Not allowed",
+      "Current": "Allowed",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 71,
+      "Record": "Evasion after moving",
+      "Key": "evasionAfterMoving",
+      "Field": "Evasion after moving",
+      "Original": "Not allowed",
+      "Current": "Allowed",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 72,
+      "Record": "Silence after moving",
+      "Key": "silenceAfterMoving",
+      "Field": "Silence after moving",
+      "Original": "Not allowed",
+      "Current": "Allowed",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 73,
+      "Record": "Imbue after moving",
+      "Key": "imbueAfterMoving",
+      "Field": "Imbue after moving",
+      "Original": "Not allowed",
+      "Current": "Allowed",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 86,
+      "Record": "Astra wait",
+      "Key": "astraWait",
+      "Field": "Astra wait",
+      "Original": "Normal (6)",
+      "Current": "4",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 87,
+      "Record": "Focus Chant wait",
+      "Key": "focusChantWait",
+      "Field": "Focus Chant wait",
+      "Original": "Normal (6)",
+      "Current": "4",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 94,
+      "Record": "Steal limit",
+      "Key": "stealLimit",
+      "Field": "Steal limit",
+      "Original": "Limited",
+      "Current": "No limit",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 113,
+      "Record": "Charisma hit for each ally with it",
+      "Key": "charismaHit",
+      "Field": "Charisma hit for each ally with it",
+      "Original": "Normal (3)",
+      "Current": "5",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 114,
+      "Record": "Supporter hit",
+      "Key": "supporterHit",
+      "Field": "Supporter hit",
+      "Original": "Normal (20)",
+      "Current": "30",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 115,
+      "Record": "Supporter critical bonus",
+      "Key": "supporterCritical",
+      "Field": "Supporter critical bonus",
+      "Original": "4",
+      "Current": "0",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 126,
+      "Record": "One-Two wait",
+      "Key": "oneTwoWait",
+      "Field": "One-Two wait",
+      "Original": "Normal (6)",
+      "Current": "4",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 127,
+      "Record": "Silence wait",
+      "Key": "silenceWait",
+      "Field": "Silence wait",
+      "Original": "Normal (10)",
+      "Current": "4",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 128,
+      "Record": "Despoil gold per enemy level",
+      "Key": "despoilPerLevel",
+      "Field": "Despoil gold per enemy level",
+      "Original": "4",
+      "Current": "32",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 134,
+      "Record": "Supporter range",
+      "Key": "supporterRange",
+      "Field": "Supporter range",
+      "Original": "Normal (3)",
+      "Current": "10",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 152,
+      "Record": "Flourish injury bonus",
+      "Key": "flourishInjury",
+      "Field": "Flourish injury bonus",
+      "Original": "Normal (33)",
+      "Current": "100",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 153,
+      "Record": "Flourish attack",
+      "Key": "flourishAttack",
+      "Field": "Flourish attack",
+      "Original": "Halved",
+      "Current": "Not halved",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 155,
+      "Record": "Desperation defense",
+      "Key": "desperationDefense",
+      "Field": "Desperation defense",
+      "Original": "Drops to 0",
+      "Current": "Kept",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 165,
+      "Record": "Axe Guard block bonus",
+      "Key": "axeGuardChance",
+      "Field": "Axe Guard block bonus",
+      "Original": "Normal (25)",
+      "Current": "100",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 169,
+      "Record": "Vengeful chance",
+      "Key": "vengefulChance",
+      "Field": "Vengeful chance",
+      "Original": "3%",
+      "Current": "5%",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 205,
+      "Record": "Robbery range",
+      "Key": "robberyRange",
+      "Field": "Robbery range",
+      "Original": "Normal (1)",
+      "Current": "3",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 209,
+      "Record": "Guard\u0027s own defense and avoid",
+      "Key": "guardHalving",
+      "Field": "Guard\u0027s own defense and avoid",
+      "Original": "Halved",
+      "Current": "Kept",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 221,
+      "Record": "Lowest durability of the 61 or more band",
+      "Key": "durabilityBand1",
+      "Field": "Lowest durability of the 61 or more band",
+      "Original": "Normal (61)",
+      "Current": "50",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 222,
+      "Record": "Lowest durability of the 41 to 60 band",
+      "Key": "durabilityBand2",
+      "Field": "Lowest durability of the 41 to 60 band",
+      "Original": "Normal (41)",
+      "Current": "25",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 223,
+      "Record": "Lowest durability of the 21 to 40 band",
+      "Key": "durabilityBand3",
+      "Field": "Lowest durability of the 21 to 40 band",
+      "Original": "Normal (21)",
+      "Current": "12",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 226,
+      "Record": "Break chance, band 41 to 60",
+      "Key": "breakChance2",
+      "Field": "Break chance, band 41 to 60",
+      "Original": "Normal (1)",
+      "Current": "0",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 227,
+      "Record": "Break chance, band 21 to 40",
+      "Key": "breakChance3",
+      "Field": "Break chance, band 21 to 40",
+      "Original": "Normal (2)",
+      "Current": "1",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "rules",
+      "Id": 228,
+      "Record": "Break chance, band 1 to 20",
+      "Key": "breakChance4",
+      "Field": "Break chance, band 1 to 20",
+      "Original": "Normal (4)",
+      "Current": "2",
+      "File": "SLPS_254.97",
+      "Kind": "Rule"
+    },
+    {
+      "Table": "stablePrices",
+      "Id": 518,
+      "Record": "stablePrices 518",
+      "Key": "stablePrice",
+      "Field": "Stable price",
+      "Original": "2500",
+      "Current": "1650",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "stablePrices",
+      "Id": 519,
+      "Record": "stablePrices 519",
+      "Key": "stablePrice",
+      "Field": "Stable price",
+      "Original": "5000",
+      "Current": "2670",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "stablePrices",
+      "Id": 520,
+      "Record": "stablePrices 520",
+      "Key": "stablePrice",
+      "Field": "Stable price",
+      "Original": "8000",
+      "Current": "4000",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "stablePrices",
+      "Id": 521,
+      "Record": "stablePrices 521",
+      "Key": "stablePrice",
+      "Field": "Stable price",
+      "Original": "15000",
+      "Current": "6000",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "stablePrices",
+      "Id": 522,
+      "Record": "stablePrices 522",
+      "Key": "stablePrice",
+      "Field": "Stable price",
+      "Original": "15000",
+      "Current": "7000",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "stablePrices",
+      "Id": 523,
+      "Record": "stablePrices 523",
+      "Key": "stablePrice",
+      "Field": "Stable price",
+      "Original": "12000",
+      "Current": "6000",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "stablePrices",
+      "Id": 524,
+      "Record": "stablePrices 524",
+      "Key": "stablePrice",
+      "Field": "Stable price",
+      "Original": "18000",
+      "Current": "7000",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "stablePrices",
+      "Id": 525,
+      "Record": "stablePrices 525",
+      "Key": "stablePrice",
+      "Field": "Stable price",
+      "Original": "20000",
+      "Current": "7000",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "stablePrices",
+      "Id": 526,
+      "Record": "stablePrices 526",
+      "Key": "stablePrice",
+      "Field": "Stable price",
+      "Original": "24000",
+      "Current": "7000",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    },
+    {
+      "Table": "stablePrices",
+      "Id": 527,
+      "Record": "stablePrices 527",
+      "Key": "stablePrice",
+      "Field": "Stable price",
+      "Original": "10000",
+      "Current": "4600",
+      "File": "DATA3.DAT",
+      "Kind": "Field"
+    }
+  ],
+  "Issues": [
+    {
+      "Severity": "Review",
+      "Code": "shared-class",
+      "Message": "Swordfighter (male) is a shared class: 1 starting character records and 12 army records use it. Users: Volo; Army 011, Volo; Army 073 (Quest 70: The Visitor and Quest 72: Devil in the Valley), Hazrij; Army 185, EX; Army 194 (Quest 72: Devil in the Valley), Friz; Army 250 (Story mission 15: Hero of the Sagas), Mercenary; Army 250 (Story mission 15: Hero of the Sagas), Mercenary; Army 261 (battle 201), Auto25; Army 293, Dalm; Army 315 (Quest 17: Lumiere), Krishna; Army 366, Narcissus; Army 377 (Quest 3: Stolen Sword and battle 9999), Ent Bandit; Army 267 (loose file), Volo. Scripted grants, later equipment and saved units may add other users.",
+      "Table": "classes",
+      "Id": 18
+    },
+    {
+      "Severity": "Review",
+      "Code": "shared-class",
+      "Message": "Guardian is a shared class: 1 starting character records and 8 army records use it. Users: Marcel; Army 041, Rondy; Army 042, Windsor; Army 042, Lionheart; Army 110, Imperial; Army 136 (Story mission 4: Covering the Retreat), Allied Soldier; Army 152 (Story mission 10: A Paladin\u0027s Duty), Pratton; Army 156 (Story mission 7: Rescue Mission), Bornian; Army 260 (battle 201), Auto10. Scripted grants, later equipment and saved units may add other users.",
+      "Table": "classes",
+      "Id": 29
+    },
+    {
+      "Severity": "Review",
+      "Code": "shared-class",
+      "Message": "Veteran Knight (mounted) is a shared class: 1 starting character records and 4 army records use it. Users: Ward; Army 044, Wort; Army 260 (battle 201), Auto2; Army 177 (loose file), Nerman; Army 273 (loose file), EX. Scripted grants, later equipment and saved units may add other users.",
+      "Table": "classes",
+      "Id": 30
+    },
+    {
+      "Severity": "Review",
+      "Code": "shared-class",
+      "Message": "Veteran Knight is a shared class: 0 starting character records and 3 army records use it. Users: Army 152 (Story mission 10: A Paladin\u0027s Duty), Barnhardt; Army 171, Coen; Army 369 (Quest 4: Food Supply), Muerthen. Scripted grants, later equipment and saved units may add other users.",
+      "Table": "classes",
+      "Id": 31
+    },
+    {
+      "Severity": "Review",
+      "Code": "shared-class",
+      "Message": "Armor Knight is a shared class: 1 starting character records and 64 army records use it. Users: Derrick; Army 022 (Quest 74: The Supply Base), Guard; Army 040, Cyas; Army 040, Ordo; Army 040, Keimos; Army 060, Convoy; Army 060, Convoy; Army 060, Convoy; Army 068, Imperial Reserve; Army 068, Imperial Reserve; Army 071 (Quest 70: The Visitor), Camp Guard; Army 076 (Story mission 13: Silent City and Story mission 14: The Gathering), Imperial; Army 076 (Story mission 13: Silent City and Story mission 14: The Gathering), Imperial; Army 080 (Story mission 14: The Gathering), Road Guard; Army 080 (Story mission 14: The Gathering), Road Guard; Army 080 (Story mission 14: The Gathering), Road Guard; Army 080 (Story mission 14: The Gathering), Road Guard; Army 101 (Story mission 11: Bloodstained Valley), Imperial; Army 101 (Story mission 11: Bloodstained Valley), Imperial; Army 110, Imperial; Army 110, Imperial; Army 110, Imperial; Army 149 (Story mission 12: The Dark Cardinal), Imperial; Army 149 (Story mission 12: The Dark Cardinal), Imperial; Army 149 (Story mission 12: The Dark Cardinal), Imperial; Army 149 (Story mission 12: The Dark Cardinal), Vandal; Army 164 (Story mission 5: Hold the Fort), Goebbels; Army 167, Sentinel; Army 170, Imperial; Army 170, Imperial; Army 170, Imperial; Army 170, Imperial; Army 185, EX; Army 185, EX; Army 187 (Quest 84: The Heretic God), Imperial; Army 187 (Quest 84: The Heretic God), Imperial; Army 187 (Quest 84: The Heretic God), Imperial; Army 188 (Quest 84: The Heretic God), Imperial; Army 188 (Quest 84: The Heretic God), Imperial; Army 188 (Quest 84: The Heretic God), Imperial; Army 189, Lebeck Soldier; Army 189, Lebeck Soldier; Army 189, Lebeck Soldier; Army 189, Lebeck Soldier; Army 220 (Story mission 12: The Dark Cardinal), Imperial; Army 220 (Story mission 12: The Dark Cardinal), Imperial; Army 220 (Story mission 12: The Dark Cardinal), Imperial; Army 250 (Story mission 15: Hero of the Sagas), Imperial; Army 250 (Story mission 15: Hero of the Sagas), Imperial; Army 250 (Story mission 15: Hero of the Sagas), Imperial; Army 250 (Story mission 15: Hero of the Sagas), Imperial; Army 250 (Story mission 15: Hero of the Sagas), Imperial; Army 250 (Story mission 15: Hero of the Sagas), Imperial; Army 250 (Story mission 15: Hero of the Sagas), Imperial; Army 250 (Story mission 15: Hero of the Sagas), Imperial; Army 250 (Story mission 15: Hero of the Sagas), Imperial; Army 261 (battle 201), Auto22; Army 293, Scourge; Army 298 (Quest 25: The Veterans), Lawson; Army 302 (Quest 24: A Knight\u0027s Pride), Imperial Porter; Army 302 (Quest 24: A Knight\u0027s Pride), Imperial Porter; Army 372 (Quest 5: Children\u0027s Hero), Imperial Garrison; Army 372 (Quest 5: Children\u0027s Hero), Imperial Garrison; Army 398, Gladiator; Army 276 (loose file), Larentia. Scripted grants, later equipment and saved units may add other users.",
+      "Table": "classes",
+      "Id": 63
+    },
+    {
+      "Severity": "Review",
+      "Code": "shared-class",
+      "Message": "Pirate is a shared class: 1 starting character records and 0 army records use it. Users: Axel. Scripted grants, later equipment and saved units may add other users.",
+      "Table": "classes",
+      "Id": 229
+    },
+    {
+      "Severity": "Review",
+      "Code": "shared-item",
+      "Message": "Strong Horse is a shared item: 0 starting character records and 0 army records use it. Scripted grants, later equipment and saved units may add other users.",
+      "Table": "items",
+      "Id": 521
+    },
+    {
+      "Severity": "Review",
+      "Code": "shared-item",
+      "Message": "Ishs Stallion is a shared item: 0 starting character records and 0 army records use it. Scripted grants, later equipment and saved units may add other users.",
+      "Table": "items",
+      "Id": 522
+    },
+    {
+      "Severity": "Review",
+      "Code": "shared-item",
+      "Message": "Liga Destrier is a shared item: 0 starting character records and 0 army records use it. Scripted grants, later equipment and saved units may add other users.",
+      "Table": "items",
+      "Id": 524
+    },
+    {
+      "Severity": "Review",
+      "Code": "shared-item",
+      "Message": "Liga Courser is a shared item: 0 starting character records and 0 army records use it. Scripted grants, later equipment and saved units may add other users.",
+      "Table": "items",
+      "Id": 525
+    },
+    {
+      "Severity": "Review",
+      "Code": "shared-item",
+      "Message": "Morach Horse is a shared item: 0 starting character records and 0 army records use it. Scripted grants, later equipment and saved units may add other users.",
+      "Table": "items",
+      "Id": 526
+    },
+    {
+      "Severity": "Review",
+      "Code": "shared-item",
+      "Message": "Ishs Courser is a shared item: 0 starting character records and 0 army records use it. Scripted grants, later equipment and saved units may add other users.",
+      "Table": "items",
+      "Id": 527
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Critical hit bonus damage changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 13
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Sunder critical bonus changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 53
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Deadeye after moving changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 61
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Overwatch after moving changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 65
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Axe Guard after moving changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 66
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Steal after moving changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 69
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Evasion after moving changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 71
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Silence after moving changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 72
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Imbue after moving changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 73
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Astra wait changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 86
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Focus Chant wait changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 87
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Steal limit changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 94
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Charisma hit for each ally with it changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 113
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Supporter hit changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 114
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Supporter critical bonus changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 115
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "One-Two wait changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 126
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Silence wait changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 127
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Despoil gold per enemy level changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 128
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Supporter range changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 134
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Flourish injury bonus changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 152
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Flourish attack changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 153
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Desperation defense changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 155
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Axe Guard block bonus changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 165
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Vengeful chance changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 169
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Robbery range changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 205
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Guard\u0027s own defense and avoid changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 209
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Lowest durability of the 61 or more band changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 221
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Lowest durability of the 41 to 60 band changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 222
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Lowest durability of the 21 to 40 band changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 223
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Break chance, band 41 to 60 changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 226
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Break chance, band 21 to 40 changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 227
+    },
+    {
+      "Severity": "Review",
+      "Code": "global-effect",
+      "Message": "Break chance, band 1 to 20 changes shared game behavior and can affect allied and enemy units.",
+      "Table": "rules",
+      "Id": 228
+    },
+    {
+      "Severity": "Review",
+      "Code": "equipment-permission",
+      "Message": "Army 267 (loose file), Volo carries Unused item 01A, but its class has a zero weapon cap for this category. Skills and equipment rules can override this; check the intended setup.",
+      "Table": "armyUnits",
+      "Id": 10266021
+    },
+    {
+      "Severity": "Review",
+      "Code": "equipment-permission",
+      "Message": "Army 267 (loose file), Volo carries Leather SShd, but its class has a zero weapon cap for this category. Skills and equipment rules can override this; check the intended setup.",
+      "Table": "armyUnits",
+      "Id": 10266021
+    },
+    {
+      "Severity": "Review",
+      "Code": "equipment-permission",
+      "Message": "Army 273 (loose file), EX carries Unused item 019, but its class has a zero weapon cap for this category. Skills and equipment rules can override this; check the intended setup.",
+      "Table": "armyUnits",
+      "Id": 10272000
+    }
+  ],
+  "Files": [
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235157452,
+      "Length": 2,
+      "Original": "2823",
+      "Current": "7017"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371460768,
+      "Length": 2,
+      "Original": "2823",
+      "Current": "7017"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235157508,
+      "Length": 2,
+      "Original": "8813",
+      "Current": "581B"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371460824,
+      "Length": 2,
+      "Original": "8813",
+      "Current": "581B"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235157620,
+      "Length": 2,
+      "Original": "4C1D",
+      "Current": "581B"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371460936,
+      "Length": 2,
+      "Original": "4C1D",
+      "Current": "581B"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235157676,
+      "Length": 2,
+      "Original": "D430",
+      "Current": "581B"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371460992,
+      "Length": 2,
+      "Original": "D430",
+      "Current": "581B"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235157732,
+      "Length": 2,
+      "Original": "4C1D",
+      "Current": "581B"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371461048,
+      "Length": 2,
+      "Original": "4C1D",
+      "Current": "581B"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235157788,
+      "Length": 2,
+      "Original": "2823",
+      "Current": "F811"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371461104,
+      "Length": 2,
+      "Original": "2823",
+      "Current": "F811"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3365559074,
+      "Length": 5,
+      "Original": "D028059432",
+      "Current": "9020030C30"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3365559103,
+      "Length": 1,
+      "Original": "04",
+      "Current": "1C"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3370576226,
+      "Length": 5,
+      "Original": "D028059432",
+      "Current": "9020030C30"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3370576255,
+      "Length": 1,
+      "Original": "04",
+      "Current": "1C"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3365562050,
+      "Length": 2,
+      "Original": "C018",
+      "Current": "6008"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3365562053,
+      "Length": 2,
+      "Original": "8C22",
+      "Current": "0420"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3370579202,
+      "Length": 2,
+      "Original": "C018",
+      "Current": "6008"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3370579205,
+      "Length": 2,
+      "Original": "8C22",
+      "Current": "0420"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3365568378,
+      "Length": 3,
+      "Original": "A02803",
+      "Current": "900000"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3365568382,
+      "Length": 1,
+      "Original": "23",
+      "Current": "20"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3370585530,
+      "Length": 3,
+      "Original": "A02803",
+      "Current": "900000"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3370585534,
+      "Length": 1,
+      "Original": "23",
+      "Current": "20"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3365565826,
+      "Length": 2,
+      "Original": "4028",
+      "Current": "3018"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3370582978,
+      "Length": 2,
+      "Original": "4028",
+      "Current": "3018"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3365566834,
+      "Length": 5,
+      "Original": "6038070801",
+      "Current": "5028020000"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3370583986,
+      "Length": 5,
+      "Original": "6038070801",
+      "Current": "5028020000"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235054704,
+      "Length": 1,
+      "Original": "86",
+      "Current": "88"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235054706,
+      "Length": 1,
+      "Original": "40",
+      "Current": "60"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371358020,
+      "Length": 1,
+      "Original": "86",
+      "Current": "88"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371358022,
+      "Length": 1,
+      "Original": "40",
+      "Current": "60"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235055804,
+      "Length": 3,
+      "Original": "C62080",
+      "Current": "C828E5"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371359120,
+      "Length": 3,
+      "Original": "C62080",
+      "Current": "C828E5"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235055904,
+      "Length": 3,
+      "Original": "C71CC0",
+      "Current": "0825E5"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235055931,
+      "Length": 1,
+      "Original": "22",
+      "Current": "32"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235055941,
+      "Length": 2,
+      "Original": "00C8",
+      "Current": "20CB"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371359220,
+      "Length": 3,
+      "Original": "C71CC0",
+      "Current": "0825E5"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371359247,
+      "Length": 1,
+      "Original": "22",
+      "Current": "32"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371359257,
+      "Length": 2,
+      "Original": "00C8",
+      "Current": "20CB"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235056004,
+      "Length": 3,
+      "Original": "C71CC0",
+      "Current": "0825E5"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235056031,
+      "Length": 1,
+      "Original": "22",
+      "Current": "32"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235056041,
+      "Length": 2,
+      "Original": "00C8",
+      "Current": "20CB"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371359320,
+      "Length": 3,
+      "Original": "C71CC0",
+      "Current": "0825E5"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371359347,
+      "Length": 1,
+      "Original": "22",
+      "Current": "32"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371359357,
+      "Length": 2,
+      "Original": "00C8",
+      "Current": "20CB"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235059204,
+      "Length": 1,
+      "Original": "86",
+      "Current": "EB"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235059206,
+      "Length": 1,
+      "Original": "C0",
+      "Current": "E6"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371362520,
+      "Length": 1,
+      "Original": "86",
+      "Current": "EB"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371362522,
+      "Length": 1,
+      "Original": "C0",
+      "Current": "E6"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3235075804,
+      "Length": 3,
+      "Original": "A608C0",
+      "Current": "4809E2"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3371379120,
+      "Length": 3,
+      "Original": "A608C0",
+      "Current": "4809E2"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297426920,
+      "Length": 4,
+      "Original": "0A000524",
+      "Current": "0F000524"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297426928,
+      "Length": 4,
+      "Original": "14000624",
+      "Current": "0F000624"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297431540,
+      "Length": 4,
+      "Original": "19004224",
+      "Current": "46004224"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297431552,
+      "Length": 4,
+      "Original": "19004224",
+      "Current": "46004224"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4298864048,
+      "Length": 4,
+      "Original": "19006224",
+      "Current": "46006224"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4298871576,
+      "Length": 4,
+      "Original": "01004230",
+      "Current": "00004230"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4298871236,
+      "Length": 4,
+      "Original": "01004230",
+      "Current": "00004230"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4298871352,
+      "Length": 4,
+      "Original": "01004230",
+      "Current": "00004230"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4298874716,
+      "Length": 4,
+      "Original": "01004230",
+      "Current": "00004230"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4298873728,
+      "Length": 4,
+      "Original": "83426230",
+      "Current": "82426230"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4298873824,
+      "Length": 4,
+      "Original": "83426230",
+      "Current": "82426230"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4298873920,
+      "Length": 4,
+      "Original": "83426230",
+      "Current": "82426230"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297002588,
+      "Length": 4,
+      "Original": "06000424",
+      "Current": "04000424"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297436600,
+      "Length": 4,
+      "Original": "07000624",
+      "Current": "05000624"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297002620,
+      "Length": 4,
+      "Original": "06000424",
+      "Current": "04000424"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297436636,
+      "Length": 4,
+      "Original": "07000624",
+      "Current": "05000624"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297116348,
+      "Length": 4,
+      "Original": "FF006324",
+      "Current": "00006324"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296956192,
+      "Length": 4,
+      "Original": "40180200",
+      "Current": "05000324"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296956200,
+      "Length": 4,
+      "Original": "21106200",
+      "Current": "18104300"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296956216,
+      "Length": 4,
+      "Original": "80180200",
+      "Current": "1E000324"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296956224,
+      "Length": 4,
+      "Original": "21106200",
+      "Current": "18104300"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296956232,
+      "Length": 4,
+      "Original": "80100200",
+      "Current": "00000000"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296954656,
+      "Length": 4,
+      "Original": "80100200",
+      "Current": "2D100000"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297436708,
+      "Length": 4,
+      "Original": "06000624",
+      "Current": "04000624"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297002716,
+      "Length": 4,
+      "Original": "05000424",
+      "Current": "03000424"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297117556,
+      "Length": 4,
+      "Original": "0A000624",
+      "Current": "04000624"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297002844,
+      "Length": 4,
+      "Original": "09000424",
+      "Current": "03000424"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4299321788,
+      "Length": 4,
+      "Original": "80180300",
+      "Current": "40190300"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296957968,
+      "Length": 4,
+      "Original": "0400612A",
+      "Current": "0B00612A"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296933396,
+      "Length": 4,
+      "Original": "03000824",
+      "Current": "0A000824"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297417544,
+      "Length": 4,
+      "Original": "21001026",
+      "Current": "64001026"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297432152,
+      "Length": 4,
+      "Original": "0D004010",
+      "Current": "0D000010"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297431724,
+      "Length": 4,
+      "Original": "680060AE",
+      "Current": "00000000"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297431728,
+      "Length": 4,
+      "Original": "6C0060AE",
+      "Current": "00000000"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297431732,
+      "Length": 4,
+      "Original": "700060AE",
+      "Current": "00000000"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297424180,
+      "Length": 4,
+      "Original": "19004424",
+      "Current": "64004424"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4297408928,
+      "Length": 4,
+      "Original": "40200500",
+      "Current": "80200500"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4299322048,
+      "Length": 4,
+      "Original": "0200012A",
+      "Current": "0400012A"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296955036,
+      "Length": 4,
+      "Original": "06004010",
+      "Current": "06000010"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296955276,
+      "Length": 4,
+      "Original": "06004010",
+      "Current": "06000010"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296955604,
+      "Length": 4,
+      "Original": "06004010",
+      "Current": "06000010"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296956644,
+      "Length": 4,
+      "Original": "06004010",
+      "Current": "06000010"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296655944,
+      "Length": 4,
+      "Original": "3E004128",
+      "Current": "33004128"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296655968,
+      "Length": 4,
+      "Original": "2A004128",
+      "Current": "1A004128"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296655992,
+      "Length": 4,
+      "Original": "16004128",
+      "Current": "0D004128"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296655500,
+      "Length": 4,
+      "Original": "2D106000",
+      "Current": "00000224"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296655508,
+      "Length": 4,
+      "Original": "2D106000",
+      "Current": "01000224"
+    },
+    {
+      "File": "SLPS_254.97",
+      "Offset": 4296655516,
+      "Length": 4,
+      "Original": "2D108000",
+      "Current": "02000224"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3238636868,
+      "Length": 1,
+      "Original": "B9",
+      "Current": "A4"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3238738144,
+      "Length": 1,
+      "Original": "B1",
+      "Current": "9C"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 3238738181,
+      "Length": 123,
+      "Original": "200A8AF4FF6431FC06FC8934FC11D8FF5AF40FFEC518FDA00A45FFF02062FDC00E057BC5FCE017E8C7FCE043BB06FCE01AC409FCE0450776FCE01A8813FCE04508EDFCE01A401FFCE04509FCE01ADB983AFCE0450AFCE0620B76FCE01AE02EFCE0450CEDFCE01A5046FCE0450DFCE01ADB204EFCE0450EFCE01AC0",
+      "Current": "27CEF4FF6431FC06FC8934FC11D8FF5AF40FFEC518FDA767FFF02062FDC00E057BEDFCE017E803FCE04506FCE01ADB7206FCE04507FCE01A6EB70AFCE04508FCE01AA00F6EFCE04509FCE01A7017DDFCE0450AFCE01A581BFCE045B60BF9C0620CF9C0620DDBFCE0620EFCE0620FFCE01AF8A611FE07F080000000"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 4063829056,
+      "Length": 1,
+      "Original": "B9",
+      "Current": "A4"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 4063930332,
+      "Length": 1,
+      "Original": "B1",
+      "Current": "9C"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 4063930369,
+      "Length": 123,
+      "Original": "200A8AF4FF6431FC06FC8934FC11D8FF5AF40FFEC518FDA00A45FFF02062FDC00E057BC5FCE017E8C7FCE043BB06FCE01AC409FCE0450776FCE01A8813FCE04508EDFCE01A401FFCE04509FCE01ADB983AFCE0450AFCE0620B76FCE01AE02EFCE0450CEDFCE01A5046FCE0450DFCE01ADB204EFCE0450EFCE01AC0",
+      "Current": "27CEF4FF6431FC06FC8934FC11D8FF5AF40FFEC518FDA767FFF02062FDC00E057BEDFCE017E803FCE04506FCE01ADB7206FCE04507FCE01A6EB70AFCE04508FCE01AA00F6EFCE04509FCE01A7017DDFCE0450AFCE01A581BFCE045B60BF9C0620CF9C0620DDBFCE0620EFCE0620FFCE01AF8A611FE07F080000000"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 4065372192,
+      "Length": 1,
+      "Original": "B9",
+      "Current": "A4"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 4065372632,
+      "Length": 1,
+      "Original": "B1",
+      "Current": "9C"
+    },
+    {
+      "File": "DATA3.DAT",
+      "Offset": 4065372669,
+      "Length": 123,
+      "Original": "200A8AF4FF6431FC06FC8934FC11D8FF5AF40FFEC518FDA00A45FFF02062FDC00E057BC5FCE017E8C7FCE043BB06FCE01AC409FCE0450776FCE01A8813FCE04508EDFCE01A401FFCE04509FCE01ADB983AFCE0450AFCE0620B76FCE01AE02EFCE0450CEDFCE01A5046FCE0450DFCE01ADB204EFCE0450EFCE01AC0",
+      "Current": "27CEF4FF6431FC06FC8934FC11D8FF5AF40FFEC518FDA767FFF02062FDC00E057BEDFCE017E803FCE04506FCE01ADB7206FCE04507FCE01A6EB70AFCE04508FCE01AA00F6EFCE04509FCE01A7017DDFCE0450AFCE01A581BFCE045B60BF9C0620CF9C0620DDBFCE0620EFCE0620FFCE01AF8A611FE07F080000000"
+    }
+  ]
+}
