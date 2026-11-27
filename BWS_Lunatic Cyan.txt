@@ -7629,6 +7629,13 @@ set RogueGuard skill arrowbane
 set ThunderMage skill arrowbane
 set ThunderSage skill arrowbane
 
+// astra to class
+set Hero skill astra
+set Highlander skill astra
+set Swordfighter_M skill astra
+set Swordmaster skill astra
+set Ranger skill astra
+
 //Prepared to everyone
 set Acolyte skill Prepared
 set Apostle skill Prepared
